@@ -1,7 +1,7 @@
 Release 14.4 - xst P.49d (lin64)
 Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
 --> 
-Parameter TMPDIR set to /home/adam/Desktop/AdamHastings/EDK/dut_mb_v4lx60_template_pre_rapidsmith/hw/synthesis/xst_temp_dir/
+Parameter TMPDIR set to /home/adam/ROPUF/EDK_workspace/dut_mb_v4lx60_template_pre_rapidsmith/hw/synthesis/xst_temp_dir/
 
 
 Total REAL time to Xst completion: 0.00 secs
@@ -32,7 +32,7 @@ TABLE OF CONTENTS
 ---- Source Parameters
 Input Format                       : MIXED
 Input File Name                    : "system_ring_osc_0_wrapper_xst.prj"
-Verilog Include Directory          : {"/home/adam/Desktop/AdamHastings/EDK/dut_mb_v4lx60_template_pre_rapidsmith/hw/pcores/" "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxBFMinterface/pcores/" "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/" }
+Verilog Include Directory          : {"/home/adam/ROPUF/EDK_workspace/dut_mb_v4lx60_template_pre_rapidsmith/hw/pcores/" "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxBFMinterface/pcores/" "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/" }
 
 ---- Target Parameters
 Target Device                      : xc4vlx60ff668-10
@@ -246,13 +246,13 @@ Entity <plb_slave_attachment> (Architecture <implementation>) compiled.
 Compiling vhdl file "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/plbv46_slave_single_v1_01_a/hdl/vhdl/plbv46_slave_single.vhd" in Library plbv46_slave_single_v1_01_a.
 Entity <plbv46_slave_single> compiled.
 Entity <plbv46_slave_single> (Architecture <implementation>) compiled.
-Compiling vhdl file "/home/adam/Desktop/AdamHastings/EDK/dut_mb_v4lx60_template_pre_rapidsmith/hw/pcores/ring_osc_v1_02_a/hdl/vhdl/user_logic.vhd" in Library ring_osc_v1_02_a.
+Compiling vhdl file "/home/adam/ROPUF/EDK_workspace/dut_mb_v4lx60_template_pre_rapidsmith/hw/pcores/ring_osc_v1_02_a/hdl/vhdl/user_logic.vhd" in Library ring_osc_v1_02_a.
 Entity <user_logic> compiled.
 Entity <user_logic> (Architecture <IMP>) compiled.
-Compiling vhdl file "/home/adam/Desktop/AdamHastings/EDK/dut_mb_v4lx60_template_pre_rapidsmith/hw/pcores/ring_osc_v1_02_a/hdl/vhdl/ring_osc.vhd" in Library ring_osc_v1_02_a.
+Compiling vhdl file "/home/adam/ROPUF/EDK_workspace/dut_mb_v4lx60_template_pre_rapidsmith/hw/pcores/ring_osc_v1_02_a/hdl/vhdl/ring_osc.vhd" in Library ring_osc_v1_02_a.
 Entity <ring_osc> compiled.
 Entity <ring_osc> (Architecture <IMP>) compiled.
-Compiling vhdl file "/home/adam/Desktop/AdamHastings/EDK/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/system_ring_osc_0_wrapper.vhd" in Library work.
+Compiling vhdl file "/home/adam/ROPUF/EDK_workspace/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/system_ring_osc_0_wrapper.vhd" in Library work.
 Entity <system_ring_osc_0_wrapper> compiled.
 Entity <system_ring_osc_0_wrapper> (Architecture <STRUCTURE>) compiled.
 
@@ -363,7 +363,7 @@ Analyzing hierarchy for entity <or_muxcy> in library <proc_common_v3_00_a> (arch
 *                            HDL Analysis                               *
 =========================================================================
 Analyzing Entity <system_ring_osc_0_wrapper> in library <work> (Architecture <STRUCTURE>).
-WARNING:Xst:753 - "/home/adam/Desktop/AdamHastings/EDK/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/system_ring_osc_0_wrapper.vhd" line 128: Unconnected output port 'ring_osc_out' of component 'ring_osc'.
+WARNING:Xst:753 - "/home/adam/ROPUF/EDK_workspace/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/system_ring_osc_0_wrapper.vhd" line 128: Unconnected output port 'ring_osc_out' of component 'ring_osc'.
 WARNING:Xst:37 - Detected unknown constraint/property "SIGIS". This constraint/property is not supported by the current software release and will be ignored.
 WARNING:Xst:37 - Detected unknown constraint/property "SIGIS". This constraint/property is not supported by the current software release and will be ignored.
 Entity <system_ring_osc_0_wrapper> analyzed. Unit <system_ring_osc_0_wrapper> generated.
@@ -485,7 +485,7 @@ WARNING:Xst:37 - Detected unknown constraint/property "SIGIS". This constraint/p
 WARNING:Xst:37 - Detected unknown constraint/property "SIGIS". This constraint/property is not supported by the current software release and will be ignored.
     Set user-defined property "S =  TRUE" for signal <ring_osc>.
     Set user-defined property "S =  TRUE" for signal <count>.
-WARNING:Xst:2211 - "/home/adam/Desktop/AdamHastings/EDK/dut_mb_v4lx60_template_pre_rapidsmith/hw/pcores/ring_osc_v1_02_a/hdl/vhdl/user_logic.vhd" line 168: Instantiating black box module <inverter>.
+WARNING:Xst:2211 - "/home/adam/ROPUF/EDK_workspace/dut_mb_v4lx60_template_pre_rapidsmith/hw/pcores/ring_osc_v1_02_a/hdl/vhdl/user_logic.vhd" line 168: Instantiating black box module <inverter>.
 Entity <user_logic> analyzed. Unit <user_logic> generated.
 
 
@@ -537,7 +537,7 @@ Unit <or_muxcy> synthesized.
 
 
 Synthesizing Unit <user_logic>.
-    Related source file is "/home/adam/Desktop/AdamHastings/EDK/dut_mb_v4lx60_template_pre_rapidsmith/hw/pcores/ring_osc_v1_02_a/hdl/vhdl/user_logic.vhd".
+    Related source file is "/home/adam/ROPUF/EDK_workspace/dut_mb_v4lx60_template_pre_rapidsmith/hw/pcores/ring_osc_v1_02_a/hdl/vhdl/user_logic.vhd".
 WARNING:Xst:647 - Input <Bus2IP_RdCE<3>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <Bus2IP_WrCE<3>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:653 - Signal <slv_reg1> is used but never assigned. This sourceless signal will be automatically connected to value 00000000000000000000000000000000.
@@ -651,7 +651,7 @@ Unit <plbv46_slave_single> synthesized.
 
 
 Synthesizing Unit <ring_osc>.
-    Related source file is "/home/adam/Desktop/AdamHastings/EDK/dut_mb_v4lx60_template_pre_rapidsmith/hw/pcores/ring_osc_v1_02_a/hdl/vhdl/ring_osc.vhd".
+    Related source file is "/home/adam/ROPUF/EDK_workspace/dut_mb_v4lx60_template_pre_rapidsmith/hw/pcores/ring_osc_v1_02_a/hdl/vhdl/ring_osc.vhd".
 WARNING:Xst:646 - Signal <ipif_Bus2IP_RNW> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
 WARNING:Xst:646 - Signal <ipif_Bus2IP_CS<0>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
 WARNING:Xst:646 - Signal <ipif_Bus2IP_Addr> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
@@ -659,7 +659,7 @@ Unit <ring_osc> synthesized.
 
 
 Synthesizing Unit <system_ring_osc_0_wrapper>.
-    Related source file is "/home/adam/Desktop/AdamHastings/EDK/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/system_ring_osc_0_wrapper.vhd".
+    Related source file is "/home/adam/ROPUF/EDK_workspace/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/system_ring_osc_0_wrapper.vhd".
 Unit <system_ring_osc_0_wrapper> synthesized.
 
 
@@ -1040,12 +1040,12 @@ Offset:              0.360ns (Levels of Logic = 0)
 
 
 Total REAL time to Xst completion: 10.00 secs
-Total CPU time to Xst completion: 9.95 secs
+Total CPU time to Xst completion: 9.69 secs
  
 --> 
 
 
-Total memory usage is 834228 kilobytes
+Total memory usage is 834188 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :  113 (   0 filtered)

@@ -6,7 +6,7 @@
 #
 # Command line for ngdbuild
 #
-ngdbuild -p xc4vlx60ff668-10 -nt timestamp -bm system.bmm "/home/adam/Desktop/AdamHastings/EDK/dut_mb_v4lx60_template_pre_rapidsmith/hw/implementation/system.ngc" -uc system.ucf system.ngd 
+ngdbuild -p xc4vlx60ff668-10 -nt timestamp -bm system.bmm "/home/adam/ROPUF/EDK_workspace/dut_mb_v4lx60_template_pre_rapidsmith/hw/implementation/system.ngc" -uc system.ucf system.ngd 
 
 #
 # Command line for map

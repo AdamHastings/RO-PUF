@@ -1,7 +1,7 @@
 
-<EDKSYSTEM EDKVERSION="14.4" EDWVERSION="1.2" TIMESTAMP="Thu Apr  5 21:04:31 2018">
+<EDKSYSTEM EDKVERSION="14.4" EDWVERSION="1.2" TIMESTAMP="Mon Apr  9 13:28:03 2018">
 
-  <SYSTEMINFO ARCH="virtex4" DEVICE="xc4vlx60" PACKAGE="ff668" PART="xc4vlx60ff668-10" SOURCE="/home/adam/Desktop/AdamHastings/EDK/dut_mb_v4lx60_template_pre_rapidsmith/hw/system.xmp" SPEEDGRADE="-10"/>
+  <SYSTEMINFO ARCH="virtex4" DEVICE="xc4vlx60" PACKAGE="ff668" PART="xc4vlx60ff668-10" SOURCE="/home/adam/ROPUF/EDK_workspace/dut_mb_v4lx60_template_pre_rapidsmith/hw/system.xmp" SPEEDGRADE="-10"/>
 
   <EXTERNALPORTS>
     <PORT DIR="I" MHS_INDEX="0" NAME="fpga_0_RS232_Uart_1_RX_pin" SIGNAME="fpga_0_RS232_Uart_1_RX_pin">
