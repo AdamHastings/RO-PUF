@@ -1,0 +1,52 @@
+
+<RENDERBATCH>
+
+  <RENDERIMG RASNAME="/home/adam/Desktop/AdamHastings/EDK/dut_mb_v4lx60_template_pre_rapidsmith/hw/SDK/SDK_Export/hw/imgs/dut_control_core_0.jpg" SVGNAME="/home/adam/Desktop/AdamHastings/EDK/dut_mb_v4lx60_template_pre_rapidsmith/hw/SDK/SDK_Export/hw/imgs/dut_control_core_0.svg" TMPSVGFN="/home/adam/Desktop/AdamHastings/EDK/dut_mb_v4lx60_template_pre_rapidsmith/hw/__xps/.dswkshop/dut_control_core_0.svg"/>
+
+  <RENDERIMG RASNAME="/home/adam/Desktop/AdamHastings/EDK/dut_mb_v4lx60_template_pre_rapidsmith/hw/SDK/SDK_Export/hw/imgs/microblaze_0.jpg" SVGNAME="/home/adam/Desktop/AdamHastings/EDK/dut_mb_v4lx60_template_pre_rapidsmith/hw/SDK/SDK_Export/hw/imgs/microblaze_0.svg" TMPSVGFN="/home/adam/Desktop/AdamHastings/EDK/dut_mb_v4lx60_template_pre_rapidsmith/hw/__xps/.dswkshop/microblaze_0.svg"/>
+
+  <RENDERIMG RASNAME="/home/adam/Desktop/AdamHastings/EDK/dut_mb_v4lx60_template_pre_rapidsmith/hw/SDK/SDK_Export/hw/imgs/mb_plb.jpg" SVGNAME="/home/adam/Desktop/AdamHastings/EDK/dut_mb_v4lx60_template_pre_rapidsmith/hw/SDK/SDK_Export/hw/imgs/mb_plb.svg" TMPSVGFN="/home/adam/Desktop/AdamHastings/EDK/dut_mb_v4lx60_template_pre_rapidsmith/hw/__xps/.dswkshop/mb_plb.svg"/>
+
+  <RENDERIMG RASNAME="/home/adam/Desktop/AdamHastings/EDK/dut_mb_v4lx60_template_pre_rapidsmith/hw/SDK/SDK_Export/hw/imgs/ilmb.jpg" SVGNAME="/home/adam/Desktop/AdamHastings/EDK/dut_mb_v4lx60_template_pre_rapidsmith/hw/SDK/SDK_Export/hw/imgs/ilmb.svg" TMPSVGFN="/home/adam/Desktop/AdamHastings/EDK/dut_mb_v4lx60_template_pre_rapidsmith/hw/__xps/.dswkshop/ilmb.svg"/>
+
+  <RENDERIMG RASNAME="/home/adam/Desktop/AdamHastings/EDK/dut_mb_v4lx60_template_pre_rapidsmith/hw/SDK/SDK_Export/hw/imgs/dlmb.jpg" SVGNAME="/home/adam/Desktop/AdamHastings/EDK/dut_mb_v4lx60_template_pre_rapidsmith/hw/SDK/SDK_Export/hw/imgs/dlmb.svg" TMPSVGFN="/home/adam/Desktop/AdamHastings/EDK/dut_mb_v4lx60_template_pre_rapidsmith/hw/__xps/.dswkshop/dlmb.svg"/>
+
+  <RENDERIMG RASNAME="/home/adam/Desktop/AdamHastings/EDK/dut_mb_v4lx60_template_pre_rapidsmith/hw/SDK/SDK_Export/hw/imgs/dlmb_cntlr.jpg" SVGNAME="/home/adam/Desktop/AdamHastings/EDK/dut_mb_v4lx60_template_pre_rapidsmith/hw/SDK/SDK_Export/hw/imgs/dlmb_cntlr.svg" TMPSVGFN="/home/adam/Desktop/AdamHastings/EDK/dut_mb_v4lx60_template_pre_rapidsmith/hw/__xps/.dswkshop/dlmb_cntlr.svg"/>
+
+  <RENDERIMG RASNAME="/home/adam/Desktop/AdamHastings/EDK/dut_mb_v4lx60_template_pre_rapidsmith/hw/SDK/SDK_Export/hw/imgs/ilmb_cntlr.jpg" SVGNAME="/home/adam/Desktop/AdamHastings/EDK/dut_mb_v4lx60_template_pre_rapidsmith/hw/SDK/SDK_Export/hw/imgs/ilmb_cntlr.svg" TMPSVGFN="/home/adam/Desktop/AdamHastings/EDK/dut_mb_v4lx60_template_pre_rapidsmith/hw/__xps/.dswkshop/ilmb_cntlr.svg"/>
+
+  <RENDERIMG RASNAME="/home/adam/Desktop/AdamHastings/EDK/dut_mb_v4lx60_template_pre_rapidsmith/hw/SDK/SDK_Export/hw/imgs/lmb_bram.jpg" SVGNAME="/home/adam/Desktop/AdamHastings/EDK/dut_mb_v4lx60_template_pre_rapidsmith/hw/SDK/SDK_Export/hw/imgs/lmb_bram.svg" TMPSVGFN="/home/adam/Desktop/AdamHastings/EDK/dut_mb_v4lx60_template_pre_rapidsmith/hw/__xps/.dswkshop/lmb_bram.svg"/>
+
+  <RENDERIMG RASNAME="/home/adam/Desktop/AdamHastings/EDK/dut_mb_v4lx60_template_pre_rapidsmith/hw/SDK/SDK_Export/hw/imgs/RS232_Uart_1.jpg" SVGNAME="/home/adam/Desktop/AdamHastings/EDK/dut_mb_v4lx60_template_pre_rapidsmith/hw/SDK/SDK_Export/hw/imgs/RS232_Uart_1.svg" TMPSVGFN="/home/adam/Desktop/AdamHastings/EDK/dut_mb_v4lx60_template_pre_rapidsmith/hw/__xps/.dswkshop/RS232_Uart_1.svg"/>
+
+  <RENDERIMG RASNAME="/home/adam/Desktop/AdamHastings/EDK/dut_mb_v4lx60_template_pre_rapidsmith/hw/SDK/SDK_Export/hw/imgs/ORGate_1.jpg" SVGNAME="/home/adam/Desktop/AdamHastings/EDK/dut_mb_v4lx60_template_pre_rapidsmith/hw/SDK/SDK_Export/hw/imgs/ORGate_1.svg" TMPSVGFN="/home/adam/Desktop/AdamHastings/EDK/dut_mb_v4lx60_template_pre_rapidsmith/hw/__xps/.dswkshop/ORGate_1.svg"/>
+
+  <RENDERIMG RASNAME="/home/adam/Desktop/AdamHastings/EDK/dut_mb_v4lx60_template_pre_rapidsmith/hw/SDK/SDK_Export/hw/imgs/clock_generator_0.jpg" SVGNAME="/home/adam/Desktop/AdamHastings/EDK/dut_mb_v4lx60_template_pre_rapidsmith/hw/SDK/SDK_Export/hw/imgs/clock_generator_0.svg" TMPSVGFN="/home/adam/Desktop/AdamHastings/EDK/dut_mb_v4lx60_template_pre_rapidsmith/hw/__xps/.dswkshop/clock_generator_0.svg"/>
+
+  <RENDERIMG RASNAME="/home/adam/Desktop/AdamHastings/EDK/dut_mb_v4lx60_template_pre_rapidsmith/hw/SDK/SDK_Export/hw/imgs/mdm_0.jpg" SVGNAME="/home/adam/Desktop/AdamHastings/EDK/dut_mb_v4lx60_template_pre_rapidsmith/hw/SDK/SDK_Export/hw/imgs/mdm_0.svg" TMPSVGFN="/home/adam/Desktop/AdamHastings/EDK/dut_mb_v4lx60_template_pre_rapidsmith/hw/__xps/.dswkshop/mdm_0.svg"/>
+
+  <RENDERIMG RASNAME="/home/adam/Desktop/AdamHastings/EDK/dut_mb_v4lx60_template_pre_rapidsmith/hw/SDK/SDK_Export/hw/imgs/proc_sys_reset_0.jpg" SVGNAME="/home/adam/Desktop/AdamHastings/EDK/dut_mb_v4lx60_template_pre_rapidsmith/hw/SDK/SDK_Export/hw/imgs/proc_sys_reset_0.svg" TMPSVGFN="/home/adam/Desktop/AdamHastings/EDK/dut_mb_v4lx60_template_pre_rapidsmith/hw/__xps/.dswkshop/proc_sys_reset_0.svg"/>
+
+  <RENDERIMG RASNAME="/home/adam/Desktop/AdamHastings/EDK/dut_mb_v4lx60_template_pre_rapidsmith/hw/SDK/SDK_Export/hw/imgs/xps_timer_0.jpg" SVGNAME="/home/adam/Desktop/AdamHastings/EDK/dut_mb_v4lx60_template_pre_rapidsmith/hw/SDK/SDK_Export/hw/imgs/xps_timer_0.svg" TMPSVGFN="/home/adam/Desktop/AdamHastings/EDK/dut_mb_v4lx60_template_pre_rapidsmith/hw/__xps/.dswkshop/xps_timer_0.svg"/>
+
+  <RENDERIMG RASNAME="/home/adam/Desktop/AdamHastings/EDK/dut_mb_v4lx60_template_pre_rapidsmith/hw/SDK/SDK_Export/hw/imgs/xps_intc_0.jpg" SVGNAME="/home/adam/Desktop/AdamHastings/EDK/dut_mb_v4lx60_template_pre_rapidsmith/hw/SDK/SDK_Export/hw/imgs/xps_intc_0.svg" TMPSVGFN="/home/adam/Desktop/AdamHastings/EDK/dut_mb_v4lx60_template_pre_rapidsmith/hw/__xps/.dswkshop/xps_intc_0.svg"/>
+
+  <RENDERIMG RASNAME="/home/adam/Desktop/AdamHastings/EDK/dut_mb_v4lx60_template_pre_rapidsmith/hw/SDK/SDK_Export/hw/imgs/ring_osc_0.jpg" SVGNAME="/home/adam/Desktop/AdamHastings/EDK/dut_mb_v4lx60_template_pre_rapidsmith/hw/SDK/SDK_Export/hw/imgs/ring_osc_0.svg" TMPSVGFN="/home/adam/Desktop/AdamHastings/EDK/dut_mb_v4lx60_template_pre_rapidsmith/hw/__xps/.dswkshop/ring_osc_0.svg"/>
+
+  <RENDERIMG RASNAME="/home/adam/Desktop/AdamHastings/EDK/dut_mb_v4lx60_template_pre_rapidsmith/hw/SDK/SDK_Export/hw/imgs/ring_osc_1.jpg" SVGNAME="/home/adam/Desktop/AdamHastings/EDK/dut_mb_v4lx60_template_pre_rapidsmith/hw/SDK/SDK_Export/hw/imgs/ring_osc_1.svg" TMPSVGFN="/home/adam/Desktop/AdamHastings/EDK/dut_mb_v4lx60_template_pre_rapidsmith/hw/__xps/.dswkshop/ring_osc_1.svg"/>
+
+  <RENDERIMG RASNAME="/home/adam/Desktop/AdamHastings/EDK/dut_mb_v4lx60_template_pre_rapidsmith/hw/SDK/SDK_Export/hw/imgs/ring_osc_2.jpg" SVGNAME="/home/adam/Desktop/AdamHastings/EDK/dut_mb_v4lx60_template_pre_rapidsmith/hw/SDK/SDK_Export/hw/imgs/ring_osc_2.svg" TMPSVGFN="/home/adam/Desktop/AdamHastings/EDK/dut_mb_v4lx60_template_pre_rapidsmith/hw/__xps/.dswkshop/ring_osc_2.svg"/>
+
+  <RENDERIMG RASNAME="/home/adam/Desktop/AdamHastings/EDK/dut_mb_v4lx60_template_pre_rapidsmith/hw/SDK/SDK_Export/hw/imgs/ring_osc_3.jpg" SVGNAME="/home/adam/Desktop/AdamHastings/EDK/dut_mb_v4lx60_template_pre_rapidsmith/hw/SDK/SDK_Export/hw/imgs/ring_osc_3.svg" TMPSVGFN="/home/adam/Desktop/AdamHastings/EDK/dut_mb_v4lx60_template_pre_rapidsmith/hw/__xps/.dswkshop/ring_osc_3.svg"/>
+
+  <RENDERIMG RASNAME="/home/adam/Desktop/AdamHastings/EDK/dut_mb_v4lx60_template_pre_rapidsmith/hw/SDK/SDK_Export/hw/imgs/ring_osc_4.jpg" SVGNAME="/home/adam/Desktop/AdamHastings/EDK/dut_mb_v4lx60_template_pre_rapidsmith/hw/SDK/SDK_Export/hw/imgs/ring_osc_4.svg" TMPSVGFN="/home/adam/Desktop/AdamHastings/EDK/dut_mb_v4lx60_template_pre_rapidsmith/hw/__xps/.dswkshop/ring_osc_4.svg"/>
+
+  <RENDERIMG RASNAME="/home/adam/Desktop/AdamHastings/EDK/dut_mb_v4lx60_template_pre_rapidsmith/hw/SDK/SDK_Export/hw/imgs/ring_osc_5.jpg" SVGNAME="/home/adam/Desktop/AdamHastings/EDK/dut_mb_v4lx60_template_pre_rapidsmith/hw/SDK/SDK_Export/hw/imgs/ring_osc_5.svg" TMPSVGFN="/home/adam/Desktop/AdamHastings/EDK/dut_mb_v4lx60_template_pre_rapidsmith/hw/__xps/.dswkshop/ring_osc_5.svg"/>
+
+  <RENDERIMG RASNAME="/home/adam/Desktop/AdamHastings/EDK/dut_mb_v4lx60_template_pre_rapidsmith/hw/SDK/SDK_Export/hw/imgs/ring_osc_6.jpg" SVGNAME="/home/adam/Desktop/AdamHastings/EDK/dut_mb_v4lx60_template_pre_rapidsmith/hw/SDK/SDK_Export/hw/imgs/ring_osc_6.svg" TMPSVGFN="/home/adam/Desktop/AdamHastings/EDK/dut_mb_v4lx60_template_pre_rapidsmith/hw/__xps/.dswkshop/ring_osc_6.svg"/>
+
+  <RENDERIMG RASNAME="/home/adam/Desktop/AdamHastings/EDK/dut_mb_v4lx60_template_pre_rapidsmith/hw/SDK/SDK_Export/hw/imgs/ring_osc_7.jpg" SVGNAME="/home/adam/Desktop/AdamHastings/EDK/dut_mb_v4lx60_template_pre_rapidsmith/hw/SDK/SDK_Export/hw/imgs/ring_osc_7.svg" TMPSVGFN="/home/adam/Desktop/AdamHastings/EDK/dut_mb_v4lx60_template_pre_rapidsmith/hw/__xps/.dswkshop/ring_osc_7.svg"/>
+
+  <RENDERIMG RASNAME="/home/adam/Desktop/AdamHastings/EDK/dut_mb_v4lx60_template_pre_rapidsmith/hw/SDK/SDK_Export/hw/imgs/system_blkd.jpg" SVGNAME="/home/adam/Desktop/AdamHastings/EDK/dut_mb_v4lx60_template_pre_rapidsmith/hw/SDK/SDK_Export/hw/imgs/system_blkd.svg" TMPSVGFN="/home/adam/Desktop/AdamHastings/EDK/dut_mb_v4lx60_template_pre_rapidsmith/hw/__xps/.dswkshop/system_blkd.svg"/>
+
+</RENDERBATCH>

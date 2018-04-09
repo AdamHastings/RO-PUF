@@ -1,0 +1,2 @@
+VHDL util_reduced_logic_v1_00_a /opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/util_reduced_logic_v1_00_a/hdl/vhdl/util_reduced_logic.vhd
+vhdl work ../hdl/system_orgate_1_wrapper.vhd

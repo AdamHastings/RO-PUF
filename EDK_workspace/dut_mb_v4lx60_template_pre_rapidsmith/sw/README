@@ -1,0 +1,18 @@
+DUT_MB_V4LX60_TEST SOFTWARE README
+==================================
+
+<TODO> Update this information with your own design.
+
+The software for the UART Test includes a Board Support Package (BSP)
+that is based on the Hardware (../hw) and a Test Application
+(test_app) that prints the obligatory "hello world" message.  This is
+specifically for the MicroBlaze and the Virtex4 LX60 FPGA.  For these
+to work it requires that the SDK XML be created in the ../hw
+directory, if it does not exist, it will call the required Makefile
+command in the ../hw directory before building.
+
+Directory
+=========
+* Makefile         - build and clean software projects
+* standalone_bsp_0 - directory for the MicroBlaze Board Support Package
+* test_app         - directory for the Test Application

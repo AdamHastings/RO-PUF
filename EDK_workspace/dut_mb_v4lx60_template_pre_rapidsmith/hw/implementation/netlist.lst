@@ -1,0 +1,25 @@
+/home/adam/Desktop/AdamHastings/EDK/dut_mb_v4lx60_template_pre_rapidsmith/hw/implementation/system.ngc 1523299200
+/home/adam/Desktop/AdamHastings/EDK/dut_mb_v4lx60_template_pre_rapidsmith/hw/implementation/system_dut_control_core_0_wrapper.ngc 1523298982
+/home/adam/Desktop/AdamHastings/EDK/dut_mb_v4lx60_template_pre_rapidsmith/hw/implementation/system_microblaze_0_wrapper.ngc 1523298966
+/home/adam/Desktop/AdamHastings/EDK/dut_mb_v4lx60_template_pre_rapidsmith/hw/implementation/system_mb_plb_wrapper.ngc 1523298998
+/home/adam/Desktop/AdamHastings/EDK/dut_mb_v4lx60_template_pre_rapidsmith/hw/implementation/system_ilmb_wrapper.ngc 1523298966
+/home/adam/Desktop/AdamHastings/EDK/dut_mb_v4lx60_template_pre_rapidsmith/hw/implementation/system_dlmb_wrapper.ngc 1523298966
+/home/adam/Desktop/AdamHastings/EDK/dut_mb_v4lx60_template_pre_rapidsmith/hw/implementation/system_dlmb_cntlr_wrapper.ngc 1523298966
+/home/adam/Desktop/AdamHastings/EDK/dut_mb_v4lx60_template_pre_rapidsmith/hw/implementation/system_ilmb_cntlr_wrapper.ngc 1523298966
+/home/adam/Desktop/AdamHastings/EDK/dut_mb_v4lx60_template_pre_rapidsmith/hw/implementation/system_lmb_bram_wrapper.ngc 1523298966
+/home/adam/Desktop/AdamHastings/EDK/dut_mb_v4lx60_template_pre_rapidsmith/hw/implementation/system_rs232_uart_1_wrapper.ngc 1523298966
+/home/adam/Desktop/AdamHastings/EDK/dut_mb_v4lx60_template_pre_rapidsmith/hw/implementation/system_orgate_1_wrapper.ngc 1523298966
+/home/adam/Desktop/AdamHastings/EDK/dut_mb_v4lx60_template_pre_rapidsmith/hw/implementation/system_clock_generator_0_wrapper.ngc 1523299110
+/home/adam/Desktop/AdamHastings/EDK/dut_mb_v4lx60_template_pre_rapidsmith/hw/implementation/system_mdm_0_wrapper.ngc 1523298966
+/home/adam/Desktop/AdamHastings/EDK/dut_mb_v4lx60_template_pre_rapidsmith/hw/implementation/system_proc_sys_reset_0_wrapper.ngc 1523298966
+/home/adam/Desktop/AdamHastings/EDK/dut_mb_v4lx60_template_pre_rapidsmith/hw/implementation/system_xps_timer_0_wrapper.ngc 1523298966
+/home/adam/Desktop/AdamHastings/EDK/dut_mb_v4lx60_template_pre_rapidsmith/hw/implementation/system_xps_intc_0_wrapper.ngc 1523298966
+/home/adam/Desktop/AdamHastings/EDK/dut_mb_v4lx60_template_pre_rapidsmith/hw/implementation/system_ring_osc_0_wrapper.ngc 1523299018
+/home/adam/Desktop/AdamHastings/EDK/dut_mb_v4lx60_template_pre_rapidsmith/hw/implementation/system_ring_osc_1_wrapper.ngc 1523299030
+/home/adam/Desktop/AdamHastings/EDK/dut_mb_v4lx60_template_pre_rapidsmith/hw/implementation/system_ring_osc_2_wrapper.ngc 1523299042
+/home/adam/Desktop/AdamHastings/EDK/dut_mb_v4lx60_template_pre_rapidsmith/hw/implementation/system_ring_osc_3_wrapper.ngc 1523299054
+/home/adam/Desktop/AdamHastings/EDK/dut_mb_v4lx60_template_pre_rapidsmith/hw/implementation/system_ring_osc_4_wrapper.ngc 1523299067
+/home/adam/Desktop/AdamHastings/EDK/dut_mb_v4lx60_template_pre_rapidsmith/hw/implementation/system_ring_osc_5_wrapper.ngc 1523299080
+/home/adam/Desktop/AdamHastings/EDK/dut_mb_v4lx60_template_pre_rapidsmith/hw/implementation/system_ring_osc_6_wrapper.ngc 1523299092
+/home/adam/Desktop/AdamHastings/EDK/dut_mb_v4lx60_template_pre_rapidsmith/hw/implementation/system_ring_osc_7_wrapper.ngc 1523299104
+OK
