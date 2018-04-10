@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item value="/home/adam/Thesis/characterizer_LT_row_50_OMUX7.bit" key="hw_hw_platform-bitFile"/>
+	<item value="/home/adam/Thesis/workspace/hw_hw_platform/system_bd.bmm" key="hw_hw_platform-bmmFile"/>
+	<item value="/home/adam/Thesis/workspace/characterizer/Debug/characterizer.elf" key="hw_hw_platform-microblaze_0-initElf"/>
+</section>

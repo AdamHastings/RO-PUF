@@ -1,0 +1,106 @@
+spawn /opt/Xilinx/14.4/ISE_DS/EDK/bin/lin64/xmd
+Xilinx Microprocessor Debugger (XMD) Engine
+Xilinx EDK 14.4 Build EDK_P.49d
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+XMD% 
+XMD% fpga -f /home/adam/Thesis/characterizer_LT_row_50_OMUX7.bit
+Programming Bitstream -- /home/adam/Thesis/characterizer_LT_row_50_OMUX7.bit
+Fpga Programming Progress ......10....20....30....40....50....60....70....80....90.....Done
+Successfully downloaded bit file.
+
+JTAG chain configuration
+--------------------------------------------------
+Device   ID Code        IR Length    Part Name
+ 1       416b4093          10        XC4VLX60
+
+0
+XMD% connect mb mdm
+
+JTAG chain configuration
+--------------------------------------------------
+Device   ID Code        IR Length    Part Name
+ 1       416b4093          10        XC4VLX60
+
+MicroBlaze Processor Configuration :
+-------------------------------------
+Version............................8.40.b
+Optimization.......................Performance
+Interconnect.......................PLB_v46
+MMU Type...........................No_MMU
+No of PC Breakpoints...............1
+No of Read Addr/Data Watchpoints...0
+No of Write Addr/Data Watchpoints..0
+Instruction Cache Support..........off
+Data Cache Support.................off
+Exceptions  Support................off
+FPU  Support.......................off
+Hard Divider Support...............off
+Hard Multiplier Support............on - (Mul32)
+Barrel Shifter Support.............on
+MSR clr/set Instruction Support....on
+Compare Instruction Support........on
+Data Cache Write-back Support......off
+Fault Tolerance Support............off
+Stack Protection Support...........off
+
+Connected to "mb" target. id = 0
+Starting GDB server for "mb" target (id = 0) at TCP port no 1234
+XMD% terminal -jtaguart_server
+MDM Uart Present in the System
+
+Connected to MDM UART Target
+Channel Opened
+
+JTAG-based Terminal Server.
+(TCP Port no used is 4321)
+
+4321
+XMD% dow /home/adam/Thesis/workspace/characterizer/Debug/characterizer.elf
+Downloading Program -- /home/adam/Thesis/workspace/characterizer/Debug/characterizer.elf
+	section, .vectors.reset: 0x00000000-0x00000007
+	section, .vectors.sw_exception: 0x00000008-0x0000000f
+	section, .vectors.interrupt: 0x00000010-0x00000017
+	section, .vectors.hw_exception: 0x00000020-0x00000027
+	section, .text: 0x00000050-0x000030fb
+	section, .init: 0x000030fc-0x00003137
+	section, .fini: 0x00003138-0x00003157
+	section, .ctors: 0x00003158-0x0000315f
+	section, .dtors: 0x00003160-0x00003167
+	section, .rodata: 0x00003168-0x00003685
+	section, .data: 0x0000368c-0x000037cf
+	section, .eh_frame: 0x000037d0-0x000037d3
+	section, .jcr: 0x000037d4-0x000037d7
+	section, .bss: 0x000037d8-0x0000386b
+	section, .heap: 0x0000386c-0x00003c6f
+	section, .stack: 0x00003c70-0x0000406f
+Download Progress..10.20.30.40.50.60.70.80.90.Done
+Setting PC with Program Start Address 0x00000000
+System Reset .... DONE
+
+XMD% run
+Processor started. Type "stop" to stop processor
+
+RUNNING> 0
+XMD% Characterizing Ring Oscillator
+Starting ring oscillator...
+Test Region
+23558464
+23527176
+23507477
+23494369
+23483245
+23474085
+23466592
+Control Region
+23514011
+23482960
+23464111
+23449840
+23440734
+23432521
+23425261
+done.disconnect 0
+Disconnected from Target 0
+
+XMD% 

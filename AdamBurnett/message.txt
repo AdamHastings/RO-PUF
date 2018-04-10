@@ -1,0 +1,20 @@
+Hi all, 
+
+Here are the most recent results:
+Last characterization previous to this one: 03/13/17 00:00
+
+Test Region
+
+Current Average: 21304847.9652
+Difference from original characterization: 9.35325001148%
+Difference from most recent characterization: 0.0331094998542%
+
+Control Region 
+
+Current Average: 23452717
+Difference from original characterization: 0.0257004359909%
+Difference from most recent characterization: 0.0060714225262%
+
+I have attached the log files and the current plots for reference.
+
+Adam Burnett
