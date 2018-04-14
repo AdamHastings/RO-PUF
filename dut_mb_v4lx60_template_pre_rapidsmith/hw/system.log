@@ -3418,3 +3418,929 @@ Done writing filter settings to:
 	/home/adam/backup/dut_mb_v4lx60_template_pre_rapidsmith/hw/etc/system.filters
 Done writing Tab View settings to:
 	/home/adam/backup/dut_mb_v4lx60_template_pre_rapidsmith/hw/etc/system.gui
+Xilinx Platform Studio (XPS)
+Xilinx EDK 14.4 Build EDK_P.49d
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+
+********************************************************************************
+At Local date and time: Sat Apr 14 14:33:14 2018
+ make -f system.make exporttosdk started...
+make: Nothing to be done for `exporttosdk'.
+Done!
+
+********************************************************************************
+At Local date and time: Sat Apr 14 14:34:23 2018
+ make -f system.make exporttosdk started...
+make: Nothing to be done for `exporttosdk'.
+Done!
+
+********************************************************************************
+At Local date and time: Sat Apr 14 14:51:24 2018
+ make -f system.make clean started...
+rm -f implementation/system.ngc
+rm -f implementation/system_dut_control_core_0_wrapper.ngc implementation/system_microblaze_0_wrapper.ngc implementation/system_mb_plb_wrapper.ngc implementation/system_ilmb_wrapper.ngc implementation/system_dlmb_wrapper.ngc implementation/system_dlmb_cntlr_wrapper.ngc implementation/system_ilmb_cntlr_wrapper.ngc implementation/system_lmb_bram_wrapper.ngc implementation/system_rs232_uart_1_wrapper.ngc implementation/system_orgate_1_wrapper.ngc implementation/system_clock_generator_0_wrapper.ngc implementation/system_mdm_0_wrapper.ngc implementation/system_proc_sys_reset_0_wrapper.ngc implementation/system_xps_timer_0_wrapper.ngc implementation/system_xps_intc_0_wrapper.ngc implementation/system_ring_osc_0_wrapper.ngc implementation/system_ring_osc_1_wrapper.ngc implementation/system_ring_osc_2_wrapper.ngc
+rm -f platgen.log
+rm -f __xps/ise/_xmsgs/platgen.xmsgs
+rm -f implementation/system.bmm
+rm -rf implementation/cache
+rm -f implementation/system.bit
+rm -f implementation/system.ncd
+rm -f implementation/system_bd.bmm 
+rm -f implementation/system_map.ncd 
+rm -f implementation/download.bit 
+rm -f __xps/system_bits
+rm -rf implementation synthesis xst hdl
+rm -rf xst.srp system.srp
+rm -f __xps/ise/_xmsgs/bitinit.xmsgs
+rm -rf __xps/ps7_instance.mhs
+rm -rf simulation/behavioral
+rm -f simgen.log
+rm -f __xps/ise/_xmsgs/simgen.xmsgs
+rm -f _impact.cmd
+Done!
+
+********************************************************************************
+At Local date and time: Sat Apr 14 14:51:30 2018
+ make -f system.make hwclean started...
+rm -f implementation/system.ngc
+rm -f implementation/system_dut_control_core_0_wrapper.ngc implementation/system_microblaze_0_wrapper.ngc implementation/system_mb_plb_wrapper.ngc implementation/system_ilmb_wrapper.ngc implementation/system_dlmb_wrapper.ngc implementation/system_dlmb_cntlr_wrapper.ngc implementation/system_ilmb_cntlr_wrapper.ngc implementation/system_lmb_bram_wrapper.ngc implementation/system_rs232_uart_1_wrapper.ngc implementation/system_orgate_1_wrapper.ngc implementation/system_clock_generator_0_wrapper.ngc implementation/system_mdm_0_wrapper.ngc implementation/system_proc_sys_reset_0_wrapper.ngc implementation/system_xps_timer_0_wrapper.ngc implementation/system_xps_intc_0_wrapper.ngc implementation/system_ring_osc_0_wrapper.ngc implementation/system_ring_osc_1_wrapper.ngc implementation/system_ring_osc_2_wrapper.ngc
+rm -f platgen.log
+rm -f __xps/ise/_xmsgs/platgen.xmsgs
+rm -f implementation/system.bmm
+rm -rf implementation/cache
+rm -f implementation/system.bit
+rm -f implementation/system.ncd
+rm -f implementation/system_bd.bmm 
+rm -f implementation/system_map.ncd 
+rm -f implementation/download.bit 
+rm -f __xps/system_bits
+rm -rf implementation synthesis xst hdl
+rm -rf xst.srp system.srp
+rm -f __xps/ise/_xmsgs/bitinit.xmsgs
+rm -rf __xps/ps7_instance.mhs
+Done!
+
+********************************************************************************
+At Local date and time: Sat Apr 14 14:51:35 2018
+ make -f system.make bitsclean started...
+rm -f implementation/system.bit
+rm -f implementation/system.ncd
+rm -f implementation/system_bd.bmm 
+rm -f implementation/system_map.ncd 
+rm -f implementation/download.bit 
+rm -f __xps/system_bits
+Done!
+
+********************************************************************************
+At Local date and time: Sat Apr 14 14:51:52 2018
+ make -f system.make exporttosdk started...
+****************************************************
+Creating system netlist for hardware specification..
+****************************************************
+platgen -p xc4vsx35ff668-11 -lang vhdl -intstyle default    -msg __xps/ise/xmsgprops.lst system.mhs
+
+Release 14.4 - platgen Xilinx EDK 14.4 Build EDK_P.49d
+ (lin64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+
+Command Line: platgen -p xc4vsx35ff668-11 -lang vhdl -intstyle default -msg
+__xps/ise/xmsgprops.lst system.mhs 
+
+Parse /home/adam/RO-PUF/dut_mb_v4lx60_template_pre_rapidsmith/hw/system.mhs ...
+
+Read MPD definitions ...
+
+Overriding IP level properties ...
+
+Computing clock values...
+INFO:EDK:740 - Cannot determine the input clock associated with port :
+   ilmb_cntlr:BRAM_Clk_A. Clock DRCs will not be performed on this core and
+   cores connected to it. 
+INFO:EDK:740 - Cannot determine the input clock associated with port :
+   dlmb_cntlr:BRAM_Clk_A. Clock DRCs will not be performed on this core and
+   cores connected to it. 
+
+Performing IP level DRCs on properties...
+
+Running DRC Tcl procedures for OPTION IPLEVEL_DRC_PROC...
+Address Map for Processor microblaze_0
+  (0000000000-0x00007fff) dlmb_cntlr	dlmb
+  (0000000000-0x00007fff) ilmb_cntlr	ilmb
+  (0x81800000-0x8180ffff) xps_intc_0	mb_plb
+  (0x83c00000-0x83c0ffff) xps_timer_0	mb_plb
+  (0x84000000-0x8400ffff) RS232_Uart_1	mb_plb
+  (0x84400000-0x8440ffff) mdm_0	mb_plb
+  (0xc0600000-0xc060ffff) ring_osc_2	mb_plb
+  (0xc0620000-0xc062ffff) ring_osc_1	mb_plb
+  (0xc0640000-0xc064ffff) ring_osc_0	mb_plb
+  (0xc1a00000-0xc1a0ffff) dut_control_core_0	mb_plb
+INFO:EDK:4130 - IPNAME: dut_control_core, INSTANCE:dut_control_core_0 - tool is
+   overriding PARAMETER C_SPLB_DWIDTH value to 32 -
+   /home/adam/RO-PUF/dut_mb_v4lx60_template_pre_rapidsmith/hw/pcores/dut_control
+   _core_v1_00_a/data/dut_control_core_v2_1_0.mpd line 27 
+INFO:EDK:4130 - IPNAME: dut_control_core, INSTANCE:dut_control_core_0 - tool is
+   overriding PARAMETER C_SPLB_NUM_MASTERS value to 2 -
+   /home/adam/RO-PUF/dut_mb_v4lx60_template_pre_rapidsmith/hw/pcores/dut_control
+   _core_v1_00_a/data/dut_control_core_v2_1_0.mpd line 28 
+INFO:EDK:4130 - IPNAME: dut_control_core, INSTANCE:dut_control_core_0 - tool is
+   overriding PARAMETER C_SPLB_MID_WIDTH value to 1 -
+   /home/adam/RO-PUF/dut_mb_v4lx60_template_pre_rapidsmith/hw/pcores/dut_control
+   _core_v1_00_a/data/dut_control_core_v2_1_0.mpd line 29 
+INFO:EDK:4130 - IPNAME: plb_v46, INSTANCE:mb_plb - tool is overriding PARAMETER
+   C_PLBV46_NUM_MASTERS value to 2 -
+   /opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/plb_v46_v1_05_a/da
+   ta/plb_v46_v2_1_0.mpd line 79 
+INFO:EDK:4130 - IPNAME: plb_v46, INSTANCE:mb_plb - tool is overriding PARAMETER
+   C_PLBV46_MID_WIDTH value to 1 -
+   /opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/plb_v46_v1_05_a/da
+   ta/plb_v46_v2_1_0.mpd line 81 
+INFO:EDK:4130 - IPNAME: plb_v46, INSTANCE:mb_plb - tool is overriding PARAMETER
+   C_PLBV46_DWIDTH value to 32 -
+   /opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/plb_v46_v1_05_a/da
+   ta/plb_v46_v2_1_0.mpd line 83 
+INFO:EDK:4130 - IPNAME: lmb_v10, INSTANCE:ilmb - tool is overriding PARAMETER
+   C_LMB_NUM_SLAVES value to 1 -
+   /opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/lmb_v10_v2_00_b/da
+   ta/lmb_v10_v2_1_0.mpd line 82 
+INFO:EDK:4130 - IPNAME: lmb_v10, INSTANCE:dlmb - tool is overriding PARAMETER
+   C_LMB_NUM_SLAVES value to 1 -
+   /opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/lmb_v10_v2_00_b/da
+   ta/lmb_v10_v2_1_0.mpd line 82 
+INFO:EDK:4130 - IPNAME: bram_block, INSTANCE:lmb_bram - tool is overriding
+   PARAMETER C_MEMSIZE value to 0x8000 -
+   /opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/bram_block_v1_00_a
+   /data/bram_block_v2_1_0.mpd line 78 
+INFO:EDK:4130 - IPNAME: xps_uartlite, INSTANCE:RS232_Uart_1 - tool is overriding
+   PARAMETER C_SPLB_NUM_MASTERS value to 2 -
+   /opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/xps_uartlite_v1_02
+   _a/data/xps_uartlite_v2_1_0.mpd line 84 
+INFO:EDK:4130 - IPNAME: mdm, INSTANCE:mdm_0 - tool is overriding PARAMETER
+   C_SPLB_MID_WIDTH value to 1 -
+   /opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/mdm_v2_10_a/data/m
+   dm_v2_1_0.mpd line 118 
+INFO:EDK:4130 - IPNAME: mdm, INSTANCE:mdm_0 - tool is overriding PARAMETER
+   C_SPLB_NUM_MASTERS value to 2 -
+   /opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/mdm_v2_10_a/data/m
+   dm_v2_1_0.mpd line 119 
+INFO:EDK:4130 - IPNAME: xps_timer, INSTANCE:xps_timer_0 - tool is overriding
+   PARAMETER C_SPLB_MID_WIDTH value to 1 -
+   /opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/xps_timer_v1_02_a/
+   data/xps_timer_v2_1_0.mpd line 87 
+INFO:EDK:4130 - IPNAME: xps_timer, INSTANCE:xps_timer_0 - tool is overriding
+   PARAMETER C_SPLB_NUM_MASTERS value to 2 -
+   /opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/xps_timer_v1_02_a/
+   data/xps_timer_v2_1_0.mpd line 88 
+INFO:EDK:4130 - IPNAME: xps_intc, INSTANCE:xps_intc_0 - tool is overriding
+   PARAMETER C_SPLB_NUM_MASTERS value to 2 -
+   /opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/xps_intc_v2_01_a/d
+   ata/xps_intc_v2_1_0.mpd line 83 
+INFO:EDK:4130 - IPNAME: ring_osc, INSTANCE:ring_osc_0 - tool is overriding
+   PARAMETER C_SPLB_DWIDTH value to 32 -
+   /home/adam/RO-PUF/dut_mb_v4lx60_template_pre_rapidsmith/hw/pcores/ring_osc_v1
+   _02_a/data/ring_osc_v2_1_0.mpd line 28 
+INFO:EDK:4130 - IPNAME: ring_osc, INSTANCE:ring_osc_0 - tool is overriding
+   PARAMETER C_SPLB_NUM_MASTERS value to 2 -
+   /home/adam/RO-PUF/dut_mb_v4lx60_template_pre_rapidsmith/hw/pcores/ring_osc_v1
+   _02_a/data/ring_osc_v2_1_0.mpd line 29 
+INFO:EDK:4130 - IPNAME: ring_osc, INSTANCE:ring_osc_0 - tool is overriding
+   PARAMETER C_SPLB_MID_WIDTH value to 1 -
+   /home/adam/RO-PUF/dut_mb_v4lx60_template_pre_rapidsmith/hw/pcores/ring_osc_v1
+   _02_a/data/ring_osc_v2_1_0.mpd line 30 
+INFO:EDK:4130 - IPNAME: ring_osc, INSTANCE:ring_osc_1 - tool is overriding
+   PARAMETER C_SPLB_DWIDTH value to 32 -
+   /home/adam/RO-PUF/dut_mb_v4lx60_template_pre_rapidsmith/hw/pcores/ring_osc_v1
+   _02_a/data/ring_osc_v2_1_0.mpd line 28 
+INFO:EDK:4130 - IPNAME: ring_osc, INSTANCE:ring_osc_1 - tool is overriding
+   PARAMETER C_SPLB_NUM_MASTERS value to 2 -
+   /home/adam/RO-PUF/dut_mb_v4lx60_template_pre_rapidsmith/hw/pcores/ring_osc_v1
+   _02_a/data/ring_osc_v2_1_0.mpd line 29 
+INFO:EDK:4130 - IPNAME: ring_osc, INSTANCE:ring_osc_1 - tool is overriding
+   PARAMETER C_SPLB_MID_WIDTH value to 1 -
+   /home/adam/RO-PUF/dut_mb_v4lx60_template_pre_rapidsmith/hw/pcores/ring_osc_v1
+   _02_a/data/ring_osc_v2_1_0.mpd line 30 
+INFO:EDK:4130 - IPNAME: ring_osc, INSTANCE:ring_osc_2 - tool is overriding
+   PARAMETER C_SPLB_DWIDTH value to 32 -
+   /home/adam/RO-PUF/dut_mb_v4lx60_template_pre_rapidsmith/hw/pcores/ring_osc_v1
+   _02_a/data/ring_osc_v2_1_0.mpd line 28 
+INFO:EDK:4130 - IPNAME: ring_osc, INSTANCE:ring_osc_2 - tool is overriding
+   PARAMETER C_SPLB_NUM_MASTERS value to 2 -
+   /home/adam/RO-PUF/dut_mb_v4lx60_template_pre_rapidsmith/hw/pcores/ring_osc_v1
+   _02_a/data/ring_osc_v2_1_0.mpd line 29 
+INFO:EDK:4130 - IPNAME: ring_osc, INSTANCE:ring_osc_2 - tool is overriding
+   PARAMETER C_SPLB_MID_WIDTH value to 1 -
+   /home/adam/RO-PUF/dut_mb_v4lx60_template_pre_rapidsmith/hw/pcores/ring_osc_v1
+   _02_a/data/ring_osc_v2_1_0.mpd line 30 
+
+Checking platform address map ...
+
+Checking platform configuration ...
+IPNAME: plb_v46, INSTANCE: mb_plb - 2 master(s) : 8 slave(s) 
+IPNAME: lmb_v10, INSTANCE: ilmb - 1 master(s) : 1 slave(s) 
+IPNAME: lmb_v10, INSTANCE: dlmb - 1 master(s) : 1 slave(s) 
+
+Checking port drivers...
+WARNING:EDK:4181 - PORT: Res, CONNECTOR: fpga_0_ORGate_1_Res_pin - floating
+   connection -
+   /home/adam/RO-PUF/dut_mb_v4lx60_template_pre_rapidsmith/hw/system.mhs line
+   109 
+WARNING:EDK:4181 - PORT: Peripheral_Reset, CONNECTOR: sys_periph_reset -
+   floating connection -
+   /home/adam/RO-PUF/dut_mb_v4lx60_template_pre_rapidsmith/hw/system.mhs line
+   149 
+
+Performing Clock DRCs...
+
+Performing Reset DRCs...
+
+Overriding system level properties...
+INFO:EDK:4130 - IPNAME: microblaze, INSTANCE:microblaze_0 - tcl is overriding
+   PARAMETER C_D_PLB value to 1 -
+   /opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b
+   /data/microblaze_v2_1_0.mpd line 231 
+INFO:EDK:4130 - IPNAME: microblaze, INSTANCE:microblaze_0 - tcl is overriding
+   PARAMETER C_I_PLB value to 1 -
+   /opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b
+   /data/microblaze_v2_1_0.mpd line 234 
+INFO:EDK:4130 - IPNAME: microblaze, INSTANCE:microblaze_0 - tcl is overriding
+   PARAMETER C_ADDR_TAG_BITS value to 0 -
+   /opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b
+   /data/microblaze_v2_1_0.mpd line 335 
+INFO:EDK:4130 - IPNAME: microblaze, INSTANCE:microblaze_0 - tcl is overriding
+   PARAMETER C_DCACHE_ADDR_TAG value to 0 -
+   /opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b
+   /data/microblaze_v2_1_0.mpd line 365 
+INFO:EDK:4130 - IPNAME: microblaze, INSTANCE:microblaze_0 - tcl is overriding
+   PARAMETER C_USE_INTERRUPT value to 1 -
+   /opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b
+   /data/microblaze_v2_1_0.mpd line 399 
+INFO:EDK:4130 - IPNAME: microblaze, INSTANCE:microblaze_0 - tcl is overriding
+   PARAMETER C_USE_EXT_BRK value to 1 -
+   /opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b
+   /data/microblaze_v2_1_0.mpd line 400 
+INFO:EDK:4130 - IPNAME: microblaze, INSTANCE:microblaze_0 - tcl is overriding
+   PARAMETER C_USE_EXT_NM_BRK value to 1 -
+   /opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b
+   /data/microblaze_v2_1_0.mpd line 401 
+INFO:EDK:4130 - IPNAME: lmb_bram_if_cntlr, INSTANCE:dlmb_cntlr - tcl is
+   overriding PARAMETER C_MASK value to 0x80000000 -
+   /opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/lmb_bram_if_cntlr_
+   v3_10_c/data/lmb_bram_if_cntlr_v2_1_0.mpd line 92 
+INFO:EDK:4130 - IPNAME: lmb_bram_if_cntlr, INSTANCE:ilmb_cntlr - tcl is
+   overriding PARAMETER C_MASK value to 0x80000000 -
+   /opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/lmb_bram_if_cntlr_
+   v3_10_c/data/lmb_bram_if_cntlr_v2_1_0.mpd line 92 
+INFO:EDK:4130 - IPNAME: xps_intc, INSTANCE:xps_intc_0 - tcl is overriding
+   PARAMETER C_NUM_INTR_INPUTS value to 1 -
+   /opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/xps_intc_v2_01_a/d
+   ata/xps_intc_v2_1_0.mpd line 87 
+INFO:EDK:4130 - IPNAME: xps_intc, INSTANCE:xps_intc_0 - tcl is overriding
+   PARAMETER C_KIND_OF_INTR value to 0b11111111111111111111111111111111 -
+   /opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/xps_intc_v2_01_a/d
+   ata/xps_intc_v2_1_0.mpd line 88 
+INFO:EDK:4130 - IPNAME: xps_intc, INSTANCE:xps_intc_0 - tcl is overriding
+   PARAMETER C_KIND_OF_EDGE value to 0b11111111111111111111111111111111 -
+   /opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/xps_intc_v2_01_a/d
+   ata/xps_intc_v2_1_0.mpd line 89 
+INFO:EDK:4130 - IPNAME: xps_intc, INSTANCE:xps_intc_0 - tcl is overriding
+   PARAMETER C_KIND_OF_LVL value to 0b11111111111111111111111111111111 -
+   /opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/xps_intc_v2_01_a/d
+   ata/xps_intc_v2_1_0.mpd line 90 
+
+Running system level update procedures...
+
+Running UPDATE Tcl procedures for OPTION SYSLEVEL_UPDATE_PROC...
+
+Running system level DRCs...
+
+Performing System level DRCs on properties...
+
+Running DRC Tcl procedures for OPTION SYSLEVEL_DRC_PROC...
+
+Running UPDATE Tcl procedures for OPTION PLATGEN_SYSLEVEL_UPDATE_PROC...
+INFO: The microblaze_0 core has constraints automatically generated by XPS in
+implementation/microblaze_0_wrapper/microblaze_0_wrapper.ucf.
+It can be overridden by constraints placed in the system.ucf file.
+
+INFO: The ilmb core has constraints automatically generated by XPS in
+implementation/ilmb_wrapper/ilmb_wrapper.ucf.
+It can be overridden by constraints placed in the system.ucf file.
+
+INFO: The dlmb core has constraints automatically generated by XPS in
+implementation/dlmb_wrapper/dlmb_wrapper.ucf.
+It can be overridden by constraints placed in the system.ucf file.
+
+
+Modify defaults ...
+
+Creating stub ...
+
+Processing licensed instances ...
+Completion time: 0.00 seconds
+
+Creating hardware output directories ...
+
+Managing hardware (BBD-specified) netlist files ...
+
+Managing cache ...
+
+Elaborating instances ...
+IPNAME:bram_block INSTANCE:lmb_bram -
+/home/adam/RO-PUF/dut_mb_v4lx60_template_pre_rapidsmith/hw/system.mhs line 82 -
+elaborating IP
+IPNAME:clock_generator INSTANCE:clock_generator_0 -
+/home/adam/RO-PUF/dut_mb_v4lx60_template_pre_rapidsmith/hw/system.mhs line 112 -
+elaborating IP
+ClkGen elaborate status: PASSED
+----------------------------------------
+----------------------------------------
+
+Writing HDL for elaborated instances ...
+
+Inserting wrapper level ...
+Completion time: 0.00 seconds
+
+Constructing platform-level connectivity ...
+Completion time: 0.00 seconds
+
+Writing (top-level) BMM ...
+
+Writing (top-level and wrappers) HDL ...
+
+Generating synthesis project file ...
+
+Running XST synthesis ...
+
+INFO:EDK:4211 - The following instances are synthesized with XST. The MPD option
+   IMP_NETLIST=TRUE indicates that a NGC file is to be produced using XST
+   synthesis. IMP_NETLIST=FALSE (default) instances are not synthesized. 
+INSTANCE:dut_control_core_0 -
+/home/adam/RO-PUF/dut_mb_v4lx60_template_pre_rapidsmith/hw/system.mhs line 16 -
+Running XST synthesis
+PMSPEC -- Overriding Xilinx file
+</opt/Xilinx/14.4/ISE_DS/EDK/virtex4/data/virtex4.acd> with local file
+</opt/Xilinx/14.4/ISE_DS/ISE/virtex4/data/virtex4.acd>
+INSTANCE:microblaze_0 -
+/home/adam/RO-PUF/dut_mb_v4lx60_template_pre_rapidsmith/hw/system.mhs line 29 -
+Running XST synthesis
+PMSPEC -- Overriding Xilinx file
+</opt/Xilinx/14.4/ISE_DS/EDK/virtex4/data/virtex4.acd> with local file
+</opt/Xilinx/14.4/ISE_DS/ISE/virtex4/data/virtex4.acd>
+INSTANCE:mb_plb -
+/home/adam/RO-PUF/dut_mb_v4lx60_template_pre_rapidsmith/hw/system.mhs line 43 -
+Running XST synthesis
+PMSPEC -- Overriding Xilinx file
+</opt/Xilinx/14.4/ISE_DS/EDK/virtex4/data/virtex4.acd> with local file
+</opt/Xilinx/14.4/ISE_DS/ISE/virtex4/data/virtex4.acd>
+INSTANCE:ilmb -
+/home/adam/RO-PUF/dut_mb_v4lx60_template_pre_rapidsmith/hw/system.mhs line 50 -
+Running XST synthesis
+PMSPEC -- Overriding Xilinx file
+</opt/Xilinx/14.4/ISE_DS/EDK/virtex4/data/virtex4.acd> with local file
+</opt/Xilinx/14.4/ISE_DS/ISE/virtex4/data/virtex4.acd>
+INSTANCE:dlmb -
+/home/adam/RO-PUF/dut_mb_v4lx60_template_pre_rapidsmith/hw/system.mhs line 57 -
+Running XST synthesis
+PMSPEC -- Overriding Xilinx file
+</opt/Xilinx/14.4/ISE_DS/EDK/virtex4/data/virtex4.acd> with local file
+</opt/Xilinx/14.4/ISE_DS/ISE/virtex4/data/virtex4.acd>
+INSTANCE:dlmb_cntlr -
+/home/adam/RO-PUF/dut_mb_v4lx60_template_pre_rapidsmith/hw/system.mhs line 64 -
+Running XST synthesis
+PMSPEC -- Overriding Xilinx file
+</opt/Xilinx/14.4/ISE_DS/EDK/virtex4/data/virtex4.acd> with local file
+</opt/Xilinx/14.4/ISE_DS/ISE/virtex4/data/virtex4.acd>
+INSTANCE:ilmb_cntlr -
+/home/adam/RO-PUF/dut_mb_v4lx60_template_pre_rapidsmith/hw/system.mhs line 73 -
+Running XST synthesis
+PMSPEC -- Overriding Xilinx file
+</opt/Xilinx/14.4/ISE_DS/EDK/virtex4/data/virtex4.acd> with local file
+</opt/Xilinx/14.4/ISE_DS/ISE/virtex4/data/virtex4.acd>
+INSTANCE:lmb_bram -
+/home/adam/RO-PUF/dut_mb_v4lx60_template_pre_rapidsmith/hw/system.mhs line 82 -
+Running XST synthesis
+PMSPEC -- Overriding Xilinx file
+</opt/Xilinx/14.4/ISE_DS/EDK/virtex4/data/virtex4.acd> with local file
+</opt/Xilinx/14.4/ISE_DS/ISE/virtex4/data/virtex4.acd>
+INSTANCE:rs232_uart_1 -
+/home/adam/RO-PUF/dut_mb_v4lx60_template_pre_rapidsmith/hw/system.mhs line 89 -
+Running XST synthesis
+PMSPEC -- Overriding Xilinx file
+</opt/Xilinx/14.4/ISE_DS/EDK/virtex4/data/virtex4.acd> with local file
+</opt/Xilinx/14.4/ISE_DS/ISE/virtex4/data/virtex4.acd>
+INSTANCE:orgate_1 -
+/home/adam/RO-PUF/dut_mb_v4lx60_template_pre_rapidsmith/hw/system.mhs line 103 -
+Running XST synthesis
+PMSPEC -- Overriding Xilinx file
+</opt/Xilinx/14.4/ISE_DS/EDK/virtex4/data/virtex4.acd> with local file
+</opt/Xilinx/14.4/ISE_DS/ISE/virtex4/data/virtex4.acd>
+INSTANCE:clock_generator_0 -
+/home/adam/RO-PUF/dut_mb_v4lx60_template_pre_rapidsmith/hw/system.mhs line 112 -
+Running XST synthesis
+PMSPEC -- Overriding Xilinx file
+</opt/Xilinx/14.4/ISE_DS/EDK/virtex4/data/virtex4.acd> with local file
+</opt/Xilinx/14.4/ISE_DS/ISE/virtex4/data/virtex4.acd>
+INSTANCE:mdm_0 -
+/home/adam/RO-PUF/dut_mb_v4lx60_template_pre_rapidsmith/hw/system.mhs line 127 -
+Running XST synthesis
+PMSPEC -- Overriding Xilinx file
+</opt/Xilinx/14.4/ISE_DS/EDK/virtex4/data/virtex4.acd> with local file
+</opt/Xilinx/14.4/ISE_DS/ISE/virtex4/data/virtex4.acd>
+INSTANCE:proc_sys_reset_0 -
+/home/adam/RO-PUF/dut_mb_v4lx60_template_pre_rapidsmith/hw/system.mhs line 139 -
+Running XST synthesis
+PMSPEC -- Overriding Xilinx file
+</opt/Xilinx/14.4/ISE_DS/EDK/virtex4/data/virtex4.acd> with local file
+</opt/Xilinx/14.4/ISE_DS/ISE/virtex4/data/virtex4.acd>
+INSTANCE:xps_timer_0 -
+/home/adam/RO-PUF/dut_mb_v4lx60_template_pre_rapidsmith/hw/system.mhs line 152 -
+Running XST synthesis
+PMSPEC -- Overriding Xilinx file
+</opt/Xilinx/14.4/ISE_DS/EDK/virtex4/data/virtex4.acd> with local file
+</opt/Xilinx/14.4/ISE_DS/ISE/virtex4/data/virtex4.acd>
+INSTANCE:xps_intc_0 -
+/home/adam/RO-PUF/dut_mb_v4lx60_template_pre_rapidsmith/hw/system.mhs line 161 -
+Running XST synthesis
+PMSPEC -- Overriding Xilinx file
+</opt/Xilinx/14.4/ISE_DS/EDK/virtex4/data/virtex4.acd> with local file
+</opt/Xilinx/14.4/ISE_DS/ISE/virtex4/data/virtex4.acd>
+INSTANCE:ring_osc_0 -
+/home/adam/RO-PUF/dut_mb_v4lx60_template_pre_rapidsmith/hw/system.mhs line 171 -
+Running XST synthesis
+PMSPEC -- Overriding Xilinx file
+</opt/Xilinx/14.4/ISE_DS/EDK/virtex4/data/virtex4.acd> with local file
+</opt/Xilinx/14.4/ISE_DS/ISE/virtex4/data/virtex4.acd>
+INSTANCE:ring_osc_1 -
+/home/adam/RO-PUF/dut_mb_v4lx60_template_pre_rapidsmith/hw/system.mhs line 179 -
+Running XST synthesis
+PMSPEC -- Overriding Xilinx file
+</opt/Xilinx/14.4/ISE_DS/EDK/virtex4/data/virtex4.acd> with local file
+</opt/Xilinx/14.4/ISE_DS/ISE/virtex4/data/virtex4.acd>
+INSTANCE:ring_osc_2 -
+/home/adam/RO-PUF/dut_mb_v4lx60_template_pre_rapidsmith/hw/system.mhs line 187 -
+Running XST synthesis
+PMSPEC -- Overriding Xilinx file
+</opt/Xilinx/14.4/ISE_DS/EDK/virtex4/data/virtex4.acd> with local file
+</opt/Xilinx/14.4/ISE_DS/ISE/virtex4/data/virtex4.acd>
+
+Running NGCBUILD ...
+IPNAME:system_microblaze_0_wrapper INSTANCE:microblaze_0 -
+/home/adam/RO-PUF/dut_mb_v4lx60_template_pre_rapidsmith/hw/system.mhs line 29 -
+Running NGCBUILD
+PMSPEC -- Overriding Xilinx file
+</opt/Xilinx/14.4/ISE_DS/EDK/virtex4/data/virtex4.acd> with local file
+</opt/Xilinx/14.4/ISE_DS/ISE/virtex4/data/virtex4.acd>
+
+Command Line: /opt/Xilinx/14.4/ISE_DS/ISE/bin/lin64/unwrapped/ngcbuild -p
+xc4vsx35ff668-11 -intstyle silent -i -sd .. system_microblaze_0_wrapper.ngc
+../system_microblaze_0_wrapper
+
+Reading NGO file
+"/home/adam/RO-PUF/dut_mb_v4lx60_template_pre_rapidsmith/hw/implementation/micro
+blaze_0_wrapper/system_microblaze_0_wrapper.ngc" ...
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+NGCBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Writing NGC file "../system_microblaze_0_wrapper.ngc" ...
+Total REAL time to NGCBUILD completion:  3 sec
+Total CPU time to NGCBUILD completion:   3 sec
+
+Writing NGCBUILD log file "../system_microblaze_0_wrapper.blc"...
+
+NGCBUILD done.
+IPNAME:system_ilmb_wrapper INSTANCE:ilmb -
+/home/adam/RO-PUF/dut_mb_v4lx60_template_pre_rapidsmith/hw/system.mhs line 50 -
+Running NGCBUILD
+PMSPEC -- Overriding Xilinx file
+</opt/Xilinx/14.4/ISE_DS/EDK/virtex4/data/virtex4.acd> with local file
+</opt/Xilinx/14.4/ISE_DS/ISE/virtex4/data/virtex4.acd>
+
+Command Line: /opt/Xilinx/14.4/ISE_DS/ISE/bin/lin64/unwrapped/ngcbuild -p
+xc4vsx35ff668-11 -intstyle silent -i -sd .. system_ilmb_wrapper.ngc
+../system_ilmb_wrapper
+
+Reading NGO file
+"/home/adam/RO-PUF/dut_mb_v4lx60_template_pre_rapidsmith/hw/implementation/ilmb_
+wrapper/system_ilmb_wrapper.ngc" ...
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+NGCBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Writing NGC file "../system_ilmb_wrapper.ngc" ...
+Total REAL time to NGCBUILD completion:  3 sec
+Total CPU time to NGCBUILD completion:   3 sec
+
+Writing NGCBUILD log file "../system_ilmb_wrapper.blc"...
+
+NGCBUILD done.
+IPNAME:system_dlmb_wrapper INSTANCE:dlmb -
+/home/adam/RO-PUF/dut_mb_v4lx60_template_pre_rapidsmith/hw/system.mhs line 57 -
+Running NGCBUILD
+PMSPEC -- Overriding Xilinx file
+</opt/Xilinx/14.4/ISE_DS/EDK/virtex4/data/virtex4.acd> with local file
+</opt/Xilinx/14.4/ISE_DS/ISE/virtex4/data/virtex4.acd>
+
+Command Line: /opt/Xilinx/14.4/ISE_DS/ISE/bin/lin64/unwrapped/ngcbuild -p
+xc4vsx35ff668-11 -intstyle silent -i -sd .. system_dlmb_wrapper.ngc
+../system_dlmb_wrapper
+
+Reading NGO file
+"/home/adam/RO-PUF/dut_mb_v4lx60_template_pre_rapidsmith/hw/implementation/dlmb_
+wrapper/system_dlmb_wrapper.ngc" ...
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+NGCBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Writing NGC file "../system_dlmb_wrapper.ngc" ...
+Total REAL time to NGCBUILD completion:  3 sec
+Total CPU time to NGCBUILD completion:   3 sec
+
+Writing NGCBUILD log file "../system_dlmb_wrapper.blc"...
+
+NGCBUILD done.
+IPNAME:system_clock_generator_0_wrapper INSTANCE:clock_generator_0 -
+/home/adam/RO-PUF/dut_mb_v4lx60_template_pre_rapidsmith/hw/system.mhs line 112 -
+Running NGCBUILD
+PMSPEC -- Overriding Xilinx file
+</opt/Xilinx/14.4/ISE_DS/EDK/virtex4/data/virtex4.acd> with local file
+</opt/Xilinx/14.4/ISE_DS/ISE/virtex4/data/virtex4.acd>
+
+Command Line: /opt/Xilinx/14.4/ISE_DS/ISE/bin/lin64/unwrapped/ngcbuild -p
+xc4vsx35ff668-11 -intstyle silent -i -sd .. system_clock_generator_0_wrapper.ngc
+../system_clock_generator_0_wrapper
+
+Reading NGO file
+"/home/adam/RO-PUF/dut_mb_v4lx60_template_pre_rapidsmith/hw/implementation/clock
+_generator_0_wrapper/system_clock_generator_0_wrapper.ngc" ...
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+NGCBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Writing NGC file "../system_clock_generator_0_wrapper.ngc" ...
+Total REAL time to NGCBUILD completion:  3 sec
+Total CPU time to NGCBUILD completion:   3 sec
+
+Writing NGCBUILD log file "../system_clock_generator_0_wrapper.blc"...
+
+NGCBUILD done.
+IPNAME:system_xps_intc_0_wrapper INSTANCE:xps_intc_0 -
+/home/adam/RO-PUF/dut_mb_v4lx60_template_pre_rapidsmith/hw/system.mhs line 161 -
+Running NGCBUILD
+PMSPEC -- Overriding Xilinx file
+</opt/Xilinx/14.4/ISE_DS/EDK/virtex4/data/virtex4.acd> with local file
+</opt/Xilinx/14.4/ISE_DS/ISE/virtex4/data/virtex4.acd>
+
+Command Line: /opt/Xilinx/14.4/ISE_DS/ISE/bin/lin64/unwrapped/ngcbuild -p
+xc4vsx35ff668-11 -intstyle silent -i -sd .. system_xps_intc_0_wrapper.ngc
+../system_xps_intc_0_wrapper
+
+Reading NGO file
+"/home/adam/RO-PUF/dut_mb_v4lx60_template_pre_rapidsmith/hw/implementation/xps_i
+ntc_0_wrapper/system_xps_intc_0_wrapper.ngc" ...
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+NGCBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Writing NGC file "../system_xps_intc_0_wrapper.ngc" ...
+Total REAL time to NGCBUILD completion:  3 sec
+Total CPU time to NGCBUILD completion:   3 sec
+
+Writing NGCBUILD log file "../system_xps_intc_0_wrapper.blc"...
+
+NGCBUILD done.
+INFO:EDK:3509 - NCF files should not be modified as they will be regenerated.
+   If any constraint needs to be overridden, this should be done by modifying
+   the data/system.ucf file.
+
+Rebuilding cache ...
+
+Total run time: 533.00 seconds
+Running synthesis...
+bash -c "cd synthesis; ./synthesis.sh"
+xst -ifn system_xst.scr -intstyle silent
+Running XST synthesis ...
+PMSPEC -- Overriding Xilinx file
+</opt/Xilinx/14.4/ISE_DS/EDK/virtex4/data/virtex4.acd> with local file
+</opt/Xilinx/14.4/ISE_DS/ISE/virtex4/data/virtex4.acd>
+XST completed
+*********************************************
+Running Xilinx Implementation tools..
+*********************************************
+xflow -wd implementation -p xc4vsx35ff668-11 -implement xflow.opt system.ngc
+Release 14.4 - Xflow P.49d (lin64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+xflow -wd implementation -p xc4vsx35ff668-11 -implement xflow.opt system.ngc  
+PMSPEC -- Overriding Xilinx file
+</opt/Xilinx/14.4/ISE_DS/EDK/virtex4/data/virtex4.acd> with local file
+</opt/Xilinx/14.4/ISE_DS/ISE/virtex4/data/virtex4.acd>
+.... Copying flowfile /opt/Xilinx/14.4/ISE_DS/ISE/xilinx/data/fpga.flw into
+working directory
+/home/adam/RO-PUF/dut_mb_v4lx60_template_pre_rapidsmith/hw/implementation 
+
+Using Flow File:
+/home/adam/RO-PUF/dut_mb_v4lx60_template_pre_rapidsmith/hw/implementation/fpga.f
+lw 
+Using Option File(s): 
+ /home/adam/RO-PUF/dut_mb_v4lx60_template_pre_rapidsmith/hw/implementation/xflow
+.opt 
+
+Creating Script File ... 
+
+#----------------------------------------------#
+# Starting program ngdbuild
+# ngdbuild -p xc4vsx35ff668-11 -nt timestamp -bm system.bmm
+"/home/adam/RO-PUF/dut_mb_v4lx60_template_pre_rapidsmith/hw/implementation/syste
+m.ngc" -uc system.ucf system.ngd 
+#----------------------------------------------#
+Release 14.4 - ngdbuild P.49d (lin64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+PMSPEC -- Overriding Xilinx file
+</opt/Xilinx/14.4/ISE_DS/EDK/virtex4/data/virtex4.acd> with local file
+</opt/Xilinx/14.4/ISE_DS/ISE/virtex4/data/virtex4.acd>
+
+Command Line: /opt/Xilinx/14.4/ISE_DS/ISE/bin/lin64/unwrapped/ngdbuild -p
+xc4vsx35ff668-11 -nt timestamp -bm system.bmm
+/home/adam/RO-PUF/dut_mb_v4lx60_template_pre_rapidsmith/hw/implementation/system
+.ngc -uc system.ucf system.ngd
+
+Reading NGO file
+"/home/adam/RO-PUF/dut_mb_v4lx60_template_pre_rapidsmith/hw/implementation/syste
+m.ngc" ...
+Loading design module
+"/home/adam/RO-PUF/dut_mb_v4lx60_template_pre_rapidsmith/hw/implementation/syste
+m_dut_control_core_0_wrapper.ngc"...
+Loading design module
+"/home/adam/RO-PUF/dut_mb_v4lx60_template_pre_rapidsmith/hw/implementation/syste
+m_microblaze_0_wrapper.ngc"...
+Loading design module
+"/home/adam/RO-PUF/dut_mb_v4lx60_template_pre_rapidsmith/hw/implementation/syste
+m_mb_plb_wrapper.ngc"...
+Loading design module
+"/home/adam/RO-PUF/dut_mb_v4lx60_template_pre_rapidsmith/hw/implementation/syste
+m_ilmb_wrapper.ngc"...
+Loading design module
+"/home/adam/RO-PUF/dut_mb_v4lx60_template_pre_rapidsmith/hw/implementation/syste
+m_dlmb_wrapper.ngc"...
+Loading design module
+"/home/adam/RO-PUF/dut_mb_v4lx60_template_pre_rapidsmith/hw/implementation/syste
+m_dlmb_cntlr_wrapper.ngc"...
+Loading design module
+"/home/adam/RO-PUF/dut_mb_v4lx60_template_pre_rapidsmith/hw/implementation/syste
+m_ilmb_cntlr_wrapper.ngc"...
+Loading design module
+"/home/adam/RO-PUF/dut_mb_v4lx60_template_pre_rapidsmith/hw/implementation/syste
+m_lmb_bram_wrapper.ngc"...
+Loading design module
+"/home/adam/RO-PUF/dut_mb_v4lx60_template_pre_rapidsmith/hw/implementation/syste
+m_rs232_uart_1_wrapper.ngc"...
+Loading design module
+"/home/adam/RO-PUF/dut_mb_v4lx60_template_pre_rapidsmith/hw/implementation/syste
+m_orgate_1_wrapper.ngc"...
+Loading design module
+"/home/adam/RO-PUF/dut_mb_v4lx60_template_pre_rapidsmith/hw/implementation/syste
+m_clock_generator_0_wrapper.ngc"...
+Loading design module
+"/home/adam/RO-PUF/dut_mb_v4lx60_template_pre_rapidsmith/hw/implementation/syste
+m_mdm_0_wrapper.ngc"...
+Loading design module
+"/home/adam/RO-PUF/dut_mb_v4lx60_template_pre_rapidsmith/hw/implementation/syste
+m_proc_sys_reset_0_wrapper.ngc"...
+Loading design module
+"/home/adam/RO-PUF/dut_mb_v4lx60_template_pre_rapidsmith/hw/implementation/syste
+m_xps_timer_0_wrapper.ngc"...
+Loading design module
+"/home/adam/RO-PUF/dut_mb_v4lx60_template_pre_rapidsmith/hw/implementation/syste
+m_xps_intc_0_wrapper.ngc"...
+Loading design module
+"/home/adam/RO-PUF/dut_mb_v4lx60_template_pre_rapidsmith/hw/implementation/syste
+m_ring_osc_0_wrapper.ngc"...
+Loading design module
+"/home/adam/RO-PUF/dut_mb_v4lx60_template_pre_rapidsmith/hw/implementation/syste
+m_ring_osc_1_wrapper.ngc"...
+Loading design module
+"/home/adam/RO-PUF/dut_mb_v4lx60_template_pre_rapidsmith/hw/implementation/syste
+m_ring_osc_2_wrapper.ngc"...
+Gathering constraint information from source properties...
+Done.
+
+Annotating constraints to design from ucf file "system.ucf" ...
+Resolving constraint associations...
+Checking Constraint Associations...
+Done...
+
+Processing BMM file "system.bmm" ...
+
+Checking expanded design ...
+WARNING:NgdBuild:443 - SFF primitive
+   'xps_timer_0/xps_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR0_GENERATE[0].TCSR0_FF
+   _I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'xps_timer_0/xps_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR0_GENERATE[1].TCSR0_FF
+   _I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'xps_timer_0/xps_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR0_GENERATE[2].TCSR0_FF
+   _I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'xps_timer_0/xps_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR0_GENERATE[3].TCSR0_FF
+   _I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'xps_timer_0/xps_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR0_GENERATE[4].TCSR0_FF
+   _I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'xps_timer_0/xps_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR0_GENERATE[5].TCSR0_FF
+   _I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'xps_timer_0/xps_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR0_GENERATE[6].TCSR0_FF
+   _I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'xps_timer_0/xps_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR0_GENERATE[7].TCSR0_FF
+   _I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'xps_timer_0/xps_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR0_GENERATE[8].TCSR0_FF
+   _I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'xps_timer_0/xps_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR0_GENERATE[9].TCSR0_FF
+   _I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'xps_timer_0/xps_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR0_GENERATE[10].TCSR0_F
+   F_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'xps_timer_0/xps_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR0_GENERATE[11].TCSR0_F
+   F_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'xps_timer_0/xps_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR0_GENERATE[12].TCSR0_F
+   F_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'xps_timer_0/xps_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR0_GENERATE[13].TCSR0_F
+   F_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'xps_timer_0/xps_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR0_GENERATE[14].TCSR0_F
+   F_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'xps_timer_0/xps_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR0_GENERATE[15].TCSR0_F
+   F_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'xps_timer_0/xps_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR0_GENERATE[16].TCSR0_F
+   F_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'xps_timer_0/xps_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR0_GENERATE[17].TCSR0_F
+   F_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'xps_timer_0/xps_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR0_GENERATE[18].TCSR0_F
+   F_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'xps_timer_0/xps_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR0_GENERATE[19].TCSR0_F
+   F_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'xps_timer_0/xps_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR0_GENERATE[20].TCSR0_F
+   F_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'xps_timer_0/xps_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR1_GENERATE[0].TCSR1_FF
+   _I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'xps_timer_0/xps_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR1_GENERATE[1].TCSR1_FF
+   _I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'xps_timer_0/xps_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR1_GENERATE[2].TCSR1_FF
+   _I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'xps_timer_0/xps_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR1_GENERATE[3].TCSR1_FF
+   _I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'xps_timer_0/xps_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR1_GENERATE[4].TCSR1_FF
+   _I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'xps_timer_0/xps_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR1_GENERATE[5].TCSR1_FF
+   _I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'xps_timer_0/xps_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR1_GENERATE[6].TCSR1_FF
+   _I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'xps_timer_0/xps_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR1_GENERATE[7].TCSR1_FF
+   _I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'xps_timer_0/xps_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR1_GENERATE[8].TCSR1_FF
+   _I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'xps_timer_0/xps_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR1_GENERATE[9].TCSR1_FF
+   _I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'xps_timer_0/xps_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR1_GENERATE[10].TCSR1_F
+   F_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'xps_timer_0/xps_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR1_GENERATE[11].TCSR1_F
+   F_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'xps_timer_0/xps_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR1_GENERATE[12].TCSR1_F
+   F_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'xps_timer_0/xps_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR1_GENERATE[13].TCSR1_F
+   F_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'xps_timer_0/xps_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR1_GENERATE[14].TCSR1_F
+   F_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'xps_timer_0/xps_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR1_GENERATE[15].TCSR1_F
+   F_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'xps_timer_0/xps_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR1_GENERATE[16].TCSR1_F
+   F_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'xps_timer_0/xps_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR1_GENERATE[17].TCSR1_F
+   F_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'xps_timer_0/xps_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR1_GENERATE[18].TCSR1_F
+   F_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'xps_timer_0/xps_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR1_GENERATE[19].TCSR1_F
+   F_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'xps_timer_0/xps_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR1_GENERATE[20].TCSR1_F
+   F_I' has unconnected output pin
+ERROR:NgdBuild:604 - logical block
+   'ring_osc_0/ring_osc_0/USER_LOGIC_I/ring_osc_2' with type 'inverter' could
+   not be resolved. A pin name misspelling can cause this, a missing edif or ngc
+   file, case mismatch between the block name and the edif or ngc file name, or
+   the misspelling of a type name. Symbol 'inverter' is not supported in target
+   'virtex4'.
+ERROR:NgdBuild:604 - logical block
+   'ring_osc_1/ring_osc_1/USER_LOGIC_I/ring_osc_2' with type 'inverter' could
+   not be resolved. A pin name misspelling can cause this, a missing edif or ngc
+   file, case mismatch between the block name and the edif or ngc file name, or
+   the misspelling of a type name. Symbol 'inverter' is not supported in target
+   'virtex4'.
+ERROR:NgdBuild:604 - logical block
+   'ring_osc_2/ring_osc_2/USER_LOGIC_I/ring_osc_2' with type 'inverter' could
+   not be resolved. A pin name misspelling can cause this, a missing edif or ngc
+   file, case mismatch between the block name and the edif or ngc file name, or
+   the misspelling of a type name. Symbol 'inverter' is not supported in target
+   'virtex4'.
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+NGDBUILD Design Results Summary:
+  Number of errors:     3
+  Number of warnings:  42
+
+Total REAL time to NGDBUILD completion:  28 sec
+Total CPU time to NGDBUILD completion:   28 sec
+
+One or more errors were found during NGDBUILD.  No NGD file will be written.
+
+Writing NGDBUILD log file "system.bld"...
+ERROR:Xflow - Program ngdbuild returned error code 2. Aborting flow execution...
+make: *** [__xps/system_routed] Error 1
+Done!
+Overriding Xilinx file <TextEditor.cfg> with local file </opt/Xilinx/14.4/ISE_DS/EDK/data/TextEditor.cfg>
+Writing filter settings....
+Done writing filter settings to:
+	/home/adam/RO-PUF/dut_mb_v4lx60_template_pre_rapidsmith/hw/etc/system.filters
+Done writing Tab View settings to:
+	/home/adam/RO-PUF/dut_mb_v4lx60_template_pre_rapidsmith/hw/etc/system.gui

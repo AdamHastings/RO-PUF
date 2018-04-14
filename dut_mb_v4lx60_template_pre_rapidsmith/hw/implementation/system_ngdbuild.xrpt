@@ -5,7 +5,7 @@
     The structure and the elements are likely to change over the next few releases.
     This means code written to parse this file will need to be revisited each subsequent release.-->
 
-  <application stringID="NgdBuild" timeStamp="Tue Mar 29 12:01:44 2016">
+  <application stringID="NgdBuild" timeStamp="Sat Apr 14 15:02:39 2018">
     <section stringID="User_Env">
       <table stringID="User_EnvVar">
         <column stringID="variable"/>
@@ -28,7 +28,7 @@
         </row>
         <row stringID="row" value="4">
           <item stringID="variable" value="XILINXD_LICENSE_FILE"/>
-          <item stringID="value" value="2100@xilinxlic1.ee.byu.edu"/>
+          <item stringID="value" value="2100@ece-xilinx.byu.edu"/>
         </row>
         <row stringID="row" value="5">
           <item stringID="variable" value="PATH"/>
@@ -66,7 +66,7 @@
     </task>
     <task stringID="NGDBUILD_REPORT">
       <section stringID="NGDBUILD_DESIGN_SUMMARY">
-        <item dataType="int" stringID="NGDBUILD_NUM_ERRORS" value="0"/>
+        <item dataType="int" stringID="NGDBUILD_NUM_ERRORS" value="3"/>
         <item dataType="int" stringID="NGDBUILD_FILTERED_WARNINGS" value="0"/>
         <item dataType="int" stringID="NGDBUILD_NUM_WARNINGS" value="42"/>
         <item dataType="int" stringID="NGDBUILD_FILTERED_INFOS" value="0"/>

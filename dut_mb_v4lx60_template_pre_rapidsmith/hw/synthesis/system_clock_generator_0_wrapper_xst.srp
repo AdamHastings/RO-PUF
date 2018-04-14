@@ -1,11 +1,11 @@
 Release 14.4 - xst P.49d (lin64)
 Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
 --> 
-Parameter TMPDIR set to /home/adam/backup/dut_mb_v4lx60_template_pre_rapidsmith/hw/synthesis/xst_temp_dir/
+Parameter TMPDIR set to /home/adam/RO-PUF/dut_mb_v4lx60_template_pre_rapidsmith/hw/synthesis/xst_temp_dir/
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.04 secs
+Total CPU time to Xst completion: 0.03 secs
  
 --> 
 
@@ -32,7 +32,7 @@ TABLE OF CONTENTS
 ---- Source Parameters
 Input Format                       : MIXED
 Input File Name                    : "system_clock_generator_0_wrapper_xst.prj"
-Verilog Include Directory          : {"/home/adam/backup/dut_mb_v4lx60_template_pre_rapidsmith/hw/pcores/" "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxBFMinterface/pcores/" "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/" }
+Verilog Include Directory          : {"/home/adam/RO-PUF/dut_mb_v4lx60_template_pre_rapidsmith/hw/pcores/" "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxBFMinterface/pcores/" "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/" }
 
 ---- Target Parameters
 Target Device                      : xc4vsx35ff668-11
@@ -71,10 +71,10 @@ Entity <mmcm_module> (Architecture <STRUCT>) compiled.
 Compiling vhdl file "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/clock_generator_v4_03_a/hdl/vhdl/plle2_module.vhd" in Library clock_generator_v4_03_a.
 Entity <plle2_module> compiled.
 Entity <plle2_module> (Architecture <STRUCT>) compiled.
-Compiling vhdl file "/home/adam/backup/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/elaborate/clock_generator_0_v4_03_a/hdl/vhdl/clock_generator.vhd" in Library clock_generator_0_v4_03_a.
+Compiling vhdl file "/home/adam/RO-PUF/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/elaborate/clock_generator_0_v4_03_a/hdl/vhdl/clock_generator.vhd" in Library clock_generator_0_v4_03_a.
 Entity <clock_generator> compiled.
 Entity <clock_generator> (Architecture <STRUCTURE>) compiled.
-Compiling vhdl file "/home/adam/backup/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/system_clock_generator_0_wrapper.vhd" in Library work.
+Compiling vhdl file "/home/adam/RO-PUF/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/system_clock_generator_0_wrapper.vhd" in Library work.
 Entity <system_clock_generator_0_wrapper> compiled.
 Entity <system_clock_generator_0_wrapper> (Architecture <STRUCTURE>) compiled.
 
@@ -132,10 +132,10 @@ Analyzing generic Entity <clock_generator> in library <clock_generator_0_v4_03_a
 	C_FAMILY = "virtex4"
 	C_PACKAGE = "ff668"
 	C_SPEEDGRADE = "-11"
-WARNING:Xst:753 - "/home/adam/backup/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/elaborate/clock_generator_0_v4_03_a/hdl/vhdl/clock_generator.vhd" line 249: Unconnected output port 'CLK180' of component 'dcm_module'.
-WARNING:Xst:753 - "/home/adam/backup/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/elaborate/clock_generator_0_v4_03_a/hdl/vhdl/clock_generator.vhd" line 249: Unconnected output port 'CLK2X180' of component 'dcm_module'.
-WARNING:Xst:753 - "/home/adam/backup/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/elaborate/clock_generator_0_v4_03_a/hdl/vhdl/clock_generator.vhd" line 249: Unconnected output port 'CLKFX180' of component 'dcm_module'.
-WARNING:Xst:753 - "/home/adam/backup/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/elaborate/clock_generator_0_v4_03_a/hdl/vhdl/clock_generator.vhd" line 249: Unconnected output port 'STATUS' of component 'dcm_module'.
+WARNING:Xst:753 - "/home/adam/RO-PUF/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/elaborate/clock_generator_0_v4_03_a/hdl/vhdl/clock_generator.vhd" line 249: Unconnected output port 'CLK180' of component 'dcm_module'.
+WARNING:Xst:753 - "/home/adam/RO-PUF/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/elaborate/clock_generator_0_v4_03_a/hdl/vhdl/clock_generator.vhd" line 249: Unconnected output port 'CLK2X180' of component 'dcm_module'.
+WARNING:Xst:753 - "/home/adam/RO-PUF/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/elaborate/clock_generator_0_v4_03_a/hdl/vhdl/clock_generator.vhd" line 249: Unconnected output port 'CLKFX180' of component 'dcm_module'.
+WARNING:Xst:753 - "/home/adam/RO-PUF/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/elaborate/clock_generator_0_v4_03_a/hdl/vhdl/clock_generator.vhd" line 249: Unconnected output port 'STATUS' of component 'dcm_module'.
 Entity <clock_generator> analyzed. Unit <clock_generator> generated.
 
 Analyzing generic Entity <dcm_module> in library <clock_generator_v4_03_a> (Architecture <STRUCT>).
@@ -205,7 +205,7 @@ Unit <dcm_module> synthesized.
 
 
 Synthesizing Unit <clock_generator>.
-    Related source file is "/home/adam/backup/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/elaborate/clock_generator_0_v4_03_a/hdl/vhdl/clock_generator.vhd".
+    Related source file is "/home/adam/RO-PUF/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/elaborate/clock_generator_0_v4_03_a/hdl/vhdl/clock_generator.vhd".
 WARNING:Xst:1305 - Output <CLKFBOUT> is never assigned. Tied to value 0.
 WARNING:Xst:647 - Input <PSEN> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:1305 - Output <PSDONE> is never assigned. Tied to value 0.
@@ -235,7 +235,7 @@ Unit <clock_generator> synthesized.
 
 
 Synthesizing Unit <system_clock_generator_0_wrapper>.
-    Related source file is "/home/adam/backup/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/system_clock_generator_0_wrapper.vhd".
+    Related source file is "/home/adam/RO-PUF/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/system_clock_generator_0_wrapper.vhd".
 Unit <system_clock_generator_0_wrapper> synthesized.
 
 
@@ -406,12 +406,12 @@ Delay:               0.638ns (Levels of Logic = 0)
 
 
 Total REAL time to Xst completion: 5.00 secs
-Total CPU time to Xst completion: 5.17 secs
+Total CPU time to Xst completion: 4.86 secs
  
 --> 
 
 
-Total memory usage is 545452 kilobytes
+Total memory usage is 545464 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :   31 (   0 filtered)

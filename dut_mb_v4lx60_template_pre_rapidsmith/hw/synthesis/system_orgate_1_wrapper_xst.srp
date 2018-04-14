@@ -1,12 +1,14 @@
-Release 14.4 - xst P.49d (nt64)
+Release 14.4 - xst P.49d (lin64)
 Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
---> Parameter TMPDIR set to E:\Adam\Characterizing\characterizer_planahead\dut_mb_v4lx60_template_pre_rapidsmith\hw\synthesis\xst_temp_dir\
+--> 
+Parameter TMPDIR set to /home/adam/RO-PUF/dut_mb_v4lx60_template_pre_rapidsmith/hw/synthesis/xst_temp_dir/
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.09 secs
+Total CPU time to Xst completion: 0.04 secs
  
 --> 
+
 TABLE OF CONTENTS
   1) Synthesis Options Summary
   2) HDL Compilation
@@ -30,10 +32,10 @@ TABLE OF CONTENTS
 ---- Source Parameters
 Input Format                       : MIXED
 Input File Name                    : "system_orgate_1_wrapper_xst.prj"
-Verilog Include Directory          : {"E:\Adam\Characterizing\characterizer_planahead\dut_mb_v4lx60_template_pre_rapidsmith\hw\pcores\" "E:\Xilinx\14.4\ISE_DS\EDK\hw\XilinxBFMinterface\pcores\" "E:\Xilinx\14.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\" }
+Verilog Include Directory          : {"/home/adam/RO-PUF/dut_mb_v4lx60_template_pre_rapidsmith/hw/pcores/" "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxBFMinterface/pcores/" "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/" }
 
 ---- Target Parameters
-Target Device                      : xc4vlx60ff668-11
+Target Device                      : xc4vsx35ff668-11
 Output File Name                   : "../implementation/system_orgate_1_wrapper.ngc"
 
 ---- Source Options
@@ -57,10 +59,10 @@ Cores Search Directories           : {../implementation}
 =========================================================================
 *                          HDL Compilation                              *
 =========================================================================
-Compiling vhdl file "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/util_reduced_logic_v1_00_a/hdl/vhdl/util_reduced_logic.vhd" in Library util_reduced_logic_v1_00_a.
+Compiling vhdl file "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/util_reduced_logic_v1_00_a/hdl/vhdl/util_reduced_logic.vhd" in Library util_reduced_logic_v1_00_a.
 Entity <util_reduced_logic> compiled.
 Entity <util_reduced_logic> (Architecture <IMP>) compiled.
-Compiling vhdl file "E:/Adam/Characterizing/characterizer_planahead/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/system_orgate_1_wrapper.vhd" in Library work.
+Compiling vhdl file "/home/adam/RO-PUF/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/system_orgate_1_wrapper.vhd" in Library work.
 Entity <system_orgate_1_wrapper> compiled.
 Entity <system_orgate_1_wrapper> (Architecture <STRUCTURE>) compiled.
 
@@ -72,8 +74,8 @@ Analyzing hierarchy for entity <system_orgate_1_wrapper> in library <work> (arch
 Analyzing hierarchy for entity <util_reduced_logic> in library <util_reduced_logic_v1_00_a> (architecture <IMP>) with generics.
 	C_OPERATION = "or"
 	C_SIZE = 2
-WARNING:Xst:795 - "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/util_reduced_logic_v1_00_a/hdl/vhdl/util_reduced_logic.vhd" line 76: Size of operands are different : result is <false>.
-WARNING:Xst:795 - "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/util_reduced_logic_v1_00_a/hdl/vhdl/util_reduced_logic.vhd" line 76: Size of operands are different : result is <false>.
+WARNING:Xst:795 - "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/util_reduced_logic_v1_00_a/hdl/vhdl/util_reduced_logic.vhd" line 76: Size of operands are different : result is <false>.
+WARNING:Xst:795 - "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/util_reduced_logic_v1_00_a/hdl/vhdl/util_reduced_logic.vhd" line 76: Size of operands are different : result is <false>.
 
 
 =========================================================================
@@ -85,8 +87,8 @@ Entity <system_orgate_1_wrapper> analyzed. Unit <system_orgate_1_wrapper> genera
 Analyzing generic Entity <util_reduced_logic> in library <util_reduced_logic_v1_00_a> (Architecture <IMP>).
 	C_OPERATION = "or"
 	C_SIZE = 2
-WARNING:Xst:795 - "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/util_reduced_logic_v1_00_a/hdl/vhdl/util_reduced_logic.vhd" line 122: Size of operands are different : result is <false>.
-WARNING:Xst:795 - "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/util_reduced_logic_v1_00_a/hdl/vhdl/util_reduced_logic.vhd" line 150: Size of operands are different : result is <false>.
+WARNING:Xst:795 - "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/util_reduced_logic_v1_00_a/hdl/vhdl/util_reduced_logic.vhd" line 122: Size of operands are different : result is <false>.
+WARNING:Xst:795 - "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/util_reduced_logic_v1_00_a/hdl/vhdl/util_reduced_logic.vhd" line 150: Size of operands are different : result is <false>.
 Entity <util_reduced_logic> analyzed. Unit <util_reduced_logic> generated.
 
 
@@ -97,12 +99,12 @@ Entity <util_reduced_logic> analyzed. Unit <util_reduced_logic> generated.
 Performing bidirectional port resolution...
 
 Synthesizing Unit <util_reduced_logic>.
-    Related source file is "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/util_reduced_logic_v1_00_a/hdl/vhdl/util_reduced_logic.vhd".
+    Related source file is "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/util_reduced_logic_v1_00_a/hdl/vhdl/util_reduced_logic.vhd".
 Unit <util_reduced_logic> synthesized.
 
 
 Synthesizing Unit <system_orgate_1_wrapper>.
-    Related source file is "E:/Adam/Characterizing/characterizer_planahead/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/system_orgate_1_wrapper.vhd".
+    Related source file is "/home/adam/RO-PUF/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/system_orgate_1_wrapper.vhd".
 Unit <system_orgate_1_wrapper> synthesized.
 
 
@@ -171,10 +173,10 @@ Cell Usage :
 Device utilization summary:
 ---------------------------
 
-Selected Device : 4vlx60ff668-11 
+Selected Device : 4vsx35ff668-11 
 
- Number of Slices:                        1  out of  26624     0%  
- Number of 4 input LUTs:                  1  out of  53248     0%  
+ Number of Slices:                        1  out of  15360     0%  
+ Number of 4 input LUTs:                  1  out of  30720     0%  
  Number of IOs:                           3
  Number of bonded IOBs:                   0  out of    448     0%  
 
@@ -236,11 +238,12 @@ Delay:               0.358ns (Levels of Logic = 1)
 
 
 Total REAL time to Xst completion: 5.00 secs
-Total CPU time to Xst completion: 5.17 secs
+Total CPU time to Xst completion: 4.46 secs
  
 --> 
 
-Total memory usage is 278616 kilobytes
+
+Total memory usage is 540208 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :    4 (   0 filtered)

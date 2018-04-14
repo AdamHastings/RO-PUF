@@ -6,7 +6,7 @@ xc4vsx35ff668-11 -intstyle silent -i -sd .. system_clock_generator_0_wrapper.ngc
 ../system_clock_generator_0_wrapper
 
 Reading NGO file
-"/home/adam/backup/dut_mb_v4lx60_template_pre_rapidsmith/hw/implementation/clock
+"/home/adam/RO-PUF/dut_mb_v4lx60_template_pre_rapidsmith/hw/implementation/clock
 _generator_0_wrapper/system_clock_generator_0_wrapper.ngc" ...
 
 Partition Implementation Status

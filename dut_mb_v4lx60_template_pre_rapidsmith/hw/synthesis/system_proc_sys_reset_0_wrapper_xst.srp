@@ -1,12 +1,14 @@
-Release 14.4 - xst P.49d (nt64)
+Release 14.4 - xst P.49d (lin64)
 Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
---> Parameter TMPDIR set to E:\Adam\Characterizing\characterizer_planahead\dut_mb_v4lx60_template_pre_rapidsmith\hw\synthesis\xst_temp_dir\
+--> 
+Parameter TMPDIR set to /home/adam/RO-PUF/dut_mb_v4lx60_template_pre_rapidsmith/hw/synthesis/xst_temp_dir/
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.09 secs
+Total CPU time to Xst completion: 0.04 secs
  
 --> 
+
 TABLE OF CONTENTS
   1) Synthesis Options Summary
   2) HDL Compilation
@@ -30,10 +32,10 @@ TABLE OF CONTENTS
 ---- Source Parameters
 Input Format                       : MIXED
 Input File Name                    : "system_proc_sys_reset_0_wrapper_xst.prj"
-Verilog Include Directory          : {"E:\Adam\Characterizing\characterizer_planahead\dut_mb_v4lx60_template_pre_rapidsmith\hw\pcores\" "E:\Xilinx\14.4\ISE_DS\EDK\hw\XilinxBFMinterface\pcores\" "E:\Xilinx\14.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\" }
+Verilog Include Directory          : {"/home/adam/RO-PUF/dut_mb_v4lx60_template_pre_rapidsmith/hw/pcores/" "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxBFMinterface/pcores/" "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/" }
 
 ---- Target Parameters
-Target Device                      : xc4vlx60ff668-11
+Target Device                      : xc4vsx35ff668-11
 Output File Name                   : "../implementation/system_proc_sys_reset_0_wrapper.ngc"
 
 ---- Source Options
@@ -57,19 +59,19 @@ Cores Search Directories           : {../implementation}
 =========================================================================
 *                          HDL Compilation                              *
 =========================================================================
-Compiling vhdl file "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_sys_reset_v3_00_a/hdl/vhdl/upcnt_n.vhd" in Library proc_sys_reset_v3_00_a.
+Compiling vhdl file "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_sys_reset_v3_00_a/hdl/vhdl/upcnt_n.vhd" in Library proc_sys_reset_v3_00_a.
 Entity <upcnt_n> compiled.
 Entity <upcnt_n> (Architecture <imp>) compiled.
-Compiling vhdl file "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_sys_reset_v3_00_a/hdl/vhdl/lpf.vhd" in Library proc_sys_reset_v3_00_a.
+Compiling vhdl file "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_sys_reset_v3_00_a/hdl/vhdl/lpf.vhd" in Library proc_sys_reset_v3_00_a.
 Entity <lpf> compiled.
 Entity <lpf> (Architecture <imp>) compiled.
-Compiling vhdl file "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_sys_reset_v3_00_a/hdl/vhdl/sequence.vhd" in Library proc_sys_reset_v3_00_a.
+Compiling vhdl file "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_sys_reset_v3_00_a/hdl/vhdl/sequence.vhd" in Library proc_sys_reset_v3_00_a.
 Entity <sequence> compiled.
 Entity <sequence> (Architecture <imp>) compiled.
-Compiling vhdl file "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_sys_reset_v3_00_a/hdl/vhdl/proc_sys_reset.vhd" in Library proc_sys_reset_v3_00_a.
+Compiling vhdl file "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_sys_reset_v3_00_a/hdl/vhdl/proc_sys_reset.vhd" in Library proc_sys_reset_v3_00_a.
 Entity <proc_sys_reset> compiled.
 Entity <proc_sys_reset> (Architecture <imp>) compiled.
-Compiling vhdl file "E:/Adam/Characterizing/characterizer_planahead/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/system_proc_sys_reset_0_wrapper.vhd" in Library work.
+Compiling vhdl file "/home/adam/RO-PUF/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/system_proc_sys_reset_0_wrapper.vhd" in Library work.
 Entity <system_proc_sys_reset_0_wrapper> compiled.
 Entity <system_proc_sys_reset_0_wrapper> (Architecture <STRUCTURE>) compiled.
 
@@ -133,7 +135,7 @@ Analyzing generic Entity <lpf> in library <proc_sys_reset_v3_00_a> (Architecture
 	C_AUX_RST_WIDTH = 4
 	C_EXT_RESET_HIGH = '0'
 	C_EXT_RST_WIDTH = 4
-WARNING:Xst:2211 - "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_sys_reset_v3_00_a/hdl/vhdl/lpf.vhd" line 188: Instantiating black box module <SRL16>.
+WARNING:Xst:2211 - "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_sys_reset_v3_00_a/hdl/vhdl/lpf.vhd" line 188: Instantiating black box module <SRL16>.
     Set user-defined property "INIT =  FFFF" for instance <POR_SRL_I> in unit <lpf>.
 Entity <lpf> analyzed. Unit <lpf> generated.
 
@@ -152,7 +154,7 @@ Entity <upcnt_n.2> analyzed. Unit <upcnt_n.2> generated.
 Performing bidirectional port resolution...
 
 Synthesizing Unit <upcnt_n_1>.
-    Related source file is "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_sys_reset_v3_00_a/hdl/vhdl/upcnt_n.vhd".
+    Related source file is "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_sys_reset_v3_00_a/hdl/vhdl/upcnt_n.vhd".
     Found 4-bit up counter for signal <q_int>.
     Summary:
 	inferred   1 Counter(s).
@@ -160,7 +162,7 @@ Unit <upcnt_n_1> synthesized.
 
 
 Synthesizing Unit <upcnt_n_2>.
-    Related source file is "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_sys_reset_v3_00_a/hdl/vhdl/upcnt_n.vhd".
+    Related source file is "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_sys_reset_v3_00_a/hdl/vhdl/upcnt_n.vhd".
     Found 6-bit up counter for signal <q_int>.
     Summary:
 	inferred   1 Counter(s).
@@ -168,7 +170,7 @@ Unit <upcnt_n_2> synthesized.
 
 
 Synthesizing Unit <lpf>.
-    Related source file is "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_sys_reset_v3_00_a/hdl/vhdl/lpf.vhd".
+    Related source file is "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_sys_reset_v3_00_a/hdl/vhdl/lpf.vhd".
     Found 1-bit register for signal <asr_d1>.
     Found 4-bit register for signal <asr_lpf>.
     Found 1-bit register for signal <exr_d1>.
@@ -182,7 +184,7 @@ Unit <lpf> synthesized.
 
 
 Synthesizing Unit <sequence>.
-    Related source file is "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_sys_reset_v3_00_a/hdl/vhdl/sequence.vhd".
+    Related source file is "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_sys_reset_v3_00_a/hdl/vhdl/sequence.vhd".
     Register <sys_dec<0>> equivalent to <bsr_dec<0>> has been removed
     Register <core_dec<1>> equivalent to <bsr_dec<1>> has been removed
     Register <pr_dec<1>> equivalent to <bsr_dec<1>> has been removed
@@ -216,7 +218,7 @@ Unit <sequence> synthesized.
 
 
 Synthesizing Unit <proc_sys_reset>.
-    Related source file is "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_sys_reset_v3_00_a/hdl/vhdl/proc_sys_reset.vhd".
+    Related source file is "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_sys_reset_v3_00_a/hdl/vhdl/proc_sys_reset.vhd".
     Register <RstcPPCresetchip_1> equivalent to <RstcPPCresetchip_0> has been removed
     Register <RstcPPCresetsys_1> equivalent to <RstcPPCresetsys_0> has been removed
     Found 1-bit register for signal <Interconnect_aresetn<0>>.
@@ -244,7 +246,7 @@ Unit <proc_sys_reset> synthesized.
 
 
 Synthesizing Unit <system_proc_sys_reset_0_wrapper>.
-    Related source file is "E:/Adam/Characterizing/characterizer_planahead/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/system_proc_sys_reset_0_wrapper.vhd".
+    Related source file is "/home/adam/RO-PUF/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/system_proc_sys_reset_0_wrapper.vhd".
 Unit <system_proc_sys_reset_0_wrapper> synthesized.
 
 
@@ -357,11 +359,11 @@ Cell Usage :
 Device utilization summary:
 ---------------------------
 
-Selected Device : 4vlx60ff668-11 
+Selected Device : 4vsx35ff668-11 
 
- Number of Slices:                       42  out of  26624     0%  
- Number of Slice Flip Flops:             69  out of  53248     0%  
- Number of 4 input LUTs:                 54  out of  53248     0%  
+ Number of Slices:                       42  out of  15360     0%  
+ Number of Slice Flip Flops:             69  out of  30720     0%  
+ Number of 4 input LUTs:                 54  out of  30720     0%  
     Number used as logic:                50
     Number used as Shift registers:       4
  Number of IOs:                          22
@@ -471,11 +473,12 @@ Offset:              0.307ns (Levels of Logic = 0)
 
 
 Total REAL time to Xst completion: 6.00 secs
-Total CPU time to Xst completion: 5.76 secs
+Total CPU time to Xst completion: 5.06 secs
  
 --> 
 
-Total memory usage is 302616 kilobytes
+
+Total memory usage is 552476 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :    1 (   0 filtered)

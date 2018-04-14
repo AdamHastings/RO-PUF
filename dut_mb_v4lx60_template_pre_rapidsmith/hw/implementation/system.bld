@@ -3,75 +3,65 @@ Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
 
 Command Line: /opt/Xilinx/14.4/ISE_DS/ISE/bin/lin64/unwrapped/ngdbuild -p
 xc4vsx35ff668-11 -nt timestamp -bm system.bmm
-/home/adam/backup/dut_mb_v4lx60_template_pre_rapidsmith/hw/implementation/system
+/home/adam/RO-PUF/dut_mb_v4lx60_template_pre_rapidsmith/hw/implementation/system
 .ngc -uc system.ucf system.ngd
 
 Reading NGO file
-"/home/adam/backup/dut_mb_v4lx60_template_pre_rapidsmith/hw/implementation/syste
+"/home/adam/RO-PUF/dut_mb_v4lx60_template_pre_rapidsmith/hw/implementation/syste
 m.ngc" ...
 Loading design module
-"/home/adam/backup/dut_mb_v4lx60_template_pre_rapidsmith/hw/implementation/syste
+"/home/adam/RO-PUF/dut_mb_v4lx60_template_pre_rapidsmith/hw/implementation/syste
 m_dut_control_core_0_wrapper.ngc"...
 Loading design module
-"/home/adam/backup/dut_mb_v4lx60_template_pre_rapidsmith/hw/implementation/syste
+"/home/adam/RO-PUF/dut_mb_v4lx60_template_pre_rapidsmith/hw/implementation/syste
 m_microblaze_0_wrapper.ngc"...
 Loading design module
-"/home/adam/backup/dut_mb_v4lx60_template_pre_rapidsmith/hw/implementation/syste
+"/home/adam/RO-PUF/dut_mb_v4lx60_template_pre_rapidsmith/hw/implementation/syste
 m_mb_plb_wrapper.ngc"...
 Loading design module
-"/home/adam/backup/dut_mb_v4lx60_template_pre_rapidsmith/hw/implementation/syste
+"/home/adam/RO-PUF/dut_mb_v4lx60_template_pre_rapidsmith/hw/implementation/syste
 m_ilmb_wrapper.ngc"...
 Loading design module
-"/home/adam/backup/dut_mb_v4lx60_template_pre_rapidsmith/hw/implementation/syste
+"/home/adam/RO-PUF/dut_mb_v4lx60_template_pre_rapidsmith/hw/implementation/syste
 m_dlmb_wrapper.ngc"...
 Loading design module
-"/home/adam/backup/dut_mb_v4lx60_template_pre_rapidsmith/hw/implementation/syste
+"/home/adam/RO-PUF/dut_mb_v4lx60_template_pre_rapidsmith/hw/implementation/syste
 m_dlmb_cntlr_wrapper.ngc"...
 Loading design module
-"/home/adam/backup/dut_mb_v4lx60_template_pre_rapidsmith/hw/implementation/syste
+"/home/adam/RO-PUF/dut_mb_v4lx60_template_pre_rapidsmith/hw/implementation/syste
 m_ilmb_cntlr_wrapper.ngc"...
 Loading design module
-"/home/adam/backup/dut_mb_v4lx60_template_pre_rapidsmith/hw/implementation/syste
+"/home/adam/RO-PUF/dut_mb_v4lx60_template_pre_rapidsmith/hw/implementation/syste
 m_lmb_bram_wrapper.ngc"...
 Loading design module
-"/home/adam/backup/dut_mb_v4lx60_template_pre_rapidsmith/hw/implementation/syste
+"/home/adam/RO-PUF/dut_mb_v4lx60_template_pre_rapidsmith/hw/implementation/syste
 m_rs232_uart_1_wrapper.ngc"...
 Loading design module
-"/home/adam/backup/dut_mb_v4lx60_template_pre_rapidsmith/hw/implementation/syste
+"/home/adam/RO-PUF/dut_mb_v4lx60_template_pre_rapidsmith/hw/implementation/syste
 m_orgate_1_wrapper.ngc"...
 Loading design module
-"/home/adam/backup/dut_mb_v4lx60_template_pre_rapidsmith/hw/implementation/syste
+"/home/adam/RO-PUF/dut_mb_v4lx60_template_pre_rapidsmith/hw/implementation/syste
 m_clock_generator_0_wrapper.ngc"...
 Loading design module
-"/home/adam/backup/dut_mb_v4lx60_template_pre_rapidsmith/hw/implementation/syste
+"/home/adam/RO-PUF/dut_mb_v4lx60_template_pre_rapidsmith/hw/implementation/syste
 m_mdm_0_wrapper.ngc"...
 Loading design module
-"/home/adam/backup/dut_mb_v4lx60_template_pre_rapidsmith/hw/implementation/syste
+"/home/adam/RO-PUF/dut_mb_v4lx60_template_pre_rapidsmith/hw/implementation/syste
 m_proc_sys_reset_0_wrapper.ngc"...
 Loading design module
-"/home/adam/backup/dut_mb_v4lx60_template_pre_rapidsmith/hw/implementation/syste
+"/home/adam/RO-PUF/dut_mb_v4lx60_template_pre_rapidsmith/hw/implementation/syste
 m_xps_timer_0_wrapper.ngc"...
 Loading design module
-"/home/adam/backup/dut_mb_v4lx60_template_pre_rapidsmith/hw/implementation/syste
+"/home/adam/RO-PUF/dut_mb_v4lx60_template_pre_rapidsmith/hw/implementation/syste
 m_xps_intc_0_wrapper.ngc"...
 Loading design module
-"/home/adam/backup/dut_mb_v4lx60_template_pre_rapidsmith/hw/implementation/syste
+"/home/adam/RO-PUF/dut_mb_v4lx60_template_pre_rapidsmith/hw/implementation/syste
 m_ring_osc_0_wrapper.ngc"...
-Loading device for application Rf_Device from file '4vlx60.nph' in environment
-/opt/Xilinx/14.4/ISE_DS/ISE/:/opt/Xilinx/14.4/ISE_DS/EDK.
-   "inverter" is an NCD, version 3.2, device xc4vlx60, package ff668, speed -11
-This design is using the default stepping level (major silicon revision) for
-this device (1). Unless your design is targeted at devices of this stepping
-level, it is recommended that you explicitly specify the stepping level of the
-parts you will be using. This will allow the tools to take advantage of any
-available performance and functional enhancements for this device. The latest
-stepping level for this device is '2'. Additional information on "stepping
-level" is available at support.xilinx.com.
 Loading design module
-"/home/adam/backup/dut_mb_v4lx60_template_pre_rapidsmith/hw/implementation/syste
+"/home/adam/RO-PUF/dut_mb_v4lx60_template_pre_rapidsmith/hw/implementation/syste
 m_ring_osc_1_wrapper.ngc"...
 Loading design module
-"/home/adam/backup/dut_mb_v4lx60_template_pre_rapidsmith/hw/implementation/syste
+"/home/adam/RO-PUF/dut_mb_v4lx60_template_pre_rapidsmith/hw/implementation/syste
 m_ring_osc_2_wrapper.ngc"...
 Gathering constraint information from source properties...
 Done.
@@ -210,6 +200,24 @@ WARNING:NgdBuild:443 - SFF primitive
 WARNING:NgdBuild:443 - SFF primitive
    'xps_timer_0/xps_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR1_GENERATE[20].TCSR1_F
    F_I' has unconnected output pin
+ERROR:NgdBuild:604 - logical block
+   'ring_osc_0/ring_osc_0/USER_LOGIC_I/ring_osc_2' with type 'inverter' could
+   not be resolved. A pin name misspelling can cause this, a missing edif or ngc
+   file, case mismatch between the block name and the edif or ngc file name, or
+   the misspelling of a type name. Symbol 'inverter' is not supported in target
+   'virtex4'.
+ERROR:NgdBuild:604 - logical block
+   'ring_osc_1/ring_osc_1/USER_LOGIC_I/ring_osc_2' with type 'inverter' could
+   not be resolved. A pin name misspelling can cause this, a missing edif or ngc
+   file, case mismatch between the block name and the edif or ngc file name, or
+   the misspelling of a type name. Symbol 'inverter' is not supported in target
+   'virtex4'.
+ERROR:NgdBuild:604 - logical block
+   'ring_osc_2/ring_osc_2/USER_LOGIC_I/ring_osc_2' with type 'inverter' could
+   not be resolved. A pin name misspelling can cause this, a missing edif or ngc
+   file, case mismatch between the block name and the edif or ngc file name, or
+   the misspelling of a type name. Symbol 'inverter' is not supported in target
+   'virtex4'.
 
 Partition Implementation Status
 -------------------------------
@@ -219,13 +227,14 @@ Partition Implementation Status
 -------------------------------
 
 NGDBUILD Design Results Summary:
-  Number of errors:     0
+  Number of errors:     3
   Number of warnings:  42
 
-Total memory usage is 643136 kilobytes
+Total memory usage is 475136 kilobytes
 
-Writing NGD file "system.ngd" ...
-Total REAL time to NGDBUILD completion:  32 sec
-Total CPU time to NGDBUILD completion:   31 sec
+Total REAL time to NGDBUILD completion:  28 sec
+Total CPU time to NGDBUILD completion:   28 sec
+
+One or more errors were found during NGDBUILD.  No NGD file will be written.
 
 Writing NGDBUILD log file "system.bld"...
