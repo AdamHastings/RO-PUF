@@ -1,2 +1,2 @@
-
-SDK_workspace/.metadata
+.*
+!.gitignore
