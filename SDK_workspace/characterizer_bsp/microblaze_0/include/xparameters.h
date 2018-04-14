@@ -103,6 +103,36 @@
 #define XPAR_RING_OSC_1_HIGHADDR 0xC062FFFF
 
 
+/* Definitions for peripheral RING_OSC_10 */
+#define XPAR_RING_OSC_10_BASEADDR 0xC0740000
+#define XPAR_RING_OSC_10_HIGHADDR 0xC074FFFF
+
+
+/* Definitions for peripheral RING_OSC_11 */
+#define XPAR_RING_OSC_11_BASEADDR 0xC0760000
+#define XPAR_RING_OSC_11_HIGHADDR 0xC076FFFF
+
+
+/* Definitions for peripheral RING_OSC_12 */
+#define XPAR_RING_OSC_12_BASEADDR 0xC0780000
+#define XPAR_RING_OSC_12_HIGHADDR 0xC078FFFF
+
+
+/* Definitions for peripheral RING_OSC_13 */
+#define XPAR_RING_OSC_13_BASEADDR 0xC07A0000
+#define XPAR_RING_OSC_13_HIGHADDR 0xC07AFFFF
+
+
+/* Definitions for peripheral RING_OSC_14 */
+#define XPAR_RING_OSC_14_BASEADDR 0xC07C0000
+#define XPAR_RING_OSC_14_HIGHADDR 0xC07CFFFF
+
+
+/* Definitions for peripheral RING_OSC_15 */
+#define XPAR_RING_OSC_15_BASEADDR 0xC07F0000
+#define XPAR_RING_OSC_15_HIGHADDR 0xC07FFFFF
+
+
 /* Definitions for peripheral RING_OSC_2 */
 #define XPAR_RING_OSC_2_BASEADDR 0xC0640000
 #define XPAR_RING_OSC_2_HIGHADDR 0xC064FFFF
@@ -131,6 +161,16 @@
 /* Definitions for peripheral RING_OSC_7 */
 #define XPAR_RING_OSC_7_BASEADDR 0xC06F0000
 #define XPAR_RING_OSC_7_HIGHADDR 0xC06FFFFF
+
+
+/* Definitions for peripheral RING_OSC_8 */
+#define XPAR_RING_OSC_8_BASEADDR 0xC0700000
+#define XPAR_RING_OSC_8_HIGHADDR 0xC070FFFF
+
+
+/* Definitions for peripheral RING_OSC_9 */
+#define XPAR_RING_OSC_9_BASEADDR 0xC0720000
+#define XPAR_RING_OSC_9_HIGHADDR 0xC072FFFF
 
 
 /******************************************************************/

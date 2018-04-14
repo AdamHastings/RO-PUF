@@ -23,11 +23,10 @@
 #define DUT_UART_RELEASE   0x00000008
 #define DUT_TEST_DONE      0x00000010
 
-#define RELOAD				7
+#define RELOAD				1
 #define CLK_TICKS			100000000
 #define NUM_RING_OSCILLATORS 2
 #define CHARACTERIZE_TIME	15
-//#define CHARACTERIZE_TIME	1
 #define INTERVAL			15*CLK_TICKS
 #define MAX_BUF 1024
 
@@ -70,7 +69,6 @@ typedef struct
 
 void interrupt_handler_dispatcher(void* ptr) {
 	//Checking the timer interrupt
-	xil_printf("in dispatcher\r\n");
 	int intc_status = XIntc_GetIntrStatus(XPAR_INTC_0_BASEADDR);
 	if (intc_status & XPAR_XPS_TIMER_0_INTERRUPT_MASK)
 	{
@@ -113,7 +111,6 @@ void interrupt_handler_dispatcher(void* ptr) {
 
 int main()
 {
-	xil_printf("hELLO wORLD\r\n");
 	//Interrupts setup
 	microblaze_register_handler(interrupt_handler_dispatcher, NULL);
 	XIntc_EnableIntr(XPAR_INTC_0_BASEADDR, XPAR_XPS_TIMER_0_INTERRUPT_MASK);
@@ -134,6 +131,7 @@ int main()
 
 	//Initialize the Software Registers
 	RING_OSC_mWriteReg(XPAR_RING_OSC_0_BASEADDR, RING_OSC_SLV_REG2_OFFSET, 0); //Reset
+
 	if (Status != XST_SUCCESS)
 	{
 		xil_printf("\r\nTimer counter init failed\r\n");
@@ -176,6 +174,8 @@ int main()
 	//Write the disable to the ring oscillators!
 	Xil_Out32(XPAR_RING_OSC_1_BASEADDR, 0x0);
 	Xil_Out32(XPAR_RING_OSC_2_BASEADDR, 0x0);
+	xil_printf("Flush the buffer---abcdefghijklmnopqrstuvwxyz\r\n");
+
 	exit(1);
 	return 0;
 }
@@ -225,3 +225,4 @@ void determineIntervals(int seconds)
 {
 	numIntervals = seconds / 15;
 }
+
