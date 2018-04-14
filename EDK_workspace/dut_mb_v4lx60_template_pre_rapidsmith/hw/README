@@ -1,0 +1,74 @@
+DUT_MB_V4LX60_TEST HARDWARE README
+===================================
+
+<TODO> Update this information with your own design.
+
+This project is a simple Virtex4 LX60 MicroBlaze based SoC with one
+custom IP core that connects to the PUF Power Board to control access
+to the UART I/O, report status information, and contains a simple
+on-chip memory and a UART core.  The UART is connected to I/O on the
+J4 Header of the DUT board and connects specifically to Pins 31 and 33
+of the J4 Header.  This means the Power Board must also have the J8
+Header connected for the UART to work.  In addition to UART pins there
+are 5 control / status I/O that are also connected to the J4 header
+for UART access to be requested, released, granted, and for the DUT to
+report if the test is done and accept a soft reset from the PUF Power
+Board.
+
+  PUF Power Board Header J8 <----> DUT Header J4
+
+In this Design the Tx and Rx are from the perspective of the DUT's
+UART.  So if you look at the data/system.ucf you will see that RX is
+connected to the FPGA pin N7 and that TX is connected to FPGA pin P10.
+
+This will only work if the PUF Power Board has a design loaded that
+uses the equivalent pins connected through the J8 Header.  Ideally,
+the design loaded into the External Flash of the PUF Power Board will
+have this connected, but if for some reason it does not or the design
+is lost, you will want to have the follow connections on the PUF Power
+Board once the J8 Header is connected to the DUT's J4 Header.  The
+physical RS232 / DB9 connecter for the PUF Power Board has the RX as
+FPGA pin Y3 and TX as FPGA pin W4 on the Spartan Part.  Adding some
+custom logic that muxes between the Spartan using Y3/W4 and the DUT's
+LX60 using the I/O, you would then want to add the following
+constraints to the PUF Power Board's UCF:
+
+  NET "DUT_UART_TX" LOC = "E11" | IOSTANDARD = LVCMOS33;
+  NET "DUT_UART_RX" LOC = "C11" | IOSTANDARD = LVCMOS33;
+
+The PUF Power Board has the Tx and Rx reversed, so that it assumes
+DUT_UART_TX is an input and RX as an output between the PUF board and
+DUT board.
+
+The Five Control / Status Signals need to be set as follows:
+
+NET dut_uart_request LOC = P8  |  PULLUP  |  IOSTANDARD = LVCMOS33;
+NET dut_uart_release LOC = M7  |  PULLUP  |  IOSTANDARD = LVCMOS33;
+NET dut_uart_granted LOC = N8  |  PULLUP  |  IOSTANDARD = LVCMOS33;
+NET dut_test_done    LOC = P5  |  PULLUP  |  IOSTANDARD = LVCMOS33;
+NET dut_rst          LOC = P7  |  PULLUP  |  IOSTANDARD = LVCMOS33;
+
+
+These should be connected to the PCORE: dut_control_core_v1_00_a
+
+Current Version
+===============
+
+The current version of this design is: 1.0
+
+Both the Hardware (specified in the pcores/control_core_v1_00_a)
+and the Software should match this version.  If not, then
+check the logs and see which is out of date.
+
+Version:  Developer:   Notes:
+--------  ----------   ------
+1.0		  aschmidt	   Initial Request/Releases UART Control
+
+Directory
+=========
+* data        - directory with UCF
+* etc         - directory with implementation scripts
+* Makefile    - Top-level Makefile for building Hw/Sw
+* pcores      - directory for custom IP cores
+* system.mhs  - Xilinx Microprocessor Hardware Specification file
+* system.xmp  - Xilinx Project File for design
