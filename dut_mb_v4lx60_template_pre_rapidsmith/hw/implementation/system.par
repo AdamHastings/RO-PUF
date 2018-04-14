@@ -1,0 +1,236 @@
+Release 14.4 par P.49d (lin64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+phoenix::  Tue Mar 29 12:03:39 2016
+
+par -w -ol high system_map.ncd system.ncd system.pcf 
+
+
+Constraints file: system.pcf.
+Loading device for application Rf_Device from file '4vsx35.nph' in environment
+/opt/Xilinx/14.4/ISE_DS/ISE/:/opt/Xilinx/14.4/ISE_DS/EDK.
+   "system" is an NCD, version 3.2, device xc4vsx35, package ff668, speed -11
+This design is using the default stepping level (major silicon revision) for this device (1). Unless your design is
+targeted at devices of this stepping level, it is recommended that you explicitly specify the stepping level of the
+parts you will be using. This will allow the tools to take advantage of any available performance and functional
+enhancements for this device. The latest stepping level for this device is '2'. Additional information on "stepping
+level" is available at support.xilinx.com.
+Loading device for application Rf_Device from file '4vlx60.nph' in environment
+/opt/Xilinx/14.4/ISE_DS/ISE/:/opt/Xilinx/14.4/ISE_DS/EDK.
+   "inverter" is an NCD, version 3.2, device xc4vlx60, package ff668, speed -11
+This design is using the default stepping level (major silicon revision) for this device (1). Unless your design is
+targeted at devices of this stepping level, it is recommended that you explicitly specify the stepping level of the
+parts you will be using. This will allow the tools to take advantage of any available performance and functional
+enhancements for this device. The latest stepping level for this device is '2'. Additional information on "stepping
+level" is available at support.xilinx.com.
+vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+INFO:Security:67 - XILINXD_LICENSE_FILE is set to '2100@xilinxlic1.ee.byu.edu' in /home/adam/.flexlmrc.
+INFO:Security:50 - The XILINXD_LICENSE_FILE environment variable is set to '2100@xilinxlic1.ee.byu.edu'.
+INFO:Security:52 - The LM_LICENSE_FILE environment variable is set to '2100@xilinxlic1.ee.byu.edu'.
+INFO:Security:56 - Part 'xc4vsx35' is not a WebPack part.
+WARNING:Security:43 - No license file was found in the standard Xilinx license directory.
+WARNING:Security:44 - Since no license file was found,
+       please run the Xilinx License Configuration Manager
+       (xlcm or "Manage Xilinx Licenses")
+       to assist in obtaining a license.
+WARNING:Security:42 - Your software subscription period has lapsed. Your current version of Xilinx tools will continue
+to function, but you no longer qualify for Xilinx software updates or new releases.
+
+----------------------------------------------------------------------
+
+Initializing temperature to 85.000 Celsius. (default - Range: 0.000 to 85.000 Celsius)
+Initializing voltage to 1.140 Volts. (default - Range: 1.140 to 1.260 Volts)
+
+INFO:Par:282 - No user timing constraints were detected or you have set the option to ignore timing constraints ("par
+   -x"). Place and Route will run in "Performance Evaluation Mode" to automatically improve the performance of all
+   internal clocks in this design. Because there are not defined timing requirements, a timing score will not be
+   reported in the PAR report in this mode. The PAR timing summary will list the performance achieved for each clock.
+   Note: For the fastest runtime, set the effort level to "std".  For best performance, set the effort level to "high".
+
+Device speed data version:  "PRODUCTION 1.71 2012-12-04".
+
+
+
+Device Utilization Summary:
+
+   Number of BSCANs                          1 out of 4      25%
+   Number of BUFGs                           5 out of 32     15%
+   Number of DCM_ADVs                        1 out of 8      12%
+   Number of DSP48s                          3 out of 192     1%
+   Number of ILOGICs                         1 out of 448     1%
+   Number of External IOBs                   9 out of 448     2%
+      Number of LOCed IOBs                   0 out of 9       0%
+
+   Number of OLOGICs                         1 out of 448     1%
+   Number of RAMB16s                        16 out of 192     8%
+   Number of Slices                       3368 out of 15360  21%
+      Number of SLICEMs                    269 out of 7680    3%
+
+
+
+Overall effort level (-ol):   High 
+Router effort level (-rl):    High 
+
+Starting initial Timing Analysis.  REAL time: 10 secs 
+Finished initial Timing Analysis.  REAL time: 10 secs 
+
+WARNING:Par:288 - The signal dlmb_LMB_ABus<30> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal dlmb_LMB_ABus<31> has no load.  PAR will not attempt to route this signal.
+Starting Router
+
+
+Phase  1  : 22750 unrouted;      REAL time: 11 secs 
+
+Phase  2  : 19534 unrouted;      REAL time: 12 secs 
+
+Phase  3  : 6757 unrouted;      REAL time: 14 secs 
+
+Phase  4  : 6774 unrouted; (Par is working to improve performance)     REAL time: 18 secs 
+
+Updating file: system.ncd with current fully routed design.
+
+Phase  5  : 0 unrouted; (Par is working to improve performance)     REAL time: 25 secs 
+
+Phase  6  : 0 unrouted; (Par is working to improve performance)     REAL time: 2 mins 6 secs 
+
+Phase  7  : 0 unrouted; (Par is working to improve performance)     REAL time: 2 mins 8 secs 
+
+Phase  8  : 0 unrouted; (Par is working to improve performance)     REAL time: 2 mins 8 secs 
+
+Phase  9  : 0 unrouted; (Par is working to improve performance)     REAL time: 2 mins 8 secs 
+
+Phase 10  : 0 unrouted; (Par is working to improve performance)     REAL time: 2 mins 10 secs 
+Total REAL time to Router completion: 2 mins 10 secs 
+Total CPU time to Router completion: 2 mins 9 secs 
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+Generating "PAR" statistics.
+
+**************************
+Generating Clock Report
+**************************
+
++---------------------+--------------+------+------+------------+-------------+
+|        Clock Net    |   Resource   |Locked|Fanout|Net Skew(ns)|Max Delay(ns)|
++---------------------+--------------+------+------+------------+-------------+
+|     clk_100_0000MHz | BUFGCTRL_X0Y0| No   | 2219 |  0.465     |  2.696      |
++---------------------+--------------+------+------+------------+-------------+
+|     mdm_0/Dbg_Clk_1 | BUFGCTRL_X0Y2| No   |  187 |  0.436     |  2.634      |
++---------------------+--------------+------+------+------------+-------------+
+|ring_osc_1/ring_osc_ |              |      |      |            |             |
+|1/USER_LOGIC_I/ring_ |              |      |      |            |             |
+|             osc_buf |BUFGCTRL_X0Y31| No   |   66 |  0.246     |  2.515      |
++---------------------+--------------+------+------+------------+-------------+
+|ring_osc_0/ring_osc_ |              |      |      |            |             |
+|0/USER_LOGIC_I/ring_ |              |      |      |            |             |
+|             osc_buf | BUFGCTRL_X0Y1| No   |   67 |  0.277     |  2.504      |
++---------------------+--------------+------+------+------------+-------------+
+|ring_osc_2/ring_osc_ |              |      |      |            |             |
+|2/USER_LOGIC_I/ring_ |              |      |      |            |             |
+|             osc_buf |BUFGCTRL_X0Y30| No   |   69 |  0.153     |  2.478      |
++---------------------+--------------+------+------+------------+-------------+
+|xps_timer_0_Interrup |              |      |      |            |             |
+|                   t |         Local|      |    1 |  0.000     |  0.579      |
++---------------------+--------------+------+------+------------+-------------+
+|  mdm_0/Dbg_Update_1 |         Local|      |   42 |  1.865     |  3.311      |
++---------------------+--------------+------+------+------------+-------------+
+|fpga_0_clk_1_sys_clk |              |      |      |            |             |
+|          _pin_IBUFG |         Local|      |    5 |  0.000     |  0.816      |
++---------------------+--------------+------+------+------------+-------------+
+
+* Net Skew is the difference between the minimum and maximum routing
+only delays for the net. Note this is different from Clock Skew which
+is reported in TRCE timing report. Clock Skew is the difference between
+the minimum and maximum path delays which includes logic delays.
+
+* The fanout is the number of component pins not the individual BEL loads,
+for example SLICE loads not FF loads.
+
+Timing Score: 0 (Setup: 0, Hold: 0)
+
+Asterisk (*) preceding a constraint indicates it was not met.
+   This may be due to a setup or hold violation.
+
+----------------------------------------------------------------------------------------------------------
+  Constraint                                |    Check    | Worst Case |  Best Case | Timing |   Timing   
+                                            |             |    Slack   | Achievable | Errors |    Score   
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net clk | SETUP       |         N/A|     6.166ns|     N/A|           0
+  _100_0000MHz                              | HOLD        |     0.417ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net mdm | SETUP       |         N/A|     5.829ns|     N/A|           0
+  _0/Dbg_Clk_1                              | HOLD        |     0.450ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net rin | SETUP       |         N/A|     4.087ns|     N/A|           0
+  g_osc_1/ring_osc_1/USER_LOGIC_I/ring_osc_ | HOLD        |     0.675ns|            |       0|           0
+  buf                                       |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net mdm | SETUP       |         N/A|     7.931ns|     N/A|           0
+  _0/Dbg_Update_1                           | HOLD        |     0.518ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net rin | SETUP       |         N/A|     3.456ns|     N/A|           0
+  g_osc_0/ring_osc_0/USER_LOGIC_I/ring_osc_ | HOLD        |     0.675ns|            |       0|           0
+  buf                                       |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net rin | SETUP       |         N/A|     4.002ns|     N/A|           0
+  g_osc_2/ring_osc_2/USER_LOGIC_I/ring_osc_ | HOLD        |     0.679ns|            |       0|           0
+  buf                                       |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net fpg | SETUP       |         N/A|     0.956ns|     N/A|           0
+  a_0_clk_1_sys_clk_pin_IBUFG               | HOLD        |     0.456ns|            |       0|           0
+                                            | MINPERIOD   |         N/A|     6.666ns|     N/A|           0
+----------------------------------------------------------------------------------------------------------
+
+
+Derived Constraint Report
+Review Timing Report for more details on the following derived constraints.
+To create a Timing Report, run "trce -v 12 -fastpaths -o design_timing_report design.ncd design.pcf"
+or "Run Timing Analysis" from Timing Analyzer (timingan).
+Derived Constraints for fpga_0_clk_1_sys_clk_pin_IBUFG
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+|                               |   Period    |       Actual Period       |      Timing Errors        |      Paths Analyzed       |
+|           Constraint          | Requirement |-------------+-------------|-------------+-------------|-------------+-------------|
+|                               |             |   Direct    | Derivative  |   Direct    | Derivative  |   Direct    | Derivative  |
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+|fpga_0_clk_1_sys_clk_pin_IBUFG |      1.114ns|      6.666ns|      6.666ns|            0|            0|            3|            0|
+| clock_generator_0/clock_genera|      1.114ns|      6.666ns|          N/A|            0|            0|            0|            0|
+| tor_0/SIG_DCM0_CLK0           |             |             |             |             |             |             |             |
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+
+All constraints were met.
+INFO:Timing:2761 - N/A entries in the Constraints List may indicate that the 
+   constraint is not analyzed due to the following: No paths covered by this 
+   constraint; Other constraints intersect with this constraint; or This 
+   constraint was disabled by a Path Tracing Control. Please run the Timespec 
+   Interaction Report (TSI) via command line (trce tsi) or Timing Analyzer GUI.
+
+
+Generating Pad Report.
+
+All signals are completely routed.
+
+WARNING:Par:283 - There are 2 loadless signals in this design. This design will cause Bitgen to issue DRC warnings.
+
+Total REAL time to PAR completion: 2 mins 12 secs 
+Total CPU time to PAR completion: 2 mins 12 secs 
+
+Peak Memory Usage:  943 MB
+
+Placer: Placement generated during map.
+Routing: Completed - No errors found.
+
+Number of error messages: 0
+Number of warning messages: 4
+Number of info messages: 1
+
+Writing design to file system.ncd
+
+
+
+PAR done!

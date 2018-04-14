@@ -1,0 +1,29 @@
+TEST_APP SOFTWARE README
+========================
+
+<TODO> Update this information with your own design.
+
+This application prints the obligatory "hello world" message.  This
+also includes a custom PCORE that can be used to interact with the PUF
+Power Board to request and release access to the Power Board's
+UART/Minicom, accept a soft reset from the PUF Board, and also gives
+the DUT a way to notify the Power Board if it is done running its
+test(s).
+
+Current Version
+===============
+
+The current version of this design is: 1.0
+
+Both the Hardware (specified in the pcores/control_core_v1_00_a)
+and the Software should match this version.  If not, then
+check the logs and see which is out of date.
+
+Version:  Developer:   Notes:
+--------  ----------   ------
+1.0		  aschmidt	   Initial Request/Releases UART Control
+
+Directory
+=========
+* Makefile - build and clean software project
+* src      - directory for C application and Linker Script

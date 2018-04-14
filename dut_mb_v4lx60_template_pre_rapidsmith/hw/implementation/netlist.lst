@@ -1,0 +1,20 @@
+/home/adam/backup/dut_mb_v4lx60_template_pre_rapidsmith/hw/implementation/system.ngc 1458746685
+/home/adam/backup/dut_mb_v4lx60_template_pre_rapidsmith/hw/implementation/system_dut_control_core_0_wrapper.ngc 1458746546
+/home/adam/backup/dut_mb_v4lx60_template_pre_rapidsmith/hw/implementation/system_microblaze_0_wrapper.ngc 1458746530
+/home/adam/backup/dut_mb_v4lx60_template_pre_rapidsmith/hw/implementation/system_mb_plb_wrapper.ngc 1458746530
+/home/adam/backup/dut_mb_v4lx60_template_pre_rapidsmith/hw/implementation/system_ilmb_wrapper.ngc 1458746530
+/home/adam/backup/dut_mb_v4lx60_template_pre_rapidsmith/hw/implementation/system_dlmb_wrapper.ngc 1458746530
+/home/adam/backup/dut_mb_v4lx60_template_pre_rapidsmith/hw/implementation/system_dlmb_cntlr_wrapper.ngc 1458746530
+/home/adam/backup/dut_mb_v4lx60_template_pre_rapidsmith/hw/implementation/system_ilmb_cntlr_wrapper.ngc 1458746530
+/home/adam/backup/dut_mb_v4lx60_template_pre_rapidsmith/hw/implementation/system_lmb_bram_wrapper.ngc 1458746530
+/home/adam/backup/dut_mb_v4lx60_template_pre_rapidsmith/hw/implementation/system_rs232_uart_1_wrapper.ngc 1458746530
+/home/adam/backup/dut_mb_v4lx60_template_pre_rapidsmith/hw/implementation/system_orgate_1_wrapper.ngc 1458746530
+/home/adam/backup/dut_mb_v4lx60_template_pre_rapidsmith/hw/implementation/system_clock_generator_0_wrapper.ngc 1458746596
+/home/adam/backup/dut_mb_v4lx60_template_pre_rapidsmith/hw/implementation/system_mdm_0_wrapper.ngc 1458746530
+/home/adam/backup/dut_mb_v4lx60_template_pre_rapidsmith/hw/implementation/system_proc_sys_reset_0_wrapper.ngc 1458746530
+/home/adam/backup/dut_mb_v4lx60_template_pre_rapidsmith/hw/implementation/system_xps_timer_0_wrapper.ngc 1458746530
+/home/adam/backup/dut_mb_v4lx60_template_pre_rapidsmith/hw/implementation/system_xps_intc_0_wrapper.ngc 1458746530
+/home/adam/backup/dut_mb_v4lx60_template_pre_rapidsmith/hw/implementation/system_ring_osc_0_wrapper.ngc 1458746566
+/home/adam/backup/dut_mb_v4lx60_template_pre_rapidsmith/hw/implementation/system_ring_osc_1_wrapper.ngc 1458746578
+/home/adam/backup/dut_mb_v4lx60_template_pre_rapidsmith/hw/implementation/system_ring_osc_2_wrapper.ngc 1458746591
+OK
