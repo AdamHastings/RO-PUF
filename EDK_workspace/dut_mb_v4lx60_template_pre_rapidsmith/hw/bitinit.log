@@ -1,0 +1,205 @@
+
+bitinit version Xilinx EDK 14.4 Build EDK_P.49d
+Copyright (c) Xilinx Inc. 2002.
+
+Parsing MHS File system.mhs...
+
+Overriding IP level properties ...
+
+Computing clock values...
+INFO:EDK:740 - Cannot determine the input clock associated with port :
+   ilmb_cntlr:BRAM_Clk_A. Clock DRCs will not be performed on this core and
+   cores connected to it. 
+INFO:EDK:740 - Cannot determine the input clock associated with port :
+   dlmb_cntlr:BRAM_Clk_A. Clock DRCs will not be performed on this core and
+   cores connected to it. 
+
+Performing IP level DRCs on properties...
+
+Running DRC Tcl procedures for OPTION IPLEVEL_DRC_PROC...
+Address Map for Processor microblaze_0
+  (0000000000-0x00007fff) dlmb_cntlr	dlmb
+  (0000000000-0x00007fff) ilmb_cntlr	ilmb
+  (0x81800000-0x8180ffff) xps_intc_0	mb_plb
+  (0x83c00000-0x83c0ffff) xps_timer_0	mb_plb
+  (0x84000000-0x8400ffff) RS232_Uart_1	mb_plb
+  (0x84400000-0x8440ffff) mdm_0	mb_plb
+  (0xc0600000-0xc060ffff) ring_osc_0	mb_plb
+  (0xc0620000-0xc062ffff) ring_osc_1	mb_plb
+  (0xc0640000-0xc064ffff) ring_osc_2	mb_plb
+  (0xc0660000-0xc066ffff) ring_osc_3	mb_plb
+  (0xc0680000-0xc068ffff) ring_osc_4	mb_plb
+  (0xc06a0000-0xc06affff) ring_osc_5	mb_plb
+  (0xc06c0000-0xc06cffff) ring_osc_6	mb_plb
+  (0xc06f0000-0xc06fffff) ring_osc_7	mb_plb
+  (0xc1a00000-0xc1a0ffff) dut_control_core_0	mb_plb
+INFO:EDK:4130 - IPNAME: dut_control_core, INSTANCE:dut_control_core_0 - tool is
+   overriding PARAMETER C_SPLB_DWIDTH value to 32 -
+   /home/adam/ROPUF/EDK_workspace/dut_mb_v4lx60_template_pre_rapidsmith/hw/pcore
+   s/dut_control_core_v1_00_a/data/dut_control_core_v2_1_0.mpd line 27 
+INFO:EDK:4130 - IPNAME: dut_control_core, INSTANCE:dut_control_core_0 - tool is
+   overriding PARAMETER C_SPLB_NUM_MASTERS value to 2 -
+   /home/adam/ROPUF/EDK_workspace/dut_mb_v4lx60_template_pre_rapidsmith/hw/pcore
+   s/dut_control_core_v1_00_a/data/dut_control_core_v2_1_0.mpd line 28 
+INFO:EDK:4130 - IPNAME: dut_control_core, INSTANCE:dut_control_core_0 - tool is
+   overriding PARAMETER C_SPLB_MID_WIDTH value to 1 -
+   /home/adam/ROPUF/EDK_workspace/dut_mb_v4lx60_template_pre_rapidsmith/hw/pcore
+   s/dut_control_core_v1_00_a/data/dut_control_core_v2_1_0.mpd line 29 
+INFO:EDK:4130 - IPNAME: plb_v46, INSTANCE:mb_plb - tool is overriding PARAMETER
+   C_PLBV46_NUM_MASTERS value to 2 -
+   /opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/plb_v46_v1_05_a/da
+   ta/plb_v46_v2_1_0.mpd line 79 
+INFO:EDK:4130 - IPNAME: plb_v46, INSTANCE:mb_plb - tool is overriding PARAMETER
+   C_PLBV46_NUM_SLAVES value to 13 -
+   /opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/plb_v46_v1_05_a/da
+   ta/plb_v46_v2_1_0.mpd line 80 
+INFO:EDK:4130 - IPNAME: plb_v46, INSTANCE:mb_plb - tool is overriding PARAMETER
+   C_PLBV46_MID_WIDTH value to 1 -
+   /opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/plb_v46_v1_05_a/da
+   ta/plb_v46_v2_1_0.mpd line 81 
+INFO:EDK:4130 - IPNAME: plb_v46, INSTANCE:mb_plb - tool is overriding PARAMETER
+   C_PLBV46_DWIDTH value to 32 -
+   /opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/plb_v46_v1_05_a/da
+   ta/plb_v46_v2_1_0.mpd line 83 
+INFO:EDK:4130 - IPNAME: lmb_v10, INSTANCE:ilmb - tool is overriding PARAMETER
+   C_LMB_NUM_SLAVES value to 1 -
+   /opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/lmb_v10_v2_00_b/da
+   ta/lmb_v10_v2_1_0.mpd line 82 
+INFO:EDK:4130 - IPNAME: lmb_v10, INSTANCE:dlmb - tool is overriding PARAMETER
+   C_LMB_NUM_SLAVES value to 1 -
+   /opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/lmb_v10_v2_00_b/da
+   ta/lmb_v10_v2_1_0.mpd line 82 
+INFO:EDK:4130 - IPNAME: bram_block, INSTANCE:lmb_bram - tool is overriding
+   PARAMETER C_MEMSIZE value to 0x8000 -
+   /opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/bram_block_v1_00_a
+   /data/bram_block_v2_1_0.mpd line 78 
+INFO:EDK:4130 - IPNAME: xps_uartlite, INSTANCE:RS232_Uart_1 - tool is overriding
+   PARAMETER C_SPLB_NUM_MASTERS value to 2 -
+   /opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/xps_uartlite_v1_02
+   _a/data/xps_uartlite_v2_1_0.mpd line 84 
+INFO:EDK:4130 - IPNAME: mdm, INSTANCE:mdm_0 - tool is overriding PARAMETER
+   C_SPLB_MID_WIDTH value to 1 -
+   /opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/mdm_v2_10_a/data/m
+   dm_v2_1_0.mpd line 118 
+INFO:EDK:4130 - IPNAME: mdm, INSTANCE:mdm_0 - tool is overriding PARAMETER
+   C_SPLB_NUM_MASTERS value to 2 -
+   /opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/mdm_v2_10_a/data/m
+   dm_v2_1_0.mpd line 119 
+INFO:EDK:4130 - IPNAME: xps_timer, INSTANCE:xps_timer_0 - tool is overriding
+   PARAMETER C_SPLB_MID_WIDTH value to 1 -
+   /opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/xps_timer_v1_02_a/
+   data/xps_timer_v2_1_0.mpd line 87 
+INFO:EDK:4130 - IPNAME: xps_timer, INSTANCE:xps_timer_0 - tool is overriding
+   PARAMETER C_SPLB_NUM_MASTERS value to 2 -
+   /opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/xps_timer_v1_02_a/
+   data/xps_timer_v2_1_0.mpd line 88 
+INFO:EDK:4130 - IPNAME: xps_intc, INSTANCE:xps_intc_0 - tool is overriding
+   PARAMETER C_SPLB_NUM_MASTERS value to 2 -
+   /opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/xps_intc_v2_01_a/d
+   ata/xps_intc_v2_1_0.mpd line 83 
+INFO:EDK:4130 - IPNAME: ring_osc, INSTANCE:ring_osc_0 - tool is overriding
+   PARAMETER C_SPLB_DWIDTH value to 32 -
+   /home/adam/ROPUF/EDK_workspace/dut_mb_v4lx60_template_pre_rapidsmith/hw/pcore
+   s/ring_osc_v1_02_a/data/ring_osc_v2_1_0.mpd line 28 
+INFO:EDK:4130 - IPNAME: ring_osc, INSTANCE:ring_osc_0 - tool is overriding
+   PARAMETER C_SPLB_NUM_MASTERS value to 2 -
+   /home/adam/ROPUF/EDK_workspace/dut_mb_v4lx60_template_pre_rapidsmith/hw/pcore
+   s/ring_osc_v1_02_a/data/ring_osc_v2_1_0.mpd line 29 
+INFO:EDK:4130 - IPNAME: ring_osc, INSTANCE:ring_osc_0 - tool is overriding
+   PARAMETER C_SPLB_MID_WIDTH value to 1 -
+   /home/adam/ROPUF/EDK_workspace/dut_mb_v4lx60_template_pre_rapidsmith/hw/pcore
+   s/ring_osc_v1_02_a/data/ring_osc_v2_1_0.mpd line 30 
+INFO:EDK:4130 - IPNAME: ring_osc, INSTANCE:ring_osc_1 - tool is overriding
+   PARAMETER C_SPLB_DWIDTH value to 32 -
+   /home/adam/ROPUF/EDK_workspace/dut_mb_v4lx60_template_pre_rapidsmith/hw/pcore
+   s/ring_osc_v1_02_a/data/ring_osc_v2_1_0.mpd line 28 
+INFO:EDK:4130 - IPNAME: ring_osc, INSTANCE:ring_osc_1 - tool is overriding
+   PARAMETER C_SPLB_NUM_MASTERS value to 2 -
+   /home/adam/ROPUF/EDK_workspace/dut_mb_v4lx60_template_pre_rapidsmith/hw/pcore
+   s/ring_osc_v1_02_a/data/ring_osc_v2_1_0.mpd line 29 
+INFO:EDK:4130 - IPNAME: ring_osc, INSTANCE:ring_osc_1 - tool is overriding
+   PARAMETER C_SPLB_MID_WIDTH value to 1 -
+   /home/adam/ROPUF/EDK_workspace/dut_mb_v4lx60_template_pre_rapidsmith/hw/pcore
+   s/ring_osc_v1_02_a/data/ring_osc_v2_1_0.mpd line 30 
+INFO:EDK:4130 - IPNAME: ring_osc, INSTANCE:ring_osc_2 - tool is overriding
+   PARAMETER C_SPLB_DWIDTH value to 32 -
+   /home/adam/ROPUF/EDK_workspace/dut_mb_v4lx60_template_pre_rapidsmith/hw/pcore
+   s/ring_osc_v1_02_a/data/ring_osc_v2_1_0.mpd line 28 
+INFO:EDK:4130 - IPNAME: ring_osc, INSTANCE:ring_osc_2 - tool is overriding
+   PARAMETER C_SPLB_NUM_MASTERS value to 2 -
+   /home/adam/ROPUF/EDK_workspace/dut_mb_v4lx60_template_pre_rapidsmith/hw/pcore
+   s/ring_osc_v1_02_a/data/ring_osc_v2_1_0.mpd line 29 
+INFO:EDK:4130 - IPNAME: ring_osc, INSTANCE:ring_osc_2 - tool is overriding
+   PARAMETER C_SPLB_MID_WIDTH value to 1 -
+   /home/adam/ROPUF/EDK_workspace/dut_mb_v4lx60_template_pre_rapidsmith/hw/pcore
+   s/ring_osc_v1_02_a/data/ring_osc_v2_1_0.mpd line 30 
+INFO:EDK:4130 - IPNAME: ring_osc, INSTANCE:ring_osc_3 - tool is overriding
+   PARAMETER C_SPLB_DWIDTH value to 32 -
+   /home/adam/ROPUF/EDK_workspace/dut_mb_v4lx60_template_pre_rapidsmith/hw/pcore
+   s/ring_osc_v1_02_a/data/ring_osc_v2_1_0.mpd line 28 
+INFO:EDK:4130 - IPNAME: ring_osc, INSTANCE:ring_osc_3 - tool is overriding
+   PARAMETER C_SPLB_NUM_MASTERS value to 2 -
+   /home/adam/ROPUF/EDK_workspace/dut_mb_v4lx60_template_pre_rapidsmith/hw/pcore
+   s/ring_osc_v1_02_a/data/ring_osc_v2_1_0.mpd line 29 
+INFO:EDK:4130 - IPNAME: ring_osc, INSTANCE:ring_osc_3 - tool is overriding
+   PARAMETER C_SPLB_MID_WIDTH value to 1 -
+   /home/adam/ROPUF/EDK_workspace/dut_mb_v4lx60_template_pre_rapidsmith/hw/pcore
+   s/ring_osc_v1_02_a/data/ring_osc_v2_1_0.mpd line 30 
+INFO:EDK:4130 - IPNAME: ring_osc, INSTANCE:ring_osc_4 - tool is overriding
+   PARAMETER C_SPLB_DWIDTH value to 32 -
+   /home/adam/ROPUF/EDK_workspace/dut_mb_v4lx60_template_pre_rapidsmith/hw/pcore
+   s/ring_osc_v1_02_a/data/ring_osc_v2_1_0.mpd line 28 
+INFO:EDK:4130 - IPNAME: ring_osc, INSTANCE:ring_osc_4 - tool is overriding
+   PARAMETER C_SPLB_NUM_MASTERS value to 2 -
+   /home/adam/ROPUF/EDK_workspace/dut_mb_v4lx60_template_pre_rapidsmith/hw/pcore
+   s/ring_osc_v1_02_a/data/ring_osc_v2_1_0.mpd line 29 
+INFO:EDK:4130 - IPNAME: ring_osc, INSTANCE:ring_osc_4 - tool is overriding
+   PARAMETER C_SPLB_MID_WIDTH value to 1 -
+   /home/adam/ROPUF/EDK_workspace/dut_mb_v4lx60_template_pre_rapidsmith/hw/pcore
+   s/ring_osc_v1_02_a/data/ring_osc_v2_1_0.mpd line 30 
+INFO:EDK:4130 - IPNAME: ring_osc, INSTANCE:ring_osc_5 - tool is overriding
+   PARAMETER C_SPLB_DWIDTH value to 32 -
+   /home/adam/ROPUF/EDK_workspace/dut_mb_v4lx60_template_pre_rapidsmith/hw/pcore
+   s/ring_osc_v1_02_a/data/ring_osc_v2_1_0.mpd line 28 
+INFO:EDK:4130 - IPNAME: ring_osc, INSTANCE:ring_osc_5 - tool is overriding
+   PARAMETER C_SPLB_NUM_MASTERS value to 2 -
+   /home/adam/ROPUF/EDK_workspace/dut_mb_v4lx60_template_pre_rapidsmith/hw/pcore
+   s/ring_osc_v1_02_a/data/ring_osc_v2_1_0.mpd line 29 
+INFO:EDK:4130 - IPNAME: ring_osc, INSTANCE:ring_osc_5 - tool is overriding
+   PARAMETER C_SPLB_MID_WIDTH value to 1 -
+   /home/adam/ROPUF/EDK_workspace/dut_mb_v4lx60_template_pre_rapidsmith/hw/pcore
+   s/ring_osc_v1_02_a/data/ring_osc_v2_1_0.mpd line 30 
+INFO:EDK:4130 - IPNAME: ring_osc, INSTANCE:ring_osc_6 - tool is overriding
+   PARAMETER C_SPLB_DWIDTH value to 32 -
+   /home/adam/ROPUF/EDK_workspace/dut_mb_v4lx60_template_pre_rapidsmith/hw/pcore
+   s/ring_osc_v1_02_a/data/ring_osc_v2_1_0.mpd line 28 
+INFO:EDK:4130 - IPNAME: ring_osc, INSTANCE:ring_osc_6 - tool is overriding
+   PARAMETER C_SPLB_NUM_MASTERS value to 2 -
+   /home/adam/ROPUF/EDK_workspace/dut_mb_v4lx60_template_pre_rapidsmith/hw/pcore
+   s/ring_osc_v1_02_a/data/ring_osc_v2_1_0.mpd line 29 
+INFO:EDK:4130 - IPNAME: ring_osc, INSTANCE:ring_osc_6 - tool is overriding
+   PARAMETER C_SPLB_MID_WIDTH value to 1 -
+   /home/adam/ROPUF/EDK_workspace/dut_mb_v4lx60_template_pre_rapidsmith/hw/pcore
+   s/ring_osc_v1_02_a/data/ring_osc_v2_1_0.mpd line 30 
+INFO:EDK:4130 - IPNAME: ring_osc, INSTANCE:ring_osc_7 - tool is overriding
+   PARAMETER C_SPLB_DWIDTH value to 32 -
+   /home/adam/ROPUF/EDK_workspace/dut_mb_v4lx60_template_pre_rapidsmith/hw/pcore
+   s/ring_osc_v1_02_a/data/ring_osc_v2_1_0.mpd line 28 
+INFO:EDK:4130 - IPNAME: ring_osc, INSTANCE:ring_osc_7 - tool is overriding
+   PARAMETER C_SPLB_NUM_MASTERS value to 2 -
+   /home/adam/ROPUF/EDK_workspace/dut_mb_v4lx60_template_pre_rapidsmith/hw/pcore
+   s/ring_osc_v1_02_a/data/ring_osc_v2_1_0.mpd line 29 
+INFO:EDK:4130 - IPNAME: ring_osc, INSTANCE:ring_osc_7 - tool is overriding
+   PARAMETER C_SPLB_MID_WIDTH value to 1 -
+   /home/adam/ROPUF/EDK_workspace/dut_mb_v4lx60_template_pre_rapidsmith/hw/pcore
+   s/ring_osc_v1_02_a/data/ring_osc_v2_1_0.mpd line 30 
+
+Checking platform address map ...
+
+Initializing Memory...
+Running Data2Mem with the following command:
+data2mem -bm implementation/system_bd -p xc4vlx60ff668-10 -bt
+implementation/system.bit  -bd bootloops/microblaze_0.elf tag microblaze_0  -o b
+implementation/download.bit 
+Memory Initialization completed successfully.
+

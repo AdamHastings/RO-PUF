@@ -1,18 +1,18 @@
 
 Checking platform configuration ...
-IPNAME: plb_v46, INSTANCE: mb_plb - 2 master(s) : 13 slave(s) 
+IPNAME: plb_v46, INSTANCE: mb_plb - 2 master(s) : 21 slave(s) 
 IPNAME: lmb_v10, INSTANCE: ilmb - 1 master(s) : 1 slave(s) 
 IPNAME: lmb_v10, INSTANCE: dlmb - 1 master(s) : 1 slave(s) 
 
 Checking port drivers...
 WARNING:EDK:4181 - PORT: Res, CONNECTOR: fpga_0_ORGate_1_Res_pin - floating
    connection -
-   /home/adam/ROPUF/EDK_workspace/dut_mb_v4lx60_template_pre_rapidsmith/hw/syste
-   m.mhs line 109 
+   /home/adam/RO-PUF/EDK_workspace/dut_mb_v4lx60_template_pre_rapidsmith/hw/syst
+   em.mhs line 109 
 WARNING:EDK:4181 - PORT: Peripheral_Reset, CONNECTOR: sys_periph_reset -
    floating connection -
-   /home/adam/ROPUF/EDK_workspace/dut_mb_v4lx60_template_pre_rapidsmith/hw/syste
-   m.mhs line 149 
+   /home/adam/RO-PUF/EDK_workspace/dut_mb_v4lx60_template_pre_rapidsmith/hw/syst
+   em.mhs line 149 
 
 Performing Clock DRCs...
 

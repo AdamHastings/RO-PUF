@@ -1,12 +1,14 @@
-Release 14.4 - xst P.49d (nt64)
+Release 14.4 - xst P.49d (lin64)
 Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
---> Parameter TMPDIR set to E:\Adam\Characterizing\characterizer_planahead\dut_mb_v4lx60_template_pre_rapidsmith\hw\synthesis\xst_temp_dir\
+--> 
+Parameter TMPDIR set to /home/adam/RO-PUF/EDK_workspace/dut_mb_v4lx60_template_pre_rapidsmith/hw/synthesis/xst_temp_dir/
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.09 secs
+Total CPU time to Xst completion: 0.05 secs
  
 --> 
+
 TABLE OF CONTENTS
   1) Synthesis Options Summary
   2) HDL Compilation
@@ -30,10 +32,10 @@ TABLE OF CONTENTS
 ---- Source Parameters
 Input Format                       : MIXED
 Input File Name                    : "system_ilmb_cntlr_wrapper_xst.prj"
-Verilog Include Directory          : {"E:\Adam\Characterizing\characterizer_planahead\dut_mb_v4lx60_template_pre_rapidsmith\hw\pcores\" "E:\Xilinx\14.4\ISE_DS\EDK\hw\XilinxBFMinterface\pcores\" "E:\Xilinx\14.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\" }
+Verilog Include Directory          : {"/home/adam/RO-PUF/EDK_workspace/dut_mb_v4lx60_template_pre_rapidsmith/hw/pcores/" "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxBFMinterface/pcores/" "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/" }
 
 ---- Target Parameters
-Target Device                      : xc4vlx60ff668-11
+Target Device                      : xc4vlx60ff668-10
 Output File Name                   : "../implementation/system_ilmb_cntlr_wrapper.ngc"
 
 ---- Source Options
@@ -57,43 +59,43 @@ Cores Search Directories           : {../implementation}
 =========================================================================
 *                          HDL Compilation                              *
 =========================================================================
-Compiling vhdl file "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/lmb_bram_if_cntlr_v3_10_c/hdl/vhdl/pselect.vhd" in Library lmb_bram_if_cntlr_v3_10_c.
+Compiling vhdl file "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/lmb_bram_if_cntlr_v3_10_c/hdl/vhdl/pselect.vhd" in Library lmb_bram_if_cntlr_v3_10_c.
 Entity <pselect> compiled.
 Entity <pselect> (Architecture <imp>) compiled.
-Compiling vhdl file "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/lmb_bram_if_cntlr_v3_10_c/hdl/vhdl/xor18.vhd" in Library lmb_bram_if_cntlr_v3_10_c.
+Compiling vhdl file "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/lmb_bram_if_cntlr_v3_10_c/hdl/vhdl/xor18.vhd" in Library lmb_bram_if_cntlr_v3_10_c.
 Entity <XOR18> compiled.
 Entity <XOR18> (Architecture <IMP>) compiled.
-Compiling vhdl file "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/lmb_bram_if_cntlr_v3_10_c/hdl/vhdl/parity.vhd" in Library lmb_bram_if_cntlr_v3_10_c.
+Compiling vhdl file "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/lmb_bram_if_cntlr_v3_10_c/hdl/vhdl/parity.vhd" in Library lmb_bram_if_cntlr_v3_10_c.
 Entity <Parity> compiled.
 Entity <Parity> (Architecture <IMP>) compiled.
-Compiling vhdl file "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/lmb_bram_if_cntlr_v3_10_c/hdl/vhdl/parityenable.vhd" in Library lmb_bram_if_cntlr_v3_10_c.
+Compiling vhdl file "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/lmb_bram_if_cntlr_v3_10_c/hdl/vhdl/parityenable.vhd" in Library lmb_bram_if_cntlr_v3_10_c.
 Entity <ParityEnable> compiled.
 Entity <ParityEnable> (Architecture <IMP>) compiled.
-Compiling vhdl file "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/lmb_bram_if_cntlr_v3_10_c/hdl/vhdl/pselect_mask.vhd" in Library lmb_bram_if_cntlr_v3_10_c.
+Compiling vhdl file "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/lmb_bram_if_cntlr_v3_10_c/hdl/vhdl/pselect_mask.vhd" in Library lmb_bram_if_cntlr_v3_10_c.
 Entity <pselect_mask> compiled.
 Entity <pselect_mask> (Architecture <imp>) compiled.
-Compiling vhdl file "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/lmb_bram_if_cntlr_v3_10_c/hdl/vhdl/lmb_mux.vhd" in Library lmb_bram_if_cntlr_v3_10_c.
+Compiling vhdl file "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/lmb_bram_if_cntlr_v3_10_c/hdl/vhdl/lmb_mux.vhd" in Library lmb_bram_if_cntlr_v3_10_c.
 Entity <lmb_mux> compiled.
 Entity <lmb_mux> (Architecture <imp>) compiled.
-Compiling vhdl file "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/lmb_bram_if_cntlr_v3_10_c/hdl/vhdl/checkbit_handler.vhd" in Library lmb_bram_if_cntlr_v3_10_c.
+Compiling vhdl file "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/lmb_bram_if_cntlr_v3_10_c/hdl/vhdl/checkbit_handler.vhd" in Library lmb_bram_if_cntlr_v3_10_c.
 Entity <checkbit_handler> compiled.
 Entity <checkbit_handler> (Architecture <IMP>) compiled.
-Compiling vhdl file "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/lmb_bram_if_cntlr_v3_10_c/hdl/vhdl/correct_one_bit.vhd" in Library lmb_bram_if_cntlr_v3_10_c.
+Compiling vhdl file "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/lmb_bram_if_cntlr_v3_10_c/hdl/vhdl/correct_one_bit.vhd" in Library lmb_bram_if_cntlr_v3_10_c.
 Entity <Correct_One_Bit> compiled.
 Entity <Correct_One_Bit> (Architecture <IMP>) compiled.
-Compiling vhdl file "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/lmb_bram_if_cntlr_v3_10_c/hdl/vhdl/plb_interface.vhd" in Library lmb_bram_if_cntlr_v3_10_c.
+Compiling vhdl file "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/lmb_bram_if_cntlr_v3_10_c/hdl/vhdl/plb_interface.vhd" in Library lmb_bram_if_cntlr_v3_10_c.
 Entity <plb_interface> compiled.
 Entity <plb_interface> (Architecture <IMP>) compiled.
-Compiling vhdl file "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/lmb_bram_if_cntlr_v3_10_c/hdl/vhdl/axi_interface.vhd" in Library lmb_bram_if_cntlr_v3_10_c.
+Compiling vhdl file "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/lmb_bram_if_cntlr_v3_10_c/hdl/vhdl/axi_interface.vhd" in Library lmb_bram_if_cntlr_v3_10_c.
 Entity <axi_interface> compiled.
 Entity <axi_interface> (Architecture <IMP>) compiled.
-Compiling vhdl file "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/lmb_bram_if_cntlr_v3_10_c/hdl/vhdl/lmb_bram_if_funcs.vhd" in Library lmb_bram_if_cntlr_v3_10_c.
+Compiling vhdl file "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/lmb_bram_if_cntlr_v3_10_c/hdl/vhdl/lmb_bram_if_funcs.vhd" in Library lmb_bram_if_cntlr_v3_10_c.
 Package <lmb_bram_if_funcs> compiled.
 Package body <lmb_bram_if_funcs> compiled.
-Compiling vhdl file "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/lmb_bram_if_cntlr_v3_10_c/hdl/vhdl/lmb_bram_if_cntlr.vhd" in Library lmb_bram_if_cntlr_v3_10_c.
+Compiling vhdl file "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/lmb_bram_if_cntlr_v3_10_c/hdl/vhdl/lmb_bram_if_cntlr.vhd" in Library lmb_bram_if_cntlr_v3_10_c.
 Entity <lmb_bram_if_cntlr> compiled.
 Entity <lmb_bram_if_cntlr> (Architecture <imp>) compiled.
-Compiling vhdl file "E:/Adam/Characterizing/characterizer_planahead/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/system_ilmb_cntlr_wrapper.vhd" in Library work.
+Compiling vhdl file "/home/adam/RO-PUF/EDK_workspace/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/system_ilmb_cntlr_wrapper.vhd" in Library work.
 Entity <system_ilmb_cntlr_wrapper> compiled.
 Entity <system_ilmb_cntlr_wrapper> (Architecture <STRUCTURE>) compiled.
 
@@ -220,13 +222,13 @@ Entity <pselect_mask> analyzed. Unit <pselect_mask> generated.
 Performing bidirectional port resolution...
 
 Synthesizing Unit <pselect_mask>.
-    Related source file is "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/lmb_bram_if_cntlr_v3_10_c/hdl/vhdl/pselect_mask.vhd".
+    Related source file is "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/lmb_bram_if_cntlr_v3_10_c/hdl/vhdl/pselect_mask.vhd".
 WARNING:Xst:647 - Input <A<1:31>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 Unit <pselect_mask> synthesized.
 
 
 Synthesizing Unit <lmb_mux>.
-    Related source file is "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/lmb_bram_if_cntlr_v3_10_c/hdl/vhdl/lmb_mux.vhd".
+    Related source file is "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/lmb_bram_if_cntlr_v3_10_c/hdl/vhdl/lmb_mux.vhd".
 WARNING:Xst:647 - Input <LMB1_ReadStrobe> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <LMB2_ABus> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <LMB_Rst> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
@@ -251,7 +253,7 @@ Unit <lmb_mux> synthesized.
 
 
 Synthesizing Unit <lmb_bram_if_cntlr>.
-    Related source file is "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/lmb_bram_if_cntlr_v3_10_c/hdl/vhdl/lmb_bram_if_cntlr.vhd".
+    Related source file is "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/lmb_bram_if_cntlr_v3_10_c/hdl/vhdl/lmb_bram_if_cntlr.vhd".
 WARNING:Xst:647 - Input <SPLB_CTRL_PLB_RNW> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <SPLB_CTRL_PLB_rdPendReq> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <SPLB_CTRL_PLB_rdPendPri> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
@@ -296,7 +298,7 @@ Unit <lmb_bram_if_cntlr> synthesized.
 
 
 Synthesizing Unit <system_ilmb_cntlr_wrapper>.
-    Related source file is "E:/Adam/Characterizing/characterizer_planahead/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/system_ilmb_cntlr_wrapper.vhd".
+    Related source file is "/home/adam/RO-PUF/EDK_workspace/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/system_ilmb_cntlr_wrapper.vhd".
 Unit <system_ilmb_cntlr_wrapper> synthesized.
 
 
@@ -381,7 +383,7 @@ Cell Usage :
 Device utilization summary:
 ---------------------------
 
-Selected Device : 4vlx60ff668-11 
+Selected Device : 4vlx60ff668-10 
 
  Number of Slices:                        3  out of  26624     0%  
  Number of Slice Flip Flops:              2  out of  53248     0%  
@@ -420,12 +422,12 @@ No asynchronous control signals found in this design
 
 Timing Summary:
 ---------------
-Speed Grade: -11
+Speed Grade: -10
 
    Minimum period: No path found
-   Minimum input arrival time before clock: 0.906ns
-   Maximum output required time after clock: 0.978ns
-   Maximum combinational path delay: 0.446ns
+   Minimum input arrival time before clock: 1.062ns
+   Maximum output required time after clock: 1.140ns
+   Maximum combinational path delay: 0.523ns
 
 Timing Detail:
 --------------
@@ -435,7 +437,7 @@ All values displayed in nanoseconds (ns)
 Timing constraint: Default OFFSET IN BEFORE for Clock 'BRAM_Clk_A'
   Total number of paths / destination ports: 4 / 4
 -------------------------------------------------------------------------
-Offset:              0.906ns (Levels of Logic = 0)
+Offset:              1.062ns (Levels of Logic = 0)
   Source:            LMB_Rst (PAD)
   Destination:       ilmb_cntlr/Sl_Rdy (FF)
   Destination Clock: BRAM_Clk_A rising
@@ -444,16 +446,16 @@ Offset:              0.906ns (Levels of Logic = 0)
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     FDR:R                     0.906          ilmb_cntlr/lmb_as
+     FDR:R                     1.062          ilmb_cntlr/lmb_as
     ----------------------------------------
-    Total                      0.906ns (0.906ns logic, 0.000ns route)
+    Total                      1.062ns (1.062ns logic, 0.000ns route)
                                        (100.0% logic, 0.0% route)
 
 =========================================================================
 Timing constraint: Default OFFSET OUT AFTER for Clock 'BRAM_Clk_A'
   Total number of paths / destination ports: 2 / 1
 -------------------------------------------------------------------------
-Offset:              0.978ns (Levels of Logic = 1)
+Offset:              1.140ns (Levels of Logic = 1)
   Source:            ilmb_cntlr/Sl_Rdy (FF)
   Destination:       Sl_Ready (PAD)
   Source Clock:      BRAM_Clk_A rising
@@ -462,17 +464,17 @@ Offset:              0.978ns (Levels of Logic = 1)
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     FDR:C->Q              1   0.307   0.505  ilmb_cntlr/Sl_Rdy (ilmb_cntlr/Sl_Rdy)
-     LUT2:I0->O            0   0.166   0.000  ilmb_cntlr/Sl_Ready_i1 (Sl_Ready)
+     FDR:C->Q              1   0.360   0.585  ilmb_cntlr/Sl_Rdy (ilmb_cntlr/Sl_Rdy)
+     LUT2:I0->O            0   0.195   0.000  ilmb_cntlr/Sl_Ready_i1 (Sl_Ready)
     ----------------------------------------
-    Total                      0.978ns (0.473ns logic, 0.505ns route)
-                                       (48.4% logic, 51.6% route)
+    Total                      1.140ns (0.555ns logic, 0.585ns route)
+                                       (48.7% logic, 51.3% route)
 
 =========================================================================
 Timing constraint: Default path analysis
   Total number of paths / destination ports: 110 / 102
 -------------------------------------------------------------------------
-Delay:               0.446ns (Levels of Logic = 1)
+Delay:               0.523ns (Levels of Logic = 1)
   Source:            LMB_BE<0> (PAD)
   Destination:       BRAM_WEN_A<0> (PAD)
 
@@ -480,20 +482,21 @@ Delay:               0.446ns (Levels of Logic = 1)
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     LUT3:I0->O            0   0.166   0.000  ilmb_cntlr/lmb_we_0_and00001 (BRAM_WEN_A<0>)
+     LUT3:I0->O            0   0.195   0.000  ilmb_cntlr/lmb_we_0_and00001 (BRAM_WEN_A<0>)
     ----------------------------------------
-    Total                      0.446ns (0.446ns logic, 0.000ns route)
+    Total                      0.523ns (0.523ns logic, 0.000ns route)
                                        (100.0% logic, 0.0% route)
 
 =========================================================================
 
 
-Total REAL time to Xst completion: 6.00 secs
-Total CPU time to Xst completion: 6.03 secs
+Total REAL time to Xst completion: 4.00 secs
+Total CPU time to Xst completion: 4.89 secs
  
 --> 
 
-Total memory usage is 290328 kilobytes
+
+Total memory usage is 551344 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :   57 (   0 filtered)

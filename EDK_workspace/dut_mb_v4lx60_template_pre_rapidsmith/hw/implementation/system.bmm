@@ -1,4 +1,4 @@
-// File: /home/adam/ROPUF/EDK_workspace/dut_mb_v4lx60_template_pre_rapidsmith/hw/implementation/system.bmm
+// File: /home/adam/RO-PUF/EDK_workspace/dut_mb_v4lx60_template_pre_rapidsmith/hw/implementation/system.bmm
 
 ADDRESS_MAP microblaze_0 MICROBLAZE 100
 	ADDRESS_SPACE lmb_bram_combined COMBINED [0x00000000:0x00007fff]

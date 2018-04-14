@@ -1,12 +1,14 @@
-Release 14.4 - xst P.49d (nt64)
+Release 14.4 - xst P.49d (lin64)
 Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
---> Parameter TMPDIR set to E:\Adam\Characterizing\characterizer_planahead\dut_mb_v4lx60_template_pre_rapidsmith\hw\synthesis\xst_temp_dir\
+--> 
+Parameter TMPDIR set to /home/adam/RO-PUF/EDK_workspace/dut_mb_v4lx60_template_pre_rapidsmith/hw/synthesis/xst_temp_dir/
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.09 secs
+Total CPU time to Xst completion: 0.04 secs
  
 --> 
+
 TABLE OF CONTENTS
   1) Synthesis Options Summary
   2) HDL Compilation
@@ -30,10 +32,10 @@ TABLE OF CONTENTS
 ---- Source Parameters
 Input Format                       : MIXED
 Input File Name                    : "system_lmb_bram_wrapper_xst.prj"
-Verilog Include Directory          : {"E:\Adam\Characterizing\characterizer_planahead\dut_mb_v4lx60_template_pre_rapidsmith\hw\pcores\" "E:\Xilinx\14.4\ISE_DS\EDK\hw\XilinxBFMinterface\pcores\" "E:\Xilinx\14.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\" }
+Verilog Include Directory          : {"/home/adam/RO-PUF/EDK_workspace/dut_mb_v4lx60_template_pre_rapidsmith/hw/pcores/" "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxBFMinterface/pcores/" "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/" }
 
 ---- Target Parameters
-Target Device                      : xc4vlx60ff668-11
+Target Device                      : xc4vlx60ff668-10
 Output File Name                   : "../implementation/system_lmb_bram_wrapper.ngc"
 
 ---- Source Options
@@ -57,10 +59,10 @@ Cores Search Directories           : {../implementation}
 =========================================================================
 *                          HDL Compilation                              *
 =========================================================================
-Compiling vhdl file "E:/Adam/Characterizing/characterizer_planahead/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" in Library lmb_bram_elaborate_v1_00_a.
+Compiling vhdl file "/home/adam/RO-PUF/EDK_workspace/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" in Library lmb_bram_elaborate_v1_00_a.
 Entity <lmb_bram_elaborate> compiled.
 Entity <lmb_bram_elaborate> (Architecture <STRUCTURE>) compiled.
-Compiling vhdl file "E:/Adam/Characterizing/characterizer_planahead/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/system_lmb_bram_wrapper.vhd" in Library work.
+Compiling vhdl file "/home/adam/RO-PUF/EDK_workspace/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/system_lmb_bram_wrapper.vhd" in Library work.
 Entity <system_lmb_bram_wrapper> compiled.
 Entity <system_lmb_bram_wrapper> (Architecture <STRUCTURE>) compiled.
 
@@ -91,11 +93,11 @@ Analyzing generic Entity <lmb_bram_elaborate> in library <lmb_bram_elaborate_v1_
 	C_NUM_WE = 4
 	C_PORT_AWIDTH = 32
 	C_PORT_DWIDTH = 32
-WARNING:Xst:753 - "E:/Adam/Characterizing/characterizer_planahead/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 566: Unconnected output port 'CASCADEOUTA' of component 'RAMB16'.
-WARNING:Xst:753 - "E:/Adam/Characterizing/characterizer_planahead/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 566: Unconnected output port 'DOPA' of component 'RAMB16'.
-WARNING:Xst:753 - "E:/Adam/Characterizing/characterizer_planahead/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 566: Unconnected output port 'CASCADEOUTB' of component 'RAMB16'.
-WARNING:Xst:753 - "E:/Adam/Characterizing/characterizer_planahead/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 566: Unconnected output port 'DOPB' of component 'RAMB16'.
-WARNING:Xst:2211 - "E:/Adam/Characterizing/characterizer_planahead/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 566: Instantiating black box module <RAMB16>.
+WARNING:Xst:753 - "/home/adam/RO-PUF/EDK_workspace/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 566: Unconnected output port 'CASCADEOUTA' of component 'RAMB16'.
+WARNING:Xst:753 - "/home/adam/RO-PUF/EDK_workspace/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 566: Unconnected output port 'DOPA' of component 'RAMB16'.
+WARNING:Xst:753 - "/home/adam/RO-PUF/EDK_workspace/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 566: Unconnected output port 'CASCADEOUTB' of component 'RAMB16'.
+WARNING:Xst:753 - "/home/adam/RO-PUF/EDK_workspace/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 566: Unconnected output port 'DOPB' of component 'RAMB16'.
+WARNING:Xst:2211 - "/home/adam/RO-PUF/EDK_workspace/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 566: Instantiating black box module <RAMB16>.
     Set user-defined property "BMM_INFO =   " for instance <ramb16_0> in unit <lmb_bram_elaborate>.
     Set user-defined property "INIT_FILE =  lmb_bram_combined_0.mem" for instance <ramb16_0> in unit <lmb_bram_elaborate>.
     Set user-defined property "RAM_EXTENSION_A =  NONE" for instance <ramb16_0> in unit <lmb_bram_elaborate>.
@@ -106,11 +108,11 @@ WARNING:Xst:2211 - "E:/Adam/Characterizing/characterizer_planahead/dut_mb_v4lx60
     Set user-defined property "WRITE_MODE_B =  WRITE_FIRST" for instance <ramb16_0> in unit <lmb_bram_elaborate>.
     Set user-defined property "WRITE_WIDTH_A =  2" for instance <ramb16_0> in unit <lmb_bram_elaborate>.
     Set user-defined property "WRITE_WIDTH_B =  2" for instance <ramb16_0> in unit <lmb_bram_elaborate>.
-WARNING:Xst:753 - "E:/Adam/Characterizing/characterizer_planahead/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 605: Unconnected output port 'CASCADEOUTA' of component 'RAMB16'.
-WARNING:Xst:753 - "E:/Adam/Characterizing/characterizer_planahead/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 605: Unconnected output port 'DOPA' of component 'RAMB16'.
-WARNING:Xst:753 - "E:/Adam/Characterizing/characterizer_planahead/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 605: Unconnected output port 'CASCADEOUTB' of component 'RAMB16'.
-WARNING:Xst:753 - "E:/Adam/Characterizing/characterizer_planahead/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 605: Unconnected output port 'DOPB' of component 'RAMB16'.
-WARNING:Xst:2211 - "E:/Adam/Characterizing/characterizer_planahead/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 605: Instantiating black box module <RAMB16>.
+WARNING:Xst:753 - "/home/adam/RO-PUF/EDK_workspace/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 605: Unconnected output port 'CASCADEOUTA' of component 'RAMB16'.
+WARNING:Xst:753 - "/home/adam/RO-PUF/EDK_workspace/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 605: Unconnected output port 'DOPA' of component 'RAMB16'.
+WARNING:Xst:753 - "/home/adam/RO-PUF/EDK_workspace/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 605: Unconnected output port 'CASCADEOUTB' of component 'RAMB16'.
+WARNING:Xst:753 - "/home/adam/RO-PUF/EDK_workspace/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 605: Unconnected output port 'DOPB' of component 'RAMB16'.
+WARNING:Xst:2211 - "/home/adam/RO-PUF/EDK_workspace/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 605: Instantiating black box module <RAMB16>.
     Set user-defined property "BMM_INFO =   " for instance <ramb16_1> in unit <lmb_bram_elaborate>.
     Set user-defined property "INIT_FILE =  lmb_bram_combined_1.mem" for instance <ramb16_1> in unit <lmb_bram_elaborate>.
     Set user-defined property "RAM_EXTENSION_A =  NONE" for instance <ramb16_1> in unit <lmb_bram_elaborate>.
@@ -121,11 +123,11 @@ WARNING:Xst:2211 - "E:/Adam/Characterizing/characterizer_planahead/dut_mb_v4lx60
     Set user-defined property "WRITE_MODE_B =  WRITE_FIRST" for instance <ramb16_1> in unit <lmb_bram_elaborate>.
     Set user-defined property "WRITE_WIDTH_A =  2" for instance <ramb16_1> in unit <lmb_bram_elaborate>.
     Set user-defined property "WRITE_WIDTH_B =  2" for instance <ramb16_1> in unit <lmb_bram_elaborate>.
-WARNING:Xst:753 - "E:/Adam/Characterizing/characterizer_planahead/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 644: Unconnected output port 'CASCADEOUTA' of component 'RAMB16'.
-WARNING:Xst:753 - "E:/Adam/Characterizing/characterizer_planahead/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 644: Unconnected output port 'DOPA' of component 'RAMB16'.
-WARNING:Xst:753 - "E:/Adam/Characterizing/characterizer_planahead/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 644: Unconnected output port 'CASCADEOUTB' of component 'RAMB16'.
-WARNING:Xst:753 - "E:/Adam/Characterizing/characterizer_planahead/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 644: Unconnected output port 'DOPB' of component 'RAMB16'.
-WARNING:Xst:2211 - "E:/Adam/Characterizing/characterizer_planahead/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 644: Instantiating black box module <RAMB16>.
+WARNING:Xst:753 - "/home/adam/RO-PUF/EDK_workspace/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 644: Unconnected output port 'CASCADEOUTA' of component 'RAMB16'.
+WARNING:Xst:753 - "/home/adam/RO-PUF/EDK_workspace/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 644: Unconnected output port 'DOPA' of component 'RAMB16'.
+WARNING:Xst:753 - "/home/adam/RO-PUF/EDK_workspace/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 644: Unconnected output port 'CASCADEOUTB' of component 'RAMB16'.
+WARNING:Xst:753 - "/home/adam/RO-PUF/EDK_workspace/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 644: Unconnected output port 'DOPB' of component 'RAMB16'.
+WARNING:Xst:2211 - "/home/adam/RO-PUF/EDK_workspace/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 644: Instantiating black box module <RAMB16>.
     Set user-defined property "BMM_INFO =   " for instance <ramb16_2> in unit <lmb_bram_elaborate>.
     Set user-defined property "INIT_FILE =  lmb_bram_combined_2.mem" for instance <ramb16_2> in unit <lmb_bram_elaborate>.
     Set user-defined property "RAM_EXTENSION_A =  NONE" for instance <ramb16_2> in unit <lmb_bram_elaborate>.
@@ -136,11 +138,11 @@ WARNING:Xst:2211 - "E:/Adam/Characterizing/characterizer_planahead/dut_mb_v4lx60
     Set user-defined property "WRITE_MODE_B =  WRITE_FIRST" for instance <ramb16_2> in unit <lmb_bram_elaborate>.
     Set user-defined property "WRITE_WIDTH_A =  2" for instance <ramb16_2> in unit <lmb_bram_elaborate>.
     Set user-defined property "WRITE_WIDTH_B =  2" for instance <ramb16_2> in unit <lmb_bram_elaborate>.
-WARNING:Xst:753 - "E:/Adam/Characterizing/characterizer_planahead/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 683: Unconnected output port 'CASCADEOUTA' of component 'RAMB16'.
-WARNING:Xst:753 - "E:/Adam/Characterizing/characterizer_planahead/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 683: Unconnected output port 'DOPA' of component 'RAMB16'.
-WARNING:Xst:753 - "E:/Adam/Characterizing/characterizer_planahead/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 683: Unconnected output port 'CASCADEOUTB' of component 'RAMB16'.
-WARNING:Xst:753 - "E:/Adam/Characterizing/characterizer_planahead/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 683: Unconnected output port 'DOPB' of component 'RAMB16'.
-WARNING:Xst:2211 - "E:/Adam/Characterizing/characterizer_planahead/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 683: Instantiating black box module <RAMB16>.
+WARNING:Xst:753 - "/home/adam/RO-PUF/EDK_workspace/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 683: Unconnected output port 'CASCADEOUTA' of component 'RAMB16'.
+WARNING:Xst:753 - "/home/adam/RO-PUF/EDK_workspace/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 683: Unconnected output port 'DOPA' of component 'RAMB16'.
+WARNING:Xst:753 - "/home/adam/RO-PUF/EDK_workspace/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 683: Unconnected output port 'CASCADEOUTB' of component 'RAMB16'.
+WARNING:Xst:753 - "/home/adam/RO-PUF/EDK_workspace/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 683: Unconnected output port 'DOPB' of component 'RAMB16'.
+WARNING:Xst:2211 - "/home/adam/RO-PUF/EDK_workspace/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 683: Instantiating black box module <RAMB16>.
     Set user-defined property "BMM_INFO =   " for instance <ramb16_3> in unit <lmb_bram_elaborate>.
     Set user-defined property "INIT_FILE =  lmb_bram_combined_3.mem" for instance <ramb16_3> in unit <lmb_bram_elaborate>.
     Set user-defined property "RAM_EXTENSION_A =  NONE" for instance <ramb16_3> in unit <lmb_bram_elaborate>.
@@ -151,11 +153,11 @@ WARNING:Xst:2211 - "E:/Adam/Characterizing/characterizer_planahead/dut_mb_v4lx60
     Set user-defined property "WRITE_MODE_B =  WRITE_FIRST" for instance <ramb16_3> in unit <lmb_bram_elaborate>.
     Set user-defined property "WRITE_WIDTH_A =  2" for instance <ramb16_3> in unit <lmb_bram_elaborate>.
     Set user-defined property "WRITE_WIDTH_B =  2" for instance <ramb16_3> in unit <lmb_bram_elaborate>.
-WARNING:Xst:753 - "E:/Adam/Characterizing/characterizer_planahead/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 722: Unconnected output port 'CASCADEOUTA' of component 'RAMB16'.
-WARNING:Xst:753 - "E:/Adam/Characterizing/characterizer_planahead/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 722: Unconnected output port 'DOPA' of component 'RAMB16'.
-WARNING:Xst:753 - "E:/Adam/Characterizing/characterizer_planahead/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 722: Unconnected output port 'CASCADEOUTB' of component 'RAMB16'.
-WARNING:Xst:753 - "E:/Adam/Characterizing/characterizer_planahead/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 722: Unconnected output port 'DOPB' of component 'RAMB16'.
-WARNING:Xst:2211 - "E:/Adam/Characterizing/characterizer_planahead/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 722: Instantiating black box module <RAMB16>.
+WARNING:Xst:753 - "/home/adam/RO-PUF/EDK_workspace/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 722: Unconnected output port 'CASCADEOUTA' of component 'RAMB16'.
+WARNING:Xst:753 - "/home/adam/RO-PUF/EDK_workspace/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 722: Unconnected output port 'DOPA' of component 'RAMB16'.
+WARNING:Xst:753 - "/home/adam/RO-PUF/EDK_workspace/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 722: Unconnected output port 'CASCADEOUTB' of component 'RAMB16'.
+WARNING:Xst:753 - "/home/adam/RO-PUF/EDK_workspace/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 722: Unconnected output port 'DOPB' of component 'RAMB16'.
+WARNING:Xst:2211 - "/home/adam/RO-PUF/EDK_workspace/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 722: Instantiating black box module <RAMB16>.
     Set user-defined property "BMM_INFO =   " for instance <ramb16_4> in unit <lmb_bram_elaborate>.
     Set user-defined property "INIT_FILE =  lmb_bram_combined_4.mem" for instance <ramb16_4> in unit <lmb_bram_elaborate>.
     Set user-defined property "RAM_EXTENSION_A =  NONE" for instance <ramb16_4> in unit <lmb_bram_elaborate>.
@@ -166,11 +168,11 @@ WARNING:Xst:2211 - "E:/Adam/Characterizing/characterizer_planahead/dut_mb_v4lx60
     Set user-defined property "WRITE_MODE_B =  WRITE_FIRST" for instance <ramb16_4> in unit <lmb_bram_elaborate>.
     Set user-defined property "WRITE_WIDTH_A =  2" for instance <ramb16_4> in unit <lmb_bram_elaborate>.
     Set user-defined property "WRITE_WIDTH_B =  2" for instance <ramb16_4> in unit <lmb_bram_elaborate>.
-WARNING:Xst:753 - "E:/Adam/Characterizing/characterizer_planahead/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 761: Unconnected output port 'CASCADEOUTA' of component 'RAMB16'.
-WARNING:Xst:753 - "E:/Adam/Characterizing/characterizer_planahead/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 761: Unconnected output port 'DOPA' of component 'RAMB16'.
-WARNING:Xst:753 - "E:/Adam/Characterizing/characterizer_planahead/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 761: Unconnected output port 'CASCADEOUTB' of component 'RAMB16'.
-WARNING:Xst:753 - "E:/Adam/Characterizing/characterizer_planahead/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 761: Unconnected output port 'DOPB' of component 'RAMB16'.
-WARNING:Xst:2211 - "E:/Adam/Characterizing/characterizer_planahead/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 761: Instantiating black box module <RAMB16>.
+WARNING:Xst:753 - "/home/adam/RO-PUF/EDK_workspace/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 761: Unconnected output port 'CASCADEOUTA' of component 'RAMB16'.
+WARNING:Xst:753 - "/home/adam/RO-PUF/EDK_workspace/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 761: Unconnected output port 'DOPA' of component 'RAMB16'.
+WARNING:Xst:753 - "/home/adam/RO-PUF/EDK_workspace/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 761: Unconnected output port 'CASCADEOUTB' of component 'RAMB16'.
+WARNING:Xst:753 - "/home/adam/RO-PUF/EDK_workspace/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 761: Unconnected output port 'DOPB' of component 'RAMB16'.
+WARNING:Xst:2211 - "/home/adam/RO-PUF/EDK_workspace/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 761: Instantiating black box module <RAMB16>.
     Set user-defined property "BMM_INFO =   " for instance <ramb16_5> in unit <lmb_bram_elaborate>.
     Set user-defined property "INIT_FILE =  lmb_bram_combined_5.mem" for instance <ramb16_5> in unit <lmb_bram_elaborate>.
     Set user-defined property "RAM_EXTENSION_A =  NONE" for instance <ramb16_5> in unit <lmb_bram_elaborate>.
@@ -181,11 +183,11 @@ WARNING:Xst:2211 - "E:/Adam/Characterizing/characterizer_planahead/dut_mb_v4lx60
     Set user-defined property "WRITE_MODE_B =  WRITE_FIRST" for instance <ramb16_5> in unit <lmb_bram_elaborate>.
     Set user-defined property "WRITE_WIDTH_A =  2" for instance <ramb16_5> in unit <lmb_bram_elaborate>.
     Set user-defined property "WRITE_WIDTH_B =  2" for instance <ramb16_5> in unit <lmb_bram_elaborate>.
-WARNING:Xst:753 - "E:/Adam/Characterizing/characterizer_planahead/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 800: Unconnected output port 'CASCADEOUTA' of component 'RAMB16'.
-WARNING:Xst:753 - "E:/Adam/Characterizing/characterizer_planahead/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 800: Unconnected output port 'DOPA' of component 'RAMB16'.
-WARNING:Xst:753 - "E:/Adam/Characterizing/characterizer_planahead/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 800: Unconnected output port 'CASCADEOUTB' of component 'RAMB16'.
-WARNING:Xst:753 - "E:/Adam/Characterizing/characterizer_planahead/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 800: Unconnected output port 'DOPB' of component 'RAMB16'.
-WARNING:Xst:2211 - "E:/Adam/Characterizing/characterizer_planahead/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 800: Instantiating black box module <RAMB16>.
+WARNING:Xst:753 - "/home/adam/RO-PUF/EDK_workspace/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 800: Unconnected output port 'CASCADEOUTA' of component 'RAMB16'.
+WARNING:Xst:753 - "/home/adam/RO-PUF/EDK_workspace/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 800: Unconnected output port 'DOPA' of component 'RAMB16'.
+WARNING:Xst:753 - "/home/adam/RO-PUF/EDK_workspace/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 800: Unconnected output port 'CASCADEOUTB' of component 'RAMB16'.
+WARNING:Xst:753 - "/home/adam/RO-PUF/EDK_workspace/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 800: Unconnected output port 'DOPB' of component 'RAMB16'.
+WARNING:Xst:2211 - "/home/adam/RO-PUF/EDK_workspace/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 800: Instantiating black box module <RAMB16>.
     Set user-defined property "BMM_INFO =   " for instance <ramb16_6> in unit <lmb_bram_elaborate>.
     Set user-defined property "INIT_FILE =  lmb_bram_combined_6.mem" for instance <ramb16_6> in unit <lmb_bram_elaborate>.
     Set user-defined property "RAM_EXTENSION_A =  NONE" for instance <ramb16_6> in unit <lmb_bram_elaborate>.
@@ -196,11 +198,11 @@ WARNING:Xst:2211 - "E:/Adam/Characterizing/characterizer_planahead/dut_mb_v4lx60
     Set user-defined property "WRITE_MODE_B =  WRITE_FIRST" for instance <ramb16_6> in unit <lmb_bram_elaborate>.
     Set user-defined property "WRITE_WIDTH_A =  2" for instance <ramb16_6> in unit <lmb_bram_elaborate>.
     Set user-defined property "WRITE_WIDTH_B =  2" for instance <ramb16_6> in unit <lmb_bram_elaborate>.
-WARNING:Xst:753 - "E:/Adam/Characterizing/characterizer_planahead/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 839: Unconnected output port 'CASCADEOUTA' of component 'RAMB16'.
-WARNING:Xst:753 - "E:/Adam/Characterizing/characterizer_planahead/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 839: Unconnected output port 'DOPA' of component 'RAMB16'.
-WARNING:Xst:753 - "E:/Adam/Characterizing/characterizer_planahead/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 839: Unconnected output port 'CASCADEOUTB' of component 'RAMB16'.
-WARNING:Xst:753 - "E:/Adam/Characterizing/characterizer_planahead/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 839: Unconnected output port 'DOPB' of component 'RAMB16'.
-WARNING:Xst:2211 - "E:/Adam/Characterizing/characterizer_planahead/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 839: Instantiating black box module <RAMB16>.
+WARNING:Xst:753 - "/home/adam/RO-PUF/EDK_workspace/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 839: Unconnected output port 'CASCADEOUTA' of component 'RAMB16'.
+WARNING:Xst:753 - "/home/adam/RO-PUF/EDK_workspace/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 839: Unconnected output port 'DOPA' of component 'RAMB16'.
+WARNING:Xst:753 - "/home/adam/RO-PUF/EDK_workspace/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 839: Unconnected output port 'CASCADEOUTB' of component 'RAMB16'.
+WARNING:Xst:753 - "/home/adam/RO-PUF/EDK_workspace/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 839: Unconnected output port 'DOPB' of component 'RAMB16'.
+WARNING:Xst:2211 - "/home/adam/RO-PUF/EDK_workspace/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 839: Instantiating black box module <RAMB16>.
     Set user-defined property "BMM_INFO =   " for instance <ramb16_7> in unit <lmb_bram_elaborate>.
     Set user-defined property "INIT_FILE =  lmb_bram_combined_7.mem" for instance <ramb16_7> in unit <lmb_bram_elaborate>.
     Set user-defined property "RAM_EXTENSION_A =  NONE" for instance <ramb16_7> in unit <lmb_bram_elaborate>.
@@ -211,11 +213,11 @@ WARNING:Xst:2211 - "E:/Adam/Characterizing/characterizer_planahead/dut_mb_v4lx60
     Set user-defined property "WRITE_MODE_B =  WRITE_FIRST" for instance <ramb16_7> in unit <lmb_bram_elaborate>.
     Set user-defined property "WRITE_WIDTH_A =  2" for instance <ramb16_7> in unit <lmb_bram_elaborate>.
     Set user-defined property "WRITE_WIDTH_B =  2" for instance <ramb16_7> in unit <lmb_bram_elaborate>.
-WARNING:Xst:753 - "E:/Adam/Characterizing/characterizer_planahead/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 878: Unconnected output port 'CASCADEOUTA' of component 'RAMB16'.
-WARNING:Xst:753 - "E:/Adam/Characterizing/characterizer_planahead/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 878: Unconnected output port 'DOPA' of component 'RAMB16'.
-WARNING:Xst:753 - "E:/Adam/Characterizing/characterizer_planahead/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 878: Unconnected output port 'CASCADEOUTB' of component 'RAMB16'.
-WARNING:Xst:753 - "E:/Adam/Characterizing/characterizer_planahead/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 878: Unconnected output port 'DOPB' of component 'RAMB16'.
-WARNING:Xst:2211 - "E:/Adam/Characterizing/characterizer_planahead/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 878: Instantiating black box module <RAMB16>.
+WARNING:Xst:753 - "/home/adam/RO-PUF/EDK_workspace/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 878: Unconnected output port 'CASCADEOUTA' of component 'RAMB16'.
+WARNING:Xst:753 - "/home/adam/RO-PUF/EDK_workspace/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 878: Unconnected output port 'DOPA' of component 'RAMB16'.
+WARNING:Xst:753 - "/home/adam/RO-PUF/EDK_workspace/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 878: Unconnected output port 'CASCADEOUTB' of component 'RAMB16'.
+WARNING:Xst:753 - "/home/adam/RO-PUF/EDK_workspace/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 878: Unconnected output port 'DOPB' of component 'RAMB16'.
+WARNING:Xst:2211 - "/home/adam/RO-PUF/EDK_workspace/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 878: Instantiating black box module <RAMB16>.
     Set user-defined property "BMM_INFO =   " for instance <ramb16_8> in unit <lmb_bram_elaborate>.
     Set user-defined property "INIT_FILE =  lmb_bram_combined_8.mem" for instance <ramb16_8> in unit <lmb_bram_elaborate>.
     Set user-defined property "RAM_EXTENSION_A =  NONE" for instance <ramb16_8> in unit <lmb_bram_elaborate>.
@@ -226,11 +228,11 @@ WARNING:Xst:2211 - "E:/Adam/Characterizing/characterizer_planahead/dut_mb_v4lx60
     Set user-defined property "WRITE_MODE_B =  WRITE_FIRST" for instance <ramb16_8> in unit <lmb_bram_elaborate>.
     Set user-defined property "WRITE_WIDTH_A =  2" for instance <ramb16_8> in unit <lmb_bram_elaborate>.
     Set user-defined property "WRITE_WIDTH_B =  2" for instance <ramb16_8> in unit <lmb_bram_elaborate>.
-WARNING:Xst:753 - "E:/Adam/Characterizing/characterizer_planahead/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 917: Unconnected output port 'CASCADEOUTA' of component 'RAMB16'.
-WARNING:Xst:753 - "E:/Adam/Characterizing/characterizer_planahead/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 917: Unconnected output port 'DOPA' of component 'RAMB16'.
-WARNING:Xst:753 - "E:/Adam/Characterizing/characterizer_planahead/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 917: Unconnected output port 'CASCADEOUTB' of component 'RAMB16'.
-WARNING:Xst:753 - "E:/Adam/Characterizing/characterizer_planahead/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 917: Unconnected output port 'DOPB' of component 'RAMB16'.
-WARNING:Xst:2211 - "E:/Adam/Characterizing/characterizer_planahead/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 917: Instantiating black box module <RAMB16>.
+WARNING:Xst:753 - "/home/adam/RO-PUF/EDK_workspace/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 917: Unconnected output port 'CASCADEOUTA' of component 'RAMB16'.
+WARNING:Xst:753 - "/home/adam/RO-PUF/EDK_workspace/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 917: Unconnected output port 'DOPA' of component 'RAMB16'.
+WARNING:Xst:753 - "/home/adam/RO-PUF/EDK_workspace/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 917: Unconnected output port 'CASCADEOUTB' of component 'RAMB16'.
+WARNING:Xst:753 - "/home/adam/RO-PUF/EDK_workspace/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 917: Unconnected output port 'DOPB' of component 'RAMB16'.
+WARNING:Xst:2211 - "/home/adam/RO-PUF/EDK_workspace/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 917: Instantiating black box module <RAMB16>.
     Set user-defined property "BMM_INFO =   " for instance <ramb16_9> in unit <lmb_bram_elaborate>.
     Set user-defined property "INIT_FILE =  lmb_bram_combined_9.mem" for instance <ramb16_9> in unit <lmb_bram_elaborate>.
     Set user-defined property "RAM_EXTENSION_A =  NONE" for instance <ramb16_9> in unit <lmb_bram_elaborate>.
@@ -241,11 +243,11 @@ WARNING:Xst:2211 - "E:/Adam/Characterizing/characterizer_planahead/dut_mb_v4lx60
     Set user-defined property "WRITE_MODE_B =  WRITE_FIRST" for instance <ramb16_9> in unit <lmb_bram_elaborate>.
     Set user-defined property "WRITE_WIDTH_A =  2" for instance <ramb16_9> in unit <lmb_bram_elaborate>.
     Set user-defined property "WRITE_WIDTH_B =  2" for instance <ramb16_9> in unit <lmb_bram_elaborate>.
-WARNING:Xst:753 - "E:/Adam/Characterizing/characterizer_planahead/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 956: Unconnected output port 'CASCADEOUTA' of component 'RAMB16'.
-WARNING:Xst:753 - "E:/Adam/Characterizing/characterizer_planahead/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 956: Unconnected output port 'DOPA' of component 'RAMB16'.
-WARNING:Xst:753 - "E:/Adam/Characterizing/characterizer_planahead/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 956: Unconnected output port 'CASCADEOUTB' of component 'RAMB16'.
-WARNING:Xst:753 - "E:/Adam/Characterizing/characterizer_planahead/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 956: Unconnected output port 'DOPB' of component 'RAMB16'.
-WARNING:Xst:2211 - "E:/Adam/Characterizing/characterizer_planahead/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 956: Instantiating black box module <RAMB16>.
+WARNING:Xst:753 - "/home/adam/RO-PUF/EDK_workspace/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 956: Unconnected output port 'CASCADEOUTA' of component 'RAMB16'.
+WARNING:Xst:753 - "/home/adam/RO-PUF/EDK_workspace/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 956: Unconnected output port 'DOPA' of component 'RAMB16'.
+WARNING:Xst:753 - "/home/adam/RO-PUF/EDK_workspace/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 956: Unconnected output port 'CASCADEOUTB' of component 'RAMB16'.
+WARNING:Xst:753 - "/home/adam/RO-PUF/EDK_workspace/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 956: Unconnected output port 'DOPB' of component 'RAMB16'.
+WARNING:Xst:2211 - "/home/adam/RO-PUF/EDK_workspace/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 956: Instantiating black box module <RAMB16>.
     Set user-defined property "BMM_INFO =   " for instance <ramb16_10> in unit <lmb_bram_elaborate>.
     Set user-defined property "INIT_FILE =  lmb_bram_combined_10.mem" for instance <ramb16_10> in unit <lmb_bram_elaborate>.
     Set user-defined property "RAM_EXTENSION_A =  NONE" for instance <ramb16_10> in unit <lmb_bram_elaborate>.
@@ -256,11 +258,11 @@ WARNING:Xst:2211 - "E:/Adam/Characterizing/characterizer_planahead/dut_mb_v4lx60
     Set user-defined property "WRITE_MODE_B =  WRITE_FIRST" for instance <ramb16_10> in unit <lmb_bram_elaborate>.
     Set user-defined property "WRITE_WIDTH_A =  2" for instance <ramb16_10> in unit <lmb_bram_elaborate>.
     Set user-defined property "WRITE_WIDTH_B =  2" for instance <ramb16_10> in unit <lmb_bram_elaborate>.
-WARNING:Xst:753 - "E:/Adam/Characterizing/characterizer_planahead/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 995: Unconnected output port 'CASCADEOUTA' of component 'RAMB16'.
-WARNING:Xst:753 - "E:/Adam/Characterizing/characterizer_planahead/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 995: Unconnected output port 'DOPA' of component 'RAMB16'.
-WARNING:Xst:753 - "E:/Adam/Characterizing/characterizer_planahead/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 995: Unconnected output port 'CASCADEOUTB' of component 'RAMB16'.
-WARNING:Xst:753 - "E:/Adam/Characterizing/characterizer_planahead/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 995: Unconnected output port 'DOPB' of component 'RAMB16'.
-WARNING:Xst:2211 - "E:/Adam/Characterizing/characterizer_planahead/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 995: Instantiating black box module <RAMB16>.
+WARNING:Xst:753 - "/home/adam/RO-PUF/EDK_workspace/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 995: Unconnected output port 'CASCADEOUTA' of component 'RAMB16'.
+WARNING:Xst:753 - "/home/adam/RO-PUF/EDK_workspace/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 995: Unconnected output port 'DOPA' of component 'RAMB16'.
+WARNING:Xst:753 - "/home/adam/RO-PUF/EDK_workspace/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 995: Unconnected output port 'CASCADEOUTB' of component 'RAMB16'.
+WARNING:Xst:753 - "/home/adam/RO-PUF/EDK_workspace/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 995: Unconnected output port 'DOPB' of component 'RAMB16'.
+WARNING:Xst:2211 - "/home/adam/RO-PUF/EDK_workspace/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 995: Instantiating black box module <RAMB16>.
     Set user-defined property "BMM_INFO =   " for instance <ramb16_11> in unit <lmb_bram_elaborate>.
     Set user-defined property "INIT_FILE =  lmb_bram_combined_11.mem" for instance <ramb16_11> in unit <lmb_bram_elaborate>.
     Set user-defined property "RAM_EXTENSION_A =  NONE" for instance <ramb16_11> in unit <lmb_bram_elaborate>.
@@ -271,11 +273,11 @@ WARNING:Xst:2211 - "E:/Adam/Characterizing/characterizer_planahead/dut_mb_v4lx60
     Set user-defined property "WRITE_MODE_B =  WRITE_FIRST" for instance <ramb16_11> in unit <lmb_bram_elaborate>.
     Set user-defined property "WRITE_WIDTH_A =  2" for instance <ramb16_11> in unit <lmb_bram_elaborate>.
     Set user-defined property "WRITE_WIDTH_B =  2" for instance <ramb16_11> in unit <lmb_bram_elaborate>.
-WARNING:Xst:753 - "E:/Adam/Characterizing/characterizer_planahead/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 1034: Unconnected output port 'CASCADEOUTA' of component 'RAMB16'.
-WARNING:Xst:753 - "E:/Adam/Characterizing/characterizer_planahead/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 1034: Unconnected output port 'DOPA' of component 'RAMB16'.
-WARNING:Xst:753 - "E:/Adam/Characterizing/characterizer_planahead/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 1034: Unconnected output port 'CASCADEOUTB' of component 'RAMB16'.
-WARNING:Xst:753 - "E:/Adam/Characterizing/characterizer_planahead/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 1034: Unconnected output port 'DOPB' of component 'RAMB16'.
-WARNING:Xst:2211 - "E:/Adam/Characterizing/characterizer_planahead/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 1034: Instantiating black box module <RAMB16>.
+WARNING:Xst:753 - "/home/adam/RO-PUF/EDK_workspace/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 1034: Unconnected output port 'CASCADEOUTA' of component 'RAMB16'.
+WARNING:Xst:753 - "/home/adam/RO-PUF/EDK_workspace/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 1034: Unconnected output port 'DOPA' of component 'RAMB16'.
+WARNING:Xst:753 - "/home/adam/RO-PUF/EDK_workspace/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 1034: Unconnected output port 'CASCADEOUTB' of component 'RAMB16'.
+WARNING:Xst:753 - "/home/adam/RO-PUF/EDK_workspace/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 1034: Unconnected output port 'DOPB' of component 'RAMB16'.
+WARNING:Xst:2211 - "/home/adam/RO-PUF/EDK_workspace/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 1034: Instantiating black box module <RAMB16>.
     Set user-defined property "BMM_INFO =   " for instance <ramb16_12> in unit <lmb_bram_elaborate>.
     Set user-defined property "INIT_FILE =  lmb_bram_combined_12.mem" for instance <ramb16_12> in unit <lmb_bram_elaborate>.
     Set user-defined property "RAM_EXTENSION_A =  NONE" for instance <ramb16_12> in unit <lmb_bram_elaborate>.
@@ -286,11 +288,11 @@ WARNING:Xst:2211 - "E:/Adam/Characterizing/characterizer_planahead/dut_mb_v4lx60
     Set user-defined property "WRITE_MODE_B =  WRITE_FIRST" for instance <ramb16_12> in unit <lmb_bram_elaborate>.
     Set user-defined property "WRITE_WIDTH_A =  2" for instance <ramb16_12> in unit <lmb_bram_elaborate>.
     Set user-defined property "WRITE_WIDTH_B =  2" for instance <ramb16_12> in unit <lmb_bram_elaborate>.
-WARNING:Xst:753 - "E:/Adam/Characterizing/characterizer_planahead/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 1073: Unconnected output port 'CASCADEOUTA' of component 'RAMB16'.
-WARNING:Xst:753 - "E:/Adam/Characterizing/characterizer_planahead/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 1073: Unconnected output port 'DOPA' of component 'RAMB16'.
-WARNING:Xst:753 - "E:/Adam/Characterizing/characterizer_planahead/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 1073: Unconnected output port 'CASCADEOUTB' of component 'RAMB16'.
-WARNING:Xst:753 - "E:/Adam/Characterizing/characterizer_planahead/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 1073: Unconnected output port 'DOPB' of component 'RAMB16'.
-WARNING:Xst:2211 - "E:/Adam/Characterizing/characterizer_planahead/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 1073: Instantiating black box module <RAMB16>.
+WARNING:Xst:753 - "/home/adam/RO-PUF/EDK_workspace/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 1073: Unconnected output port 'CASCADEOUTA' of component 'RAMB16'.
+WARNING:Xst:753 - "/home/adam/RO-PUF/EDK_workspace/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 1073: Unconnected output port 'DOPA' of component 'RAMB16'.
+WARNING:Xst:753 - "/home/adam/RO-PUF/EDK_workspace/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 1073: Unconnected output port 'CASCADEOUTB' of component 'RAMB16'.
+WARNING:Xst:753 - "/home/adam/RO-PUF/EDK_workspace/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 1073: Unconnected output port 'DOPB' of component 'RAMB16'.
+WARNING:Xst:2211 - "/home/adam/RO-PUF/EDK_workspace/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 1073: Instantiating black box module <RAMB16>.
     Set user-defined property "BMM_INFO =   " for instance <ramb16_13> in unit <lmb_bram_elaborate>.
     Set user-defined property "INIT_FILE =  lmb_bram_combined_13.mem" for instance <ramb16_13> in unit <lmb_bram_elaborate>.
     Set user-defined property "RAM_EXTENSION_A =  NONE" for instance <ramb16_13> in unit <lmb_bram_elaborate>.
@@ -301,11 +303,11 @@ WARNING:Xst:2211 - "E:/Adam/Characterizing/characterizer_planahead/dut_mb_v4lx60
     Set user-defined property "WRITE_MODE_B =  WRITE_FIRST" for instance <ramb16_13> in unit <lmb_bram_elaborate>.
     Set user-defined property "WRITE_WIDTH_A =  2" for instance <ramb16_13> in unit <lmb_bram_elaborate>.
     Set user-defined property "WRITE_WIDTH_B =  2" for instance <ramb16_13> in unit <lmb_bram_elaborate>.
-WARNING:Xst:753 - "E:/Adam/Characterizing/characterizer_planahead/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 1112: Unconnected output port 'CASCADEOUTA' of component 'RAMB16'.
-WARNING:Xst:753 - "E:/Adam/Characterizing/characterizer_planahead/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 1112: Unconnected output port 'DOPA' of component 'RAMB16'.
-WARNING:Xst:753 - "E:/Adam/Characterizing/characterizer_planahead/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 1112: Unconnected output port 'CASCADEOUTB' of component 'RAMB16'.
-WARNING:Xst:753 - "E:/Adam/Characterizing/characterizer_planahead/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 1112: Unconnected output port 'DOPB' of component 'RAMB16'.
-WARNING:Xst:2211 - "E:/Adam/Characterizing/characterizer_planahead/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 1112: Instantiating black box module <RAMB16>.
+WARNING:Xst:753 - "/home/adam/RO-PUF/EDK_workspace/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 1112: Unconnected output port 'CASCADEOUTA' of component 'RAMB16'.
+WARNING:Xst:753 - "/home/adam/RO-PUF/EDK_workspace/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 1112: Unconnected output port 'DOPA' of component 'RAMB16'.
+WARNING:Xst:753 - "/home/adam/RO-PUF/EDK_workspace/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 1112: Unconnected output port 'CASCADEOUTB' of component 'RAMB16'.
+WARNING:Xst:753 - "/home/adam/RO-PUF/EDK_workspace/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 1112: Unconnected output port 'DOPB' of component 'RAMB16'.
+WARNING:Xst:2211 - "/home/adam/RO-PUF/EDK_workspace/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 1112: Instantiating black box module <RAMB16>.
     Set user-defined property "BMM_INFO =   " for instance <ramb16_14> in unit <lmb_bram_elaborate>.
     Set user-defined property "INIT_FILE =  lmb_bram_combined_14.mem" for instance <ramb16_14> in unit <lmb_bram_elaborate>.
     Set user-defined property "RAM_EXTENSION_A =  NONE" for instance <ramb16_14> in unit <lmb_bram_elaborate>.
@@ -316,11 +318,11 @@ WARNING:Xst:2211 - "E:/Adam/Characterizing/characterizer_planahead/dut_mb_v4lx60
     Set user-defined property "WRITE_MODE_B =  WRITE_FIRST" for instance <ramb16_14> in unit <lmb_bram_elaborate>.
     Set user-defined property "WRITE_WIDTH_A =  2" for instance <ramb16_14> in unit <lmb_bram_elaborate>.
     Set user-defined property "WRITE_WIDTH_B =  2" for instance <ramb16_14> in unit <lmb_bram_elaborate>.
-WARNING:Xst:753 - "E:/Adam/Characterizing/characterizer_planahead/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 1151: Unconnected output port 'CASCADEOUTA' of component 'RAMB16'.
-WARNING:Xst:753 - "E:/Adam/Characterizing/characterizer_planahead/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 1151: Unconnected output port 'DOPA' of component 'RAMB16'.
-WARNING:Xst:753 - "E:/Adam/Characterizing/characterizer_planahead/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 1151: Unconnected output port 'CASCADEOUTB' of component 'RAMB16'.
-WARNING:Xst:753 - "E:/Adam/Characterizing/characterizer_planahead/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 1151: Unconnected output port 'DOPB' of component 'RAMB16'.
-WARNING:Xst:2211 - "E:/Adam/Characterizing/characterizer_planahead/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 1151: Instantiating black box module <RAMB16>.
+WARNING:Xst:753 - "/home/adam/RO-PUF/EDK_workspace/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 1151: Unconnected output port 'CASCADEOUTA' of component 'RAMB16'.
+WARNING:Xst:753 - "/home/adam/RO-PUF/EDK_workspace/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 1151: Unconnected output port 'DOPA' of component 'RAMB16'.
+WARNING:Xst:753 - "/home/adam/RO-PUF/EDK_workspace/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 1151: Unconnected output port 'CASCADEOUTB' of component 'RAMB16'.
+WARNING:Xst:753 - "/home/adam/RO-PUF/EDK_workspace/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 1151: Unconnected output port 'DOPB' of component 'RAMB16'.
+WARNING:Xst:2211 - "/home/adam/RO-PUF/EDK_workspace/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd" line 1151: Instantiating black box module <RAMB16>.
     Set user-defined property "BMM_INFO =   " for instance <ramb16_15> in unit <lmb_bram_elaborate>.
     Set user-defined property "INIT_FILE =  lmb_bram_combined_15.mem" for instance <ramb16_15> in unit <lmb_bram_elaborate>.
     Set user-defined property "RAM_EXTENSION_A =  NONE" for instance <ramb16_15> in unit <lmb_bram_elaborate>.
@@ -341,7 +343,7 @@ Entity <lmb_bram_elaborate> analyzed. Unit <lmb_bram_elaborate> generated.
 Performing bidirectional port resolution...
 
 Synthesizing Unit <lmb_bram_elaborate>.
-    Related source file is "E:/Adam/Characterizing/characterizer_planahead/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd".
+    Related source file is "/home/adam/RO-PUF/EDK_workspace/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd".
 WARNING:Xst:647 - Input <BRAM_Addr_A<0:16>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <BRAM_Addr_A<30:31>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <BRAM_Addr_B<0:16>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
@@ -385,7 +387,7 @@ Unit <lmb_bram_elaborate> synthesized.
 
 
 Synthesizing Unit <system_lmb_bram_wrapper>.
-    Related source file is "E:/Adam/Characterizing/characterizer_planahead/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/system_lmb_bram_wrapper.vhd".
+    Related source file is "/home/adam/RO-PUF/EDK_workspace/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/system_lmb_bram_wrapper.vhd".
 Unit <system_lmb_bram_wrapper> synthesized.
 
 
@@ -459,7 +461,7 @@ Cell Usage :
 Device utilization summary:
 ---------------------------
 
-Selected Device : 4vlx60ff668-11 
+Selected Device : 4vlx60ff668-10 
 
  Number of Slices:                        0  out of  26624     0%  
  Number of IOs:                         206
@@ -503,11 +505,11 @@ lmb_bram/net_gnd0(lmb_bram/XST_GND:G)| NONE(lmb_bram/ramb16_0)| 64    |
 
 Timing Summary:
 ---------------
-Speed Grade: -11
+Speed Grade: -10
 
    Minimum period: No path found
-   Minimum input arrival time before clock: 0.650ns
-   Maximum output required time after clock: 1.830ns
+   Minimum input arrival time before clock: 0.748ns
+   Maximum output required time after clock: 2.100ns
    Maximum combinational path delay: No path found
 
 Timing Detail:
@@ -518,7 +520,7 @@ All values displayed in nanoseconds (ns)
 Timing constraint: Default OFFSET IN BEFORE for Clock 'BRAM_Clk_A'
   Total number of paths / destination ports: 336 / 336
 -------------------------------------------------------------------------
-Offset:              0.650ns (Levels of Logic = 1)
+Offset:              0.748ns (Levels of Logic = 1)
   Source:            BRAM_WEN_A<0> (PAD)
   Destination:       lmb_bram/ramb16_0 (RAM)
   Destination Clock: BRAM_Clk_A rising
@@ -528,16 +530,16 @@ Offset:              0.650ns (Levels of Logic = 1)
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
      begin scope: 'lmb_bram'
-     RAMB16:WEA3               0.650          ramb16_0
+     RAMB16:WEA3               0.748          ramb16_0
     ----------------------------------------
-    Total                      0.650ns (0.650ns logic, 0.000ns route)
+    Total                      0.748ns (0.748ns logic, 0.000ns route)
                                        (100.0% logic, 0.0% route)
 
 =========================================================================
 Timing constraint: Default OFFSET IN BEFORE for Clock 'BRAM_Clk_B'
   Total number of paths / destination ports: 336 / 336
 -------------------------------------------------------------------------
-Offset:              0.650ns (Levels of Logic = 1)
+Offset:              0.748ns (Levels of Logic = 1)
   Source:            BRAM_WEN_B<0> (PAD)
   Destination:       lmb_bram/ramb16_0 (RAM)
   Destination Clock: BRAM_Clk_B rising
@@ -547,16 +549,16 @@ Offset:              0.650ns (Levels of Logic = 1)
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
      begin scope: 'lmb_bram'
-     RAMB16:WEB3               0.650          ramb16_0
+     RAMB16:WEB3               0.748          ramb16_0
     ----------------------------------------
-    Total                      0.650ns (0.650ns logic, 0.000ns route)
+    Total                      0.748ns (0.748ns logic, 0.000ns route)
                                        (100.0% logic, 0.0% route)
 
 =========================================================================
 Timing constraint: Default OFFSET OUT AFTER for Clock 'BRAM_Clk_B'
   Total number of paths / destination ports: 32 / 32
 -------------------------------------------------------------------------
-Offset:              1.830ns (Levels of Logic = 1)
+Offset:              2.100ns (Levels of Logic = 1)
   Source:            lmb_bram/ramb16_0 (RAM)
   Destination:       BRAM_Din_B<0> (PAD)
   Source Clock:      BRAM_Clk_B rising
@@ -565,17 +567,17 @@ Offset:              1.830ns (Levels of Logic = 1)
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     RAMB16:CLKB->DOB1     0   1.830   0.000  ramb16_0 (BRAM_Din_B<0>)
+     RAMB16:CLKB->DOB1     0   2.100   0.000  ramb16_0 (BRAM_Din_B<0>)
      end scope: 'lmb_bram'
     ----------------------------------------
-    Total                      1.830ns (1.830ns logic, 0.000ns route)
+    Total                      2.100ns (2.100ns logic, 0.000ns route)
                                        (100.0% logic, 0.0% route)
 
 =========================================================================
 Timing constraint: Default OFFSET OUT AFTER for Clock 'BRAM_Clk_A'
   Total number of paths / destination ports: 32 / 32
 -------------------------------------------------------------------------
-Offset:              1.830ns (Levels of Logic = 1)
+Offset:              2.100ns (Levels of Logic = 1)
   Source:            lmb_bram/ramb16_0 (RAM)
   Destination:       BRAM_Din_A<0> (PAD)
   Source Clock:      BRAM_Clk_A rising
@@ -584,21 +586,22 @@ Offset:              1.830ns (Levels of Logic = 1)
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     RAMB16:CLKA->DOA1     0   1.830   0.000  ramb16_0 (BRAM_Din_A<0>)
+     RAMB16:CLKA->DOA1     0   2.100   0.000  ramb16_0 (BRAM_Din_A<0>)
      end scope: 'lmb_bram'
     ----------------------------------------
-    Total                      1.830ns (1.830ns logic, 0.000ns route)
+    Total                      2.100ns (2.100ns logic, 0.000ns route)
                                        (100.0% logic, 0.0% route)
 
 =========================================================================
 
 
-Total REAL time to Xst completion: 13.00 secs
-Total CPU time to Xst completion: 12.54 secs
+Total REAL time to Xst completion: 9.00 secs
+Total CPU time to Xst completion: 8.76 secs
  
 --> 
 
-Total memory usage is 311896 kilobytes
+
+Total memory usage is 551888 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :  119 (   0 filtered)

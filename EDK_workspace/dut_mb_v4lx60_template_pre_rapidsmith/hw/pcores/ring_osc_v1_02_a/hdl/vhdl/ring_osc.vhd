@@ -156,7 +156,7 @@ entity ring_osc is
     C_SPLB_SMALLEST_MASTER         : integer              := 32;
     C_SPLB_CLK_PERIOD_PS           : integer              := 10000;
     C_INCLUDE_DPHASE_TIMER         : integer              := 1;
-    C_FAMILY                       : string               := "virtex6"
+    C_FAMILY                       : string               := "virtex4"
     -- DO NOT EDIT ABOVE THIS LINE ---------------------
   );
   port

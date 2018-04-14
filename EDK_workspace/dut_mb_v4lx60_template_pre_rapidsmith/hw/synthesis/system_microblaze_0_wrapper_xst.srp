@@ -1,12 +1,14 @@
-Release 14.4 - xst P.49d (nt64)
+Release 14.4 - xst P.49d (lin64)
 Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
---> Parameter TMPDIR set to E:\Adam\Characterizing\characterizer_planahead\dut_mb_v4lx60_template_pre_rapidsmith\hw\synthesis\xst_temp_dir\
+--> 
+Parameter TMPDIR set to /home/adam/RO-PUF/EDK_workspace/dut_mb_v4lx60_template_pre_rapidsmith/hw/synthesis/xst_temp_dir/
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.09 secs
+Total CPU time to Xst completion: 0.04 secs
  
 --> 
+
 TABLE OF CONTENTS
   1) Synthesis Options Summary
   2) HDL Compilation
@@ -30,10 +32,10 @@ TABLE OF CONTENTS
 ---- Source Parameters
 Input Format                       : MIXED
 Input File Name                    : "system_microblaze_0_wrapper_xst.prj"
-Verilog Include Directory          : {"E:\Adam\Characterizing\characterizer_planahead\dut_mb_v4lx60_template_pre_rapidsmith\hw\pcores\" "E:\Xilinx\14.4\ISE_DS\EDK\hw\XilinxBFMinterface\pcores\" "E:\Xilinx\14.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\" }
+Verilog Include Directory          : {"/home/adam/RO-PUF/EDK_workspace/dut_mb_v4lx60_template_pre_rapidsmith/hw/pcores/" "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxBFMinterface/pcores/" "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/" }
 
 ---- Target Parameters
-Target Device                      : xc4vlx60ff668-11
+Target Device                      : xc4vlx60ff668-10
 Output File Name                   : "../implementation/system_microblaze_0_wrapper.ngc"
 
 ---- Source Options
@@ -57,304 +59,304 @@ Cores Search Directories           : {../implementation}
 =========================================================================
 *                          HDL Compilation                              *
 =========================================================================
-Compiling vhdl file "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/microblaze_types_pkg.vhd" in Library microblaze_v8_40_b.
+Compiling vhdl file "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/microblaze_types_pkg.vhd" in Library microblaze_v8_40_b.
 Package <MicroBlaze_Types> compiled.
-Compiling vhdl file "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/microblaze_types_pkg_body.vhd" in Library microblaze_v8_40_b.
+Compiling vhdl file "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/microblaze_types_pkg_body.vhd" in Library microblaze_v8_40_b.
 Package body <MicroBlaze_Types> compiled.
-Compiling vhdl file "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/microblaze_isa_be_pkg.vhd" in Library microblaze_v8_40_b.
+Compiling vhdl file "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/microblaze_isa_be_pkg.vhd" in Library microblaze_v8_40_b.
 Package <MicroBlaze_ISA> compiled.
-Compiling vhdl file "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/carry_and.vhd" in Library microblaze_v8_40_b.
+Compiling vhdl file "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/carry_and.vhd" in Library microblaze_v8_40_b.
 Entity <carry_and> compiled.
 Entity <carry_and> (Architecture <IMP>) compiled.
-Compiling vhdl file "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/dsp_module.vhd" in Library microblaze_v8_40_b.
+Compiling vhdl file "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/dsp_module.vhd" in Library microblaze_v8_40_b.
 Entity <dsp_module> compiled.
 Entity <dsp_module> (Architecture <IMP>) compiled.
-Compiling vhdl file "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/find_first_bit.vhd" in Library microblaze_v8_40_b.
+Compiling vhdl file "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/find_first_bit.vhd" in Library microblaze_v8_40_b.
 Entity <find_first_bit> compiled.
 Entity <find_first_bit> (Architecture <IMP>) compiled.
-Compiling vhdl file "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/microblaze_primitives.vhd" in Library microblaze_v8_40_b.
+Compiling vhdl file "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/microblaze_primitives.vhd" in Library microblaze_v8_40_b.
 Entity <MB_SRL16E> compiled.
 Entity <MB_SRL16E> (Architecture <IMP>) compiled.
 Entity <MB_SRLC16E> compiled.
 Entity <MB_SRLC16E> (Architecture <IMP>) compiled.
-Compiling vhdl file "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/mmu_types_pkg.vhd" in Library microblaze_v8_40_b.
+Compiling vhdl file "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/mmu_types_pkg.vhd" in Library microblaze_v8_40_b.
 Package <MMU_Types> compiled.
-Compiling vhdl file "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/carry_compare_mask.vhd" in Library microblaze_v8_40_b.
+Compiling vhdl file "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/carry_compare_mask.vhd" in Library microblaze_v8_40_b.
 Entity <carry_compare_mask> compiled.
 Entity <carry_compare_mask> (Architecture <IMP>) compiled.
-Compiling vhdl file "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/carry_compare.vhd" in Library microblaze_v8_40_b.
+Compiling vhdl file "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/carry_compare.vhd" in Library microblaze_v8_40_b.
 Entity <carry_compare> compiled.
 Entity <carry_compare> (Architecture <IMP>) compiled.
-Compiling vhdl file "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/mmu_utlb_ram.vhd" in Library microblaze_v8_40_b.
+Compiling vhdl file "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/mmu_utlb_ram.vhd" in Library microblaze_v8_40_b.
 Entity <MMU_UTLB_RAM> compiled.
 Entity <MMU_UTLB_RAM> (Architecture <IMP>) compiled.
-Compiling vhdl file "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/parity.vhd" in Library microblaze_v8_40_b.
+Compiling vhdl file "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/parity.vhd" in Library microblaze_v8_40_b.
 Entity <Parity_Recursive_LUT6> compiled.
 Entity <Parity_Recursive_LUT6> (Architecture <IMP>) compiled.
 Entity <Parity> compiled.
 Entity <Parity> (Architecture <IMP>) compiled.
-Compiling vhdl file "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/mux_bus.vhd" in Library microblaze_v8_40_b.
+Compiling vhdl file "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/mux_bus.vhd" in Library microblaze_v8_40_b.
 Entity <mux_bus> compiled.
 Entity <mux_bus> (Architecture <IMP>) compiled.
-Compiling vhdl file "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/carry_compare_const.vhd" in Library microblaze_v8_40_b.
+Compiling vhdl file "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/carry_compare_const.vhd" in Library microblaze_v8_40_b.
 Entity <carry_compare_const> compiled.
 Entity <carry_compare_const> (Architecture <IMP>) compiled.
-Compiling vhdl file "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/fpu_addsub.vhd" in Library microblaze_v8_40_b.
+Compiling vhdl file "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/fpu_addsub.vhd" in Library microblaze_v8_40_b.
 Entity <FPU_ADDSUB> compiled.
 Entity <FPU_ADDSUB> (Architecture <IMP>) compiled.
-Compiling vhdl file "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/fpu_mul.vhd" in Library microblaze_v8_40_b.
+Compiling vhdl file "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/fpu_mul.vhd" in Library microblaze_v8_40_b.
 Entity <FPU_MUL> compiled.
 Entity <FPU_MUL> (Architecture <IMP>) compiled.
-Compiling vhdl file "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/fpu_div.vhd" in Library microblaze_v8_40_b.
+Compiling vhdl file "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/fpu_div.vhd" in Library microblaze_v8_40_b.
 Entity <FPU_DIV> compiled.
 Entity <FPU_DIV> (Architecture <IMP>) compiled.
-Compiling vhdl file "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/fpu_sqrt.vhd" in Library microblaze_v8_40_b.
+Compiling vhdl file "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/fpu_sqrt.vhd" in Library microblaze_v8_40_b.
 Entity <fpu_sqrt> compiled.
 Entity <fpu_sqrt> (Architecture <IMP>) compiled.
-Compiling vhdl file "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/fpu_conv.vhd" in Library microblaze_v8_40_b.
+Compiling vhdl file "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/fpu_conv.vhd" in Library microblaze_v8_40_b.
 Entity <fpu_conv> compiled.
 Entity <fpu_conv> (Architecture <IMP>) compiled.
-Compiling vhdl file "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/wb_mux_bit_gti.vhd" in Library microblaze_v8_40_b.
+Compiling vhdl file "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/wb_mux_bit_gti.vhd" in Library microblaze_v8_40_b.
 Entity <WB_Mux_Bit> compiled.
 Entity <WB_Mux_Bit> (Architecture <IMP>) compiled.
-Compiling vhdl file "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/count_leading_zero.vhd" in Library microblaze_v8_40_b.
+Compiling vhdl file "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/count_leading_zero.vhd" in Library microblaze_v8_40_b.
 Entity <count_leading_zeros> compiled.
 Entity <count_leading_zeros> (Architecture <IMP>) compiled.
-Compiling vhdl file "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/carry_equal.vhd" in Library microblaze_v8_40_b.
+Compiling vhdl file "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/carry_equal.vhd" in Library microblaze_v8_40_b.
 Entity <carry_equal> compiled.
 Entity <carry_equal> (Architecture <IMP>) compiled.
-Compiling vhdl file "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/alu_bit.vhd" in Library microblaze_v8_40_b.
+Compiling vhdl file "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/alu_bit.vhd" in Library microblaze_v8_40_b.
 Entity <ALU_Bit> compiled.
 Entity <ALU_Bit> (Architecture <IMP>) compiled.
-Compiling vhdl file "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/ram_module.vhd" in Library microblaze_v8_40_b.
+Compiling vhdl file "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/ram_module.vhd" in Library microblaze_v8_40_b.
 Entity <RAM_Module> compiled.
 Entity <RAM_Module> (Architecture <IMP>) compiled.
-Compiling vhdl file "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/comparator.vhd" in Library microblaze_v8_40_b.
+Compiling vhdl file "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/comparator.vhd" in Library microblaze_v8_40_b.
 Entity <comparator> compiled.
 Entity <comparator> (Architecture <IMP>) compiled.
-Compiling vhdl file "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/carry_or.vhd" in Library microblaze_v8_40_b.
+Compiling vhdl file "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/carry_or.vhd" in Library microblaze_v8_40_b.
 Entity <carry_or> compiled.
 Entity <carry_or> (Architecture <IMP>) compiled.
-Compiling vhdl file "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/cache_valid_bit_detect.vhd" in Library microblaze_v8_40_b.
+Compiling vhdl file "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/cache_valid_bit_detect.vhd" in Library microblaze_v8_40_b.
 Entity <cache_valid_bit_detect> compiled.
 Entity <cache_valid_bit_detect> (Architecture <IMP>) compiled.
-Compiling vhdl file "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/pc_bit.vhd" in Library microblaze_v8_40_b.
+Compiling vhdl file "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/pc_bit.vhd" in Library microblaze_v8_40_b.
 Entity <PC_Bit> compiled.
 Entity <PC_Bit> (Architecture <IMP>) compiled.
-Compiling vhdl file "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/msr_reg_bit.vhd" in Library microblaze_v8_40_b.
+Compiling vhdl file "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/msr_reg_bit.vhd" in Library microblaze_v8_40_b.
 Entity <MSR_Reg_Bit> compiled.
 Entity <MSR_Reg_Bit> (Architecture <IMP>) compiled.
-Compiling vhdl file "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/result_mux_bit.vhd" in Library microblaze_v8_40_b.
+Compiling vhdl file "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/result_mux_bit.vhd" in Library microblaze_v8_40_b.
 Entity <Result_Mux_Bit> compiled.
 Entity <Result_Mux_Bit> (Architecture <IMP>) compiled.
-Compiling vhdl file "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/shift_logic_bit.vhd" in Library microblaze_v8_40_b.
+Compiling vhdl file "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/shift_logic_bit.vhd" in Library microblaze_v8_40_b.
 Entity <Shift_Logic_Bit> compiled.
 Entity <Shift_Logic_Bit> (Architecture <IMP>) compiled.
-Compiling vhdl file "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/operand_select_bit.vhd" in Library microblaze_v8_40_b.
+Compiling vhdl file "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/operand_select_bit.vhd" in Library microblaze_v8_40_b.
 Entity <Operand_Select_Bit> compiled.
 Entity <Operand_Select_Bit> (Architecture <IMP>) compiled.
-Compiling vhdl file "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/register_file_bit.vhd" in Library microblaze_v8_40_b.
+Compiling vhdl file "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/register_file_bit.vhd" in Library microblaze_v8_40_b.
 Entity <Register_File_Bit> compiled.
 Entity <Register_File_Bit> (Architecture <IMP>) compiled.
-Compiling vhdl file "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/mmu_utlb.vhd" in Library microblaze_v8_40_b.
+Compiling vhdl file "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/mmu_utlb.vhd" in Library microblaze_v8_40_b.
 Entity <MMU_UTLB> compiled.
 Entity <MMU_UTLB> (Architecture <IMP>) compiled.
-Compiling vhdl file "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/mmu_tlb.vhd" in Library microblaze_v8_40_b.
+Compiling vhdl file "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/mmu_tlb.vhd" in Library microblaze_v8_40_b.
 Entity <MMU_TLB> compiled.
 Entity <MMU_TLB> (Architecture <IMP>) compiled.
-Compiling vhdl file "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/cache_interface.vhd" in Library microblaze_v8_40_b.
+Compiling vhdl file "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/cache_interface.vhd" in Library microblaze_v8_40_b.
 Entity <Cache_Interface> compiled.
 Entity <Cache_Interface> (Architecture <IMP>) compiled.
-Compiling vhdl file "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/register_file_gti.vhd" in Library microblaze_v8_40_b.
+Compiling vhdl file "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/register_file_gti.vhd" in Library microblaze_v8_40_b.
 Entity <Register_File_gti> compiled.
 Entity <Register_File_gti> (Architecture <IMP>) compiled.
-Compiling vhdl file "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/operand_select_gti.vhd" in Library microblaze_v8_40_b.
+Compiling vhdl file "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/operand_select_gti.vhd" in Library microblaze_v8_40_b.
 Entity <Operand_Select_gti> compiled.
 Entity <Operand_Select_gti> (Architecture <IMP>) compiled.
-Compiling vhdl file "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/alu.vhd" in Library microblaze_v8_40_b.
+Compiling vhdl file "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/alu.vhd" in Library microblaze_v8_40_b.
 Entity <ALU> compiled.
 Entity <ALU> (Architecture <IMP>) compiled.
-Compiling vhdl file "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/shift_logic_gti.vhd" in Library microblaze_v8_40_b.
+Compiling vhdl file "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/shift_logic_gti.vhd" in Library microblaze_v8_40_b.
 Entity <Shift_Logic_Module_gti> compiled.
 Entity <Shift_Logic_Module_gti> (Architecture <IMP>) compiled.
-Compiling vhdl file "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/mul_unit.vhd" in Library microblaze_v8_40_b.
+Compiling vhdl file "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/mul_unit.vhd" in Library microblaze_v8_40_b.
 Entity <mul_unit> compiled.
 Entity <mul_unit> (Architecture <IMP>) compiled.
-Compiling vhdl file "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/barrel_shifter_gti.vhd" in Library microblaze_v8_40_b.
+Compiling vhdl file "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/barrel_shifter_gti.vhd" in Library microblaze_v8_40_b.
 Entity <Barrel_Shifter_gti> compiled.
 Entity <Barrel_Shifter_gti> (Architecture <IMP>) compiled.
-Compiling vhdl file "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/wb_mux_gti.vhd" in Library microblaze_v8_40_b.
+Compiling vhdl file "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/wb_mux_gti.vhd" in Library microblaze_v8_40_b.
 Entity <WB_Mux> compiled.
 Entity <WB_Mux> (Architecture <IMP>) compiled.
-Compiling vhdl file "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/zero_detect_gti.vhd" in Library microblaze_v8_40_b.
+Compiling vhdl file "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/zero_detect_gti.vhd" in Library microblaze_v8_40_b.
 Entity <Zero_Detect_gti> compiled.
 Entity <Zero_Detect_gti> (Architecture <IMP>) compiled.
-Compiling vhdl file "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/byte_doublet_handle_gti.vhd" in Library microblaze_v8_40_b.
+Compiling vhdl file "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/byte_doublet_handle_gti.vhd" in Library microblaze_v8_40_b.
 Entity <Byte_Doublet_Handle_gti> compiled.
 Entity <Byte_Doublet_Handle_gti> (Architecture <IMP>) compiled.
-Compiling vhdl file "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/data_flow_logic_gti.vhd" in Library microblaze_v8_40_b.
+Compiling vhdl file "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/data_flow_logic_gti.vhd" in Library microblaze_v8_40_b.
 Entity <Data_Flow_Logic> compiled.
 Entity <Data_Flow_Logic> (Architecture <IMP>) compiled.
-Compiling vhdl file "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/msr_reg_gti.vhd" in Library microblaze_v8_40_b.
+Compiling vhdl file "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/msr_reg_gti.vhd" in Library microblaze_v8_40_b.
 Entity <msr_reg_gti> compiled.
 Entity <msr_reg_gti> (Architecture <msr_reg>) compiled.
-Compiling vhdl file "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/exception_registers_gti.vhd" in Library microblaze_v8_40_b.
+Compiling vhdl file "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/exception_registers_gti.vhd" in Library microblaze_v8_40_b.
 Entity <exception_registers_gti> compiled.
 Entity <exception_registers_gti> (Architecture <IMP>) compiled.
-Compiling vhdl file "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/div_unit_gti.vhd" in Library microblaze_v8_40_b.
+Compiling vhdl file "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/div_unit_gti.vhd" in Library microblaze_v8_40_b.
 Entity <Div_unit_gti> compiled.
 Entity <Div_unit_gti> (Architecture <IMP>) compiled.
-Compiling vhdl file "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/fpu.vhd" in Library microblaze_v8_40_b.
+Compiling vhdl file "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/fpu.vhd" in Library microblaze_v8_40_b.
 Entity <Fpu> compiled.
 Entity <Fpu> (Architecture <IMP>) compiled.
-Compiling vhdl file "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/pvr.vhd" in Library microblaze_v8_40_b.
+Compiling vhdl file "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/pvr.vhd" in Library microblaze_v8_40_b.
 Entity <PVR> compiled.
 Entity <PVR> (Architecture <IMP>) compiled.
-Compiling vhdl file "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/stack_protection.vhd" in Library microblaze_v8_40_b.
+Compiling vhdl file "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/stack_protection.vhd" in Library microblaze_v8_40_b.
 Entity <stack_protection> compiled.
 Entity <stack_protection> (Architecture <IMP>) compiled.
-Compiling vhdl file "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/pc_module_gti.vhd" in Library microblaze_v8_40_b.
+Compiling vhdl file "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/pc_module_gti.vhd" in Library microblaze_v8_40_b.
 Entity <PC_Module_gti> compiled.
 Entity <PC_Module_gti> (Architecture <IMP>) compiled.
-Compiling vhdl file "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/prefetch_buffer_gti.vhd" in Library microblaze_v8_40_b.
+Compiling vhdl file "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/prefetch_buffer_gti.vhd" in Library microblaze_v8_40_b.
 Entity <PreFetch_Buffer_gti> compiled.
 Entity <PreFetch_Buffer_gti> (Architecture <IMP>) compiled.
-Compiling vhdl file "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/jump_logic_gti.vhd" in Library microblaze_v8_40_b.
+Compiling vhdl file "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/jump_logic_gti.vhd" in Library microblaze_v8_40_b.
 Entity <jump_logic> compiled.
 Entity <jump_logic> (Architecture <IMP>) compiled.
-Compiling vhdl file "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/cachehit_detect.vhd" in Library microblaze_v8_40_b.
+Compiling vhdl file "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/cachehit_detect.vhd" in Library microblaze_v8_40_b.
 Entity <cachehit_detect> compiled.
 Entity <cachehit_detect> (Architecture <IMP>) compiled.
-Compiling vhdl file "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/vec_mux.vhd" in Library microblaze_v8_40_b.
+Compiling vhdl file "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/vec_mux.vhd" in Library microblaze_v8_40_b.
 Entity <vec_mux> compiled.
 Entity <vec_mux> (Architecture <IMP>) compiled.
-Compiling vhdl file "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/victim_cache.vhd" in Library microblaze_v8_40_b.
+Compiling vhdl file "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/victim_cache.vhd" in Library microblaze_v8_40_b.
 Entity <LRU_Module> compiled.
 Entity <LRU_Module> (Architecture <LRU_Module>) compiled.
 Entity <victim_cache> compiled.
 Entity <victim_cache> (Architecture <IMP>) compiled.
-Compiling vhdl file "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/stream_cache.vhd" in Library microblaze_v8_40_b.
+Compiling vhdl file "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/stream_cache.vhd" in Library microblaze_v8_40_b.
 Entity <stream_cache> compiled.
 Entity <stream_cache> (Architecture <IMP>) compiled.
-Compiling vhdl file "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/address_hit.vhd" in Library microblaze_v8_40_b.
+Compiling vhdl file "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/address_hit.vhd" in Library microblaze_v8_40_b.
 Entity <address_hit> compiled.
 Entity <address_hit> (Architecture <IMP>) compiled.
-Compiling vhdl file "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/address_data_hit.vhd" in Library microblaze_v8_40_b.
+Compiling vhdl file "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/address_data_hit.vhd" in Library microblaze_v8_40_b.
 Entity <address_data_hit> compiled.
 Entity <address_data_hit> (Architecture <IMP>) compiled.
-Compiling vhdl file "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/data_read_steering.vhd" in Library microblaze_v8_40_b.
+Compiling vhdl file "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/data_read_steering.vhd" in Library microblaze_v8_40_b.
 Entity <Data_Read_Steering> compiled.
 Entity <Data_Read_Steering> (Architecture <IMP>) compiled.
-Compiling vhdl file "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/mux4_8.vhd" in Library microblaze_v8_40_b.
+Compiling vhdl file "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/mux4_8.vhd" in Library microblaze_v8_40_b.
 Entity <mux4_8> compiled.
 Entity <mux4_8> (Architecture <IMP>) compiled.
-Compiling vhdl file "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/register_file.vhd" in Library microblaze_v8_40_b.
+Compiling vhdl file "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/register_file.vhd" in Library microblaze_v8_40_b.
 Entity <Register_File> compiled.
 Entity <Register_File> (Architecture <IMP>) compiled.
-Compiling vhdl file "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/operand_select.vhd" in Library microblaze_v8_40_b.
+Compiling vhdl file "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/operand_select.vhd" in Library microblaze_v8_40_b.
 Entity <Operand_Select> compiled.
 Entity <Operand_Select> (Architecture <IMP>) compiled.
-Compiling vhdl file "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/shift_logic.vhd" in Library microblaze_v8_40_b.
+Compiling vhdl file "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/shift_logic.vhd" in Library microblaze_v8_40_b.
 Entity <Shift_Logic_Module> compiled.
 Entity <Shift_Logic_Module> (Architecture <IMP>) compiled.
-Compiling vhdl file "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/barrel_shifter.vhd" in Library microblaze_v8_40_b.
+Compiling vhdl file "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/barrel_shifter.vhd" in Library microblaze_v8_40_b.
 Entity <barrel_shift> compiled.
 Entity <barrel_shift> (Architecture <IMP>) compiled.
-Compiling vhdl file "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/div_unit.vhd" in Library microblaze_v8_40_b.
+Compiling vhdl file "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/div_unit.vhd" in Library microblaze_v8_40_b.
 Entity <Div_unit> compiled.
 Entity <Div_unit> (Architecture <IMP>) compiled.
-Compiling vhdl file "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/result_mux.vhd" in Library microblaze_v8_40_b.
+Compiling vhdl file "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/result_mux.vhd" in Library microblaze_v8_40_b.
 Entity <Result_Mux> compiled.
 Entity <Result_Mux> (Architecture <IMP>) compiled.
-Compiling vhdl file "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/zero_detect.vhd" in Library microblaze_v8_40_b.
+Compiling vhdl file "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/zero_detect.vhd" in Library microblaze_v8_40_b.
 Entity <Zero_Detect> compiled.
 Entity <Zero_Detect> (Architecture <IMP>) compiled.
-Compiling vhdl file "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/msr_reg.vhd" in Library microblaze_v8_40_b.
+Compiling vhdl file "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/msr_reg.vhd" in Library microblaze_v8_40_b.
 Entity <MSR_Reg> compiled.
 Entity <MSR_Reg> (Architecture <IMP>) compiled.
-Compiling vhdl file "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/pc_module.vhd" in Library microblaze_v8_40_b.
+Compiling vhdl file "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/pc_module.vhd" in Library microblaze_v8_40_b.
 Entity <PC_Module> compiled.
 Entity <PC_Module> (Architecture <IMP>) compiled.
-Compiling vhdl file "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/prefetch_buffer.vhd" in Library microblaze_v8_40_b.
+Compiling vhdl file "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/prefetch_buffer.vhd" in Library microblaze_v8_40_b.
 Entity <PreFetch_Buffer> compiled.
 Entity <PreFetch_Buffer> (Architecture <IMP>) compiled.
-Compiling vhdl file "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/fsl_module.vhd" in Library microblaze_v8_40_b.
+Compiling vhdl file "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/fsl_module.vhd" in Library microblaze_v8_40_b.
 Entity <FSL_Module> compiled.
 Entity <FSL_Module> (Architecture <IMP>) compiled.
-Compiling vhdl file "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/streaming_axi.vhd" in Library microblaze_v8_40_b.
+Compiling vhdl file "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/streaming_axi.vhd" in Library microblaze_v8_40_b.
 Entity <Streaming_AXI> compiled.
 Entity <Streaming_AXI> (Architecture <IMP>) compiled.
-Compiling vhdl file "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/interrupt_mode_converter.vhd" in Library microblaze_v8_40_b.
+Compiling vhdl file "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/interrupt_mode_converter.vhd" in Library microblaze_v8_40_b.
 Entity <interrupt_mode_converter> compiled.
 Entity <interrupt_mode_converter> (Architecture <IMP>) compiled.
-Compiling vhdl file "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/decode.vhd" in Library microblaze_v8_40_b.
+Compiling vhdl file "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/decode.vhd" in Library microblaze_v8_40_b.
 Entity <Decode> compiled.
 Entity <Decode> (Architecture <IMP>) compiled.
-Compiling vhdl file "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/data_flow.vhd" in Library microblaze_v8_40_b.
+Compiling vhdl file "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/data_flow.vhd" in Library microblaze_v8_40_b.
 Entity <Data_Flow> compiled.
 Entity <Data_Flow> (Architecture <IMP>) compiled.
-Compiling vhdl file "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/byte_doublet_handle.vhd" in Library microblaze_v8_40_b.
+Compiling vhdl file "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/byte_doublet_handle.vhd" in Library microblaze_v8_40_b.
 Entity <Byte_Doublet_Handle> compiled.
 Entity <Byte_Doublet_Handle> (Architecture <IMP>) compiled.
-Compiling vhdl file "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/dplb_interface.vhd" in Library microblaze_v8_40_b.
+Compiling vhdl file "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/dplb_interface.vhd" in Library microblaze_v8_40_b.
 Entity <DPLB_Interface> compiled.
 Entity <DPLB_Interface> (Architecture <IMP>) compiled.
-Compiling vhdl file "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/daxi_interface.vhd" in Library microblaze_v8_40_b.
+Compiling vhdl file "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/daxi_interface.vhd" in Library microblaze_v8_40_b.
 Entity <DAXI_interface> compiled.
 Entity <DAXI_interface> (Architecture <IMP>) compiled.
-Compiling vhdl file "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/iplb_interface.vhd" in Library microblaze_v8_40_b.
+Compiling vhdl file "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/iplb_interface.vhd" in Library microblaze_v8_40_b.
 Entity <IPLB_Interface> compiled.
 Entity <IPLB_Interface> (Architecture <IMP>) compiled.
-Compiling vhdl file "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/iaxi_interface.vhd" in Library microblaze_v8_40_b.
+Compiling vhdl file "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/iaxi_interface.vhd" in Library microblaze_v8_40_b.
 Entity <IAXI_Interface> compiled.
 Entity <IAXI_Interface> (Architecture <IMP>) compiled.
-Compiling vhdl file "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/debug.vhd" in Library microblaze_v8_40_b.
+Compiling vhdl file "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/debug.vhd" in Library microblaze_v8_40_b.
 Entity <Debug> compiled.
 Entity <Debug> (Architecture <IMP>) compiled.
-Compiling vhdl file "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/icache.vhd" in Library microblaze_v8_40_b.
+Compiling vhdl file "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/icache.vhd" in Library microblaze_v8_40_b.
 Entity <Icache> compiled.
 Entity <Icache> (Architecture <IMP>) compiled.
-Compiling vhdl file "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/dcache_wb.vhd" in Library microblaze_v8_40_b.
+Compiling vhdl file "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/dcache_wb.vhd" in Library microblaze_v8_40_b.
 Entity <DCache_wb> compiled.
 Entity <DCache_wb> (Architecture <IMP>) compiled.
-Compiling vhdl file "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/dcache.vhd" in Library microblaze_v8_40_b.
+Compiling vhdl file "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/dcache.vhd" in Library microblaze_v8_40_b.
 Entity <DCache> compiled.
 Entity <DCache> (Architecture <IMP>) compiled.
-Compiling vhdl file "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/exception_registers.vhd" in Library microblaze_v8_40_b.
+Compiling vhdl file "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/exception_registers.vhd" in Library microblaze_v8_40_b.
 Entity <exception_registers> compiled.
 Entity <exception_registers> (Architecture <IMP>) compiled.
-Compiling vhdl file "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/instr_mux.vhd" in Library microblaze_v8_40_b.
+Compiling vhdl file "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/instr_mux.vhd" in Library microblaze_v8_40_b.
 Entity <instr_mux> compiled.
 Entity <instr_mux> (Architecture <IMP>) compiled.
-Compiling vhdl file "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/decode_gti.vhd" in Library microblaze_v8_40_b.
+Compiling vhdl file "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/decode_gti.vhd" in Library microblaze_v8_40_b.
 Entity <Decode_gti> compiled.
 Entity <Decode_gti> (Architecture <IMP>) compiled.
-Compiling vhdl file "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/data_flow_gti.vhd" in Library microblaze_v8_40_b.
+Compiling vhdl file "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/data_flow_gti.vhd" in Library microblaze_v8_40_b.
 Entity <Data_Flow_gti> compiled.
 Entity <Data_Flow_gti> (Architecture <IMP>) compiled.
-Compiling vhdl file "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/read_data_mux_gti.vhd" in Library microblaze_v8_40_b.
+Compiling vhdl file "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/read_data_mux_gti.vhd" in Library microblaze_v8_40_b.
 Entity <read_data_mux> compiled.
 Entity <read_data_mux> (Architecture <IMP>) compiled.
-Compiling vhdl file "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/dcache_gti.vhd" in Library microblaze_v8_40_b.
+Compiling vhdl file "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/dcache_gti.vhd" in Library microblaze_v8_40_b.
 Entity <DCache_gti> compiled.
 Entity <DCache_gti> (Architecture <IMP>) compiled.
-Compiling vhdl file "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/mmu.vhd" in Library microblaze_v8_40_b.
+Compiling vhdl file "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/mmu.vhd" in Library microblaze_v8_40_b.
 Entity <MMU> compiled.
 Entity <MMU> (Architecture <IMP>) compiled.
-Compiling vhdl file "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/microblaze_core.vhd" in Library microblaze_v8_40_b.
+Compiling vhdl file "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/microblaze_core.vhd" in Library microblaze_v8_40_b.
 Entity <MicroBlaze_Core> compiled.
 Entity <MicroBlaze_Core> (Architecture <IMP>) compiled.
-Compiling vhdl file "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/mux4.vhd" in Library microblaze_v8_40_b.
+Compiling vhdl file "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/mux4.vhd" in Library microblaze_v8_40_b.
 Entity <mux4> compiled.
 Entity <mux4> (Architecture <IMP>) compiled.
-Compiling vhdl file "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/gen_srlfifo.vhd" in Library microblaze_v8_40_b.
+Compiling vhdl file "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/gen_srlfifo.vhd" in Library microblaze_v8_40_b.
 Entity <srl_fifo> compiled.
 Entity <srl_fifo> (Architecture <IMP>) compiled.
-Compiling vhdl file "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/microblaze.vhd" in Library microblaze_v8_40_b.
+Compiling vhdl file "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/microblaze.vhd" in Library microblaze_v8_40_b.
 Entity <MicroBlaze> compiled.
-WARNING:HDLParsers:3293 - "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/microblaze.vhd" Line 1109. Constant 'C_CORE_GENERATION_INFO' C_CORE_GENERATION_INFO is not locally static.
+WARNING:HDLParsers:3293 - "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/microblaze.vhd" Line 1109. Constant 'C_CORE_GENERATION_INFO' C_CORE_GENERATION_INFO is not locally static.
 Entity <MicroBlaze> (Architecture <IMP>) compiled.
-Compiling vhdl file "E:/Adam/Characterizing/characterizer_planahead/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/system_microblaze_0_wrapper.vhd" in Library work.
+Compiling vhdl file "/home/adam/RO-PUF/EDK_workspace/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/system_microblaze_0_wrapper.vhd" in Library work.
 Entity <system_microblaze_0_wrapper> compiled.
 Entity <system_microblaze_0_wrapper> (Architecture <STRUCTURE>) compiled.
 
@@ -950,7 +952,7 @@ Analyzing hierarchy for entity <Jump_Logic> in library <Microblaze_v8_40_b> (arc
 Analyzing hierarchy for entity <Register_File_gti> in library <Microblaze_v8_40_b> (architecture <IMP>) with generics.
 	C_TARGET = "virtex4"
 	C_USE_LUTRAM = "yes"
-WARNING:Xst:795 - "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/register_file_gti.vhd" line 132: Size of operands are different : result is <false>.
+WARNING:Xst:795 - "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/register_file_gti.vhd" line 132: Size of operands are different : result is <false>.
 
 Analyzing hierarchy for entity <Operand_Select_gti> in library <Microblaze_v8_40_b> (architecture <IMP>) with generics.
 	C_ALLOW_LUT6 = true
@@ -1117,50 +1119,50 @@ Analyzing hierarchy for entity <MB_SRL16E> in library <Microblaze_v8_40_b> (arch
 	C_STATIC = true
 	C_USE_SRL16 = "yes"
 	INIT = "0000000000011011"
-WARNING:Xst:2095 - "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/microblaze_primitives.vhd" line 93: Size of operands are different : result is <true>.
-WARNING:Xst:795 - "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/microblaze_primitives.vhd" line 31821: Size of operands are different : result is <false>.
+WARNING:Xst:2095 - "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/microblaze_primitives.vhd" line 93: Size of operands are different : result is <true>.
+WARNING:Xst:795 - "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/microblaze_primitives.vhd" line 31821: Size of operands are different : result is <false>.
 
 Analyzing hierarchy for entity <MB_SRL16E> in library <Microblaze_v8_40_b> (architecture <IMP>) with generics.
 	C_STATIC = true
 	C_USE_SRL16 = "yes"
 	INIT = "0000001000111110"
-WARNING:Xst:2095 - "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/microblaze_primitives.vhd" line 93: Size of operands are different : result is <true>.
-WARNING:Xst:795 - "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/microblaze_primitives.vhd" line 31821: Size of operands are different : result is <false>.
+WARNING:Xst:2095 - "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/microblaze_primitives.vhd" line 93: Size of operands are different : result is <true>.
+WARNING:Xst:795 - "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/microblaze_primitives.vhd" line 31821: Size of operands are different : result is <false>.
 
 Analyzing hierarchy for entity <MB_SRL16E> in library <Microblaze_v8_40_b> (architecture <IMP>) with generics.
 	C_STATIC = true
 	C_USE_SRL16 = "yes"
 	INIT = "1111111111111111"
-WARNING:Xst:2095 - "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/microblaze_primitives.vhd" line 93: Size of operands are different : result is <true>.
-WARNING:Xst:795 - "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/microblaze_primitives.vhd" line 31821: Size of operands are different : result is <false>.
+WARNING:Xst:2095 - "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/microblaze_primitives.vhd" line 93: Size of operands are different : result is <true>.
+WARNING:Xst:795 - "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/microblaze_primitives.vhd" line 31821: Size of operands are different : result is <false>.
 
 Analyzing hierarchy for entity <MB_SRL16E> in library <Microblaze_v8_40_b> (architecture <IMP>) with generics.
 	C_STATIC = true
 	C_USE_SRL16 = "yes"
 	INIT = "0011111111111111"
-WARNING:Xst:2095 - "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/microblaze_primitives.vhd" line 93: Size of operands are different : result is <true>.
-WARNING:Xst:795 - "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/microblaze_primitives.vhd" line 31821: Size of operands are different : result is <false>.
+WARNING:Xst:2095 - "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/microblaze_primitives.vhd" line 93: Size of operands are different : result is <true>.
+WARNING:Xst:795 - "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/microblaze_primitives.vhd" line 31821: Size of operands are different : result is <false>.
 
 Analyzing hierarchy for entity <MB_SRL16E> in library <Microblaze_v8_40_b> (architecture <IMP>) with generics.
 	C_STATIC = true
 	C_USE_SRL16 = "yes"
 	INIT = "0000000000000000"
-WARNING:Xst:2095 - "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/microblaze_primitives.vhd" line 93: Size of operands are different : result is <true>.
-WARNING:Xst:795 - "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/microblaze_primitives.vhd" line 31821: Size of operands are different : result is <false>.
+WARNING:Xst:2095 - "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/microblaze_primitives.vhd" line 93: Size of operands are different : result is <true>.
+WARNING:Xst:795 - "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/microblaze_primitives.vhd" line 31821: Size of operands are different : result is <false>.
 
 Analyzing hierarchy for entity <MB_SRL16E> in library <Microblaze_v8_40_b> (architecture <IMP>) with generics.
 	C_STATIC = true
 	C_USE_SRL16 = "yes"
 	INIT = "0000100000000100"
-WARNING:Xst:2095 - "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/microblaze_primitives.vhd" line 93: Size of operands are different : result is <true>.
-WARNING:Xst:795 - "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/microblaze_primitives.vhd" line 31821: Size of operands are different : result is <false>.
+WARNING:Xst:2095 - "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/microblaze_primitives.vhd" line 93: Size of operands are different : result is <true>.
+WARNING:Xst:795 - "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/microblaze_primitives.vhd" line 31821: Size of operands are different : result is <false>.
 
 Analyzing hierarchy for entity <MB_SRL16E> in library <Microblaze_v8_40_b> (architecture <IMP>) with generics.
 	C_STATIC = true
 	C_USE_SRL16 = "yes"
 	INIT = "0001100100000000"
-WARNING:Xst:2095 - "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/microblaze_primitives.vhd" line 93: Size of operands are different : result is <true>.
-WARNING:Xst:795 - "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/microblaze_primitives.vhd" line 31821: Size of operands are different : result is <false>.
+WARNING:Xst:2095 - "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/microblaze_primitives.vhd" line 93: Size of operands are different : result is <true>.
+WARNING:Xst:795 - "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/microblaze_primitives.vhd" line 31821: Size of operands are different : result is <false>.
 
 Analyzing hierarchy for entity <address_hit> in library <Microblaze_v8_40_b> (architecture <IMP>) with generics.
 	C_FIRST = true
@@ -1231,15 +1233,15 @@ Analyzing hierarchy for entity <WB_Mux_Bit> in library <Microblaze_v8_40_b> (arc
 Analyzing hierarchy for entity <MB_SRLC16E> in library <Microblaze_v8_40_b> (architecture <IMP>) with generics.
 	C_USE_SRL16 = "yes"
 	INIT = "0000000000000000"
-WARNING:Xst:2095 - "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/microblaze_primitives.vhd" line 168: Size of operands are different : result is <true>.
-WARNING:Xst:795 - "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/microblaze_primitives.vhd" line 31897: Size of operands are different : result is <false>.
+WARNING:Xst:2095 - "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/microblaze_primitives.vhd" line 168: Size of operands are different : result is <true>.
+WARNING:Xst:795 - "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/microblaze_primitives.vhd" line 31897: Size of operands are different : result is <false>.
 
 
 =========================================================================
 *                            HDL Analysis                               *
 =========================================================================
 Analyzing Entity <system_microblaze_0_wrapper> in library <work> (Architecture <STRUCTURE>).
-WARNING:Xst:752 - "E:/Adam/Characterizing/characterizer_planahead/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/system_microblaze_0_wrapper.vhd" line 1392: Unconnected input port 'Config_Reset' of component 'microblaze' is tied to default value.
+WARNING:Xst:752 - "/home/adam/RO-PUF/EDK_workspace/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/system_microblaze_0_wrapper.vhd" line 1392: Unconnected input port 'Config_Reset' of component 'microblaze' is tied to default value.
 Entity <system_microblaze_0_wrapper> analyzed. Unit <system_microblaze_0_wrapper> generated.
 
 Analyzing generic Entity <microblaze> in library <microblaze_v8_40_b> (Architecture <IMP>).
@@ -1932,34 +1934,34 @@ Analyzing generic Entity <MicroBlaze_Core> in library <Microblaze_v8_40_b> (Arch
 	C_USE_PCMP_INSTR = 1
 	C_USE_REORDER_INSTR = 1
 	C_USE_STACK_PROTECTION = 0
-WARNING:Xst:753 - "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/microblaze_core.vhd" line 9105: Unconnected output port 'Stop_CPU' of component 'Debug'.
-WARNING:Xst:753 - "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/microblaze_core.vhd" line 9105: Unconnected output port 'Debug_stop_cpu_i' of component 'Debug'.
-WARNING:Xst:753 - "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/microblaze_core.vhd" line 9105: Unconnected output port 'Debug_dbg_inhibit_ex_i' of component 'Debug'.
-WARNING:Xst:753 - "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/microblaze_core.vhd" line 9105: Unconnected output port 'Debug_dbg_stop_instr_fetch_i' of component 'Debug'.
-WARNING:Xst:753 - "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/microblaze_core.vhd" line 9105: Unconnected output port 'Debug_wb_gpr_wr_dbg' of component 'Debug'.
-WARNING:Xst:753 - "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/microblaze_core.vhd" line 9105: Unconnected output port 'Debug_stopping_allowed' of component 'Debug'.
-WARNING:Xst:753 - "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/microblaze_core.vhd" line 9105: Unconnected output port 'Debug_pc_brk_insert' of component 'Debug'.
-WARNING:Xst:753 - "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/microblaze_core.vhd" line 9105: Unconnected output port 'Debug_single_Step_CPU' of component 'Debug'.
-WARNING:Xst:753 - "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/microblaze_core.vhd" line 9105: Unconnected output port 'Debug_single_Step_CPU_1' of component 'Debug'.
-WARNING:Xst:753 - "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/microblaze_core.vhd" line 9105: Unconnected output port 'Debug_single_Step_CPU_2' of component 'Debug'.
-WARNING:Xst:753 - "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/microblaze_core.vhd" line 9105: Unconnected output port 'Debug_dbg_clean_stop_i' of component 'Debug'.
-WARNING:Xst:753 - "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/microblaze_core.vhd" line 9105: Unconnected output port 'Debug_new_dbg_instr_shifting_CLK' of component 'Debug'.
-WARNING:Xst:753 - "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/microblaze_core.vhd" line 9105: Unconnected output port 'Debug_start_dbg_exec' of component 'Debug'.
-WARNING:Xst:753 - "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/microblaze_core.vhd" line 9105: Unconnected output port 'Debug_start_single_step' of component 'Debug'.
-WARNING:Xst:753 - "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/microblaze_core.vhd" line 9105: Unconnected output port 'Debug_continue_from_brk' of component 'Debug'.
-WARNING:Xst:753 - "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/microblaze_core.vhd" line 9105: Unconnected output port 'Debug_force_stop_cmd' of component 'Debug'.
-WARNING:Xst:753 - "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/microblaze_core.vhd" line 9105: Unconnected output port 'Debug_point_hit' of component 'Debug'.
-WARNING:Xst:753 - "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/microblaze_core.vhd" line 9105: Unconnected output port 'Debug_of_brki_hit' of component 'Debug'.
-WARNING:Xst:753 - "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/microblaze_core.vhd" line 9105: Unconnected output port 'Debug_pc_brk' of component 'Debug'.
-WARNING:Xst:753 - "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/microblaze_core.vhd" line 9105: Unconnected output port 'Debug_watchpoint_brk_hold' of component 'Debug'.
-WARNING:Xst:753 - "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/microblaze_core.vhd" line 9105: Unconnected output port 'Debug_normal_stop_cmd' of component 'Debug'.
-WARNING:Xst:753 - "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/microblaze_core.vhd" line 9105: Unconnected output port 'Debug_if_debug_ready_i' of component 'Debug'.
-WARNING:Xst:753 - "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/microblaze_core.vhd" line 9105: Unconnected output port 'Debug_read_register_PC_1' of component 'Debug'.
-WARNING:Xst:753 - "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/microblaze_core.vhd" line 9105: Unconnected output port 'Debug_read_register_MSR_1' of component 'Debug'.
-WARNING:Xst:753 - "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/microblaze_core.vhd" line 9105: Unconnected output port 'Debug_capture_info' of component 'Debug'.
-WARNING:Xst:753 - "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/microblaze_core.vhd" line 9105: Unconnected output port 'Debug_control_reg' of component 'Debug'.
-WARNING:Xst:753 - "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/microblaze_core.vhd" line 9105: Unconnected output port 'Debug_status_Reg' of component 'Debug'.
-WARNING:Xst:753 - "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/microblaze_core.vhd" line 9105: Unconnected output port 'Debug_data_rd_reg' of component 'Debug'.
+WARNING:Xst:753 - "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/microblaze_core.vhd" line 9105: Unconnected output port 'Stop_CPU' of component 'Debug'.
+WARNING:Xst:753 - "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/microblaze_core.vhd" line 9105: Unconnected output port 'Debug_stop_cpu_i' of component 'Debug'.
+WARNING:Xst:753 - "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/microblaze_core.vhd" line 9105: Unconnected output port 'Debug_dbg_inhibit_ex_i' of component 'Debug'.
+WARNING:Xst:753 - "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/microblaze_core.vhd" line 9105: Unconnected output port 'Debug_dbg_stop_instr_fetch_i' of component 'Debug'.
+WARNING:Xst:753 - "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/microblaze_core.vhd" line 9105: Unconnected output port 'Debug_wb_gpr_wr_dbg' of component 'Debug'.
+WARNING:Xst:753 - "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/microblaze_core.vhd" line 9105: Unconnected output port 'Debug_stopping_allowed' of component 'Debug'.
+WARNING:Xst:753 - "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/microblaze_core.vhd" line 9105: Unconnected output port 'Debug_pc_brk_insert' of component 'Debug'.
+WARNING:Xst:753 - "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/microblaze_core.vhd" line 9105: Unconnected output port 'Debug_single_Step_CPU' of component 'Debug'.
+WARNING:Xst:753 - "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/microblaze_core.vhd" line 9105: Unconnected output port 'Debug_single_Step_CPU_1' of component 'Debug'.
+WARNING:Xst:753 - "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/microblaze_core.vhd" line 9105: Unconnected output port 'Debug_single_Step_CPU_2' of component 'Debug'.
+WARNING:Xst:753 - "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/microblaze_core.vhd" line 9105: Unconnected output port 'Debug_dbg_clean_stop_i' of component 'Debug'.
+WARNING:Xst:753 - "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/microblaze_core.vhd" line 9105: Unconnected output port 'Debug_new_dbg_instr_shifting_CLK' of component 'Debug'.
+WARNING:Xst:753 - "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/microblaze_core.vhd" line 9105: Unconnected output port 'Debug_start_dbg_exec' of component 'Debug'.
+WARNING:Xst:753 - "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/microblaze_core.vhd" line 9105: Unconnected output port 'Debug_start_single_step' of component 'Debug'.
+WARNING:Xst:753 - "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/microblaze_core.vhd" line 9105: Unconnected output port 'Debug_continue_from_brk' of component 'Debug'.
+WARNING:Xst:753 - "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/microblaze_core.vhd" line 9105: Unconnected output port 'Debug_force_stop_cmd' of component 'Debug'.
+WARNING:Xst:753 - "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/microblaze_core.vhd" line 9105: Unconnected output port 'Debug_point_hit' of component 'Debug'.
+WARNING:Xst:753 - "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/microblaze_core.vhd" line 9105: Unconnected output port 'Debug_of_brki_hit' of component 'Debug'.
+WARNING:Xst:753 - "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/microblaze_core.vhd" line 9105: Unconnected output port 'Debug_pc_brk' of component 'Debug'.
+WARNING:Xst:753 - "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/microblaze_core.vhd" line 9105: Unconnected output port 'Debug_watchpoint_brk_hold' of component 'Debug'.
+WARNING:Xst:753 - "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/microblaze_core.vhd" line 9105: Unconnected output port 'Debug_normal_stop_cmd' of component 'Debug'.
+WARNING:Xst:753 - "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/microblaze_core.vhd" line 9105: Unconnected output port 'Debug_if_debug_ready_i' of component 'Debug'.
+WARNING:Xst:753 - "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/microblaze_core.vhd" line 9105: Unconnected output port 'Debug_read_register_PC_1' of component 'Debug'.
+WARNING:Xst:753 - "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/microblaze_core.vhd" line 9105: Unconnected output port 'Debug_read_register_MSR_1' of component 'Debug'.
+WARNING:Xst:753 - "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/microblaze_core.vhd" line 9105: Unconnected output port 'Debug_capture_info' of component 'Debug'.
+WARNING:Xst:753 - "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/microblaze_core.vhd" line 9105: Unconnected output port 'Debug_control_reg' of component 'Debug'.
+WARNING:Xst:753 - "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/microblaze_core.vhd" line 9105: Unconnected output port 'Debug_status_Reg' of component 'Debug'.
+WARNING:Xst:753 - "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/microblaze_core.vhd" line 9105: Unconnected output port 'Debug_data_rd_reg' of component 'Debug'.
 Entity <MicroBlaze_Core> analyzed. Unit <MicroBlaze_Core> generated.
 
 Analyzing generic Entity <interrupt_mode_converter> in library <Microblaze_v8_40_b> (Architecture <IMP>).
@@ -2289,15 +2291,15 @@ Analyzing generic Entity <Data_Flow_gti> in library <Microblaze_v8_40_b> (Archit
     Set property "max_fanout = 1000000" for signal <ex_op2>.
     Set property "max_fanout = 1000000" for signal <ex_op3>.
     Set property "ram_style = distributed" for unit <Register_File_gti>.
-WARNING:Xst:753 - "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/data_flow_gti.vhd" line 2015: Unconnected output port 'MEM_FPU_Done' of component 'FPU'.
-WARNING:Xst:753 - "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/data_flow_gti.vhd" line 2015: Unconnected output port 'WB_FPU_Excep' of component 'FPU'.
+WARNING:Xst:753 - "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/data_flow_gti.vhd" line 2015: Unconnected output port 'MEM_FPU_Done' of component 'FPU'.
+WARNING:Xst:753 - "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/data_flow_gti.vhd" line 2015: Unconnected output port 'WB_FPU_Excep' of component 'FPU'.
 Entity <Data_Flow_gti> analyzed. Unit <Data_Flow_gti> generated.
 
 Analyzing generic Entity <Register_File_gti> in library <Microblaze_v8_40_b> (Architecture <IMP>).
 	C_TARGET = "virtex4"
 	C_USE_LUTRAM = "yes"
     Set property "ram_extract = yes" for signal <Reg_File>.
-WARNING:Xst:795 - "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/register_file_gti.vhd" line 227: Size of operands are different : result is <false>.
+WARNING:Xst:795 - "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/register_file_gti.vhd" line 227: Size of operands are different : result is <false>.
 Entity <Register_File_gti> analyzed. Unit <Register_File_gti> generated.
 
 Analyzing generic Entity <Operand_Select_gti> in library <Microblaze_v8_40_b> (Architecture <IMP>).
@@ -2358,10 +2360,10 @@ Analyzing generic Entity <MUL_Unit> in library <Microblaze_v8_40_b> (Architectur
 	C_TARGET = "virtex4"
 	C_USE_HW_MUL = true
 	C_USE_MUL64 = false
-WARNING:Xst:753 - "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/mul_unit.vhd" line 656: Unconnected output port 'DETECT' of component 'dsp_module'.
-WARNING:Xst:753 - "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/mul_unit.vhd" line 690: Unconnected output port 'DETECT' of component 'dsp_module'.
-WARNING:Xst:753 - "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/mul_unit.vhd" line 720: Unconnected output port 'PCOUT' of component 'dsp_module'.
-WARNING:Xst:753 - "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/mul_unit.vhd" line 720: Unconnected output port 'DETECT' of component 'dsp_module'.
+WARNING:Xst:753 - "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/mul_unit.vhd" line 656: Unconnected output port 'DETECT' of component 'dsp_module'.
+WARNING:Xst:753 - "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/mul_unit.vhd" line 690: Unconnected output port 'DETECT' of component 'dsp_module'.
+WARNING:Xst:753 - "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/mul_unit.vhd" line 720: Unconnected output port 'PCOUT' of component 'dsp_module'.
+WARNING:Xst:753 - "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/mul_unit.vhd" line 720: Unconnected output port 'DETECT' of component 'dsp_module'.
 Entity <MUL_Unit> analyzed. Unit <MUL_Unit> generated.
 
 Analyzing generic Entity <dsp_module.1> in library <Microblaze_v8_40_b> (Architecture <IMP>).
@@ -2462,7 +2464,7 @@ Analyzing generic Entity <WB_Mux_Bit> in library <Microblaze_v8_40_b> (Architect
 	C_LUT_SIZE = 4
 	C_TARGET = "virtex4"
     Set property "BELTYPE = LUT" for signal <wb_fwd_i>.
-WARNING:Xst:2211 - "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/wb_mux_bit_gti.vhd" line 302: Instantiating black box module <MUXF5>.
+WARNING:Xst:2211 - "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/wb_mux_bit_gti.vhd" line 302: Instantiating black box module <MUXF5>.
 Entity <WB_Mux_Bit> analyzed. Unit <WB_Mux_Bit> generated.
 
 Analyzing generic Entity <Zero_Detect_gti> in library <Microblaze_v8_40_b> (Architecture <IMP>).
@@ -2728,38 +2730,38 @@ Analyzing generic Entity <instr_mux> in library <Microblaze_v8_40_b> (Architectu
 	C_USE_ICACHE = false
 	C_USE_I_EXT = true
 	C_USE_I_LMB = true
-WARNING:Xst:2211 - "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/instr_mux.vhd" line 248: Instantiating black box module <MUXF5>.
-WARNING:Xst:2211 - "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/instr_mux.vhd" line 248: Instantiating black box module <MUXF5>.
-WARNING:Xst:2211 - "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/instr_mux.vhd" line 248: Instantiating black box module <MUXF5>.
-WARNING:Xst:2211 - "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/instr_mux.vhd" line 248: Instantiating black box module <MUXF5>.
-WARNING:Xst:2211 - "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/instr_mux.vhd" line 248: Instantiating black box module <MUXF5>.
-WARNING:Xst:2211 - "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/instr_mux.vhd" line 248: Instantiating black box module <MUXF5>.
-WARNING:Xst:2211 - "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/instr_mux.vhd" line 248: Instantiating black box module <MUXF5>.
-WARNING:Xst:2211 - "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/instr_mux.vhd" line 248: Instantiating black box module <MUXF5>.
-WARNING:Xst:2211 - "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/instr_mux.vhd" line 248: Instantiating black box module <MUXF5>.
-WARNING:Xst:2211 - "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/instr_mux.vhd" line 248: Instantiating black box module <MUXF5>.
-WARNING:Xst:2211 - "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/instr_mux.vhd" line 248: Instantiating black box module <MUXF5>.
-WARNING:Xst:2211 - "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/instr_mux.vhd" line 248: Instantiating black box module <MUXF5>.
-WARNING:Xst:2211 - "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/instr_mux.vhd" line 248: Instantiating black box module <MUXF5>.
-WARNING:Xst:2211 - "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/instr_mux.vhd" line 248: Instantiating black box module <MUXF5>.
-WARNING:Xst:2211 - "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/instr_mux.vhd" line 248: Instantiating black box module <MUXF5>.
-WARNING:Xst:2211 - "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/instr_mux.vhd" line 248: Instantiating black box module <MUXF5>.
-WARNING:Xst:2211 - "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/instr_mux.vhd" line 248: Instantiating black box module <MUXF5>.
-WARNING:Xst:2211 - "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/instr_mux.vhd" line 248: Instantiating black box module <MUXF5>.
-WARNING:Xst:2211 - "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/instr_mux.vhd" line 248: Instantiating black box module <MUXF5>.
-WARNING:Xst:2211 - "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/instr_mux.vhd" line 248: Instantiating black box module <MUXF5>.
-WARNING:Xst:2211 - "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/instr_mux.vhd" line 248: Instantiating black box module <MUXF5>.
-WARNING:Xst:2211 - "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/instr_mux.vhd" line 248: Instantiating black box module <MUXF5>.
-WARNING:Xst:2211 - "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/instr_mux.vhd" line 248: Instantiating black box module <MUXF5>.
-WARNING:Xst:2211 - "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/instr_mux.vhd" line 248: Instantiating black box module <MUXF5>.
-WARNING:Xst:2211 - "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/instr_mux.vhd" line 248: Instantiating black box module <MUXF5>.
-WARNING:Xst:2211 - "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/instr_mux.vhd" line 248: Instantiating black box module <MUXF5>.
-WARNING:Xst:2211 - "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/instr_mux.vhd" line 248: Instantiating black box module <MUXF5>.
-WARNING:Xst:2211 - "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/instr_mux.vhd" line 248: Instantiating black box module <MUXF5>.
-WARNING:Xst:2211 - "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/instr_mux.vhd" line 248: Instantiating black box module <MUXF5>.
-WARNING:Xst:2211 - "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/instr_mux.vhd" line 248: Instantiating black box module <MUXF5>.
-WARNING:Xst:2211 - "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/instr_mux.vhd" line 248: Instantiating black box module <MUXF5>.
-WARNING:Xst:2211 - "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/instr_mux.vhd" line 248: Instantiating black box module <MUXF5>.
+WARNING:Xst:2211 - "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/instr_mux.vhd" line 248: Instantiating black box module <MUXF5>.
+WARNING:Xst:2211 - "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/instr_mux.vhd" line 248: Instantiating black box module <MUXF5>.
+WARNING:Xst:2211 - "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/instr_mux.vhd" line 248: Instantiating black box module <MUXF5>.
+WARNING:Xst:2211 - "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/instr_mux.vhd" line 248: Instantiating black box module <MUXF5>.
+WARNING:Xst:2211 - "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/instr_mux.vhd" line 248: Instantiating black box module <MUXF5>.
+WARNING:Xst:2211 - "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/instr_mux.vhd" line 248: Instantiating black box module <MUXF5>.
+WARNING:Xst:2211 - "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/instr_mux.vhd" line 248: Instantiating black box module <MUXF5>.
+WARNING:Xst:2211 - "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/instr_mux.vhd" line 248: Instantiating black box module <MUXF5>.
+WARNING:Xst:2211 - "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/instr_mux.vhd" line 248: Instantiating black box module <MUXF5>.
+WARNING:Xst:2211 - "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/instr_mux.vhd" line 248: Instantiating black box module <MUXF5>.
+WARNING:Xst:2211 - "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/instr_mux.vhd" line 248: Instantiating black box module <MUXF5>.
+WARNING:Xst:2211 - "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/instr_mux.vhd" line 248: Instantiating black box module <MUXF5>.
+WARNING:Xst:2211 - "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/instr_mux.vhd" line 248: Instantiating black box module <MUXF5>.
+WARNING:Xst:2211 - "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/instr_mux.vhd" line 248: Instantiating black box module <MUXF5>.
+WARNING:Xst:2211 - "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/instr_mux.vhd" line 248: Instantiating black box module <MUXF5>.
+WARNING:Xst:2211 - "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/instr_mux.vhd" line 248: Instantiating black box module <MUXF5>.
+WARNING:Xst:2211 - "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/instr_mux.vhd" line 248: Instantiating black box module <MUXF5>.
+WARNING:Xst:2211 - "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/instr_mux.vhd" line 248: Instantiating black box module <MUXF5>.
+WARNING:Xst:2211 - "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/instr_mux.vhd" line 248: Instantiating black box module <MUXF5>.
+WARNING:Xst:2211 - "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/instr_mux.vhd" line 248: Instantiating black box module <MUXF5>.
+WARNING:Xst:2211 - "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/instr_mux.vhd" line 248: Instantiating black box module <MUXF5>.
+WARNING:Xst:2211 - "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/instr_mux.vhd" line 248: Instantiating black box module <MUXF5>.
+WARNING:Xst:2211 - "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/instr_mux.vhd" line 248: Instantiating black box module <MUXF5>.
+WARNING:Xst:2211 - "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/instr_mux.vhd" line 248: Instantiating black box module <MUXF5>.
+WARNING:Xst:2211 - "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/instr_mux.vhd" line 248: Instantiating black box module <MUXF5>.
+WARNING:Xst:2211 - "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/instr_mux.vhd" line 248: Instantiating black box module <MUXF5>.
+WARNING:Xst:2211 - "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/instr_mux.vhd" line 248: Instantiating black box module <MUXF5>.
+WARNING:Xst:2211 - "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/instr_mux.vhd" line 248: Instantiating black box module <MUXF5>.
+WARNING:Xst:2211 - "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/instr_mux.vhd" line 248: Instantiating black box module <MUXF5>.
+WARNING:Xst:2211 - "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/instr_mux.vhd" line 248: Instantiating black box module <MUXF5>.
+WARNING:Xst:2211 - "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/instr_mux.vhd" line 248: Instantiating black box module <MUXF5>.
+WARNING:Xst:2211 - "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/instr_mux.vhd" line 248: Instantiating black box module <MUXF5>.
 Entity <instr_mux> analyzed. Unit <instr_mux> generated.
 
 Analyzing generic Entity <IPLB_Interface> in library <Microblaze_v8_40_b> (Architecture <IMP>).
@@ -2815,12 +2817,12 @@ Analyzing generic Entity <Debug> in library <Microblaze_v8_40_b> (Architecture <
 	C_USE_REORDER_INSTR = 1
 	C_USE_SRL16 = "yes"
 	C_USE_STACK_PROTECTION = 0
-INFO:Xst:1561 - "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/debug.vhd" line 841: Mux is complete : default of case is discarded
-WARNING:Xst:790 - "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/debug.vhd" line 934: Index value(s) does not match array range, simulation mismatch.
+INFO:Xst:1561 - "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/debug.vhd" line 841: Mux is complete : default of case is discarded
+WARNING:Xst:790 - "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/debug.vhd" line 934: Index value(s) does not match array range, simulation mismatch.
 INFO:Xst:1433 - Contents of array <status_reg> may be accessed with an index that exceeds the array size. This could cause simulation mismatch.
-WARNING:Xst:790 - "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/debug.vhd" line 1119: Index value(s) does not match array range, simulation mismatch.
+WARNING:Xst:790 - "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/debug.vhd" line 1119: Index value(s) does not match array range, simulation mismatch.
 INFO:Xst:1433 - Contents of array <data_read_reg> may be accessed with an index that exceeds the array size. This could cause simulation mismatch.
-WARNING:Xst:821 - "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/debug.vhd" line 1961: Loop body will iterate zero times
+WARNING:Xst:821 - "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/debug.vhd" line 1961: Loop body will iterate zero times
 INFO:Xst:2679 - Register <watchpoint_brk_hold> in unit <Debug> has a constant value of 0 during circuit operation. The register is replaced by logic.
 INFO:Xst:2679 - Register <dbg_hit_hold_i> in unit <Debug> has a constant value of 0 during circuit operation. The register is replaced by logic.
 INFO:Xst:2679 - Register <dbg_hit<1>> in unit <Debug> has a constant value of 0 during circuit operation. The register is replaced by logic.
@@ -2845,63 +2847,63 @@ Analyzing generic Entity <MB_SRL16E.1> in library <Microblaze_v8_40_b> (Architec
 	C_STATIC = true
 	C_USE_SRL16 = "yes"
 	INIT = "0000000000011011"
-WARNING:Xst:2095 - "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/microblaze_primitives.vhd" line 119: Size of operands are different : result is <true>.
+WARNING:Xst:2095 - "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/microblaze_primitives.vhd" line 119: Size of operands are different : result is <true>.
     Set user-defined property "INIT =  001B" for instance <Use_unisim.MB_SRL16E_I1> in unit <MB_SRL16E.1>.
-WARNING:Xst:795 - "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/microblaze_primitives.vhd" line 134: Size of operands are different : result is <false>.
+WARNING:Xst:795 - "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/microblaze_primitives.vhd" line 134: Size of operands are different : result is <false>.
 Entity <MB_SRL16E.1> analyzed. Unit <MB_SRL16E.1> generated.
 
 Analyzing generic Entity <MB_SRL16E.2> in library <Microblaze_v8_40_b> (Architecture <IMP>).
 	C_STATIC = true
 	C_USE_SRL16 = "yes"
 	INIT = "0000001000111110"
-WARNING:Xst:2095 - "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/microblaze_primitives.vhd" line 119: Size of operands are different : result is <true>.
+WARNING:Xst:2095 - "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/microblaze_primitives.vhd" line 119: Size of operands are different : result is <true>.
     Set user-defined property "INIT =  023E" for instance <Use_unisim.MB_SRL16E_I1> in unit <MB_SRL16E.2>.
-WARNING:Xst:795 - "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/microblaze_primitives.vhd" line 134: Size of operands are different : result is <false>.
+WARNING:Xst:795 - "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/microblaze_primitives.vhd" line 134: Size of operands are different : result is <false>.
 Entity <MB_SRL16E.2> analyzed. Unit <MB_SRL16E.2> generated.
 
 Analyzing generic Entity <MB_SRL16E.3> in library <Microblaze_v8_40_b> (Architecture <IMP>).
 	C_STATIC = true
 	C_USE_SRL16 = "yes"
 	INIT = "1111111111111111"
-WARNING:Xst:2095 - "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/microblaze_primitives.vhd" line 119: Size of operands are different : result is <true>.
+WARNING:Xst:2095 - "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/microblaze_primitives.vhd" line 119: Size of operands are different : result is <true>.
     Set user-defined property "INIT =  FFFF" for instance <Use_unisim.MB_SRL16E_I1> in unit <MB_SRL16E.3>.
-WARNING:Xst:795 - "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/microblaze_primitives.vhd" line 134: Size of operands are different : result is <false>.
+WARNING:Xst:795 - "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/microblaze_primitives.vhd" line 134: Size of operands are different : result is <false>.
 Entity <MB_SRL16E.3> analyzed. Unit <MB_SRL16E.3> generated.
 
 Analyzing generic Entity <MB_SRL16E.4> in library <Microblaze_v8_40_b> (Architecture <IMP>).
 	C_STATIC = true
 	C_USE_SRL16 = "yes"
 	INIT = "0011111111111111"
-WARNING:Xst:2095 - "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/microblaze_primitives.vhd" line 119: Size of operands are different : result is <true>.
+WARNING:Xst:2095 - "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/microblaze_primitives.vhd" line 119: Size of operands are different : result is <true>.
     Set user-defined property "INIT =  3FFF" for instance <Use_unisim.MB_SRL16E_I1> in unit <MB_SRL16E.4>.
-WARNING:Xst:795 - "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/microblaze_primitives.vhd" line 134: Size of operands are different : result is <false>.
+WARNING:Xst:795 - "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/microblaze_primitives.vhd" line 134: Size of operands are different : result is <false>.
 Entity <MB_SRL16E.4> analyzed. Unit <MB_SRL16E.4> generated.
 
 Analyzing generic Entity <MB_SRL16E.5> in library <Microblaze_v8_40_b> (Architecture <IMP>).
 	C_STATIC = true
 	C_USE_SRL16 = "yes"
 	INIT = "0000000000000000"
-WARNING:Xst:2095 - "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/microblaze_primitives.vhd" line 119: Size of operands are different : result is <true>.
+WARNING:Xst:2095 - "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/microblaze_primitives.vhd" line 119: Size of operands are different : result is <true>.
     Set user-defined property "INIT =  0000" for instance <Use_unisim.MB_SRL16E_I1> in unit <MB_SRL16E.5>.
-WARNING:Xst:795 - "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/microblaze_primitives.vhd" line 134: Size of operands are different : result is <false>.
+WARNING:Xst:795 - "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/microblaze_primitives.vhd" line 134: Size of operands are different : result is <false>.
 Entity <MB_SRL16E.5> analyzed. Unit <MB_SRL16E.5> generated.
 
 Analyzing generic Entity <MB_SRL16E.6> in library <Microblaze_v8_40_b> (Architecture <IMP>).
 	C_STATIC = true
 	C_USE_SRL16 = "yes"
 	INIT = "0000100000000100"
-WARNING:Xst:2095 - "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/microblaze_primitives.vhd" line 119: Size of operands are different : result is <true>.
+WARNING:Xst:2095 - "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/microblaze_primitives.vhd" line 119: Size of operands are different : result is <true>.
     Set user-defined property "INIT =  0804" for instance <Use_unisim.MB_SRL16E_I1> in unit <MB_SRL16E.6>.
-WARNING:Xst:795 - "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/microblaze_primitives.vhd" line 134: Size of operands are different : result is <false>.
+WARNING:Xst:795 - "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/microblaze_primitives.vhd" line 134: Size of operands are different : result is <false>.
 Entity <MB_SRL16E.6> analyzed. Unit <MB_SRL16E.6> generated.
 
 Analyzing generic Entity <MB_SRL16E.7> in library <Microblaze_v8_40_b> (Architecture <IMP>).
 	C_STATIC = true
 	C_USE_SRL16 = "yes"
 	INIT = "0001100100000000"
-WARNING:Xst:2095 - "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/microblaze_primitives.vhd" line 119: Size of operands are different : result is <true>.
+WARNING:Xst:2095 - "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/microblaze_primitives.vhd" line 119: Size of operands are different : result is <true>.
     Set user-defined property "INIT =  1900" for instance <Use_unisim.MB_SRL16E_I1> in unit <MB_SRL16E.7>.
-WARNING:Xst:795 - "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/microblaze_primitives.vhd" line 134: Size of operands are different : result is <false>.
+WARNING:Xst:795 - "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/microblaze_primitives.vhd" line 134: Size of operands are different : result is <false>.
 Entity <MB_SRL16E.7> analyzed. Unit <MB_SRL16E.7> generated.
 
 Analyzing generic Entity <address_hit> in library <Microblaze_v8_40_b> (Architecture <IMP>).
@@ -2914,9 +2916,9 @@ Entity <address_hit> analyzed. Unit <address_hit> generated.
 Analyzing generic Entity <MB_SRLC16E> in library <Microblaze_v8_40_b> (Architecture <IMP>).
 	C_USE_SRL16 = "yes"
 	INIT = "0000000000000000"
-WARNING:Xst:2095 - "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/microblaze_primitives.vhd" line 195: Size of operands are different : result is <true>.
+WARNING:Xst:2095 - "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/microblaze_primitives.vhd" line 195: Size of operands are different : result is <true>.
     Set user-defined property "INIT =  0000" for instance <Use_unisim.MB_SRL16CE_I1> in unit <MB_SRLC16E>.
-WARNING:Xst:795 - "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/microblaze_primitives.vhd" line 211: Size of operands are different : result is <false>.
+WARNING:Xst:795 - "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/microblaze_primitives.vhd" line 211: Size of operands are different : result is <false>.
 Entity <MB_SRLC16E> analyzed. Unit <MB_SRLC16E> generated.
 
 Analyzing generic Entity <MMU> in library <Microblaze_v8_40_b> (Architecture <IMP>).
@@ -2944,21 +2946,21 @@ INFO:Xst:2679 - Register <status_reg<26>> in unit <Debug> has a constant value o
 INFO:Xst:2679 - Register <status_reg<21>> in unit <Debug> has a constant value of 0 during circuit operation. The register is replaced by logic.
 
 Synthesizing Unit <interrupt_mode_converter>.
-    Related source file is "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/interrupt_mode_converter.vhd".
+    Related source file is "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/interrupt_mode_converter.vhd".
 WARNING:Xst:647 - Input <Clk> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <Interrupt_taken> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 Unit <interrupt_mode_converter> synthesized.
 
 
 Synthesizing Unit <read_data_mux>.
-    Related source file is "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/read_data_mux_gti.vhd".
+    Related source file is "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/read_data_mux_gti.vhd".
 WARNING:Xst:647 - Input <WB_DLMB_data_strobe> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <WB_DCache_valid_read_data> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 Unit <read_data_mux> synthesized.
 
 
 Synthesizing Unit <DPLB_Interface>.
-    Related source file is "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/dplb_interface.vhd".
+    Related source file is "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/dplb_interface.vhd".
 WARNING:Xst:647 - Input <DPLB_MWrBTerm> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <DPLB_MRearbitrate> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <DPLB_MBusy> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
@@ -2982,7 +2984,7 @@ Unit <DPLB_Interface> synthesized.
 
 
 Synthesizing Unit <IPLB_Interface>.
-    Related source file is "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/iplb_interface.vhd".
+    Related source file is "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/iplb_interface.vhd".
 WARNING:Xst:647 - Input <IPLB_MWrBTerm> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <IPLB_MBusy> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <IPLB_MSSize> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
@@ -3003,7 +3005,7 @@ Unit <IPLB_Interface> synthesized.
 
 
 Synthesizing Unit <MMU>.
-    Related source file is "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/mmu.vhd".
+    Related source file is "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/mmu.vhd".
 WARNING:Xst:647 - Input <WB_exception<0>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <Clk> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <IB_VMode> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
@@ -3137,7 +3139,7 @@ Unit <MMU> synthesized.
 
 
 Synthesizing Unit <Register_File_gti>.
-    Related source file is "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/register_file_gti.vhd".
+    Related source file is "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/register_file_gti.vhd".
 WARNING:Xst:646 - Signal <WB_GPR_Wr_std> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
     Found 32x32-bit dual-port RAM <Mram_Reg_File> for signal <Reg_File>.
     Found 32x32-bit dual-port RAM <Mram_Reg_File_ren> for signal <Reg_File>.
@@ -3148,7 +3150,7 @@ Unit <Register_File_gti> synthesized.
 
 
 Synthesizing Unit <Operand_Select_gti>.
-    Related source file is "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/operand_select_gti.vhd".
+    Related source file is "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/operand_select_gti.vhd".
 WARNING:Xst:647 - Input <OF_Op1_Sel_SPR_MSR<0>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <Interrupt_Address> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
     Found 32-bit register for signal <EX_Op1>.
@@ -3166,7 +3168,7 @@ Unit <Operand_Select_gti> synthesized.
 
 
 Synthesizing Unit <Barrel_Shifter_gti>.
-    Related source file is "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/barrel_shifter_gti.vhd".
+    Related source file is "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/barrel_shifter_gti.vhd".
     Found 30-bit 4-to-1 multiplexer for signal <ex_mux2<0:29>>.
     Found 1-bit register for signal <mem_left_shift<0>>.
     Found 32-bit register for signal <mem_mux3>.
@@ -3203,7 +3205,7 @@ Unit <Barrel_Shifter_gti> synthesized.
 
 
 Synthesizing Unit <Byte_Doublet_Handle_gti>.
-    Related source file is "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/byte_doublet_handle_gti.vhd".
+    Related source file is "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/byte_doublet_handle_gti.vhd".
 WARNING:Xst:1780 - Signal <wb_word_access> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
 WARNING:Xst:646 - Signal <wb_byte_selects> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
 WARNING:Xst:1780 - Signal <ex_word_access> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
@@ -3228,7 +3230,7 @@ Unit <Byte_Doublet_Handle_gti> synthesized.
 
 
 Synthesizing Unit <FPU>.
-    Related source file is "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/fpu.vhd".
+    Related source file is "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/fpu.vhd".
 WARNING:Xst:647 - Input <Clk> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <OF_PipeRun<0>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <EX_FPU_Cond> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
@@ -3248,7 +3250,7 @@ Unit <FPU> synthesized.
 
 
 Synthesizing Unit <PVR>.
-    Related source file is "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/pvr.vhd".
+    Related source file is "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/pvr.vhd".
 WARNING:Xst:647 - Input <Clk> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <Reset> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <MEM_Sel_SPR_PVR<0>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
@@ -3259,7 +3261,7 @@ Unit <PVR> synthesized.
 
 
 Synthesizing Unit <count_leading_zeros>.
-    Related source file is "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/count_leading_zero.vhd".
+    Related source file is "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/count_leading_zero.vhd".
 WARNING:Xst:647 - Input <Data<7>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <Data<15>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <Data<23>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
@@ -3268,19 +3270,19 @@ Unit <count_leading_zeros> synthesized.
 
 
 Synthesizing Unit <carry_or>.
-    Related source file is "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/carry_or.vhd".
+    Related source file is "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/carry_or.vhd".
 Unit <carry_or> synthesized.
 
 
 Synthesizing Unit <instr_mux>.
-    Related source file is "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/instr_mux.vhd".
+    Related source file is "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/instr_mux.vhd".
 WARNING:Xst:647 - Input <ICache_data> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <IEXT_data_strobe> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 Unit <instr_mux> synthesized.
 
 
 Synthesizing Unit <PC_Module_gti>.
-    Related source file is "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/pc_module_gti.vhd".
+    Related source file is "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/pc_module_gti.vhd".
 WARNING:Xst:647 - Input <EX_change_VM> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <IB_VMode> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <EX_Branch_With_Delayslot<0>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
@@ -3321,7 +3323,7 @@ Unit <PC_Module_gti> synthesized.
 
 
 Synthesizing Unit <PreFetch_Buffer_gti>.
-    Related source file is "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/prefetch_buffer_gti.vhd".
+    Related source file is "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/prefetch_buffer_gti.vhd".
 WARNING:Xst:647 - Input <IF_Instr_Storage_Excep1> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <IB_ECC_Exception> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <IF_Instr_TLB_Miss_Excep1> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
@@ -3354,12 +3356,12 @@ Unit <PreFetch_Buffer_gti> synthesized.
 
 
 Synthesizing Unit <carry_and>.
-    Related source file is "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/carry_and.vhd".
+    Related source file is "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/carry_and.vhd".
 Unit <carry_and> synthesized.
 
 
 Synthesizing Unit <Jump_Logic>.
-    Related source file is "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/jump_logic_gti.vhd".
+    Related source file is "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/jump_logic_gti.vhd".
 WARNING:Xst:647 - Input <OF_instr<6:7>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <OF_instr<11:31>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <EX_Opcode> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
@@ -3380,12 +3382,12 @@ Unit <Jump_Logic> synthesized.
 
 
 Synthesizing Unit <Zero_Detect_gti>.
-    Related source file is "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/zero_detect_gti.vhd".
+    Related source file is "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/zero_detect_gti.vhd".
 Unit <Zero_Detect_gti> synthesized.
 
 
 Synthesizing Unit <Data_Flow_Logic>.
-    Related source file is "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/data_flow_logic_gti.vhd".
+    Related source file is "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/data_flow_logic_gti.vhd".
 WARNING:Xst:647 - Input <MEM_Sel_FSL<0>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <MEM_EX_Result_Load<0>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <MEM_FSL_Result> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
@@ -3400,7 +3402,7 @@ Unit <Data_Flow_Logic> synthesized.
 
 
 Synthesizing Unit <msr_reg_gti>.
-    Related source file is "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/msr_reg_gti.vhd".
+    Related source file is "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/msr_reg_gti.vhd".
 WARNING:Xst:647 - Input <EX_Restore_WB_MSR> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <MEM_MSR_Load_DZ> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <EX_MSR_Clear_VM_UM> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
@@ -3417,7 +3419,7 @@ Unit <msr_reg_gti> synthesized.
 
 
 Synthesizing Unit <exception_registers_gti>.
-    Related source file is "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/exception_registers_gti.vhd".
+    Related source file is "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/exception_registers_gti.vhd".
 WARNING:Xst:647 - Input <WB_Exception_Kind<27>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <EX_PC> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <WB_ECC_Exception> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
@@ -3447,7 +3449,7 @@ Unit <exception_registers_gti> synthesized.
 
 
 Synthesizing Unit <ALU_Bit_1>.
-    Related source file is "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/alu_bit.vhd".
+    Related source file is "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/alu_bit.vhd".
 WARNING:Xst:647 - Input <EX_CMP_Op<0>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <EX_ALU_Sel_Logic> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <EX_Enable_ALU> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
@@ -3456,7 +3458,7 @@ Unit <ALU_Bit_1> synthesized.
 
 
 Synthesizing Unit <ALU_Bit_2>.
-    Related source file is "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/alu_bit.vhd".
+    Related source file is "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/alu_bit.vhd".
 WARNING:Xst:647 - Input <EX_ALU_Sel_Logic> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <EX_Enable_ALU> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
     Found 1-bit xor2 for signal <maintain_sign_n$xor0000> created at line 239.
@@ -3464,7 +3466,7 @@ Unit <ALU_Bit_2> synthesized.
 
 
 Synthesizing Unit <carry_equal>.
-    Related source file is "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/carry_equal.vhd".
+    Related source file is "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/carry_equal.vhd".
     Found 1-bit xor2 for signal <sel_0$xor0000>.
     Found 1-bit xor2 for signal <sel_0$xor0001>.
     Found 1-bit xor2 for signal <sel_1$xor0000>.
@@ -3477,7 +3479,7 @@ Unit <carry_equal> synthesized.
 
 
 Synthesizing Unit <dsp_module_1>.
-    Related source file is "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/dsp_module.vhd".
+    Related source file is "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/dsp_module.vhd".
 WARNING:Xst:647 - Input <P_Copy> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <M_CE> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <AB_CE> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
@@ -3495,7 +3497,7 @@ Unit <dsp_module_1> synthesized.
 
 
 Synthesizing Unit <dsp_module_2>.
-    Related source file is "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/dsp_module.vhd".
+    Related source file is "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/dsp_module.vhd".
 WARNING:Xst:647 - Input <P_Copy> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <AB_CE> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:1305 - Output <DETECT> is never assigned. Tied to value 0.
@@ -3512,7 +3514,7 @@ Unit <dsp_module_2> synthesized.
 
 
 Synthesizing Unit <dsp_module_3>.
-    Related source file is "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/dsp_module.vhd".
+    Related source file is "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/dsp_module.vhd".
 WARNING:Xst:647 - Input <P_Copy> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <P_CE> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:1305 - Output <DETECT> is never assigned. Tied to value 0.
@@ -3529,54 +3531,54 @@ Unit <dsp_module_3> synthesized.
 
 
 Synthesizing Unit <WB_Mux_Bit>.
-    Related source file is "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/wb_mux_bit_gti.vhd".
+    Related source file is "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/wb_mux_bit_gti.vhd".
 WARNING:Xst:647 - Input <Select_Bits<0>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 Unit <WB_Mux_Bit> synthesized.
 
 
 Synthesizing Unit <MB_SRL16E_1>.
-    Related source file is "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/microblaze_primitives.vhd".
+    Related source file is "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/microblaze_primitives.vhd".
 Unit <MB_SRL16E_1> synthesized.
 
 
 Synthesizing Unit <MB_SRL16E_2>.
-    Related source file is "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/microblaze_primitives.vhd".
+    Related source file is "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/microblaze_primitives.vhd".
 Unit <MB_SRL16E_2> synthesized.
 
 
 Synthesizing Unit <MB_SRL16E_3>.
-    Related source file is "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/microblaze_primitives.vhd".
+    Related source file is "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/microblaze_primitives.vhd".
 Unit <MB_SRL16E_3> synthesized.
 
 
 Synthesizing Unit <MB_SRL16E_4>.
-    Related source file is "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/microblaze_primitives.vhd".
+    Related source file is "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/microblaze_primitives.vhd".
 Unit <MB_SRL16E_4> synthesized.
 
 
 Synthesizing Unit <MB_SRL16E_5>.
-    Related source file is "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/microblaze_primitives.vhd".
+    Related source file is "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/microblaze_primitives.vhd".
 Unit <MB_SRL16E_5> synthesized.
 
 
 Synthesizing Unit <MB_SRL16E_6>.
-    Related source file is "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/microblaze_primitives.vhd".
+    Related source file is "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/microblaze_primitives.vhd".
 Unit <MB_SRL16E_6> synthesized.
 
 
 Synthesizing Unit <MB_SRL16E_7>.
-    Related source file is "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/microblaze_primitives.vhd".
+    Related source file is "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/microblaze_primitives.vhd".
 Unit <MB_SRL16E_7> synthesized.
 
 
 Synthesizing Unit <MB_SRLC16E>.
-    Related source file is "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/microblaze_primitives.vhd".
+    Related source file is "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/microblaze_primitives.vhd".
 WARNING:Xst:647 - Input <Config_Reset> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 Unit <MB_SRLC16E> synthesized.
 
 
 Synthesizing Unit <Decode_gti>.
-    Related source file is "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/decode_gti.vhd".
+    Related source file is "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/decode_gti.vhd".
 WARNING:Xst:647 - Input <Dbg_Want_To_Break_FSL> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <FSL_Put_Succesful> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <MEM_DataBus_ECC_Exception> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
@@ -3804,12 +3806,12 @@ Unit <Decode_gti> synthesized.
 
 
 Synthesizing Unit <ALU>.
-    Related source file is "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/alu.vhd".
+    Related source file is "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/alu.vhd".
 Unit <ALU> synthesized.
 
 
 Synthesizing Unit <Shift_Logic_Module_gti>.
-    Related source file is "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/shift_logic_gti.vhd".
+    Related source file is "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/shift_logic_gti.vhd".
 WARNING:Xst:647 - Input <EX_Enable_Sext_Shift> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:646 - Signal <sign_bit> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
 WARNING:Xst:1780 - Signal <sext_shift_result> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
@@ -3825,7 +3827,7 @@ Unit <Shift_Logic_Module_gti> synthesized.
 
 
 Synthesizing Unit <MUL_Unit>.
-    Related source file is "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/mul_unit.vhd".
+    Related source file is "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/mul_unit.vhd".
 WARNING:Xst:647 - Input <Reset> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <EX_Mulhsu_Instr<0>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <EX_Not_Mul_Op<0>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
@@ -3864,7 +3866,7 @@ Unit <MUL_Unit> synthesized.
 
 
 Synthesizing Unit <WB_Mux>.
-    Related source file is "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/wb_mux_gti.vhd".
+    Related source file is "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/wb_mux_gti.vhd".
 WARNING:Xst:647 - Input <WB_Sel_SPR_SHR<0>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <WB_Sel_SPR_EAR<0>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <WB_Sel_FPU_Res<0>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
@@ -3889,13 +3891,13 @@ Unit <WB_Mux> synthesized.
 
 
 Synthesizing Unit <address_hit>.
-    Related source file is "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/address_hit.vhd".
+    Related source file is "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/address_hit.vhd".
 WARNING:Xst:646 - Signal <SRL16_MC15<0>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
 Unit <address_hit> synthesized.
 
 
 Synthesizing Unit <Data_Flow_gti>.
-    Related source file is "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/data_flow_gti.vhd".
+    Related source file is "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/data_flow_gti.vhd".
 WARNING:Xst:647 - Input <MEM_Sel_EX_Res<0>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <MEM_Is_Div_Instr<0>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <MEM_Sel_SPR_SHR<0>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
@@ -3924,7 +3926,7 @@ Unit <Data_Flow_gti> synthesized.
 
 
 Synthesizing Unit <Debug>.
-    Related source file is "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/debug.vhd".
+    Related source file is "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/debug.vhd".
 WARNING:Xst:647 - Input <MEM_Data_Write> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:1305 - Output <Debug_status_Reg> is never assigned. Tied to value 0000000000000000000000000000.
 WARNING:Xst:647 - Input <Stack_Violation> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
@@ -4044,7 +4046,7 @@ Unit <Debug> synthesized.
 
 
 Synthesizing Unit <MicroBlaze_Core>.
-    Related source file is "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/microblaze_core.vhd".
+    Related source file is "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/microblaze_core.vhd".
 WARNING:Xst:647 - Input <M1_AXIS_TREADY> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <FSL15_S_Exists> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <FSL11_M_Full> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
@@ -4317,7 +4319,7 @@ Unit <MicroBlaze_Core> synthesized.
 
 
 Synthesizing Unit <microblaze>.
-    Related source file is "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/microblaze.vhd".
+    Related source file is "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/hdl/vhdl/microblaze.vhd".
 WARNING:Xst:1305 - Output <LOCKSTEP_Master_Out<44:4095>> is never assigned. Tied to value
    0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
    0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
@@ -4378,7 +4380,7 @@ Unit <microblaze> synthesized.
 
 
 Synthesizing Unit <system_microblaze_0_wrapper>.
-    Related source file is "E:/Adam/Characterizing/characterizer_planahead/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/system_microblaze_0_wrapper.vhd".
+    Related source file is "/home/adam/RO-PUF/EDK_workspace/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/system_microblaze_0_wrapper.vhd".
 Unit <system_microblaze_0_wrapper> synthesized.
 
 
@@ -8428,23 +8430,23 @@ Design Statistics
 # IOs                              : 16360
 
 Cell Usage :
-# BELS                             : 2789
+# BELS                             : 2798
 #      GND                         : 1
 #      INV                         : 13
 #      LUT1                        : 106
-#      LUT2                        : 104
+#      LUT2                        : 116
 #      LUT2_D                      : 5
 #      LUT2_L                      : 3
-#      LUT3                        : 867
-#      LUT3_D                      : 51
-#      LUT3_L                      : 15
-#      LUT4                        : 787
-#      LUT4_D                      : 27
-#      LUT4_L                      : 33
+#      LUT3                        : 837
+#      LUT3_D                      : 71
+#      LUT3_L                      : 14
+#      LUT4                        : 807
+#      LUT4_D                      : 29
+#      LUT4_L                      : 43
 #      MULT_AND                    : 34
 #      MUXCY                       : 19
 #      MUXCY_L                     : 152
-#      MUXF5                       : 460
+#      MUXF5                       : 436
 #      MUXF6                       : 6
 #      MUXF7                       : 2
 #      MUXF8                       : 1
@@ -8473,12 +8475,12 @@ Cell Usage :
 Device utilization summary:
 ---------------------------
 
-Selected Device : 4vlx60ff668-11 
+Selected Device : 4vlx60ff668-10 
 
- Number of Slices:                     1506  out of  26624     5%  
+ Number of Slices:                     1525  out of  26624     5%  
  Number of Slice Flip Flops:           1666  out of  53248     3%  
- Number of 4 input LUTs:               2482  out of  53248     4%  
-    Number used as logic:              2011
+ Number of 4 input LUTs:               2515  out of  53248     4%  
+    Number used as logic:              2044
     Number used as Shift registers:      87
     Number used as RAMs:                384
  Number of IOs:                       16360
@@ -8528,12 +8530,12 @@ microblaze_0/MicroBlaze_Core_I/Performance.Use_Debug_Logic.Master_Core.Debug_Per
 
 Timing Summary:
 ---------------
-Speed Grade: -11
+Speed Grade: -10
 
-   Minimum period: 6.922ns (Maximum Frequency: 144.459MHz)
-   Minimum input arrival time before clock: 4.226ns
-   Maximum output required time after clock: 6.133ns
-   Maximum combinational path delay: 2.584ns
+   Minimum period: 8.022ns (Maximum Frequency: 124.660MHz)
+   Minimum input arrival time before clock: 4.902ns
+   Maximum output required time after clock: 7.159ns
+   Maximum combinational path delay: 2.998ns
 
 Timing Detail:
 --------------
@@ -8541,10 +8543,10 @@ All values displayed in nanoseconds (ns)
 
 =========================================================================
 Timing constraint: Default period analysis for Clock 'DCACHE_FSL_OUT_CLK'
-  Clock period: 6.922ns (frequency: 144.459MHz)
-  Total number of paths / destination ports: 231734 / 5501
+  Clock period: 8.022ns (frequency: 124.660MHz)
+  Total number of paths / destination ports: 232455 / 5501
 -------------------------------------------------------------------------
-Delay:               6.922ns (Levels of Logic = 7)
+Delay:               8.022ns (Levels of Logic = 7)
   Source:            microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PreFetch_Buffer_I1/Using_FPGA_Buffers_Mux.Instruction_Prefetch_Mux[10].Gen_Instr_DFF (FF)
   Destination:       microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PreFetch_Buffer_I1/sel_input_4 (FF)
   Source Clock:      DCACHE_FSL_OUT_CLK rising
@@ -8554,25 +8556,25 @@ Delay:               6.922ns (Levels of Logic = 7)
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     FDR:C->Q             75   0.307   1.092  microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PreFetch_Buffer_I1/Using_FPGA_Buffers_Mux.Instruction_Prefetch_Mux[10].Gen_Instr_DFF (microblaze_0/MicroBlaze_Core_I/of_gpr_op3_rd_addr<4>)
-     LUT4:I3->O            1   0.166   0.452  microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/of_read_ex_write_op3_conflict_0_and000073 (microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/of_read_ex_write_op3_conflict_0_and000073)
-     LUT4:I3->O            1   0.166   0.452  microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/of_read_ex_write_op3_conflict_0_and000089_SW0 (N641)
-     LUT4_D:I3->O          2   0.166   0.467  microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/of_read_ex_write_op3_conflict_0_and000089 (microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/of_read_ex_write_op3_conflict)
-     LUT3:I2->O            1   0.166   0.000  microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/of_pipe_ctrl_8_mux00001 (microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/of_pipe_ctrl<8>)
-     MUXCY_L:S->LO         1   0.312   0.000  microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/Use_MuxCy[8].OF_Piperun_Stage/Using_FPGA.MUXCY_I (microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/of_PipeRun_carry<8>)
-     MUXCY_L:CI->LO      391   0.038   2.166  microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/Use_MuxCy[9].OF_Piperun_Stage/Using_FPGA.MUXCY_I (Trace_OF_PipeRun)
-     LUT4:I3->O            6   0.166   0.345  microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PreFetch_Buffer_I1/sel_input_not0001 (microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PreFetch_Buffer_I1/sel_input_not0001)
-     FDSE:CE                   0.461          microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PreFetch_Buffer_I1/sel_input_4
+     FDR:C->Q             75   0.360   1.259  microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PreFetch_Buffer_I1/Using_FPGA_Buffers_Mux.Instruction_Prefetch_Mux[10].Gen_Instr_DFF (microblaze_0/MicroBlaze_Core_I/of_gpr_op3_rd_addr<4>)
+     LUT4:I3->O            1   0.195   0.523  microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/of_read_ex_write_op3_conflict_0_and000073 (microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/of_read_ex_write_op3_conflict_0_and000073)
+     LUT4:I3->O            1   0.195   0.523  microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/of_read_ex_write_op3_conflict_0_and000089_SW0 (N696)
+     LUT4_D:I3->O          2   0.195   0.540  microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/of_read_ex_write_op3_conflict_0_and000089 (microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/of_read_ex_write_op3_conflict)
+     LUT3:I2->O            1   0.195   0.000  microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/of_pipe_ctrl_8_mux00001 (microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/of_pipe_ctrl<8>)
+     MUXCY_L:S->LO         1   0.366   0.000  microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/Use_MuxCy[8].OF_Piperun_Stage/Using_FPGA.MUXCY_I (microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/of_PipeRun_carry<8>)
+     MUXCY_L:CI->LO      391   0.045   2.495  microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/Use_MuxCy[9].OF_Piperun_Stage/Using_FPGA.MUXCY_I (Trace_OF_PipeRun)
+     LUT4:I3->O            6   0.195   0.397  microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PreFetch_Buffer_I1/sel_input_not0001 (microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PreFetch_Buffer_I1/sel_input_not0001)
+     FDSE:CE                   0.540          microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PreFetch_Buffer_I1/sel_input_4
     ----------------------------------------
-    Total                      6.922ns (1.948ns logic, 4.974ns route)
-                                       (28.1% logic, 71.9% route)
+    Total                      8.022ns (2.286ns logic, 5.736ns route)
+                                       (28.5% logic, 71.5% route)
 
 =========================================================================
 Timing constraint: Default period analysis for Clock 'DBG_CLK'
-  Clock period: 3.433ns (frequency: 291.307MHz)
+  Clock period: 3.993ns (frequency: 250.428MHz)
   Total number of paths / destination ports: 203 / 171
 -------------------------------------------------------------------------
-Delay:               3.433ns (Levels of Logic = 2)
+Delay:               3.993ns (Levels of Logic = 2)
   Source:            microblaze_0/MicroBlaze_Core_I/Performance.Use_Debug_Logic.Master_Core.Debug_Perf/shift_count_1 (FF)
   Destination:       microblaze_0/MicroBlaze_Core_I/Performance.Use_Debug_Logic.Master_Core.Debug_Perf/New_Dbg_Instr_TCK (FF)
   Source Clock:      DBG_CLK rising
@@ -8582,19 +8584,19 @@ Delay:               3.433ns (Levels of Logic = 2)
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     FDR:C->Q             27   0.307   1.070  microblaze_0/MicroBlaze_Core_I/Performance.Use_Debug_Logic.Master_Core.Debug_Perf/shift_count_1 (microblaze_0/MicroBlaze_Core_I/Performance.Use_Debug_Logic.Master_Core.Debug_Perf/shift_count_1)
-     LUT4:I1->O            1   0.166   0.505  microblaze_0/MicroBlaze_Core_I/Performance.Use_Debug_Logic.Master_Core.Debug_Perf/New_Dbg_Instr_TCK_or000022 (microblaze_0/MicroBlaze_Core_I/Performance.Use_Debug_Logic.Master_Core.Debug_Perf/New_Dbg_Instr_TCK_or000022)
-     LUT4:I2->O            1   0.166   0.313  microblaze_0/MicroBlaze_Core_I/Performance.Use_Debug_Logic.Master_Core.Debug_Perf/New_Dbg_Instr_TCK_or000042 (microblaze_0/MicroBlaze_Core_I/Performance.Use_Debug_Logic.Master_Core.Debug_Perf/New_Dbg_Instr_TCK_or0000)
-     FDR:R                     0.906          microblaze_0/MicroBlaze_Core_I/Performance.Use_Debug_Logic.Master_Core.Debug_Perf/New_Dbg_Instr_TCK
+     FDR:C->Q             27   0.360   1.236  microblaze_0/MicroBlaze_Core_I/Performance.Use_Debug_Logic.Master_Core.Debug_Perf/shift_count_1 (microblaze_0/MicroBlaze_Core_I/Performance.Use_Debug_Logic.Master_Core.Debug_Perf/shift_count_1)
+     LUT4:I1->O            1   0.195   0.585  microblaze_0/MicroBlaze_Core_I/Performance.Use_Debug_Logic.Master_Core.Debug_Perf/New_Dbg_Instr_TCK_or000022 (microblaze_0/MicroBlaze_Core_I/Performance.Use_Debug_Logic.Master_Core.Debug_Perf/New_Dbg_Instr_TCK_or000022)
+     LUT4:I2->O            1   0.195   0.360  microblaze_0/MicroBlaze_Core_I/Performance.Use_Debug_Logic.Master_Core.Debug_Perf/New_Dbg_Instr_TCK_or000042 (microblaze_0/MicroBlaze_Core_I/Performance.Use_Debug_Logic.Master_Core.Debug_Perf/New_Dbg_Instr_TCK_or0000)
+     FDR:R                     1.062          microblaze_0/MicroBlaze_Core_I/Performance.Use_Debug_Logic.Master_Core.Debug_Perf/New_Dbg_Instr_TCK
     ----------------------------------------
-    Total                      3.433ns (1.545ns logic, 1.888ns route)
-                                       (45.0% logic, 55.0% route)
+    Total                      3.993ns (1.812ns logic, 2.181ns route)
+                                       (45.4% logic, 54.6% route)
 
 =========================================================================
 Timing constraint: Default OFFSET IN BEFORE for Clock 'DCACHE_FSL_OUT_CLK'
   Total number of paths / destination ports: 1975 / 1634
 -------------------------------------------------------------------------
-Offset:              4.226ns (Levels of Logic = 14)
+Offset:              4.902ns (Levels of Logic = 14)
   Source:            DREADY (PAD)
   Destination:       microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PreFetch_Buffer_I1/sel_input_4 (FF)
   Destination Clock: DCACHE_FSL_OUT_CLK rising
@@ -8603,30 +8605,30 @@ Offset:              4.226ns (Levels of Logic = 14)
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     LUT2:I0->O            1   0.166   0.000  microblaze_0/MicroBlaze_Core_I/Performance.mem_databus_ready_sel_carry_or/A_N1 (microblaze_0/MicroBlaze_Core_I/Performance.mem_databus_ready_sel_carry_or/A_N)
-     MUXCY_L:S->LO         1   0.312   0.000  microblaze_0/MicroBlaze_Core_I/Performance.mem_databus_ready_sel_carry_or/Using_FPGA.MUXCY_I (microblaze_0/MicroBlaze_Core_I/mem_databus_ready)
-     MUXCY_L:CI->LO        1   0.038   0.000  microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/mem_wait_on_ready_N_carry_or/Using_FPGA.MUXCY_I (microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/mem_wait_on_ready_N)
-     MUXCY_L:CI->LO      204   0.038   0.000  microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/mem_PipeRun_carry_and/Using_FPGA.MUXCY_I (Trace_MEM_PipeRun)
-     MUXCY_L:CI->LO        1   0.038   0.000  microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/Use_MuxCy[1].OF_Piperun_Stage/Using_FPGA.MUXCY_I (microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/of_PipeRun_carry<1>)
-     MUXCY_L:CI->LO      235   0.038   0.000  microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/Use_MuxCy[2].OF_Piperun_Stage/Using_FPGA.MUXCY_I (Trace_EX_PipeRun)
-     MUXCY_L:CI->LO        1   0.038   0.000  microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/Use_MuxCy[3].OF_Piperun_Stage/Using_FPGA.MUXCY_I (microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/of_PipeRun_carry<3>)
-     MUXCY_L:CI->LO        1   0.038   0.000  microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/Use_MuxCy[4].OF_Piperun_Stage/Using_FPGA.MUXCY_I (microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/of_PipeRun_carry<4>)
-     MUXCY_L:CI->LO        1   0.038   0.000  microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/Use_MuxCy[5].OF_Piperun_Stage/Using_FPGA.MUXCY_I (microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/of_PipeRun_carry<5>)
-     MUXCY_L:CI->LO        1   0.038   0.000  microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/Use_MuxCy[6].OF_Piperun_Stage/Using_FPGA.MUXCY_I (microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/of_PipeRun_carry<6>)
-     MUXCY_L:CI->LO        1   0.038   0.000  microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/Use_MuxCy[7].OF_Piperun_Stage/Using_FPGA.MUXCY_I (microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/of_PipeRun_carry<7>)
-     MUXCY_L:CI->LO        1   0.038   0.000  microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/Use_MuxCy[8].OF_Piperun_Stage/Using_FPGA.MUXCY_I (microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/of_PipeRun_carry<8>)
-     MUXCY_L:CI->LO      391   0.038   2.166  microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/Use_MuxCy[9].OF_Piperun_Stage/Using_FPGA.MUXCY_I (Trace_OF_PipeRun)
-     LUT4:I3->O            6   0.166   0.345  microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PreFetch_Buffer_I1/sel_input_not0001 (microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PreFetch_Buffer_I1/sel_input_not0001)
-     FDSE:CE                   0.461          microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PreFetch_Buffer_I1/sel_input_4
+     LUT2:I0->O            1   0.195   0.000  microblaze_0/MicroBlaze_Core_I/Performance.mem_databus_ready_sel_carry_or/A_N1 (microblaze_0/MicroBlaze_Core_I/Performance.mem_databus_ready_sel_carry_or/A_N)
+     MUXCY_L:S->LO         1   0.366   0.000  microblaze_0/MicroBlaze_Core_I/Performance.mem_databus_ready_sel_carry_or/Using_FPGA.MUXCY_I (microblaze_0/MicroBlaze_Core_I/mem_databus_ready)
+     MUXCY_L:CI->LO        1   0.044   0.000  microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/mem_wait_on_ready_N_carry_or/Using_FPGA.MUXCY_I (microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/mem_wait_on_ready_N)
+     MUXCY_L:CI->LO      204   0.044   0.000  microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/mem_PipeRun_carry_and/Using_FPGA.MUXCY_I (Trace_MEM_PipeRun)
+     MUXCY_L:CI->LO        1   0.044   0.000  microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/Use_MuxCy[1].OF_Piperun_Stage/Using_FPGA.MUXCY_I (microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/of_PipeRun_carry<1>)
+     MUXCY_L:CI->LO      235   0.045   0.000  microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/Use_MuxCy[2].OF_Piperun_Stage/Using_FPGA.MUXCY_I (Trace_EX_PipeRun)
+     MUXCY_L:CI->LO        1   0.045   0.000  microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/Use_MuxCy[3].OF_Piperun_Stage/Using_FPGA.MUXCY_I (microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/of_PipeRun_carry<3>)
+     MUXCY_L:CI->LO        1   0.045   0.000  microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/Use_MuxCy[4].OF_Piperun_Stage/Using_FPGA.MUXCY_I (microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/of_PipeRun_carry<4>)
+     MUXCY_L:CI->LO        1   0.045   0.000  microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/Use_MuxCy[5].OF_Piperun_Stage/Using_FPGA.MUXCY_I (microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/of_PipeRun_carry<5>)
+     MUXCY_L:CI->LO        1   0.045   0.000  microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/Use_MuxCy[6].OF_Piperun_Stage/Using_FPGA.MUXCY_I (microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/of_PipeRun_carry<6>)
+     MUXCY_L:CI->LO        1   0.045   0.000  microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/Use_MuxCy[7].OF_Piperun_Stage/Using_FPGA.MUXCY_I (microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/of_PipeRun_carry<7>)
+     MUXCY_L:CI->LO        1   0.045   0.000  microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/Use_MuxCy[8].OF_Piperun_Stage/Using_FPGA.MUXCY_I (microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/of_PipeRun_carry<8>)
+     MUXCY_L:CI->LO      391   0.045   2.495  microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/Use_MuxCy[9].OF_Piperun_Stage/Using_FPGA.MUXCY_I (Trace_OF_PipeRun)
+     LUT4:I3->O            6   0.195   0.397  microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PreFetch_Buffer_I1/sel_input_not0001 (microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PreFetch_Buffer_I1/sel_input_not0001)
+     FDSE:CE                   0.540          microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PreFetch_Buffer_I1/sel_input_4
     ----------------------------------------
-    Total                      4.226ns (1.715ns logic, 2.511ns route)
-                                       (40.6% logic, 59.4% route)
+    Total                      4.902ns (2.010ns logic, 2.891ns route)
+                                       (41.0% logic, 59.0% route)
 
 =========================================================================
 Timing constraint: Default OFFSET IN BEFORE for Clock 'DBG_CLK'
   Total number of paths / destination ports: 135 / 66
 -------------------------------------------------------------------------
-Offset:              3.233ns (Levels of Logic = 3)
+Offset:              3.768ns (Levels of Logic = 3)
   Source:            DBG_REG_EN<1> (PAD)
   Destination:       microblaze_0/MicroBlaze_Core_I/Performance.Use_Debug_Logic.Master_Core.Debug_Perf/Using_PC_Breakpoints.All_PC_Brks[0].address_hit_I/Using_FPGA.Compare[0].SRLC16E_I/Use_unisim.MB_SRL16CE_I1 (FF)
   Destination Clock: DBG_CLK rising
@@ -8635,19 +8637,19 @@ Offset:              3.233ns (Levels of Logic = 3)
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     LUT4:I0->O            4   0.166   0.464  microblaze_0/MicroBlaze_Core_I/Performance.Use_Debug_Logic.Master_Core.Debug_Perf/Command_Reg_En_cmp_eq000011 (microblaze_0/MicroBlaze_Core_I/Performance.Use_Debug_Logic.Master_Core.Debug_Perf/N6)
-     LUT3:I2->O            2   0.166   0.608  microblaze_0/MicroBlaze_Core_I/Performance.Use_Debug_Logic.Master_Core.Debug_Perf/Control_Reg_En_cmp_eq000011 (microblaze_0/MicroBlaze_Core_I/Performance.Use_Debug_Logic.Master_Core.Debug_Perf/N16)
-     LUT3:I0->O            8   0.166   0.387  microblaze_0/MicroBlaze_Core_I/Performance.Use_Debug_Logic.Master_Core.Debug_Perf/which_pc_0_mux00001 (microblaze_0/MicroBlaze_Core_I/Performance.Use_Debug_Logic.Master_Core.Debug_Perf/which_pc)
-     SRLC16E:CE                0.951          microblaze_0/MicroBlaze_Core_I/Performance.Use_Debug_Logic.Master_Core.Debug_Perf/Using_PC_Breakpoints.All_PC_Brks[0].address_hit_I/Using_FPGA.Compare[0].SRLC16E_I/Use_unisim.MB_SRL16CE_I1
+     LUT4:I0->O            4   0.195   0.537  microblaze_0/MicroBlaze_Core_I/Performance.Use_Debug_Logic.Master_Core.Debug_Perf/Command_Reg_En_cmp_eq000011 (microblaze_0/MicroBlaze_Core_I/Performance.Use_Debug_Logic.Master_Core.Debug_Perf/N6)
+     LUT3:I2->O            2   0.195   0.705  microblaze_0/MicroBlaze_Core_I/Performance.Use_Debug_Logic.Master_Core.Debug_Perf/Control_Reg_En_cmp_eq000011 (microblaze_0/MicroBlaze_Core_I/Performance.Use_Debug_Logic.Master_Core.Debug_Perf/N16)
+     LUT3:I0->O            8   0.195   0.445  microblaze_0/MicroBlaze_Core_I/Performance.Use_Debug_Logic.Master_Core.Debug_Perf/which_pc_0_mux00001 (microblaze_0/MicroBlaze_Core_I/Performance.Use_Debug_Logic.Master_Core.Debug_Perf/which_pc)
+     SRLC16E:CE                1.115          microblaze_0/MicroBlaze_Core_I/Performance.Use_Debug_Logic.Master_Core.Debug_Perf/Using_PC_Breakpoints.All_PC_Brks[0].address_hit_I/Using_FPGA.Compare[0].SRLC16E_I/Use_unisim.MB_SRL16CE_I1
     ----------------------------------------
-    Total                      3.233ns (1.774ns logic, 1.459ns route)
-                                       (54.9% logic, 45.1% route)
+    Total                      3.768ns (2.081ns logic, 1.687ns route)
+                                       (55.2% logic, 44.8% route)
 
 =========================================================================
 Timing constraint: Default OFFSET IN BEFORE for Clock 'DBG_UPDATE'
   Total number of paths / destination ports: 96 / 12
 -------------------------------------------------------------------------
-Offset:              2.639ns (Levels of Logic = 3)
+Offset:              3.071ns (Levels of Logic = 3)
   Source:            DBG_REG_EN<1> (PAD)
   Destination:       microblaze_0/MicroBlaze_Core_I/Performance.Use_Debug_Logic.Master_Core.Debug_Perf/control_reg_0 (FF)
   Destination Clock: DBG_UPDATE rising
@@ -8656,42 +8658,42 @@ Offset:              2.639ns (Levels of Logic = 3)
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     LUT4:I0->O            4   0.166   0.464  microblaze_0/MicroBlaze_Core_I/Performance.Use_Debug_Logic.Master_Core.Debug_Perf/Command_Reg_En_cmp_eq000011 (microblaze_0/MicroBlaze_Core_I/Performance.Use_Debug_Logic.Master_Core.Debug_Perf/N6)
-     LUT3:I2->O            2   0.166   0.467  microblaze_0/MicroBlaze_Core_I/Performance.Use_Debug_Logic.Master_Core.Debug_Perf/Control_Reg_En_cmp_eq000011 (microblaze_0/MicroBlaze_Core_I/Performance.Use_Debug_Logic.Master_Core.Debug_Perf/N16)
-     LUT3:I2->O           10   0.166   0.424  microblaze_0/MicroBlaze_Core_I/Performance.Use_Debug_Logic.Master_Core.Debug_Perf/Control_Reg_En_cmp_eq00002 (microblaze_0/MicroBlaze_Core_I/Performance.Use_Debug_Logic.Master_Core.Debug_Perf/Control_Reg_En)
-     FDCE:CE                   0.461          microblaze_0/MicroBlaze_Core_I/Performance.Use_Debug_Logic.Master_Core.Debug_Perf/Dbg_Wakeup
+     LUT4:I0->O            4   0.195   0.537  microblaze_0/MicroBlaze_Core_I/Performance.Use_Debug_Logic.Master_Core.Debug_Perf/Command_Reg_En_cmp_eq000011 (microblaze_0/MicroBlaze_Core_I/Performance.Use_Debug_Logic.Master_Core.Debug_Perf/N6)
+     LUT3:I2->O            2   0.195   0.540  microblaze_0/MicroBlaze_Core_I/Performance.Use_Debug_Logic.Master_Core.Debug_Perf/Control_Reg_En_cmp_eq000011 (microblaze_0/MicroBlaze_Core_I/Performance.Use_Debug_Logic.Master_Core.Debug_Perf/N16)
+     LUT3:I2->O           10   0.195   0.488  microblaze_0/MicroBlaze_Core_I/Performance.Use_Debug_Logic.Master_Core.Debug_Perf/Control_Reg_En_cmp_eq00002 (microblaze_0/MicroBlaze_Core_I/Performance.Use_Debug_Logic.Master_Core.Debug_Perf/Control_Reg_En)
+     FDCE:CE                   0.540          microblaze_0/MicroBlaze_Core_I/Performance.Use_Debug_Logic.Master_Core.Debug_Perf/Dbg_Wakeup
     ----------------------------------------
-    Total                      2.639ns (1.284ns logic, 1.355ns route)
-                                       (48.7% logic, 51.3% route)
+    Total                      3.071ns (1.506ns logic, 1.565ns route)
+                                       (49.0% logic, 51.0% route)
 
 =========================================================================
 Timing constraint: Default OFFSET OUT AFTER for Clock 'DCACHE_FSL_OUT_CLK'
   Total number of paths / destination ports: 13985 / 809
 -------------------------------------------------------------------------
-Offset:              4.234ns (Levels of Logic = 5)
-  Source:            microblaze_0/MicroBlaze_Core_I/Performance.Use_Debug_Logic.Master_Core.Debug_Perf/ex_dbg_pc_hit_i_0 (FF)
-  Destination:       IFETCH (PAD)
+Offset:              5.001ns (Levels of Logic = 5)
+  Source:            microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/wb_exception_i_0 (FF)
+  Destination:       I_AS (PAD)
   Source Clock:      DCACHE_FSL_OUT_CLK rising
 
-  Data Path: microblaze_0/MicroBlaze_Core_I/Performance.Use_Debug_Logic.Master_Core.Debug_Perf/ex_dbg_pc_hit_i_0 to IFETCH
+  Data Path: microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/wb_exception_i_0 to I_AS
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     FDR:C->Q              6   0.307   0.537  microblaze_0/MicroBlaze_Core_I/Performance.Use_Debug_Logic.Master_Core.Debug_Perf/ex_dbg_pc_hit_i_0 (microblaze_0/MicroBlaze_Core_I/Performance.Use_Debug_Logic.Master_Core.Debug_Perf/ex_dbg_pc_hit_i_0)
-     LUT2_D:I0->O          4   0.166   0.464  microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/MEM_DataBus_Access_mux000011 (microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/N0)
-     LUT4:I3->O           43   0.166   1.124  microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/ex_reservation_0_or000022 (microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/N59)
-     LUT4:I1->O            1   0.166   0.505  microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/IB_Fetch_or00001_SW0 (N311)
-     LUT4_D:I2->O          2   0.166   0.467  microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/IB_Fetch_or00001 (microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/N361)
-     LUT2:I1->O            2   0.166   0.000  microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/IB_Fetch_or00002 (IFETCH)
+     FDRE:C->Q            13   0.360   0.752  microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/wb_exception_i_0 (microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/wb_exception_i_0)
+     LUT3_D:I1->O         10   0.195   0.651  microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/WB_GPR_Wr_Addr<1>111 (microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/N54)
+     LUT4:I3->O           32   0.195   1.091  microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/wb_dbg_exception_0_and00001 (microblaze_0/MicroBlaze_Core_I/wb_Halted)
+     LUT2:I1->O            2   0.195   0.540  microblaze_0/MicroBlaze_Core_I/Performance.Use_Debug_Logic.Master_Core.Debug_Perf/Dbg_Freeze_0_or00001 (LOCKSTEP_MASTER_OUT<7>)
+     LUT4_D:I3->O          9   0.195   0.632  microblaze_0/MicroBlaze_Core_I/ib_ready1 (microblaze_0/MicroBlaze_Core_I/ib_ready)
+     LUT3:I2->O           36   0.195   0.000  microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/ib_addr_strobe_i_0_and00011 (I_AS)
     ----------------------------------------
-    Total                      4.234ns (1.137ns logic, 3.097ns route)
-                                       (26.9% logic, 73.1% route)
+    Total                      5.001ns (1.335ns logic, 3.666ns route)
+                                       (26.7% logic, 73.3% route)
 
 =========================================================================
 Timing constraint: Default OFFSET OUT AFTER for Clock 'DBG_CLK'
   Total number of paths / destination ports: 158 / 33
 -------------------------------------------------------------------------
-Offset:              6.133ns (Levels of Logic = 7)
+Offset:              7.159ns (Levels of Logic = 7)
   Source:            microblaze_0/MicroBlaze_Core_I/Performance.Use_Debug_Logic.Master_Core.Debug_Perf/Use_SRL16.The_Cache_Addresses[7].SRL16E_Cache_I/Use_unisim.MB_SRL16E_I1 (FF)
   Destination:       DBG_TDO (PAD)
   Source Clock:      DBG_CLK rising
@@ -8700,23 +8702,23 @@ Offset:              6.133ns (Levels of Logic = 7)
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     SRL16E:CLK->Q         1   1.878   0.505  microblaze_0/MicroBlaze_Core_I/Performance.Use_Debug_Logic.Master_Core.Debug_Perf/Use_SRL16.The_Cache_Addresses[7].SRL16E_Cache_I/Use_unisim.MB_SRL16E_I1 (microblaze_0/MicroBlaze_Core_I/Performance.Use_Debug_Logic.Master_Core.Debug_Perf/tdo_config_word1<8>)
-     LUT3:I1->O            1   0.166   0.000  microblaze_0/MicroBlaze_Core_I/Performance.Use_Debug_Logic.Master_Core.Debug_Perf/Mmux_TDO_Config_Word_11 (microblaze_0/MicroBlaze_Core_I/Performance.Use_Debug_Logic.Master_Core.Debug_Perf/Mmux_TDO_Config_Word_11)
-     MUXF5:I0->O           1   0.325   0.593  microblaze_0/MicroBlaze_Core_I/Performance.Use_Debug_Logic.Master_Core.Debug_Perf/Mmux_TDO_Config_Word_9_f5 (microblaze_0/MicroBlaze_Core_I/Performance.Use_Debug_Logic.Master_Core.Debug_Perf/Mmux_TDO_Config_Word_9_f5)
-     LUT4:I1->O            1   0.166   0.452  microblaze_0/MicroBlaze_Core_I/Performance.Use_Debug_Logic.Master_Core.Debug_Perf/TDO30 (microblaze_0/MicroBlaze_Core_I/Performance.Use_Debug_Logic.Master_Core.Debug_Perf/TDO30)
-     LUT3:I2->O            1   0.166   0.000  microblaze_0/MicroBlaze_Core_I/Performance.Use_Debug_Logic.Master_Core.Debug_Perf/TDO84_G (N800)
-     MUXF5:I1->O           1   0.319   0.593  microblaze_0/MicroBlaze_Core_I/Performance.Use_Debug_Logic.Master_Core.Debug_Perf/TDO84 (microblaze_0/MicroBlaze_Core_I/Performance.Use_Debug_Logic.Master_Core.Debug_Perf/TDO84)
-     LUT4:I1->O            1   0.166   0.638  microblaze_0/MicroBlaze_Core_I/Performance.Use_Debug_Logic.Master_Core.Debug_Perf/TDO138_SW0 (N611)
-     LUT4:I0->O            0   0.166   0.000  microblaze_0/MicroBlaze_Core_I/Performance.Use_Debug_Logic.Master_Core.Debug_Perf/TDO138 (DBG_TDO)
+     SRL16E:CLK->Q         1   2.203   0.585  microblaze_0/MicroBlaze_Core_I/Performance.Use_Debug_Logic.Master_Core.Debug_Perf/Use_SRL16.The_Cache_Addresses[7].SRL16E_Cache_I/Use_unisim.MB_SRL16E_I1 (microblaze_0/MicroBlaze_Core_I/Performance.Use_Debug_Logic.Master_Core.Debug_Perf/tdo_config_word1<8>)
+     LUT3:I1->O            1   0.195   0.000  microblaze_0/MicroBlaze_Core_I/Performance.Use_Debug_Logic.Master_Core.Debug_Perf/Mmux_TDO_Config_Word_11 (microblaze_0/MicroBlaze_Core_I/Performance.Use_Debug_Logic.Master_Core.Debug_Perf/Mmux_TDO_Config_Word_11)
+     MUXF5:I0->O           1   0.382   0.688  microblaze_0/MicroBlaze_Core_I/Performance.Use_Debug_Logic.Master_Core.Debug_Perf/Mmux_TDO_Config_Word_9_f5 (microblaze_0/MicroBlaze_Core_I/Performance.Use_Debug_Logic.Master_Core.Debug_Perf/Mmux_TDO_Config_Word_9_f5)
+     LUT4:I1->O            1   0.195   0.523  microblaze_0/MicroBlaze_Core_I/Performance.Use_Debug_Logic.Master_Core.Debug_Perf/TDO30 (microblaze_0/MicroBlaze_Core_I/Performance.Use_Debug_Logic.Master_Core.Debug_Perf/TDO30)
+     LUT3:I2->O            1   0.195   0.000  microblaze_0/MicroBlaze_Core_I/Performance.Use_Debug_Logic.Master_Core.Debug_Perf/TDO84_G (N855)
+     MUXF5:I1->O           1   0.374   0.688  microblaze_0/MicroBlaze_Core_I/Performance.Use_Debug_Logic.Master_Core.Debug_Perf/TDO84 (microblaze_0/MicroBlaze_Core_I/Performance.Use_Debug_Logic.Master_Core.Debug_Perf/TDO84)
+     LUT4:I1->O            1   0.195   0.741  microblaze_0/MicroBlaze_Core_I/Performance.Use_Debug_Logic.Master_Core.Debug_Perf/TDO138_SW0 (N694)
+     LUT4:I0->O            0   0.195   0.000  microblaze_0/MicroBlaze_Core_I/Performance.Use_Debug_Logic.Master_Core.Debug_Perf/TDO138 (DBG_TDO)
     ----------------------------------------
-    Total                      6.133ns (3.352ns logic, 2.781ns route)
-                                       (54.7% logic, 45.3% route)
+    Total                      7.159ns (3.934ns logic, 3.225ns route)
+                                       (55.0% logic, 45.0% route)
 
 =========================================================================
 Timing constraint: Default OFFSET OUT AFTER for Clock 'DBG_UPDATE'
   Total number of paths / destination ports: 3 / 3
 -------------------------------------------------------------------------
-Offset:              0.307ns (Levels of Logic = 0)
+Offset:              0.360ns (Levels of Logic = 0)
   Source:            microblaze_0/MicroBlaze_Core_I/Performance.Use_Debug_Logic.Master_Core.Debug_Perf/Dbg_Wakeup (FF)
   Destination:       DBG_WAKEUP (PAD)
   Source Clock:      DBG_UPDATE rising
@@ -8725,16 +8727,16 @@ Offset:              0.307ns (Levels of Logic = 0)
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     FDCE:C->Q             0   0.307   0.000  microblaze_0/MicroBlaze_Core_I/Performance.Use_Debug_Logic.Master_Core.Debug_Perf/Dbg_Wakeup (microblaze_0/MicroBlaze_Core_I/Performance.Use_Debug_Logic.Master_Core.Debug_Perf/Dbg_Wakeup)
+     FDCE:C->Q             0   0.360   0.000  microblaze_0/MicroBlaze_Core_I/Performance.Use_Debug_Logic.Master_Core.Debug_Perf/Dbg_Wakeup (microblaze_0/MicroBlaze_Core_I/Performance.Use_Debug_Logic.Master_Core.Debug_Perf/Dbg_Wakeup)
     ----------------------------------------
-    Total                      0.307ns (0.307ns logic, 0.000ns route)
+    Total                      0.360ns (0.360ns logic, 0.000ns route)
                                        (100.0% logic, 0.0% route)
 
 =========================================================================
 Timing constraint: Default path analysis
   Total number of paths / destination ports: 18 / 10
 -------------------------------------------------------------------------
-Delay:               2.584ns (Levels of Logic = 5)
+Delay:               2.998ns (Levels of Logic = 5)
   Source:            DREADY (PAD)
   Destination:       D_AS (PAD)
 
@@ -8742,24 +8744,25 @@ Delay:               2.584ns (Levels of Logic = 5)
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     LUT2:I0->O            1   0.166   0.000  microblaze_0/MicroBlaze_Core_I/Performance.mem_databus_ready_sel_carry_or/A_N1 (microblaze_0/MicroBlaze_Core_I/Performance.mem_databus_ready_sel_carry_or/A_N)
-     MUXCY_L:S->LO         1   0.312   0.000  microblaze_0/MicroBlaze_Core_I/Performance.mem_databus_ready_sel_carry_or/Using_FPGA.MUXCY_I (microblaze_0/MicroBlaze_Core_I/mem_databus_ready)
-     MUXCY_L:CI->LO        1   0.038   0.000  microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/mem_wait_on_ready_N_carry_or/Using_FPGA.MUXCY_I (microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/mem_wait_on_ready_N)
-     MUXCY_L:CI->LO      204   0.038   1.672  microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/mem_PipeRun_carry_and/Using_FPGA.MUXCY_I (Trace_MEM_PipeRun)
-     LUT4:I1->O            1   0.166   0.000  microblaze_0/MicroBlaze_Core_I/D_AS1 (D_AS)
+     LUT2:I0->O            1   0.195   0.000  microblaze_0/MicroBlaze_Core_I/Performance.mem_databus_ready_sel_carry_or/A_N1 (microblaze_0/MicroBlaze_Core_I/Performance.mem_databus_ready_sel_carry_or/A_N)
+     MUXCY_L:S->LO         1   0.366   0.000  microblaze_0/MicroBlaze_Core_I/Performance.mem_databus_ready_sel_carry_or/Using_FPGA.MUXCY_I (microblaze_0/MicroBlaze_Core_I/mem_databus_ready)
+     MUXCY_L:CI->LO        1   0.045   0.000  microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/mem_wait_on_ready_N_carry_or/Using_FPGA.MUXCY_I (microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/mem_wait_on_ready_N)
+     MUXCY_L:CI->LO      204   0.045   1.928  microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/mem_PipeRun_carry_and/Using_FPGA.MUXCY_I (Trace_MEM_PipeRun)
+     LUT4:I1->O            1   0.195   0.000  microblaze_0/MicroBlaze_Core_I/D_AS1 (D_AS)
     ----------------------------------------
-    Total                      2.584ns (0.912ns logic, 1.672ns route)
-                                       (35.3% logic, 64.7% route)
+    Total                      2.998ns (1.070ns logic, 1.928ns route)
+                                       (35.7% logic, 64.3% route)
 
 =========================================================================
 
 
-Total REAL time to Xst completion: 351.00 secs
-Total CPU time to Xst completion: 351.28 secs
+Total REAL time to Xst completion: 329.00 secs
+Total CPU time to Xst completion: 328.83 secs
  
 --> 
 
-Total memory usage is 562328 kilobytes
+
+Total memory usage is 826576 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings : 4611 (   0 filtered)
