@@ -150,6 +150,12 @@
     <File Path="$PDATADIR/sources_1/chipscope.xml">
       <FileInfo SFType="ChipscopeDb"/>
     </File>
+    <File Path="$PSRCDIR/sources_1/imports/characterizer_planahead/inverter.nmc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/inverter.nmc"/>
+        <Attr Name="ImportTime" Val="1430344432"/>
+      </FileInfo>
+    </File>
     <Config>
       <Option Name="DesignMode" Val="GateLvl"/>
       <Option Name="TopModule" Val="system"/>

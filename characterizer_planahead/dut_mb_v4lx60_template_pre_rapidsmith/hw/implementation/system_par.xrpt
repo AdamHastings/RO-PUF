@@ -1,39 +1,51 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
-<document OS="nt64" product="ISE" version="14.4">
+<document OS="lin64" product="ISE" version="14.4">
 
   <!--The data in this file is primarily intended for consumption by Xilinx tools.
     The structure and the elements are likely to change over the next few releases.
     This means code written to parse this file will need to be revisited each subsequent release.-->
 
-  <application stringID="par" timeStamp="Sat Oct 10 19:42:36 2015">
+  <application stringID="par" timeStamp="Mon Apr 16 00:54:38 2018">
     <section stringID="User_Env">
       <table stringID="User_EnvVar">
         <column stringID="variable"/>
         <column stringID="value"/>
         <row stringID="row" value="0">
-          <item stringID="variable" value="PATH"/>
-          <item stringID="value" value="E:\Xilinx\14.4\ISE_DS\ISE\\lib\nt64;E:\Xilinx\14.4\ISE_DS\EDK\lib\nt64;E:\Xilinx\14.4\ISE_DS\ISE\\bin\nt64;E:\Xilinx\14.4\ISE_DS\EDK\bin\nt64;E:\Xilinx\14.4\ISE_DS\EDK\gnu\microblaze\nt64\bin;E:\Xilinx\14.4\ISE_DS\EDK\gnu\powerpc-eabi\nt64\bin;E:\Xilinx\14.4\ISE_DS\EDK\gnuwin\bin;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\MiKTeX 2.9\miktex\bin\x64\;C:\Program Files\doxygen\bin;C:\MinGW\bin;E:\Xilinx\14.4\ISE_DS\ISE\bin;E:\Xilinx\14.4\ISE_DS\common\bin;E:\Xilinx\14.4\ISE_DS\ISE\bin\nt64;E:\Xilinx\14.4\ISE_DS\ISE\bin\nt;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Java\jdk1.7.0_51\bin;C:\Program Files (x86)\PuTTY"/>
+          <item stringID="variable" value="XILINX_PLANAHEAD"/>
+          <item stringID="value" value="/opt/Xilinx/14.4/ISE_DS/PlanAhead"/>
         </row>
         <row stringID="row" value="1">
-          <item stringID="variable" value="PATHEXT"/>
-          <item stringID="value" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC"/>
+          <item stringID="variable" value="LD_LIBRARY_PATH"/>
+          <item stringID="value" value="/opt/Xilinx/14.4/ISE_DS/ISE//lib/lin64:/opt/Xilinx/14.4/ISE_DS/EDK/lib/lin64:/opt/Xilinx/14.4/ISE_DS/ISE/lib/lin64:/opt/Xilinx/14.4/ISE_DS/ISE/smartmodel/lin64/installed_lin64/lib:/opt/Xilinx/14.4/ISE_DS/ISE/sysgen/lib:/opt/Xilinx/14.4/ISE_DS/common/lib/lin64"/>
         </row>
         <row stringID="row" value="2">
           <item stringID="variable" value="XILINX_EDK"/>
-          <item stringID="value" value="E:\Xilinx\14.4\ISE_DS\EDK"/>
+          <item stringID="value" value="/opt/Xilinx/14.4/ISE_DS/EDK"/>
         </row>
         <row stringID="row" value="3">
           <item stringID="variable" value="XILINX"/>
-          <item stringID="value" value="E:\Xilinx\14.4\ISE_DS\ISE\;E:\Xilinx\14.4\ISE_DS\EDK"/>
+          <item stringID="value" value="/opt/Xilinx/14.4/ISE_DS/ISE/:/opt/Xilinx/14.4/ISE_DS/EDK"/>
         </row>
         <row stringID="row" value="4">
           <item stringID="variable" value="XILINXD_LICENSE_FILE"/>
-          <item stringID="value" value="2100@xilinxlic1.ee.byu.edu"/>
+          <item stringID="value" value="2100@ece-xilinx.byu.edu"/>
+        </row>
+        <row stringID="row" value="5">
+          <item stringID="variable" value="PATH"/>
+          <item stringID="value" value="/opt/Xilinx/14.4/ISE_DS/ISE//bin/lin64:/opt/Xilinx/14.4/ISE_DS/EDK/bin/lin64:/opt/Xilinx/14.4/ISE_DS/EDK/gnu/microblaze/lin64/bin:/opt/Xilinx/14.4/ISE_DS/EDK/gnu/powerpc-eabi/lin64/bin:/opt/Xilinx/14.4/ISE_DS/ISE/bin/lin64:/opt/Xilinx/14.4/ISE_DS/ISE/sysgen/util:/opt/Xilinx/14.4/ISE_DS/ISE/sysgen/bin:/opt/Xilinx/14.4/ISE_DS/ISE/../../../DocNav:/opt/Xilinx/14.4/ISE_DS/PlanAhead/bin:/opt/Xilinx/14.4/ISE_DS/EDK/gnu/arm/lin/bin:/opt/Xilinx/14.4/ISE_DS/EDK/gnu/microblaze/linux_toolchain/lin64_be/bin:/opt/Xilinx/14.4/ISE_DS/EDK/gnu/microblaze/linux_toolchain/lin64_le/bin:/opt/Xilinx/14.4/ISE_DS/common/bin/lin64:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games"/>
+        </row>
+        <row stringID="row" value="6">
+          <item stringID="variable" value="XILINX_DSP"/>
+          <item stringID="value" value="/opt/Xilinx/14.4/ISE_DS/ISE"/>
+        </row>
+        <row stringID="row" value="7">
+          <item stringID="variable" value="LMC_HOME"/>
+          <item stringID="value" value="/opt/Xilinx/14.4/ISE_DS/ISE/smartmodel/lin64/installed_lin64"/>
         </row>
       </table>
       <item stringID="User_EnvOs" value="OS Information">
-        <item stringID="User_EnvOsname" value="Microsoft Windows 7 , 64-bit"/>
-        <item stringID="User_EnvOsrelease" value="Service Pack 1  (build 7601)"/>
+        <item stringID="User_EnvOsname" value="Ubuntu"/>
+        <item stringID="User_EnvOsrelease" value="Ubuntu 14.04.3 LTS"/>
       </item>
       <item stringID="User_EnvHost" value="phoenix"/>
       <table stringID="User_EnvCpu">
@@ -41,7 +53,7 @@
         <column stringID="speed"/>
         <row stringID="row" value="0">
           <item stringID="arch" value="Intel(R) Core(TM) i7 CPU         860  @ 2.80GHz"/>
-          <item stringID="speed" value="2793 MHz"/>
+          <item stringID="speed" value="1199.000 MHz"/>
         </row>
       </table>
     </section>
@@ -54,22 +66,22 @@
     <task stringID="PAR_DEVICE_UTILIZATION">
       <section label="Device Utilization Summary" stringID="PAR_DEVICE_UTLIZATION">
         <item AVAILABLE="32" dataType="int" label="Number of BUFGs" stringID="PAR_BUFG" value="5"/>
-        <item AVAILABLE="640" dataType="int" stringID="PAR_ILOGIC" value="1"/>
+        <item AVAILABLE="448" dataType="int" stringID="PAR_ILOGIC" value="1"/>
         <item AVAILABLE="448" dataType="int" label="Number of External IOBs" stringID="PAR_EXTERNAL_IOB" value="9">
           <item AVAILABLE="9" dataType="int" label="Number of LOCed IOBs" stringID="PAR_LOC_IOB" value="9"/>
         </item>
-        <item AVAILABLE="640" dataType="int" label="Number of OLOGICs" stringID="PAR_OLOGIC" value="1"/>
-        <item AVAILABLE="26624" dataType="int" stringID="PAR_SLICES" value="2986"></item>
+        <item AVAILABLE="448" dataType="int" label="Number of OLOGICs" stringID="PAR_OLOGIC" value="1"/>
+        <item AVAILABLE="15360" dataType="int" stringID="PAR_SLICES" value="3509"></item>
       </section>
     </task>
     <task stringID="PAR_PAR">
       <section stringID="PAR_DESIGN_SUMMARY">
-        <item stringID="PAR_REAL_TIME_COMPLETION_ROUTER" value="25 secs "/>
-        <item stringID="PAR_CPU_TIME_COMPLETION_ROUTER" value="24 secs "/>
+        <item stringID="PAR_REAL_TIME_COMPLETION_ROUTER" value="23 secs "/>
+        <item stringID="PAR_CPU_TIME_COMPLETION_ROUTER" value="23 secs "/>
         <item dataType="int" stringID="PAR_UNROUTES" value="0"/>
         <item dataType="float" stringID="PAR_TIMING_SCORE" value="0.000000"/>
-        <item stringID="PAR_REAL_TIME_COMPLETION_PAR" value="28 secs "/>
-        <item stringID="PAR_CPU_TIME_COMPLETION_PAR" value="27 secs "/>
+        <item stringID="PAR_REAL_TIME_COMPLETION_PAR" value="26 secs "/>
+        <item stringID="PAR_CPU_TIME_COMPLETION_PAR" value="25 secs "/>
       </section>
     </task>
     <task stringID="PAR_par">
@@ -88,45 +100,45 @@
             <item label="Routed" stringID="ROUTED" value="ROUTED"/>
             <item label="Resource" stringID="RESOURCE" value="BUFGCTRL_X0Y31"/>
             <item label="Locked" stringID="LOCKED" value="No"/>
-            <item dataType="float" label="Fanout" stringID="FANOUT" value="2141.000000"/>
-            <item dataType="float" label="Net Skew(ns)" stringID="NET_SKEW" value="0.528000"/>
-            <item dataType="float" label="Max Delay(ns)" stringID="MAX_DELAY" value="2.760000"/>
+            <item dataType="float" label="Fanout" stringID="FANOUT" value="2288.000000"/>
+            <item dataType="float" label="Net Skew(ns)" stringID="NET_SKEW" value="0.527000"/>
+            <item dataType="float" label="Max Delay(ns)" stringID="MAX_DELAY" value="2.730000"/>
           </row>
           <row stringID="row" value="2">
             <item label="Clock Net" stringID="CLOCK_NET" value="mdm_0/Dbg_Clk_1"/>
             <item label="Routed" stringID="ROUTED" value="ROUTED"/>
             <item label="Resource" stringID="RESOURCE" value="BUFGCTRL_X0Y2"/>
             <item label="Locked" stringID="LOCKED" value="No"/>
-            <item dataType="float" label="Fanout" stringID="FANOUT" value="160.000000"/>
-            <item dataType="float" label="Net Skew(ns)" stringID="NET_SKEW" value="0.358000"/>
-            <item dataType="float" label="Max Delay(ns)" stringID="MAX_DELAY" value="2.697000"/>
+            <item dataType="float" label="Fanout" stringID="FANOUT" value="184.000000"/>
+            <item dataType="float" label="Net Skew(ns)" stringID="NET_SKEW" value="0.339000"/>
+            <item dataType="float" label="Max Delay(ns)" stringID="MAX_DELAY" value="2.574000"/>
           </row>
           <row stringID="row" value="3">
             <item label="Clock Net" stringID="CLOCK_NET" value="ring_osc_1/ring_osc_1/USER_LOGIC_I/ring_osc_buf"/>
             <item label="Routed" stringID="ROUTED" value="ROUTED"/>
             <item label="Resource" stringID="RESOURCE" value="BUFGCTRL_X0Y0"/>
             <item label="Locked" stringID="LOCKED" value="No"/>
-            <item dataType="float" label="Fanout" stringID="FANOUT" value="62.000000"/>
-            <item dataType="float" label="Net Skew(ns)" stringID="NET_SKEW" value="0.203000"/>
-            <item dataType="float" label="Max Delay(ns)" stringID="MAX_DELAY" value="2.512000"/>
+            <item dataType="float" label="Fanout" stringID="FANOUT" value="64.000000"/>
+            <item dataType="float" label="Net Skew(ns)" stringID="NET_SKEW" value="0.227000"/>
+            <item dataType="float" label="Max Delay(ns)" stringID="MAX_DELAY" value="2.555000"/>
           </row>
           <row stringID="row" value="4">
             <item label="Clock Net" stringID="CLOCK_NET" value="ring_osc_0/ring_osc_0/USER_LOGIC_I/ring_osc_buf"/>
             <item label="Routed" stringID="ROUTED" value="ROUTED"/>
             <item label="Resource" stringID="RESOURCE" value="BUFGCTRL_X0Y1"/>
             <item label="Locked" stringID="LOCKED" value="No"/>
-            <item dataType="float" label="Fanout" stringID="FANOUT" value="55.000000"/>
-            <item dataType="float" label="Net Skew(ns)" stringID="NET_SKEW" value="0.108000"/>
-            <item dataType="float" label="Max Delay(ns)" stringID="MAX_DELAY" value="2.505000"/>
+            <item dataType="float" label="Fanout" stringID="FANOUT" value="66.000000"/>
+            <item dataType="float" label="Net Skew(ns)" stringID="NET_SKEW" value="0.254000"/>
+            <item dataType="float" label="Max Delay(ns)" stringID="MAX_DELAY" value="2.532000"/>
           </row>
           <row stringID="row" value="5">
             <item label="Clock Net" stringID="CLOCK_NET" value="ring_osc_2/ring_osc_2/USER_LOGIC_I/ring_osc_buf"/>
             <item label="Routed" stringID="ROUTED" value="ROUTED"/>
             <item label="Resource" stringID="RESOURCE" value="BUFGCTRL_X0Y30"/>
             <item label="Locked" stringID="LOCKED" value="No"/>
-            <item dataType="float" label="Fanout" stringID="FANOUT" value="63.000000"/>
-            <item dataType="float" label="Net Skew(ns)" stringID="NET_SKEW" value="0.172000"/>
-            <item dataType="float" label="Max Delay(ns)" stringID="MAX_DELAY" value="2.439000"/>
+            <item dataType="float" label="Fanout" stringID="FANOUT" value="67.000000"/>
+            <item dataType="float" label="Net Skew(ns)" stringID="NET_SKEW" value="0.234000"/>
+            <item dataType="float" label="Max Delay(ns)" stringID="MAX_DELAY" value="2.468000"/>
           </row>
           <row stringID="row" value="6">
             <item label="Clock Net" stringID="CLOCK_NET" value="xps_timer_0_Interrupt"/>
@@ -134,23 +146,23 @@
             <item label="Resource" stringID="RESOURCE" value="Local"/>
             <item dataType="float" label="Fanout" stringID="FANOUT" value="1.000000"/>
             <item dataType="float" label="Net Skew(ns)" stringID="NET_SKEW" value="0.000000"/>
-            <item dataType="float" label="Max Delay(ns)" stringID="MAX_DELAY" value="0.897000"/>
+            <item dataType="float" label="Max Delay(ns)" stringID="MAX_DELAY" value="0.813000"/>
           </row>
           <row stringID="row" value="7">
             <item label="Clock Net" stringID="CLOCK_NET" value="mdm_0/Dbg_Update_1"/>
             <item label="Routed" stringID="ROUTED" value="ROUTED"/>
             <item label="Resource" stringID="RESOURCE" value="Local"/>
-            <item dataType="float" label="Fanout" stringID="FANOUT" value="36.000000"/>
-            <item dataType="float" label="Net Skew(ns)" stringID="NET_SKEW" value="1.693000"/>
-            <item dataType="float" label="Max Delay(ns)" stringID="MAX_DELAY" value="3.718000"/>
+            <item dataType="float" label="Fanout" stringID="FANOUT" value="42.000000"/>
+            <item dataType="float" label="Net Skew(ns)" stringID="NET_SKEW" value="3.007000"/>
+            <item dataType="float" label="Max Delay(ns)" stringID="MAX_DELAY" value="4.015000"/>
           </row>
           <row stringID="row" value="8">
             <item label="Clock Net" stringID="CLOCK_NET" value="fpga_0_clk_1_sys_clk_pin_IBUFG"/>
             <item label="Routed" stringID="ROUTED" value="ROUTED"/>
             <item label="Resource" stringID="RESOURCE" value="Local"/>
             <item dataType="float" label="Fanout" stringID="FANOUT" value="5.000000"/>
-            <item dataType="float" label="Net Skew(ns)" stringID="NET_SKEW" value="0.333000"/>
-            <item dataType="float" label="Max Delay(ns)" stringID="MAX_DELAY" value="2.308000"/>
+            <item dataType="float" label="Net Skew(ns)" stringID="NET_SKEW" value="0.174000"/>
+            <item dataType="float" label="Max Delay(ns)" stringID="MAX_DELAY" value="1.739000"/>
           </row>
         </table>
       </section>

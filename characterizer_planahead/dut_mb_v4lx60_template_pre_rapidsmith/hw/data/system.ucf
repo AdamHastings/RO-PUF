@@ -13,11 +13,11 @@ INST "mdm_0" AREA_GROUP = "pblock_1";
 INST "proc_sys_reset_0" AREA_GROUP = "pblock_1";
 INST "xps_timer_0" AREA_GROUP = "pblock_1";
 INST "xps_intc_0" AREA_GROUP = "pblock_1";
-AREA_GROUP "pblock_1" RANGE=CLOCKREGION_X0Y6:CLOCKREGION_X1Y7;
-INST "ring_osc_0" AREA_GROUP = "pblock_ring_osc_0";
-AREA_GROUP "pblock_ring_osc_0" RANGE=SLICE_X24Y176:SLICE_X79Y185;
-AREA_GROUP "pblock_ring_osc_0" RANGE=FIFO16_X2Y22:FIFO16_X2Y22;
-AREA_GROUP "pblock_ring_osc_0" RANGE=RAMB16_X2Y22:RAMB16_X2Y22;
+#AREA_GROUP "pblock_1" RANGE=CLOCKREGION_X0Y6:CLOCKREGION_X1Y7;
+#INST "ring_osc_0" AREA_GROUP = "pblock_ring_osc_0";
+#AREA_GROUP "pblock_ring_osc_0" RANGE=SLICE_X24Y176:SLICE_X79Y185;
+#AREA_GROUP "pblock_ring_osc_0" RANGE=FIFO16_X2Y22:FIFO16_X2Y22;
+#AREA_GROUP "pblock_ring_osc_0" RANGE=RAMB16_X2Y22:RAMB16_X2Y22;
 ## DUT Virtex4 LX60
 
 ## Should connect to Pin 31 on J4 Header
