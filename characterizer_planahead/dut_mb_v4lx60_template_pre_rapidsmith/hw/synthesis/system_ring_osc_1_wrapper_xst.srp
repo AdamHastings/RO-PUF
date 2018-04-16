@@ -5,7 +5,7 @@ Parameter TMPDIR set to /home/adam/RO-PUF/characterizer_planahead/dut_mb_v4lx60_
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.04 secs
+Total CPU time to Xst completion: 0.05 secs
  
 --> 
 
@@ -1040,7 +1040,7 @@ Offset:              0.307ns (Levels of Logic = 0)
 
 
 Total REAL time to Xst completion: 10.00 secs
-Total CPU time to Xst completion: 9.86 secs
+Total CPU time to Xst completion: 9.54 secs
  
 --> 
 

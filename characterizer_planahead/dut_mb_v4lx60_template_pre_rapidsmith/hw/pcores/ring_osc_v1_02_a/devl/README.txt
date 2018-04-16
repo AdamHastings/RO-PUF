@@ -10,7 +10,7 @@ TABLE OF CONTENTS
 ================================================================================
 Peripheral Summary:
 
-  XPS project / EDK repository               : E:\Adam\Characterizing\characterizer_planahead\dut_mb_v4lx60_template_pre_rapidsmith\hw
+  XPS project / EDK repository               : /home/adam/RO-PUF/characterizer_planahead/dut_mb_v4lx60_template_pre_rapidsmith/hw
   logical library name                       : ring_osc_v1_02_a
   top name                                   : ring_osc
   version                                    : 1.02.a
