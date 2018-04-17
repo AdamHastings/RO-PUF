@@ -1,11 +1,11 @@
 Release 14.4 - xst P.49d (lin64)
 Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
 --> 
-Parameter TMPDIR set to /home/adam/RO-PUF/characterizer_planahead/dut_mb_v4lx60_template_pre_rapidsmith/hw/synthesis/xst_temp_dir/
+Parameter TMPDIR set to /home/adam/Desktop/characterizer_planahead/dut_mb_v4lx60_template_pre_rapidsmith/hw/synthesis/xst_temp_dir/
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.03 secs
+Total CPU time to Xst completion: 0.04 secs
  
 --> 
 
@@ -32,7 +32,7 @@ TABLE OF CONTENTS
 ---- Source Parameters
 Input Format                       : MIXED
 Input File Name                    : "system_dut_control_core_0_wrapper_xst.prj"
-Verilog Include Directory          : {"/home/adam/RO-PUF/characterizer_planahead/dut_mb_v4lx60_template_pre_rapidsmith/hw/pcores/" "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxBFMinterface/pcores/" "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/" }
+Verilog Include Directory          : {"/home/adam/Desktop/characterizer_planahead/dut_mb_v4lx60_template_pre_rapidsmith/hw/pcores/" "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxBFMinterface/pcores/" "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/" }
 
 ---- Target Parameters
 Target Device                      : xc4vsx35ff668-11
@@ -246,13 +246,13 @@ Entity <plb_slave_attachment> (Architecture <implementation>) compiled.
 Compiling vhdl file "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/plbv46_slave_single_v1_01_a/hdl/vhdl/plbv46_slave_single.vhd" in Library plbv46_slave_single_v1_01_a.
 Entity <plbv46_slave_single> compiled.
 Entity <plbv46_slave_single> (Architecture <implementation>) compiled.
-Compiling vhdl file "/home/adam/RO-PUF/characterizer_planahead/dut_mb_v4lx60_template_pre_rapidsmith/hw/pcores/dut_control_core_v1_00_a/hdl/vhdl/user_logic.vhd" in Library dut_control_core_v1_00_a.
+Compiling vhdl file "/home/adam/Desktop/characterizer_planahead/dut_mb_v4lx60_template_pre_rapidsmith/hw/pcores/dut_control_core_v1_00_a/hdl/vhdl/user_logic.vhd" in Library dut_control_core_v1_00_a.
 Entity <user_logic> compiled.
 Entity <user_logic> (Architecture <IMP>) compiled.
-Compiling vhdl file "/home/adam/RO-PUF/characterizer_planahead/dut_mb_v4lx60_template_pre_rapidsmith/hw/pcores/dut_control_core_v1_00_a/hdl/vhdl/dut_control_core.vhd" in Library dut_control_core_v1_00_a.
+Compiling vhdl file "/home/adam/Desktop/characterizer_planahead/dut_mb_v4lx60_template_pre_rapidsmith/hw/pcores/dut_control_core_v1_00_a/hdl/vhdl/dut_control_core.vhd" in Library dut_control_core_v1_00_a.
 Entity <dut_control_core> compiled.
 Entity <dut_control_core> (Architecture <IMP>) compiled.
-Compiling vhdl file "/home/adam/RO-PUF/characterizer_planahead/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/system_dut_control_core_0_wrapper.vhd" in Library work.
+Compiling vhdl file "/home/adam/Desktop/characterizer_planahead/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/system_dut_control_core_0_wrapper.vhd" in Library work.
 Entity <system_dut_control_core_0_wrapper> compiled.
 Entity <system_dut_control_core_0_wrapper> (Architecture <STRUCTURE>) compiled.
 
@@ -426,7 +426,7 @@ Entity <user_logic> analyzed. Unit <user_logic> generated.
 Performing bidirectional port resolution...
 
 Synthesizing Unit <user_logic>.
-    Related source file is "/home/adam/RO-PUF/characterizer_planahead/dut_mb_v4lx60_template_pre_rapidsmith/hw/pcores/dut_control_core_v1_00_a/hdl/vhdl/user_logic.vhd".
+    Related source file is "/home/adam/Desktop/characterizer_planahead/dut_mb_v4lx60_template_pre_rapidsmith/hw/pcores/dut_control_core_v1_00_a/hdl/vhdl/user_logic.vhd".
 WARNING:Xst:647 - Input <dut_ila_ctrl> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <Bus2IP_Addr<0:25>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <Bus2IP_Addr<30:31>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
@@ -546,14 +546,14 @@ Unit <plbv46_slave_single> synthesized.
 
 
 Synthesizing Unit <dut_control_core>.
-    Related source file is "/home/adam/RO-PUF/characterizer_planahead/dut_mb_v4lx60_template_pre_rapidsmith/hw/pcores/dut_control_core_v1_00_a/hdl/vhdl/dut_control_core.vhd".
+    Related source file is "/home/adam/Desktop/characterizer_planahead/dut_mb_v4lx60_template_pre_rapidsmith/hw/pcores/dut_control_core_v1_00_a/hdl/vhdl/dut_control_core.vhd".
 WARNING:Xst:646 - Signal <user_Bus2IP_WrCE<0>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
 WARNING:Xst:646 - Signal <user_Bus2IP_RdCE<0>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
 Unit <dut_control_core> synthesized.
 
 
 Synthesizing Unit <system_dut_control_core_0_wrapper>.
-    Related source file is "/home/adam/RO-PUF/characterizer_planahead/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/system_dut_control_core_0_wrapper.vhd".
+    Related source file is "/home/adam/Desktop/characterizer_planahead/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/system_dut_control_core_0_wrapper.vhd".
 Unit <system_dut_control_core_0_wrapper> synthesized.
 
 
@@ -824,13 +824,13 @@ Offset:              0.307ns (Levels of Logic = 0)
 =========================================================================
 
 
-Total REAL time to Xst completion: 7.00 secs
-Total CPU time to Xst completion: 6.52 secs
+Total REAL time to Xst completion: 8.00 secs
+Total CPU time to Xst completion: 6.72 secs
  
 --> 
 
 
-Total memory usage is 667308 kilobytes
+Total memory usage is 667140 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :  107 (   0 filtered)

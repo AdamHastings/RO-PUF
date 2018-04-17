@@ -1,6 +1,6 @@
 CipWiz::SetVersion "14.4";
 CipWiz::SetFlow "CREATE";
-CipWiz::SetParameter "ProjectDir" "/home/adam/RO-PUF/characterizer_planahead/dut_mb_v4lx60_template_pre_rapidsmith/hw";
+CipWiz::SetParameter "ProjectDir" "E:\Adam\Characterizing\characterizer_planahead\dut_mb_v4lx60_template_pre_rapidsmith\hw";
 CipWiz::SetParameter "IpName" "ring_osc";
 CipWiz::SetParameter "IpVersion" "1.02.a";
 CipWiz::SetParameter "HdlLanguage" "1";

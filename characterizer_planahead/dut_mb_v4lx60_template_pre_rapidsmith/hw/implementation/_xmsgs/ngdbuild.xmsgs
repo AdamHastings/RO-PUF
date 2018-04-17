@@ -9,7 +9,7 @@
 <arg fmt="%s" index="7">CLK0</arg>: <arg fmt="%s" index="8">&lt;TIMESPEC TS_clock_generator_0_clock_generator_0_SIG_DCM0_CLK0 = PERIOD &quot;clock_generator_0_clock_generator_0_SIG_DCM0_CLK0&quot; TS_sys_clk_pin HIGH 50%&gt;</arg>
 </msg>
 
-<msg type="info" file="NgdBuild" num="1222" delta="old" >Setting <arg fmt="%s" index="1">CLKIN_PERIOD</arg> attribute associated with <arg fmt="%s" index="2">DCM</arg> instance <arg fmt="%s" index="3">clock_generator_0/DCM0_INST/Using_DCM_ADV.DCM_ADV_INST</arg> to <arg fmt="%s" index="4">10.000000</arg> ns based on the period specification (<arg fmt="%s" index="5">&lt;TIMESPEC TS_sys_clk_pin = PERIOD &quot;sys_clk_pin&quot; 100000 KHz;&gt; [system.ucf(34)]</arg>).
+<msg type="info" file="NgdBuild" num="1222" delta="old" >Setting <arg fmt="%s" index="1">CLKIN_PERIOD</arg> attribute associated with <arg fmt="%s" index="2">DCM</arg> instance <arg fmt="%s" index="3">clock_generator_0/DCM0_INST/Using_DCM_ADV.DCM_ADV_INST</arg> to <arg fmt="%s" index="4">10.000000</arg> ns based on the period specification (<arg fmt="%s" index="5">&lt;TIMESPEC TS_sys_clk_pin = PERIOD &quot;sys_clk_pin&quot; 100000 KHz;&gt; [system.ucf(35)]</arg>).
 </msg>
 
 <msg type="warning" file="NgdBuild" num="443" delta="old" >SFF primitive &apos;<arg fmt="%s" index="1">xps_timer_0/xps_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR0_GENERATE[0].TCSR0_FF_I</arg>&apos; has unconnected output pin

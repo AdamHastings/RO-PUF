@@ -1,5 +1,5 @@
 //! **************************************************************************
-// Written by: Map P.49d on Mon Apr 16 02:31:09 2018
+// Written by: Map P.49d on Tue Apr 17 03:04:27 2018
 //! **************************************************************************
 
 SCHEMATIC START;
@@ -3094,7 +3094,15 @@ TIMEGRP clock_generator_0_clock_generator_0_SIG_DCM0_CLK0 = PIN
         "microblaze_0/microblaze_0/MicroBlaze_Core_I/wb_dlmb_valid_read_data_30"
         BEL
         "microblaze_0/microblaze_0/MicroBlaze_Core_I/wb_dlmb_valid_read_data_31"
-        BEL "mb_plb/mb_plb/GEN_SHARED.I_PLB_ARBITER_LOGIC/arbreset_i_1" BEL
+        BEL
+        "mb_plb/mb_plb/GEN_SHARED.I_PLB_ARBITER_LOGIC/I_ARBCONTROL_SM/arbctrl_sm_cs_FSM_FFd3_1"
+        BEL
+        "mb_plb/mb_plb/GEN_SHARED.I_PLB_ARBITER_LOGIC/I_ARBCONTROL_SM/arbctrl_sm_cs_FSM_FFd2_1"
+        BEL
+        "mb_plb/mb_plb/GEN_SHARED.I_PLB_ARBITER_LOGIC/I_ARBCONTROL_SM/arbctrl_sm_cs_FSM_FFd1_1"
+        BEL
+        "mb_plb/mb_plb/GEN_SHARED.I_PLB_ARBITER_LOGIC/I_ARBCONTROL_SM/arbSecRdInProgReg_i_1"
+        BEL
         "mb_plb/mb_plb/GEN_SHARED.I_PLB_ARBITER_LOGIC/I_WDT/WDT_TIMEOUT_CNTR_I/cnt_0"
         BEL
         "mb_plb/mb_plb/GEN_SHARED.I_PLB_ARBITER_LOGIC/I_WDT/WDT_TIMEOUT_CNTR_I/cnt_1"
@@ -3111,10 +3119,6 @@ TIMEGRP clock_generator_0_clock_generator_0_SIG_DCM0_CLK0 = PIN
         BEL
         "mb_plb/mb_plb/GEN_SHARED.I_PLB_ARBITER_LOGIC/I_ARB_ENCODER/arbAddrSelReg_i_1_2"
         BEL
-        "mb_plb/mb_plb/GEN_SHARED.I_PLB_ARBITER_LOGIC/I_ARB_ENCODER/arbAddrSelReg_i_0_1"
-        BEL
-        "mb_plb/mb_plb/GEN_SHARED.I_PLB_ARBITER_LOGIC/I_ARB_ENCODER/arbAddrSelReg_i_1_1"
-        BEL
         "mb_plb/mb_plb/GEN_SHARED.I_PLB_ARBITER_LOGIC/I_ARBCONTROL_SM/arbSecRdMasterReg_i_1"
         BEL
         "mb_plb/mb_plb/GEN_SHARED.I_PLB_ARBITER_LOGIC/I_ARBCONTROL_SM/arbSecRdMasterReg_i_0"
@@ -3123,15 +3127,13 @@ TIMEGRP clock_generator_0_clock_generator_0_SIG_DCM0_CLK0 = PIN
         BEL
         "mb_plb/mb_plb/GEN_SHARED.I_PLB_ARBITER_LOGIC/I_ARBCONTROL_SM/arbSecWrMasterReg_i_0"
         BEL
+        "mb_plb/mb_plb/GEN_SHARED.I_PLB_ARBITER_LOGIC/I_ARBCONTROL_SM/pavalid_i"
+        BEL
         "mb_plb/mb_plb/GEN_SHARED.I_PLB_ARBITER_LOGIC/I_ARBCONTROL_SM/arbctrl_sm_cs_FSM_FFd1"
         BEL
         "mb_plb/mb_plb/GEN_SHARED.I_PLB_ARBITER_LOGIC/I_ARBCONTROL_SM/ArbDisMReqReg_1"
         BEL
         "mb_plb/mb_plb/GEN_SHARED.I_PLB_ARBITER_LOGIC/I_ARBCONTROL_SM/ArbDisMReqReg_0"
-        BEL
-        "mb_plb/mb_plb/GEN_SHARED.I_PLB_ARBITER_LOGIC/I_ARBCONTROL_SM/arbPriRdMasterReg_i_1"
-        BEL
-        "mb_plb/mb_plb/GEN_SHARED.I_PLB_ARBITER_LOGIC/I_ARBCONTROL_SM/arbPriRdMasterReg_i_0"
         BEL
         "mb_plb/mb_plb/GEN_SHARED.I_PLB_ARBITER_LOGIC/I_ARBCONTROL_SM/ArbPriWrMasterReg_1"
         BEL
@@ -3139,7 +3141,11 @@ TIMEGRP clock_generator_0_clock_generator_0_SIG_DCM0_CLK0 = PIN
         BEL
         "mb_plb/mb_plb/GEN_SHARED.I_PLB_ARBITER_LOGIC/I_ARBCONTROL_SM/WrBurst_Mux_Idle_reg"
         BEL
-        "mb_plb/mb_plb/GEN_SHARED.I_PLB_ARBITER_LOGIC/I_ARBCONTROL_SM/pavalid_i"
+        "mb_plb/mb_plb/GEN_SHARED.I_PLB_ARBITER_LOGIC/I_ARBCONTROL_SM/arbPriRdMasterReg_i_1"
+        BEL
+        "mb_plb/mb_plb/GEN_SHARED.I_PLB_ARBITER_LOGIC/I_ARBCONTROL_SM/arbPriRdMasterReg_i_0"
+        BEL
+        "mb_plb/mb_plb/GEN_SHARED.I_PLB_ARBITER_LOGIC/I_ARBCONTROL_SM/savalid_reg"
         BEL
         "mb_plb/mb_plb/GEN_SHARED.I_PLB_ARBITER_LOGIC/I_ARBCONTROL_SM/arbRdDBusBusyReg_i"
         BEL
@@ -3157,6 +3163,11 @@ TIMEGRP clock_generator_0_clock_generator_0_SIG_DCM0_CLK0 = PIN
         "mb_plb/mb_plb/GEN_SPLB_RST[5].I_SPLB_RST" BEL
         "mb_plb/mb_plb/GEN_SPLB_RST[6].I_SPLB_RST" BEL
         "mb_plb/mb_plb/GEN_SPLB_RST[7].I_SPLB_RST" BEL
+        "mb_plb/mb_plb/GEN_SPLB_RST[8].I_SPLB_RST" BEL
+        "mb_plb/mb_plb/GEN_SPLB_RST[9].I_SPLB_RST" BEL
+        "mb_plb/mb_plb/GEN_SPLB_RST[10].I_SPLB_RST" BEL
+        "mb_plb/mb_plb/GEN_SPLB_RST[11].I_SPLB_RST" BEL
+        "mb_plb/mb_plb/GEN_SPLB_RST[12].I_SPLB_RST" BEL
         "mb_plb/mb_plb/GEN_SHARED.I_PLB_ADDRPATH/PLB_ABus_0" BEL
         "mb_plb/mb_plb/GEN_SHARED.I_PLB_ADDRPATH/PLB_ABus_1" BEL
         "mb_plb/mb_plb/GEN_SHARED.I_PLB_ADDRPATH/PLB_ABus_2" BEL
@@ -3196,8 +3207,6 @@ TIMEGRP clock_generator_0_clock_generator_0_SIG_DCM0_CLK0 = PIN
         "mb_plb/mb_plb/GEN_SHARED.I_PLB_ARBITER_LOGIC/I_ARBCONTROL_SM/arbSecWrInProgReg_i"
         BEL
         "mb_plb/mb_plb/GEN_SHARED.I_PLB_ARBITER_LOGIC/I_ARBCONTROL_SM/arbSecRdInProgReg_i"
-        BEL
-        "mb_plb/mb_plb/GEN_SHARED.I_PLB_ARBITER_LOGIC/I_ARBCONTROL_SM/savalid_reg"
         BEL
         "mb_plb/mb_plb/GEN_SHARED.I_PLB_ARBITER_LOGIC/I_ARBCONTROL_SM/ArbPriRdMasterRegReg_1"
         BEL
@@ -4332,544 +4341,6 @@ TIMEGRP clock_generator_0_clock_generator_0_SIG_DCM0_CLK0 = PIN
         BEL
         "xps_intc_0/xps_intc_0/PLBV46_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_31"
         BEL
-        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/bus2ip_rnw_i"
-        BEL
-        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/bus2ip_be_i_3"
-        BEL
-        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/bus2ip_be_i_2"
-        BEL
-        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/bus2ip_be_i_1"
-        BEL
-        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/bus2ip_be_i_0"
-        BEL
-        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/INCLUDE_DATA_PHASE_WDT.I_DPTO_COUNTER/icount_out_6"
-        BEL
-        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/INCLUDE_DATA_PHASE_WDT.I_DPTO_COUNTER/icount_out_5"
-        BEL
-        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/INCLUDE_DATA_PHASE_WDT.I_DPTO_COUNTER/icount_out_4"
-        BEL
-        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/INCLUDE_DATA_PHASE_WDT.I_DPTO_COUNTER/icount_out_3"
-        BEL
-        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/INCLUDE_DATA_PHASE_WDT.I_DPTO_COUNTER/icount_out_2"
-        BEL
-        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/INCLUDE_DATA_PHASE_WDT.I_DPTO_COUNTER/icount_out_1"
-        BEL
-        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_31"
-        BEL
-        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_30"
-        BEL
-        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_29"
-        BEL
-        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_28"
-        BEL
-        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_27"
-        BEL
-        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_26"
-        BEL
-        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_25"
-        BEL
-        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_24"
-        BEL
-        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_23"
-        BEL
-        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_22"
-        BEL
-        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_21"
-        BEL
-        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_20"
-        BEL
-        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_19"
-        BEL
-        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_18"
-        BEL
-        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_17"
-        BEL
-        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_16"
-        BEL
-        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_15"
-        BEL
-        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_14"
-        BEL
-        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_13"
-        BEL
-        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_12"
-        BEL
-        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_11"
-        BEL
-        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_10"
-        BEL
-        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_9"
-        BEL
-        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_8"
-        BEL
-        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_7"
-        BEL
-        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_6"
-        BEL
-        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_5"
-        BEL
-        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_4"
-        BEL
-        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_3"
-        BEL
-        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_2"
-        BEL
-        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_1"
-        BEL
-        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_0"
-        BEL
-        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/I_DECODER/wrce_out_i_0"
-        BEL
-        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/I_DECODER/rdce_out_i_2"
-        BEL
-        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/I_DECODER/rdce_out_i_0"
-        BEL
-        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/I_DECODER/rdce_out_i_1"
-        BEL
-        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/I_DECODER/wrce_out_i_1"
-        BEL
-        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/I_DECODER/wrce_out_i_2"
-        BEL
-        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/INCLUDE_DATA_PHASE_WDT.I_DPTO_COUNTER/icount_out_7"
-        BEL
-        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_wrcomp_i"
-        BEL
-        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/rd_clear_sl_busy"
-        BEL
-        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/INCLUDE_DATA_PHASE_WDT.I_DPTO_COUNTER/icount_out_0"
-        BEL
-        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_31"
-        BEL
-        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_30"
-        BEL
-        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_29"
-        BEL
-        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_28"
-        BEL
-        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_27"
-        BEL
-        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_26"
-        BEL
-        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_25"
-        BEL
-        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_24"
-        BEL
-        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_23"
-        BEL
-        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_22"
-        BEL
-        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_21"
-        BEL
-        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_20"
-        BEL
-        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_19"
-        BEL
-        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_18"
-        BEL
-        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_17"
-        BEL
-        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_16"
-        BEL
-        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_15"
-        BEL
-        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_14"
-        BEL
-        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_13"
-        BEL
-        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_12"
-        BEL
-        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_11"
-        BEL
-        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_10"
-        BEL
-        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_9"
-        BEL
-        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_8"
-        BEL
-        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_7"
-        BEL
-        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_6"
-        BEL
-        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_5"
-        BEL
-        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_4"
-        BEL
-        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_3"
-        BEL
-        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_2"
-        BEL
-        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_1"
-        BEL
-        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_0"
-        BEL
-        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_pavalid_reg"
-        BEL
-        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/addr_cntl_cs_0"
-        BEL
-        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_29"
-        BEL
-        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_28"
-        BEL
-        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_15"
-        BEL
-        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_14"
-        BEL
-        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_13"
-        BEL
-        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_12"
-        BEL
-        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_11"
-        BEL
-        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_10"
-        BEL
-        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_9"
-        BEL
-        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_8"
-        BEL
-        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_7"
-        BEL
-        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_6"
-        BEL
-        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_5"
-        BEL
-        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_4"
-        BEL
-        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_3"
-        BEL
-        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_2"
-        BEL
-        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_1"
-        BEL
-        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_0"
-        BEL
-        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rearbitrate_i"
-        BEL
-        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_rnw_reg"
-        BEL
-        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_be_reg_3"
-        BEL
-        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_be_reg_2"
-        BEL
-        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_be_reg_1"
-        BEL
-        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_be_reg_0"
-        BEL
-        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/set_sl_busy"
-        BEL
-        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/data_timeout"
-        BEL
-        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_busy"
-        BEL
-        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/INCLUDE_DATA_PHASE_WDT.I_DPTO_COUNTER/icount_out_8"
-        BEL
-        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/I_DECODER/decode_hit_reg"
-        BEL
-        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/I_DECODER/addr_out_s_h_0"
-        BEL
-        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/I_DECODER/addr_out_s_h_1"
-        BEL
-        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/I_DECODER/rnw_s_h"
-        BEL "ring_osc_0/ring_osc_0/USER_LOGIC_I/slv_reg2_15" BEL
-        "ring_osc_0/ring_osc_0/USER_LOGIC_I/slv_reg2_14" BEL
-        "ring_osc_0/ring_osc_0/USER_LOGIC_I/slv_reg2_20" BEL
-        "ring_osc_0/ring_osc_0/USER_LOGIC_I/slv_reg2_16" BEL
-        "ring_osc_0/ring_osc_0/USER_LOGIC_I/slv_reg2_21" BEL
-        "ring_osc_0/ring_osc_0/USER_LOGIC_I/slv_reg2_0" BEL
-        "ring_osc_0/ring_osc_0/USER_LOGIC_I/slv_reg2_17" BEL
-        "ring_osc_0/ring_osc_0/USER_LOGIC_I/slv_reg2_23" BEL
-        "ring_osc_0/ring_osc_0/USER_LOGIC_I/slv_reg2_22" BEL
-        "ring_osc_0/ring_osc_0/USER_LOGIC_I/slv_reg2_1" BEL
-        "ring_osc_0/ring_osc_0/USER_LOGIC_I/slv_reg2_18" BEL
-        "ring_osc_0/ring_osc_0/USER_LOGIC_I/slv_reg2_2" BEL
-        "ring_osc_0/ring_osc_0/USER_LOGIC_I/slv_reg2_19" BEL
-        "ring_osc_0/ring_osc_0/USER_LOGIC_I/slv_reg2_24" BEL
-        "ring_osc_0/ring_osc_0/USER_LOGIC_I/slv_reg2_3" BEL
-        "ring_osc_0/ring_osc_0/USER_LOGIC_I/slv_reg2_25" BEL
-        "ring_osc_0/ring_osc_0/USER_LOGIC_I/slv_reg2_26" BEL
-        "ring_osc_0/ring_osc_0/USER_LOGIC_I/slv_reg2_30" BEL
-        "ring_osc_0/ring_osc_0/USER_LOGIC_I/slv_reg2_4" BEL
-        "ring_osc_0/ring_osc_0/USER_LOGIC_I/slv_reg2_31" BEL
-        "ring_osc_0/ring_osc_0/USER_LOGIC_I/slv_reg2_5" BEL
-        "ring_osc_0/ring_osc_0/USER_LOGIC_I/slv_reg2_27" BEL
-        "ring_osc_0/ring_osc_0/USER_LOGIC_I/slv_reg2_6" BEL
-        "ring_osc_0/ring_osc_0/USER_LOGIC_I/slv_reg2_28" BEL
-        "ring_osc_0/ring_osc_0/USER_LOGIC_I/slv_reg2_7" BEL
-        "ring_osc_0/ring_osc_0/USER_LOGIC_I/slv_reg2_9" BEL
-        "ring_osc_0/ring_osc_0/USER_LOGIC_I/slv_reg2_29" BEL
-        "ring_osc_0/ring_osc_0/USER_LOGIC_I/slv_reg2_8" BEL
-        "ring_osc_0/ring_osc_0/USER_LOGIC_I/slv_reg2_10" BEL
-        "ring_osc_0/ring_osc_0/USER_LOGIC_I/slv_reg2_11" BEL
-        "ring_osc_0/ring_osc_0/USER_LOGIC_I/slv_reg2_12" BEL
-        "ring_osc_0/ring_osc_0/USER_LOGIC_I/slv_reg2_13" BEL
-        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/bus2ip_rnw_i"
-        BEL
-        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/bus2ip_be_i_3"
-        BEL
-        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/bus2ip_be_i_2"
-        BEL
-        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/bus2ip_be_i_1"
-        BEL
-        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/bus2ip_be_i_0"
-        BEL
-        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/INCLUDE_DATA_PHASE_WDT.I_DPTO_COUNTER/icount_out_6"
-        BEL
-        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/INCLUDE_DATA_PHASE_WDT.I_DPTO_COUNTER/icount_out_5"
-        BEL
-        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/INCLUDE_DATA_PHASE_WDT.I_DPTO_COUNTER/icount_out_4"
-        BEL
-        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/INCLUDE_DATA_PHASE_WDT.I_DPTO_COUNTER/icount_out_3"
-        BEL
-        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/INCLUDE_DATA_PHASE_WDT.I_DPTO_COUNTER/icount_out_2"
-        BEL
-        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/INCLUDE_DATA_PHASE_WDT.I_DPTO_COUNTER/icount_out_1"
-        BEL
-        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_31"
-        BEL
-        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_30"
-        BEL
-        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_29"
-        BEL
-        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_28"
-        BEL
-        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_27"
-        BEL
-        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_26"
-        BEL
-        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_25"
-        BEL
-        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_24"
-        BEL
-        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_23"
-        BEL
-        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_22"
-        BEL
-        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_21"
-        BEL
-        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_20"
-        BEL
-        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_19"
-        BEL
-        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_18"
-        BEL
-        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_17"
-        BEL
-        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_16"
-        BEL
-        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_15"
-        BEL
-        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_14"
-        BEL
-        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_13"
-        BEL
-        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_12"
-        BEL
-        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_11"
-        BEL
-        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_10"
-        BEL
-        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_9"
-        BEL
-        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_8"
-        BEL
-        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_7"
-        BEL
-        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_6"
-        BEL
-        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_5"
-        BEL
-        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_4"
-        BEL
-        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_3"
-        BEL
-        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_2"
-        BEL
-        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_1"
-        BEL
-        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_0"
-        BEL
-        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/I_DECODER/wrce_out_i_0"
-        BEL
-        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/I_DECODER/rdce_out_i_2"
-        BEL
-        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/I_DECODER/rdce_out_i_0"
-        BEL
-        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/I_DECODER/rdce_out_i_1"
-        BEL
-        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/I_DECODER/wrce_out_i_1"
-        BEL
-        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/I_DECODER/wrce_out_i_2"
-        BEL
-        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/INCLUDE_DATA_PHASE_WDT.I_DPTO_COUNTER/icount_out_7"
-        BEL
-        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_wrcomp_i"
-        BEL
-        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/rd_clear_sl_busy"
-        BEL
-        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/INCLUDE_DATA_PHASE_WDT.I_DPTO_COUNTER/icount_out_0"
-        BEL
-        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_31"
-        BEL
-        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_30"
-        BEL
-        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_29"
-        BEL
-        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_28"
-        BEL
-        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_27"
-        BEL
-        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_26"
-        BEL
-        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_25"
-        BEL
-        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_24"
-        BEL
-        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_23"
-        BEL
-        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_22"
-        BEL
-        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_21"
-        BEL
-        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_20"
-        BEL
-        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_19"
-        BEL
-        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_18"
-        BEL
-        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_17"
-        BEL
-        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_16"
-        BEL
-        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_15"
-        BEL
-        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_14"
-        BEL
-        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_13"
-        BEL
-        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_12"
-        BEL
-        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_11"
-        BEL
-        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_10"
-        BEL
-        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_9"
-        BEL
-        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_8"
-        BEL
-        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_7"
-        BEL
-        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_6"
-        BEL
-        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_5"
-        BEL
-        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_4"
-        BEL
-        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_3"
-        BEL
-        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_2"
-        BEL
-        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_1"
-        BEL
-        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_0"
-        BEL
-        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_pavalid_reg"
-        BEL
-        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/addr_cntl_cs_0"
-        BEL
-        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_29"
-        BEL
-        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_28"
-        BEL
-        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_15"
-        BEL
-        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_14"
-        BEL
-        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_13"
-        BEL
-        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_12"
-        BEL
-        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_11"
-        BEL
-        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_10"
-        BEL
-        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_9"
-        BEL
-        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_8"
-        BEL
-        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_7"
-        BEL
-        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_6"
-        BEL
-        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_5"
-        BEL
-        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_4"
-        BEL
-        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_3"
-        BEL
-        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_2"
-        BEL
-        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_1"
-        BEL
-        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_0"
-        BEL
-        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rearbitrate_i"
-        BEL
-        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_rnw_reg"
-        BEL
-        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_be_reg_3"
-        BEL
-        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_be_reg_2"
-        BEL
-        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_be_reg_1"
-        BEL
-        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_be_reg_0"
-        BEL
-        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/set_sl_busy"
-        BEL
-        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/data_timeout"
-        BEL
-        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_busy"
-        BEL
-        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/INCLUDE_DATA_PHASE_WDT.I_DPTO_COUNTER/icount_out_8"
-        BEL
-        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/I_DECODER/decode_hit_reg"
-        BEL
-        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/I_DECODER/addr_out_s_h_0"
-        BEL
-        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/I_DECODER/addr_out_s_h_1"
-        BEL
-        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/I_DECODER/rnw_s_h"
-        BEL "ring_osc_1/ring_osc_1/USER_LOGIC_I/slv_reg2_15" BEL
-        "ring_osc_1/ring_osc_1/USER_LOGIC_I/slv_reg2_14" BEL
-        "ring_osc_1/ring_osc_1/USER_LOGIC_I/slv_reg2_20" BEL
-        "ring_osc_1/ring_osc_1/USER_LOGIC_I/slv_reg2_16" BEL
-        "ring_osc_1/ring_osc_1/USER_LOGIC_I/slv_reg2_21" BEL
-        "ring_osc_1/ring_osc_1/USER_LOGIC_I/slv_reg2_0" BEL
-        "ring_osc_1/ring_osc_1/USER_LOGIC_I/slv_reg2_17" BEL
-        "ring_osc_1/ring_osc_1/USER_LOGIC_I/slv_reg2_23" BEL
-        "ring_osc_1/ring_osc_1/USER_LOGIC_I/slv_reg2_22" BEL
-        "ring_osc_1/ring_osc_1/USER_LOGIC_I/slv_reg2_1" BEL
-        "ring_osc_1/ring_osc_1/USER_LOGIC_I/slv_reg2_18" BEL
-        "ring_osc_1/ring_osc_1/USER_LOGIC_I/slv_reg2_2" BEL
-        "ring_osc_1/ring_osc_1/USER_LOGIC_I/slv_reg2_19" BEL
-        "ring_osc_1/ring_osc_1/USER_LOGIC_I/slv_reg2_24" BEL
-        "ring_osc_1/ring_osc_1/USER_LOGIC_I/slv_reg2_3" BEL
-        "ring_osc_1/ring_osc_1/USER_LOGIC_I/slv_reg2_25" BEL
-        "ring_osc_1/ring_osc_1/USER_LOGIC_I/slv_reg2_26" BEL
-        "ring_osc_1/ring_osc_1/USER_LOGIC_I/slv_reg2_30" BEL
-        "ring_osc_1/ring_osc_1/USER_LOGIC_I/slv_reg2_4" BEL
-        "ring_osc_1/ring_osc_1/USER_LOGIC_I/slv_reg2_31" BEL
-        "ring_osc_1/ring_osc_1/USER_LOGIC_I/slv_reg2_5" BEL
-        "ring_osc_1/ring_osc_1/USER_LOGIC_I/slv_reg2_27" BEL
-        "ring_osc_1/ring_osc_1/USER_LOGIC_I/slv_reg2_6" BEL
-        "ring_osc_1/ring_osc_1/USER_LOGIC_I/slv_reg2_28" BEL
-        "ring_osc_1/ring_osc_1/USER_LOGIC_I/slv_reg2_7" BEL
-        "ring_osc_1/ring_osc_1/USER_LOGIC_I/slv_reg2_9" BEL
-        "ring_osc_1/ring_osc_1/USER_LOGIC_I/slv_reg2_29" BEL
-        "ring_osc_1/ring_osc_1/USER_LOGIC_I/slv_reg2_8" BEL
-        "ring_osc_1/ring_osc_1/USER_LOGIC_I/slv_reg2_10" BEL
-        "ring_osc_1/ring_osc_1/USER_LOGIC_I/slv_reg2_11" BEL
-        "ring_osc_1/ring_osc_1/USER_LOGIC_I/slv_reg2_12" BEL
-        "ring_osc_1/ring_osc_1/USER_LOGIC_I/slv_reg2_13" BEL
         "ring_osc_2/ring_osc_2/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/bus2ip_rnw_i"
         BEL
         "ring_osc_2/ring_osc_2/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/bus2ip_be_i_3"
@@ -5139,6 +4610,1889 @@ TIMEGRP clock_generator_0_clock_generator_0_SIG_DCM0_CLK0 = PIN
         "ring_osc_2/ring_osc_2/USER_LOGIC_I/slv_reg2_11" BEL
         "ring_osc_2/ring_osc_2/USER_LOGIC_I/slv_reg2_12" BEL
         "ring_osc_2/ring_osc_2/USER_LOGIC_I/slv_reg2_13" BEL
+        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/bus2ip_rnw_i"
+        BEL
+        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/bus2ip_be_i_3"
+        BEL
+        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/bus2ip_be_i_2"
+        BEL
+        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/bus2ip_be_i_1"
+        BEL
+        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/bus2ip_be_i_0"
+        BEL
+        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/INCLUDE_DATA_PHASE_WDT.I_DPTO_COUNTER/icount_out_6"
+        BEL
+        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/INCLUDE_DATA_PHASE_WDT.I_DPTO_COUNTER/icount_out_5"
+        BEL
+        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/INCLUDE_DATA_PHASE_WDT.I_DPTO_COUNTER/icount_out_4"
+        BEL
+        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/INCLUDE_DATA_PHASE_WDT.I_DPTO_COUNTER/icount_out_3"
+        BEL
+        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/INCLUDE_DATA_PHASE_WDT.I_DPTO_COUNTER/icount_out_2"
+        BEL
+        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/INCLUDE_DATA_PHASE_WDT.I_DPTO_COUNTER/icount_out_1"
+        BEL
+        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_31"
+        BEL
+        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_30"
+        BEL
+        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_29"
+        BEL
+        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_28"
+        BEL
+        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_27"
+        BEL
+        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_26"
+        BEL
+        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_25"
+        BEL
+        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_24"
+        BEL
+        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_23"
+        BEL
+        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_22"
+        BEL
+        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_21"
+        BEL
+        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_20"
+        BEL
+        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_19"
+        BEL
+        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_18"
+        BEL
+        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_17"
+        BEL
+        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_16"
+        BEL
+        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_15"
+        BEL
+        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_14"
+        BEL
+        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_13"
+        BEL
+        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_12"
+        BEL
+        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_11"
+        BEL
+        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_10"
+        BEL
+        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_9"
+        BEL
+        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_8"
+        BEL
+        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_7"
+        BEL
+        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_6"
+        BEL
+        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_5"
+        BEL
+        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_4"
+        BEL
+        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_3"
+        BEL
+        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_2"
+        BEL
+        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_1"
+        BEL
+        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_0"
+        BEL
+        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/I_DECODER/wrce_out_i_0"
+        BEL
+        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/I_DECODER/rdce_out_i_2"
+        BEL
+        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/I_DECODER/rdce_out_i_0"
+        BEL
+        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/I_DECODER/rdce_out_i_1"
+        BEL
+        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/I_DECODER/wrce_out_i_1"
+        BEL
+        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/I_DECODER/wrce_out_i_2"
+        BEL
+        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/INCLUDE_DATA_PHASE_WDT.I_DPTO_COUNTER/icount_out_7"
+        BEL
+        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_wrcomp_i"
+        BEL
+        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/rd_clear_sl_busy"
+        BEL
+        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/INCLUDE_DATA_PHASE_WDT.I_DPTO_COUNTER/icount_out_0"
+        BEL
+        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_31"
+        BEL
+        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_30"
+        BEL
+        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_29"
+        BEL
+        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_28"
+        BEL
+        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_27"
+        BEL
+        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_26"
+        BEL
+        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_25"
+        BEL
+        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_24"
+        BEL
+        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_23"
+        BEL
+        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_22"
+        BEL
+        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_21"
+        BEL
+        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_20"
+        BEL
+        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_19"
+        BEL
+        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_18"
+        BEL
+        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_17"
+        BEL
+        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_16"
+        BEL
+        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_15"
+        BEL
+        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_14"
+        BEL
+        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_13"
+        BEL
+        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_12"
+        BEL
+        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_11"
+        BEL
+        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_10"
+        BEL
+        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_9"
+        BEL
+        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_8"
+        BEL
+        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_7"
+        BEL
+        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_6"
+        BEL
+        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_5"
+        BEL
+        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_4"
+        BEL
+        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_3"
+        BEL
+        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_2"
+        BEL
+        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_1"
+        BEL
+        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_0"
+        BEL
+        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_pavalid_reg"
+        BEL
+        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/addr_cntl_cs_0"
+        BEL
+        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_29"
+        BEL
+        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_28"
+        BEL
+        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_15"
+        BEL
+        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_14"
+        BEL
+        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_13"
+        BEL
+        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_12"
+        BEL
+        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_11"
+        BEL
+        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_10"
+        BEL
+        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_9"
+        BEL
+        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_8"
+        BEL
+        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_7"
+        BEL
+        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_6"
+        BEL
+        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_5"
+        BEL
+        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_4"
+        BEL
+        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_3"
+        BEL
+        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_2"
+        BEL
+        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_1"
+        BEL
+        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_0"
+        BEL
+        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rearbitrate_i"
+        BEL
+        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_rnw_reg"
+        BEL
+        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_be_reg_3"
+        BEL
+        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_be_reg_2"
+        BEL
+        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_be_reg_1"
+        BEL
+        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_be_reg_0"
+        BEL
+        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/set_sl_busy"
+        BEL
+        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/data_timeout"
+        BEL
+        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_busy"
+        BEL
+        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/INCLUDE_DATA_PHASE_WDT.I_DPTO_COUNTER/icount_out_8"
+        BEL
+        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/I_DECODER/decode_hit_reg"
+        BEL
+        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/I_DECODER/addr_out_s_h_0"
+        BEL
+        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/I_DECODER/addr_out_s_h_1"
+        BEL
+        "ring_osc_1/ring_osc_1/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/I_DECODER/rnw_s_h"
+        BEL "ring_osc_1/ring_osc_1/USER_LOGIC_I/slv_reg2_15" BEL
+        "ring_osc_1/ring_osc_1/USER_LOGIC_I/slv_reg2_14" BEL
+        "ring_osc_1/ring_osc_1/USER_LOGIC_I/slv_reg2_20" BEL
+        "ring_osc_1/ring_osc_1/USER_LOGIC_I/slv_reg2_16" BEL
+        "ring_osc_1/ring_osc_1/USER_LOGIC_I/slv_reg2_21" BEL
+        "ring_osc_1/ring_osc_1/USER_LOGIC_I/slv_reg2_0" BEL
+        "ring_osc_1/ring_osc_1/USER_LOGIC_I/slv_reg2_17" BEL
+        "ring_osc_1/ring_osc_1/USER_LOGIC_I/slv_reg2_23" BEL
+        "ring_osc_1/ring_osc_1/USER_LOGIC_I/slv_reg2_22" BEL
+        "ring_osc_1/ring_osc_1/USER_LOGIC_I/slv_reg2_1" BEL
+        "ring_osc_1/ring_osc_1/USER_LOGIC_I/slv_reg2_18" BEL
+        "ring_osc_1/ring_osc_1/USER_LOGIC_I/slv_reg2_2" BEL
+        "ring_osc_1/ring_osc_1/USER_LOGIC_I/slv_reg2_19" BEL
+        "ring_osc_1/ring_osc_1/USER_LOGIC_I/slv_reg2_24" BEL
+        "ring_osc_1/ring_osc_1/USER_LOGIC_I/slv_reg2_3" BEL
+        "ring_osc_1/ring_osc_1/USER_LOGIC_I/slv_reg2_25" BEL
+        "ring_osc_1/ring_osc_1/USER_LOGIC_I/slv_reg2_26" BEL
+        "ring_osc_1/ring_osc_1/USER_LOGIC_I/slv_reg2_30" BEL
+        "ring_osc_1/ring_osc_1/USER_LOGIC_I/slv_reg2_4" BEL
+        "ring_osc_1/ring_osc_1/USER_LOGIC_I/slv_reg2_31" BEL
+        "ring_osc_1/ring_osc_1/USER_LOGIC_I/slv_reg2_5" BEL
+        "ring_osc_1/ring_osc_1/USER_LOGIC_I/slv_reg2_27" BEL
+        "ring_osc_1/ring_osc_1/USER_LOGIC_I/slv_reg2_6" BEL
+        "ring_osc_1/ring_osc_1/USER_LOGIC_I/slv_reg2_28" BEL
+        "ring_osc_1/ring_osc_1/USER_LOGIC_I/slv_reg2_7" BEL
+        "ring_osc_1/ring_osc_1/USER_LOGIC_I/slv_reg2_9" BEL
+        "ring_osc_1/ring_osc_1/USER_LOGIC_I/slv_reg2_29" BEL
+        "ring_osc_1/ring_osc_1/USER_LOGIC_I/slv_reg2_8" BEL
+        "ring_osc_1/ring_osc_1/USER_LOGIC_I/slv_reg2_10" BEL
+        "ring_osc_1/ring_osc_1/USER_LOGIC_I/slv_reg2_11" BEL
+        "ring_osc_1/ring_osc_1/USER_LOGIC_I/slv_reg2_12" BEL
+        "ring_osc_1/ring_osc_1/USER_LOGIC_I/slv_reg2_13" BEL
+        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/bus2ip_rnw_i"
+        BEL
+        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/bus2ip_be_i_3"
+        BEL
+        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/bus2ip_be_i_2"
+        BEL
+        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/bus2ip_be_i_1"
+        BEL
+        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/bus2ip_be_i_0"
+        BEL
+        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/INCLUDE_DATA_PHASE_WDT.I_DPTO_COUNTER/icount_out_6"
+        BEL
+        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/INCLUDE_DATA_PHASE_WDT.I_DPTO_COUNTER/icount_out_5"
+        BEL
+        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/INCLUDE_DATA_PHASE_WDT.I_DPTO_COUNTER/icount_out_4"
+        BEL
+        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/INCLUDE_DATA_PHASE_WDT.I_DPTO_COUNTER/icount_out_3"
+        BEL
+        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/INCLUDE_DATA_PHASE_WDT.I_DPTO_COUNTER/icount_out_2"
+        BEL
+        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/INCLUDE_DATA_PHASE_WDT.I_DPTO_COUNTER/icount_out_1"
+        BEL
+        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_31"
+        BEL
+        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_30"
+        BEL
+        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_29"
+        BEL
+        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_28"
+        BEL
+        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_27"
+        BEL
+        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_26"
+        BEL
+        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_25"
+        BEL
+        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_24"
+        BEL
+        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_23"
+        BEL
+        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_22"
+        BEL
+        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_21"
+        BEL
+        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_20"
+        BEL
+        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_19"
+        BEL
+        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_18"
+        BEL
+        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_17"
+        BEL
+        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_16"
+        BEL
+        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_15"
+        BEL
+        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_14"
+        BEL
+        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_13"
+        BEL
+        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_12"
+        BEL
+        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_11"
+        BEL
+        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_10"
+        BEL
+        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_9"
+        BEL
+        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_8"
+        BEL
+        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_7"
+        BEL
+        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_6"
+        BEL
+        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_5"
+        BEL
+        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_4"
+        BEL
+        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_3"
+        BEL
+        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_2"
+        BEL
+        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_1"
+        BEL
+        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_0"
+        BEL
+        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/I_DECODER/wrce_out_i_0"
+        BEL
+        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/I_DECODER/rdce_out_i_2"
+        BEL
+        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/I_DECODER/rdce_out_i_0"
+        BEL
+        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/I_DECODER/rdce_out_i_1"
+        BEL
+        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/I_DECODER/wrce_out_i_1"
+        BEL
+        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/I_DECODER/wrce_out_i_2"
+        BEL
+        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/INCLUDE_DATA_PHASE_WDT.I_DPTO_COUNTER/icount_out_7"
+        BEL
+        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_wrcomp_i"
+        BEL
+        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/rd_clear_sl_busy"
+        BEL
+        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/INCLUDE_DATA_PHASE_WDT.I_DPTO_COUNTER/icount_out_0"
+        BEL
+        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_31"
+        BEL
+        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_30"
+        BEL
+        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_29"
+        BEL
+        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_28"
+        BEL
+        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_27"
+        BEL
+        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_26"
+        BEL
+        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_25"
+        BEL
+        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_24"
+        BEL
+        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_23"
+        BEL
+        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_22"
+        BEL
+        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_21"
+        BEL
+        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_20"
+        BEL
+        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_19"
+        BEL
+        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_18"
+        BEL
+        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_17"
+        BEL
+        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_16"
+        BEL
+        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_15"
+        BEL
+        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_14"
+        BEL
+        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_13"
+        BEL
+        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_12"
+        BEL
+        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_11"
+        BEL
+        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_10"
+        BEL
+        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_9"
+        BEL
+        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_8"
+        BEL
+        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_7"
+        BEL
+        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_6"
+        BEL
+        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_5"
+        BEL
+        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_4"
+        BEL
+        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_3"
+        BEL
+        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_2"
+        BEL
+        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_1"
+        BEL
+        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_0"
+        BEL
+        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_pavalid_reg"
+        BEL
+        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/addr_cntl_cs_0"
+        BEL
+        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_29"
+        BEL
+        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_28"
+        BEL
+        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_15"
+        BEL
+        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_14"
+        BEL
+        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_13"
+        BEL
+        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_12"
+        BEL
+        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_11"
+        BEL
+        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_10"
+        BEL
+        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_9"
+        BEL
+        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_8"
+        BEL
+        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_7"
+        BEL
+        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_6"
+        BEL
+        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_5"
+        BEL
+        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_4"
+        BEL
+        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_3"
+        BEL
+        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_2"
+        BEL
+        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_1"
+        BEL
+        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_0"
+        BEL
+        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rearbitrate_i"
+        BEL
+        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_rnw_reg"
+        BEL
+        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_be_reg_3"
+        BEL
+        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_be_reg_2"
+        BEL
+        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_be_reg_1"
+        BEL
+        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_be_reg_0"
+        BEL
+        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/set_sl_busy"
+        BEL
+        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/data_timeout"
+        BEL
+        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_busy"
+        BEL
+        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/INCLUDE_DATA_PHASE_WDT.I_DPTO_COUNTER/icount_out_8"
+        BEL
+        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/I_DECODER/decode_hit_reg"
+        BEL
+        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/I_DECODER/addr_out_s_h_0"
+        BEL
+        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/I_DECODER/addr_out_s_h_1"
+        BEL
+        "ring_osc_0/ring_osc_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/I_DECODER/rnw_s_h"
+        BEL "ring_osc_0/ring_osc_0/USER_LOGIC_I/slv_reg2_15" BEL
+        "ring_osc_0/ring_osc_0/USER_LOGIC_I/slv_reg2_14" BEL
+        "ring_osc_0/ring_osc_0/USER_LOGIC_I/slv_reg2_20" BEL
+        "ring_osc_0/ring_osc_0/USER_LOGIC_I/slv_reg2_16" BEL
+        "ring_osc_0/ring_osc_0/USER_LOGIC_I/slv_reg2_21" BEL
+        "ring_osc_0/ring_osc_0/USER_LOGIC_I/slv_reg2_0" BEL
+        "ring_osc_0/ring_osc_0/USER_LOGIC_I/slv_reg2_17" BEL
+        "ring_osc_0/ring_osc_0/USER_LOGIC_I/slv_reg2_23" BEL
+        "ring_osc_0/ring_osc_0/USER_LOGIC_I/slv_reg2_22" BEL
+        "ring_osc_0/ring_osc_0/USER_LOGIC_I/slv_reg2_1" BEL
+        "ring_osc_0/ring_osc_0/USER_LOGIC_I/slv_reg2_18" BEL
+        "ring_osc_0/ring_osc_0/USER_LOGIC_I/slv_reg2_2" BEL
+        "ring_osc_0/ring_osc_0/USER_LOGIC_I/slv_reg2_19" BEL
+        "ring_osc_0/ring_osc_0/USER_LOGIC_I/slv_reg2_24" BEL
+        "ring_osc_0/ring_osc_0/USER_LOGIC_I/slv_reg2_3" BEL
+        "ring_osc_0/ring_osc_0/USER_LOGIC_I/slv_reg2_25" BEL
+        "ring_osc_0/ring_osc_0/USER_LOGIC_I/slv_reg2_26" BEL
+        "ring_osc_0/ring_osc_0/USER_LOGIC_I/slv_reg2_30" BEL
+        "ring_osc_0/ring_osc_0/USER_LOGIC_I/slv_reg2_4" BEL
+        "ring_osc_0/ring_osc_0/USER_LOGIC_I/slv_reg2_31" BEL
+        "ring_osc_0/ring_osc_0/USER_LOGIC_I/slv_reg2_5" BEL
+        "ring_osc_0/ring_osc_0/USER_LOGIC_I/slv_reg2_27" BEL
+        "ring_osc_0/ring_osc_0/USER_LOGIC_I/slv_reg2_6" BEL
+        "ring_osc_0/ring_osc_0/USER_LOGIC_I/slv_reg2_28" BEL
+        "ring_osc_0/ring_osc_0/USER_LOGIC_I/slv_reg2_7" BEL
+        "ring_osc_0/ring_osc_0/USER_LOGIC_I/slv_reg2_9" BEL
+        "ring_osc_0/ring_osc_0/USER_LOGIC_I/slv_reg2_29" BEL
+        "ring_osc_0/ring_osc_0/USER_LOGIC_I/slv_reg2_8" BEL
+        "ring_osc_0/ring_osc_0/USER_LOGIC_I/slv_reg2_10" BEL
+        "ring_osc_0/ring_osc_0/USER_LOGIC_I/slv_reg2_11" BEL
+        "ring_osc_0/ring_osc_0/USER_LOGIC_I/slv_reg2_12" BEL
+        "ring_osc_0/ring_osc_0/USER_LOGIC_I/slv_reg2_13" BEL
+        "ring_osc_3/ring_osc_3/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_31"
+        BEL
+        "ring_osc_3/ring_osc_3/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_30"
+        BEL
+        "ring_osc_3/ring_osc_3/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_29"
+        BEL
+        "ring_osc_3/ring_osc_3/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_28"
+        BEL
+        "ring_osc_3/ring_osc_3/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_27"
+        BEL
+        "ring_osc_3/ring_osc_3/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_26"
+        BEL
+        "ring_osc_3/ring_osc_3/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_25"
+        BEL
+        "ring_osc_3/ring_osc_3/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_24"
+        BEL
+        "ring_osc_3/ring_osc_3/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_23"
+        BEL
+        "ring_osc_3/ring_osc_3/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_22"
+        BEL
+        "ring_osc_3/ring_osc_3/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_21"
+        BEL
+        "ring_osc_3/ring_osc_3/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_20"
+        BEL
+        "ring_osc_3/ring_osc_3/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_19"
+        BEL
+        "ring_osc_3/ring_osc_3/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_18"
+        BEL
+        "ring_osc_3/ring_osc_3/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_17"
+        BEL
+        "ring_osc_3/ring_osc_3/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_16"
+        BEL
+        "ring_osc_3/ring_osc_3/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_15"
+        BEL
+        "ring_osc_3/ring_osc_3/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_14"
+        BEL
+        "ring_osc_3/ring_osc_3/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_13"
+        BEL
+        "ring_osc_3/ring_osc_3/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_12"
+        BEL
+        "ring_osc_3/ring_osc_3/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_11"
+        BEL
+        "ring_osc_3/ring_osc_3/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_10"
+        BEL
+        "ring_osc_3/ring_osc_3/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_9"
+        BEL
+        "ring_osc_3/ring_osc_3/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_8"
+        BEL
+        "ring_osc_3/ring_osc_3/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_7"
+        BEL
+        "ring_osc_3/ring_osc_3/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_6"
+        BEL
+        "ring_osc_3/ring_osc_3/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_5"
+        BEL
+        "ring_osc_3/ring_osc_3/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_4"
+        BEL
+        "ring_osc_3/ring_osc_3/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_3"
+        BEL
+        "ring_osc_3/ring_osc_3/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_2"
+        BEL
+        "ring_osc_3/ring_osc_3/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_1"
+        BEL
+        "ring_osc_3/ring_osc_3/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_0"
+        BEL
+        "ring_osc_3/ring_osc_3/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/I_DECODER/wrce_out_i_0"
+        BEL
+        "ring_osc_3/ring_osc_3/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/I_DECODER/rdce_out_i_2"
+        BEL
+        "ring_osc_3/ring_osc_3/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/I_DECODER/rdce_out_i_0"
+        BEL
+        "ring_osc_3/ring_osc_3/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/I_DECODER/rdce_out_i_1"
+        BEL
+        "ring_osc_3/ring_osc_3/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/I_DECODER/wrce_out_i_1"
+        BEL
+        "ring_osc_3/ring_osc_3/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/I_DECODER/wrce_out_i_2"
+        BEL
+        "ring_osc_3/ring_osc_3/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/INCLUDE_DATA_PHASE_WDT.I_DPTO_COUNTER/icount_out_7"
+        BEL
+        "ring_osc_3/ring_osc_3/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_wrcomp_i"
+        BEL
+        "ring_osc_3/ring_osc_3/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/rd_clear_sl_busy"
+        BEL
+        "ring_osc_3/ring_osc_3/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/INCLUDE_DATA_PHASE_WDT.I_DPTO_COUNTER/icount_out_6"
+        BEL
+        "ring_osc_3/ring_osc_3/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/INCLUDE_DATA_PHASE_WDT.I_DPTO_COUNTER/icount_out_5"
+        BEL
+        "ring_osc_3/ring_osc_3/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/INCLUDE_DATA_PHASE_WDT.I_DPTO_COUNTER/icount_out_4"
+        BEL
+        "ring_osc_3/ring_osc_3/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/INCLUDE_DATA_PHASE_WDT.I_DPTO_COUNTER/icount_out_3"
+        BEL
+        "ring_osc_3/ring_osc_3/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/INCLUDE_DATA_PHASE_WDT.I_DPTO_COUNTER/icount_out_2"
+        BEL
+        "ring_osc_3/ring_osc_3/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/INCLUDE_DATA_PHASE_WDT.I_DPTO_COUNTER/icount_out_1"
+        BEL
+        "ring_osc_3/ring_osc_3/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/INCLUDE_DATA_PHASE_WDT.I_DPTO_COUNTER/icount_out_0"
+        BEL
+        "ring_osc_3/ring_osc_3/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_31"
+        BEL
+        "ring_osc_3/ring_osc_3/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_30"
+        BEL
+        "ring_osc_3/ring_osc_3/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_29"
+        BEL
+        "ring_osc_3/ring_osc_3/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_28"
+        BEL
+        "ring_osc_3/ring_osc_3/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_27"
+        BEL
+        "ring_osc_3/ring_osc_3/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_26"
+        BEL
+        "ring_osc_3/ring_osc_3/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_25"
+        BEL
+        "ring_osc_3/ring_osc_3/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_24"
+        BEL
+        "ring_osc_3/ring_osc_3/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_23"
+        BEL
+        "ring_osc_3/ring_osc_3/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_22"
+        BEL
+        "ring_osc_3/ring_osc_3/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_21"
+        BEL
+        "ring_osc_3/ring_osc_3/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_20"
+        BEL
+        "ring_osc_3/ring_osc_3/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_19"
+        BEL
+        "ring_osc_3/ring_osc_3/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_18"
+        BEL
+        "ring_osc_3/ring_osc_3/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_17"
+        BEL
+        "ring_osc_3/ring_osc_3/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_16"
+        BEL
+        "ring_osc_3/ring_osc_3/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_15"
+        BEL
+        "ring_osc_3/ring_osc_3/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_14"
+        BEL
+        "ring_osc_3/ring_osc_3/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_13"
+        BEL
+        "ring_osc_3/ring_osc_3/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_12"
+        BEL
+        "ring_osc_3/ring_osc_3/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_11"
+        BEL
+        "ring_osc_3/ring_osc_3/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_10"
+        BEL
+        "ring_osc_3/ring_osc_3/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_9"
+        BEL
+        "ring_osc_3/ring_osc_3/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_8"
+        BEL
+        "ring_osc_3/ring_osc_3/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_7"
+        BEL
+        "ring_osc_3/ring_osc_3/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_6"
+        BEL
+        "ring_osc_3/ring_osc_3/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_5"
+        BEL
+        "ring_osc_3/ring_osc_3/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_4"
+        BEL
+        "ring_osc_3/ring_osc_3/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_3"
+        BEL
+        "ring_osc_3/ring_osc_3/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_2"
+        BEL
+        "ring_osc_3/ring_osc_3/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_1"
+        BEL
+        "ring_osc_3/ring_osc_3/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_0"
+        BEL
+        "ring_osc_3/ring_osc_3/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_pavalid_reg"
+        BEL
+        "ring_osc_3/ring_osc_3/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/addr_cntl_cs_0"
+        BEL
+        "ring_osc_3/ring_osc_3/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_29"
+        BEL
+        "ring_osc_3/ring_osc_3/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_28"
+        BEL
+        "ring_osc_3/ring_osc_3/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_15"
+        BEL
+        "ring_osc_3/ring_osc_3/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_14"
+        BEL
+        "ring_osc_3/ring_osc_3/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_13"
+        BEL
+        "ring_osc_3/ring_osc_3/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_12"
+        BEL
+        "ring_osc_3/ring_osc_3/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_11"
+        BEL
+        "ring_osc_3/ring_osc_3/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_10"
+        BEL
+        "ring_osc_3/ring_osc_3/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_9"
+        BEL
+        "ring_osc_3/ring_osc_3/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_8"
+        BEL
+        "ring_osc_3/ring_osc_3/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_7"
+        BEL
+        "ring_osc_3/ring_osc_3/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_6"
+        BEL
+        "ring_osc_3/ring_osc_3/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_5"
+        BEL
+        "ring_osc_3/ring_osc_3/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_4"
+        BEL
+        "ring_osc_3/ring_osc_3/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_3"
+        BEL
+        "ring_osc_3/ring_osc_3/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_2"
+        BEL
+        "ring_osc_3/ring_osc_3/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_1"
+        BEL
+        "ring_osc_3/ring_osc_3/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_0"
+        BEL
+        "ring_osc_3/ring_osc_3/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rearbitrate_i"
+        BEL
+        "ring_osc_3/ring_osc_3/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_rnw_reg"
+        BEL
+        "ring_osc_3/ring_osc_3/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_be_reg_3"
+        BEL
+        "ring_osc_3/ring_osc_3/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_be_reg_2"
+        BEL
+        "ring_osc_3/ring_osc_3/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_be_reg_1"
+        BEL
+        "ring_osc_3/ring_osc_3/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_be_reg_0"
+        BEL
+        "ring_osc_3/ring_osc_3/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/set_sl_busy"
+        BEL
+        "ring_osc_3/ring_osc_3/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/bus2ip_rnw_i"
+        BEL
+        "ring_osc_3/ring_osc_3/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/data_timeout"
+        BEL
+        "ring_osc_3/ring_osc_3/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/bus2ip_be_i_3"
+        BEL
+        "ring_osc_3/ring_osc_3/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/bus2ip_be_i_2"
+        BEL
+        "ring_osc_3/ring_osc_3/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/bus2ip_be_i_1"
+        BEL
+        "ring_osc_3/ring_osc_3/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/bus2ip_be_i_0"
+        BEL
+        "ring_osc_3/ring_osc_3/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_busy"
+        BEL
+        "ring_osc_3/ring_osc_3/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/INCLUDE_DATA_PHASE_WDT.I_DPTO_COUNTER/icount_out_8"
+        BEL
+        "ring_osc_3/ring_osc_3/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/I_DECODER/decode_hit_reg"
+        BEL
+        "ring_osc_3/ring_osc_3/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/I_DECODER/addr_out_s_h_0"
+        BEL
+        "ring_osc_3/ring_osc_3/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/I_DECODER/addr_out_s_h_1"
+        BEL
+        "ring_osc_3/ring_osc_3/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/I_DECODER/rnw_s_h"
+        BEL "ring_osc_3/ring_osc_3/USER_LOGIC_I/slv_reg2_15" BEL
+        "ring_osc_3/ring_osc_3/USER_LOGIC_I/slv_reg2_14" BEL
+        "ring_osc_3/ring_osc_3/USER_LOGIC_I/slv_reg2_20" BEL
+        "ring_osc_3/ring_osc_3/USER_LOGIC_I/slv_reg2_16" BEL
+        "ring_osc_3/ring_osc_3/USER_LOGIC_I/slv_reg2_21" BEL
+        "ring_osc_3/ring_osc_3/USER_LOGIC_I/slv_reg2_0" BEL
+        "ring_osc_3/ring_osc_3/USER_LOGIC_I/slv_reg2_17" BEL
+        "ring_osc_3/ring_osc_3/USER_LOGIC_I/slv_reg2_23" BEL
+        "ring_osc_3/ring_osc_3/USER_LOGIC_I/slv_reg2_22" BEL
+        "ring_osc_3/ring_osc_3/USER_LOGIC_I/slv_reg2_1" BEL
+        "ring_osc_3/ring_osc_3/USER_LOGIC_I/slv_reg2_18" BEL
+        "ring_osc_3/ring_osc_3/USER_LOGIC_I/slv_reg2_2" BEL
+        "ring_osc_3/ring_osc_3/USER_LOGIC_I/slv_reg2_19" BEL
+        "ring_osc_3/ring_osc_3/USER_LOGIC_I/slv_reg2_24" BEL
+        "ring_osc_3/ring_osc_3/USER_LOGIC_I/slv_reg2_3" BEL
+        "ring_osc_3/ring_osc_3/USER_LOGIC_I/slv_reg2_25" BEL
+        "ring_osc_3/ring_osc_3/USER_LOGIC_I/slv_reg2_26" BEL
+        "ring_osc_3/ring_osc_3/USER_LOGIC_I/slv_reg2_30" BEL
+        "ring_osc_3/ring_osc_3/USER_LOGIC_I/slv_reg2_4" BEL
+        "ring_osc_3/ring_osc_3/USER_LOGIC_I/slv_reg2_31" BEL
+        "ring_osc_3/ring_osc_3/USER_LOGIC_I/slv_reg2_5" BEL
+        "ring_osc_3/ring_osc_3/USER_LOGIC_I/slv_reg2_27" BEL
+        "ring_osc_3/ring_osc_3/USER_LOGIC_I/slv_reg2_6" BEL
+        "ring_osc_3/ring_osc_3/USER_LOGIC_I/slv_reg2_28" BEL
+        "ring_osc_3/ring_osc_3/USER_LOGIC_I/slv_reg2_7" BEL
+        "ring_osc_3/ring_osc_3/USER_LOGIC_I/slv_reg2_9" BEL
+        "ring_osc_3/ring_osc_3/USER_LOGIC_I/slv_reg2_29" BEL
+        "ring_osc_3/ring_osc_3/USER_LOGIC_I/slv_reg2_8" BEL
+        "ring_osc_3/ring_osc_3/USER_LOGIC_I/slv_reg2_10" BEL
+        "ring_osc_3/ring_osc_3/USER_LOGIC_I/slv_reg2_11" BEL
+        "ring_osc_3/ring_osc_3/USER_LOGIC_I/slv_reg2_12" BEL
+        "ring_osc_3/ring_osc_3/USER_LOGIC_I/slv_reg2_13" BEL
+        "ring_osc_4/ring_osc_4/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/bus2ip_rnw_i"
+        BEL
+        "ring_osc_4/ring_osc_4/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/bus2ip_be_i_3"
+        BEL
+        "ring_osc_4/ring_osc_4/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/bus2ip_be_i_2"
+        BEL
+        "ring_osc_4/ring_osc_4/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/bus2ip_be_i_1"
+        BEL
+        "ring_osc_4/ring_osc_4/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/bus2ip_be_i_0"
+        BEL
+        "ring_osc_4/ring_osc_4/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/INCLUDE_DATA_PHASE_WDT.I_DPTO_COUNTER/icount_out_6"
+        BEL
+        "ring_osc_4/ring_osc_4/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/INCLUDE_DATA_PHASE_WDT.I_DPTO_COUNTER/icount_out_5"
+        BEL
+        "ring_osc_4/ring_osc_4/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/INCLUDE_DATA_PHASE_WDT.I_DPTO_COUNTER/icount_out_4"
+        BEL
+        "ring_osc_4/ring_osc_4/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/INCLUDE_DATA_PHASE_WDT.I_DPTO_COUNTER/icount_out_3"
+        BEL
+        "ring_osc_4/ring_osc_4/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/INCLUDE_DATA_PHASE_WDT.I_DPTO_COUNTER/icount_out_2"
+        BEL
+        "ring_osc_4/ring_osc_4/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/INCLUDE_DATA_PHASE_WDT.I_DPTO_COUNTER/icount_out_1"
+        BEL
+        "ring_osc_4/ring_osc_4/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_31"
+        BEL
+        "ring_osc_4/ring_osc_4/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_30"
+        BEL
+        "ring_osc_4/ring_osc_4/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_29"
+        BEL
+        "ring_osc_4/ring_osc_4/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_28"
+        BEL
+        "ring_osc_4/ring_osc_4/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_27"
+        BEL
+        "ring_osc_4/ring_osc_4/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_26"
+        BEL
+        "ring_osc_4/ring_osc_4/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_25"
+        BEL
+        "ring_osc_4/ring_osc_4/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_24"
+        BEL
+        "ring_osc_4/ring_osc_4/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_23"
+        BEL
+        "ring_osc_4/ring_osc_4/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_22"
+        BEL
+        "ring_osc_4/ring_osc_4/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_21"
+        BEL
+        "ring_osc_4/ring_osc_4/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_20"
+        BEL
+        "ring_osc_4/ring_osc_4/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_19"
+        BEL
+        "ring_osc_4/ring_osc_4/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_18"
+        BEL
+        "ring_osc_4/ring_osc_4/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_17"
+        BEL
+        "ring_osc_4/ring_osc_4/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_16"
+        BEL
+        "ring_osc_4/ring_osc_4/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_15"
+        BEL
+        "ring_osc_4/ring_osc_4/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_14"
+        BEL
+        "ring_osc_4/ring_osc_4/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_13"
+        BEL
+        "ring_osc_4/ring_osc_4/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_12"
+        BEL
+        "ring_osc_4/ring_osc_4/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_11"
+        BEL
+        "ring_osc_4/ring_osc_4/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_10"
+        BEL
+        "ring_osc_4/ring_osc_4/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_9"
+        BEL
+        "ring_osc_4/ring_osc_4/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_8"
+        BEL
+        "ring_osc_4/ring_osc_4/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_7"
+        BEL
+        "ring_osc_4/ring_osc_4/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_6"
+        BEL
+        "ring_osc_4/ring_osc_4/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_5"
+        BEL
+        "ring_osc_4/ring_osc_4/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_4"
+        BEL
+        "ring_osc_4/ring_osc_4/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_3"
+        BEL
+        "ring_osc_4/ring_osc_4/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_2"
+        BEL
+        "ring_osc_4/ring_osc_4/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_1"
+        BEL
+        "ring_osc_4/ring_osc_4/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_0"
+        BEL
+        "ring_osc_4/ring_osc_4/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/I_DECODER/wrce_out_i_0"
+        BEL
+        "ring_osc_4/ring_osc_4/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/I_DECODER/rdce_out_i_2"
+        BEL
+        "ring_osc_4/ring_osc_4/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/I_DECODER/rdce_out_i_0"
+        BEL
+        "ring_osc_4/ring_osc_4/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/I_DECODER/rdce_out_i_1"
+        BEL
+        "ring_osc_4/ring_osc_4/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/I_DECODER/wrce_out_i_1"
+        BEL
+        "ring_osc_4/ring_osc_4/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/I_DECODER/wrce_out_i_2"
+        BEL
+        "ring_osc_4/ring_osc_4/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/INCLUDE_DATA_PHASE_WDT.I_DPTO_COUNTER/icount_out_7"
+        BEL
+        "ring_osc_4/ring_osc_4/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_wrcomp_i"
+        BEL
+        "ring_osc_4/ring_osc_4/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/rd_clear_sl_busy"
+        BEL
+        "ring_osc_4/ring_osc_4/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/INCLUDE_DATA_PHASE_WDT.I_DPTO_COUNTER/icount_out_0"
+        BEL
+        "ring_osc_4/ring_osc_4/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_31"
+        BEL
+        "ring_osc_4/ring_osc_4/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_30"
+        BEL
+        "ring_osc_4/ring_osc_4/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_29"
+        BEL
+        "ring_osc_4/ring_osc_4/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_28"
+        BEL
+        "ring_osc_4/ring_osc_4/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_27"
+        BEL
+        "ring_osc_4/ring_osc_4/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_26"
+        BEL
+        "ring_osc_4/ring_osc_4/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_25"
+        BEL
+        "ring_osc_4/ring_osc_4/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_24"
+        BEL
+        "ring_osc_4/ring_osc_4/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_23"
+        BEL
+        "ring_osc_4/ring_osc_4/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_22"
+        BEL
+        "ring_osc_4/ring_osc_4/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_21"
+        BEL
+        "ring_osc_4/ring_osc_4/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_20"
+        BEL
+        "ring_osc_4/ring_osc_4/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_19"
+        BEL
+        "ring_osc_4/ring_osc_4/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_18"
+        BEL
+        "ring_osc_4/ring_osc_4/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_17"
+        BEL
+        "ring_osc_4/ring_osc_4/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_16"
+        BEL
+        "ring_osc_4/ring_osc_4/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_15"
+        BEL
+        "ring_osc_4/ring_osc_4/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_14"
+        BEL
+        "ring_osc_4/ring_osc_4/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_13"
+        BEL
+        "ring_osc_4/ring_osc_4/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_12"
+        BEL
+        "ring_osc_4/ring_osc_4/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_11"
+        BEL
+        "ring_osc_4/ring_osc_4/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_10"
+        BEL
+        "ring_osc_4/ring_osc_4/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_9"
+        BEL
+        "ring_osc_4/ring_osc_4/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_8"
+        BEL
+        "ring_osc_4/ring_osc_4/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_7"
+        BEL
+        "ring_osc_4/ring_osc_4/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_6"
+        BEL
+        "ring_osc_4/ring_osc_4/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_5"
+        BEL
+        "ring_osc_4/ring_osc_4/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_4"
+        BEL
+        "ring_osc_4/ring_osc_4/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_3"
+        BEL
+        "ring_osc_4/ring_osc_4/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_2"
+        BEL
+        "ring_osc_4/ring_osc_4/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_1"
+        BEL
+        "ring_osc_4/ring_osc_4/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_0"
+        BEL
+        "ring_osc_4/ring_osc_4/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_pavalid_reg"
+        BEL
+        "ring_osc_4/ring_osc_4/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/addr_cntl_cs_0"
+        BEL
+        "ring_osc_4/ring_osc_4/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_29"
+        BEL
+        "ring_osc_4/ring_osc_4/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_28"
+        BEL
+        "ring_osc_4/ring_osc_4/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_15"
+        BEL
+        "ring_osc_4/ring_osc_4/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_14"
+        BEL
+        "ring_osc_4/ring_osc_4/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_13"
+        BEL
+        "ring_osc_4/ring_osc_4/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_12"
+        BEL
+        "ring_osc_4/ring_osc_4/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_11"
+        BEL
+        "ring_osc_4/ring_osc_4/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_10"
+        BEL
+        "ring_osc_4/ring_osc_4/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_9"
+        BEL
+        "ring_osc_4/ring_osc_4/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_8"
+        BEL
+        "ring_osc_4/ring_osc_4/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_7"
+        BEL
+        "ring_osc_4/ring_osc_4/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_6"
+        BEL
+        "ring_osc_4/ring_osc_4/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_5"
+        BEL
+        "ring_osc_4/ring_osc_4/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_4"
+        BEL
+        "ring_osc_4/ring_osc_4/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_3"
+        BEL
+        "ring_osc_4/ring_osc_4/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_2"
+        BEL
+        "ring_osc_4/ring_osc_4/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_1"
+        BEL
+        "ring_osc_4/ring_osc_4/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_0"
+        BEL
+        "ring_osc_4/ring_osc_4/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rearbitrate_i"
+        BEL
+        "ring_osc_4/ring_osc_4/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_rnw_reg"
+        BEL
+        "ring_osc_4/ring_osc_4/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_be_reg_3"
+        BEL
+        "ring_osc_4/ring_osc_4/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_be_reg_2"
+        BEL
+        "ring_osc_4/ring_osc_4/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_be_reg_1"
+        BEL
+        "ring_osc_4/ring_osc_4/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_be_reg_0"
+        BEL
+        "ring_osc_4/ring_osc_4/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/set_sl_busy"
+        BEL
+        "ring_osc_4/ring_osc_4/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/data_timeout"
+        BEL
+        "ring_osc_4/ring_osc_4/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_busy"
+        BEL
+        "ring_osc_4/ring_osc_4/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/INCLUDE_DATA_PHASE_WDT.I_DPTO_COUNTER/icount_out_8"
+        BEL
+        "ring_osc_4/ring_osc_4/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/I_DECODER/decode_hit_reg"
+        BEL
+        "ring_osc_4/ring_osc_4/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/I_DECODER/addr_out_s_h_0"
+        BEL
+        "ring_osc_4/ring_osc_4/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/I_DECODER/addr_out_s_h_1"
+        BEL
+        "ring_osc_4/ring_osc_4/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/I_DECODER/rnw_s_h"
+        BEL "ring_osc_4/ring_osc_4/USER_LOGIC_I/slv_reg2_15" BEL
+        "ring_osc_4/ring_osc_4/USER_LOGIC_I/slv_reg2_14" BEL
+        "ring_osc_4/ring_osc_4/USER_LOGIC_I/slv_reg2_20" BEL
+        "ring_osc_4/ring_osc_4/USER_LOGIC_I/slv_reg2_16" BEL
+        "ring_osc_4/ring_osc_4/USER_LOGIC_I/slv_reg2_21" BEL
+        "ring_osc_4/ring_osc_4/USER_LOGIC_I/slv_reg2_0" BEL
+        "ring_osc_4/ring_osc_4/USER_LOGIC_I/slv_reg2_17" BEL
+        "ring_osc_4/ring_osc_4/USER_LOGIC_I/slv_reg2_23" BEL
+        "ring_osc_4/ring_osc_4/USER_LOGIC_I/slv_reg2_22" BEL
+        "ring_osc_4/ring_osc_4/USER_LOGIC_I/slv_reg2_1" BEL
+        "ring_osc_4/ring_osc_4/USER_LOGIC_I/slv_reg2_18" BEL
+        "ring_osc_4/ring_osc_4/USER_LOGIC_I/slv_reg2_2" BEL
+        "ring_osc_4/ring_osc_4/USER_LOGIC_I/slv_reg2_19" BEL
+        "ring_osc_4/ring_osc_4/USER_LOGIC_I/slv_reg2_24" BEL
+        "ring_osc_4/ring_osc_4/USER_LOGIC_I/slv_reg2_3" BEL
+        "ring_osc_4/ring_osc_4/USER_LOGIC_I/slv_reg2_25" BEL
+        "ring_osc_4/ring_osc_4/USER_LOGIC_I/slv_reg2_26" BEL
+        "ring_osc_4/ring_osc_4/USER_LOGIC_I/slv_reg2_30" BEL
+        "ring_osc_4/ring_osc_4/USER_LOGIC_I/slv_reg2_4" BEL
+        "ring_osc_4/ring_osc_4/USER_LOGIC_I/slv_reg2_31" BEL
+        "ring_osc_4/ring_osc_4/USER_LOGIC_I/slv_reg2_5" BEL
+        "ring_osc_4/ring_osc_4/USER_LOGIC_I/slv_reg2_27" BEL
+        "ring_osc_4/ring_osc_4/USER_LOGIC_I/slv_reg2_6" BEL
+        "ring_osc_4/ring_osc_4/USER_LOGIC_I/slv_reg2_28" BEL
+        "ring_osc_4/ring_osc_4/USER_LOGIC_I/slv_reg2_7" BEL
+        "ring_osc_4/ring_osc_4/USER_LOGIC_I/slv_reg2_9" BEL
+        "ring_osc_4/ring_osc_4/USER_LOGIC_I/slv_reg2_29" BEL
+        "ring_osc_4/ring_osc_4/USER_LOGIC_I/slv_reg2_8" BEL
+        "ring_osc_4/ring_osc_4/USER_LOGIC_I/slv_reg2_10" BEL
+        "ring_osc_4/ring_osc_4/USER_LOGIC_I/slv_reg2_11" BEL
+        "ring_osc_4/ring_osc_4/USER_LOGIC_I/slv_reg2_12" BEL
+        "ring_osc_4/ring_osc_4/USER_LOGIC_I/slv_reg2_13" BEL
+        "ring_osc_5/ring_osc_5/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/bus2ip_rnw_i"
+        BEL
+        "ring_osc_5/ring_osc_5/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/bus2ip_be_i_3"
+        BEL
+        "ring_osc_5/ring_osc_5/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/bus2ip_be_i_2"
+        BEL
+        "ring_osc_5/ring_osc_5/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/bus2ip_be_i_1"
+        BEL
+        "ring_osc_5/ring_osc_5/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/bus2ip_be_i_0"
+        BEL
+        "ring_osc_5/ring_osc_5/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/INCLUDE_DATA_PHASE_WDT.I_DPTO_COUNTER/icount_out_6"
+        BEL
+        "ring_osc_5/ring_osc_5/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/INCLUDE_DATA_PHASE_WDT.I_DPTO_COUNTER/icount_out_5"
+        BEL
+        "ring_osc_5/ring_osc_5/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/INCLUDE_DATA_PHASE_WDT.I_DPTO_COUNTER/icount_out_4"
+        BEL
+        "ring_osc_5/ring_osc_5/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/INCLUDE_DATA_PHASE_WDT.I_DPTO_COUNTER/icount_out_3"
+        BEL
+        "ring_osc_5/ring_osc_5/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/INCLUDE_DATA_PHASE_WDT.I_DPTO_COUNTER/icount_out_2"
+        BEL
+        "ring_osc_5/ring_osc_5/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/INCLUDE_DATA_PHASE_WDT.I_DPTO_COUNTER/icount_out_1"
+        BEL
+        "ring_osc_5/ring_osc_5/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_31"
+        BEL
+        "ring_osc_5/ring_osc_5/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_30"
+        BEL
+        "ring_osc_5/ring_osc_5/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_29"
+        BEL
+        "ring_osc_5/ring_osc_5/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_28"
+        BEL
+        "ring_osc_5/ring_osc_5/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_27"
+        BEL
+        "ring_osc_5/ring_osc_5/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_26"
+        BEL
+        "ring_osc_5/ring_osc_5/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_25"
+        BEL
+        "ring_osc_5/ring_osc_5/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_24"
+        BEL
+        "ring_osc_5/ring_osc_5/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_23"
+        BEL
+        "ring_osc_5/ring_osc_5/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_22"
+        BEL
+        "ring_osc_5/ring_osc_5/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_21"
+        BEL
+        "ring_osc_5/ring_osc_5/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_20"
+        BEL
+        "ring_osc_5/ring_osc_5/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_19"
+        BEL
+        "ring_osc_5/ring_osc_5/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_18"
+        BEL
+        "ring_osc_5/ring_osc_5/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_17"
+        BEL
+        "ring_osc_5/ring_osc_5/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_16"
+        BEL
+        "ring_osc_5/ring_osc_5/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_15"
+        BEL
+        "ring_osc_5/ring_osc_5/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_14"
+        BEL
+        "ring_osc_5/ring_osc_5/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_13"
+        BEL
+        "ring_osc_5/ring_osc_5/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_12"
+        BEL
+        "ring_osc_5/ring_osc_5/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_11"
+        BEL
+        "ring_osc_5/ring_osc_5/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_10"
+        BEL
+        "ring_osc_5/ring_osc_5/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_9"
+        BEL
+        "ring_osc_5/ring_osc_5/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_8"
+        BEL
+        "ring_osc_5/ring_osc_5/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_7"
+        BEL
+        "ring_osc_5/ring_osc_5/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_6"
+        BEL
+        "ring_osc_5/ring_osc_5/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_5"
+        BEL
+        "ring_osc_5/ring_osc_5/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_4"
+        BEL
+        "ring_osc_5/ring_osc_5/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_3"
+        BEL
+        "ring_osc_5/ring_osc_5/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_2"
+        BEL
+        "ring_osc_5/ring_osc_5/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_1"
+        BEL
+        "ring_osc_5/ring_osc_5/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_0"
+        BEL
+        "ring_osc_5/ring_osc_5/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/I_DECODER/wrce_out_i_0"
+        BEL
+        "ring_osc_5/ring_osc_5/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/I_DECODER/rdce_out_i_2"
+        BEL
+        "ring_osc_5/ring_osc_5/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/I_DECODER/rdce_out_i_0"
+        BEL
+        "ring_osc_5/ring_osc_5/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/I_DECODER/rdce_out_i_1"
+        BEL
+        "ring_osc_5/ring_osc_5/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/I_DECODER/wrce_out_i_1"
+        BEL
+        "ring_osc_5/ring_osc_5/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/I_DECODER/wrce_out_i_2"
+        BEL
+        "ring_osc_5/ring_osc_5/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/INCLUDE_DATA_PHASE_WDT.I_DPTO_COUNTER/icount_out_7"
+        BEL
+        "ring_osc_5/ring_osc_5/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_wrcomp_i"
+        BEL
+        "ring_osc_5/ring_osc_5/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/rd_clear_sl_busy"
+        BEL
+        "ring_osc_5/ring_osc_5/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/INCLUDE_DATA_PHASE_WDT.I_DPTO_COUNTER/icount_out_0"
+        BEL
+        "ring_osc_5/ring_osc_5/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_31"
+        BEL
+        "ring_osc_5/ring_osc_5/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_30"
+        BEL
+        "ring_osc_5/ring_osc_5/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_29"
+        BEL
+        "ring_osc_5/ring_osc_5/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_28"
+        BEL
+        "ring_osc_5/ring_osc_5/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_27"
+        BEL
+        "ring_osc_5/ring_osc_5/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_26"
+        BEL
+        "ring_osc_5/ring_osc_5/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_25"
+        BEL
+        "ring_osc_5/ring_osc_5/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_24"
+        BEL
+        "ring_osc_5/ring_osc_5/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_23"
+        BEL
+        "ring_osc_5/ring_osc_5/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_22"
+        BEL
+        "ring_osc_5/ring_osc_5/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_21"
+        BEL
+        "ring_osc_5/ring_osc_5/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_20"
+        BEL
+        "ring_osc_5/ring_osc_5/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_19"
+        BEL
+        "ring_osc_5/ring_osc_5/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_18"
+        BEL
+        "ring_osc_5/ring_osc_5/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_17"
+        BEL
+        "ring_osc_5/ring_osc_5/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_16"
+        BEL
+        "ring_osc_5/ring_osc_5/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_15"
+        BEL
+        "ring_osc_5/ring_osc_5/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_14"
+        BEL
+        "ring_osc_5/ring_osc_5/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_13"
+        BEL
+        "ring_osc_5/ring_osc_5/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_12"
+        BEL
+        "ring_osc_5/ring_osc_5/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_11"
+        BEL
+        "ring_osc_5/ring_osc_5/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_10"
+        BEL
+        "ring_osc_5/ring_osc_5/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_9"
+        BEL
+        "ring_osc_5/ring_osc_5/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_8"
+        BEL
+        "ring_osc_5/ring_osc_5/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_7"
+        BEL
+        "ring_osc_5/ring_osc_5/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_6"
+        BEL
+        "ring_osc_5/ring_osc_5/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_5"
+        BEL
+        "ring_osc_5/ring_osc_5/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_4"
+        BEL
+        "ring_osc_5/ring_osc_5/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_3"
+        BEL
+        "ring_osc_5/ring_osc_5/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_2"
+        BEL
+        "ring_osc_5/ring_osc_5/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_1"
+        BEL
+        "ring_osc_5/ring_osc_5/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_0"
+        BEL
+        "ring_osc_5/ring_osc_5/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_pavalid_reg"
+        BEL
+        "ring_osc_5/ring_osc_5/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/addr_cntl_cs_0"
+        BEL
+        "ring_osc_5/ring_osc_5/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_29"
+        BEL
+        "ring_osc_5/ring_osc_5/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_28"
+        BEL
+        "ring_osc_5/ring_osc_5/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_15"
+        BEL
+        "ring_osc_5/ring_osc_5/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_14"
+        BEL
+        "ring_osc_5/ring_osc_5/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_13"
+        BEL
+        "ring_osc_5/ring_osc_5/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_12"
+        BEL
+        "ring_osc_5/ring_osc_5/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_11"
+        BEL
+        "ring_osc_5/ring_osc_5/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_10"
+        BEL
+        "ring_osc_5/ring_osc_5/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_9"
+        BEL
+        "ring_osc_5/ring_osc_5/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_8"
+        BEL
+        "ring_osc_5/ring_osc_5/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_7"
+        BEL
+        "ring_osc_5/ring_osc_5/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_6"
+        BEL
+        "ring_osc_5/ring_osc_5/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_5"
+        BEL
+        "ring_osc_5/ring_osc_5/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_4"
+        BEL
+        "ring_osc_5/ring_osc_5/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_3"
+        BEL
+        "ring_osc_5/ring_osc_5/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_2"
+        BEL
+        "ring_osc_5/ring_osc_5/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_1"
+        BEL
+        "ring_osc_5/ring_osc_5/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_0"
+        BEL
+        "ring_osc_5/ring_osc_5/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rearbitrate_i"
+        BEL
+        "ring_osc_5/ring_osc_5/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_rnw_reg"
+        BEL
+        "ring_osc_5/ring_osc_5/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_be_reg_3"
+        BEL
+        "ring_osc_5/ring_osc_5/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_be_reg_2"
+        BEL
+        "ring_osc_5/ring_osc_5/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_be_reg_1"
+        BEL
+        "ring_osc_5/ring_osc_5/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_be_reg_0"
+        BEL
+        "ring_osc_5/ring_osc_5/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/set_sl_busy"
+        BEL
+        "ring_osc_5/ring_osc_5/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/data_timeout"
+        BEL
+        "ring_osc_5/ring_osc_5/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_busy"
+        BEL
+        "ring_osc_5/ring_osc_5/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/INCLUDE_DATA_PHASE_WDT.I_DPTO_COUNTER/icount_out_8"
+        BEL
+        "ring_osc_5/ring_osc_5/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/I_DECODER/decode_hit_reg"
+        BEL
+        "ring_osc_5/ring_osc_5/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/I_DECODER/addr_out_s_h_0"
+        BEL
+        "ring_osc_5/ring_osc_5/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/I_DECODER/addr_out_s_h_1"
+        BEL
+        "ring_osc_5/ring_osc_5/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/I_DECODER/rnw_s_h"
+        BEL "ring_osc_5/ring_osc_5/USER_LOGIC_I/slv_reg2_15" BEL
+        "ring_osc_5/ring_osc_5/USER_LOGIC_I/slv_reg2_14" BEL
+        "ring_osc_5/ring_osc_5/USER_LOGIC_I/slv_reg2_20" BEL
+        "ring_osc_5/ring_osc_5/USER_LOGIC_I/slv_reg2_16" BEL
+        "ring_osc_5/ring_osc_5/USER_LOGIC_I/slv_reg2_21" BEL
+        "ring_osc_5/ring_osc_5/USER_LOGIC_I/slv_reg2_0" BEL
+        "ring_osc_5/ring_osc_5/USER_LOGIC_I/slv_reg2_17" BEL
+        "ring_osc_5/ring_osc_5/USER_LOGIC_I/slv_reg2_23" BEL
+        "ring_osc_5/ring_osc_5/USER_LOGIC_I/slv_reg2_22" BEL
+        "ring_osc_5/ring_osc_5/USER_LOGIC_I/slv_reg2_1" BEL
+        "ring_osc_5/ring_osc_5/USER_LOGIC_I/slv_reg2_18" BEL
+        "ring_osc_5/ring_osc_5/USER_LOGIC_I/slv_reg2_2" BEL
+        "ring_osc_5/ring_osc_5/USER_LOGIC_I/slv_reg2_19" BEL
+        "ring_osc_5/ring_osc_5/USER_LOGIC_I/slv_reg2_24" BEL
+        "ring_osc_5/ring_osc_5/USER_LOGIC_I/slv_reg2_3" BEL
+        "ring_osc_5/ring_osc_5/USER_LOGIC_I/slv_reg2_25" BEL
+        "ring_osc_5/ring_osc_5/USER_LOGIC_I/slv_reg2_26" BEL
+        "ring_osc_5/ring_osc_5/USER_LOGIC_I/slv_reg2_30" BEL
+        "ring_osc_5/ring_osc_5/USER_LOGIC_I/slv_reg2_4" BEL
+        "ring_osc_5/ring_osc_5/USER_LOGIC_I/slv_reg2_31" BEL
+        "ring_osc_5/ring_osc_5/USER_LOGIC_I/slv_reg2_5" BEL
+        "ring_osc_5/ring_osc_5/USER_LOGIC_I/slv_reg2_27" BEL
+        "ring_osc_5/ring_osc_5/USER_LOGIC_I/slv_reg2_6" BEL
+        "ring_osc_5/ring_osc_5/USER_LOGIC_I/slv_reg2_28" BEL
+        "ring_osc_5/ring_osc_5/USER_LOGIC_I/slv_reg2_7" BEL
+        "ring_osc_5/ring_osc_5/USER_LOGIC_I/slv_reg2_9" BEL
+        "ring_osc_5/ring_osc_5/USER_LOGIC_I/slv_reg2_29" BEL
+        "ring_osc_5/ring_osc_5/USER_LOGIC_I/slv_reg2_8" BEL
+        "ring_osc_5/ring_osc_5/USER_LOGIC_I/slv_reg2_10" BEL
+        "ring_osc_5/ring_osc_5/USER_LOGIC_I/slv_reg2_11" BEL
+        "ring_osc_5/ring_osc_5/USER_LOGIC_I/slv_reg2_12" BEL
+        "ring_osc_5/ring_osc_5/USER_LOGIC_I/slv_reg2_13" BEL
+        "ring_osc_6/ring_osc_6/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/bus2ip_rnw_i"
+        BEL
+        "ring_osc_6/ring_osc_6/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/bus2ip_be_i_3"
+        BEL
+        "ring_osc_6/ring_osc_6/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/bus2ip_be_i_2"
+        BEL
+        "ring_osc_6/ring_osc_6/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/bus2ip_be_i_1"
+        BEL
+        "ring_osc_6/ring_osc_6/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/bus2ip_be_i_0"
+        BEL
+        "ring_osc_6/ring_osc_6/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/INCLUDE_DATA_PHASE_WDT.I_DPTO_COUNTER/icount_out_6"
+        BEL
+        "ring_osc_6/ring_osc_6/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/INCLUDE_DATA_PHASE_WDT.I_DPTO_COUNTER/icount_out_5"
+        BEL
+        "ring_osc_6/ring_osc_6/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/INCLUDE_DATA_PHASE_WDT.I_DPTO_COUNTER/icount_out_4"
+        BEL
+        "ring_osc_6/ring_osc_6/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/INCLUDE_DATA_PHASE_WDT.I_DPTO_COUNTER/icount_out_3"
+        BEL
+        "ring_osc_6/ring_osc_6/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/INCLUDE_DATA_PHASE_WDT.I_DPTO_COUNTER/icount_out_2"
+        BEL
+        "ring_osc_6/ring_osc_6/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/INCLUDE_DATA_PHASE_WDT.I_DPTO_COUNTER/icount_out_1"
+        BEL
+        "ring_osc_6/ring_osc_6/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_31"
+        BEL
+        "ring_osc_6/ring_osc_6/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_30"
+        BEL
+        "ring_osc_6/ring_osc_6/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_29"
+        BEL
+        "ring_osc_6/ring_osc_6/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_28"
+        BEL
+        "ring_osc_6/ring_osc_6/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_27"
+        BEL
+        "ring_osc_6/ring_osc_6/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_26"
+        BEL
+        "ring_osc_6/ring_osc_6/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_25"
+        BEL
+        "ring_osc_6/ring_osc_6/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_24"
+        BEL
+        "ring_osc_6/ring_osc_6/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_23"
+        BEL
+        "ring_osc_6/ring_osc_6/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_22"
+        BEL
+        "ring_osc_6/ring_osc_6/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_21"
+        BEL
+        "ring_osc_6/ring_osc_6/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_20"
+        BEL
+        "ring_osc_6/ring_osc_6/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_19"
+        BEL
+        "ring_osc_6/ring_osc_6/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_18"
+        BEL
+        "ring_osc_6/ring_osc_6/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_17"
+        BEL
+        "ring_osc_6/ring_osc_6/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_16"
+        BEL
+        "ring_osc_6/ring_osc_6/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_15"
+        BEL
+        "ring_osc_6/ring_osc_6/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_14"
+        BEL
+        "ring_osc_6/ring_osc_6/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_13"
+        BEL
+        "ring_osc_6/ring_osc_6/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_12"
+        BEL
+        "ring_osc_6/ring_osc_6/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_11"
+        BEL
+        "ring_osc_6/ring_osc_6/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_10"
+        BEL
+        "ring_osc_6/ring_osc_6/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_9"
+        BEL
+        "ring_osc_6/ring_osc_6/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_8"
+        BEL
+        "ring_osc_6/ring_osc_6/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_7"
+        BEL
+        "ring_osc_6/ring_osc_6/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_6"
+        BEL
+        "ring_osc_6/ring_osc_6/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_5"
+        BEL
+        "ring_osc_6/ring_osc_6/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_4"
+        BEL
+        "ring_osc_6/ring_osc_6/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_3"
+        BEL
+        "ring_osc_6/ring_osc_6/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_2"
+        BEL
+        "ring_osc_6/ring_osc_6/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_1"
+        BEL
+        "ring_osc_6/ring_osc_6/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_0"
+        BEL
+        "ring_osc_6/ring_osc_6/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/I_DECODER/wrce_out_i_0"
+        BEL
+        "ring_osc_6/ring_osc_6/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/I_DECODER/rdce_out_i_2"
+        BEL
+        "ring_osc_6/ring_osc_6/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/I_DECODER/rdce_out_i_0"
+        BEL
+        "ring_osc_6/ring_osc_6/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/I_DECODER/rdce_out_i_1"
+        BEL
+        "ring_osc_6/ring_osc_6/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/I_DECODER/wrce_out_i_1"
+        BEL
+        "ring_osc_6/ring_osc_6/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/I_DECODER/wrce_out_i_2"
+        BEL
+        "ring_osc_6/ring_osc_6/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/INCLUDE_DATA_PHASE_WDT.I_DPTO_COUNTER/icount_out_7"
+        BEL
+        "ring_osc_6/ring_osc_6/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_wrcomp_i"
+        BEL
+        "ring_osc_6/ring_osc_6/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/rd_clear_sl_busy"
+        BEL
+        "ring_osc_6/ring_osc_6/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/INCLUDE_DATA_PHASE_WDT.I_DPTO_COUNTER/icount_out_0"
+        BEL
+        "ring_osc_6/ring_osc_6/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_31"
+        BEL
+        "ring_osc_6/ring_osc_6/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_30"
+        BEL
+        "ring_osc_6/ring_osc_6/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_29"
+        BEL
+        "ring_osc_6/ring_osc_6/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_28"
+        BEL
+        "ring_osc_6/ring_osc_6/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_27"
+        BEL
+        "ring_osc_6/ring_osc_6/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_26"
+        BEL
+        "ring_osc_6/ring_osc_6/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_25"
+        BEL
+        "ring_osc_6/ring_osc_6/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_24"
+        BEL
+        "ring_osc_6/ring_osc_6/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_23"
+        BEL
+        "ring_osc_6/ring_osc_6/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_22"
+        BEL
+        "ring_osc_6/ring_osc_6/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_21"
+        BEL
+        "ring_osc_6/ring_osc_6/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_20"
+        BEL
+        "ring_osc_6/ring_osc_6/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_19"
+        BEL
+        "ring_osc_6/ring_osc_6/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_18"
+        BEL
+        "ring_osc_6/ring_osc_6/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_17"
+        BEL
+        "ring_osc_6/ring_osc_6/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_16"
+        BEL
+        "ring_osc_6/ring_osc_6/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_15"
+        BEL
+        "ring_osc_6/ring_osc_6/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_14"
+        BEL
+        "ring_osc_6/ring_osc_6/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_13"
+        BEL
+        "ring_osc_6/ring_osc_6/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_12"
+        BEL
+        "ring_osc_6/ring_osc_6/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_11"
+        BEL
+        "ring_osc_6/ring_osc_6/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_10"
+        BEL
+        "ring_osc_6/ring_osc_6/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_9"
+        BEL
+        "ring_osc_6/ring_osc_6/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_8"
+        BEL
+        "ring_osc_6/ring_osc_6/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_7"
+        BEL
+        "ring_osc_6/ring_osc_6/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_6"
+        BEL
+        "ring_osc_6/ring_osc_6/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_5"
+        BEL
+        "ring_osc_6/ring_osc_6/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_4"
+        BEL
+        "ring_osc_6/ring_osc_6/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_3"
+        BEL
+        "ring_osc_6/ring_osc_6/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_2"
+        BEL
+        "ring_osc_6/ring_osc_6/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_1"
+        BEL
+        "ring_osc_6/ring_osc_6/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_0"
+        BEL
+        "ring_osc_6/ring_osc_6/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_pavalid_reg"
+        BEL
+        "ring_osc_6/ring_osc_6/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/addr_cntl_cs_0"
+        BEL
+        "ring_osc_6/ring_osc_6/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_29"
+        BEL
+        "ring_osc_6/ring_osc_6/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_28"
+        BEL
+        "ring_osc_6/ring_osc_6/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_15"
+        BEL
+        "ring_osc_6/ring_osc_6/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_14"
+        BEL
+        "ring_osc_6/ring_osc_6/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_13"
+        BEL
+        "ring_osc_6/ring_osc_6/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_12"
+        BEL
+        "ring_osc_6/ring_osc_6/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_11"
+        BEL
+        "ring_osc_6/ring_osc_6/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_10"
+        BEL
+        "ring_osc_6/ring_osc_6/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_9"
+        BEL
+        "ring_osc_6/ring_osc_6/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_8"
+        BEL
+        "ring_osc_6/ring_osc_6/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_7"
+        BEL
+        "ring_osc_6/ring_osc_6/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_6"
+        BEL
+        "ring_osc_6/ring_osc_6/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_5"
+        BEL
+        "ring_osc_6/ring_osc_6/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_4"
+        BEL
+        "ring_osc_6/ring_osc_6/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_3"
+        BEL
+        "ring_osc_6/ring_osc_6/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_2"
+        BEL
+        "ring_osc_6/ring_osc_6/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_1"
+        BEL
+        "ring_osc_6/ring_osc_6/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_0"
+        BEL
+        "ring_osc_6/ring_osc_6/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rearbitrate_i"
+        BEL
+        "ring_osc_6/ring_osc_6/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_rnw_reg"
+        BEL
+        "ring_osc_6/ring_osc_6/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_be_reg_3"
+        BEL
+        "ring_osc_6/ring_osc_6/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_be_reg_2"
+        BEL
+        "ring_osc_6/ring_osc_6/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_be_reg_1"
+        BEL
+        "ring_osc_6/ring_osc_6/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_be_reg_0"
+        BEL
+        "ring_osc_6/ring_osc_6/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/set_sl_busy"
+        BEL
+        "ring_osc_6/ring_osc_6/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/data_timeout"
+        BEL
+        "ring_osc_6/ring_osc_6/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_busy"
+        BEL
+        "ring_osc_6/ring_osc_6/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/INCLUDE_DATA_PHASE_WDT.I_DPTO_COUNTER/icount_out_8"
+        BEL
+        "ring_osc_6/ring_osc_6/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/I_DECODER/decode_hit_reg"
+        BEL
+        "ring_osc_6/ring_osc_6/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/I_DECODER/addr_out_s_h_0"
+        BEL
+        "ring_osc_6/ring_osc_6/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/I_DECODER/addr_out_s_h_1"
+        BEL
+        "ring_osc_6/ring_osc_6/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/I_DECODER/rnw_s_h"
+        BEL "ring_osc_6/ring_osc_6/USER_LOGIC_I/slv_reg2_15" BEL
+        "ring_osc_6/ring_osc_6/USER_LOGIC_I/slv_reg2_14" BEL
+        "ring_osc_6/ring_osc_6/USER_LOGIC_I/slv_reg2_20" BEL
+        "ring_osc_6/ring_osc_6/USER_LOGIC_I/slv_reg2_16" BEL
+        "ring_osc_6/ring_osc_6/USER_LOGIC_I/slv_reg2_21" BEL
+        "ring_osc_6/ring_osc_6/USER_LOGIC_I/slv_reg2_0" BEL
+        "ring_osc_6/ring_osc_6/USER_LOGIC_I/slv_reg2_17" BEL
+        "ring_osc_6/ring_osc_6/USER_LOGIC_I/slv_reg2_23" BEL
+        "ring_osc_6/ring_osc_6/USER_LOGIC_I/slv_reg2_22" BEL
+        "ring_osc_6/ring_osc_6/USER_LOGIC_I/slv_reg2_1" BEL
+        "ring_osc_6/ring_osc_6/USER_LOGIC_I/slv_reg2_18" BEL
+        "ring_osc_6/ring_osc_6/USER_LOGIC_I/slv_reg2_2" BEL
+        "ring_osc_6/ring_osc_6/USER_LOGIC_I/slv_reg2_19" BEL
+        "ring_osc_6/ring_osc_6/USER_LOGIC_I/slv_reg2_24" BEL
+        "ring_osc_6/ring_osc_6/USER_LOGIC_I/slv_reg2_3" BEL
+        "ring_osc_6/ring_osc_6/USER_LOGIC_I/slv_reg2_25" BEL
+        "ring_osc_6/ring_osc_6/USER_LOGIC_I/slv_reg2_26" BEL
+        "ring_osc_6/ring_osc_6/USER_LOGIC_I/slv_reg2_30" BEL
+        "ring_osc_6/ring_osc_6/USER_LOGIC_I/slv_reg2_4" BEL
+        "ring_osc_6/ring_osc_6/USER_LOGIC_I/slv_reg2_31" BEL
+        "ring_osc_6/ring_osc_6/USER_LOGIC_I/slv_reg2_5" BEL
+        "ring_osc_6/ring_osc_6/USER_LOGIC_I/slv_reg2_27" BEL
+        "ring_osc_6/ring_osc_6/USER_LOGIC_I/slv_reg2_6" BEL
+        "ring_osc_6/ring_osc_6/USER_LOGIC_I/slv_reg2_28" BEL
+        "ring_osc_6/ring_osc_6/USER_LOGIC_I/slv_reg2_7" BEL
+        "ring_osc_6/ring_osc_6/USER_LOGIC_I/slv_reg2_9" BEL
+        "ring_osc_6/ring_osc_6/USER_LOGIC_I/slv_reg2_29" BEL
+        "ring_osc_6/ring_osc_6/USER_LOGIC_I/slv_reg2_8" BEL
+        "ring_osc_6/ring_osc_6/USER_LOGIC_I/slv_reg2_10" BEL
+        "ring_osc_6/ring_osc_6/USER_LOGIC_I/slv_reg2_11" BEL
+        "ring_osc_6/ring_osc_6/USER_LOGIC_I/slv_reg2_12" BEL
+        "ring_osc_6/ring_osc_6/USER_LOGIC_I/slv_reg2_13" BEL
+        "ring_osc_7/ring_osc_7/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_31"
+        BEL
+        "ring_osc_7/ring_osc_7/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_30"
+        BEL
+        "ring_osc_7/ring_osc_7/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_29"
+        BEL
+        "ring_osc_7/ring_osc_7/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_28"
+        BEL
+        "ring_osc_7/ring_osc_7/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_27"
+        BEL
+        "ring_osc_7/ring_osc_7/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_26"
+        BEL
+        "ring_osc_7/ring_osc_7/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_25"
+        BEL
+        "ring_osc_7/ring_osc_7/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_24"
+        BEL
+        "ring_osc_7/ring_osc_7/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_23"
+        BEL
+        "ring_osc_7/ring_osc_7/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_22"
+        BEL
+        "ring_osc_7/ring_osc_7/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_21"
+        BEL
+        "ring_osc_7/ring_osc_7/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_20"
+        BEL
+        "ring_osc_7/ring_osc_7/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_19"
+        BEL
+        "ring_osc_7/ring_osc_7/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_18"
+        BEL
+        "ring_osc_7/ring_osc_7/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_17"
+        BEL
+        "ring_osc_7/ring_osc_7/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_16"
+        BEL
+        "ring_osc_7/ring_osc_7/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_15"
+        BEL
+        "ring_osc_7/ring_osc_7/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_14"
+        BEL
+        "ring_osc_7/ring_osc_7/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_13"
+        BEL
+        "ring_osc_7/ring_osc_7/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_12"
+        BEL
+        "ring_osc_7/ring_osc_7/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_11"
+        BEL
+        "ring_osc_7/ring_osc_7/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_10"
+        BEL
+        "ring_osc_7/ring_osc_7/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_9"
+        BEL
+        "ring_osc_7/ring_osc_7/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_8"
+        BEL
+        "ring_osc_7/ring_osc_7/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_7"
+        BEL
+        "ring_osc_7/ring_osc_7/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_6"
+        BEL
+        "ring_osc_7/ring_osc_7/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_5"
+        BEL
+        "ring_osc_7/ring_osc_7/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_4"
+        BEL
+        "ring_osc_7/ring_osc_7/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_3"
+        BEL
+        "ring_osc_7/ring_osc_7/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_2"
+        BEL
+        "ring_osc_7/ring_osc_7/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_1"
+        BEL
+        "ring_osc_7/ring_osc_7/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_0"
+        BEL
+        "ring_osc_7/ring_osc_7/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/I_DECODER/wrce_out_i_0"
+        BEL
+        "ring_osc_7/ring_osc_7/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/I_DECODER/rdce_out_i_2"
+        BEL
+        "ring_osc_7/ring_osc_7/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/I_DECODER/rdce_out_i_0"
+        BEL
+        "ring_osc_7/ring_osc_7/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/I_DECODER/rdce_out_i_1"
+        BEL
+        "ring_osc_7/ring_osc_7/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/I_DECODER/wrce_out_i_1"
+        BEL
+        "ring_osc_7/ring_osc_7/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/I_DECODER/wrce_out_i_2"
+        BEL
+        "ring_osc_7/ring_osc_7/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/INCLUDE_DATA_PHASE_WDT.I_DPTO_COUNTER/icount_out_7"
+        BEL
+        "ring_osc_7/ring_osc_7/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_wrcomp_i"
+        BEL
+        "ring_osc_7/ring_osc_7/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/rd_clear_sl_busy"
+        BEL
+        "ring_osc_7/ring_osc_7/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/INCLUDE_DATA_PHASE_WDT.I_DPTO_COUNTER/icount_out_6"
+        BEL
+        "ring_osc_7/ring_osc_7/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/INCLUDE_DATA_PHASE_WDT.I_DPTO_COUNTER/icount_out_5"
+        BEL
+        "ring_osc_7/ring_osc_7/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/INCLUDE_DATA_PHASE_WDT.I_DPTO_COUNTER/icount_out_4"
+        BEL
+        "ring_osc_7/ring_osc_7/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/INCLUDE_DATA_PHASE_WDT.I_DPTO_COUNTER/icount_out_3"
+        BEL
+        "ring_osc_7/ring_osc_7/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/INCLUDE_DATA_PHASE_WDT.I_DPTO_COUNTER/icount_out_2"
+        BEL
+        "ring_osc_7/ring_osc_7/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/INCLUDE_DATA_PHASE_WDT.I_DPTO_COUNTER/icount_out_1"
+        BEL
+        "ring_osc_7/ring_osc_7/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/INCLUDE_DATA_PHASE_WDT.I_DPTO_COUNTER/icount_out_0"
+        BEL
+        "ring_osc_7/ring_osc_7/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_31"
+        BEL
+        "ring_osc_7/ring_osc_7/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_30"
+        BEL
+        "ring_osc_7/ring_osc_7/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_29"
+        BEL
+        "ring_osc_7/ring_osc_7/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_28"
+        BEL
+        "ring_osc_7/ring_osc_7/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_27"
+        BEL
+        "ring_osc_7/ring_osc_7/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_26"
+        BEL
+        "ring_osc_7/ring_osc_7/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_25"
+        BEL
+        "ring_osc_7/ring_osc_7/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_24"
+        BEL
+        "ring_osc_7/ring_osc_7/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_23"
+        BEL
+        "ring_osc_7/ring_osc_7/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_22"
+        BEL
+        "ring_osc_7/ring_osc_7/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_21"
+        BEL
+        "ring_osc_7/ring_osc_7/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_20"
+        BEL
+        "ring_osc_7/ring_osc_7/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_19"
+        BEL
+        "ring_osc_7/ring_osc_7/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_18"
+        BEL
+        "ring_osc_7/ring_osc_7/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_17"
+        BEL
+        "ring_osc_7/ring_osc_7/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_16"
+        BEL
+        "ring_osc_7/ring_osc_7/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_15"
+        BEL
+        "ring_osc_7/ring_osc_7/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_14"
+        BEL
+        "ring_osc_7/ring_osc_7/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_13"
+        BEL
+        "ring_osc_7/ring_osc_7/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_12"
+        BEL
+        "ring_osc_7/ring_osc_7/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_11"
+        BEL
+        "ring_osc_7/ring_osc_7/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_10"
+        BEL
+        "ring_osc_7/ring_osc_7/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_9"
+        BEL
+        "ring_osc_7/ring_osc_7/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_8"
+        BEL
+        "ring_osc_7/ring_osc_7/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_7"
+        BEL
+        "ring_osc_7/ring_osc_7/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_6"
+        BEL
+        "ring_osc_7/ring_osc_7/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_5"
+        BEL
+        "ring_osc_7/ring_osc_7/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_4"
+        BEL
+        "ring_osc_7/ring_osc_7/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_3"
+        BEL
+        "ring_osc_7/ring_osc_7/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_2"
+        BEL
+        "ring_osc_7/ring_osc_7/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_1"
+        BEL
+        "ring_osc_7/ring_osc_7/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_0"
+        BEL
+        "ring_osc_7/ring_osc_7/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_pavalid_reg"
+        BEL
+        "ring_osc_7/ring_osc_7/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/addr_cntl_cs_0"
+        BEL
+        "ring_osc_7/ring_osc_7/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_29"
+        BEL
+        "ring_osc_7/ring_osc_7/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_28"
+        BEL
+        "ring_osc_7/ring_osc_7/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_15"
+        BEL
+        "ring_osc_7/ring_osc_7/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_14"
+        BEL
+        "ring_osc_7/ring_osc_7/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_13"
+        BEL
+        "ring_osc_7/ring_osc_7/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_12"
+        BEL
+        "ring_osc_7/ring_osc_7/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_11"
+        BEL
+        "ring_osc_7/ring_osc_7/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_10"
+        BEL
+        "ring_osc_7/ring_osc_7/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_9"
+        BEL
+        "ring_osc_7/ring_osc_7/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_8"
+        BEL
+        "ring_osc_7/ring_osc_7/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_7"
+        BEL
+        "ring_osc_7/ring_osc_7/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_6"
+        BEL
+        "ring_osc_7/ring_osc_7/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_5"
+        BEL
+        "ring_osc_7/ring_osc_7/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_4"
+        BEL
+        "ring_osc_7/ring_osc_7/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_3"
+        BEL
+        "ring_osc_7/ring_osc_7/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_2"
+        BEL
+        "ring_osc_7/ring_osc_7/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_1"
+        BEL
+        "ring_osc_7/ring_osc_7/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_0"
+        BEL
+        "ring_osc_7/ring_osc_7/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rearbitrate_i"
+        BEL
+        "ring_osc_7/ring_osc_7/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_rnw_reg"
+        BEL
+        "ring_osc_7/ring_osc_7/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_be_reg_3"
+        BEL
+        "ring_osc_7/ring_osc_7/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_be_reg_2"
+        BEL
+        "ring_osc_7/ring_osc_7/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_be_reg_1"
+        BEL
+        "ring_osc_7/ring_osc_7/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_be_reg_0"
+        BEL
+        "ring_osc_7/ring_osc_7/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/set_sl_busy"
+        BEL
+        "ring_osc_7/ring_osc_7/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/bus2ip_rnw_i"
+        BEL
+        "ring_osc_7/ring_osc_7/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/data_timeout"
+        BEL
+        "ring_osc_7/ring_osc_7/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/bus2ip_be_i_3"
+        BEL
+        "ring_osc_7/ring_osc_7/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/bus2ip_be_i_2"
+        BEL
+        "ring_osc_7/ring_osc_7/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/bus2ip_be_i_1"
+        BEL
+        "ring_osc_7/ring_osc_7/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/bus2ip_be_i_0"
+        BEL
+        "ring_osc_7/ring_osc_7/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_busy"
+        BEL
+        "ring_osc_7/ring_osc_7/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/INCLUDE_DATA_PHASE_WDT.I_DPTO_COUNTER/icount_out_8"
+        BEL
+        "ring_osc_7/ring_osc_7/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/I_DECODER/decode_hit_reg"
+        BEL
+        "ring_osc_7/ring_osc_7/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/I_DECODER/addr_out_s_h_0"
+        BEL
+        "ring_osc_7/ring_osc_7/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/I_DECODER/addr_out_s_h_1"
+        BEL
+        "ring_osc_7/ring_osc_7/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/I_DECODER/rnw_s_h"
+        BEL "ring_osc_7/ring_osc_7/USER_LOGIC_I/slv_reg2_15" BEL
+        "ring_osc_7/ring_osc_7/USER_LOGIC_I/slv_reg2_14" BEL
+        "ring_osc_7/ring_osc_7/USER_LOGIC_I/slv_reg2_20" BEL
+        "ring_osc_7/ring_osc_7/USER_LOGIC_I/slv_reg2_16" BEL
+        "ring_osc_7/ring_osc_7/USER_LOGIC_I/slv_reg2_21" BEL
+        "ring_osc_7/ring_osc_7/USER_LOGIC_I/slv_reg2_0" BEL
+        "ring_osc_7/ring_osc_7/USER_LOGIC_I/slv_reg2_17" BEL
+        "ring_osc_7/ring_osc_7/USER_LOGIC_I/slv_reg2_23" BEL
+        "ring_osc_7/ring_osc_7/USER_LOGIC_I/slv_reg2_22" BEL
+        "ring_osc_7/ring_osc_7/USER_LOGIC_I/slv_reg2_1" BEL
+        "ring_osc_7/ring_osc_7/USER_LOGIC_I/slv_reg2_18" BEL
+        "ring_osc_7/ring_osc_7/USER_LOGIC_I/slv_reg2_2" BEL
+        "ring_osc_7/ring_osc_7/USER_LOGIC_I/slv_reg2_19" BEL
+        "ring_osc_7/ring_osc_7/USER_LOGIC_I/slv_reg2_24" BEL
+        "ring_osc_7/ring_osc_7/USER_LOGIC_I/slv_reg2_3" BEL
+        "ring_osc_7/ring_osc_7/USER_LOGIC_I/slv_reg2_25" BEL
+        "ring_osc_7/ring_osc_7/USER_LOGIC_I/slv_reg2_26" BEL
+        "ring_osc_7/ring_osc_7/USER_LOGIC_I/slv_reg2_30" BEL
+        "ring_osc_7/ring_osc_7/USER_LOGIC_I/slv_reg2_4" BEL
+        "ring_osc_7/ring_osc_7/USER_LOGIC_I/slv_reg2_31" BEL
+        "ring_osc_7/ring_osc_7/USER_LOGIC_I/slv_reg2_5" BEL
+        "ring_osc_7/ring_osc_7/USER_LOGIC_I/slv_reg2_27" BEL
+        "ring_osc_7/ring_osc_7/USER_LOGIC_I/slv_reg2_6" BEL
+        "ring_osc_7/ring_osc_7/USER_LOGIC_I/slv_reg2_28" BEL
+        "ring_osc_7/ring_osc_7/USER_LOGIC_I/slv_reg2_7" BEL
+        "ring_osc_7/ring_osc_7/USER_LOGIC_I/slv_reg2_9" BEL
+        "ring_osc_7/ring_osc_7/USER_LOGIC_I/slv_reg2_29" BEL
+        "ring_osc_7/ring_osc_7/USER_LOGIC_I/slv_reg2_8" BEL
+        "ring_osc_7/ring_osc_7/USER_LOGIC_I/slv_reg2_10" BEL
+        "ring_osc_7/ring_osc_7/USER_LOGIC_I/slv_reg2_11" BEL
+        "ring_osc_7/ring_osc_7/USER_LOGIC_I/slv_reg2_12" BEL
+        "ring_osc_7/ring_osc_7/USER_LOGIC_I/slv_reg2_13" BEL
         "microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/MUL_Unit_I/Use_HW_MUL.Using_DSP48_Architectures.No_MUL64.dsp_module_I2/Using_DSP48.DSP48_I1"
         BEL
         "microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/MUL_Unit_I/Use_HW_MUL.Using_DSP48_Architectures.No_MUL64.dsp_module_I3/Using_DSP48.DSP48_I1"
