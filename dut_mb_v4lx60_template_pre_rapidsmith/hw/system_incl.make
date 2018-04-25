@@ -147,15 +147,7 @@ implementation/system_ring_osc_3_wrapper.ngc \
 implementation/system_ring_osc_4_wrapper.ngc \
 implementation/system_ring_osc_5_wrapper.ngc \
 implementation/system_ring_osc_6_wrapper.ngc \
-implementation/system_ring_osc_7_wrapper.ngc \
-implementation/system_ring_osc_8_wrapper.ngc \
-implementation/system_ring_osc_9_wrapper.ngc \
-implementation/system_ring_osc_10_wrapper.ngc \
-implementation/system_ring_osc_11_wrapper.ngc \
-implementation/system_ring_osc_12_wrapper.ngc \
-implementation/system_ring_osc_13_wrapper.ngc \
-implementation/system_ring_osc_14_wrapper.ngc \
-implementation/system_ring_osc_15_wrapper.ngc
+implementation/system_ring_osc_7_wrapper.ngc
 
 POSTSYN_NETLIST = implementation/$(SYSTEM).ngc
 

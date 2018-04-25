@@ -1,13 +1,13 @@
 --------------------------------------------------------------------------------
-Release 14.4 Trace  (nt64)
+Release 14.4 Trace  (lin64)
 Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
 
-E:\Xilinx\14.4\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -e 3 -xml system.twx
+/opt/Xilinx/14.4/ISE_DS/ISE/bin/lin64/unwrapped/trce -e 3 -xml system.twx
 system.ncd system.pcf
 
 Design file:              system.ncd
 Physical constraint file: system.pcf
-Device,package,speed:     xc4vlx60,ff668,-11 (PRODUCTION 1.71 2012-12-04, STEPPING level 1)
+Device,package,speed:     xc4vsx35,ff668,-11 (PRODUCTION 1.71 2012-12-04, STEPPING level 1)
 Report level:             error report
 
 Environment Variable      Effect 
@@ -40,9 +40,9 @@ PERIOD TIMEGRP         "clock_generator_0_clock_generator_0_SIG_DCM0_CLK0"
 TS_sys_clk_pin         HIGH 50%;
 For more information, see Period Analysis in the Timing Closure User Guide (UG612).
 
- 307806 paths analyzed, 12401 endpoints analyzed, 0 failing endpoints
+ 314780 paths analyzed, 14660 endpoints analyzed, 0 failing endpoints
  0 timing errors detected. (0 setup errors, 0 hold errors, 0 component switching limit errors)
- Minimum period is   9.261ns.
+ Minimum period is   9.561ns.
 --------------------------------------------------------------------------------
 
 
@@ -53,8 +53,8 @@ Derived Constraints for TS_sys_clk_pin
 |           Constraint          | Requirement |-------------+-------------|-------------+-------------|-------------+-------------|
 |                               |             |   Direct    | Derivative  |   Direct    | Derivative  |   Direct    | Derivative  |
 +-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
-|TS_sys_clk_pin                 |     10.000ns|      6.666ns|      9.261ns|            0|            0|            3|       307806|
-| TS_clock_generator_0_clock_gen|     10.000ns|      9.261ns|          N/A|            0|            0|       307806|            0|
+|TS_sys_clk_pin                 |     10.000ns|      6.666ns|      9.561ns|            0|            0|            3|       314780|
+| TS_clock_generator_0_clock_gen|     10.000ns|      9.561ns|          N/A|            0|            0|       314780|            0|
 | erator_0_SIG_DCM0_CLK0        |             |             |             |             |             |             |             |
 +-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
 
@@ -70,7 +70,7 @@ Clock to Setup on destination clock fpga_0_clk_1_sys_clk_pin
                         | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
 Source Clock            |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 ------------------------+---------+---------+---------+---------+
-fpga_0_clk_1_sys_clk_pin|    9.261|         |         |         |
+fpga_0_clk_1_sys_clk_pin|    9.561|         |         |         |
 ------------------------+---------+---------+---------+---------+
 
 
@@ -79,20 +79,20 @@ Timing summary:
 
 Timing errors: 0  Score: 0  (Setup/Max: 0, Hold: 0)
 
-Constraints cover 307809 paths, 0 nets, and 19607 connections
+Constraints cover 314783 paths, 0 nets, and 24059 connections
 
 Design statistics:
-   Minimum period:   9.261ns   (Maximum frequency: 107.980MHz)
+   Minimum period:   9.561ns   (Maximum frequency: 104.592MHz)
 
 
-Analysis completed Sat Oct 10 19:43:12 2015 
+Analysis completed Wed Apr 25 11:17:32 2018 
 --------------------------------------------------------------------------------
 
 Trace Settings:
 -------------------------
 Trace Settings 
 
-Peak Memory Usage: 423 MB
+Peak Memory Usage: 727 MB
 
 
 

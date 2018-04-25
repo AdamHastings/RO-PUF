@@ -29,8 +29,6 @@ Address Map for Processor microblaze_0
   (0x83c00000-0x83c0ffff) xps_timer_0	mb_plb
   (0x84000000-0x8400ffff) RS232_Uart_1	mb_plb
   (0x84400000-0x8440ffff) mdm_0	mb_plb
-  (0xc0600000-0xc060ffff) ring_osc_9	mb_plb
-  (0xc0620000-0xc062ffff) ring_osc_8	mb_plb
   (0xc0640000-0xc064ffff) ring_osc_7	mb_plb
   (0xc0660000-0xc066ffff) ring_osc_6	mb_plb
   (0xc0680000-0xc068ffff) ring_osc_5	mb_plb
@@ -40,12 +38,6 @@ Address Map for Processor microblaze_0
   (0xc0700000-0xc070ffff) ring_osc_1	mb_plb
   (0xc0720000-0xc072ffff) ring_osc_0	mb_plb
   (0xc1a00000-0xc1a0ffff) dut_control_core_0	mb_plb
-  (0xc7c00000-0xc7c0ffff) ring_osc_15	mb_plb
-  (0xc7c20000-0xc7c2ffff) ring_osc_14	mb_plb
-  (0xc7c40000-0xc7c4ffff) ring_osc_13	mb_plb
-  (0xc7c60000-0xc7c6ffff) ring_osc_12	mb_plb
-  (0xc7c80000-0xc7c8ffff) ring_osc_11	mb_plb
-  (0xc7ca0000-0xc7caffff) ring_osc_10	mb_plb
 INFO:EDK:4130 - IPNAME: dut_control_core, INSTANCE:dut_control_core_0 - tool is
    overriding PARAMETER C_SPLB_DWIDTH value to 32 -
    /home/adam/RO-PUF/dut_mb_v4lx60_template_pre_rapidsmith/hw/pcores/dut_control
@@ -63,7 +55,7 @@ INFO:EDK:4130 - IPNAME: plb_v46, INSTANCE:mb_plb - tool is overriding PARAMETER
    /opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/plb_v46_v1_05_a/da
    ta/plb_v46_v2_1_0.mpd line 79 
 INFO:EDK:4130 - IPNAME: plb_v46, INSTANCE:mb_plb - tool is overriding PARAMETER
-   C_PLBV46_NUM_SLAVES value to 21 -
+   C_PLBV46_NUM_SLAVES value to 13 -
    /opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/plb_v46_v1_05_a/da
    ta/plb_v46_v2_1_0.mpd line 80 
 INFO:EDK:4130 - IPNAME: plb_v46, INSTANCE:mb_plb - tool is overriding PARAMETER
@@ -206,107 +198,11 @@ INFO:EDK:4130 - IPNAME: ring_osc, INSTANCE:ring_osc_7 - tool is overriding
    PARAMETER C_SPLB_MID_WIDTH value to 1 -
    /home/adam/RO-PUF/dut_mb_v4lx60_template_pre_rapidsmith/hw/pcores/ring_osc_v1
    _02_a/data/ring_osc_v2_1_0.mpd line 30 
-INFO:EDK:4130 - IPNAME: ring_osc, INSTANCE:ring_osc_8 - tool is overriding
-   PARAMETER C_SPLB_DWIDTH value to 32 -
-   /home/adam/RO-PUF/dut_mb_v4lx60_template_pre_rapidsmith/hw/pcores/ring_osc_v1
-   _02_a/data/ring_osc_v2_1_0.mpd line 28 
-INFO:EDK:4130 - IPNAME: ring_osc, INSTANCE:ring_osc_8 - tool is overriding
-   PARAMETER C_SPLB_NUM_MASTERS value to 2 -
-   /home/adam/RO-PUF/dut_mb_v4lx60_template_pre_rapidsmith/hw/pcores/ring_osc_v1
-   _02_a/data/ring_osc_v2_1_0.mpd line 29 
-INFO:EDK:4130 - IPNAME: ring_osc, INSTANCE:ring_osc_8 - tool is overriding
-   PARAMETER C_SPLB_MID_WIDTH value to 1 -
-   /home/adam/RO-PUF/dut_mb_v4lx60_template_pre_rapidsmith/hw/pcores/ring_osc_v1
-   _02_a/data/ring_osc_v2_1_0.mpd line 30 
-INFO:EDK:4130 - IPNAME: ring_osc, INSTANCE:ring_osc_9 - tool is overriding
-   PARAMETER C_SPLB_DWIDTH value to 32 -
-   /home/adam/RO-PUF/dut_mb_v4lx60_template_pre_rapidsmith/hw/pcores/ring_osc_v1
-   _02_a/data/ring_osc_v2_1_0.mpd line 28 
-INFO:EDK:4130 - IPNAME: ring_osc, INSTANCE:ring_osc_9 - tool is overriding
-   PARAMETER C_SPLB_NUM_MASTERS value to 2 -
-   /home/adam/RO-PUF/dut_mb_v4lx60_template_pre_rapidsmith/hw/pcores/ring_osc_v1
-   _02_a/data/ring_osc_v2_1_0.mpd line 29 
-INFO:EDK:4130 - IPNAME: ring_osc, INSTANCE:ring_osc_9 - tool is overriding
-   PARAMETER C_SPLB_MID_WIDTH value to 1 -
-   /home/adam/RO-PUF/dut_mb_v4lx60_template_pre_rapidsmith/hw/pcores/ring_osc_v1
-   _02_a/data/ring_osc_v2_1_0.mpd line 30 
-INFO:EDK:4130 - IPNAME: ring_osc, INSTANCE:ring_osc_10 - tool is overriding
-   PARAMETER C_SPLB_DWIDTH value to 32 -
-   /home/adam/RO-PUF/dut_mb_v4lx60_template_pre_rapidsmith/hw/pcores/ring_osc_v1
-   _02_a/data/ring_osc_v2_1_0.mpd line 28 
-INFO:EDK:4130 - IPNAME: ring_osc, INSTANCE:ring_osc_10 - tool is overriding
-   PARAMETER C_SPLB_NUM_MASTERS value to 2 -
-   /home/adam/RO-PUF/dut_mb_v4lx60_template_pre_rapidsmith/hw/pcores/ring_osc_v1
-   _02_a/data/ring_osc_v2_1_0.mpd line 29 
-INFO:EDK:4130 - IPNAME: ring_osc, INSTANCE:ring_osc_10 - tool is overriding
-   PARAMETER C_SPLB_MID_WIDTH value to 1 -
-   /home/adam/RO-PUF/dut_mb_v4lx60_template_pre_rapidsmith/hw/pcores/ring_osc_v1
-   _02_a/data/ring_osc_v2_1_0.mpd line 30 
-INFO:EDK:4130 - IPNAME: ring_osc, INSTANCE:ring_osc_11 - tool is overriding
-   PARAMETER C_SPLB_DWIDTH value to 32 -
-   /home/adam/RO-PUF/dut_mb_v4lx60_template_pre_rapidsmith/hw/pcores/ring_osc_v1
-   _02_a/data/ring_osc_v2_1_0.mpd line 28 
-INFO:EDK:4130 - IPNAME: ring_osc, INSTANCE:ring_osc_11 - tool is overriding
-   PARAMETER C_SPLB_NUM_MASTERS value to 2 -
-   /home/adam/RO-PUF/dut_mb_v4lx60_template_pre_rapidsmith/hw/pcores/ring_osc_v1
-   _02_a/data/ring_osc_v2_1_0.mpd line 29 
-INFO:EDK:4130 - IPNAME: ring_osc, INSTANCE:ring_osc_11 - tool is overriding
-   PARAMETER C_SPLB_MID_WIDTH value to 1 -
-   /home/adam/RO-PUF/dut_mb_v4lx60_template_pre_rapidsmith/hw/pcores/ring_osc_v1
-   _02_a/data/ring_osc_v2_1_0.mpd line 30 
-INFO:EDK:4130 - IPNAME: ring_osc, INSTANCE:ring_osc_12 - tool is overriding
-   PARAMETER C_SPLB_DWIDTH value to 32 -
-   /home/adam/RO-PUF/dut_mb_v4lx60_template_pre_rapidsmith/hw/pcores/ring_osc_v1
-   _02_a/data/ring_osc_v2_1_0.mpd line 28 
-INFO:EDK:4130 - IPNAME: ring_osc, INSTANCE:ring_osc_12 - tool is overriding
-   PARAMETER C_SPLB_NUM_MASTERS value to 2 -
-   /home/adam/RO-PUF/dut_mb_v4lx60_template_pre_rapidsmith/hw/pcores/ring_osc_v1
-   _02_a/data/ring_osc_v2_1_0.mpd line 29 
-INFO:EDK:4130 - IPNAME: ring_osc, INSTANCE:ring_osc_12 - tool is overriding
-   PARAMETER C_SPLB_MID_WIDTH value to 1 -
-   /home/adam/RO-PUF/dut_mb_v4lx60_template_pre_rapidsmith/hw/pcores/ring_osc_v1
-   _02_a/data/ring_osc_v2_1_0.mpd line 30 
-INFO:EDK:4130 - IPNAME: ring_osc, INSTANCE:ring_osc_13 - tool is overriding
-   PARAMETER C_SPLB_DWIDTH value to 32 -
-   /home/adam/RO-PUF/dut_mb_v4lx60_template_pre_rapidsmith/hw/pcores/ring_osc_v1
-   _02_a/data/ring_osc_v2_1_0.mpd line 28 
-INFO:EDK:4130 - IPNAME: ring_osc, INSTANCE:ring_osc_13 - tool is overriding
-   PARAMETER C_SPLB_NUM_MASTERS value to 2 -
-   /home/adam/RO-PUF/dut_mb_v4lx60_template_pre_rapidsmith/hw/pcores/ring_osc_v1
-   _02_a/data/ring_osc_v2_1_0.mpd line 29 
-INFO:EDK:4130 - IPNAME: ring_osc, INSTANCE:ring_osc_13 - tool is overriding
-   PARAMETER C_SPLB_MID_WIDTH value to 1 -
-   /home/adam/RO-PUF/dut_mb_v4lx60_template_pre_rapidsmith/hw/pcores/ring_osc_v1
-   _02_a/data/ring_osc_v2_1_0.mpd line 30 
-INFO:EDK:4130 - IPNAME: ring_osc, INSTANCE:ring_osc_14 - tool is overriding
-   PARAMETER C_SPLB_DWIDTH value to 32 -
-   /home/adam/RO-PUF/dut_mb_v4lx60_template_pre_rapidsmith/hw/pcores/ring_osc_v1
-   _02_a/data/ring_osc_v2_1_0.mpd line 28 
-INFO:EDK:4130 - IPNAME: ring_osc, INSTANCE:ring_osc_14 - tool is overriding
-   PARAMETER C_SPLB_NUM_MASTERS value to 2 -
-   /home/adam/RO-PUF/dut_mb_v4lx60_template_pre_rapidsmith/hw/pcores/ring_osc_v1
-   _02_a/data/ring_osc_v2_1_0.mpd line 29 
-INFO:EDK:4130 - IPNAME: ring_osc, INSTANCE:ring_osc_14 - tool is overriding
-   PARAMETER C_SPLB_MID_WIDTH value to 1 -
-   /home/adam/RO-PUF/dut_mb_v4lx60_template_pre_rapidsmith/hw/pcores/ring_osc_v1
-   _02_a/data/ring_osc_v2_1_0.mpd line 30 
-INFO:EDK:4130 - IPNAME: ring_osc, INSTANCE:ring_osc_15 - tool is overriding
-   PARAMETER C_SPLB_DWIDTH value to 32 -
-   /home/adam/RO-PUF/dut_mb_v4lx60_template_pre_rapidsmith/hw/pcores/ring_osc_v1
-   _02_a/data/ring_osc_v2_1_0.mpd line 28 
-INFO:EDK:4130 - IPNAME: ring_osc, INSTANCE:ring_osc_15 - tool is overriding
-   PARAMETER C_SPLB_NUM_MASTERS value to 2 -
-   /home/adam/RO-PUF/dut_mb_v4lx60_template_pre_rapidsmith/hw/pcores/ring_osc_v1
-   _02_a/data/ring_osc_v2_1_0.mpd line 29 
-INFO:EDK:4130 - IPNAME: ring_osc, INSTANCE:ring_osc_15 - tool is overriding
-   PARAMETER C_SPLB_MID_WIDTH value to 1 -
-   /home/adam/RO-PUF/dut_mb_v4lx60_template_pre_rapidsmith/hw/pcores/ring_osc_v1
-   _02_a/data/ring_osc_v2_1_0.mpd line 30 
 
 Checking platform address map ...
 
 Checking platform configuration ...
-IPNAME: plb_v46, INSTANCE: mb_plb - 2 master(s) : 21 slave(s) 
+IPNAME: plb_v46, INSTANCE: mb_plb - 2 master(s) : 13 slave(s) 
 IPNAME: lmb_v10, INSTANCE: ilmb - 1 master(s) : 1 slave(s) 
 IPNAME: lmb_v10, INSTANCE: dlmb - 1 master(s) : 1 slave(s) 
 
@@ -453,6 +349,30 @@ Copying cache implementation netlist
 IPNAME:xps_intc INSTANCE:xps_intc_0 -
 /home/adam/RO-PUF/dut_mb_v4lx60_template_pre_rapidsmith/hw/system.mhs line 161 -
 Copying cache implementation netlist
+IPNAME:ring_osc INSTANCE:ring_osc_0 -
+/home/adam/RO-PUF/dut_mb_v4lx60_template_pre_rapidsmith/hw/system.mhs line 171 -
+Copying cache implementation netlist
+IPNAME:ring_osc INSTANCE:ring_osc_1 -
+/home/adam/RO-PUF/dut_mb_v4lx60_template_pre_rapidsmith/hw/system.mhs line 179 -
+Copying cache implementation netlist
+IPNAME:ring_osc INSTANCE:ring_osc_2 -
+/home/adam/RO-PUF/dut_mb_v4lx60_template_pre_rapidsmith/hw/system.mhs line 187 -
+Copying cache implementation netlist
+IPNAME:ring_osc INSTANCE:ring_osc_3 -
+/home/adam/RO-PUF/dut_mb_v4lx60_template_pre_rapidsmith/hw/system.mhs line 195 -
+Copying cache implementation netlist
+IPNAME:ring_osc INSTANCE:ring_osc_4 -
+/home/adam/RO-PUF/dut_mb_v4lx60_template_pre_rapidsmith/hw/system.mhs line 203 -
+Copying cache implementation netlist
+IPNAME:ring_osc INSTANCE:ring_osc_5 -
+/home/adam/RO-PUF/dut_mb_v4lx60_template_pre_rapidsmith/hw/system.mhs line 211 -
+Copying cache implementation netlist
+IPNAME:ring_osc INSTANCE:ring_osc_6 -
+/home/adam/RO-PUF/dut_mb_v4lx60_template_pre_rapidsmith/hw/system.mhs line 219 -
+Copying cache implementation netlist
+IPNAME:ring_osc INSTANCE:ring_osc_7 -
+/home/adam/RO-PUF/dut_mb_v4lx60_template_pre_rapidsmith/hw/system.mhs line 227 -
+Copying cache implementation netlist
 
 Elaborating instances ...
 IPNAME:bram_block INSTANCE:lmb_bram -
@@ -471,7 +391,7 @@ Inserting wrapper level ...
 Completion time: 0.00 seconds
 
 Constructing platform-level connectivity ...
-Completion time: 0.00 seconds
+Completion time: 1.00 seconds
 
 Writing (top-level) BMM ...
 
@@ -517,30 +437,6 @@ Running XST synthesis
 INSTANCE:ring_osc_7 -
 /home/adam/RO-PUF/dut_mb_v4lx60_template_pre_rapidsmith/hw/system.mhs line 227 -
 Running XST synthesis
-INSTANCE:ring_osc_8 -
-/home/adam/RO-PUF/dut_mb_v4lx60_template_pre_rapidsmith/hw/system.mhs line 235 -
-Running XST synthesis
-INSTANCE:ring_osc_9 -
-/home/adam/RO-PUF/dut_mb_v4lx60_template_pre_rapidsmith/hw/system.mhs line 243 -
-Running XST synthesis
-INSTANCE:ring_osc_10 -
-/home/adam/RO-PUF/dut_mb_v4lx60_template_pre_rapidsmith/hw/system.mhs line 251 -
-Running XST synthesis
-INSTANCE:ring_osc_11 -
-/home/adam/RO-PUF/dut_mb_v4lx60_template_pre_rapidsmith/hw/system.mhs line 259 -
-Running XST synthesis
-INSTANCE:ring_osc_12 -
-/home/adam/RO-PUF/dut_mb_v4lx60_template_pre_rapidsmith/hw/system.mhs line 267 -
-Running XST synthesis
-INSTANCE:ring_osc_13 -
-/home/adam/RO-PUF/dut_mb_v4lx60_template_pre_rapidsmith/hw/system.mhs line 275 -
-Running XST synthesis
-INSTANCE:ring_osc_14 -
-/home/adam/RO-PUF/dut_mb_v4lx60_template_pre_rapidsmith/hw/system.mhs line 283 -
-Running XST synthesis
-INSTANCE:ring_osc_15 -
-/home/adam/RO-PUF/dut_mb_v4lx60_template_pre_rapidsmith/hw/system.mhs line 291 -
-Running XST synthesis
 
 Running NGCBUILD ...
 IPNAME:system_clock_generator_0_wrapper INSTANCE:clock_generator_0 -
@@ -552,4 +448,4 @@ INFO:EDK:3509 - NCF files should not be modified as they will be regenerated.
 
 Rebuilding cache ...
 
-Total run time: 235.00 seconds
+Total run time: 136.00 seconds
