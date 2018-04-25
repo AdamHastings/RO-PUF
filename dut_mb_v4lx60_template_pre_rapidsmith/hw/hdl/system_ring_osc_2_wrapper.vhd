@@ -127,8 +127,8 @@ begin
 
   ring_osc_2 : ring_osc
     generic map (
-      C_BASEADDR => X"c0600000",
-      C_HIGHADDR => X"c060ffff",
+      C_BASEADDR => X"c06e0000",
+      C_HIGHADDR => X"c06effff",
       C_SPLB_AWIDTH => 32,
       C_SPLB_DWIDTH => 32,
       C_SPLB_NUM_MASTERS => 2,
