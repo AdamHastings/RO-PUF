@@ -1,7 +1,7 @@
 
-<EDKSYSTEM EDKVERSION="14.4" EDWVERSION="1.2" TIMESTAMP="Wed Mar 23 09:21:51 2016">
+<EDKSYSTEM EDKVERSION="14.4" EDWVERSION="1.2" TIMESTAMP="Sat Oct 10 19:27:49 2015">
 
-  <SYSTEMINFO ARCH="virtex4" DEVICE="xc4vsx35" PACKAGE="ff668" PART="xc4vsx35ff668-11" SOURCE="/home/adam/backup/dut_mb_v4lx60_template_pre_rapidsmith/hw/system.xmp" SPEEDGRADE="-11"/>
+  <SYSTEMINFO ARCH="virtex4" DEVICE="xc4vlx60" PACKAGE="ff668" PART="xc4vlx60ff668-11" SOURCE="E:/Adam/Characterizing/characterizer_planahead/dut_mb_v4lx60_template_pre_rapidsmith/hw/system.xmp" SPEEDGRADE="-11"/>
 
   <EXTERNALPORTS>
     <PORT DIR="I" MHS_INDEX="0" NAME="fpga_0_RS232_Uart_1_RX_pin" SIGNAME="fpga_0_RS232_Uart_1_RX_pin">
@@ -370,7 +370,7 @@
       <DESCRIPTION TYPE="SHORT">MicroBlaze</DESCRIPTION>
       <DESCRIPTION TYPE="LONG">The MicroBlaze 32 bit soft processor</DESCRIPTION>
       <DOCUMENTATION>
-        <DOCUMENT SOURCE="/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/doc/microblaze.pdf" TYPE="IP"/>
+        <DOCUMENT SOURCE="E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b/doc/microblaze.pdf" TYPE="IP"/>
       </DOCUMENTATION>
       <LICENSEINFO ICON_NAME="ps_core_preferred"/>
       <PARAMETERS>
@@ -5533,7 +5533,7 @@
       <DESCRIPTION TYPE="SHORT">Utility Reduced Logic</DESCRIPTION>
       <DESCRIPTION TYPE="LONG">Get 1 bit result from 2 input bits</DESCRIPTION>
       <DOCUMENTATION>
-        <DOCUMENT SOURCE="/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/util_reduced_logic_v1_00_a/doc/util_reduced_logic.pdf" TYPE="IP"/>
+        <DOCUMENT SOURCE="E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/util_reduced_logic_v1_00_a/doc/util_reduced_logic.pdf" TYPE="IP"/>
       </DOCUMENTATION>
       <LICENSEINFO ICON_NAME="ps_core_preferred"/>
       <PARAMETERS>
@@ -5571,7 +5571,7 @@
         <PARAMETER ASSIGNMENT="OPTIONAL" CHANGEDBY="SYSTEM" MPD_INDEX="0" NAME="C_FAMILY" TYPE="STRING" VALUE="virtex4">
           <DESCRIPTION>Family</DESCRIPTION>
         </PARAMETER>
-        <PARAMETER ASSIGNMENT="OPTIONAL" CHANGEDBY="SYSTEM" MPD_INDEX="1" NAME="C_DEVICE" TYPE="STRING" VALUE="4vsx35">
+        <PARAMETER ASSIGNMENT="OPTIONAL" CHANGEDBY="SYSTEM" MPD_INDEX="1" NAME="C_DEVICE" TYPE="STRING" VALUE="4vlx60">
           <DESCRIPTION>Device</DESCRIPTION>
         </PARAMETER>
         <PARAMETER ASSIGNMENT="OPTIONAL" CHANGEDBY="SYSTEM" MPD_INDEX="2" NAME="C_PACKAGE" TYPE="STRING" VALUE="ff668">
@@ -7033,7 +7033,7 @@
       </DOCUMENTATION>
       <LICENSEINFO ICON_NAME="ps_core_preferred"/>
       <PARAMETERS>
-        <PARAMETER ASSIGNMENT="OPTIONAL" CHANGEDBY="SYSTEM" MPD_INDEX="0" NAME="C_SUBFAMILY" TYPE="string" VALUE="sx">
+        <PARAMETER ASSIGNMENT="OPTIONAL" MPD_INDEX="0" NAME="C_SUBFAMILY" TYPE="string" VALUE="lx">
           <DESCRIPTION>Device Subfamily</DESCRIPTION>
         </PARAMETER>
         <PARAMETER ASSIGNMENT="OPTIONAL" MPD_INDEX="1" NAME="C_EXT_RST_WIDTH" TYPE="integer" VALUE="4">

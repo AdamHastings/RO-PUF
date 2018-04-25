@@ -1,14 +1,12 @@
-Release 14.4 - xst P.49d (lin64)
+Release 14.4 - xst P.49d (nt64)
 Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
---> 
-Parameter TMPDIR set to /home/adam/RO-PUF/dut_mb_v4lx60_template_pre_rapidsmith/hw/synthesis/xst_temp_dir/
+--> Parameter TMPDIR set to E:\Adam\Characterizing\characterizer_planahead\dut_mb_v4lx60_template_pre_rapidsmith\hw\synthesis\xst_temp_dir\
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.05 secs
+Total CPU time to Xst completion: 0.10 secs
  
 --> 
-
 TABLE OF CONTENTS
   1) Synthesis Options Summary
   2) HDL Compilation
@@ -32,10 +30,10 @@ TABLE OF CONTENTS
 ---- Source Parameters
 Input Format                       : MIXED
 Input File Name                    : "system_dlmb_wrapper_xst.prj"
-Verilog Include Directory          : {"/home/adam/RO-PUF/dut_mb_v4lx60_template_pre_rapidsmith/hw/pcores/" "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxBFMinterface/pcores/" "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/" }
+Verilog Include Directory          : {"E:\Adam\Characterizing\characterizer_planahead\dut_mb_v4lx60_template_pre_rapidsmith\hw\pcores\" "E:\Xilinx\14.4\ISE_DS\EDK\hw\XilinxBFMinterface\pcores\" "E:\Xilinx\14.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\" }
 
 ---- Target Parameters
-Target Device                      : xc4vsx35ff668-11
+Target Device                      : xc4vlx60ff668-11
 Output File Name                   : "../implementation/system_dlmb_wrapper.ngc"
 
 ---- Source Options
@@ -59,10 +57,10 @@ Cores Search Directories           : {../implementation}
 =========================================================================
 *                          HDL Compilation                              *
 =========================================================================
-Compiling vhdl file "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/lmb_v10_v2_00_b/hdl/vhdl/lmb_v10.vhd" in Library lmb_v10_v2_00_b.
+Compiling vhdl file "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/lmb_v10_v2_00_b/hdl/vhdl/lmb_v10.vhd" in Library lmb_v10_v2_00_b.
 Entity <lmb_v10> compiled.
 Entity <lmb_v10> (Architecture <IMP>) compiled.
-Compiling vhdl file "/home/adam/RO-PUF/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/system_dlmb_wrapper.vhd" in Library work.
+Compiling vhdl file "E:/Adam/Characterizing/characterizer_planahead/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/system_dlmb_wrapper.vhd" in Library work.
 Entity <system_dlmb_wrapper> compiled.
 Entity <system_dlmb_wrapper> (Architecture <STRUCTURE>) compiled.
 
@@ -89,7 +87,7 @@ Analyzing generic Entity <lmb_v10> in library <lmb_v10_v2_00_b> (Architecture <I
 	C_LMB_AWIDTH = 32
 	C_LMB_DWIDTH = 32
 	C_LMB_NUM_SLAVES = 1
-WARNING:Xst:2211 - "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/lmb_v10_v2_00_b/hdl/vhdl/lmb_v10.vhd" line 173: Instantiating black box module <FDS>.
+WARNING:Xst:2211 - "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/lmb_v10_v2_00_b/hdl/vhdl/lmb_v10.vhd" line 173: Instantiating black box module <FDS>.
 Entity <lmb_v10> analyzed. Unit <lmb_v10> generated.
 
 
@@ -100,12 +98,12 @@ Entity <lmb_v10> analyzed. Unit <lmb_v10> generated.
 Performing bidirectional port resolution...
 
 Synthesizing Unit <lmb_v10>.
-    Related source file is "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/lmb_v10_v2_00_b/hdl/vhdl/lmb_v10.vhd".
+    Related source file is "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/lmb_v10_v2_00_b/hdl/vhdl/lmb_v10.vhd".
 Unit <lmb_v10> synthesized.
 
 
 Synthesizing Unit <system_dlmb_wrapper>.
-    Related source file is "/home/adam/RO-PUF/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/system_dlmb_wrapper.vhd".
+    Related source file is "E:/Adam/Characterizing/characterizer_planahead/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/system_dlmb_wrapper.vhd".
 Unit <system_dlmb_wrapper> synthesized.
 
 
@@ -182,10 +180,10 @@ Cell Usage :
 Device utilization summary:
 ---------------------------
 
-Selected Device : 4vsx35ff668-11 
+Selected Device : 4vlx60ff668-11 
 
- Number of Slices:                        1  out of  15360     0%  
- Number of Slice Flip Flops:              1  out of  30720     0%  
+ Number of Slices:                        1  out of  26624     0%  
+ Number of Slice Flip Flops:              1  out of  53248     0%  
  Number of IOs:                         217
  Number of bonded IOBs:                   0  out of    448     0%  
 
@@ -286,12 +284,11 @@ Delay:               0.000ns (Levels of Logic = 0)
 
 
 Total REAL time to Xst completion: 5.00 secs
-Total CPU time to Xst completion: 4.47 secs
+Total CPU time to Xst completion: 5.27 secs
  
 --> 
 
-
-Total memory usage is 540652 kilobytes
+Total memory usage is 279832 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :    1 (   0 filtered)

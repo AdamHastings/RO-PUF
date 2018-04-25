@@ -1,14 +1,12 @@
-Release 14.4 - xst P.49d (lin64)
+Release 14.4 - xst P.49d (nt64)
 Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
---> 
-Parameter TMPDIR set to /home/adam/RO-PUF/dut_mb_v4lx60_template_pre_rapidsmith/hw/synthesis/xst_temp_dir/
+--> Parameter TMPDIR set to E:\Adam\Characterizing\characterizer_planahead\dut_mb_v4lx60_template_pre_rapidsmith\hw\synthesis\xst_temp_dir\
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.03 secs
+Total CPU time to Xst completion: 0.09 secs
  
 --> 
-
 TABLE OF CONTENTS
   1) Synthesis Options Summary
   2) HDL Compilation
@@ -32,10 +30,10 @@ TABLE OF CONTENTS
 ---- Source Parameters
 Input Format                       : MIXED
 Input File Name                    : "system_clock_generator_0_wrapper_xst.prj"
-Verilog Include Directory          : {"/home/adam/RO-PUF/dut_mb_v4lx60_template_pre_rapidsmith/hw/pcores/" "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxBFMinterface/pcores/" "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/" }
+Verilog Include Directory          : {"E:\Adam\Characterizing\characterizer_planahead\dut_mb_v4lx60_template_pre_rapidsmith\hw\pcores\" "E:\Xilinx\14.4\ISE_DS\EDK\hw\XilinxBFMinterface\pcores\" "E:\Xilinx\14.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\" }
 
 ---- Target Parameters
-Target Device                      : xc4vsx35ff668-11
+Target Device                      : xc4vlx60ff668-11
 Output File Name                   : "../implementation/system_clock_generator_0_wrapper.ngc"
 
 ---- Source Options
@@ -59,22 +57,22 @@ Cores Search Directories           : {../implementation}
 =========================================================================
 *                          HDL Compilation                              *
 =========================================================================
-Compiling vhdl file "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/clock_generator_v4_03_a/hdl/vhdl/dcm_module.vhd" in Library clock_generator_v4_03_a.
+Compiling vhdl file "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/clock_generator_v4_03_a/hdl/vhdl/dcm_module.vhd" in Library clock_generator_v4_03_a.
 Entity <dcm_module> compiled.
 Entity <dcm_module> (Architecture <STRUCT>) compiled.
-Compiling vhdl file "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/clock_generator_v4_03_a/hdl/vhdl/pll_module.vhd" in Library clock_generator_v4_03_a.
+Compiling vhdl file "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/clock_generator_v4_03_a/hdl/vhdl/pll_module.vhd" in Library clock_generator_v4_03_a.
 Entity <pll_module> compiled.
 Entity <pll_module> (Architecture <STRUCT>) compiled.
-Compiling vhdl file "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/clock_generator_v4_03_a/hdl/vhdl/mmcm_module.vhd" in Library clock_generator_v4_03_a.
+Compiling vhdl file "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/clock_generator_v4_03_a/hdl/vhdl/mmcm_module.vhd" in Library clock_generator_v4_03_a.
 Entity <mmcm_module> compiled.
 Entity <mmcm_module> (Architecture <STRUCT>) compiled.
-Compiling vhdl file "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/clock_generator_v4_03_a/hdl/vhdl/plle2_module.vhd" in Library clock_generator_v4_03_a.
+Compiling vhdl file "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/clock_generator_v4_03_a/hdl/vhdl/plle2_module.vhd" in Library clock_generator_v4_03_a.
 Entity <plle2_module> compiled.
 Entity <plle2_module> (Architecture <STRUCT>) compiled.
-Compiling vhdl file "/home/adam/RO-PUF/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/elaborate/clock_generator_0_v4_03_a/hdl/vhdl/clock_generator.vhd" in Library clock_generator_0_v4_03_a.
+Compiling vhdl file "E:/Adam/Characterizing/characterizer_planahead/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/elaborate/clock_generator_0_v4_03_a/hdl/vhdl/clock_generator.vhd" in Library clock_generator_0_v4_03_a.
 Entity <clock_generator> compiled.
 Entity <clock_generator> (Architecture <STRUCTURE>) compiled.
-Compiling vhdl file "/home/adam/RO-PUF/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/system_clock_generator_0_wrapper.vhd" in Library work.
+Compiling vhdl file "E:/Adam/Characterizing/characterizer_planahead/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/system_clock_generator_0_wrapper.vhd" in Library work.
 Entity <system_clock_generator_0_wrapper> compiled.
 Entity <system_clock_generator_0_wrapper> (Architecture <STRUCTURE>) compiled.
 
@@ -85,7 +83,7 @@ Analyzing hierarchy for entity <system_clock_generator_0_wrapper> in library <wo
 
 Analyzing hierarchy for entity <clock_generator> in library <clock_generator_0_v4_03_a> (architecture <STRUCTURE>) with generics.
 	C_CLK_GEN = "PASSED"
-	C_DEVICE = "4vsx35"
+	C_DEVICE = "4vlx60"
 	C_FAMILY = "virtex4"
 	C_PACKAGE = "ff668"
 	C_SPEEDGRADE = "-11"
@@ -128,14 +126,14 @@ Entity <system_clock_generator_0_wrapper> analyzed. Unit <system_clock_generator
 
 Analyzing generic Entity <clock_generator> in library <clock_generator_0_v4_03_a> (Architecture <STRUCTURE>).
 	C_CLK_GEN = "PASSED"
-	C_DEVICE = "4vsx35"
+	C_DEVICE = "4vlx60"
 	C_FAMILY = "virtex4"
 	C_PACKAGE = "ff668"
 	C_SPEEDGRADE = "-11"
-WARNING:Xst:753 - "/home/adam/RO-PUF/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/elaborate/clock_generator_0_v4_03_a/hdl/vhdl/clock_generator.vhd" line 249: Unconnected output port 'CLK180' of component 'dcm_module'.
-WARNING:Xst:753 - "/home/adam/RO-PUF/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/elaborate/clock_generator_0_v4_03_a/hdl/vhdl/clock_generator.vhd" line 249: Unconnected output port 'CLK2X180' of component 'dcm_module'.
-WARNING:Xst:753 - "/home/adam/RO-PUF/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/elaborate/clock_generator_0_v4_03_a/hdl/vhdl/clock_generator.vhd" line 249: Unconnected output port 'CLKFX180' of component 'dcm_module'.
-WARNING:Xst:753 - "/home/adam/RO-PUF/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/elaborate/clock_generator_0_v4_03_a/hdl/vhdl/clock_generator.vhd" line 249: Unconnected output port 'STATUS' of component 'dcm_module'.
+WARNING:Xst:753 - "E:/Adam/Characterizing/characterizer_planahead/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/elaborate/clock_generator_0_v4_03_a/hdl/vhdl/clock_generator.vhd" line 249: Unconnected output port 'CLK180' of component 'dcm_module'.
+WARNING:Xst:753 - "E:/Adam/Characterizing/characterizer_planahead/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/elaborate/clock_generator_0_v4_03_a/hdl/vhdl/clock_generator.vhd" line 249: Unconnected output port 'CLK2X180' of component 'dcm_module'.
+WARNING:Xst:753 - "E:/Adam/Characterizing/characterizer_planahead/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/elaborate/clock_generator_0_v4_03_a/hdl/vhdl/clock_generator.vhd" line 249: Unconnected output port 'CLKFX180' of component 'dcm_module'.
+WARNING:Xst:753 - "E:/Adam/Characterizing/characterizer_planahead/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/elaborate/clock_generator_0_v4_03_a/hdl/vhdl/clock_generator.vhd" line 249: Unconnected output port 'STATUS' of component 'dcm_module'.
 Entity <clock_generator> analyzed. Unit <clock_generator> generated.
 
 Analyzing generic Entity <dcm_module> in library <clock_generator_v4_03_a> (Architecture <STRUCT>).
@@ -166,7 +164,7 @@ Analyzing generic Entity <dcm_module> in library <clock_generator_v4_03_a> (Arch
 	C_FAMILY = "virtex4"
 	C_PHASE_SHIFT = 0
 	C_STARTUP_WAIT = false
-WARNING:Xst:819 - "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/clock_generator_v4_03_a/hdl/vhdl/dcm_module.vhd" line 259: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
+WARNING:Xst:819 - "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/clock_generator_v4_03_a/hdl/vhdl/dcm_module.vhd" line 259: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
    <reset>
     Set user-defined property "CLKDV_DIVIDE =  2.0000000000000000" for instance <Using_DCM_ADV.DCM_ADV_INST> in unit <dcm_module>.
     Set user-defined property "CLKFX_DIVIDE =  1" for instance <Using_DCM_ADV.DCM_ADV_INST> in unit <dcm_module>.
@@ -195,7 +193,7 @@ Entity <dcm_module> analyzed. Unit <dcm_module> generated.
 Performing bidirectional port resolution...
 
 Synthesizing Unit <dcm_module>.
-    Related source file is "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/clock_generator_v4_03_a/hdl/vhdl/dcm_module.vhd".
+    Related source file is "E:/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/clock_generator_v4_03_a/hdl/vhdl/dcm_module.vhd".
 WARNING:Xst:647 - Input <DSSEN> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
     Found 3-bit register for signal <rst_delay>.
     Found 1-bit register for signal <rsti>.
@@ -205,7 +203,7 @@ Unit <dcm_module> synthesized.
 
 
 Synthesizing Unit <clock_generator>.
-    Related source file is "/home/adam/RO-PUF/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/elaborate/clock_generator_0_v4_03_a/hdl/vhdl/clock_generator.vhd".
+    Related source file is "E:/Adam/Characterizing/characterizer_planahead/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/elaborate/clock_generator_0_v4_03_a/hdl/vhdl/clock_generator.vhd".
 WARNING:Xst:1305 - Output <CLKFBOUT> is never assigned. Tied to value 0.
 WARNING:Xst:647 - Input <PSEN> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:1305 - Output <PSDONE> is never assigned. Tied to value 0.
@@ -235,7 +233,7 @@ Unit <clock_generator> synthesized.
 
 
 Synthesizing Unit <system_clock_generator_0_wrapper>.
-    Related source file is "/home/adam/RO-PUF/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/system_clock_generator_0_wrapper.vhd".
+    Related source file is "E:/Adam/Characterizing/characterizer_planahead/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/system_clock_generator_0_wrapper.vhd".
 Unit <system_clock_generator_0_wrapper> synthesized.
 
 
@@ -325,11 +323,11 @@ Cell Usage :
 Device utilization summary:
 ---------------------------
 
-Selected Device : 4vsx35ff668-11 
+Selected Device : 4vlx60ff668-11 
 
- Number of Slices:                        2  out of  15360     0%  
- Number of Slice Flip Flops:              4  out of  30720     0%  
- Number of 4 input LUTs:                  1  out of  30720     0%  
+ Number of Slices:                        2  out of  26624     0%  
+ Number of Slice Flip Flops:              4  out of  53248     0%  
+ Number of 4 input LUTs:                  1  out of  53248     0%  
  Number of IOs:                          25
  Number of bonded IOBs:                   0  out of    448     0%  
  Number of GCLKs:                         3  out of     32     9%  
@@ -405,13 +403,12 @@ Delay:               0.638ns (Levels of Logic = 0)
 =========================================================================
 
 
-Total REAL time to Xst completion: 5.00 secs
-Total CPU time to Xst completion: 4.86 secs
+Total REAL time to Xst completion: 6.00 secs
+Total CPU time to Xst completion: 5.58 secs
  
 --> 
 
-
-Total memory usage is 545464 kilobytes
+Total memory usage is 300376 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :   31 (   0 filtered)
