@@ -90,9 +90,9 @@ begin
   clock_generator_0 : clock_generator
     generic map (
       C_FAMILY => "virtex4",
-      C_DEVICE => "4vsx35",
+      C_DEVICE => "4vlx60",
       C_PACKAGE => "ff668",
-      C_SPEEDGRADE => "-11"
+      C_SPEEDGRADE => "-10"
     )
     port map (
       CLKIN => CLKIN,

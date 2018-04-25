@@ -33,9 +33,9 @@
 --
 ------------------------------------------------------------------------------
 -- Filename:          ring_osc.vhd
--- Version:           1.02.a
+-- Version:           1.00.a
 -- Description:       Top level design, instantiates library components and user logic.
--- Date:              Mon Apr 27 15:29:27 2015 (by Create and Import Peripheral Wizard)
+-- Date:              Wed Nov 19 12:26:49 2014 (by Create and Import Peripheral Wizard)
 -- VHDL Standard:     VHDL'93
 ------------------------------------------------------------------------------
 -- Naming Conventions:
@@ -69,8 +69,8 @@ use proc_common_v3_00_a.ipif_pkg.all;
 library plbv46_slave_single_v1_01_a;
 use plbv46_slave_single_v1_01_a.plbv46_slave_single;
 
-library ring_osc_v1_02_a;
-use ring_osc_v1_02_a.user_logic;
+library ring_osc_v1_00_a;
+use ring_osc_v1_00_a.user_logic;
 
 ------------------------------------------------------------------------------
 -- Entity section
@@ -140,6 +140,7 @@ entity ring_osc is
   (
     -- ADD USER GENERICS BELOW THIS LINE ---------------
     --USER generics added here
+	NUM_INVERTERS				   : integer			  := 71;
     -- ADD USER GENERICS ABOVE THIS LINE ---------------
 
     -- DO NOT EDIT BELOW THIS LINE ---------------------
@@ -163,8 +164,6 @@ entity ring_osc is
   (
     -- ADD USER PORTS BELOW THIS LINE ------------------
     --USER ports added here
-	ring_en						   : out std_logic;
-	ring_osc_out				   : out std_logic;
     -- ADD USER PORTS ABOVE THIS LINE ------------------
 
     -- DO NOT EDIT BELOW THIS LINE ---------------------
@@ -244,7 +243,7 @@ architecture IMP of ring_osc is
   ------------------------------------------
   -- Array of desired number of chip enables for each address range
   ------------------------------------------
-  constant USER_SLV_NUM_REG               : integer              := 4;
+  constant USER_SLV_NUM_REG               : integer              := 2;
   constant USER_NUM_REG                   : integer              := USER_SLV_NUM_REG;
 
   constant IPIF_ARD_NUM_CE_ARRAY          : INTEGER_ARRAY_TYPE   := 
@@ -379,11 +378,12 @@ begin
   ------------------------------------------
   -- instantiate User Logic
   ------------------------------------------
-  USER_LOGIC_I : entity ring_osc_v1_02_a.user_logic
+  USER_LOGIC_I : entity ring_osc_v1_00_a.user_logic
     generic map
     (
       -- MAP USER GENERICS BELOW THIS LINE ---------------
       --USER generics mapped here
+	  NUM_INVERTERS					 => NUM_INVERTERS,
       -- MAP USER GENERICS ABOVE THIS LINE ---------------
 
       C_SLV_DWIDTH                   => USER_SLV_DWIDTH,
@@ -393,8 +393,6 @@ begin
     (
       -- MAP USER PORTS BELOW THIS LINE ------------------
       --USER ports mapped here
-	  ring_en						 => ring_en,
-	  ring_osc_out					 => ring_osc_out,
       -- MAP USER PORTS ABOVE THIS LINE ------------------
 
       Bus2IP_Clk                     => ipif_Bus2IP_Clk,

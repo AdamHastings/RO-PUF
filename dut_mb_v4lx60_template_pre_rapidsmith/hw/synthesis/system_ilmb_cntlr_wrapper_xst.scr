@@ -3,7 +3,7 @@ run
 -opt_mode speed
 -netlist_hierarchy as_optimized
 -opt_level 1
--p xc4vsx35ff668-11
+-p xc4vlx60ff668-10
 -top system_ilmb_cntlr_wrapper
 -ifmt MIXED
 -ifn system_ilmb_cntlr_wrapper_xst.prj

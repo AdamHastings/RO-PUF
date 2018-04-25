@@ -5,7 +5,7 @@ Parameter TMPDIR set to /home/adam/RO-PUF/dut_mb_v4lx60_template_pre_rapidsmith/
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.03 secs
+Total CPU time to Xst completion: 0.05 secs
  
 --> 
 
@@ -35,7 +35,7 @@ Input File Name                    : "system_ring_osc_2_wrapper_xst.prj"
 Verilog Include Directory          : {"/home/adam/RO-PUF/dut_mb_v4lx60_template_pre_rapidsmith/hw/pcores/" "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxBFMinterface/pcores/" "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/" }
 
 ---- Target Parameters
-Target Device                      : xc4vsx35ff668-11
+Target Device                      : xc4vlx60ff668-10
 Output File Name                   : "../implementation/system_ring_osc_2_wrapper.ngc"
 
 ---- Source Options
@@ -838,11 +838,11 @@ Cell Usage :
 Device utilization summary:
 ---------------------------
 
-Selected Device : 4vsx35ff668-11 
+Selected Device : 4vlx60ff668-10 
 
- Number of Slices:                      191  out of  15360     1%  
- Number of Slice Flip Flops:            258  out of  30720     0%  
- Number of 4 input LUTs:                224  out of  30720     0%  
+ Number of Slices:                      191  out of  26624     0%  
+ Number of Slice Flip Flops:            258  out of  53248     0%  
+ Number of 4 input LUTs:                224  out of  53248     0%  
  Number of IOs:                         202
  Number of bonded IOBs:                   0  out of    448     0%  
  Number of GCLKs:                         1  out of     32     3%  
@@ -886,11 +886,11 @@ ring_osc_2/USER_LOGIC_I/slv_reg2<0>_inv(ring_osc_2/USER_LOGIC_I/slv_reg2<0>_inv1
 
 Timing Summary:
 ---------------
-Speed Grade: -11
+Speed Grade: -10
 
-   Minimum period: 3.335ns (Maximum Frequency: 299.850MHz)
-   Minimum input arrival time before clock: 1.730ns
-   Maximum output required time after clock: 0.307ns
+   Minimum period: 3.896ns (Maximum Frequency: 256.664MHz)
+   Minimum input arrival time before clock: 2.021ns
+   Maximum output required time after clock: 0.360ns
    Maximum combinational path delay: No path found
 
 Timing Detail:
@@ -899,10 +899,10 @@ All values displayed in nanoseconds (ns)
 
 =========================================================================
 Timing constraint: Default period analysis for Clock 'ring_osc_2/USER_LOGIC_I/ring_osc_buf1'
-  Clock period: 3.335ns (frequency: 299.850MHz)
+  Clock period: 3.896ns (frequency: 256.664MHz)
   Total number of paths / destination ports: 3136 / 128
 -------------------------------------------------------------------------
-Delay:               3.335ns (Levels of Logic = 34)
+Delay:               3.896ns (Levels of Logic = 34)
   Source:            ring_osc_2/USER_LOGIC_I/hundred_count_0 (FF)
   Destination:       ring_osc_2/USER_LOGIC_I/hundred_count_31 (FF)
   Source Clock:      ring_osc_2/USER_LOGIC_I/ring_osc_buf1 rising
@@ -912,52 +912,52 @@ Delay:               3.335ns (Levels of Logic = 34)
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     FDC:C->Q              2   0.307   0.328  ring_osc_2/USER_LOGIC_I/hundred_count_0 (ring_osc_2/USER_LOGIC_I/hundred_count_0)
-     INV:I->O              1   0.305   0.000  ring_osc_2/USER_LOGIC_I/Mcount_hundred_count_lut<0>_INV_0 (ring_osc_2/USER_LOGIC_I/Mcount_hundred_count_lut<0>)
-     MUXCY:S->O            1   0.312   0.000  ring_osc_2/USER_LOGIC_I/Mcount_hundred_count_cy<0> (ring_osc_2/USER_LOGIC_I/Mcount_hundred_count_cy<0>)
-     MUXCY:CI->O           1   0.038   0.000  ring_osc_2/USER_LOGIC_I/Mcount_hundred_count_cy<1> (ring_osc_2/USER_LOGIC_I/Mcount_hundred_count_cy<1>)
-     MUXCY:CI->O           1   0.038   0.000  ring_osc_2/USER_LOGIC_I/Mcount_hundred_count_cy<2> (ring_osc_2/USER_LOGIC_I/Mcount_hundred_count_cy<2>)
-     MUXCY:CI->O           1   0.038   0.000  ring_osc_2/USER_LOGIC_I/Mcount_hundred_count_cy<3> (ring_osc_2/USER_LOGIC_I/Mcount_hundred_count_cy<3>)
-     MUXCY:CI->O           1   0.038   0.000  ring_osc_2/USER_LOGIC_I/Mcount_hundred_count_cy<4> (ring_osc_2/USER_LOGIC_I/Mcount_hundred_count_cy<4>)
-     MUXCY:CI->O           1   0.038   0.000  ring_osc_2/USER_LOGIC_I/Mcount_hundred_count_cy<5> (ring_osc_2/USER_LOGIC_I/Mcount_hundred_count_cy<5>)
-     MUXCY:CI->O           1   0.038   0.000  ring_osc_2/USER_LOGIC_I/Mcount_hundred_count_cy<6> (ring_osc_2/USER_LOGIC_I/Mcount_hundred_count_cy<6>)
-     MUXCY:CI->O           1   0.038   0.000  ring_osc_2/USER_LOGIC_I/Mcount_hundred_count_cy<7> (ring_osc_2/USER_LOGIC_I/Mcount_hundred_count_cy<7>)
-     MUXCY:CI->O           1   0.038   0.000  ring_osc_2/USER_LOGIC_I/Mcount_hundred_count_cy<8> (ring_osc_2/USER_LOGIC_I/Mcount_hundred_count_cy<8>)
-     MUXCY:CI->O           1   0.038   0.000  ring_osc_2/USER_LOGIC_I/Mcount_hundred_count_cy<9> (ring_osc_2/USER_LOGIC_I/Mcount_hundred_count_cy<9>)
-     MUXCY:CI->O           1   0.038   0.000  ring_osc_2/USER_LOGIC_I/Mcount_hundred_count_cy<10> (ring_osc_2/USER_LOGIC_I/Mcount_hundred_count_cy<10>)
-     MUXCY:CI->O           1   0.038   0.000  ring_osc_2/USER_LOGIC_I/Mcount_hundred_count_cy<11> (ring_osc_2/USER_LOGIC_I/Mcount_hundred_count_cy<11>)
-     MUXCY:CI->O           1   0.038   0.000  ring_osc_2/USER_LOGIC_I/Mcount_hundred_count_cy<12> (ring_osc_2/USER_LOGIC_I/Mcount_hundred_count_cy<12>)
-     MUXCY:CI->O           1   0.038   0.000  ring_osc_2/USER_LOGIC_I/Mcount_hundred_count_cy<13> (ring_osc_2/USER_LOGIC_I/Mcount_hundred_count_cy<13>)
-     MUXCY:CI->O           1   0.038   0.000  ring_osc_2/USER_LOGIC_I/Mcount_hundred_count_cy<14> (ring_osc_2/USER_LOGIC_I/Mcount_hundred_count_cy<14>)
-     MUXCY:CI->O           1   0.038   0.000  ring_osc_2/USER_LOGIC_I/Mcount_hundred_count_cy<15> (ring_osc_2/USER_LOGIC_I/Mcount_hundred_count_cy<15>)
-     MUXCY:CI->O           1   0.038   0.000  ring_osc_2/USER_LOGIC_I/Mcount_hundred_count_cy<16> (ring_osc_2/USER_LOGIC_I/Mcount_hundred_count_cy<16>)
-     MUXCY:CI->O           1   0.038   0.000  ring_osc_2/USER_LOGIC_I/Mcount_hundred_count_cy<17> (ring_osc_2/USER_LOGIC_I/Mcount_hundred_count_cy<17>)
-     MUXCY:CI->O           1   0.038   0.000  ring_osc_2/USER_LOGIC_I/Mcount_hundred_count_cy<18> (ring_osc_2/USER_LOGIC_I/Mcount_hundred_count_cy<18>)
-     MUXCY:CI->O           1   0.038   0.000  ring_osc_2/USER_LOGIC_I/Mcount_hundred_count_cy<19> (ring_osc_2/USER_LOGIC_I/Mcount_hundred_count_cy<19>)
-     MUXCY:CI->O           1   0.038   0.000  ring_osc_2/USER_LOGIC_I/Mcount_hundred_count_cy<20> (ring_osc_2/USER_LOGIC_I/Mcount_hundred_count_cy<20>)
-     MUXCY:CI->O           1   0.038   0.000  ring_osc_2/USER_LOGIC_I/Mcount_hundred_count_cy<21> (ring_osc_2/USER_LOGIC_I/Mcount_hundred_count_cy<21>)
-     MUXCY:CI->O           1   0.038   0.000  ring_osc_2/USER_LOGIC_I/Mcount_hundred_count_cy<22> (ring_osc_2/USER_LOGIC_I/Mcount_hundred_count_cy<22>)
-     MUXCY:CI->O           1   0.038   0.000  ring_osc_2/USER_LOGIC_I/Mcount_hundred_count_cy<23> (ring_osc_2/USER_LOGIC_I/Mcount_hundred_count_cy<23>)
-     MUXCY:CI->O           1   0.038   0.000  ring_osc_2/USER_LOGIC_I/Mcount_hundred_count_cy<24> (ring_osc_2/USER_LOGIC_I/Mcount_hundred_count_cy<24>)
-     MUXCY:CI->O           1   0.038   0.000  ring_osc_2/USER_LOGIC_I/Mcount_hundred_count_cy<25> (ring_osc_2/USER_LOGIC_I/Mcount_hundred_count_cy<25>)
-     MUXCY:CI->O           1   0.038   0.000  ring_osc_2/USER_LOGIC_I/Mcount_hundred_count_cy<26> (ring_osc_2/USER_LOGIC_I/Mcount_hundred_count_cy<26>)
-     MUXCY:CI->O           1   0.038   0.000  ring_osc_2/USER_LOGIC_I/Mcount_hundred_count_cy<27> (ring_osc_2/USER_LOGIC_I/Mcount_hundred_count_cy<27>)
-     MUXCY:CI->O           1   0.038   0.000  ring_osc_2/USER_LOGIC_I/Mcount_hundred_count_cy<28> (ring_osc_2/USER_LOGIC_I/Mcount_hundred_count_cy<28>)
-     MUXCY:CI->O           1   0.038   0.000  ring_osc_2/USER_LOGIC_I/Mcount_hundred_count_cy<29> (ring_osc_2/USER_LOGIC_I/Mcount_hundred_count_cy<29>)
-     MUXCY:CI->O           0   0.038   0.000  ring_osc_2/USER_LOGIC_I/Mcount_hundred_count_cy<30> (ring_osc_2/USER_LOGIC_I/Mcount_hundred_count_cy<30>)
-     XORCY:CI->O           1   0.307   0.452  ring_osc_2/USER_LOGIC_I/Mcount_hundred_count_xor<31> (ring_osc_2/USER_LOGIC_I/Result<31>)
-     LUT2:I1->O            1   0.166   0.000  ring_osc_2/USER_LOGIC_I/Mcount_hundred_count_eqn_311 (ring_osc_2/USER_LOGIC_I/Mcount_hundred_count_eqn_31)
-     FDC:D                     0.018          ring_osc_2/USER_LOGIC_I/hundred_count_31
+     FDC:C->Q              2   0.360   0.377  ring_osc_2/USER_LOGIC_I/hundred_count_0 (ring_osc_2/USER_LOGIC_I/hundred_count_0)
+     INV:I->O              1   0.358   0.000  ring_osc_2/USER_LOGIC_I/Mcount_hundred_count_lut<0>_INV_0 (ring_osc_2/USER_LOGIC_I/Mcount_hundred_count_lut<0>)
+     MUXCY:S->O            1   0.366   0.000  ring_osc_2/USER_LOGIC_I/Mcount_hundred_count_cy<0> (ring_osc_2/USER_LOGIC_I/Mcount_hundred_count_cy<0>)
+     MUXCY:CI->O           1   0.045   0.000  ring_osc_2/USER_LOGIC_I/Mcount_hundred_count_cy<1> (ring_osc_2/USER_LOGIC_I/Mcount_hundred_count_cy<1>)
+     MUXCY:CI->O           1   0.045   0.000  ring_osc_2/USER_LOGIC_I/Mcount_hundred_count_cy<2> (ring_osc_2/USER_LOGIC_I/Mcount_hundred_count_cy<2>)
+     MUXCY:CI->O           1   0.045   0.000  ring_osc_2/USER_LOGIC_I/Mcount_hundred_count_cy<3> (ring_osc_2/USER_LOGIC_I/Mcount_hundred_count_cy<3>)
+     MUXCY:CI->O           1   0.045   0.000  ring_osc_2/USER_LOGIC_I/Mcount_hundred_count_cy<4> (ring_osc_2/USER_LOGIC_I/Mcount_hundred_count_cy<4>)
+     MUXCY:CI->O           1   0.045   0.000  ring_osc_2/USER_LOGIC_I/Mcount_hundred_count_cy<5> (ring_osc_2/USER_LOGIC_I/Mcount_hundred_count_cy<5>)
+     MUXCY:CI->O           1   0.045   0.000  ring_osc_2/USER_LOGIC_I/Mcount_hundred_count_cy<6> (ring_osc_2/USER_LOGIC_I/Mcount_hundred_count_cy<6>)
+     MUXCY:CI->O           1   0.045   0.000  ring_osc_2/USER_LOGIC_I/Mcount_hundred_count_cy<7> (ring_osc_2/USER_LOGIC_I/Mcount_hundred_count_cy<7>)
+     MUXCY:CI->O           1   0.045   0.000  ring_osc_2/USER_LOGIC_I/Mcount_hundred_count_cy<8> (ring_osc_2/USER_LOGIC_I/Mcount_hundred_count_cy<8>)
+     MUXCY:CI->O           1   0.045   0.000  ring_osc_2/USER_LOGIC_I/Mcount_hundred_count_cy<9> (ring_osc_2/USER_LOGIC_I/Mcount_hundred_count_cy<9>)
+     MUXCY:CI->O           1   0.045   0.000  ring_osc_2/USER_LOGIC_I/Mcount_hundred_count_cy<10> (ring_osc_2/USER_LOGIC_I/Mcount_hundred_count_cy<10>)
+     MUXCY:CI->O           1   0.044   0.000  ring_osc_2/USER_LOGIC_I/Mcount_hundred_count_cy<11> (ring_osc_2/USER_LOGIC_I/Mcount_hundred_count_cy<11>)
+     MUXCY:CI->O           1   0.044   0.000  ring_osc_2/USER_LOGIC_I/Mcount_hundred_count_cy<12> (ring_osc_2/USER_LOGIC_I/Mcount_hundred_count_cy<12>)
+     MUXCY:CI->O           1   0.044   0.000  ring_osc_2/USER_LOGIC_I/Mcount_hundred_count_cy<13> (ring_osc_2/USER_LOGIC_I/Mcount_hundred_count_cy<13>)
+     MUXCY:CI->O           1   0.044   0.000  ring_osc_2/USER_LOGIC_I/Mcount_hundred_count_cy<14> (ring_osc_2/USER_LOGIC_I/Mcount_hundred_count_cy<14>)
+     MUXCY:CI->O           1   0.044   0.000  ring_osc_2/USER_LOGIC_I/Mcount_hundred_count_cy<15> (ring_osc_2/USER_LOGIC_I/Mcount_hundred_count_cy<15>)
+     MUXCY:CI->O           1   0.044   0.000  ring_osc_2/USER_LOGIC_I/Mcount_hundred_count_cy<16> (ring_osc_2/USER_LOGIC_I/Mcount_hundred_count_cy<16>)
+     MUXCY:CI->O           1   0.044   0.000  ring_osc_2/USER_LOGIC_I/Mcount_hundred_count_cy<17> (ring_osc_2/USER_LOGIC_I/Mcount_hundred_count_cy<17>)
+     MUXCY:CI->O           1   0.044   0.000  ring_osc_2/USER_LOGIC_I/Mcount_hundred_count_cy<18> (ring_osc_2/USER_LOGIC_I/Mcount_hundred_count_cy<18>)
+     MUXCY:CI->O           1   0.044   0.000  ring_osc_2/USER_LOGIC_I/Mcount_hundred_count_cy<19> (ring_osc_2/USER_LOGIC_I/Mcount_hundred_count_cy<19>)
+     MUXCY:CI->O           1   0.044   0.000  ring_osc_2/USER_LOGIC_I/Mcount_hundred_count_cy<20> (ring_osc_2/USER_LOGIC_I/Mcount_hundred_count_cy<20>)
+     MUXCY:CI->O           1   0.044   0.000  ring_osc_2/USER_LOGIC_I/Mcount_hundred_count_cy<21> (ring_osc_2/USER_LOGIC_I/Mcount_hundred_count_cy<21>)
+     MUXCY:CI->O           1   0.044   0.000  ring_osc_2/USER_LOGIC_I/Mcount_hundred_count_cy<22> (ring_osc_2/USER_LOGIC_I/Mcount_hundred_count_cy<22>)
+     MUXCY:CI->O           1   0.044   0.000  ring_osc_2/USER_LOGIC_I/Mcount_hundred_count_cy<23> (ring_osc_2/USER_LOGIC_I/Mcount_hundred_count_cy<23>)
+     MUXCY:CI->O           1   0.044   0.000  ring_osc_2/USER_LOGIC_I/Mcount_hundred_count_cy<24> (ring_osc_2/USER_LOGIC_I/Mcount_hundred_count_cy<24>)
+     MUXCY:CI->O           1   0.044   0.000  ring_osc_2/USER_LOGIC_I/Mcount_hundred_count_cy<25> (ring_osc_2/USER_LOGIC_I/Mcount_hundred_count_cy<25>)
+     MUXCY:CI->O           1   0.044   0.000  ring_osc_2/USER_LOGIC_I/Mcount_hundred_count_cy<26> (ring_osc_2/USER_LOGIC_I/Mcount_hundred_count_cy<26>)
+     MUXCY:CI->O           1   0.044   0.000  ring_osc_2/USER_LOGIC_I/Mcount_hundred_count_cy<27> (ring_osc_2/USER_LOGIC_I/Mcount_hundred_count_cy<27>)
+     MUXCY:CI->O           1   0.044   0.000  ring_osc_2/USER_LOGIC_I/Mcount_hundred_count_cy<28> (ring_osc_2/USER_LOGIC_I/Mcount_hundred_count_cy<28>)
+     MUXCY:CI->O           1   0.044   0.000  ring_osc_2/USER_LOGIC_I/Mcount_hundred_count_cy<29> (ring_osc_2/USER_LOGIC_I/Mcount_hundred_count_cy<29>)
+     MUXCY:CI->O           0   0.044   0.000  ring_osc_2/USER_LOGIC_I/Mcount_hundred_count_cy<30> (ring_osc_2/USER_LOGIC_I/Mcount_hundred_count_cy<30>)
+     XORCY:CI->O           1   0.360   0.523  ring_osc_2/USER_LOGIC_I/Mcount_hundred_count_xor<31> (ring_osc_2/USER_LOGIC_I/Result<31>)
+     LUT2:I1->O            1   0.195   0.000  ring_osc_2/USER_LOGIC_I/Mcount_hundred_count_eqn_311 (ring_osc_2/USER_LOGIC_I/Mcount_hundred_count_eqn_31)
+     FDC:D                     0.022          ring_osc_2/USER_LOGIC_I/hundred_count_31
     ----------------------------------------
-    Total                      3.335ns (2.555ns logic, 0.780ns route)
-                                       (76.6% logic, 23.4% route)
+    Total                      3.896ns (2.996ns logic, 0.900ns route)
+                                       (76.9% logic, 23.1% route)
 
 =========================================================================
 Timing constraint: Default period analysis for Clock 'SPLB_Clk'
-  Clock period: 3.082ns (frequency: 324.465MHz)
+  Clock period: 3.590ns (frequency: 278.571MHz)
   Total number of paths / destination ports: 999 / 161
 -------------------------------------------------------------------------
-Delay:               3.082ns (Levels of Logic = 2)
+Delay:               3.590ns (Levels of Logic = 2)
   Source:            ring_osc_2/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/I_DECODER/wrce_out_i_2 (FF)
   Destination:       ring_osc_2/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/INCLUDE_DATA_PHASE_WDT.I_DPTO_COUNTER/icount_out_1 (FF)
   Source Clock:      SPLB_Clk rising
@@ -967,19 +967,19 @@ Delay:               3.082ns (Levels of Logic = 2)
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     FD:C->Q               6   0.307   0.625  ring_osc_2/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/I_DECODER/wrce_out_i_2 (ring_osc_2/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/I_DECODER/wrce_out_i_2)
-     LUT3:I0->O            5   0.166   0.525  ring_osc_2/USER_LOGIC_I/slv_write_ack1 (ring_osc_2/user_IP2Bus_WrAck)
-     LUT4:I2->O            8   0.166   0.387  ring_osc_2/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/dpto_cntr_ld_en1 (ring_osc_2/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/dpto_cntr_ld_en)
-     FDS:S                     0.906          ring_osc_2/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/INCLUDE_DATA_PHASE_WDT.I_DPTO_COUNTER/icount_out_1
+     FD:C->Q               6   0.360   0.725  ring_osc_2/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/I_DECODER/wrce_out_i_2 (ring_osc_2/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/I_DECODER/wrce_out_i_2)
+     LUT3:I0->O            5   0.195   0.608  ring_osc_2/USER_LOGIC_I/slv_write_ack1 (ring_osc_2/user_IP2Bus_WrAck)
+     LUT4:I2->O            8   0.195   0.445  ring_osc_2/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/dpto_cntr_ld_en1 (ring_osc_2/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/dpto_cntr_ld_en)
+     FDS:S                     1.062          ring_osc_2/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/INCLUDE_DATA_PHASE_WDT.I_DPTO_COUNTER/icount_out_1
     ----------------------------------------
-    Total                      3.082ns (1.545ns logic, 1.537ns route)
-                                       (50.1% logic, 49.9% route)
+    Total                      3.590ns (1.812ns logic, 1.778ns route)
+                                       (50.5% logic, 49.5% route)
 
 =========================================================================
 Timing constraint: Default OFFSET IN BEFORE for Clock 'SPLB_Clk'
   Total number of paths / destination ports: 217 / 217
 -------------------------------------------------------------------------
-Offset:              1.730ns (Levels of Logic = 1)
+Offset:              2.021ns (Levels of Logic = 1)
   Source:            SPLB_Rst (PAD)
   Destination:       ring_osc_2/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/bus2ip_be_i_0 (FF)
   Destination Clock: SPLB_Clk rising
@@ -988,17 +988,17 @@ Offset:              1.730ns (Levels of Logic = 1)
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     LUT4:I0->O            5   0.166   0.333  ring_osc_2/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/bus2ip_rnw_i_or00001 (ring_osc_2/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/bus2ip_rnw_i_or0000)
-     FDRE:R                    0.906          ring_osc_2/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/bus2ip_rnw_i
+     LUT4:I0->O            5   0.195   0.383  ring_osc_2/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/bus2ip_rnw_i_or00001 (ring_osc_2/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/bus2ip_rnw_i_or0000)
+     FDRE:R                    1.062          ring_osc_2/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/bus2ip_rnw_i
     ----------------------------------------
-    Total                      1.730ns (1.397ns logic, 0.333ns route)
-                                       (80.8% logic, 19.2% route)
+    Total                      2.021ns (1.638ns logic, 0.383ns route)
+                                       (81.1% logic, 18.9% route)
 
 =========================================================================
 Timing constraint: Default OFFSET OUT AFTER for Clock 'SPLB_Clk'
   Total number of paths / destination ports: 40 / 40
 -------------------------------------------------------------------------
-Offset:              0.307ns (Levels of Logic = 0)
+Offset:              0.360ns (Levels of Logic = 0)
   Source:            ring_osc_2/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rearbitrate_i (FF)
   Destination:       Sl_rearbitrate (PAD)
   Source Clock:      SPLB_Clk rising
@@ -1007,16 +1007,16 @@ Offset:              0.307ns (Levels of Logic = 0)
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     FDR:C->Q              0   0.307   0.000  ring_osc_2/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rearbitrate_i (ring_osc_2/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rearbitrate_i)
+     FDR:C->Q              0   0.360   0.000  ring_osc_2/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rearbitrate_i (ring_osc_2/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rearbitrate_i)
     ----------------------------------------
-    Total                      0.307ns (0.307ns logic, 0.000ns route)
+    Total                      0.360ns (0.360ns logic, 0.000ns route)
                                        (100.0% logic, 0.0% route)
 
 =========================================================================
 Timing constraint: Default OFFSET OUT AFTER for Clock 'ring_osc_2/USER_LOGIC_I/ring_osc_buf1'
   Total number of paths / destination ports: 1 / 1
 -------------------------------------------------------------------------
-Offset:              0.307ns (Levels of Logic = 0)
+Offset:              0.360ns (Levels of Logic = 0)
   Source:            ring_osc_2/USER_LOGIC_I/count_6 (FF)
   Destination:       ring_en (PAD)
   Source Clock:      ring_osc_2/USER_LOGIC_I/ring_osc_buf1 rising
@@ -1025,21 +1025,21 @@ Offset:              0.307ns (Levels of Logic = 0)
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     FDCE:C->Q             2   0.307   0.000  ring_osc_2/USER_LOGIC_I/count_6 (ring_osc_2/USER_LOGIC_I/count<6>)
+     FDCE:C->Q             2   0.360   0.000  ring_osc_2/USER_LOGIC_I/count_6 (ring_osc_2/USER_LOGIC_I/count<6>)
     ----------------------------------------
-    Total                      0.307ns (0.307ns logic, 0.000ns route)
+    Total                      0.360ns (0.360ns logic, 0.000ns route)
                                        (100.0% logic, 0.0% route)
 
 =========================================================================
 
 
 Total REAL time to Xst completion: 10.00 secs
-Total CPU time to Xst completion: 9.68 secs
+Total CPU time to Xst completion: 9.76 secs
  
 --> 
 
 
-Total memory usage is 834320 kilobytes
+Total memory usage is 834280 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :  113 (   0 filtered)

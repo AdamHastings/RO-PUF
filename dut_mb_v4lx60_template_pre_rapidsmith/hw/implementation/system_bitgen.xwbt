@@ -1,7 +1,7 @@
 INFILE=/home/adam/RO-PUF/dut_mb_v4lx60_template_pre_rapidsmith/hw/implementation/system.ncd
 OUTFILE=/home/adam/RO-PUF/dut_mb_v4lx60_template_pre_rapidsmith/hw/implementation/system.bit
 FAMILY=Virtex4
-PART=xc4vsx35-11ff668
+PART=xc4vlx60-10ff668
 WORKINGDIR=/home/adam/RO-PUF/dut_mb_v4lx60_template_pre_rapidsmith/hw/implementation
 LICENSE=ISE
 USER_INFO=174672765_1777505556_210674110_422

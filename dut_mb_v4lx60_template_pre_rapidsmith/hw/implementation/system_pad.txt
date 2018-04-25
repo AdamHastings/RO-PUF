@@ -1,7 +1,7 @@
 Release 14.4 - par P.49d (lin64)
 Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
 
-Wed Apr 25 11:17:14 2018
+Wed Apr 25 12:27:22 2018
 
 
 INFO: The IO information is provided in three file formats as part of the Place and Route (PAR) process.  These formats are:
@@ -11,8 +11,8 @@ INFO: The IO information is provided in three file formats as part of the Place 
 
 INPUT FILE:       system_map.ncd
 OUTPUT FILE:      system_pad.txt
-PART TYPE:        xc4vsx35
-SPEED GRADE:      -11
+PART TYPE:        xc4vlx60
+SPEED GRADE:      -10
 PACKAGE:          ff668
 
 Pinout by Pin Number:

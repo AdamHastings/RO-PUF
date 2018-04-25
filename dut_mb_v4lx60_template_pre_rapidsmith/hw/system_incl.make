@@ -15,7 +15,7 @@ MHSFILE = system.mhs
 
 FPGA_ARCH = virtex4
 
-DEVICE = xc4vsx35ff668-11
+DEVICE = xc4vlx60ff668-10
 
 INTSTYLE = default
 
@@ -122,8 +122,8 @@ CORE_STATE_DEVELOPMENT_FILES = /opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPL
 /opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/plbv46_slave_single_v1_01_a/hdl/vhdl/plbv46_slave_single.vhd \
 pcores/dut_control_core_v1_00_a/hdl/vhdl/user_logic.vhd \
 pcores/dut_control_core_v1_00_a/hdl/vhdl/dut_control_core.vhd \
-pcores/ring_osc_v1_02_a/hdl/vhdl/user_logic.vhd \
-pcores/ring_osc_v1_02_a/hdl/vhdl/ring_osc.vhd
+pcores/ring_osc_v1_00_a/hdl/vhdl/user_logic.vhd \
+pcores/ring_osc_v1_00_a/hdl/vhdl/ring_osc.vhd
 
 WRAPPER_NGC_FILES = implementation/system_dut_control_core_0_wrapper.ngc \
 implementation/system_microblaze_0_wrapper.ngc \

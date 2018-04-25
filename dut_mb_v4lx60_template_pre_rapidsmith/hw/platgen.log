@@ -2,7 +2,7 @@ Release 14.4 - platgen Xilinx EDK 14.4 Build EDK_P.49d
  (lin64)
 Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
 
-Command Line: platgen -p xc4vsx35ff668-11 -lang vhdl -intstyle default -msg
+Command Line: platgen -p xc4vlx60ff668-10 -lang vhdl -intstyle default -msg
 __xps/ise/xmsgprops.lst system.mhs 
 
 Parse /home/adam/RO-PUF/dut_mb_v4lx60_template_pre_rapidsmith/hw/system.mhs ...
@@ -316,6 +316,9 @@ Copying cache implementation netlist
 IPNAME:microblaze INSTANCE:microblaze_0 -
 /home/adam/RO-PUF/dut_mb_v4lx60_template_pre_rapidsmith/hw/system.mhs line 29 -
 Copying cache implementation netlist
+IPNAME:plb_v46 INSTANCE:mb_plb -
+/home/adam/RO-PUF/dut_mb_v4lx60_template_pre_rapidsmith/hw/system.mhs line 43 -
+Copying cache implementation netlist
 IPNAME:lmb_v10 INSTANCE:ilmb -
 /home/adam/RO-PUF/dut_mb_v4lx60_template_pre_rapidsmith/hw/system.mhs line 50 -
 Copying cache implementation netlist
@@ -388,10 +391,10 @@ ClkGen elaborate status: PASSED
 Writing HDL for elaborated instances ...
 
 Inserting wrapper level ...
-Completion time: 0.00 seconds
+Completion time: 1.00 seconds
 
 Constructing platform-level connectivity ...
-Completion time: 1.00 seconds
+Completion time: 0.00 seconds
 
 Writing (top-level) BMM ...
 
@@ -406,9 +409,6 @@ INFO:EDK:4211 - The following instances are synthesized with XST. The MPD option
    synthesis. IMP_NETLIST=FALSE (default) instances are not synthesized. 
 INSTANCE:dut_control_core_0 -
 /home/adam/RO-PUF/dut_mb_v4lx60_template_pre_rapidsmith/hw/system.mhs line 16 -
-Running XST synthesis
-INSTANCE:mb_plb -
-/home/adam/RO-PUF/dut_mb_v4lx60_template_pre_rapidsmith/hw/system.mhs line 43 -
 Running XST synthesis
 INSTANCE:clock_generator_0 -
 /home/adam/RO-PUF/dut_mb_v4lx60_template_pre_rapidsmith/hw/system.mhs line 112 -
@@ -448,4 +448,4 @@ INFO:EDK:3509 - NCF files should not be modified as they will be regenerated.
 
 Rebuilding cache ...
 
-Total run time: 136.00 seconds
+Total run time: 120.00 seconds

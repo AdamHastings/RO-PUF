@@ -5,7 +5,7 @@
     The structure and the elements are likely to change over the next few releases.
     This means code written to parse this file will need to be revisited each subsequent release.-->
 
-  <application stringID="Xst" timeStamp="Wed Apr 25 11:11:13 2018">
+  <application stringID="Xst" timeStamp="Wed Apr 25 12:21:03 2018">
     <section stringID="User_Env">
       <table stringID="User_EnvVar">
         <column stringID="variable"/>
@@ -61,7 +61,7 @@
       <item DEFAULT="SPEED" label="-opt_mode" stringID="XST_OPTMODE" value="speed"/>
       <item DEFAULT="as_optimized" label="-netlist_hierarchy" stringID="XST_NETLISTHIERARCHY" value="as_optimized"/>
       <item DEFAULT="1" label="-opt_level" stringID="XST_OPTLEVEL" value="1"/>
-      <item DEFAULT="" label="-p" stringID="XST_P" value="xc4vsx35ff668-11"/>
+      <item DEFAULT="" label="-p" stringID="XST_P" value="xc4vlx60ff668-10"/>
       <item DEFAULT="" label="-top" stringID="XST_TOP" value="system_ring_osc_0_wrapper"/>
       <item DEFAULT="MIXED" label="-ifmt" stringID="XST_IFMT" value="MIXED"/>
       <item DEFAULT="" label="-ifn" stringID="XST_IFN" value="system_ring_osc_0_wrapper_xst.prj"/>
@@ -141,10 +141,10 @@
       </section>
     </section>
     <section stringID="XST_DEVICE_UTILIZATION_SUMMARY">
-      <item stringID="XST_SELECTED_DEVICE" value="4vsx35ff668-11"/>
-      <item AVAILABLE="15360" dataType="int" label="Number of Slices" stringID="XST_NUMBER_OF_SLICES" value="191"/>
-      <item AVAILABLE="30720" dataType="int" label="Number of Slice Flip Flops" stringID="XST_NUMBER_OF_SLICE_FLIP_FLOPS" value="258"/>
-      <item AVAILABLE="30720" dataType="int" label="Number of 4 input LUTs" stringID="XST_NUMBER_OF_4_INPUT_LUTS" value="224"/>
+      <item stringID="XST_SELECTED_DEVICE" value="4vlx60ff668-10"/>
+      <item AVAILABLE="26624" dataType="int" label="Number of Slices" stringID="XST_NUMBER_OF_SLICES" value="191"/>
+      <item AVAILABLE="53248" dataType="int" label="Number of Slice Flip Flops" stringID="XST_NUMBER_OF_SLICE_FLIP_FLOPS" value="258"/>
+      <item AVAILABLE="53248" dataType="int" label="Number of 4 input LUTs" stringID="XST_NUMBER_OF_4_INPUT_LUTS" value="224"/>
       <item dataType="int" label="Number of IOs" stringID="XST_NUMBER_OF_IOS" value="202"/>
       <item AVAILABLE="448" dataType="int" label="Number of bonded IOBs" stringID="XST_NUMBER_OF_BONDED_IOBS" value="0"/>
       <item AVAILABLE="32" dataType="int" label="Number of GCLKs" stringID="XST_NUMBER_OF_GCLKS" value="1"/>

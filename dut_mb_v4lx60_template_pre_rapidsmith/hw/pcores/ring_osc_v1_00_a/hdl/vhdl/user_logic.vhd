@@ -24,9 +24,9 @@
 --
 ------------------------------------------------------------------------------
 -- Filename:          user_logic.vhd
--- Version:           1.01.a
+-- Version:           1.00.a
 -- Description:       User logic.
--- Date:              Mon Mar 16 13:29:51 2015 (by Create and Import Peripheral Wizard)
+-- Date:              Wed Nov 19 12:26:49 2014 (by Create and Import Peripheral Wizard)
 -- VHDL Standard:     VHDL'93
 ------------------------------------------------------------------------------
 -- Naming Conventions:
@@ -55,6 +55,9 @@ use ieee.numeric_std.all;
 
 library proc_common_v3_00_a;
 use proc_common_v3_00_a.proc_common_pkg.all;
+
+library UNISIM;
+use UNISIM.vcomponents.all;
 
 -- DO NOT EDIT ABOVE THIS LINE --------------------
 
@@ -85,21 +88,21 @@ entity user_logic is
   (
     -- ADD USER GENERICS BELOW THIS LINE ---------------
     --USER generics added here
+	NUM_INVERTERS 				   : integer 			  := 52;
     -- ADD USER GENERICS ABOVE THIS LINE ---------------
 
     -- DO NOT EDIT BELOW THIS LINE ---------------------
     -- Bus protocol parameters, do not add to or delete
-    C_SLV_DWIDTH                   : integer              := 32;
-    C_NUM_REG                      : integer              := 4
+    C_SLV_DWIDTH                   : integer              := 64;
+    C_NUM_REG                      : integer              := 2
     -- DO NOT EDIT ABOVE THIS LINE ---------------------
   );
   port
   (
     -- ADD USER PORTS BELOW THIS LINE ------------------
     --USER ports added here
-	ring_en						   : out std_logic;
-	ring_osc_out				   : out std_logic;
     -- ADD USER PORTS ABOVE THIS LINE ------------------
+
     -- DO NOT EDIT BELOW THIS LINE ---------------------
     -- Bus protocol ports, do not add to or delete
     Bus2IP_Clk                     : in  std_logic;
@@ -128,75 +131,79 @@ end entity user_logic;
 ------------------------------------------------------------------------------
 
 architecture IMP of user_logic is
-  --Inverter component
-  component inverter is
-  port(
-	Y : out std_logic;
-	G : in std_logic;
-	G1 : in std_logic;
-	G2 : in std_logic;
-	G4 : in std_logic
-  );
+
+  component LUT4
+	generic (INIT: bit_vector(15 downto 0) := x"5555");
+	port (O : out std_logic; 
+	I0 : in std_logic;
+	I1 : in std_logic;
+	I2 : in std_logic;
+	I3 : in std_logic);
   end component;
   
-  signal ring_osc 						: std_logic := '0';
-  signal ring_osc_buf					: std_logic;
-  signal count 							: std_logic_vector(31 downto 0);
-  signal hundred_count					: std_logic_vector(31 downto 0);
+  --USER signal declarations added here, as needed for user logic
+  signal ring_osc 						: std_logic_vector(NUM_INVERTERS-1 downto 0) := (others => '0');
+  attribute keep 						: string;
+  attribute keep_hierarchy 				: string;
+  attribute s 							: string;
+  attribute bel 						: string;
+  attribute lock_pins					: string;
+  attribute lock_pins of LUT4			: component is "all";
+  
+  attribute keep of ring_osc 			: signal is "TRUE";
+  attribute s of ring_osc 				: signal is "TRUE";
+  
+  signal count 							: std_logic_vector(C_SLV_DWIDTH-1 downto 0);
   ------------------------------------------
   -- Signals for user logic slave model s/w accessible register example
   ------------------------------------------
   signal slv_reg0                       : std_logic_vector(0 to C_SLV_DWIDTH-1);
   signal slv_reg1                       : std_logic_vector(0 to C_SLV_DWIDTH-1);
-  signal slv_reg2                       : std_logic_vector(0 to C_SLV_DWIDTH-1);
-  signal slv_reg_write_sel              : std_logic_vector(0 to 2);
-  signal slv_reg_read_sel               : std_logic_vector(0 to 2);
+  signal slv_reg_write_sel              : std_logic_vector(0 to 1);
+  signal slv_reg_read_sel               : std_logic_vector(0 to 1);
   signal slv_ip2bus_data                : std_logic_vector(0 to C_SLV_DWIDTH-1);
   signal slv_read_ack                   : std_logic;
   signal slv_write_ack                  : std_logic;
-
-  attribute S : string;
-  attribute S of ring_osc : signal is "TRUE";
-  attribute S of count : signal is "TRUE";
   
-  alias en								: std_logic is slv_reg2(0);
-  alias ring_osc_en						: std_logic is slv_reg2(1);	
+  attribute s of count : signal is "TRUE";
+  attribute keep_hierarchy of IMP : architecture is "TRUE";
+  
+  alias en								: std_logic is slv_reg1(0);
+  alias OSC_CLK_BIT						: std_logic is ring_osc(2);
+  
 begin
-  --slv_reg0 is being used as a place to store the count
-  --slv_reg2 stores the enable of the counter
-  --USER logic implementation added here
-  ring_osc_2 : inverter
-  port map(
-	Y  => ring_osc,
-	G => '1',
-	G1 => '1',
-	G2 => '1',
-	G4 => '1'
-  );
-  
-  process (ring_osc_buf, en)
-  begin
-	if(en = '0') then -- Basic reset if no enable.
-		count <= (others=>'0');
-		hundred_count <= (others=>'0');
-	elsif (ring_osc_buf'event and ring_osc_buf = '1') then
-		hundred_count <= std_logic_vector(unsigned(hundred_count) + 1);
-		if (to_integer(unsigned(hundred_count)) = 100) then
+	--slv_reg0 is being used as a place to store the count, slv_reg1 stores the enable of the counter
+    --USER logic implementation added here
+	-- process (ring_osc, en)
+	-- begin
+		-- for i in 1 to ring_osc'high loop -- Don't use the 0 bit, we'll get an out-of-bounds problem, and it's gonna be our enable anyway
+			-- --ring_osc(i) <= not ring_osc(i-1);
+			-- U0 : LUT1 generic map (INIT => "01")
+			-- port map (O => ring_osc(i), I0 => ring_osc(i-1));
+		-- end loop;
+		-- ring_osc(0) <= ( not ring_osc(ring_osc'high) ) and en;
+	-- end process; 
+	
+	ring_gen:
+	for i in 1 to ring_osc'high generate
+		U0 : LUT4 generic map (INIT => x"5555")
+		port map (O => ring_osc(i), I0 => ring_osc(i-1),
+				 I1 => '0', I2 => '0', I3 => '0');
+	end generate ring_gen;
+	
+	ring_osc(0) <= ( not ring_osc(ring_osc'high) ) and en;
+	
+-- Pick one of the oscillator stages and treat it like a clock
+-- That "clock" will increment the count.
+	process(OSC_CLK_BIT, en) is
+	begin
+		if(en = '0') then -- Basic reset if no enable.
+			count <= (others=>'0');
+		elsif (OSC_CLK_BIT'event and OSC_CLK_BIT = '1') then
 			count <= std_logic_vector(unsigned(count) + 1);
-			hundred_count <= (others=>'0');
+			slv_reg0 <= count;
 		end if;
-		slv_reg0 <= count;
-	end if;
-  end process;
-
-  --ring_en <= ring_osc;
-  ring_en <= count(6);
-  
-  ring_osc_buf <= ring_osc and ring_osc_en;
-  
-  ring_osc_out <= ring_osc_buf;
-  
-  --USER logic implementation added here
+	end process;
 
   ------------------------------------------
   -- Example code to read/write user logic slave model s/w accessible registers
@@ -216,10 +223,10 @@ begin
   --                     "0001"   C_BASEADDR + 0xC
   -- 
   ------------------------------------------
-  slv_reg_write_sel <= Bus2IP_WrCE(0 to 2);
-  slv_reg_read_sel  <= Bus2IP_RdCE(0 to 2);
-  slv_write_ack     <= Bus2IP_WrCE(0) or Bus2IP_WrCE(1) or Bus2IP_WrCE(2);
-  slv_read_ack      <= Bus2IP_RdCE(0) or Bus2IP_RdCE(1) or Bus2IP_RdCE(2);
+  slv_reg_write_sel <= Bus2IP_WrCE(0 to 1);
+  slv_reg_read_sel  <= Bus2IP_RdCE(0 to 1);
+  slv_write_ack     <= Bus2IP_WrCE(0) or Bus2IP_WrCE(1);
+  slv_read_ack      <= Bus2IP_RdCE(0) or Bus2IP_RdCE(1);
 
   -- implement slave model software accessible register(s)
   SLAVE_REG_WRITE_PROC : process( Bus2IP_Clk ) is
@@ -228,26 +235,19 @@ begin
     if Bus2IP_Clk'event and Bus2IP_Clk = '1' then
       if Bus2IP_Reset = '1' then
         --slv_reg0 <= (others => '0');
-        --slv_reg1 <= (others => '0');
-        slv_reg2 <= (others => '0');
+        slv_reg1 <= (others => '0');
       else
         case slv_reg_write_sel is
-          -- when "100" =>
-            -- for byte_index in 0 to (C_SLV_DWIDTH/8)-1 loop
-              -- if ( Bus2IP_BE(byte_index) = '1' ) then
-                -- slv_reg0(byte_index*8 to byte_index*8+7) <= Bus2IP_Data(byte_index*8 to byte_index*8+7);
-              -- end if;
-            -- end loop;
-          -- when "010" =>
-            -- for byte_index in 0 to (C_SLV_DWIDTH/8)-1 loop
-              -- if ( Bus2IP_BE(byte_index) = '1' ) then
-                -- slv_reg1(byte_index*8 to byte_index*8+7) <= Bus2IP_Data(byte_index*8 to byte_index*8+7);
-              -- end if;
-            -- end loop;
-          when "001" =>
+          --when "10" =>
+           -- for byte_index in 0 to (C_SLV_DWIDTH/8)-1 loop
+           --   if ( Bus2IP_BE(byte_index) = '1' ) then
+            --    slv_reg0(byte_index*8 to byte_index*8+7) <= Bus2IP_Data(byte_index*8 to byte_index*8+7);
+           --   end if;
+           -- end loop;
+          when "01" =>
             for byte_index in 0 to (C_SLV_DWIDTH/8)-1 loop
               if ( Bus2IP_BE(byte_index) = '1' ) then
-                slv_reg2(byte_index*8 to byte_index*8+7) <= Bus2IP_Data(byte_index*8 to byte_index*8+7);
+                slv_reg1(byte_index*8 to byte_index*8+7) <= Bus2IP_Data(byte_index*8 to byte_index*8+7);
               end if;
             end loop;
           when others => null;
@@ -258,13 +258,12 @@ begin
   end process SLAVE_REG_WRITE_PROC;
 
   -- implement slave model software accessible register(s) read mux
-  SLAVE_REG_READ_PROC : process( slv_reg_read_sel, slv_reg0, slv_reg1, slv_reg2 ) is
+  SLAVE_REG_READ_PROC : process( slv_reg_read_sel, slv_reg0, slv_reg1 ) is
   begin
 
     case slv_reg_read_sel is
-      when "100" => slv_ip2bus_data <= slv_reg0;
-      when "010" => slv_ip2bus_data <= slv_reg1;
-      when "001" => slv_ip2bus_data <= slv_reg2;
+      when "10" => slv_ip2bus_data <= slv_reg0;
+      when "01" => slv_ip2bus_data <= slv_reg1;
       when others => slv_ip2bus_data <= (others => '0');
     end case;
 

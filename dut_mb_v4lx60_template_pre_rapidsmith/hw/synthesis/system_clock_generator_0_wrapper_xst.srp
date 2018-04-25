@@ -35,7 +35,7 @@ Input File Name                    : "system_clock_generator_0_wrapper_xst.prj"
 Verilog Include Directory          : {"/home/adam/RO-PUF/dut_mb_v4lx60_template_pre_rapidsmith/hw/pcores/" "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxBFMinterface/pcores/" "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/" }
 
 ---- Target Parameters
-Target Device                      : xc4vsx35ff668-11
+Target Device                      : xc4vlx60ff668-10
 Output File Name                   : "../implementation/system_clock_generator_0_wrapper.ngc"
 
 ---- Source Options
@@ -85,10 +85,10 @@ Analyzing hierarchy for entity <system_clock_generator_0_wrapper> in library <wo
 
 Analyzing hierarchy for entity <clock_generator> in library <clock_generator_0_v4_03_a> (architecture <STRUCTURE>) with generics.
 	C_CLK_GEN = "PASSED"
-	C_DEVICE = "4vsx35"
+	C_DEVICE = "4vlx60"
 	C_FAMILY = "virtex4"
 	C_PACKAGE = "ff668"
-	C_SPEEDGRADE = "-11"
+	C_SPEEDGRADE = "-10"
 
 Analyzing hierarchy for entity <dcm_module> in library <clock_generator_v4_03_a> (architecture <STRUCT>) with generics.
 	C_CLK0_BUF = false
@@ -128,10 +128,10 @@ Entity <system_clock_generator_0_wrapper> analyzed. Unit <system_clock_generator
 
 Analyzing generic Entity <clock_generator> in library <clock_generator_0_v4_03_a> (Architecture <STRUCTURE>).
 	C_CLK_GEN = "PASSED"
-	C_DEVICE = "4vsx35"
+	C_DEVICE = "4vlx60"
 	C_FAMILY = "virtex4"
 	C_PACKAGE = "ff668"
-	C_SPEEDGRADE = "-11"
+	C_SPEEDGRADE = "-10"
 WARNING:Xst:753 - "/home/adam/RO-PUF/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/elaborate/clock_generator_0_v4_03_a/hdl/vhdl/clock_generator.vhd" line 249: Unconnected output port 'CLK180' of component 'dcm_module'.
 WARNING:Xst:753 - "/home/adam/RO-PUF/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/elaborate/clock_generator_0_v4_03_a/hdl/vhdl/clock_generator.vhd" line 249: Unconnected output port 'CLK2X180' of component 'dcm_module'.
 WARNING:Xst:753 - "/home/adam/RO-PUF/dut_mb_v4lx60_template_pre_rapidsmith/hw/hdl/elaborate/clock_generator_0_v4_03_a/hdl/vhdl/clock_generator.vhd" line 249: Unconnected output port 'CLKFX180' of component 'dcm_module'.
@@ -325,11 +325,11 @@ Cell Usage :
 Device utilization summary:
 ---------------------------
 
-Selected Device : 4vsx35ff668-11 
+Selected Device : 4vlx60ff668-10 
 
- Number of Slices:                        2  out of  15360     0%  
- Number of Slice Flip Flops:              4  out of  30720     0%  
- Number of 4 input LUTs:                  1  out of  30720     0%  
+ Number of Slices:                        2  out of  26624     0%  
+ Number of Slice Flip Flops:              4  out of  53248     0%  
+ Number of 4 input LUTs:                  1  out of  53248     0%  
  Number of IOs:                          25
  Number of bonded IOBs:                   0  out of    448     0%  
  Number of GCLKs:                         3  out of     32     9%  
@@ -370,9 +370,9 @@ clock_generator_0/DCM0_INST/reset(clock_generator_0/DCM0_INST/reset1_INV_0:O)| N
 
 Timing Summary:
 ---------------
-Speed Grade: -11
+Speed Grade: -10
 
-   Minimum period: 0.638ns (Maximum Frequency: 1567.398MHz)
+   Minimum period: 0.742ns (Maximum Frequency: 1347.800MHz)
    Minimum input arrival time before clock: No path found
    Maximum output required time after clock: No path found
    Maximum combinational path delay: No path found
@@ -383,10 +383,10 @@ All values displayed in nanoseconds (ns)
 
 =========================================================================
 Timing constraint: Default period analysis for Clock 'CLKIN'
-  Clock period: 0.638ns (frequency: 1567.398MHz)
+  Clock period: 0.742ns (frequency: 1347.800MHz)
   Total number of paths / destination ports: 3 / 3
 -------------------------------------------------------------------------
-Delay:               0.638ns (Levels of Logic = 0)
+Delay:               0.742ns (Levels of Logic = 0)
   Source:            clock_generator_0/DCM0_INST/rst_delay_1 (FF)
   Destination:       clock_generator_0/DCM0_INST/rst_delay_2 (FF)
   Source Clock:      CLKIN rising
@@ -396,22 +396,22 @@ Delay:               0.638ns (Levels of Logic = 0)
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     FDP:C->Q              1   0.307   0.313  clock_generator_0/DCM0_INST/rst_delay_1 (clock_generator_0/DCM0_INST/rst_delay_1)
-     FDP:D                     0.018          clock_generator_0/DCM0_INST/rst_delay_2
+     FDP:C->Q              1   0.360   0.360  clock_generator_0/DCM0_INST/rst_delay_1 (clock_generator_0/DCM0_INST/rst_delay_1)
+     FDP:D                     0.022          clock_generator_0/DCM0_INST/rst_delay_2
     ----------------------------------------
-    Total                      0.638ns (0.325ns logic, 0.313ns route)
-                                       (50.9% logic, 49.1% route)
+    Total                      0.742ns (0.382ns logic, 0.360ns route)
+                                       (51.5% logic, 48.5% route)
 
 =========================================================================
 
 
 Total REAL time to Xst completion: 5.00 secs
-Total CPU time to Xst completion: 4.83 secs
+Total CPU time to Xst completion: 4.85 secs
  
 --> 
 
 
-Total memory usage is 545472 kilobytes
+Total memory usage is 545476 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :   31 (   0 filtered)

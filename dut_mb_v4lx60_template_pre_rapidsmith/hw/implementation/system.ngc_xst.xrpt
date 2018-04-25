@@ -5,7 +5,7 @@
     The structure and the elements are likely to change over the next few releases.
     This means code written to parse this file will need to be revisited each subsequent release.-->
 
-  <application stringID="Xst" timeStamp="Wed Apr 25 11:12:53 2018">
+  <application stringID="Xst" timeStamp="Wed Apr 25 12:22:43 2018">
     <section stringID="User_Env">
       <table stringID="User_EnvVar">
         <column stringID="variable"/>
@@ -61,7 +61,7 @@
       <item DEFAULT="SPEED" label="-opt_mode" stringID="XST_OPTMODE" value="speed"/>
       <item DEFAULT="as_optimized" label="-netlist_hierarchy" stringID="XST_NETLISTHIERARCHY" value="as_optimized"/>
       <item DEFAULT="1" label="-opt_level" stringID="XST_OPTLEVEL" value="1"/>
-      <item DEFAULT="" label="-p" stringID="XST_P" value="xc4vsx35ff668-11"/>
+      <item DEFAULT="" label="-p" stringID="XST_P" value="xc4vlx60ff668-10"/>
       <item DEFAULT="" label="-top" stringID="XST_TOP" value="system"/>
       <item DEFAULT="MIXED" label="-ifmt" stringID="XST_IFMT" value="MIXED"/>
       <item DEFAULT="" label="-ifn" stringID="XST_IFN" value="system_xst.prj"/>
@@ -146,10 +146,10 @@
       </section>
     </section>
     <section stringID="XST_DEVICE_UTILIZATION_SUMMARY">
-      <item stringID="XST_SELECTED_DEVICE" value="4vsx35ff668-11"/>
-      <item AVAILABLE="15360" dataType="int" label="Number of Slices" stringID="XST_NUMBER_OF_SLICES" value="4260"/>
-      <item AVAILABLE="30720" dataType="int" label="Number of Slice Flip Flops" stringID="XST_NUMBER_OF_SLICE_FLIP_FLOPS" value="4867"/>
-      <item AVAILABLE="30720" dataType="int" label="Number of 4 input LUTs" stringID="XST_NUMBER_OF_4_INPUT_LUTS" value="5826"/>
+      <item stringID="XST_SELECTED_DEVICE" value="4vlx60ff668-10"/>
+      <item AVAILABLE="26624" dataType="int" label="Number of Slices" stringID="XST_NUMBER_OF_SLICES" value="4262"/>
+      <item AVAILABLE="53248" dataType="int" label="Number of Slice Flip Flops" stringID="XST_NUMBER_OF_SLICE_FLIP_FLOPS" value="4867"/>
+      <item AVAILABLE="53248" dataType="int" label="Number of 4 input LUTs" stringID="XST_NUMBER_OF_4_INPUT_LUTS" value="5826"/>
       <item dataType="int" label="Number used as Logic" stringID="XST_NUMBER_USED_AS_LOGIC" value="5309"/>
       <item dataType="int" label="Number used as Shift registers" stringID="XST_NUMBER_USED_AS_SHIFT_REGISTERS" value="133"/>
       <item dataType="int" stringID="XST_NUMBER_USED_AS_RAMS" value="384"/>

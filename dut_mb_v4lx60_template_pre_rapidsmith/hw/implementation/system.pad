@@ -1,7 +1,7 @@
 Release 14.4 - par P.49d (lin64)
 Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
 
-Wed Apr 25 11:17:14 2018
+Wed Apr 25 12:27:22 2018
 
 
 # NOTE: This file is designed to be imported into a spreadsheet program
@@ -11,8 +11,8 @@ Wed Apr 25 11:17:14 2018
 #
 INPUT FILE:       system_map.ncd
 OUTPUT FILE:      system.pad
-PART TYPE:        xc4vsx35
-SPEED GRADE:      -11
+PART TYPE:        xc4vlx60
+SPEED GRADE:      -10
 PACKAGE:          ff668
 
 Pinout by Pin Number:

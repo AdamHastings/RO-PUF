@@ -7,7 +7,7 @@ system.ncd system.pcf
 
 Design file:              system.ncd
 Physical constraint file: system.pcf
-Device,package,speed:     xc4vsx35,ff668,-11 (PRODUCTION 1.71 2012-12-04, STEPPING level 1)
+Device,package,speed:     xc4vlx60,ff668,-10 (PRODUCTION 1.71 2012-12-04, STEPPING level 1)
 Report level:             error report
 
 Environment Variable      Effect 
@@ -42,7 +42,7 @@ For more information, see Period Analysis in the Timing Closure User Guide (UG61
 
  314780 paths analyzed, 14660 endpoints analyzed, 0 failing endpoints
  0 timing errors detected. (0 setup errors, 0 hold errors, 0 component switching limit errors)
- Minimum period is   9.561ns.
+ Minimum period is   9.843ns.
 --------------------------------------------------------------------------------
 
 
@@ -53,8 +53,8 @@ Derived Constraints for TS_sys_clk_pin
 |           Constraint          | Requirement |-------------+-------------|-------------+-------------|-------------+-------------|
 |                               |             |   Direct    | Derivative  |   Direct    | Derivative  |   Direct    | Derivative  |
 +-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
-|TS_sys_clk_pin                 |     10.000ns|      6.666ns|      9.561ns|            0|            0|            3|       314780|
-| TS_clock_generator_0_clock_gen|     10.000ns|      9.561ns|          N/A|            0|            0|       314780|            0|
+|TS_sys_clk_pin                 |     10.000ns|      6.666ns|      9.843ns|            0|            0|            3|       314780|
+| TS_clock_generator_0_clock_gen|     10.000ns|      9.843ns|          N/A|            0|            0|       314780|            0|
 | erator_0_SIG_DCM0_CLK0        |             |             |             |             |             |             |             |
 +-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
 
@@ -70,7 +70,7 @@ Clock to Setup on destination clock fpga_0_clk_1_sys_clk_pin
                         | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
 Source Clock            |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 ------------------------+---------+---------+---------+---------+
-fpga_0_clk_1_sys_clk_pin|    9.561|         |         |         |
+fpga_0_clk_1_sys_clk_pin|    9.843|         |         |         |
 ------------------------+---------+---------+---------+---------+
 
 
@@ -79,20 +79,20 @@ Timing summary:
 
 Timing errors: 0  Score: 0  (Setup/Max: 0, Hold: 0)
 
-Constraints cover 314783 paths, 0 nets, and 24059 connections
+Constraints cover 314783 paths, 0 nets, and 23565 connections
 
 Design statistics:
-   Minimum period:   9.561ns   (Maximum frequency: 104.592MHz)
+   Minimum period:   9.843ns   (Maximum frequency: 101.595MHz)
 
 
-Analysis completed Wed Apr 25 11:17:32 2018 
+Analysis completed Wed Apr 25 12:27:37 2018 
 --------------------------------------------------------------------------------
 
 Trace Settings:
 -------------------------
 Trace Settings 
 
-Peak Memory Usage: 727 MB
+Peak Memory Usage: 629 MB
 
 
 

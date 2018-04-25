@@ -19,9 +19,9 @@ use clock_generator_v4_03_a.all;
 entity clock_generator is
   generic (
     C_FAMILY           : string   := "virtex4" ;
-    C_DEVICE           : string   := "4vsx35";
+    C_DEVICE           : string   := "4vlx60";
     C_PACKAGE          : string   := "ff668";
-    C_SPEEDGRADE       : string   := "-11";
+    C_SPEEDGRADE       : string   := "-10";
     C_CLK_GEN          : string   := "PASSED"
   );
   port (
@@ -482,9 +482,9 @@ end architecture STRUCTURE;
 -- C_ELABORATE_DIR = 
 -- C_ELABORATE_RES = NOT_SET
 -- C_FAMILY = virtex4
--- C_DEVICE = 4vsx35
+-- C_DEVICE = 4vlx60
 -- C_PACKAGE = ff668
--- C_SPEEDGRADE = -11
+-- C_SPEEDGRADE = -10
 
 ----------------------------------------
 
