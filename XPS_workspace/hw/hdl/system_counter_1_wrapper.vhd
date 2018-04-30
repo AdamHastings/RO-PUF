@@ -7,8 +7,8 @@ use IEEE.STD_LOGIC_1164.ALL;
 library UNISIM;
 use UNISIM.VCOMPONENTS.ALL;
 
-library counter_v1_00_a;
-use counter_v1_00_a.all;
+library counter_v1_01_a;
+use counter_v1_01_a.all;
 
 entity system_counter_1_wrapper is
   port (
@@ -125,8 +125,8 @@ begin
 
   counter_1 : counter
     generic map (
-      C_BASEADDR => X"ce440000",
-      C_HIGHADDR => X"ce44ffff",
+      C_BASEADDR => X"ce4c0000",
+      C_HIGHADDR => X"ce4cffff",
       C_SPLB_AWIDTH => 32,
       C_SPLB_DWIDTH => 32,
       C_SPLB_NUM_MASTERS => 2,

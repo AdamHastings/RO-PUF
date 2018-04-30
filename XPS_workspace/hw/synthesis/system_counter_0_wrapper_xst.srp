@@ -4,8 +4,8 @@ Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
 Parameter TMPDIR set to /home/adam/RO-PUF/XPS_workspace/hw/synthesis/xst_temp_dir/
 
 
-Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.04 secs
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.03 secs
  
 --> 
 
@@ -246,10 +246,10 @@ Entity <plb_slave_attachment> (Architecture <implementation>) compiled.
 Compiling vhdl file "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/plbv46_slave_single_v1_01_a/hdl/vhdl/plbv46_slave_single.vhd" in Library plbv46_slave_single_v1_01_a.
 Entity <plbv46_slave_single> compiled.
 Entity <plbv46_slave_single> (Architecture <implementation>) compiled.
-Compiling vhdl file "/home/adam/RO-PUF/XPS_workspace/hw/pcores/counter_v1_00_a/hdl/vhdl/user_logic.vhd" in Library counter_v1_00_a.
+Compiling vhdl file "/home/adam/RO-PUF/XPS_workspace/hw/pcores/counter_v1_01_a/hdl/vhdl/user_logic.vhd" in Library counter_v1_01_a.
 Entity <user_logic> compiled.
 Entity <user_logic> (Architecture <IMP>) compiled.
-Compiling vhdl file "/home/adam/RO-PUF/XPS_workspace/hw/pcores/counter_v1_00_a/hdl/vhdl/counter.vhd" in Library counter_v1_00_a.
+Compiling vhdl file "/home/adam/RO-PUF/XPS_workspace/hw/pcores/counter_v1_01_a/hdl/vhdl/counter.vhd" in Library counter_v1_01_a.
 Entity <counter> compiled.
 Entity <counter> (Architecture <IMP>) compiled.
 Compiling vhdl file "/home/adam/RO-PUF/XPS_workspace/hw/hdl/system_counter_0_wrapper.vhd" in Library work.
@@ -261,10 +261,10 @@ Entity <system_counter_0_wrapper> (Architecture <STRUCTURE>) compiled.
 =========================================================================
 Analyzing hierarchy for entity <system_counter_0_wrapper> in library <work> (architecture <STRUCTURE>).
 
-Analyzing hierarchy for entity <counter> in library <counter_v1_00_a> (architecture <IMP>) with generics.
-	C_BASEADDR = "11001110010001100000000000000000"
+Analyzing hierarchy for entity <counter> in library <counter_v1_01_a> (architecture <IMP>) with generics.
+	C_BASEADDR = "11001110010011100000000000000000"
 	C_FAMILY = "virtex4"
-	C_HIGHADDR = "11001110010001101111111111111111"
+	C_HIGHADDR = "11001110010011101111111111111111"
 	C_INCLUDE_DPHASE_TIMER = 1
 	C_SPLB_AWIDTH = 32
 	C_SPLB_CLK_PERIOD_PS = 10000
@@ -277,11 +277,11 @@ Analyzing hierarchy for entity <counter> in library <counter_v1_00_a> (architect
 	C_SPLB_SUPPORT_BURSTS = 0
 
 Analyzing hierarchy for entity <plbv46_slave_single> in library <plbv46_slave_single_v1_01_a> (architecture <implementation>) with generics.
-	C_ARD_ADDR_RANGE_ARRAY = ("0000000000000000000000000000000011001110010001100000000000000000",
-	                          "0000000000000000000000000000000011001110010001100000000011111111",
-	                          "0000000000000000000000000000000011001110010001100000000100000000",
-	                          "0000000000000000000000000000000011001110010001100000000111111111")
-	C_ARD_NUM_CE_ARRAY = (2,1)
+	C_ARD_ADDR_RANGE_ARRAY = ("0000000000000000000000000000000011001110010011100000000000000000",
+	                          "0000000000000000000000000000000011001110010011100000000011111111",
+	                          "0000000000000000000000000000000011001110010011100000000100000000",
+	                          "0000000000000000000000000000000011001110010011100000000111111111")
+	C_ARD_NUM_CE_ARRAY = (4,1)
 	C_BUS2CORE_CLK_RATIO = 1
 	C_FAMILY = "virtex4"
 	C_INCLUDE_DPHASE_TIMER = 1
@@ -296,16 +296,16 @@ Analyzing hierarchy for entity <soft_reset> in library <proc_common_v3_00_a> (ar
 	C_RESET_WIDTH = 4
 	C_SIPIF_DWIDTH = 32
 
-Analyzing hierarchy for entity <user_logic> in library <counter_v1_00_a> (architecture <IMP>) with generics.
-	C_NUM_REG = 2
+Analyzing hierarchy for entity <user_logic> in library <counter_v1_01_a> (architecture <IMP>) with generics.
+	C_NUM_REG = 3
 	C_SLV_DWIDTH = 32
 
 Analyzing hierarchy for entity <plb_slave_attachment> in library <plbv46_slave_single_v1_01_a> (architecture <implementation>) with generics.
-	C_ARD_ADDR_RANGE_ARRAY = ("0000000000000000000000000000000011001110010001100000000000000000",
-	                          "0000000000000000000000000000000011001110010001100000000011111111",
-	                          "0000000000000000000000000000000011001110010001100000000100000000",
-	                          "0000000000000000000000000000000011001110010001100000000111111111")
-	C_ARD_NUM_CE_ARRAY = (2,1)
+	C_ARD_ADDR_RANGE_ARRAY = ("0000000000000000000000000000000011001110010011100000000000000000",
+	                          "0000000000000000000000000000000011001110010011100000000011111111",
+	                          "0000000000000000000000000000000011001110010011100000000100000000",
+	                          "0000000000000000000000000000000011001110010011100000000111111111")
+	C_ARD_NUM_CE_ARRAY = (4,1)
 	C_BUS2CORE_CLK_RATIO = 1
 	C_DPHASE_TIMEOUT = 128
 	C_FAMILY = "virtex4"
@@ -317,11 +317,11 @@ Analyzing hierarchy for entity <plb_slave_attachment> in library <plbv46_slave_s
 	C_SPLB_P2P = 0
 
 Analyzing hierarchy for entity <plb_address_decoder> in library <plbv46_slave_single_v1_01_a> (architecture <IMP>) with generics.
-	C_ARD_ADDR_RANGE_ARRAY = ("0000000000000000000000000000000011001110010001100000000000000000",
-	                          "0000000000000000000000000000000011001110010001100000000011111111",
-	                          "0000000000000000000000000000000011001110010001100000000100000000",
-	                          "0000000000000000000000000000000011001110010001100000000111111111")
-	C_ARD_NUM_CE_ARRAY = (2,1)
+	C_ARD_ADDR_RANGE_ARRAY = ("0000000000000000000000000000000011001110010011100000000000000000",
+	                          "0000000000000000000000000000000011001110010011100000000011111111",
+	                          "0000000000000000000000000000000011001110010011100000000100000000",
+	                          "0000000000000000000000000000000011001110010011100000000111111111")
+	C_ARD_NUM_CE_ARRAY = (4,1)
 	C_BUS_AWIDTH = 32
 	C_FAMILY = "nofamily"
 	C_SPLB_P2P = 0
@@ -333,25 +333,37 @@ Analyzing hierarchy for entity <counter_f> in library <proc_common_v3_00_a> (arc
 Analyzing hierarchy for entity <pselect_f> in library <proc_common_v3_00_a> (architecture <imp>) with generics.
 	C_AB = 24
 	C_AW = 32
-	C_BAR = "11001110010001100000000000000000"
+	C_BAR = "11001110010011100000000000000000"
 	C_FAMILY = "nofamily"
 
 Analyzing hierarchy for entity <pselect_f> in library <proc_common_v3_00_a> (architecture <imp>) with generics.
-	C_AB = 1
-	C_AW = 1
-	C_BAR = "0"
+	C_AB = 2
+	C_AW = 2
+	C_BAR = "00"
 	C_FAMILY = "nofamily"
 
 Analyzing hierarchy for entity <pselect_f> in library <proc_common_v3_00_a> (architecture <imp>) with generics.
-	C_AB = 1
-	C_AW = 1
-	C_BAR = "1"
+	C_AB = 2
+	C_AW = 2
+	C_BAR = "01"
+	C_FAMILY = "nofamily"
+
+Analyzing hierarchy for entity <pselect_f> in library <proc_common_v3_00_a> (architecture <imp>) with generics.
+	C_AB = 2
+	C_AW = 2
+	C_BAR = "10"
+	C_FAMILY = "nofamily"
+
+Analyzing hierarchy for entity <pselect_f> in library <proc_common_v3_00_a> (architecture <imp>) with generics.
+	C_AB = 2
+	C_AW = 2
+	C_BAR = "11"
 	C_FAMILY = "nofamily"
 
 Analyzing hierarchy for entity <pselect_f> in library <proc_common_v3_00_a> (architecture <imp>) with generics.
 	C_AB = 24
 	C_AW = 32
-	C_BAR = "11001110010001100000000100000000"
+	C_BAR = "11001110010011100000000100000000"
 	C_FAMILY = "nofamily"
 
 Analyzing hierarchy for entity <or_gate128> in library <proc_common_v3_00_a> (architecture <imp>) with generics.
@@ -371,10 +383,10 @@ WARNING:Xst:37 - Detected unknown constraint/property "SIGIS". This constraint/p
 WARNING:Xst:37 - Detected unknown constraint/property "SIGIS". This constraint/property is not supported by the current software release and will be ignored.
 Entity <system_counter_0_wrapper> analyzed. Unit <system_counter_0_wrapper> generated.
 
-Analyzing generic Entity <counter> in library <counter_v1_00_a> (Architecture <IMP>).
-	C_BASEADDR = "11001110010001100000000000000000"
+Analyzing generic Entity <counter> in library <counter_v1_01_a> (Architecture <IMP>).
+	C_BASEADDR = "11001110010011100000000000000000"
 	C_FAMILY = "virtex4"
-	C_HIGHADDR = "11001110010001101111111111111111"
+	C_HIGHADDR = "11001110010011101111111111111111"
 	C_INCLUDE_DPHASE_TIMER = 1
 	C_SPLB_AWIDTH = 32
 	C_SPLB_CLK_PERIOD_PS = 10000
@@ -387,17 +399,17 @@ Analyzing generic Entity <counter> in library <counter_v1_00_a> (Architecture <I
 	C_SPLB_SUPPORT_BURSTS = 0
 WARNING:Xst:37 - Detected unknown constraint/property "SIGIS". This constraint/property is not supported by the current software release and will be ignored.
 WARNING:Xst:37 - Detected unknown constraint/property "SIGIS". This constraint/property is not supported by the current software release and will be ignored.
-WARNING:Xst:753 - "/home/adam/RO-PUF/XPS_workspace/hw/pcores/counter_v1_00_a/hdl/vhdl/counter.vhd" line 397: Unconnected output port 'Reset2Bus_ToutSup' of component 'soft_reset'.
+WARNING:Xst:753 - "/home/adam/RO-PUF/XPS_workspace/hw/pcores/counter_v1_01_a/hdl/vhdl/counter.vhd" line 397: Unconnected output port 'Reset2Bus_ToutSup' of component 'soft_reset'.
 WARNING:Xst:37 - Detected unknown constraint/property "SIGIS". This constraint/property is not supported by the current software release and will be ignored.
 WARNING:Xst:37 - Detected unknown constraint/property "SIGIS". This constraint/property is not supported by the current software release and will be ignored.
 Entity <counter> analyzed. Unit <counter> generated.
 
 Analyzing generic Entity <plbv46_slave_single> in library <plbv46_slave_single_v1_01_a> (Architecture <implementation>).
-	C_ARD_ADDR_RANGE_ARRAY = ("0000000000000000000000000000000011001110010001100000000000000000",
-	                          "0000000000000000000000000000000011001110010001100000000011111111",
-	                          "0000000000000000000000000000000011001110010001100000000100000000",
-	                          "0000000000000000000000000000000011001110010001100000000111111111")
-	C_ARD_NUM_CE_ARRAY = (2,1)
+	C_ARD_ADDR_RANGE_ARRAY = ("0000000000000000000000000000000011001110010011100000000000000000",
+	                          "0000000000000000000000000000000011001110010011100000000011111111",
+	                          "0000000000000000000000000000000011001110010011100000000100000000",
+	                          "0000000000000000000000000000000011001110010011100000000111111111")
+	C_ARD_NUM_CE_ARRAY = (4,1)
 	C_BUS2CORE_CLK_RATIO = 1
 	C_FAMILY = "virtex4"
 	C_INCLUDE_DPHASE_TIMER = 1
@@ -410,11 +422,11 @@ Analyzing generic Entity <plbv46_slave_single> in library <plbv46_slave_single_v
 Entity <plbv46_slave_single> analyzed. Unit <plbv46_slave_single> generated.
 
 Analyzing generic Entity <plb_slave_attachment> in library <plbv46_slave_single_v1_01_a> (Architecture <implementation>).
-	C_ARD_ADDR_RANGE_ARRAY = ("0000000000000000000000000000000011001110010001100000000000000000",
-	                          "0000000000000000000000000000000011001110010001100000000011111111",
-	                          "0000000000000000000000000000000011001110010001100000000100000000",
-	                          "0000000000000000000000000000000011001110010001100000000111111111")
-	C_ARD_NUM_CE_ARRAY = (2,1)
+	C_ARD_ADDR_RANGE_ARRAY = ("0000000000000000000000000000000011001110010011100000000000000000",
+	                          "0000000000000000000000000000000011001110010011100000000011111111",
+	                          "0000000000000000000000000000000011001110010011100000000100000000",
+	                          "0000000000000000000000000000000011001110010011100000000111111111")
+	C_ARD_NUM_CE_ARRAY = (4,1)
 	C_BUS2CORE_CLK_RATIO = 1
 	C_DPHASE_TIMEOUT = 128
 	C_FAMILY = "virtex4"
@@ -428,11 +440,11 @@ WARNING:Xst:753 - "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/pl
 Entity <plb_slave_attachment> analyzed. Unit <plb_slave_attachment> generated.
 
 Analyzing generic Entity <plb_address_decoder> in library <plbv46_slave_single_v1_01_a> (Architecture <IMP>).
-	C_ARD_ADDR_RANGE_ARRAY = ("0000000000000000000000000000000011001110010001100000000000000000",
-	                          "0000000000000000000000000000000011001110010001100000000011111111",
-	                          "0000000000000000000000000000000011001110010001100000000100000000",
-	                          "0000000000000000000000000000000011001110010001100000000111111111")
-	C_ARD_NUM_CE_ARRAY = (2,1)
+	C_ARD_ADDR_RANGE_ARRAY = ("0000000000000000000000000000000011001110010011100000000000000000",
+	                          "0000000000000000000000000000000011001110010011100000000011111111",
+	                          "0000000000000000000000000000000011001110010011100000000100000000",
+	                          "0000000000000000000000000000000011001110010011100000000111111111")
+	C_ARD_NUM_CE_ARRAY = (4,1)
 	C_BUS_AWIDTH = 32
 	C_FAMILY = "nofamily"
 	C_SPLB_P2P = 0
@@ -441,30 +453,44 @@ Entity <plb_address_decoder> analyzed. Unit <plb_address_decoder> generated.
 Analyzing generic Entity <pselect_f.1> in library <proc_common_v3_00_a> (Architecture <imp>).
 	C_AB = 24
 	C_AW = 32
-	C_BAR = "11001110010001100000000000000000"
+	C_BAR = "11001110010011100000000000000000"
 	C_FAMILY = "nofamily"
 Entity <pselect_f.1> analyzed. Unit <pselect_f.1> generated.
 
 Analyzing generic Entity <pselect_f.2> in library <proc_common_v3_00_a> (Architecture <imp>).
-	C_AB = 1
-	C_AW = 1
-	C_BAR = "0"
+	C_AB = 2
+	C_AW = 2
+	C_BAR = "00"
 	C_FAMILY = "nofamily"
 Entity <pselect_f.2> analyzed. Unit <pselect_f.2> generated.
 
 Analyzing generic Entity <pselect_f.3> in library <proc_common_v3_00_a> (Architecture <imp>).
-	C_AB = 1
-	C_AW = 1
-	C_BAR = "1"
+	C_AB = 2
+	C_AW = 2
+	C_BAR = "01"
 	C_FAMILY = "nofamily"
 Entity <pselect_f.3> analyzed. Unit <pselect_f.3> generated.
 
 Analyzing generic Entity <pselect_f.4> in library <proc_common_v3_00_a> (Architecture <imp>).
-	C_AB = 24
-	C_AW = 32
-	C_BAR = "11001110010001100000000100000000"
+	C_AB = 2
+	C_AW = 2
+	C_BAR = "10"
 	C_FAMILY = "nofamily"
 Entity <pselect_f.4> analyzed. Unit <pselect_f.4> generated.
+
+Analyzing generic Entity <pselect_f.5> in library <proc_common_v3_00_a> (Architecture <imp>).
+	C_AB = 2
+	C_AW = 2
+	C_BAR = "11"
+	C_FAMILY = "nofamily"
+Entity <pselect_f.5> analyzed. Unit <pselect_f.5> generated.
+
+Analyzing generic Entity <pselect_f.6> in library <proc_common_v3_00_a> (Architecture <imp>).
+	C_AB = 24
+	C_AW = 32
+	C_BAR = "11001110010011100000000100000000"
+	C_FAMILY = "nofamily"
+Entity <pselect_f.6> analyzed. Unit <pselect_f.6> generated.
 
 Analyzing generic Entity <or_gate128> in library <proc_common_v3_00_a> (Architecture <imp>).
 	C_BUS_WIDTH = 1
@@ -491,8 +517,8 @@ Analyzing generic Entity <soft_reset> in library <proc_common_v3_00_a> (Architec
     Set user-defined property "INIT =  0" for instance <FF_WRACK> in unit <soft_reset>.
 Entity <soft_reset> analyzed. Unit <soft_reset> generated.
 
-Analyzing generic Entity <user_logic> in library <counter_v1_00_a> (Architecture <IMP>).
-	C_NUM_REG = 2
+Analyzing generic Entity <user_logic> in library <counter_v1_01_a> (Architecture <IMP>).
+	C_NUM_REG = 3
 	C_SLV_DWIDTH = 32
 WARNING:Xst:37 - Detected unknown constraint/property "SIGIS". This constraint/property is not supported by the current software release and will be ignored.
 WARNING:Xst:37 - Detected unknown constraint/property "SIGIS". This constraint/property is not supported by the current software release and will be ignored.
@@ -506,19 +532,15 @@ Entity <user_logic> analyzed. Unit <user_logic> generated.
 Performing bidirectional port resolution...
 
 Synthesizing Unit <user_logic>.
-    Related source file is "/home/adam/RO-PUF/XPS_workspace/hw/pcores/counter_v1_00_a/hdl/vhdl/user_logic.vhd".
-WARNING:Xst:647 - Input <Bus2IP_Data> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
-WARNING:Xst:647 - Input <Bus2IP_BE> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
-WARNING:Xst:646 - Signal <slv_reg_write_sel> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+    Related source file is "/home/adam/RO-PUF/XPS_workspace/hw/pcores/counter_v1_01_a/hdl/vhdl/user_logic.vhd".
     Found 32-bit up counter for signal <counter0>.
     Found 32-bit up counter for signal <counter1>.
-    Found 32-bit 4-to-1 multiplexer for signal <slv_ip2bus_data>.
     Found 32-bit register for signal <slv_reg0>.
     Found 32-bit register for signal <slv_reg1>.
+    Found 32-bit register for signal <slv_reg2>.
     Summary:
 	inferred   2 Counter(s).
-	inferred  64 D-type flip-flop(s).
-	inferred  32 Multiplexer(s).
+	inferred  96 D-type flip-flop(s).
 Unit <user_logic> synthesized.
 
 
@@ -550,8 +572,18 @@ Unit <pselect_f_3> synthesized.
 
 Synthesizing Unit <pselect_f_4>.
     Related source file is "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/pselect_f.vhd".
-WARNING:Xst:647 - Input <A<24:31>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 Unit <pselect_f_4> synthesized.
+
+
+Synthesizing Unit <pselect_f_5>.
+    Related source file is "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/pselect_f.vhd".
+Unit <pselect_f_5> synthesized.
+
+
+Synthesizing Unit <pselect_f_6>.
+    Related source file is "/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/pselect_f.vhd".
+WARNING:Xst:647 - Input <A<24:31>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+Unit <pselect_f_6> synthesized.
 
 
 Synthesizing Unit <or_muxcy>.
@@ -586,18 +618,18 @@ WARNING:Xst:646 - Signal <cs_s_h_clr> is assigned but never used. This unconnect
 WARNING:Xst:1780 - Signal <cs_out_s_h0<0>> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
 WARNING:Xst:1780 - Signal <cs_out_s_h<1>> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
 WARNING:Xst:646 - Signal <cs_ce_clr> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
-WARNING:Xst:646 - Signal <addr_out_s_h<1:2>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <addr_out_s_h<2:3>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
 WARNING:Xst:646 - Signal <addr_match_clr> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
-    Found 3-bit register for signal <addr_out_s_h>.
+    Found 4-bit register for signal <addr_out_s_h>.
     Found 2-bit register for signal <cs_out_i>.
     Found 1-bit register for signal <cs_out_s_h<0>>.
     Found 1-bit register for signal <cs_out_s_h0<1>>.
     Found 1-bit register for signal <decode_hit_reg>.
-    Found 3-bit register for signal <rdce_out_i>.
+    Found 5-bit register for signal <rdce_out_i>.
     Found 1-bit register for signal <rnw_s_h>.
-    Found 3-bit register for signal <wrce_out_i>.
+    Found 5-bit register for signal <wrce_out_i>.
     Summary:
-	inferred  15 D-type flip-flop(s).
+	inferred  20 D-type flip-flop(s).
 Unit <plb_address_decoder> synthesized.
 
 
@@ -674,8 +706,9 @@ Unit <plbv46_slave_single> synthesized.
 
 
 Synthesizing Unit <counter>.
-    Related source file is "/home/adam/RO-PUF/XPS_workspace/hw/pcores/counter_v1_00_a/hdl/vhdl/counter.vhd".
-WARNING:Xst:646 - Signal <ipif_Bus2IP_RdCE<2>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+    Related source file is "/home/adam/RO-PUF/XPS_workspace/hw/pcores/counter_v1_01_a/hdl/vhdl/counter.vhd".
+WARNING:Xst:646 - Signal <ipif_Bus2IP_WrCE<3>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <ipif_Bus2IP_RdCE<3:4>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
 WARNING:Xst:646 - Signal <ipif_Bus2IP_RNW> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
 WARNING:Xst:646 - Signal <ipif_Bus2IP_Addr> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
 Unit <counter> synthesized.
@@ -694,14 +727,12 @@ Macro Statistics
  9-bit subtractor                                      : 1
 # Counters                                             : 2
  32-bit up counter                                     : 2
-# Registers                                            : 45
- 1-bit register                                        : 33
- 3-bit register                                        : 2
+# Registers                                            : 81
+ 1-bit register                                        : 69
+ 3-bit register                                        : 1
  32-bit register                                       : 6
- 4-bit register                                        : 3
+ 4-bit register                                        : 4
  9-bit register                                        : 1
-# Multiplexers                                         : 1
- 32-bit 4-to-1 multiplexer                             : 1
 
 =========================================================================
 
@@ -709,8 +740,8 @@ Macro Statistics
 *                       Advanced HDL Synthesis                          *
 =========================================================================
 
+WARNING:Xst:2677 - Node <addr_out_s_h_3> of sequential type is unconnected in block <plb_address_decoder>.
 WARNING:Xst:2677 - Node <addr_out_s_h_2> of sequential type is unconnected in block <plb_address_decoder>.
-WARNING:Xst:2677 - Node <addr_out_s_h_1> of sequential type is unconnected in block <plb_address_decoder>.
 
 =========================================================================
 Advanced HDL Synthesis Report
@@ -720,10 +751,8 @@ Macro Statistics
  9-bit subtractor                                      : 1
 # Counters                                             : 2
  32-bit up counter                                     : 2
-# Registers                                            : 255
- Flip-Flops                                            : 255
-# Multiplexers                                         : 1
- 32-bit 4-to-1 multiplexer                             : 1
+# Registers                                            : 292
+ Flip-Flops                                            : 292
 
 =========================================================================
 
@@ -745,47 +774,12 @@ Optimizing unit <plb_address_decoder> ...
 Optimizing unit <plb_slave_attachment> ...
 
 Optimizing unit <counter> ...
-WARNING:Xst:2677 - Node <counter_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_27> of sequential type is unconnected in block <system_counter_0_wrapper>.
-WARNING:Xst:2677 - Node <counter_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_26> of sequential type is unconnected in block <system_counter_0_wrapper>.
-WARNING:Xst:2677 - Node <counter_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_25> of sequential type is unconnected in block <system_counter_0_wrapper>.
-WARNING:Xst:2677 - Node <counter_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_24> of sequential type is unconnected in block <system_counter_0_wrapper>.
-WARNING:Xst:2677 - Node <counter_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_23> of sequential type is unconnected in block <system_counter_0_wrapper>.
-WARNING:Xst:2677 - Node <counter_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_22> of sequential type is unconnected in block <system_counter_0_wrapper>.
-WARNING:Xst:2677 - Node <counter_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_21> of sequential type is unconnected in block <system_counter_0_wrapper>.
-WARNING:Xst:2677 - Node <counter_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_20> of sequential type is unconnected in block <system_counter_0_wrapper>.
-WARNING:Xst:2677 - Node <counter_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_19> of sequential type is unconnected in block <system_counter_0_wrapper>.
-WARNING:Xst:2677 - Node <counter_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_18> of sequential type is unconnected in block <system_counter_0_wrapper>.
-WARNING:Xst:2677 - Node <counter_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_17> of sequential type is unconnected in block <system_counter_0_wrapper>.
-WARNING:Xst:2677 - Node <counter_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_16> of sequential type is unconnected in block <system_counter_0_wrapper>.
-WARNING:Xst:2677 - Node <counter_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_15> of sequential type is unconnected in block <system_counter_0_wrapper>.
-WARNING:Xst:2677 - Node <counter_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_14> of sequential type is unconnected in block <system_counter_0_wrapper>.
-WARNING:Xst:2677 - Node <counter_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_13> of sequential type is unconnected in block <system_counter_0_wrapper>.
-WARNING:Xst:2677 - Node <counter_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_12> of sequential type is unconnected in block <system_counter_0_wrapper>.
-WARNING:Xst:2677 - Node <counter_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_11> of sequential type is unconnected in block <system_counter_0_wrapper>.
-WARNING:Xst:2677 - Node <counter_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_10> of sequential type is unconnected in block <system_counter_0_wrapper>.
-WARNING:Xst:2677 - Node <counter_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_9> of sequential type is unconnected in block <system_counter_0_wrapper>.
-WARNING:Xst:2677 - Node <counter_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_8> of sequential type is unconnected in block <system_counter_0_wrapper>.
-WARNING:Xst:2677 - Node <counter_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_7> of sequential type is unconnected in block <system_counter_0_wrapper>.
-WARNING:Xst:2677 - Node <counter_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_6> of sequential type is unconnected in block <system_counter_0_wrapper>.
-WARNING:Xst:2677 - Node <counter_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_5> of sequential type is unconnected in block <system_counter_0_wrapper>.
-WARNING:Xst:2677 - Node <counter_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_4> of sequential type is unconnected in block <system_counter_0_wrapper>.
-WARNING:Xst:2677 - Node <counter_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_3> of sequential type is unconnected in block <system_counter_0_wrapper>.
-WARNING:Xst:2677 - Node <counter_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_2> of sequential type is unconnected in block <system_counter_0_wrapper>.
-WARNING:Xst:2677 - Node <counter_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_1> of sequential type is unconnected in block <system_counter_0_wrapper>.
-WARNING:Xst:2677 - Node <counter_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_0> of sequential type is unconnected in block <system_counter_0_wrapper>.
 WARNING:Xst:2677 - Node <counter_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_31> of sequential type is unconnected in block <system_counter_0_wrapper>.
 WARNING:Xst:2677 - Node <counter_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_30> of sequential type is unconnected in block <system_counter_0_wrapper>.
-WARNING:Xst:2677 - Node <counter_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_28> of sequential type is unconnected in block <system_counter_0_wrapper>.
 WARNING:Xst:2677 - Node <counter_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_27> of sequential type is unconnected in block <system_counter_0_wrapper>.
 WARNING:Xst:2677 - Node <counter_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_26> of sequential type is unconnected in block <system_counter_0_wrapper>.
 WARNING:Xst:2677 - Node <counter_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_25> of sequential type is unconnected in block <system_counter_0_wrapper>.
 WARNING:Xst:2677 - Node <counter_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_24> of sequential type is unconnected in block <system_counter_0_wrapper>.
-WARNING:Xst:2677 - Node <counter_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_be_reg_2> of sequential type is unconnected in block <system_counter_0_wrapper>.
-WARNING:Xst:2677 - Node <counter_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_be_reg_1> of sequential type is unconnected in block <system_counter_0_wrapper>.
-WARNING:Xst:2677 - Node <counter_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_be_reg_0> of sequential type is unconnected in block <system_counter_0_wrapper>.
-WARNING:Xst:2677 - Node <counter_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/bus2ip_be_i_2> of sequential type is unconnected in block <system_counter_0_wrapper>.
-WARNING:Xst:2677 - Node <counter_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/bus2ip_be_i_1> of sequential type is unconnected in block <system_counter_0_wrapper>.
-WARNING:Xst:2677 - Node <counter_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/bus2ip_be_i_0> of sequential type is unconnected in block <system_counter_0_wrapper>.
 WARNING:Xst:2677 - Node <counter_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/bus2ip_addr_i_31> of sequential type is unconnected in block <system_counter_0_wrapper>.
 WARNING:Xst:2677 - Node <counter_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/bus2ip_addr_i_30> of sequential type is unconnected in block <system_counter_0_wrapper>.
 WARNING:Xst:2677 - Node <counter_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/bus2ip_addr_i_29> of sequential type is unconnected in block <system_counter_0_wrapper>.
@@ -818,10 +812,14 @@ WARNING:Xst:2677 - Node <counter_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/bus2
 WARNING:Xst:2677 - Node <counter_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/bus2ip_addr_i_2> of sequential type is unconnected in block <system_counter_0_wrapper>.
 WARNING:Xst:2677 - Node <counter_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/bus2ip_addr_i_1> of sequential type is unconnected in block <system_counter_0_wrapper>.
 WARNING:Xst:2677 - Node <counter_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/bus2ip_addr_i_0> of sequential type is unconnected in block <system_counter_0_wrapper>.
-WARNING:Xst:2677 - Node <counter_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/I_DECODER/rdce_out_i_2> of sequential type is unconnected in block <system_counter_0_wrapper>.
+WARNING:Xst:2677 - Node <counter_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/I_DECODER/rdce_out_i_3> of sequential type is unconnected in block <system_counter_0_wrapper>.
+WARNING:Xst:2677 - Node <counter_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/I_DECODER/wrce_out_i_3> of sequential type is unconnected in block <system_counter_0_wrapper>.
+WARNING:Xst:2677 - Node <counter_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/I_DECODER/rdce_out_i_4> of sequential type is unconnected in block <system_counter_0_wrapper>.
 
 Mapping all equations...
 Building and optimizing final netlist ...
+FlipFlop counter_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/I_DECODER/rdce_out_i_0 has been replicated 1 time(s)
+FlipFlop counter_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/I_DECODER/rdce_out_i_2 has been replicated 1 time(s)
 
 Final Macro Processing ...
 
@@ -829,8 +827,8 @@ Final Macro Processing ...
 Final Register Report
 
 Macro Statistics
-# Registers                                            : 244
- Flip-Flops                                            : 244
+# Registers                                            : 316
+ Flip-Flops                                            : 316
 
 =========================================================================
 
@@ -858,26 +856,25 @@ Design Statistics
 # IOs                              : 201
 
 Cell Usage :
-# BELS                             : 386
+# BELS                             : 464
 #      GND                         : 1
 #      INV                         : 2
 #      LUT1                        : 62
-#      LUT2                        : 19
-#      LUT2_L                      : 2
-#      LUT3                        : 7
-#      LUT3_D                      : 5
-#      LUT3_L                      : 2
-#      LUT4                        : 106
-#      LUT4_D                      : 7
+#      LUT2                        : 20
+#      LUT2_L                      : 3
+#      LUT3                        : 11
+#      LUT3_D                      : 1
+#      LUT3_L                      : 33
+#      LUT4                        : 177
+#      LUT4_D                      : 11
 #      LUT4_L                      : 2
-#      MUXCY                       : 74
-#      MUXF5                       : 32
+#      MUXCY                       : 76
 #      VCC                         : 1
 #      XORCY                       : 64
-# FlipFlops/Latches                : 244
-#      FD                          : 53
+# FlipFlops/Latches                : 316
+#      FD                          : 92
 #      FDR                         : 144
-#      FDRE                        : 40
+#      FDRE                        : 73
 #      FDRS                        : 2
 #      FDRSE                       : 5
 =========================================================================
@@ -887,9 +884,9 @@ Device utilization summary:
 
 Selected Device : 4vlx60ff668-10 
 
- Number of Slices:                      186  out of  26624     0%  
- Number of Slice Flip Flops:            244  out of  53248     0%  
- Number of 4 input LUTs:                214  out of  53248     0%  
+ Number of Slices:                      247  out of  26624     0%  
+ Number of Slice Flip Flops:            316  out of  53248     0%  
+ Number of 4 input LUTs:                322  out of  53248     0%  
  Number of IOs:                         201
  Number of bonded IOBs:                   0  out of    448     0%  
 
@@ -914,7 +911,7 @@ Clock Information:
 -----------------------------------+---------------------------------------------------------------------------+-------+
 Clock Signal                       | Clock buffer(FF name)                                                     | Load  |
 -----------------------------------+---------------------------------------------------------------------------+-------+
-SPLB_Clk                           | NONE(counter_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_31)| 244   |
+SPLB_Clk                           | NONE(counter_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_31)| 316   |
 -----------------------------------+---------------------------------------------------------------------------+-------+
 INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
 
@@ -926,7 +923,7 @@ Timing Summary:
 ---------------
 Speed Grade: -10
 
-   Minimum period: 4.425ns (Maximum Frequency: 225.983MHz)
+   Minimum period: 4.515ns (Maximum Frequency: 221.471MHz)
    Minimum input arrival time before clock: 2.660ns
    Maximum output required time after clock: 0.360ns
    Maximum combinational path delay: No path found
@@ -937,48 +934,50 @@ All values displayed in nanoseconds (ns)
 
 =========================================================================
 Timing constraint: Default period analysis for Clock 'SPLB_Clk'
-  Clock period: 4.425ns (frequency: 225.983MHz)
-  Total number of paths / destination ports: 4350 / 384
+  Clock period: 4.515ns (frequency: 221.471MHz)
+  Total number of paths / destination ports: 5240 / 458
 -------------------------------------------------------------------------
-Delay:               4.425ns (Levels of Logic = 8)
-  Source:            counter_0/USER_LOGIC_I/counter0_22 (FF)
+Delay:               4.515ns (Levels of Logic = 10)
+  Source:            counter_0/USER_LOGIC_I/counter0_8 (FF)
   Destination:       counter_0/USER_LOGIC_I/counter1_0 (FF)
   Source Clock:      SPLB_Clk rising
   Destination Clock: SPLB_Clk rising
 
-  Data Path: counter_0/USER_LOGIC_I/counter0_22 to counter_0/USER_LOGIC_I/counter1_0
+  Data Path: counter_0/USER_LOGIC_I/counter0_8 to counter_0/USER_LOGIC_I/counter1_0
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     FD:C->Q               3   0.360   0.756  counter_0/USER_LOGIC_I/counter0_22 (counter_0/USER_LOGIC_I/counter0_22)
-     LUT4:I0->O            1   0.195   0.000  counter_0/USER_LOGIC_I/counter0_or00001_wg_lut<0> (counter_0/USER_LOGIC_I/counter0_or00001_wg_lut<0>)
-     MUXCY:S->O            1   0.366   0.000  counter_0/USER_LOGIC_I/counter0_or00001_wg_cy<0> (counter_0/USER_LOGIC_I/counter0_or00001_wg_cy<0>)
-     MUXCY:CI->O           1   0.045   0.000  counter_0/USER_LOGIC_I/counter0_or00001_wg_cy<1> (counter_0/USER_LOGIC_I/counter0_or00001_wg_cy<1>)
-     MUXCY:CI->O           1   0.045   0.000  counter_0/USER_LOGIC_I/counter0_or00001_wg_cy<2> (counter_0/USER_LOGIC_I/counter0_or00001_wg_cy<2>)
-     MUXCY:CI->O           1   0.045   0.000  counter_0/USER_LOGIC_I/counter0_or00001_wg_cy<3> (counter_0/USER_LOGIC_I/counter0_or00001_wg_cy<3>)
-     MUXCY:CI->O           1   0.045   0.000  counter_0/USER_LOGIC_I/counter0_or00001_wg_cy<4> (counter_0/USER_LOGIC_I/counter0_or00001_wg_cy<4>)
-     MUXCY:CI->O           3   0.369   0.538  counter_0/USER_LOGIC_I/counter0_or00001_wg_cy<5> (counter_0/USER_LOGIC_I/counter0_or00001_wg_cy<5>)
-     LUT3:I2->O           32   0.195   0.928  counter_0/USER_LOGIC_I/counter0_or00001_wg_cy<7>1 (counter_0/USER_LOGIC_I/counter0_or00001_wg_cy<7>)
+     FD:C->Q               4   0.360   0.755  counter_0/USER_LOGIC_I/counter0_8 (counter_0/USER_LOGIC_I/counter0_8)
+     LUT4:I0->O            1   0.195   0.000  counter_0/USER_LOGIC_I/counter0_cmp_eq0000_wg_lut<0> (counter_0/USER_LOGIC_I/counter0_cmp_eq0000_wg_lut<0>)
+     MUXCY:S->O            1   0.366   0.000  counter_0/USER_LOGIC_I/counter0_cmp_eq0000_wg_cy<0> (counter_0/USER_LOGIC_I/counter0_cmp_eq0000_wg_cy<0>)
+     MUXCY:CI->O           1   0.045   0.000  counter_0/USER_LOGIC_I/counter0_cmp_eq0000_wg_cy<1> (counter_0/USER_LOGIC_I/counter0_cmp_eq0000_wg_cy<1>)
+     MUXCY:CI->O           1   0.045   0.000  counter_0/USER_LOGIC_I/counter0_cmp_eq0000_wg_cy<2> (counter_0/USER_LOGIC_I/counter0_cmp_eq0000_wg_cy<2>)
+     MUXCY:CI->O           1   0.045   0.000  counter_0/USER_LOGIC_I/counter0_cmp_eq0000_wg_cy<3> (counter_0/USER_LOGIC_I/counter0_cmp_eq0000_wg_cy<3>)
+     MUXCY:CI->O           1   0.045   0.000  counter_0/USER_LOGIC_I/counter0_cmp_eq0000_wg_cy<4> (counter_0/USER_LOGIC_I/counter0_cmp_eq0000_wg_cy<4>)
+     MUXCY:CI->O           1   0.045   0.000  counter_0/USER_LOGIC_I/counter0_cmp_eq0000_wg_cy<5> (counter_0/USER_LOGIC_I/counter0_cmp_eq0000_wg_cy<5>)
+     MUXCY:CI->O           1   0.045   0.000  counter_0/USER_LOGIC_I/counter0_cmp_eq0000_wg_cy<6> (counter_0/USER_LOGIC_I/counter0_cmp_eq0000_wg_cy<6>)
+     MUXCY:CI->O           2   0.369   0.540  counter_0/USER_LOGIC_I/counter0_cmp_eq0000_wg_cy<7> (counter_0/USER_LOGIC_I/counter0_cmp_eq0000)
+     LUT3:I2->O           32   0.195   0.928  counter_0/USER_LOGIC_I/counter1_not00011 (counter_0/USER_LOGIC_I/counter1_not0001)
      FDRE:CE                   0.540          counter_0/USER_LOGIC_I/counter1_0
     ----------------------------------------
-    Total                      4.425ns (2.204ns logic, 2.222ns route)
-                                       (49.8% logic, 50.2% route)
+    Total                      4.515ns (2.292ns logic, 2.223ns route)
+                                       (50.8% logic, 49.2% route)
 
 =========================================================================
 Timing constraint: Default OFFSET IN BEFORE for Clock 'SPLB_Clk'
-  Total number of paths / destination ports: 275 / 275
+  Total number of paths / destination ports: 443 / 411
 -------------------------------------------------------------------------
 Offset:              2.660ns (Levels of Logic = 1)
   Source:            SPLB_Rst (PAD)
-  Destination:       counter_0/USER_LOGIC_I/slv_reg0_31 (FF)
+  Destination:       counter_0/USER_LOGIC_I/slv_reg2_20 (FF)
   Destination Clock: SPLB_Clk rising
 
-  Data Path: SPLB_Rst to counter_0/USER_LOGIC_I/slv_reg0_31
+  Data Path: SPLB_Rst to counter_0/USER_LOGIC_I/slv_reg2_20
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     LUT2:I0->O           96   0.195   1.178  counter_0/SOFT_RESET_I/Reset2IP_Reset1 (counter_0/rst_Bus2IP_Reset)
-     FDR:R                     1.062          counter_0/USER_LOGIC_I/slv_reg0_31
+     LUT2:I0->O           96   0.195   1.178  counter_0/SOFT_RESET_I/Reset2IP_Reset1_2 (counter_0/SOFT_RESET_I/Reset2IP_Reset1_1)
+     FDRE:R                    1.062          counter_0/USER_LOGIC_I/slv_reg2_20
     ----------------------------------------
     Total                      2.660ns (1.482ns logic, 1.178ns route)
                                        (55.7% logic, 44.3% route)
@@ -1004,15 +1003,15 @@ Offset:              0.360ns (Levels of Logic = 0)
 =========================================================================
 
 
-Total REAL time to Xst completion: 9.00 secs
-Total CPU time to Xst completion: 9.45 secs
+Total REAL time to Xst completion: 12.00 secs
+Total CPU time to Xst completion: 10.92 secs
  
 --> 
 
 
-Total memory usage is 801228 kilobytes
+Total memory usage is 868156 kilobytes
 
 Number of errors   :    0 (   0 filtered)
-Number of warnings :  138 (   0 filtered)
+Number of warnings :  103 (   0 filtered)
 Number of infos    :    2 (   0 filtered)
 

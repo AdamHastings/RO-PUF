@@ -1,0 +1,57 @@
+#INST "ilmb_cntlr" AREA_GROUP = "pblock_1";
+#INST "dut_control_core_0" AREA_GROUP = "pblock_1";
+#INST "microblaze_0" AREA_GROUP = "pblock_1";
+#INST "dlmb_cntlr" AREA_GROUP = "pblock_1";
+#INST "mb_plb" AREA_GROUP = "pblock_1";
+#INST "ilmb" AREA_GROUP = "pblock_1";
+#INST "dlmb" AREA_GROUP = "pblock_1";
+#INST "lmb_bram" AREA_GROUP = "pblock_1";
+#INST "RS232_Uart_1" AREA_GROUP = "pblock_1";
+#INST "ORGate_1" AREA_GROUP = "pblock_1";
+#INST "clock_generator_0" AREA_GROUP = "pblock_1";
+#INST "mdm_0" AREA_GROUP = "pblock_1";
+#INST "proc_sys_reset_0" AREA_GROUP = "pblock_1";
+#INST "xps_timer_0" AREA_GROUP = "pblock_1";
+#INST "xps_intc_0" AREA_GROUP = "pblock_1";
+#AREA_GROUP "pblock_1" RANGE=CLOCKREGION_X0Y6:CLOCKREGION_X1Y7;
+#INST "ring_osc_0" AREA_GROUP = "pblock_ring_osc_0";
+#AREA_GROUP "pblock_ring_osc_0" RANGE=SLICE_X24Y176:SLICE_X79Y185;
+#AREA_GROUP "pblock_ring_osc_0" RANGE=FIFO16_X2Y22:FIFO16_X2Y22;
+#AREA_GROUP "pblock_ring_osc_0" RANGE=RAMB16_X2Y22:RAMB16_X2Y22;
+## DUT Virtex4 LX60
+
+## Should connect to Pin 31 on J4 Header
+NET "fpga_0_RS232_Uart_1_RX_pin" TIG;
+NET "fpga_0_RS232_Uart_1_RX_pin" LOC = P4;
+NET "fpga_0_RS232_Uart_1_RX_pin" IOSTANDARD = LVCMOS33;
+## Should connect to Pin 33 on J4 Header
+NET "fpga_0_RS232_Uart_1_TX_pin" TIG;
+NET "fpga_0_RS232_Uart_1_TX_pin" LOC = P6;
+NET "fpga_0_RS232_Uart_1_TX_pin" IOSTANDARD = LVCMOS33;
+
+NET "fpga_0_clk_1_sys_clk_pin" TNM_NET = "sys_clk_pin";
+
+TIMESPEC TS_sys_clk_pin = PERIOD "sys_clk_pin" 100000 KHz;
+NET "fpga_0_clk_1_sys_clk_pin" LOC = C13;
+NET "fpga_0_clk_1_sys_clk_pin" IOSTANDARD = LVCMOS33;
+NET "fpga_0_rst_1_sys_rst_pin" TIG;
+NET "fpga_0_rst_1_sys_rst_pin" LOC = R7;
+NET "fpga_0_rst_1_sys_rst_pin" IOSTANDARD = LVCMOS33;
+NET "fpga_0_rst_1_sys_rst_pin" PULLUP;
+
+#=== UART Control / Status Signals to/from PUF Power Board
+NET "dut_uart_request" LOC = P8;
+NET "dut_uart_request" IOSTANDARD = LVCMOS33;
+NET "dut_uart_request" PULLUP;
+NET "dut_uart_release" LOC = M7;
+NET "dut_uart_release" IOSTANDARD = LVCMOS33;
+NET "dut_uart_release" PULLUP;
+NET "dut_uart_granted" LOC = N8;
+NET "dut_uart_granted" IOSTANDARD = LVCMOS33;
+NET "dut_uart_granted" PULLUP;
+NET "dut_test_done" LOC = P5;
+NET "dut_test_done" IOSTANDARD = LVCMOS33;
+NET "dut_test_done" PULLUP;
+NET "dut_rst" LOC = P7;
+NET "dut_rst" IOSTANDARD = LVCMOS33;
+NET "dut_rst" PULLUP;

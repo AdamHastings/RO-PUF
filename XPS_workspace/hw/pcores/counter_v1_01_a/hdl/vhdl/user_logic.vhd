@@ -139,7 +139,7 @@ architecture IMP of user_logic is
   ------------------------------------------
   signal slv_reg0                       : std_logic_vector(0 to C_SLV_DWIDTH-1);
   signal slv_reg1                       : std_logic_vector(0 to C_SLV_DWIDTH-1);
-  signal slv_reg2                       : std_logic_vector(0 to C_SLV_DWIDTH-1);
+  signal slv_reg2                       : std_logic_vector(C_SLV_DWIDTH-1 downto 0);
   signal slv_reg_write_sel              : std_logic_vector(0 to 2);
   signal slv_reg_read_sel               : std_logic_vector(0 to 2);
   signal slv_ip2bus_data                : std_logic_vector(0 to C_SLV_DWIDTH-1);
@@ -188,14 +188,16 @@ begin
         slv_reg2 <= (others => '0');
       else
 
-        if reset then
+        if reset = '1' then
           counter0 <= (others=>'0');
           counter1 <= (others=>'0');
         else
-          counter0 <= counter0 + 1;
-          if (unsigned(counter0)=100000000) then
-            counter0 <= (others=>'0');
-            counter1 <= counter1 + 1;
+	  			if enable = '1' then
+            counter0 <= counter0 + 1;
+            if (unsigned(counter0)=100000000) then
+              counter0 <= (others=>'0');
+              counter1 <= counter1 + 1;
+            end if;
           end if;
         end if;
 
@@ -220,6 +222,9 @@ begin
             end loop;
           when others => null;
         end case;
+
+				slv_reg0 <= counter0;
+				slv_reg1 <= counter1;
       end if;
     end if;
 

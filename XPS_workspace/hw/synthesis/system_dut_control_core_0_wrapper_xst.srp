@@ -5,7 +5,7 @@ Parameter TMPDIR set to /home/adam/RO-PUF/XPS_workspace/hw/synthesis/xst_temp_di
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.04 secs
+Total CPU time to Xst completion: 0.05 secs
  
 --> 
 
@@ -824,13 +824,13 @@ Offset:              0.360ns (Levels of Logic = 0)
 =========================================================================
 
 
-Total REAL time to Xst completion: 7.00 secs
-Total CPU time to Xst completion: 6.68 secs
+Total REAL time to Xst completion: 8.00 secs
+Total CPU time to Xst completion: 6.77 secs
  
 --> 
 
 
-Total memory usage is 667240 kilobytes
+Total memory usage is 667324 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :  107 (   0 filtered)

@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="8">
+	<Run Id="impl_1" Type="Ft2:EntireDesign" SrcSet="sources_1" Part="xc4vlx60ff668-11" LaunchPart="xc4vlx60ff668-11" ConstrsSet="constrs_1" Description="ISE Defaults, including packing registers in IOs off" State="current" Dir="$PRUNDIR/impl_1" LaunchTime="1525124859">
+		<File Type="MAP-PSR" Name="system.psr"/>
+		<File Type="PA-EDIF" Name="system.edf"/>
+		<File Type="PAR-NCD" Name="system_routed.ncd"/>
+		<File Type="PA-UCF" Name="system.ucf"/>
+		<File Type="PAR-PAD" Name="system_routed_pad.txt"/>
+		<File Type="PAR-PAR" Name="system_routed.par"/>
+		<File Type="PAR-UNR" Name="system_routed.unroutes"/>
+		<File Type="BG-BIT" Name="system.bit"/>
+		<File Type="BG-DRC" Name="system.drc"/>
+		<File Type="PA-CONSTRSDIR" Name=".constrs"/>
+		<File Type="BG-BGN" Name="system.bgn"/>
+		<File Type="TRCE-TWR" Name="system.twr"/>
+		<File Type="TRCE-TWX" Name="system.twx"/>
+		<File Type="XDL-XDL" Name="system_routed.xdl"/>
+		<File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+		<File Type="WBT-LOG" Name="webtalk.log"/>
+		<File Type="RUN-SRCS" Name="$PDATADIR/runs/impl_1/sources.xml"/>
+		<File Type="RUN-CONSTRS" Name="$PDATADIR/runs/impl_1/constrs_in.xml"/>
+		<File Type="RUN-STRAT" Name="$PDATADIR/runs/impl_1/impl_1.psg"/>
+		<File Type="NGDB-NGD" Name="system.ngd"/>
+		<File Type="NGDB-BLD" Name="system.bld"/>
+		<File Type="MAP-NCD" Name="system.ncd"/>
+		<File Type="MAP-PCF" Name="system.pcf"/>
+		<File Type="MAP-MRP" Name="system.mrp"/>
+		<File Type="MAP-MAP" Name="system.map"/>
+	</Run>
+</Runs>
+
