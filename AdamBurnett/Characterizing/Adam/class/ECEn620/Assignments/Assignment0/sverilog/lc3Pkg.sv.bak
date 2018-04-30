@@ -1,0 +1,16 @@
+package lc3Pkg;
+  typedef enum { FETCH0, FETCH1, FETCH2, 
+         DECODE, 
+         BRANCH0, 
+         ADD0, 
+         STORE0, STORE1, STORE2, 
+         JSR0, JSR1, 
+         AND0, 
+         NOT0, 
+         JMP0, 
+         LD0, LD1, LD2} ControlStates; 
+  typedef enum { BR, ADD, LD, ST,
+         JSR, AND, LDR, STR,
+         RTI, NOT, LDI, STI,
+         JMP, RES, LEA, TRAP } Opcodes; 
+endpackage

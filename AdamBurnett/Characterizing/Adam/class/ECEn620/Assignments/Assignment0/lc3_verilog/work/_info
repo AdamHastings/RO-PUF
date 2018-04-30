@@ -1,0 +1,93 @@
+m255
+K3
+13
+cModel Technology
+Z0 d/fpga1/users/joshuas2
+T_opt
+VSC]U7n38me9T`:c3O8?zi1
+04 12 4 work lc3_datapath fast 0
+=1-001f29015546-540f8943-997c2-4c38
+Z1 o-quiet -auto_acc_if_foreign -work work
+n@_opt
+Z2 OL;O;10.1c;51
+Z3 d/fpga1/users/joshuas2
+T_opt1
+VG[>jOnFKAFl;6c?lhV73k1
+04 13 4 work lc3_testbench fast 0
+=1-001f29015546-5410ccac-a3767-5763
+R1
+n@_opt1
+R2
+R3
+vlc3
+VV[`1=HEGU<]LmE4X7]W4C1
+r1
+31
+IAMn<A8PFz]=1ea9407CBV3
+Z4 d/net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment0/lc3_verilog
+w1410408267
+8/net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment0/verilog/lc3.v
+F/net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment0/verilog/lc3.v
+L0 2
+Z5 OL;L;10.1c;51
+Z6 o-work work -L mtiAvm -L mtiOvm -L mtiUPF
+!s85 0
+!s100 z]z?R2Z=FM9ba3V5jSf5C3
+!s90 -reportprogress|300|-work|work|-vopt|/net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment0/verilog/lc3.v|
+!s108 1410496305.795274
+!s107 /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment0/verilog/lc3.v|
+!i10b 1
+vlc3_control
+VQP2=l62eSgA?]=3SIWIjY3
+r1
+!s85 0
+31
+IJ3aJ`YYN23C8P0E@ZUYGX0
+R4
+w1410465084
+8/net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment0/verilog/lc3_control.v
+F/net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment0/verilog/lc3_control.v
+L0 2
+R5
+R6
+!s100 V9cF_GkeY^OKYL<mlWR0L3
+!s90 -reportprogress|300|-work|work|-vopt|/net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment0/verilog/lc3_control.v|
+!s108 1410496305.850306
+!s107 /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment0/verilog/lc3_control.v|
+!i10b 1
+vlc3_datapath
+V@9OT4hGEKD40l4V3Y3M@e1
+r1
+31
+IfkV9V[]4kzg^JoWzXcIJK1
+R4
+w1410496304
+8/net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment0/verilog/lc3_datapath.v
+F/net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment0/verilog/lc3_datapath.v
+L0 2
+R5
+R6
+!s85 0
+!s90 -reportprogress|300|-work|work|-vopt|/net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment0/verilog/lc3_datapath.v|
+!s100 DJzkWzaPLHZ;[kA9D?lJ10
+!s108 1410496305.727696
+!s107 /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment0/verilog/lc3_datapath.v|
+!i10b 1
+vlc3_testbench
+V=BXD`mz?eEniEM1:_g93h1
+r1
+31
+IL[iDQ>RgeU:oQP4^1Bo4=0
+R4
+w1410496236
+8/net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment0/verilog/lc3_testbench.v
+F/net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment0/verilog/lc3_testbench.v
+L0 6
+R5
+R6
+!s85 0
+!s100 jdRQ3_6GRIILV4XkH8agN2
+!s90 -reportprogress|300|-work|work|-vopt|/net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment0/verilog/lc3_testbench.v|
+!i10b 1
+!s108 1410496305.913065
+!s107 /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment0/verilog/lc3_testbench.v|

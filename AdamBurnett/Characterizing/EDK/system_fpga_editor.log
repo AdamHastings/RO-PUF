@@ -1,0 +1,70 @@
+#:C9     
+#Xilinx FPGA Editor Command Log File
+#Editor Version:
+#:V   NT M2.1 P.49d
+#Current Working Directory:
+#:D   E:\Adam\Characterizing\PlanAhead\characterizer\characterizer.runs\impl_1
+#Date/Time:
+#:T   Fri Feb 13 12:35:51 2015
+#------------------------------
+	#Reading E:\Adam\Characterizing\PlanAhead\characterizer\characterizer.runs\impl_1\system.ncd...
+	#Loading device for application Rf_Device from file '4vlx60.nph' in environment E:\Xilinx\14.4\ISE_DS\ISE\.
+	#   "system" is an NCD, version 3.2, device xc4vlx60, package ff668, speed -11
+	#This design is using the default stepping level (major silicon revision) for this device (1). Unless your design is targeted at devices of this stepping level, it is recommended that you explicitly specify the stepping level of the parts you will be using. This will allow the tools to take advantage of any available performance and functional enhancements for this device. The latest stepping level for this device is '2'. Additional information on "stepping level" is available at support.xilinx.com.
+	#Design creation date: 2015.02.13.19.35.30
+	#Building chip graphics...
+	#Loading speed info...
+	#1
+select -k comp 'ring_osc_0/ring_osc_0/USER_LOGIC_I/ring_osc[24]'
+	#2
+unselect -all
+	#3
+select arc 'OUTPUT(14528,39240)--->INPUT(14528,39208)'
+	#arc "OUTPUT(14528,39240)--->INPUT(14528,39208)"
+	#4
+unselect -all
+	#5
+select arc 'OUTPUT(14528,39240)--->INPUT(14528,39208)'
+	#arc "OUTPUT(14528,39240)--->INPUT(14528,39208)"
+	#6
+unselect -all
+	#7
+select arc 'OUTPUT(14528,39240)--->INPUT(14528,39208)'
+	#arc "OUTPUT(14528,39240)--->INPUT(14528,39208)"
+	#8
+unselect -all
+	#9
+select comp 'ring_osc_0/ring_osc_0/USER_LOGIC_I/ring_osc[24]'
+	#comp "ring_osc_0/ring_osc_0/USER_LOGIC_I/ring_osc[24]",  site "SLICE_X56Y150",  type = SLICEL  (RPM grid X133Y150)
+	#10
+save
+	#11
+autoroute -all
+	#Building the delay mediator...
+	#Hint: to automatically load delays when design is loaded, setattr main auto_load_delays true
+	#
+	#Phase  1  : 18998 unrouted;      REAL time: 0 secs 
+	#
+	#Phase  2  : 16741 unrouted;      REAL time: 0 secs 
+	#
+	#Phase  3  : 6682 unrouted;      REAL time: 3 secs 
+	#
+	#Phase  4  : 6682 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 6 secs 
+	#
+	#Updating file: C:/Users/Adam/AppData/Local/Temp/xil_36084_5 with current fully routed design.
+	#
+	#Phase  5  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 11 secs 
+	#
+	#Phase  6  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 11 secs 
+	#
+	#Phase  7  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 11 secs 
+	#
+	#Phase  8  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 11 secs 
+	#
+	#Phase  9  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 11 secs 
+	#
+	#Phase 10  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 12 secs 
+	#Completed route status: 4547 of 4549 nets are fully routed.
+	#12
+save
+	#Constraint file is updated.  No saving is necessary.

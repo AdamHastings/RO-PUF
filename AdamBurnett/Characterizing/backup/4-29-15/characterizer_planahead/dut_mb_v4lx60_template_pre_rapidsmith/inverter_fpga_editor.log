@@ -1,0 +1,141 @@
+#:C39    
+#Xilinx FPGA Editor Command Log File
+#Editor Version:
+#:V   NT M2.1 P.49d
+#Current Working Directory:
+#:D   E:\Adam\Characterizing\dut_mb_v4lx60_template_pre_rapidsmith
+#Date/Time:
+#:T   Thu Mar 05 11:52:28 2015
+#------------------------------
+	#Reading E:\Adam\Characterizing\dut_mb_v4lx60_template_pre_rapidsmith\inverter.nmc...
+	#Loading device for application Rf_Device from file '4vlx60.nph' in environment E:\Xilinx\14.4\ISE_DS\ISE\.
+	#   "ring_oscillator" is an NCD, version 3.2, device xc4vlx60, package ff668, speed -11
+	#This design is using the default stepping level (major silicon revision) for this device (1). Unless your design is targeted at devices of this stepping level, it is recommended that you explicitly specify the stepping level of the parts you will be using. This will allow the tools to take advantage of any available performance and functional enhancements for this device. The latest stepping level for this device is '2'. Additional information on "stepping level" is available at support.xilinx.com.
+	#Design creation date: 2015.03.05.18.52.31
+	#Building chip graphics...
+	#Loading speed info...
+	#1
+setattr main edit-mode Read-Write
+	#2
+select -k net '$NET_2'
+	#3
+unselect -all
+	#4
+select pin 'SLICE_X50Y130.Y'
+	#site.pin = SLICE_X50Y130.Y, comp.pin = $COMP_0.Y, hard macro.pin = Y, delay = unrouted on net "$NET_2"
+	#5
+unselect -all
+	#6
+select comp '$COMP_0'
+	#comp "$COMP_0",  site "SLICE_X50Y130",  type = SLICEM  (RPM grid X117Y130)
+	#7
+post block
+	#8
+unselect comp '$COMP_0'
+	#9
+select -k net '$NET_2'
+	#10
+unselect net '$NET_2'
+	#11
+select -k net '$NET_3'
+	#12
+unselect net '$NET_3'
+	#13
+select -k net '$NET_2'
+	#14
+unselect -all
+	#15
+select pin 'SLICE_X50Y130.Y'
+	#site.pin = SLICE_X50Y130.Y, comp.pin = $COMP_0.Y, hard macro.pin = Y, delay = unrouted on net "$NET_2"
+	#16
+post block
+	#ERROR:FPGAEditor:79 - The "post block" command without any other arguments cannot
+	#be performed unless the selection contains only a single site
+	#or single component.  Change the selection and try again.
+	#17
+unselect -all
+	#18
+select pin 'SLICE_X50Y130.Y'
+	#site.pin = SLICE_X50Y130.Y, comp.pin = $COMP_0.Y, hard macro.pin = Y, delay = unrouted on net "$NET_2"
+	#19
+unselect -all
+	#20
+select pin 'SLICE_X50Y130.Y'
+	#site.pin = SLICE_X50Y130.Y, comp.pin = $COMP_0.Y, hard macro.pin = Y, delay = unrouted on net "$NET_2"
+	#21
+post block
+	#ERROR:FPGAEditor:79 - The "post block" command without any other arguments cannot
+	#be performed unless the selection contains only a single site
+	#or single component.  Change the selection and try again.
+	#22
+unselect -all
+	#23
+select pin 'SLICE_X50Y130.Y'
+	#site.pin = SLICE_X50Y130.Y, comp.pin = $COMP_0.Y, hard macro.pin = Y, delay = unrouted on net "$NET_2"
+	#24
+delete
+	#25
+unselect -all
+	#26
+select pin 'SLICE_X50Y130.Y'
+	#site.pin = SLICE_X50Y130.Y, comp.pin = $COMP_0.Y, delay = unrouted on net "$NET_2"
+	#27
+add
+	#28
+unselect -all
+	#29
+select comp '$COMP_0'
+	#comp "$COMP_0",  site "SLICE_X50Y130",  type = SLICEM  (RPM grid X117Y130)
+	#30
+unselect -all
+	#31
+select pin 'SLICE_X50Y130.Y'
+	#site.pin = SLICE_X50Y130.Y, comp.pin = $COMP_0.Y, delay = unrouted on net "$NET_2"
+	#32
+post attr
+	#33
+unpost pin "SLICE_X50Y130.Y"
+	#34
+unselect -all
+	#35
+select comp '$COMP_0'
+	#comp "$COMP_0",  site "SLICE_X50Y130",  type = SLICEM  (RPM grid X117Y130)
+	#36
+unselect -all
+	#37
+select pin 'SLICE_X50Y130.Y'
+	#site.pin = SLICE_X50Y130.Y, comp.pin = $COMP_0.Y, delay = unrouted on net "$NET_2"
+	#38
+unselect -all
+	#39
+select pin 'SLICE_X50Y130.Y'
+	#site.pin = SLICE_X50Y130.Y, comp.pin = $COMP_0.Y, delay = unrouted on net "$NET_2"
+	#40
+post block
+	#ERROR:FPGAEditor:79 - The "post block" command without any other arguments cannot
+	#be performed unless the selection contains only a single site
+	#or single component.  Change the selection and try again.
+	#41
+unselect -all
+	#42
+select pin 'SLICE_X50Y130.Y'
+	#site.pin = SLICE_X50Y130.Y, comp.pin = $COMP_0.Y, delay = unrouted on net "$NET_2"
+	#43
+unselect -all
+	#44
+select pin 'SLICE_X50Y130.Y'
+	#site.pin = SLICE_X50Y130.Y, comp.pin = $COMP_0.Y, delay = unrouted on net "$NET_2"
+	#45
+unselect -all
+	#46
+select pin 'SLICE_X50Y130.Y'
+	#site.pin = SLICE_X50Y130.Y, comp.pin = $COMP_0.Y, delay = unrouted on net "$NET_2"
+	#47
+post block
+	#ERROR:FPGAEditor:79 - The "post block" command without any other arguments cannot
+	#be performed unless the selection contains only a single site
+	#or single component.  Change the selection and try again.
+	#48
+post attr
+	#49
+unpost pin "SLICE_X50Y130.Y"

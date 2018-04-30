@@ -1,0 +1,169 @@
+m255
+K3
+13
+cModel Technology
+Z0 d/net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment0/lc3_verilog
+vlc3
+Z1 DXx6 sv_std 3 std 0 22 F[19LRNL:5;XmIFh[XOPn1
+Z2 !s100 nL>ncMllGa]TbDzWbT_Fd3
+Z3 ICJ^QI]fEoG[5hYU0d7E822
+Z4 VV[`1=HEGU<]LmE4X7]W4C1
+Z5 !s105 lc3_sv_unit
+S1
+Z6 d/fpga1/users/joshuas2/ECEn620/Assignments/Assignment0/lc3_sverilog
+Z7 w1410467849
+Z8 8/net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment0/sverilog/lc3.sv
+Z9 F/net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment0/sverilog/lc3.sv
+L0 2
+Z10 OL;L;10.1c;51
+r1
+31
+Z11 !s90 -reportprogress|300|-work|work|-source|-vopt|-sv|/net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment0/sverilog/lc3.sv|
+Z12 o-work work -source -sv -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
+Z13 tShow_source 1
+!i10b 1
+!s85 0
+Z14 !s108 1410492250.612593
+Z15 !s107 /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment0/sverilog/lc3.sv|
+vlc3_control
+R1
+Z16 DXx4 work 6 lc3Pkg 0 22 M9b;NV<B6lenV:fRzkhkM3
+Z17 DXx4 work 19 lc3_control_sv_unit 0 22 _E=SnQK=`bo=XiC8FS0M;2
+Z18 VGg?:eo66bShE;<`o?:0dG0
+r1
+31
+Z19 !s100 =ohi0b=fPg6lG3Yh>;M9T2
+Z20 I1DN;OglP7T7iGb>CI^`k80
+Z21 !s105 lc3_control_sv_unit
+S1
+R6
+Z22 w1410486043
+Z23 8/net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment0/sverilog/lc3_control.sv
+Z24 F/net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment0/sverilog/lc3_control.sv
+L0 6
+R10
+Z25 !s108 1410492250.448635
+Z26 !s107 /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment0/sverilog/lc3_control.sv|
+Z27 !s90 -reportprogress|300|-work|work|-source|-vopt|-sv|+incdir+/net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment0/sverilog|/net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment0/sverilog/lc3_control.sv|
+R12
+Z28 !s92 -work work -source -sv +incdir+/net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment0/sverilog -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
+R13
+!s85 0
+!i10b 1
+Xlc3_control_sv_unit
+R1
+R16
+Z29 V_E=SnQK=`bo=XiC8FS0M;2
+r1
+31
+Z30 !s100 IZn3jK1Gm]_FT?c>O18M=1
+Z31 I_E=SnQK=`bo=XiC8FS0M;2
+S1
+R6
+R22
+R23
+R24
+L0 4
+R10
+R25
+R26
+R27
+R12
+R28
+R13
+!s85 0
+!i10b 1
+!i103 1
+vlc3_datapath
+R1
+Z32 !s100 NK0f5zfmhkjTnhfaeK4BF0
+Z33 INaYGS3FW_?fzLD1PomAlI1
+Z34 VfjPjlkDhbHA9ZVdFih>7K1
+Z35 !s105 lc3_datapath_sv_unit
+S1
+R6
+Z36 w1410484750
+Z37 8/net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment0/sverilog/lc3_datapath.sv
+Z38 F/net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment0/sverilog/lc3_datapath.sv
+L0 2
+R10
+r1
+31
+Z39 !s90 -reportprogress|300|-work|work|-source|-vopt|-sv|/net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment0/sverilog/lc3_datapath.sv|
+R12
+R13
+Z40 !s108 1410492250.540874
+Z41 !s107 /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment0/sverilog/lc3_datapath.sv|
+!i10b 1
+!s85 0
+vlc3_testbench
+R1
+R16
+Z42 DXx4 work 21 lc3_testbench_sv_unit 0 22 fkgSUT3Y27eIShQj;<KGK2
+Z43 Vbb6`O5RW4nFeR_9RjLW6S2
+r1
+!s85 0
+31
+!i10b 1
+!s100 88Q`R_dLzaW5:@iLWCQ4A1
+I`d1UQH_zUJ?kFMH`zkeTD1
+Z44 !s105 lc3_testbench_sv_unit
+S1
+R6
+Z45 w1410492247
+Z46 8/net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment0/sverilog/lc3_testbench.sv
+Z47 F/net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment0/sverilog/lc3_testbench.sv
+L0 10
+R10
+Z48 !s108 1410492250.678166
+Z49 !s107 /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment0/sverilog/lc3_testbench.sv|
+Z50 !s90 -reportprogress|300|-work|work|-source|-vopt|-sv|+incdir+/net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment0/sverilog|/net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment0/sverilog/lc3_testbench.sv|
+R12
+R28
+R13
+Xlc3_testbench_sv_unit
+R1
+R16
+Z51 VfkgSUT3Y27eIShQj;<KGK2
+r1
+!s85 0
+31
+!i10b 1
+Z52 !s100 R:bco]To@A>D4[@fAHPa61
+Z53 IfkgSUT3Y27eIShQj;<KGK2
+!i103 1
+S1
+R6
+R45
+R46
+R47
+L0 8
+R10
+R48
+R49
+R50
+R12
+R28
+R13
+Xlc3Pkg
+R1
+Z54 !s100 eUbUk4@lFez[dQYK;GfHM1
+Z55 IM9b;NV<B6lenV:fRzkhkM3
+Z56 VM9b;NV<B6lenV:fRzkhkM3
+S1
+R6
+Z57 w1410485610
+Z58 8/net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment0/sverilog/lc3Pkg.sv
+Z59 F/net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment0/sverilog/lc3Pkg.sv
+L0 1
+R10
+r1
+31
+Z60 !s90 -reportprogress|300|-work|work|-source|-vopt|-sv|/net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment0/sverilog/lc3Pkg.sv|
+R12
+R13
+Z61 nlc3@pkg
+Z62 !s108 1410492250.368639
+Z63 !s107 /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment0/sverilog/lc3Pkg.sv|
+!i10b 1
+!s85 0

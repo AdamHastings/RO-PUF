@@ -1,0 +1,21 @@
+#:C0     
+#Xilinx FPGA Editor Command Log File
+#Editor Version:
+#:V   NT M2.1 P.49d
+#Current Working Directory:
+#:D   E:\Adam\Characterizing\ring_oscillator_hm
+#Date/Time:
+#:T   Mon Feb 23 16:17:45 2015
+#------------------------------
+	#Reading E:\Adam\Characterizing\ring_oscillator_hm\ring_oscillator.ncd...
+	#   "null" is an NCD, version 3.2, device xc4vlx60, package ff668, speed -11
+	#This design is using the default stepping level (major silicon revision) for this device (1). Unless your design is targeted at devices of this stepping level, it is recommended that you explicitly specify the stepping level of the parts you will be using. This will allow the tools to take advantage of any available performance and functional enhancements for this device. The latest stepping level for this device is '2'. Additional information on "stepping level" is available at support.xilinx.com.
+	#   "ring_oscillator" is an NCD, version 3.2, device xc4vlx60, package ff668, speed -11
+	#This design is using the default stepping level (major silicon revision) for this device (1). Unless your design is targeted at devices of this stepping level, it is recommended that you explicitly specify the stepping level of the parts you will be using. This will allow the tools to take advantage of any available performance and functional enhancements for this device. The latest stepping level for this device is '2'. Additional information on "stepping level" is available at support.xilinx.com.
+	#Design creation date: 2015.02.23.21.59.33
+	#Building chip graphics...
+	#Loading speed info...
+	#1
+select -k comp 'ring_osc<41>/$COMP_0'
+	#2
+post open

@@ -1,0 +1,12 @@
+INFO:NgdBuild - Release 14.7 edif2ngd P.20131013 (nt64)
+INFO:NgdBuild - Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Writing module to "_ngo/system.ngo"...
+Xilinx Platform Studio (XPS)
+Xilinx EDK 14.4 Build EDK_P.49d
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+Writing filter settings....
+Done writing filter settings to:
+	E:\Adam\Characterizing\EDK\etc\system.filters
+Done writing Tab View settings to:
+	E:\Adam\Characterizing\EDK\etc\system.gui

@@ -1,0 +1,288 @@
+#:C99    
+#Xilinx FPGA Editor Command Log File
+#Editor Version:
+#:V   NT M2.1 P.49d
+#Current Working Directory:
+#:D   E:\Xilinx\14.4\ISE_DS\ISE\bin\nt64
+#Date/Time:
+#:T   Mon May 04 12:03:18 2015
+#------------------------------
+	#Design creation date: 2015.05.04.18.03.18
+	#Loading device for application Rf_Device from file '4vlx60.nph' in environment E:\Xilinx\14.4\ISE_DS\ISE\.
+	#Building chip graphics...
+	#Loading speed info...
+	#1
+unselect -all
+	#2
+select site 'SLICE_X48Y136'
+	#site "SLICE_X48Y136",  type = SLICEM  (RPM grid X113Y136)
+	#3
+unselect -all
+	#4
+select site 'SLICE_X48Y136'
+	#site "SLICE_X48Y136",  type = SLICEM  (RPM grid X113Y136)
+	#5
+post block
+	#6
+add
+	#Completed route status: 0 of 0 nets are fully routed.
+	#7
+post attr comp $COMP_0
+	#8
+setattr comp $COMP_0  type SLICEL
+	#9
+unpost comp "$COMP_0"
+	#10
+unselect -all
+	#11
+select comp '$COMP_0'
+	#comp "$COMP_0",  site "SLICE_X48Y136",  type = SLICEL  (RPM grid X113Y136)
+	#12
+post block
+	#13
+setattr comp $COMP_0 G "A1*A2"
+	#0 DRC errors and 1 DRC warnings.
+	#<YUSED>.
+	# GetEqnCfgData equation D
+	#0 DRC errors and 1 DRC warnings.
+	#14
+setattr comp $COMP_0 Config "G:#LUT:D=A1*A2 YUSED:0"
+	#15
+block apply
+	#16
+end block
+	#17
+unselect -all
+	#18
+select comp '$COMP_0'
+	#comp "$COMP_0",  site "SLICE_X48Y136",  type = SLICEL  (RPM grid X113Y136)
+	#19
+unselect -all
+	#20
+select comp '$COMP_0'
+	#comp "$COMP_0",  site "SLICE_X48Y136",  type = SLICEL  (RPM grid X113Y136)
+	#21
+post block
+	#22
+unselect -all
+	#23
+unselect -all
+	#24
+select pin 'SLICE_X48Y136.G1'
+	#site.pin = SLICE_X48Y136.G1, comp.pin = $COMP_0.G1
+	#25
+add
+	#26
+post attr net $NET_0
+	#27
+unpost net "$NET_0"
+	#28
+unselect -all
+	#29
+unselect -all
+	#30
+select pin 'SLICE_X48Y136.G1'
+	#site.pin = SLICE_X48Y136.G1, comp.pin = $COMP_0.G1, delay = ~0.000ns on net "$NET_0"
+	#31
+unselect -all
+	#32
+select pin 'SLICE_X48Y136.G2'
+	#site.pin = SLICE_X48Y136.G2, comp.pin = $COMP_0.G2
+	#33
+add
+	#34
+post attr net $NET_1
+	#35
+unpost net "$NET_1"
+	#36
+unselect -all
+	#37
+unselect -all
+	#38
+select pin 'SLICE_X48Y136.XMUX'
+	#site.pin = SLICE_X48Y136.XMUX, comp.pin = $COMP_0.XMUX
+	#39
+unselect -all
+	#40
+select pin 'SLICE_X48Y136.X'
+	#site.pin = SLICE_X48Y136.X, comp.pin = $COMP_0.X
+	#41
+unselect -all
+	#42
+select pin 'SLICE_X48Y136.Y'
+	#site.pin = SLICE_X48Y136.Y, comp.pin = $COMP_0.Y
+	#43
+add
+	#44
+post attr net $NET_2
+	#45
+unpost net "$NET_2"
+	#46
+unselect -all
+	#47
+unselect -all
+	#48
+select comp '$COMP_0'
+	#comp "$COMP_0",  site "SLICE_X48Y136",  type = SLICEL  (RPM grid X113Y136)
+	#49
+unselect -all
+	#50
+select comp '$COMP_0'
+	#comp "$COMP_0",  site "SLICE_X48Y136",  type = SLICEL  (RPM grid X113Y136)
+	#51
+post block
+	#52
+unselect -all
+	#53
+unselect -all
+	#54
+select comp '$COMP_0'
+	#comp "$COMP_0",  site "SLICE_X48Y136",  type = SLICEL  (RPM grid X113Y136)
+	#55
+unselect -all
+	#56
+select comp '$COMP_0'
+	#comp "$COMP_0",  site "SLICE_X48Y136",  type = SLICEL  (RPM grid X113Y136)
+	#57
+post block
+	#58
+unselect -all
+	#59
+unselect -all
+	#60
+select pin 'SLICE_X48Y136.G2'
+	#site.pin = SLICE_X48Y136.G2, comp.pin = $COMP_0.G2, delay = ~0.000ns on net "$NET_1"
+	#61
+unselect -all
+	#62
+select comp '$COMP_0'
+	#comp "$COMP_0",  site "SLICE_X48Y136",  type = SLICEL  (RPM grid X113Y136)
+	#63
+unselect -all
+	#64
+select pin 'SLICE_X48Y136.G1'
+	#site.pin = SLICE_X48Y136.G1, comp.pin = $COMP_0.G1, delay = ~0.000ns on net "$NET_0"
+	#65
+unselect -all
+	#66
+select pin 'SLICE_X48Y136.G2'
+	#site.pin = SLICE_X48Y136.G2, comp.pin = $COMP_0.G2, delay = ~0.000ns on net "$NET_1"
+	#67
+unselect -all
+	#68
+select comp '$COMP_0'
+	#comp "$COMP_0",  site "SLICE_X48Y136",  type = SLICEL  (RPM grid X113Y136)
+	#69
+unselect -all
+	#70
+select comp '$COMP_0'
+	#comp "$COMP_0",  site "SLICE_X48Y136",  type = SLICEL  (RPM grid X113Y136)
+	#71
+post block
+	#72
+end block
+	#73
+unselect -all
+	#74
+save
+	#Constraint file is updated.  No saving is necessary.
+	#75
+drc
+	#WARNING:PhysDesignRules:368 - The signal <$NET_0> is incomplete. The signal is not driven by any source pin in the design.
+	#WARNING:PhysDesignRules:368 - The signal <$NET_1> is incomplete. The signal is not driven by any source pin in the design.
+	#WARNING:PhysDesignRules:367 - The signal <$NET_2> is incomplete. The signal does not drive any load pins in the design.
+	#ERROR:PhysDesignRules:1709 - Incomplete connectivity. The pin <G2> of comp block <$COMP_0> is used and partially connected to network <$NET_1>. All networks must have complete connectivity through out the comp hierarchy and the connectivity for this pin must be removed or completed.
+	#WARNING:PhysDesignRules:841 - Issue with pin connections and/or configuration on block:<$COMP_0.G>:<SLICEL_G>.  Dangling input pin. This configuration requires a signal on the SLICEL_G input equation pins.
+	#ERROR:PhysDesignRules:1244 - This architecture requires all DCM_ADV blocks to be programmed and none are currently programmed. Please either configure every DCM_ADV and provide CLKIN and CLKFB signals in FPGA Editor or re-run map. 
+	#WARNING:PhysDesignRules:10 - The network <$NET_0> is completely unrouted.
+	#WARNING:PhysDesignRules:10 - The network <$NET_1> is completely unrouted.
+	#DRC - all check: 6 warnings, 2 errors.
+	#76
+post drc
+	#77
+drc -all
+	#WARNING:PhysDesignRules:368 - The signal <$NET_0> is incomplete. The signal is not driven by any source pin in the design.
+	#WARNING:PhysDesignRules:368 - The signal <$NET_1> is incomplete. The signal is not driven by any source pin in the design.
+	#WARNING:PhysDesignRules:367 - The signal <$NET_2> is incomplete. The signal does not drive any load pins in the design.
+	#ERROR:PhysDesignRules:1709 - Incomplete connectivity. The pin <G2> of comp block <$COMP_0> is used and partially connected to network <$NET_1>. All networks must have complete connectivity through out the comp hierarchy and the connectivity for this pin must be removed or completed.
+	#WARNING:PhysDesignRules:841 - Issue with pin connections and/or configuration on block:<$COMP_0.G>:<SLICEL_G>.  Dangling input pin. This configuration requires a signal on the SLICEL_G input equation pins.
+	#ERROR:PhysDesignRules:1244 - This architecture requires all DCM_ADV blocks to be programmed and none are currently programmed. Please either configure every DCM_ADV and provide CLKIN and CLKFB signals in FPGA Editor or re-run map. 
+	#WARNING:PhysDesignRules:10 - The network <$NET_0> is completely unrouted.
+	#WARNING:PhysDesignRules:10 - The network <$NET_1> is completely unrouted.
+	#DRC - all check: 6 warnings, 2 errors.
+	#78
+unpost drc
+	#79
+drc -all
+	#WARNING:PhysDesignRules:368 - The signal <$NET_0> is incomplete. The signal is not driven by any source pin in the design.
+	#WARNING:PhysDesignRules:368 - The signal <$NET_1> is incomplete. The signal is not driven by any source pin in the design.
+	#WARNING:PhysDesignRules:367 - The signal <$NET_2> is incomplete. The signal does not drive any load pins in the design.
+	#ERROR:PhysDesignRules:1709 - Incomplete connectivity. The pin <G2> of comp block <$COMP_0> is used and partially connected to network <$NET_1>. All networks must have complete connectivity through out the comp hierarchy and the connectivity for this pin must be removed or completed.
+	#WARNING:PhysDesignRules:841 - Issue with pin connections and/or configuration on block:<$COMP_0.G>:<SLICEL_G>.  Dangling input pin. This configuration requires a signal on the SLICEL_G input equation pins.
+	#ERROR:PhysDesignRules:1244 - This architecture requires all DCM_ADV blocks to be programmed and none are currently programmed. Please either configure every DCM_ADV and provide CLKIN and CLKFB signals in FPGA Editor or re-run map. 
+	#WARNING:PhysDesignRules:10 - The network <$NET_0> is completely unrouted.
+	#WARNING:PhysDesignRules:10 - The network <$NET_1> is completely unrouted.
+	#DRC - all check: 6 warnings, 2 errors.
+	#80
+unselect -all
+	#81
+unselect -all
+	#82
+select wire 'INPUT(-8728,14912)'
+	#node = INPUT(-8728,14912)
+	#83
+unselect -all
+	#84
+select pin 'SLICE_X48Y136.G1'
+	#site.pin = SLICE_X48Y136.G1, comp.pin = $COMP_0.G1, delay = ~0.000ns on net "$NET_0"
+	#85
+unselect pin 'SLICE_X48Y136.G1'
+	#86
+select -k net '$NET_1'
+	#87
+unselect -all
+	#88
+select comp '$COMP_0'
+	#comp "$COMP_0",  site "SLICE_X48Y136",  type = SLICEL  (RPM grid X113Y136)
+	#89
+unselect -all
+	#90
+select comp '$COMP_0'
+	#comp "$COMP_0",  site "SLICE_X48Y136",  type = SLICEL  (RPM grid X113Y136)
+	#91
+post block
+	#<G2>; net <$NET_1>.
+	#<G2>; net <$NET_1>.
+	#<G2>; net <$NET_1>.
+	#<G2>; net <$NET_1>.
+	#<G2>; net <$NET_1>.
+	#<G>=A1*A2; bel <$COMP_0.G>.
+	#92
+setattr comp $COMP_0 G "A1*~A2"
+	#There were no DRC errors or warnings.
+	#93
+setattr comp $COMP_0 G "A1*A2"
+	#There were no DRC errors or warnings.
+	#94
+setattr comp $COMP_0 Config "G:#LUT:D=A1*A2 YUSED:0"
+	#95
+block apply
+	#96
+end block
+	#97
+unselect -all
+	#98
+select comp '$COMP_0'
+	#comp "$COMP_0",  site "SLICE_X48Y136",  type = SLICEL  (RPM grid X113Y136)
+	#99
+unselect -all
+	#100
+select comp '$COMP_0'
+	#comp "$COMP_0",  site "SLICE_X48Y136",  type = SLICEL  (RPM grid X113Y136)
+	#101
+post block
+	#102
+unselect -all
+	#103
+save
+	#Constraint file is updated.  No saving is necessary.

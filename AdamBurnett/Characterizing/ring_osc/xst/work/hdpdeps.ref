@@ -1,0 +1,9 @@
+V3 4
+EN work/user_logic 0 \
+      FL E:/Adam/Characterizing/ring_osc_v1_00_a/hdl/vhdl/user_logic.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179 LB proc_common_v3_00_a \
+      PH proc_common_v3_00_a/proc_common_pkg 0
+AR work/user_logic/IMP 0 \
+      FL E:/Adam/Characterizing/ring_osc_v1_00_a/hdl/vhdl/user_logic.vhd \
+      EN work/user_logic 0

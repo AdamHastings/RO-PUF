@@ -1,0 +1,9 @@
+interface SPM_IF(bit clk) #(parameter word_size = 8);
+   bit rst; // Active low asynchronous reset
+   bit [word_size-1: 0] data_out; // Read data from memory unit - input
+   bit [word_size-1: 0] address;  // Address to read/write - output
+   bit [word_size-1: 0] data_in;  // Write data to memory unit - output
+   bit 			write;
+     // Write flag to memory unit - output
+
+endinterface

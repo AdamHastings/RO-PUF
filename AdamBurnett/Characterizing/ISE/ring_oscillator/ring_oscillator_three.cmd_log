@@ -1,0 +1,14 @@
+xst -intstyle ise -ifn "E:/Adam/Characterizing/ISE/ring_oscillator/ring_oscillator_three.xst" -ofn "E:/Adam/Characterizing/ISE/ring_oscillator/ring_oscillator_three.syr" 
+ngdbuild -intstyle ise -dd _ngo -aul -aut -nt timestamp -i -p xc4vlx60-ff668-11 ring_oscillator_three.ngc ring_oscillator_three.ngd  
+map -intstyle ise -p xc4vlx60-ff668-11 -global_opt off -cm area -ir off -pr off -c 100 -o ring_oscillator_three_map.ncd ring_oscillator_three.ngd ring_oscillator_three.pcf 
+xst -intstyle ise -ifn "E:/Adam/Characterizing/ISE/ring_oscillator/ring_oscillator_three.xst" -ofn "E:/Adam/Characterizing/ISE/ring_oscillator/ring_oscillator_three.syr" 
+ngdbuild -intstyle ise -dd _ngo -aul -aut -nt timestamp -i -p xc4vlx60-ff668-11 ring_oscillator_three.ngc ring_oscillator_three.ngd  
+map -intstyle ise -p xc4vlx60-ff668-11 -global_opt off -cm area -ir off -pr off -c 100 -o ring_oscillator_three_map.ncd ring_oscillator_three.ngd ring_oscillator_three.pcf 
+par -w -intstyle ise -ol high -t 1 ring_oscillator_three_map.ncd ring_oscillator_three.ncd ring_oscillator_three.pcf 
+trce -intstyle ise -v 3 -s 11 -n 3 -fastpaths -xml ring_oscillator_three.twx ring_oscillator_three.ncd -o ring_oscillator_three.twr ring_oscillator_three.pcf 
+xst -intstyle ise -ifn "E:/Adam/Characterizing/ISE/ring_oscillator/ring_oscillator_three.xst" -ofn "E:/Adam/Characterizing/ISE/ring_oscillator/ring_oscillator_three.syr" 
+ngdbuild -intstyle ise -dd _ngo -aul -aut -nt timestamp -i -p xc4vlx60-ff668-11 ring_oscillator_three.ngc ring_oscillator_three.ngd  
+map -intstyle ise -p xc4vlx60-ff668-11 -global_opt off -cm area -ir off -pr off -c 100 -o ring_oscillator_three_map.ncd ring_oscillator_three.ngd ring_oscillator_three.pcf 
+par -w -intstyle ise -ol high -t 1 ring_oscillator_three_map.ncd ring_oscillator_three.ncd ring_oscillator_three.pcf 
+trce -intstyle ise -v 3 -s 11 -n 3 -fastpaths -xml ring_oscillator_three.twx ring_oscillator_three.ncd -o ring_oscillator_three.twr ring_oscillator_three.pcf 
+xpwr -intstyle ise ring_oscillator_three.ncd ring_oscillator_three.pcf -o ring_oscillator_three.pwr 

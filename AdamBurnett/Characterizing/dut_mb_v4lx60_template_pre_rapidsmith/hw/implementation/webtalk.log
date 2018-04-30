@@ -1,0 +1,16 @@
+Release 14.4 - WebTalk (P.49d)
+Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
+
+Project Information
+--------------------
+ProjectID=40f5ddb3c1e04d13b6bc71e8426690c1
+ProjectIteration=7
+
+WebTalk Summary
+----------------
+INFO:WebTalk:2 - WebTalk is enabled.
+
+INFO:WebTalk:8 - WebTalk Install setting is ON.
+INFO:WebTalk:6 - WebTalk User setting is ON.
+
+INFO:WebTalk:4 - E:/Adam/Characterizing/dut_mb_v4lx60_template_pre_rapidsmith/hw/implementation/usage_statistics_webtalk.html WebTalk report has been successfully sent to Xilinx on 2015-03-24T13:43:40.  For additional details about this file, please refer to the WebTalk help file at E:/Xilinx/14.4/ISE_DS/ISE/data/reports/webtalk_introduction.html

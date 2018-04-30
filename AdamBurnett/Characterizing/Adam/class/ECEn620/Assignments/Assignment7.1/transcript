@@ -1,0 +1,30 @@
+# vsim -coverage -do {run -all} -c -novopt top 
+# //  Questa Sim-64
+# //  Version 10.1c linux_x86_64 Jul 27 2012
+# //
+# //  Copyright 1991-2012 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment7.1/work.top
+# Loading sv_std.std
+# Loading work.top
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment7.1/work.arb_if
+# Loading work.arb_if
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment7.1/work.test
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment7.1/work.test_sv_unit
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment7.1/work.tb_pkg
+# Loading work.tb_pkg
+# Loading work.test_sv_unit
+# Loading work.test
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment7.1/work.golden_arb
+# Loading work.golden_arb
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment7.1/work.arbiter
+# Loading work.arbiter
+# ** Warning: (vsim-8634) Code was not compiled with coverage options.
+# run -all 
+# Ran for 100 cycles
+# Found 0 Errors.

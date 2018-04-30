@@ -1,0 +1,15 @@
+/net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment2.3/sverilog/config_reg_buggy_questa.sv.svp {1 {vlog -work work -vopt -sv /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment2.3/sverilog/config_reg_buggy_questa.sv.svp
+QuestaSim-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module config_reg
+
+Top level modules:
+	config_reg
+
+} {} {}} /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment2.1/sverilog/testbench.sv {1 {vlog -work work -vopt -sv /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment2.1/sverilog/testbench.sv
+QuestaSim-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module testbench
+
+Top level modules:
+	testbench
+
+} {} {}}

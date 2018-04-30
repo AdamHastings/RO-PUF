@@ -1,0 +1,3555 @@
+#:C1449  
+#Xilinx FPGA Editor Command Log File
+#Editor Version:
+#:V   NT M2.1 P.49d
+#Current Working Directory:
+#:D   E:\Xilinx\14.4\ISE_DS\ISE\bin\nt64
+#Date/Time:
+#:T   Fri Feb 20 13:30:37 2015
+#------------------------------
+	#Design creation date: 2015.02.20.20.30.37
+	#Loading device for application Rf_Device from file '4vlx60.nph' in environment E:\Xilinx\14.4\ISE_DS\ISE\.
+	#Building chip graphics...
+	#Loading speed info...
+	#1
+unselect -all
+	#2
+select site 'SLICE_X102Y254'
+	#site "SLICE_X102Y254",  type = SLICEM  (RPM grid X237Y254)
+	#3
+select site 'SLICE_X100Y254'
+	#site "SLICE_X100Y254",  type = SLICEM  (RPM grid X233Y254)
+	#4
+select site 'SLICE_X98Y254'
+	#site "SLICE_X98Y254",  type = SLICEM  (RPM grid X229Y254)
+	#5
+select site 'SLICE_X96Y254'
+	#site "SLICE_X96Y254",  type = SLICEM  (RPM grid X225Y254)
+	#6
+select site 'SLICE_X94Y254'
+	#site "SLICE_X94Y254",  type = SLICEM  (RPM grid X217Y254)
+	#7
+select site 'SLICE_X92Y254'
+	#site "SLICE_X92Y254",  type = SLICEM  (RPM grid X213Y254)
+	#8
+select site 'SLICE_X90Y254'
+	#site "SLICE_X90Y254",  type = SLICEM  (RPM grid X209Y254)
+	#9
+select site 'SLICE_X88Y254'
+	#site "SLICE_X88Y254",  type = SLICEM  (RPM grid X205Y254)
+	#10
+select site 'SLICE_X86Y254'
+	#site "SLICE_X86Y254",  type = SLICEM  (RPM grid X197Y254)
+	#11
+select site 'SLICE_X84Y254'
+	#site "SLICE_X84Y254",  type = SLICEM  (RPM grid X193Y254)
+	#12
+select site 'SLICE_X82Y254'
+	#site "SLICE_X82Y254",  type = SLICEM  (RPM grid X189Y254)
+	#13
+select site 'SLICE_X80Y254'
+	#site "SLICE_X80Y254",  type = SLICEM  (RPM grid X185Y254)
+	#14
+select site 'SLICE_X78Y254'
+	#site "SLICE_X78Y254",  type = SLICEM  (RPM grid X177Y254)
+	#15
+select site 'SLICE_X76Y254'
+	#site "SLICE_X76Y254",  type = SLICEM  (RPM grid X173Y254)
+	#16
+select site 'SLICE_X74Y254'
+	#site "SLICE_X74Y254",  type = SLICEM  (RPM grid X169Y254)
+	#17
+select site 'SLICE_X72Y254'
+	#site "SLICE_X72Y254",  type = SLICEM  (RPM grid X165Y254)
+	#18
+select site 'SLICE_X70Y254'
+	#site "SLICE_X70Y254",  type = SLICEM  (RPM grid X161Y254)
+	#19
+select site 'SLICE_X68Y254'
+	#site "SLICE_X68Y254",  type = SLICEM  (RPM grid X157Y254)
+	#20
+select site 'SLICE_X66Y254'
+	#site "SLICE_X66Y254",  type = SLICEM  (RPM grid X153Y254)
+	#21
+select site 'SLICE_X64Y254'
+	#site "SLICE_X64Y254",  type = SLICEM  (RPM grid X149Y254)
+	#22
+select site 'SLICE_X62Y254'
+	#site "SLICE_X62Y254",  type = SLICEM  (RPM grid X145Y254)
+	#23
+select site 'SLICE_X60Y254'
+	#site "SLICE_X60Y254",  type = SLICEM  (RPM grid X141Y254)
+	#24
+select site 'SLICE_X58Y254'
+	#site "SLICE_X58Y254",  type = SLICEM  (RPM grid X137Y254)
+	#25
+select site 'SLICE_X56Y254'
+	#site "SLICE_X56Y254",  type = SLICEM  (RPM grid X133Y254)
+	#26
+select site 'SLICE_X54Y254'
+	#site "SLICE_X54Y254",  type = SLICEM  (RPM grid X129Y254)
+	#27
+select site 'SLICE_X52Y254'
+	#site "SLICE_X52Y254",  type = SLICEM  (RPM grid X125Y254)
+	#28
+select site 'SLICE_X50Y254'
+	#site "SLICE_X50Y254",  type = SLICEM  (RPM grid X117Y254)
+	#29
+select site 'SLICE_X48Y254'
+	#site "SLICE_X48Y254",  type = SLICEM  (RPM grid X113Y254)
+	#30
+select site 'SLICE_X46Y254'
+	#site "SLICE_X46Y254",  type = SLICEM  (RPM grid X109Y254)
+	#31
+select site 'SLICE_X44Y254'
+	#site "SLICE_X44Y254",  type = SLICEM  (RPM grid X105Y254)
+	#32
+select site 'SLICE_X42Y254'
+	#site "SLICE_X42Y254",  type = SLICEM  (RPM grid X101Y254)
+	#33
+select site 'SLICE_X40Y254'
+	#site "SLICE_X40Y254",  type = SLICEM  (RPM grid X97Y254)
+	#34
+select site 'SLICE_X38Y254'
+	#site "SLICE_X38Y254",  type = SLICEM  (RPM grid X93Y254)
+	#35
+select site 'SLICE_X36Y254'
+	#site "SLICE_X36Y254",  type = SLICEM  (RPM grid X89Y254)
+	#36
+select site 'SLICE_X34Y254'
+	#site "SLICE_X34Y254",  type = SLICEM  (RPM grid X85Y254)
+	#37
+select site 'SLICE_X32Y254'
+	#site "SLICE_X32Y254",  type = SLICEM  (RPM grid X81Y254)
+	#38
+select site 'SLICE_X30Y254'
+	#site "SLICE_X30Y254",  type = SLICEM  (RPM grid X77Y254)
+	#39
+select site 'SLICE_X28Y254'
+	#site "SLICE_X28Y254",  type = SLICEM  (RPM grid X73Y254)
+	#40
+select site 'SLICE_X26Y254'
+	#site "SLICE_X26Y254",  type = SLICEM  (RPM grid X69Y254)
+	#41
+select site 'SLICE_X24Y254'
+	#site "SLICE_X24Y254",  type = SLICEM  (RPM grid X65Y254)
+	#42
+select site 'SLICE_X22Y254'
+	#site "SLICE_X22Y254",  type = SLICEM  (RPM grid X57Y254)
+	#43
+select site 'SLICE_X20Y254'
+	#site "SLICE_X20Y254",  type = SLICEM  (RPM grid X53Y254)
+	#44
+select site 'SLICE_X18Y254'
+	#site "SLICE_X18Y254",  type = SLICEM  (RPM grid X49Y254)
+	#45
+select site 'SLICE_X16Y254'
+	#site "SLICE_X16Y254",  type = SLICEM  (RPM grid X45Y254)
+	#46
+select site 'SLICE_X14Y254'
+	#site "SLICE_X14Y254",  type = SLICEM  (RPM grid X37Y254)
+	#47
+select site 'SLICE_X12Y254'
+	#site "SLICE_X12Y254",  type = SLICEM  (RPM grid X33Y254)
+	#48
+select site 'SLICE_X10Y254'
+	#site "SLICE_X10Y254",  type = SLICEM  (RPM grid X29Y254)
+	#49
+select site 'SLICE_X8Y254'
+	#site "SLICE_X8Y254",  type = SLICEM  (RPM grid X25Y254)
+	#50
+select site 'SLICE_X6Y254'
+	#site "SLICE_X6Y254",  type = SLICEM  (RPM grid X17Y254)
+	#51
+select site 'SLICE_X4Y254'
+	#site "SLICE_X4Y254",  type = SLICEM  (RPM grid X13Y254)
+	#52
+select site 'SLICE_X2Y254'
+	#site "SLICE_X2Y254",  type = SLICEM  (RPM grid X9Y254)
+	#53
+add
+	#Completed route status: 0 of 0 nets are fully routed.
+	#54
+post attr comp $COMP_0
+	#Completed route status: 0 of 0 nets are fully routed.
+	#55
+post attr comp $COMP_1
+	#Completed route status: 0 of 0 nets are fully routed.
+	#56
+post attr comp $COMP_2
+	#Completed route status: 0 of 0 nets are fully routed.
+	#57
+post attr comp $COMP_3
+	#Completed route status: 0 of 0 nets are fully routed.
+	#58
+post attr comp $COMP_4
+	#Completed route status: 0 of 0 nets are fully routed.
+	#59
+post attr comp $COMP_5
+	#Completed route status: 0 of 0 nets are fully routed.
+	#60
+post attr comp $COMP_6
+	#Completed route status: 0 of 0 nets are fully routed.
+	#61
+post attr comp $COMP_7
+	#Completed route status: 0 of 0 nets are fully routed.
+	#62
+post attr comp $COMP_8
+	#Completed route status: 0 of 0 nets are fully routed.
+	#63
+post attr comp $COMP_9
+	#Completed route status: 0 of 0 nets are fully routed.
+	#64
+post attr comp $COMP_10
+	#Completed route status: 0 of 0 nets are fully routed.
+	#65
+post attr comp $COMP_11
+	#Completed route status: 0 of 0 nets are fully routed.
+	#66
+post attr comp $COMP_12
+	#Completed route status: 0 of 0 nets are fully routed.
+	#67
+post attr comp $COMP_13
+	#Completed route status: 0 of 0 nets are fully routed.
+	#68
+post attr comp $COMP_14
+	#Completed route status: 0 of 0 nets are fully routed.
+	#69
+post attr comp $COMP_15
+	#Completed route status: 0 of 0 nets are fully routed.
+	#70
+post attr comp $COMP_16
+	#Completed route status: 0 of 0 nets are fully routed.
+	#71
+post attr comp $COMP_17
+	#Completed route status: 0 of 0 nets are fully routed.
+	#72
+post attr comp $COMP_18
+	#Completed route status: 0 of 0 nets are fully routed.
+	#73
+post attr comp $COMP_19
+	#Completed route status: 0 of 0 nets are fully routed.
+	#74
+post attr comp $COMP_20
+	#Completed route status: 0 of 0 nets are fully routed.
+	#75
+post attr comp $COMP_21
+	#Completed route status: 0 of 0 nets are fully routed.
+	#76
+post attr comp $COMP_22
+	#Completed route status: 0 of 0 nets are fully routed.
+	#77
+post attr comp $COMP_23
+	#Completed route status: 0 of 0 nets are fully routed.
+	#78
+post attr comp $COMP_24
+	#Completed route status: 0 of 0 nets are fully routed.
+	#79
+post attr comp $COMP_25
+	#Completed route status: 0 of 0 nets are fully routed.
+	#80
+post attr comp $COMP_26
+	#ERROR:FPGAEditor:518 - Only 25 property sheets may be displayed at one time.
+	#Close one or more of them and try again.
+	#Completed route status: 0 of 0 nets are fully routed.
+	#81
+post attr comp $COMP_27
+	#ERROR:FPGAEditor:518 - Only 25 property sheets may be displayed at one time.
+	#Close one or more of them and try again.
+	#Completed route status: 0 of 0 nets are fully routed.
+	#82
+post attr comp $COMP_28
+	#ERROR:FPGAEditor:518 - Only 25 property sheets may be displayed at one time.
+	#Close one or more of them and try again.
+	#Completed route status: 0 of 0 nets are fully routed.
+	#83
+post attr comp $COMP_29
+	#ERROR:FPGAEditor:518 - Only 25 property sheets may be displayed at one time.
+	#Close one or more of them and try again.
+	#Completed route status: 0 of 0 nets are fully routed.
+	#84
+post attr comp $COMP_30
+	#ERROR:FPGAEditor:518 - Only 25 property sheets may be displayed at one time.
+	#Close one or more of them and try again.
+	#Completed route status: 0 of 0 nets are fully routed.
+	#85
+post attr comp $COMP_31
+	#ERROR:FPGAEditor:518 - Only 25 property sheets may be displayed at one time.
+	#Close one or more of them and try again.
+	#Completed route status: 0 of 0 nets are fully routed.
+	#86
+post attr comp $COMP_32
+	#ERROR:FPGAEditor:518 - Only 25 property sheets may be displayed at one time.
+	#Close one or more of them and try again.
+	#Completed route status: 0 of 0 nets are fully routed.
+	#87
+post attr comp $COMP_33
+	#ERROR:FPGAEditor:518 - Only 25 property sheets may be displayed at one time.
+	#Close one or more of them and try again.
+	#Completed route status: 0 of 0 nets are fully routed.
+	#88
+post attr comp $COMP_34
+	#ERROR:FPGAEditor:518 - Only 25 property sheets may be displayed at one time.
+	#Close one or more of them and try again.
+	#Completed route status: 0 of 0 nets are fully routed.
+	#89
+post attr comp $COMP_35
+	#ERROR:FPGAEditor:518 - Only 25 property sheets may be displayed at one time.
+	#Close one or more of them and try again.
+	#Completed route status: 0 of 0 nets are fully routed.
+	#90
+post attr comp $COMP_36
+	#ERROR:FPGAEditor:518 - Only 25 property sheets may be displayed at one time.
+	#Close one or more of them and try again.
+	#Completed route status: 0 of 0 nets are fully routed.
+	#91
+post attr comp $COMP_37
+	#ERROR:FPGAEditor:518 - Only 25 property sheets may be displayed at one time.
+	#Close one or more of them and try again.
+	#Completed route status: 0 of 0 nets are fully routed.
+	#92
+post attr comp $COMP_38
+	#ERROR:FPGAEditor:518 - Only 25 property sheets may be displayed at one time.
+	#Close one or more of them and try again.
+	#Completed route status: 0 of 0 nets are fully routed.
+	#93
+post attr comp $COMP_39
+	#ERROR:FPGAEditor:518 - Only 25 property sheets may be displayed at one time.
+	#Close one or more of them and try again.
+	#Completed route status: 0 of 0 nets are fully routed.
+	#94
+post attr comp $COMP_40
+	#ERROR:FPGAEditor:518 - Only 25 property sheets may be displayed at one time.
+	#Close one or more of them and try again.
+	#Completed route status: 0 of 0 nets are fully routed.
+	#95
+post attr comp $COMP_41
+	#ERROR:FPGAEditor:518 - Only 25 property sheets may be displayed at one time.
+	#Close one or more of them and try again.
+	#Completed route status: 0 of 0 nets are fully routed.
+	#96
+post attr comp $COMP_42
+	#ERROR:FPGAEditor:518 - Only 25 property sheets may be displayed at one time.
+	#Close one or more of them and try again.
+	#Completed route status: 0 of 0 nets are fully routed.
+	#97
+post attr comp $COMP_43
+	#ERROR:FPGAEditor:518 - Only 25 property sheets may be displayed at one time.
+	#Close one or more of them and try again.
+	#Completed route status: 0 of 0 nets are fully routed.
+	#98
+post attr comp $COMP_44
+	#ERROR:FPGAEditor:518 - Only 25 property sheets may be displayed at one time.
+	#Close one or more of them and try again.
+	#Completed route status: 0 of 0 nets are fully routed.
+	#99
+post attr comp $COMP_45
+	#ERROR:FPGAEditor:518 - Only 25 property sheets may be displayed at one time.
+	#Close one or more of them and try again.
+	#Completed route status: 0 of 0 nets are fully routed.
+	#100
+post attr comp $COMP_46
+	#ERROR:FPGAEditor:518 - Only 25 property sheets may be displayed at one time.
+	#Close one or more of them and try again.
+	#Completed route status: 0 of 0 nets are fully routed.
+	#101
+post attr comp $COMP_47
+	#ERROR:FPGAEditor:518 - Only 25 property sheets may be displayed at one time.
+	#Close one or more of them and try again.
+	#Completed route status: 0 of 0 nets are fully routed.
+	#102
+post attr comp $COMP_48
+	#ERROR:FPGAEditor:518 - Only 25 property sheets may be displayed at one time.
+	#Close one or more of them and try again.
+	#Completed route status: 0 of 0 nets are fully routed.
+	#103
+post attr comp $COMP_49
+	#ERROR:FPGAEditor:518 - Only 25 property sheets may be displayed at one time.
+	#Close one or more of them and try again.
+	#Completed route status: 0 of 0 nets are fully routed.
+	#104
+post attr comp $COMP_50
+	#ERROR:FPGAEditor:518 - Only 25 property sheets may be displayed at one time.
+	#Close one or more of them and try again.
+	#105
+unpost comp "$COMP_6"
+	#106
+unpost comp "$COMP_1"
+	#107
+unpost comp "$COMP_0"
+	#108
+unpost comp "$COMP_2"
+	#109
+unpost comp "$COMP_4"
+	#110
+unpost comp "$COMP_3"
+	#111
+unpost comp "$COMP_5"
+	#112
+unpost comp "$COMP_7"
+	#113
+unpost comp "$COMP_9"
+	#114
+unpost comp "$COMP_8"
+	#115
+unpost comp "$COMP_10"
+	#116
+unpost comp "$COMP_12"
+	#117
+unpost comp "$COMP_11"
+	#118
+unpost comp "$COMP_13"
+	#119
+unpost comp "$COMP_15"
+	#120
+unpost comp "$COMP_14"
+	#121
+unpost comp "$COMP_18"
+	#122
+unpost comp "$COMP_16"
+	#123
+unpost comp "$COMP_22"
+	#124
+unpost comp "$COMP_21"
+	#125
+unpost comp "$COMP_19"
+	#126
+unpost comp "$COMP_17"
+	#127
+unpost comp "$COMP_23"
+	#128
+unpost comp "$COMP_25"
+	#129
+unpost comp "$COMP_20"
+	#130
+unpost comp "$COMP_24"
+	#131
+unselect -all
+	#132
+unselect -all
+	#133
+select comp '$COMP_0'
+	#comp "$COMP_0",  site "SLICE_X102Y254",  type = SLICEM  (RPM grid X237Y254)
+	#134
+unselect -all
+	#135
+select comp '$COMP_0'
+	#comp "$COMP_0",  site "SLICE_X102Y254",  type = SLICEM  (RPM grid X237Y254)
+	#136
+post block
+	#137
+setattr comp $COMP_0 G "~A1"
+	#<YMUXUSED>.
+	# GetEqnCfgData equation D
+	# GetEqnCfgData equation D
+	# GetEqnCfgData equation D
+	# GetEqnCfgData equation D
+	# GetEqnCfgData equation D
+	# GetEqnCfgData equation D
+	# GetEqnCfgData equation D
+	# GetEqnCfgData equation D
+	# GetEqnCfgData equation D
+	# GetEqnCfgData equation D
+	#0 DRC errors and 2 DRC warnings.
+	# GetEqnCfgData equation D
+	# GetEqnCfgData equation D
+	# GetEqnCfgData equation D
+	# GetEqnCfgData equation D
+	# GetEqnCfgData equation D
+	#<YMUXUSED> GetEqnCfgData equation D
+	#.
+	# GetEqnCfgData equation D
+	# GetEqnCfgData equation D
+	#<YUSED>.
+	# GetEqnCfgData equation D
+	#138
+save
+	#0 DRC errors and 1 DRC warnings.
+	#139
+setattr comp $COMP_0 Config "G:#LUT:D=~A1 YUSED:0"
+	#140
+block apply
+	#141
+end block
+	#142
+unselect -all
+	#143
+select comp '$COMP_0'
+	#comp "$COMP_0",  site "SLICE_X102Y254",  type = SLICEM  (RPM grid X237Y254)
+	#144
+unselect -all
+	#145
+unselect -all
+	#146
+select comp '$COMP_0'
+	#comp "$COMP_0",  site "SLICE_X102Y254",  type = SLICEM  (RPM grid X237Y254)
+	#147
+unselect -all
+	#148
+select comp '$COMP_1'
+	#comp "$COMP_1",  site "SLICE_X100Y254",  type = SLICEM  (RPM grid X233Y254)
+	#149
+unselect -all
+	#150
+select comp '$COMP_0'
+	#comp "$COMP_0",  site "SLICE_X102Y254",  type = SLICEM  (RPM grid X237Y254)
+	#151
+unselect -all
+	#152
+select comp '$COMP_0'
+	#comp "$COMP_0",  site "SLICE_X102Y254",  type = SLICEM  (RPM grid X237Y254)
+	#153
+unselect -all
+	#154
+select comp '$COMP_0'
+	#comp "$COMP_0",  site "SLICE_X102Y254",  type = SLICEM  (RPM grid X237Y254)
+	#155
+post block
+	#156
+unselect -all
+	#157
+unselect -all
+	#158
+select comp '$COMP_0'
+	#comp "$COMP_0",  site "SLICE_X102Y254",  type = SLICEM  (RPM grid X237Y254)
+	#159
+unselect -all
+	#160
+unselect -all
+	#161
+select comp '$COMP_0'
+	#comp "$COMP_0",  site "SLICE_X102Y254",  type = SLICEM  (RPM grid X237Y254)
+	#162
+unselect -all
+	#163
+select comp '$COMP_0'
+	#comp "$COMP_0",  site "SLICE_X102Y254",  type = SLICEM  (RPM grid X237Y254)
+	#164
+post block
+	#165
+unselect -all
+	#166
+select pin 'SLICE_X102Y254.Y'
+	#site.pin = SLICE_X102Y254.Y, comp.pin = $COMP_0.Y
+	#167
+add extpin
+	#168
+post attr pin SLICE_X102Y254.Y
+	#169
+setattr pin SLICE_X102Y254.Y  external_name Y_0
+	#170
+unpost pin "SLICE_X102Y254.Y"
+	#171
+unselect -all
+	#172
+select pin 'SLICE_X102Y254.G1'
+	#site.pin = SLICE_X102Y254.G1, comp.pin = $COMP_0.G1
+	#173
+add extpin
+	#174
+post attr pin SLICE_X102Y254.G1
+	#175
+setattr pin SLICE_X102Y254.G1  external_name G1_0
+	#176
+unpost pin "SLICE_X102Y254.G1"
+	#177
+unselect -all
+	#178
+unselect -all
+	#179
+select comp '$COMP_1'
+	#comp "$COMP_1",  site "SLICE_X100Y254",  type = SLICEM  (RPM grid X233Y254)
+	#180
+unselect -all
+	#181
+select comp '$COMP_1'
+	#comp "$COMP_1",  site "SLICE_X100Y254",  type = SLICEM  (RPM grid X233Y254)
+	#182
+post block
+	#183
+setattr comp $COMP_1 G "~A1"
+	#<YUSED>.
+	# GetEqnCfgData equation D
+	#184
+save
+	#0 DRC errors and 1 DRC warnings.
+	#185
+setattr comp $COMP_1 Config "G:#LUT:D=~A1 YUSED:0"
+	#186
+block apply
+	#187
+end block
+	#188
+unselect -all
+	#189
+select comp '$COMP_1'
+	#comp "$COMP_1",  site "SLICE_X100Y254",  type = SLICEM  (RPM grid X233Y254)
+	#190
+post block
+	#191
+unselect -all
+	#192
+unselect -all
+	#193
+select pin 'SLICE_X100Y254.Y'
+	#site.pin = SLICE_X100Y254.Y, comp.pin = $COMP_1.Y
+	#194
+add extpin
+	#195
+post attr pin SLICE_X100Y254.Y
+	#196
+setattr pin SLICE_X100Y254.Y  external_name Y_1
+	#197
+unpost pin "SLICE_X100Y254.Y"
+	#198
+unselect -all
+	#199
+select pin 'SLICE_X100Y254.G1'
+	#site.pin = SLICE_X100Y254.G1, comp.pin = $COMP_1.G1
+	#200
+add extpin
+	#201
+post attr pin SLICE_X100Y254.G1
+	#202
+setattr pin SLICE_X100Y254.G1  external_name G1_1
+	#203
+unpost pin "SLICE_X100Y254.G1"
+	#204
+unselect -all
+	#205
+unselect -all
+	#206
+select comp '$COMP_1'
+	#comp "$COMP_1",  site "SLICE_X100Y254",  type = SLICEM  (RPM grid X233Y254)
+	#207
+unselect -all
+	#208
+select comp '$COMP_1'
+	#comp "$COMP_1",  site "SLICE_X100Y254",  type = SLICEM  (RPM grid X233Y254)
+	#209
+post block
+	#210
+unselect -all
+	#211
+select comp '$COMP_1'
+	#comp "$COMP_1",  site "SLICE_X100Y254",  type = SLICEM  (RPM grid X233Y254)
+	#212
+unselect -all
+	#213
+select comp '$COMP_1'
+	#comp "$COMP_1",  site "SLICE_X100Y254",  type = SLICEM  (RPM grid X233Y254)
+	#214
+post block
+	#215
+end block
+	#216
+unselect -all
+	#217
+unselect -all
+	#218
+select comp '$COMP_1'
+	#comp "$COMP_1",  site "SLICE_X100Y254",  type = SLICEM  (RPM grid X233Y254)
+	#219
+post attr
+	#220
+setattr comp $COMP_1  Locate LOCK:HARD:0:
+	#221
+setattr comp $COMP_1  Locate LOCK:HARD:0:
+	#The current value is same as the new value. No change.
+	#222
+setattr comp $COMP_1  Locate LOCK:HARD:0:
+	#The current value is same as the new value. No change.
+	#223
+unpost comp "$COMP_1"
+	#224
+unselect -all
+	#225
+select comp '$COMP_1'
+	#comp "$COMP_1",  site "SLICE_X100Y254",  type = SLICEM  (RPM grid X233Y254)
+	#226
+unselect -all
+	#227
+select comp '$COMP_1'
+	#comp "$COMP_1",  site "SLICE_X100Y254",  type = SLICEM  (RPM grid X233Y254)
+	#228
+post block
+	#229
+unselect -all
+	#230
+unselect -all
+	#231
+select comp '$COMP_1'
+	#comp "$COMP_1",  site "SLICE_X100Y254",  type = SLICEM  (RPM grid X233Y254)
+	#232
+post attr
+	#233
+setattr comp $COMP_1  Locate OFF:::
+	#234
+unpost comp "$COMP_1"
+	#235
+unselect -all
+	#236
+select comp '$COMP_0'
+	#comp "$COMP_0",  site "SLICE_X102Y254",  type = SLICEM  (RPM grid X237Y254)
+	#237
+unselect -all
+	#238
+select comp '$COMP_0'
+	#comp "$COMP_0",  site "SLICE_X102Y254",  type = SLICEM  (RPM grid X237Y254)
+	#239
+post block
+	#240
+post attr
+	#241
+unpost comp "$COMP_0"
+	#242
+unselect -all
+	#243
+select arc 'OUTPUT(120832,216920)--->INPUT(120832,216888)'
+	#arc "OUTPUT(120832,216920)--->INPUT(120832,216888)"
+	#244
+post block
+	#ERROR:FPGAEditor:79 - The "post block" command without any other arguments cannot
+	#be performed unless the selection contains only a single site
+	#or single component.  Change the selection and try again.
+	#245
+unselect -all
+	#246
+select comp '$COMP_1'
+	#comp "$COMP_1",  site "SLICE_X100Y254",  type = SLICEM  (RPM grid X233Y254)
+	#247
+unselect -all
+	#248
+select comp '$COMP_1'
+	#comp "$COMP_1",  site "SLICE_X100Y254",  type = SLICEM  (RPM grid X233Y254)
+	#249
+post block
+	#250
+unselect -all
+	#251
+unselect -all
+	#252
+select comp '$COMP_2'
+	#comp "$COMP_2",  site "SLICE_X98Y254",  type = SLICEM  (RPM grid X229Y254)
+	#253
+unselect -all
+	#254
+select comp '$COMP_2'
+	#comp "$COMP_2",  site "SLICE_X98Y254",  type = SLICEM  (RPM grid X229Y254)
+	#255
+unselect -all
+	#256
+select comp '$COMP_2'
+	#comp "$COMP_2",  site "SLICE_X98Y254",  type = SLICEM  (RPM grid X229Y254)
+	#257
+post block
+	#258
+setattr comp $COMP_2 G "~A1"
+	#<YUSED>.
+	# GetEqnCfgData equation D
+	#0 DRC errors and 1 DRC warnings.
+	#259
+setattr comp $COMP_2 Config "G:#LUT:D=~A1 YUSED:0"
+	#260
+block apply
+	#261
+end block
+	#262
+unselect -all
+	#263
+select pin 'SLICE_X98Y254.Y'
+	#site.pin = SLICE_X98Y254.Y, comp.pin = $COMP_2.Y
+	#264
+add extpin
+	#265
+post attr pin SLICE_X98Y254.Y
+	#266
+setattr pin SLICE_X98Y254.Y  external_name Y_2
+	#267
+unpost pin "SLICE_X98Y254.Y"
+	#268
+unselect -all
+	#269
+select pin 'SLICE_X98Y254.G1'
+	#site.pin = SLICE_X98Y254.G1, comp.pin = $COMP_2.G1
+	#270
+add extpin
+	#271
+post attr pin SLICE_X98Y254.G1
+	#272
+setattr pin SLICE_X98Y254.G1  external_name G1_2
+	#273
+unpost pin "SLICE_X98Y254.G1"
+	#274
+unselect -all
+	#275
+unselect -all
+	#276
+select comp '$COMP_3'
+	#comp "$COMP_3",  site "SLICE_X96Y254",  type = SLICEM  (RPM grid X225Y254)
+	#277
+unselect -all
+	#278
+select comp '$COMP_3'
+	#comp "$COMP_3",  site "SLICE_X96Y254",  type = SLICEM  (RPM grid X225Y254)
+	#279
+unselect -all
+	#280
+select comp '$COMP_3'
+	#comp "$COMP_3",  site "SLICE_X96Y254",  type = SLICEM  (RPM grid X225Y254)
+	#281
+post block
+	#282
+setattr comp $COMP_3 G "~A1"
+	#<YUSED>.
+	# GetEqnCfgData equation D
+	#283
+save
+	#0 DRC errors and 1 DRC warnings.
+	#284
+setattr comp $COMP_3 Config "G:#LUT:D=~A1 YUSED:0"
+	#285
+block apply
+	#286
+end block
+	#287
+unselect -all
+	#288
+select pin 'SLICE_X96Y254.Y'
+	#site.pin = SLICE_X96Y254.Y, comp.pin = $COMP_3.Y
+	#289
+add extpin
+	#290
+post attr pin SLICE_X96Y254.Y
+	#291
+setattr pin SLICE_X96Y254.Y  external_name Y_3
+	#292
+unpost pin "SLICE_X96Y254.Y"
+	#293
+unselect -all
+	#294
+select pin 'SLICE_X96Y254.G1'
+	#site.pin = SLICE_X96Y254.G1, comp.pin = $COMP_3.G1
+	#295
+add extpin
+	#296
+post attr pin SLICE_X96Y254.G1
+	#297
+setattr pin SLICE_X96Y254.G1  external_name G1_3
+	#298
+unpost pin "SLICE_X96Y254.G1"
+	#299
+unselect -all
+	#300
+select comp '$COMP_4'
+	#comp "$COMP_4",  site "SLICE_X94Y254",  type = SLICEM  (RPM grid X217Y254)
+	#301
+unselect -all
+	#302
+select comp '$COMP_4'
+	#comp "$COMP_4",  site "SLICE_X94Y254",  type = SLICEM  (RPM grid X217Y254)
+	#303
+unselect -all
+	#304
+select comp '$COMP_4'
+	#comp "$COMP_4",  site "SLICE_X94Y254",  type = SLICEM  (RPM grid X217Y254)
+	#305
+post block
+	#306
+setattr comp $COMP_4 G "~A1"
+	#<YUSED>.
+	# GetEqnCfgData equation D
+	#0 DRC errors and 1 DRC warnings.
+	#307
+save
+	#308
+setattr comp $COMP_4 Config "G:#LUT:D=~A1 YUSED:0"
+	#309
+block apply
+	#310
+end block
+	#311
+unselect -all
+	#312
+select pin 'SLICE_X94Y254.Y'
+	#site.pin = SLICE_X94Y254.Y, comp.pin = $COMP_4.Y
+	#313
+add extpin
+	#314
+post attr pin SLICE_X94Y254.Y
+	#315
+setattr pin SLICE_X94Y254.Y  external_name Y_4
+	#316
+unpost pin "SLICE_X94Y254.Y"
+	#317
+unselect -all
+	#318
+select pin 'SLICE_X94Y254.G1'
+	#site.pin = SLICE_X94Y254.G1, comp.pin = $COMP_4.G1
+	#319
+add extpin
+	#320
+post attr pin SLICE_X94Y254.G1
+	#321
+setattr pin SLICE_X94Y254.G1  external_name G1_4
+	#322
+unpost pin "SLICE_X94Y254.G1"
+	#323
+unselect -all
+	#324
+unselect -all
+	#325
+select comp '$COMP_5'
+	#comp "$COMP_5",  site "SLICE_X92Y254",  type = SLICEM  (RPM grid X213Y254)
+	#326
+unselect -all
+	#327
+select comp '$COMP_5'
+	#comp "$COMP_5",  site "SLICE_X92Y254",  type = SLICEM  (RPM grid X213Y254)
+	#328
+post block
+	#329
+setattr comp $COMP_5 G "~A1"
+	#<YUSED>.
+	# GetEqnCfgData equation D
+	#0 DRC errors and 1 DRC warnings.
+	#330
+setattr comp $COMP_5 Config "G:#LUT:D=~A1 YUSED:0"
+	#331
+block apply
+	#332
+end block
+	#333
+unselect -all
+	#334
+unselect -all
+	#335
+select pin 'SLICE_X92Y254.Y'
+	#site.pin = SLICE_X92Y254.Y, comp.pin = $COMP_5.Y
+	#336
+unselect -all
+	#337
+unselect -all
+	#338
+select comp '$COMP_4'
+	#comp "$COMP_4",  site "SLICE_X94Y254",  type = SLICEM  (RPM grid X217Y254)
+	#339
+unselect -all
+	#340
+select comp '$COMP_4'
+	#comp "$COMP_4",  site "SLICE_X94Y254",  type = SLICEM  (RPM grid X217Y254)
+	#341
+unselect -all
+	#342
+select comp '$COMP_4'
+	#comp "$COMP_4",  site "SLICE_X94Y254",  type = SLICEM  (RPM grid X217Y254)
+	#343
+post block
+	#344
+unselect -all
+	#345
+select pin 'SLICE_X94Y254.Y'
+	#site.pin = SLICE_X94Y254.Y, comp.pin = $COMP_4.Y, hard macro.pin = Y_4, delay = unrouted on net "$NET_8"
+	#346
+unselect -all
+	#347
+unselect -all
+	#348
+select comp '$COMP_5'
+	#comp "$COMP_5",  site "SLICE_X92Y254",  type = SLICEM  (RPM grid X213Y254)
+	#349
+unselect -all
+	#350
+select comp '$COMP_5'
+	#comp "$COMP_5",  site "SLICE_X92Y254",  type = SLICEM  (RPM grid X213Y254)
+	#351
+post block
+	#352
+unselect -all
+	#353
+select pin 'SLICE_X92Y254.Y'
+	#site.pin = SLICE_X92Y254.Y, comp.pin = $COMP_5.Y
+	#354
+add extpin
+	#355
+post attr pin SLICE_X92Y254.Y
+	#356
+setattr pin SLICE_X92Y254.Y  external_name Y_5
+	#357
+unpost pin "SLICE_X92Y254.Y"
+	#358
+unselect -all
+	#359
+select pin 'SLICE_X92Y254.G1'
+	#site.pin = SLICE_X92Y254.G1, comp.pin = $COMP_5.G1
+	#360
+add extpin
+	#361
+post attr pin SLICE_X92Y254.G1
+	#362
+setattr pin SLICE_X92Y254.G1  external_name G1_5
+	#363
+unpost pin "SLICE_X92Y254.G1"
+	#364
+unselect -all
+	#365
+select comp '$COMP_6'
+	#comp "$COMP_6",  site "SLICE_X90Y254",  type = SLICEM  (RPM grid X209Y254)
+	#366
+unselect -all
+	#367
+select comp '$COMP_6'
+	#comp "$COMP_6",  site "SLICE_X90Y254",  type = SLICEM  (RPM grid X209Y254)
+	#368
+unselect -all
+	#369
+select comp '$COMP_6'
+	#comp "$COMP_6",  site "SLICE_X90Y254",  type = SLICEM  (RPM grid X209Y254)
+	#370
+post block
+	#371
+setattr comp $COMP_6 G "~A1"
+	#<YUSED>.
+	# GetEqnCfgData equation D
+	#0 DRC errors and 1 DRC warnings.
+	#372
+setattr comp $COMP_6 Config "G:#LUT:D=~A1 YUSED:0"
+	#373
+block apply
+	#374
+end block
+	#375
+unselect -all
+	#376
+select pin 'SLICE_X90Y254.Y'
+	#site.pin = SLICE_X90Y254.Y, comp.pin = $COMP_6.Y
+	#377
+add extpin
+	#378
+post attr pin SLICE_X90Y254.Y
+	#379
+setattr pin SLICE_X90Y254.Y  external_name Y_6
+	#380
+unpost pin "SLICE_X90Y254.Y"
+	#381
+unselect -all
+	#382
+select pin 'SLICE_X90Y254.G1'
+	#site.pin = SLICE_X90Y254.G1, comp.pin = $COMP_6.G1
+	#383
+add extpin
+	#384
+post attr pin SLICE_X90Y254.G1
+	#385
+setattr pin SLICE_X90Y254.G1  external_name G1_6
+	#386
+unpost pin "SLICE_X90Y254.G1"
+	#387
+unselect -all
+	#388
+unselect -all
+	#389
+select comp '$COMP_7'
+	#comp "$COMP_7",  site "SLICE_X88Y254",  type = SLICEM  (RPM grid X205Y254)
+	#390
+unselect -all
+	#391
+select comp '$COMP_7'
+	#comp "$COMP_7",  site "SLICE_X88Y254",  type = SLICEM  (RPM grid X205Y254)
+	#392
+unselect -all
+	#393
+select comp '$COMP_7'
+	#comp "$COMP_7",  site "SLICE_X88Y254",  type = SLICEM  (RPM grid X205Y254)
+	#394
+unselect -all
+	#395
+select comp '$COMP_7'
+	#comp "$COMP_7",  site "SLICE_X88Y254",  type = SLICEM  (RPM grid X205Y254)
+	#396
+post block
+	#397
+setattr comp $COMP_7 G "~A1"
+	#<YUSED>.
+	# GetEqnCfgData equation D
+	#0 DRC errors and 1 DRC warnings.
+	#398
+setattr comp $COMP_7 Config "G:#LUT:D=~A1 YUSED:0"
+	#399
+block apply
+	#400
+end block
+	#401
+unselect -all
+	#402
+select comp '$COMP_6'
+	#comp "$COMP_6",  site "SLICE_X90Y254",  type = SLICEM  (RPM grid X209Y254)
+	#403
+unselect -all
+	#404
+select pin 'SLICE_X88Y254.G1'
+	#site.pin = SLICE_X88Y254.G1, comp.pin = $COMP_7.G1
+	#405
+unselect -all
+	#406
+select comp '$COMP_7'
+	#comp "$COMP_7",  site "SLICE_X88Y254",  type = SLICEM  (RPM grid X205Y254)
+	#407
+unselect -all
+	#408
+select pin 'SLICE_X88Y254.Y'
+	#site.pin = SLICE_X88Y254.Y, comp.pin = $COMP_7.Y
+	#409
+add extpin
+	#410
+post attr pin SLICE_X88Y254.Y
+	#411
+setattr pin SLICE_X88Y254.Y  external_name Y_7
+	#412
+unpost pin "SLICE_X88Y254.Y"
+	#413
+unselect -all
+	#414
+select pin 'SLICE_X88Y254.G1'
+	#site.pin = SLICE_X88Y254.G1, comp.pin = $COMP_7.G1
+	#415
+add extpin
+	#416
+post attr pin SLICE_X88Y254.G1
+	#417
+setattr pin SLICE_X88Y254.G1  external_name Y_7
+	#ERROR:FPGAEditor:694 - "Y_7" is not a valid value for the external_name attribute -- a pin with that name already exists.
+	#418
+setattr pin SLICE_X88Y254.G1  external_name G1_7
+	#419
+unpost pin "SLICE_X88Y254.G1"
+	#420
+unselect -all
+	#421
+unselect -all
+	#422
+select comp '$COMP_8'
+	#comp "$COMP_8",  site "SLICE_X86Y254",  type = SLICEM  (RPM grid X197Y254)
+	#423
+unselect -all
+	#424
+select comp '$COMP_8'
+	#comp "$COMP_8",  site "SLICE_X86Y254",  type = SLICEM  (RPM grid X197Y254)
+	#425
+post block
+	#426
+setattr comp $COMP_8 G "~A1"
+	#<YUSED>.
+	# GetEqnCfgData equation D
+	#0 DRC errors and 1 DRC warnings.
+	#427
+setattr comp $COMP_8 Config "G:#LUT:D=~A1 YUSED:0"
+	#428
+block apply
+	#429
+end block
+	#430
+unselect -all
+	#431
+select pin 'SLICE_X86Y254.YB'
+	#site.pin = SLICE_X86Y254.YB, comp.pin = $COMP_8.YB
+	#432
+unselect -all
+	#433
+select pin 'SLICE_X86Y254.Y'
+	#site.pin = SLICE_X86Y254.Y, comp.pin = $COMP_8.Y
+	#434
+add extpin
+	#435
+post attr pin SLICE_X86Y254.Y
+	#436
+setattr pin SLICE_X86Y254.Y  external_name Y_8
+	#437
+unpost pin "SLICE_X86Y254.Y"
+	#438
+unselect -all
+	#439
+select pin 'SLICE_X86Y254.XMUX'
+	#site.pin = SLICE_X86Y254.XMUX, comp.pin = $COMP_8.XMUX
+	#440
+unselect -all
+	#441
+select pin 'SLICE_X86Y254.G1'
+	#site.pin = SLICE_X86Y254.G1, comp.pin = $COMP_8.G1
+	#442
+add extpin
+	#443
+post attr pin SLICE_X86Y254.G1
+	#444
+setattr pin SLICE_X86Y254.G1  external_name G1_8
+	#445
+unpost pin "SLICE_X86Y254.G1"
+	#446
+unselect -all
+	#447
+unselect -all
+	#448
+select comp '$COMP_9'
+	#comp "$COMP_9",  site "SLICE_X84Y254",  type = SLICEM  (RPM grid X193Y254)
+	#449
+unselect -all
+	#450
+select comp '$COMP_9'
+	#comp "$COMP_9",  site "SLICE_X84Y254",  type = SLICEM  (RPM grid X193Y254)
+	#451
+post block
+	#452
+setattr comp $COMP_9 G "~A1"
+	#<YUSED>.
+	# GetEqnCfgData equation D
+	#453
+save
+	#0 DRC errors and 1 DRC warnings.
+	#454
+setattr comp $COMP_9 Config "G:#LUT:D=~A1 YUSED:0"
+	#455
+block apply
+	#456
+end block
+	#457
+unselect -all
+	#458
+select pin 'SLICE_X84Y254.YB'
+	#site.pin = SLICE_X84Y254.YB, comp.pin = $COMP_9.YB
+	#459
+unselect -all
+	#460
+select pin 'SLICE_X84Y254.Y'
+	#site.pin = SLICE_X84Y254.Y, comp.pin = $COMP_9.Y
+	#461
+add extpin
+	#462
+post attr pin SLICE_X84Y254.Y
+	#463
+setattr pin SLICE_X84Y254.Y  external_name Y_9
+	#464
+unpost pin "SLICE_X84Y254.Y"
+	#465
+unselect -all
+	#466
+select pin 'SLICE_X84Y254.G1'
+	#site.pin = SLICE_X84Y254.G1, comp.pin = $COMP_9.G1
+	#467
+add extpin
+	#468
+post attr pin SLICE_X84Y254.G1
+	#469
+setattr pin SLICE_X84Y254.G1  external_name G1_9
+	#470
+unpost pin "SLICE_X84Y254.G1"
+	#471
+unselect -all
+	#472
+unselect -all
+	#473
+select comp '$COMP_10'
+	#comp "$COMP_10",  site "SLICE_X82Y254",  type = SLICEM  (RPM grid X189Y254)
+	#474
+unselect -all
+	#475
+select comp '$COMP_9'
+	#comp "$COMP_9",  site "SLICE_X84Y254",  type = SLICEM  (RPM grid X193Y254)
+	#476
+unselect -all
+	#477
+select comp '$COMP_10'
+	#comp "$COMP_10",  site "SLICE_X82Y254",  type = SLICEM  (RPM grid X189Y254)
+	#478
+unselect -all
+	#479
+select comp '$COMP_10'
+	#comp "$COMP_10",  site "SLICE_X82Y254",  type = SLICEM  (RPM grid X189Y254)
+	#480
+unselect -all
+	#481
+select comp '$COMP_10'
+	#comp "$COMP_10",  site "SLICE_X82Y254",  type = SLICEM  (RPM grid X189Y254)
+	#482
+post block
+	#483
+setattr comp $COMP_10 G "~A1"
+	#0 DRC errors and 2 DRC warnings.
+	#<YUSED>.
+	# GetEqnCfgData equation D
+	#0 DRC errors and 1 DRC warnings.
+	#484
+setattr comp $COMP_10 Config "G:#LUT:D=~A1 YUSED:0"
+	#485
+block apply
+	#486
+end block
+	#487
+unselect -all
+	#488
+select pin 'SLICE_X82Y254.Y'
+	#site.pin = SLICE_X82Y254.Y, comp.pin = $COMP_10.Y
+	#489
+add extpin
+	#490
+post attr pin SLICE_X82Y254.Y
+	#491
+setattr pin SLICE_X82Y254.Y  external_name Y_10
+	#492
+unpost pin "SLICE_X82Y254.Y"
+	#493
+unselect -all
+	#494
+select pin 'SLICE_X82Y254.G1'
+	#site.pin = SLICE_X82Y254.G1, comp.pin = $COMP_10.G1
+	#495
+add extpin
+	#496
+post attr pin SLICE_X82Y254.G1
+	#497
+setattr pin SLICE_X82Y254.G1  external_name G1_10
+	#498
+unpost pin "SLICE_X82Y254.G1"
+	#499
+unselect -all
+	#500
+select pin 'SLICE_X82Y254.G2'
+	#site.pin = SLICE_X82Y254.G2, comp.pin = $COMP_10.G2
+	#501
+unselect -all
+	#502
+select pin 'SLICE_X82Y254.G1'
+	#site.pin = SLICE_X82Y254.G1, comp.pin = $COMP_10.G1, hard macro.pin = G1_10, delay = ~0.000ns on net "$NET_21"
+	#503
+unselect -all
+	#504
+select comp '$COMP_11'
+	#comp "$COMP_11",  site "SLICE_X80Y254",  type = SLICEM  (RPM grid X185Y254)
+	#505
+unselect -all
+	#506
+select comp '$COMP_11'
+	#comp "$COMP_11",  site "SLICE_X80Y254",  type = SLICEM  (RPM grid X185Y254)
+	#507
+unselect -all
+	#508
+select comp '$COMP_11'
+	#comp "$COMP_11",  site "SLICE_X80Y254",  type = SLICEM  (RPM grid X185Y254)
+	#509
+post block
+	#510
+setattr comp $COMP_11 G "~A1"
+	#<YUSED>.
+	# GetEqnCfgData equation D
+	#0 DRC errors and 1 DRC warnings.
+	#511
+setattr comp $COMP_11 Config "G:#LUT:D=~A1 YUSED:0"
+	#512
+block apply
+	#513
+end block
+	#514
+unselect -all
+	#515
+select pin 'SLICE_X80Y254.Y'
+	#site.pin = SLICE_X80Y254.Y, comp.pin = $COMP_11.Y
+	#516
+add extpin
+	#517
+post attr pin SLICE_X80Y254.Y
+	#518
+setattr pin SLICE_X80Y254.Y  external_name Y_11
+	#519
+unpost pin "SLICE_X80Y254.Y"
+	#520
+unselect -all
+	#521
+select pin 'SLICE_X80Y254.G1'
+	#site.pin = SLICE_X80Y254.G1, comp.pin = $COMP_11.G1
+	#522
+add extpin
+	#523
+post attr pin SLICE_X80Y254.G1
+	#524
+setattr pin SLICE_X80Y254.G1  external_name G1_11
+	#525
+unpost pin "SLICE_X80Y254.G1"
+	#526
+unselect -all
+	#527
+unselect -all
+	#528
+select comp '$COMP_12'
+	#comp "$COMP_12",  site "SLICE_X78Y254",  type = SLICEM  (RPM grid X177Y254)
+	#529
+unselect -all
+	#530
+select comp '$COMP_12'
+	#comp "$COMP_12",  site "SLICE_X78Y254",  type = SLICEM  (RPM grid X177Y254)
+	#531
+post block
+	#532
+setattr comp $COMP_12 G "~A1"
+	#0 DRC errors and 2 DRC warnings.
+	#<YUSED>.
+	# GetEqnCfgData equation D
+	#0 DRC errors and 1 DRC warnings.
+	#533
+setattr comp $COMP_12 Config "G:#LUT:D=~A1 YUSED:0"
+	#534
+block apply
+	#535
+end block
+	#536
+unselect -all
+	#537
+select pin 'SLICE_X78Y254.Y'
+	#site.pin = SLICE_X78Y254.Y, comp.pin = $COMP_12.Y
+	#538
+add extpin
+	#539
+post attr pin SLICE_X78Y254.Y
+	#540
+setattr pin SLICE_X78Y254.Y  external_name Y_12
+	#541
+unpost pin "SLICE_X78Y254.Y"
+	#542
+unselect -all
+	#543
+select comp '$COMP_12'
+	#comp "$COMP_12",  site "SLICE_X78Y254",  type = SLICEM  (RPM grid X177Y254)
+	#544
+unselect -all
+	#545
+select comp '$COMP_12'
+	#comp "$COMP_12",  site "SLICE_X78Y254",  type = SLICEM  (RPM grid X177Y254)
+	#546
+unselect -all
+	#547
+select pin 'SLICE_X78Y254.G1'
+	#site.pin = SLICE_X78Y254.G1, comp.pin = $COMP_12.G1
+	#548
+add extpin
+	#549
+post attr pin SLICE_X78Y254.G1
+	#550
+setattr pin SLICE_X78Y254.G1  external_name G1_12
+	#551
+unpost pin "SLICE_X78Y254.G1"
+	#552
+unselect -all
+	#553
+select comp '$COMP_13'
+	#comp "$COMP_13",  site "SLICE_X76Y254",  type = SLICEM  (RPM grid X173Y254)
+	#554
+unselect -all
+	#555
+select comp '$COMP_13'
+	#comp "$COMP_13",  site "SLICE_X76Y254",  type = SLICEM  (RPM grid X173Y254)
+	#556
+unselect -all
+	#557
+select comp '$COMP_13'
+	#comp "$COMP_13",  site "SLICE_X76Y254",  type = SLICEM  (RPM grid X173Y254)
+	#558
+post block
+	#559
+setattr comp $COMP_13 G "~A1"
+	#<YUSED>.
+	# GetEqnCfgData equation D
+	#560
+save
+	#0 DRC errors and 1 DRC warnings.
+	#561
+setattr comp $COMP_13 Config "G:#LUT:D=~A1 YUSED:0"
+	#562
+block apply
+	#563
+end block
+	#564
+unselect -all
+	#565
+select pin 'SLICE_X76Y254.Y'
+	#site.pin = SLICE_X76Y254.Y, comp.pin = $COMP_13.Y
+	#566
+add extpin
+	#567
+post attr pin SLICE_X76Y254.Y
+	#568
+setattr pin SLICE_X76Y254.Y  external_name Y_13
+	#569
+unpost pin "SLICE_X76Y254.Y"
+	#570
+unselect -all
+	#571
+select pin 'SLICE_X76Y254.G1'
+	#site.pin = SLICE_X76Y254.G1, comp.pin = $COMP_13.G1
+	#572
+add extpin
+	#573
+post attr pin SLICE_X76Y254.G1
+	#574
+setattr pin SLICE_X76Y254.G1  external_name G1_13
+	#575
+unpost pin "SLICE_X76Y254.G1"
+	#576
+unselect -all
+	#577
+select comp '$COMP_14'
+	#comp "$COMP_14",  site "SLICE_X74Y254",  type = SLICEM  (RPM grid X169Y254)
+	#578
+unselect -all
+	#579
+select comp '$COMP_14'
+	#comp "$COMP_14",  site "SLICE_X74Y254",  type = SLICEM  (RPM grid X169Y254)
+	#580
+unselect -all
+	#581
+select comp '$COMP_14'
+	#comp "$COMP_14",  site "SLICE_X74Y254",  type = SLICEM  (RPM grid X169Y254)
+	#582
+post block
+	#<YUSED>.
+	#<YUSED>.
+	#<YUSED>.
+	# GetEqnCfgData equation D
+	#583
+setattr comp $COMP_14 G "~A1"
+	#0 DRC errors and 1 DRC warnings.
+	#584
+setattr comp $COMP_14 Config "G:#LUT:D=~A1 YUSED:0"
+	#585
+block apply
+	#586
+end block
+	#587
+unselect -all
+	#588
+select pin 'SLICE_X74Y254.Y'
+	#site.pin = SLICE_X74Y254.Y, comp.pin = $COMP_14.Y
+	#589
+add extpin
+	#590
+post attr pin SLICE_X74Y254.Y
+	#591
+setattr pin SLICE_X74Y254.Y  external_name G1_14
+	#592
+setattr pin SLICE_X74Y254.Y  external_name Y_14
+	#593
+unpost pin "SLICE_X74Y254.Y"
+	#594
+unselect -all
+	#595
+select pin 'SLICE_X74Y254.G1'
+	#site.pin = SLICE_X74Y254.G1, comp.pin = $COMP_14.G1
+	#596
+add extpin
+	#597
+post attr pin SLICE_X74Y254.G1
+	#598
+setattr pin SLICE_X74Y254.G1  external_name G1_14
+	#599
+unpost pin "SLICE_X74Y254.G1"
+	#600
+unselect -all
+	#601
+select comp '$COMP_15'
+	#comp "$COMP_15",  site "SLICE_X72Y254",  type = SLICEM  (RPM grid X165Y254)
+	#602
+unselect -all
+	#603
+select comp '$COMP_15'
+	#comp "$COMP_15",  site "SLICE_X72Y254",  type = SLICEM  (RPM grid X165Y254)
+	#604
+post block
+	#605
+setattr comp $COMP_15 G "~A1"
+	#0 DRC errors and 2 DRC warnings.
+	#<YUSED>.
+	# GetEqnCfgData equation D
+	#0 DRC errors and 1 DRC warnings.
+	#606
+setattr comp $COMP_15 Config "G:#LUT:D=~A1 YUSED:0"
+	#607
+block apply
+	#608
+end block
+	#609
+unselect -all
+	#610
+select pin 'SLICE_X72Y254.Y'
+	#site.pin = SLICE_X72Y254.Y, comp.pin = $COMP_15.Y
+	#611
+add extpin
+	#612
+post attr pin SLICE_X72Y254.Y
+	#613
+setattr pin SLICE_X72Y254.Y  external_name Y_15
+	#614
+unpost pin "SLICE_X72Y254.Y"
+	#615
+unselect -all
+	#616
+select comp '$COMP_15'
+	#comp "$COMP_15",  site "SLICE_X72Y254",  type = SLICEM  (RPM grid X165Y254)
+	#617
+unselect -all
+	#618
+select pin 'SLICE_X72Y254.G1'
+	#site.pin = SLICE_X72Y254.G1, comp.pin = $COMP_15.G1
+	#619
+add extpin
+	#620
+post attr pin SLICE_X72Y254.G1
+	#621
+setattr pin SLICE_X72Y254.G1  external_name G1_15
+	#622
+unpost pin "SLICE_X72Y254.G1"
+	#623
+unselect -all
+	#624
+unselect -all
+	#625
+select comp '$COMP_16'
+	#comp "$COMP_16",  site "SLICE_X70Y254",  type = SLICEM  (RPM grid X161Y254)
+	#626
+unselect -all
+	#627
+select comp '$COMP_16'
+	#comp "$COMP_16",  site "SLICE_X70Y254",  type = SLICEM  (RPM grid X161Y254)
+	#628
+post block
+	#629
+setattr comp $COMP_16 G "~A1"
+	#<YUSED>.
+	# GetEqnCfgData equation D
+	#0 DRC errors and 1 DRC warnings.
+	#630
+save
+	#631
+setattr comp $COMP_16 Config "G:#LUT:D=~A1 YUSED:0"
+	#632
+block apply
+	#633
+end block
+	#634
+unselect -all
+	#635
+select pin 'SLICE_X70Y254.Y'
+	#site.pin = SLICE_X70Y254.Y, comp.pin = $COMP_16.Y
+	#636
+post block
+	#ERROR:FPGAEditor:79 - The "post block" command without any other arguments cannot
+	#be performed unless the selection contains only a single site
+	#or single component.  Change the selection and try again.
+	#637
+add extpin
+	#638
+post attr pin SLICE_X70Y254.Y
+	#639
+setattr pin SLICE_X70Y254.Y  external_name Y_16
+	#640
+unpost pin "SLICE_X70Y254.Y"
+	#641
+unselect -all
+	#642
+select comp '$COMP_16'
+	#comp "$COMP_16",  site "SLICE_X70Y254",  type = SLICEM  (RPM grid X161Y254)
+	#643
+unselect -all
+	#644
+select pin 'SLICE_X70Y254.G1'
+	#site.pin = SLICE_X70Y254.G1, comp.pin = $COMP_16.G1
+	#645
+add extpin
+	#646
+post attr pin SLICE_X70Y254.G1
+	#647
+setattr pin SLICE_X70Y254.G1  external_name G1_16
+	#648
+unpost pin "SLICE_X70Y254.G1"
+	#649
+unselect -all
+	#650
+select comp '$COMP_17'
+	#comp "$COMP_17",  site "SLICE_X68Y254",  type = SLICEM  (RPM grid X157Y254)
+	#651
+unselect -all
+	#652
+select comp '$COMP_17'
+	#comp "$COMP_17",  site "SLICE_X68Y254",  type = SLICEM  (RPM grid X157Y254)
+	#653
+post block
+	#654
+setattr comp $COMP_17 G "~A1"
+	#<YUSED>.
+	# GetEqnCfgData equation D
+	#0 DRC errors and 1 DRC warnings.
+	#655
+save
+	#656
+setattr comp $COMP_17 Config "G:#LUT:D=~A1 YUSED:0"
+	#657
+block apply
+	#658
+end block
+	#659
+unselect -all
+	#660
+select pin 'SLICE_X68Y254.Y'
+	#site.pin = SLICE_X68Y254.Y, comp.pin = $COMP_17.Y
+	#661
+add extpin
+	#662
+post attr pin SLICE_X68Y254.Y
+	#663
+setattr pin SLICE_X68Y254.Y  external_name Y_17
+	#664
+unpost pin "SLICE_X68Y254.Y"
+	#665
+unselect -all
+	#666
+select pin 'SLICE_X68Y254.G1'
+	#site.pin = SLICE_X68Y254.G1, comp.pin = $COMP_17.G1
+	#667
+add extpin
+	#668
+post attr pin SLICE_X68Y254.G1
+	#669
+setattr pin SLICE_X68Y254.G1  external_name G1_17
+	#670
+unpost pin "SLICE_X68Y254.G1"
+	#671
+unselect -all
+	#672
+select comp '$COMP_18'
+	#comp "$COMP_18",  site "SLICE_X66Y254",  type = SLICEM  (RPM grid X153Y254)
+	#673
+unselect -all
+	#674
+select comp '$COMP_18'
+	#comp "$COMP_18",  site "SLICE_X66Y254",  type = SLICEM  (RPM grid X153Y254)
+	#675
+post block
+	#676
+setattr comp $COMP_18 G "~A1"
+	#<YUSED>.
+	# GetEqnCfgData equation D
+	#677
+save
+	#0 DRC errors and 1 DRC warnings.
+	#678
+setattr comp $COMP_18 Config "G:#LUT:D=~A1 YUSED:0"
+	#679
+block apply
+	#680
+end block
+	#681
+unselect -all
+	#682
+select pin 'SLICE_X66Y254.Y'
+	#site.pin = SLICE_X66Y254.Y, comp.pin = $COMP_18.Y
+	#683
+add extpin
+	#684
+post attr pin SLICE_X66Y254.Y
+	#685
+setattr pin SLICE_X66Y254.Y  external_name Y_18
+	#686
+unpost pin "SLICE_X66Y254.Y"
+	#687
+unselect -all
+	#688
+select pin 'SLICE_X66Y254.G1'
+	#site.pin = SLICE_X66Y254.G1, comp.pin = $COMP_18.G1
+	#689
+add extpin
+	#690
+post attr pin SLICE_X66Y254.G1
+	#691
+setattr pin SLICE_X66Y254.G1  external_name G1_18
+	#692
+unpost pin "SLICE_X66Y254.G1"
+	#693
+unselect -all
+	#694
+select comp '$COMP_19'
+	#comp "$COMP_19",  site "SLICE_X64Y254",  type = SLICEM  (RPM grid X149Y254)
+	#695
+unselect -all
+	#696
+select comp '$COMP_19'
+	#comp "$COMP_19",  site "SLICE_X64Y254",  type = SLICEM  (RPM grid X149Y254)
+	#697
+post block
+	#698
+setattr comp $COMP_19 G "~A1"
+	#<YUSED>.
+	# GetEqnCfgData equation D
+	#0 DRC errors and 1 DRC warnings.
+	#699
+save
+	#700
+setattr comp $COMP_19 Config "G:#LUT:D=~A1 YUSED:0"
+	#701
+block apply
+	#702
+end block
+	#703
+unselect -all
+	#704
+unselect -all
+	#705
+select pin 'SLICE_X64Y254.Y'
+	#site.pin = SLICE_X64Y254.Y, comp.pin = $COMP_19.Y
+	#706
+add extpin
+	#707
+post attr pin SLICE_X64Y254.Y
+	#708
+setattr pin SLICE_X64Y254.Y  external_name Y_19
+	#709
+unpost pin "SLICE_X64Y254.Y"
+	#710
+unselect -all
+	#711
+select pin 'SLICE_X64Y254.G1'
+	#site.pin = SLICE_X64Y254.G1, comp.pin = $COMP_19.G1
+	#712
+add extpin
+	#713
+post attr pin SLICE_X64Y254.G1
+	#714
+setattr pin SLICE_X64Y254.G1  external_name G1_19
+	#715
+unpost pin "SLICE_X64Y254.G1"
+	#716
+unselect -all
+	#717
+select comp '$COMP_20'
+	#comp "$COMP_20",  site "SLICE_X62Y254",  type = SLICEM  (RPM grid X145Y254)
+	#718
+unselect -all
+	#719
+select comp '$COMP_20'
+	#comp "$COMP_20",  site "SLICE_X62Y254",  type = SLICEM  (RPM grid X145Y254)
+	#720
+post block
+	#721
+setattr comp $COMP_20 G "~A1"
+	#<YUSED>.
+	# GetEqnCfgData equation D
+	#0 DRC errors and 1 DRC warnings.
+	#722
+setattr comp $COMP_20 Config "G:#LUT:D=~A1 YUSED:0"
+	#723
+block apply
+	#724
+end block
+	#725
+unselect -all
+	#726
+select pin 'SLICE_X62Y254.Y'
+	#site.pin = SLICE_X62Y254.Y, comp.pin = $COMP_20.Y
+	#727
+add extpin
+	#728
+post attr pin SLICE_X62Y254.Y
+	#729
+setattr pin SLICE_X62Y254.Y  external_name Y_20
+	#730
+unpost pin "SLICE_X62Y254.Y"
+	#731
+unselect -all
+	#732
+select comp '$COMP_20'
+	#comp "$COMP_20",  site "SLICE_X62Y254",  type = SLICEM  (RPM grid X145Y254)
+	#733
+unselect -all
+	#734
+select comp '$COMP_20'
+	#comp "$COMP_20",  site "SLICE_X62Y254",  type = SLICEM  (RPM grid X145Y254)
+	#735
+unselect -all
+	#736
+select pin 'SLICE_X62Y254.G1'
+	#site.pin = SLICE_X62Y254.G1, comp.pin = $COMP_20.G1
+	#737
+add extpin
+	#738
+post attr pin SLICE_X62Y254.G1
+	#739
+setattr pin SLICE_X62Y254.G1  external_name G1_20
+	#740
+unpost pin "SLICE_X62Y254.G1"
+	#741
+unselect -all
+	#742
+select comp '$COMP_21'
+	#comp "$COMP_21",  site "SLICE_X60Y254",  type = SLICEM  (RPM grid X141Y254)
+	#743
+unselect -all
+	#744
+select comp '$COMP_21'
+	#comp "$COMP_21",  site "SLICE_X60Y254",  type = SLICEM  (RPM grid X141Y254)
+	#745
+unselect -all
+	#746
+select comp '$COMP_21'
+	#comp "$COMP_21",  site "SLICE_X60Y254",  type = SLICEM  (RPM grid X141Y254)
+	#747
+post block
+	#748
+setattr comp $COMP_21 G "~A1"
+	#0 DRC errors and 2 DRC warnings.
+	#<YUSED>.
+	# GetEqnCfgData equation D
+	#0 DRC errors and 1 DRC warnings.
+	#749
+save
+	#750
+setattr comp $COMP_21 Config "G:#LUT:D=~A1 YUSED:0"
+	#751
+block apply
+	#752
+end block
+	#753
+unselect -all
+	#754
+select pin 'SLICE_X60Y254.Y'
+	#site.pin = SLICE_X60Y254.Y, comp.pin = $COMP_21.Y
+	#755
+add extpin
+	#756
+post attr pin SLICE_X60Y254.Y
+	#757
+setattr pin SLICE_X60Y254.Y  external_name Y_21
+	#758
+unpost pin "SLICE_X60Y254.Y"
+	#759
+unselect -all
+	#760
+select pin 'SLICE_X60Y254.G1'
+	#site.pin = SLICE_X60Y254.G1, comp.pin = $COMP_21.G1
+	#761
+add extpin
+	#762
+post attr pin SLICE_X60Y254.G1
+	#763
+setattr pin SLICE_X60Y254.G1  external_name G1_21
+	#764
+unpost pin "SLICE_X60Y254.G1"
+	#765
+unselect -all
+	#766
+unselect -all
+	#767
+select comp '$COMP_22'
+	#comp "$COMP_22",  site "SLICE_X58Y254",  type = SLICEM  (RPM grid X137Y254)
+	#768
+unselect -all
+	#769
+select comp '$COMP_22'
+	#comp "$COMP_22",  site "SLICE_X58Y254",  type = SLICEM  (RPM grid X137Y254)
+	#770
+post block
+	#771
+setattr comp $COMP_22 G "~A1"
+	#<YUSED>.
+	# GetEqnCfgData equation D
+	#0 DRC errors and 1 DRC warnings.
+	#772
+setattr comp $COMP_22 Config "G:#LUT:D=~A1 YUSED:0"
+	#773
+block apply
+	#774
+end block
+	#775
+unselect -all
+	#776
+select pin 'SLICE_X58Y254.Y'
+	#site.pin = SLICE_X58Y254.Y, comp.pin = $COMP_22.Y
+	#777
+add extpin
+	#778
+post attr pin SLICE_X58Y254.Y
+	#779
+setattr pin SLICE_X58Y254.Y  external_name Y_22
+	#780
+unpost pin "SLICE_X58Y254.Y"
+	#781
+unselect -all
+	#782
+select pin 'SLICE_X58Y254.G1'
+	#site.pin = SLICE_X58Y254.G1, comp.pin = $COMP_22.G1
+	#783
+add extpin
+	#784
+post attr pin SLICE_X58Y254.G1
+	#785
+setattr pin SLICE_X58Y254.G1  external_name G1_22
+	#786
+unpost pin "SLICE_X58Y254.G1"
+	#787
+unselect -all
+	#788
+select comp '$COMP_23'
+	#comp "$COMP_23",  site "SLICE_X56Y254",  type = SLICEM  (RPM grid X133Y254)
+	#789
+unselect -all
+	#790
+select comp '$COMP_23'
+	#comp "$COMP_23",  site "SLICE_X56Y254",  type = SLICEM  (RPM grid X133Y254)
+	#791
+post block
+	#792
+setattr comp $COMP_23 G "~A1"
+	#<YUSED>.
+	# GetEqnCfgData equation D
+	#793
+save
+	#0 DRC errors and 1 DRC warnings.
+	#794
+setattr comp $COMP_23 Config "G:#LUT:D=~A1 YUSED:0"
+	#795
+block apply
+	#796
+end block
+	#797
+unselect -all
+	#798
+select pin 'SLICE_X56Y254.Y'
+	#site.pin = SLICE_X56Y254.Y, comp.pin = $COMP_23.Y
+	#799
+add extpin
+	#800
+post attr pin SLICE_X56Y254.Y
+	#801
+setattr pin SLICE_X56Y254.Y  external_name Y_23
+	#802
+unpost pin "SLICE_X56Y254.Y"
+	#803
+unselect -all
+	#804
+select pin 'SLICE_X56Y254.G1'
+	#site.pin = SLICE_X56Y254.G1, comp.pin = $COMP_23.G1
+	#805
+add extpin
+	#806
+post attr pin SLICE_X56Y254.G1
+	#807
+setattr pin SLICE_X56Y254.G1  external_name G1_23
+	#808
+unpost pin "SLICE_X56Y254.G1"
+	#809
+unselect -all
+	#810
+unselect -all
+	#811
+select comp '$COMP_24'
+	#comp "$COMP_24",  site "SLICE_X54Y254",  type = SLICEM  (RPM grid X129Y254)
+	#812
+unselect -all
+	#813
+select comp '$COMP_24'
+	#comp "$COMP_24",  site "SLICE_X54Y254",  type = SLICEM  (RPM grid X129Y254)
+	#814
+post block
+	#815
+setattr comp $COMP_24 G "~A1"
+	#<YUSED>.
+	# GetEqnCfgData equation D
+	#816
+save
+	#0 DRC errors and 1 DRC warnings.
+	#817
+setattr comp $COMP_24 Config "G:#LUT:D=~A1 YUSED:0"
+	#818
+block apply
+	#819
+end block
+	#820
+unselect -all
+	#821
+select pin 'SLICE_X54Y254.Y'
+	#site.pin = SLICE_X54Y254.Y, comp.pin = $COMP_24.Y
+	#822
+add extpin
+	#823
+post attr pin SLICE_X54Y254.Y
+	#824
+setattr pin SLICE_X54Y254.Y  external_name Y_24
+	#825
+unpost pin "SLICE_X54Y254.Y"
+	#826
+unselect -all
+	#827
+select pin 'SLICE_X54Y254.G1'
+	#site.pin = SLICE_X54Y254.G1, comp.pin = $COMP_24.G1
+	#828
+add extpin
+	#829
+post attr pin SLICE_X54Y254.G1
+	#830
+setattr pin SLICE_X54Y254.G1  external_name G1_24
+	#831
+unpost pin "SLICE_X54Y254.G1"
+	#832
+unselect -all
+	#833
+select comp '$COMP_25'
+	#comp "$COMP_25",  site "SLICE_X52Y254",  type = SLICEM  (RPM grid X125Y254)
+	#834
+unselect -all
+	#835
+select comp '$COMP_25'
+	#comp "$COMP_25",  site "SLICE_X52Y254",  type = SLICEM  (RPM grid X125Y254)
+	#836
+post block
+	#837
+save
+	#838
+setattr comp $COMP_25 G "~A1"
+	#<YUSED>.
+	# GetEqnCfgData equation D
+	#839
+save
+	#0 DRC errors and 1 DRC warnings.
+	#840
+setattr comp $COMP_25 Config "G:#LUT:D=~A1 YUSED:0"
+	#841
+block apply
+	#842
+end block
+	#843
+unselect -all
+	#844
+select comp '$COMP_25'
+	#comp "$COMP_25",  site "SLICE_X52Y254",  type = SLICEM  (RPM grid X125Y254)
+	#845
+unselect -all
+	#846
+select pin 'SLICE_X52Y254.Y'
+	#site.pin = SLICE_X52Y254.Y, comp.pin = $COMP_25.Y
+	#847
+add extpin
+	#848
+post attr pin SLICE_X52Y254.Y
+	#849
+setattr pin SLICE_X52Y254.Y  external_name Y_25
+	#850
+unpost pin "SLICE_X52Y254.Y"
+	#851
+unselect -all
+	#852
+select comp '$COMP_25'
+	#comp "$COMP_25",  site "SLICE_X52Y254",  type = SLICEM  (RPM grid X125Y254)
+	#853
+unselect -all
+	#854
+select pin 'SLICE_X52Y254.G1'
+	#site.pin = SLICE_X52Y254.G1, comp.pin = $COMP_25.G1
+	#855
+add extpin
+	#856
+post attr pin SLICE_X52Y254.G1
+	#857
+setattr pin SLICE_X52Y254.G1  external_name G1_25
+	#858
+unpost pin "SLICE_X52Y254.G1"
+	#859
+unselect -all
+	#860
+select comp '$COMP_26'
+	#comp "$COMP_26",  site "SLICE_X50Y254",  type = SLICEM  (RPM grid X117Y254)
+	#861
+unselect -all
+	#862
+select comp '$COMP_26'
+	#comp "$COMP_26",  site "SLICE_X50Y254",  type = SLICEM  (RPM grid X117Y254)
+	#863
+post block
+	#864
+setattr comp $COMP_26 G "~A1"
+	#<YUSED>.
+	# GetEqnCfgData equation D
+	#865
+save
+	#0 DRC errors and 1 DRC warnings.
+	#866
+setattr comp $COMP_26 Config "G:#LUT:D=~A1 YUSED:0"
+	#867
+block apply
+	#868
+end block
+	#869
+unselect -all
+	#870
+select pin 'SLICE_X50Y254.Y'
+	#site.pin = SLICE_X50Y254.Y, comp.pin = $COMP_26.Y
+	#871
+add extpin
+	#872
+post attr pin SLICE_X50Y254.Y
+	#873
+setattr pin SLICE_X50Y254.Y  external_name Y_26
+	#874
+unpost pin "SLICE_X50Y254.Y"
+	#875
+unselect -all
+	#876
+select comp '$COMP_26'
+	#comp "$COMP_26",  site "SLICE_X50Y254",  type = SLICEM  (RPM grid X117Y254)
+	#877
+unselect -all
+	#878
+select pin 'SLICE_X50Y254.G1'
+	#site.pin = SLICE_X50Y254.G1, comp.pin = $COMP_26.G1
+	#879
+add extpin
+	#880
+post attr pin SLICE_X50Y254.G1
+	#881
+setattr pin SLICE_X50Y254.G1  external_name G1_26
+	#882
+unpost pin "SLICE_X50Y254.G1"
+	#883
+unselect -all
+	#884
+unselect -all
+	#885
+select comp '$COMP_27'
+	#comp "$COMP_27",  site "SLICE_X48Y254",  type = SLICEM  (RPM grid X113Y254)
+	#886
+unselect -all
+	#887
+select comp '$COMP_27'
+	#comp "$COMP_27",  site "SLICE_X48Y254",  type = SLICEM  (RPM grid X113Y254)
+	#888
+post block
+	#889
+setattr comp $COMP_27 G "~A1"
+	#<YUSED>.
+	# GetEqnCfgData equation D
+	#890
+save
+	#0 DRC errors and 1 DRC warnings.
+	#891
+setattr comp $COMP_27 Config "G:#LUT:D=~A1 YUSED:0"
+	#892
+block apply
+	#893
+end block
+	#894
+unselect -all
+	#895
+select pin 'SLICE_X48Y254.Y'
+	#site.pin = SLICE_X48Y254.Y, comp.pin = $COMP_27.Y
+	#896
+add extpin
+	#897
+post attr pin SLICE_X48Y254.Y
+	#898
+setattr pin SLICE_X48Y254.Y  external_name Y_27
+	#899
+unpost pin "SLICE_X48Y254.Y"
+	#900
+unselect -all
+	#901
+select comp '$COMP_27'
+	#comp "$COMP_27",  site "SLICE_X48Y254",  type = SLICEM  (RPM grid X113Y254)
+	#902
+unselect -all
+	#903
+select pin 'SLICE_X48Y254.G1'
+	#site.pin = SLICE_X48Y254.G1, comp.pin = $COMP_27.G1
+	#904
+add extpin
+	#905
+post attr pin SLICE_X48Y254.G1
+	#906
+setattr pin SLICE_X48Y254.G1  external_name G1_27
+	#907
+unpost pin "SLICE_X48Y254.G1"
+	#908
+unselect -all
+	#909
+select comp '$COMP_28'
+	#comp "$COMP_28",  site "SLICE_X46Y254",  type = SLICEM  (RPM grid X109Y254)
+	#910
+unselect -all
+	#911
+select comp '$COMP_28'
+	#comp "$COMP_28",  site "SLICE_X46Y254",  type = SLICEM  (RPM grid X109Y254)
+	#912
+post block
+	#913
+setattr comp $COMP_28 G "~A1"
+	#<YUSED>.
+	# GetEqnCfgData equation D
+	#914
+save
+	#0 DRC errors and 1 DRC warnings.
+	#915
+setattr comp $COMP_28 Config "G:#LUT:D=~A1 YUSED:0"
+	#916
+block apply
+	#917
+end block
+	#918
+unselect -all
+	#919
+select pin 'SLICE_X46Y254.Y'
+	#site.pin = SLICE_X46Y254.Y, comp.pin = $COMP_28.Y
+	#920
+post block
+	#ERROR:FPGAEditor:79 - The "post block" command without any other arguments cannot
+	#be performed unless the selection contains only a single site
+	#or single component.  Change the selection and try again.
+	#921
+add extpin
+	#922
+post attr pin SLICE_X46Y254.Y
+	#923
+setattr pin SLICE_X46Y254.Y  external_name Y_28
+	#924
+unpost pin "SLICE_X46Y254.Y"
+	#925
+unselect -all
+	#926
+select comp '$COMP_28'
+	#comp "$COMP_28",  site "SLICE_X46Y254",  type = SLICEM  (RPM grid X109Y254)
+	#927
+unselect -all
+	#928
+select pin 'SLICE_X46Y254.G1'
+	#site.pin = SLICE_X46Y254.G1, comp.pin = $COMP_28.G1
+	#929
+add extpin
+	#930
+post attr pin SLICE_X46Y254.G1
+	#931
+setattr pin SLICE_X46Y254.G1  external_name G1_28
+	#932
+unpost pin "SLICE_X46Y254.G1"
+	#933
+unselect -all
+	#934
+select comp '$COMP_29'
+	#comp "$COMP_29",  site "SLICE_X44Y254",  type = SLICEM  (RPM grid X105Y254)
+	#935
+unselect -all
+	#936
+select comp '$COMP_29'
+	#comp "$COMP_29",  site "SLICE_X44Y254",  type = SLICEM  (RPM grid X105Y254)
+	#937
+post block
+	#938
+setattr comp $COMP_29 G "~A1"
+	#<YUSED>.
+	# GetEqnCfgData equation D
+	#939
+save
+	#0 DRC errors and 1 DRC warnings.
+	#940
+setattr comp $COMP_29 Config "G:#LUT:D=~A1 YUSED:0"
+	#941
+block apply
+	#942
+end block
+	#943
+unselect -all
+	#944
+select pin 'SLICE_X44Y254.Y'
+	#site.pin = SLICE_X44Y254.Y, comp.pin = $COMP_29.Y
+	#945
+add extpin
+	#946
+post attr pin SLICE_X44Y254.Y
+	#947
+setattr pin SLICE_X44Y254.Y  external_name Y_29
+	#948
+unpost pin "SLICE_X44Y254.Y"
+	#949
+unselect -all
+	#950
+select comp '$COMP_29'
+	#comp "$COMP_29",  site "SLICE_X44Y254",  type = SLICEM  (RPM grid X105Y254)
+	#951
+unselect -all
+	#952
+select pin 'SLICE_X44Y254.G1'
+	#site.pin = SLICE_X44Y254.G1, comp.pin = $COMP_29.G1
+	#953
+add extpin
+	#954
+post attr pin SLICE_X44Y254.G1
+	#955
+setattr pin SLICE_X44Y254.G1  external_name G1_29
+	#956
+unpost pin "SLICE_X44Y254.G1"
+	#957
+unselect -all
+	#958
+select comp '$COMP_30'
+	#comp "$COMP_30",  site "SLICE_X42Y254",  type = SLICEM  (RPM grid X101Y254)
+	#959
+unselect -all
+	#960
+select comp '$COMP_30'
+	#comp "$COMP_30",  site "SLICE_X42Y254",  type = SLICEM  (RPM grid X101Y254)
+	#961
+post block
+	#962
+setattr comp $COMP_30 G "~A1"
+	#<YUSED>.
+	# GetEqnCfgData equation D
+	#0 DRC errors and 1 DRC warnings.
+	#963
+save
+	#964
+setattr comp $COMP_30 Config "G:#LUT:D=~A1 YUSED:0"
+	#965
+block apply
+	#966
+end block
+	#967
+unselect -all
+	#968
+select pin 'SLICE_X42Y254.Y'
+	#site.pin = SLICE_X42Y254.Y, comp.pin = $COMP_30.Y
+	#969
+add extpin
+	#970
+post attr pin SLICE_X42Y254.Y
+	#971
+setattr pin SLICE_X42Y254.Y  external_name Y_30
+	#972
+unpost pin "SLICE_X42Y254.Y"
+	#973
+unselect -all
+	#974
+select comp '$COMP_30'
+	#comp "$COMP_30",  site "SLICE_X42Y254",  type = SLICEM  (RPM grid X101Y254)
+	#975
+unselect -all
+	#976
+select pin 'SLICE_X42Y254.G1'
+	#site.pin = SLICE_X42Y254.G1, comp.pin = $COMP_30.G1
+	#977
+add extpin
+	#978
+post attr pin SLICE_X42Y254.G1
+	#979
+setattr pin SLICE_X42Y254.G1  external_name G1_30
+	#980
+unpost pin "SLICE_X42Y254.G1"
+	#981
+unselect -all
+	#982
+select comp '$COMP_31'
+	#comp "$COMP_31",  site "SLICE_X40Y254",  type = SLICEM  (RPM grid X97Y254)
+	#983
+unselect -all
+	#984
+select comp '$COMP_31'
+	#comp "$COMP_31",  site "SLICE_X40Y254",  type = SLICEM  (RPM grid X97Y254)
+	#985
+post block
+	#986
+setattr comp $COMP_31 G "~A1"
+	#<YUSED>.
+	# GetEqnCfgData equation D
+	#987
+save
+	#0 DRC errors and 1 DRC warnings.
+	#988
+setattr comp $COMP_31 Config "G:#LUT:D=~A1 YUSED:0"
+	#989
+block apply
+	#990
+end block
+	#991
+unselect -all
+	#992
+select pin 'SLICE_X40Y254.Y'
+	#site.pin = SLICE_X40Y254.Y, comp.pin = $COMP_31.Y
+	#993
+add extpin
+	#994
+post attr pin SLICE_X40Y254.Y
+	#995
+setattr pin SLICE_X40Y254.Y  external_name Y_31
+	#996
+unpost pin "SLICE_X40Y254.Y"
+	#997
+unselect -all
+	#998
+select pin 'SLICE_X40Y254.G1'
+	#site.pin = SLICE_X40Y254.G1, comp.pin = $COMP_31.G1
+	#999
+add extpin
+	#1000
+post attr pin SLICE_X40Y254.G1
+	#1001
+setattr pin SLICE_X40Y254.G1  external_name G1_31
+	#1002
+unpost pin "SLICE_X40Y254.G1"
+	#1003
+unselect -all
+	#1004
+unselect -all
+	#1005
+select comp '$COMP_32'
+	#comp "$COMP_32",  site "SLICE_X38Y254",  type = SLICEM  (RPM grid X93Y254)
+	#1006
+unselect -all
+	#1007
+select comp '$COMP_32'
+	#comp "$COMP_32",  site "SLICE_X38Y254",  type = SLICEM  (RPM grid X93Y254)
+	#1008
+unselect -all
+	#1009
+select comp '$COMP_32'
+	#comp "$COMP_32",  site "SLICE_X38Y254",  type = SLICEM  (RPM grid X93Y254)
+	#1010
+post block
+	#1011
+setattr comp $COMP_32 G "~A1"
+	#<YUSED>.
+	# GetEqnCfgData equation D
+	#1012
+save
+	#0 DRC errors and 1 DRC warnings.
+	#1013
+setattr comp $COMP_32 Config "G:#LUT:D=~A1 YUSED:0"
+	#1014
+block apply
+	#1015
+end block
+	#1016
+unselect -all
+	#1017
+select pin 'SLICE_X38Y254.Y'
+	#site.pin = SLICE_X38Y254.Y, comp.pin = $COMP_32.Y
+	#1018
+add extpin
+	#1019
+post attr pin SLICE_X38Y254.Y
+	#1020
+setattr pin SLICE_X38Y254.Y  external_name Y_32
+	#1021
+unpost pin "SLICE_X38Y254.Y"
+	#1022
+unselect -all
+	#1023
+select pin 'SLICE_X38Y254.G1'
+	#site.pin = SLICE_X38Y254.G1, comp.pin = $COMP_32.G1
+	#1024
+add extpin
+	#1025
+post attr pin SLICE_X38Y254.G1
+	#1026
+setattr pin SLICE_X38Y254.G1  external_name G1_32
+	#1027
+unpost pin "SLICE_X38Y254.G1"
+	#1028
+unselect -all
+	#1029
+select comp '$COMP_33'
+	#comp "$COMP_33",  site "SLICE_X36Y254",  type = SLICEM  (RPM grid X89Y254)
+	#1030
+unselect -all
+	#1031
+select comp '$COMP_33'
+	#comp "$COMP_33",  site "SLICE_X36Y254",  type = SLICEM  (RPM grid X89Y254)
+	#1032
+post block
+	#1033
+setattr comp $COMP_33 G "~A1"
+	#<YUSED>.
+	# GetEqnCfgData equation D
+	#1034
+save
+	#0 DRC errors and 1 DRC warnings.
+	#1035
+setattr comp $COMP_33 Config "G:#LUT:D=~A1 YUSED:0"
+	#1036
+block apply
+	#1037
+end block
+	#1038
+unselect -all
+	#1039
+select pin 'SLICE_X36Y254.Y'
+	#site.pin = SLICE_X36Y254.Y, comp.pin = $COMP_33.Y
+	#1040
+add extpin
+	#1041
+post attr pin SLICE_X36Y254.Y
+	#1042
+setattr pin SLICE_X36Y254.Y  external_name Y_33
+	#1043
+unpost pin "SLICE_X36Y254.Y"
+	#1044
+unselect -all
+	#1045
+select pin 'SLICE_X36Y254.G1'
+	#site.pin = SLICE_X36Y254.G1, comp.pin = $COMP_33.G1
+	#1046
+add extpin
+	#1047
+post attr pin SLICE_X36Y254.G1
+	#1048
+setattr pin SLICE_X36Y254.G1  external_name G1_33
+	#1049
+unpost pin "SLICE_X36Y254.G1"
+	#1050
+unselect -all
+	#1051
+select comp '$COMP_34'
+	#comp "$COMP_34",  site "SLICE_X34Y254",  type = SLICEM  (RPM grid X85Y254)
+	#1052
+unselect -all
+	#1053
+select comp '$COMP_34'
+	#comp "$COMP_34",  site "SLICE_X34Y254",  type = SLICEM  (RPM grid X85Y254)
+	#1054
+unselect -all
+	#1055
+select comp '$COMP_34'
+	#comp "$COMP_34",  site "SLICE_X34Y254",  type = SLICEM  (RPM grid X85Y254)
+	#1056
+post block
+	#1057
+setattr comp $COMP_34 G "~A1"
+	#<YUSED>.
+	# GetEqnCfgData equation D
+	#1058
+save
+	#0 DRC errors and 1 DRC warnings.
+	#1059
+setattr comp $COMP_34 Config "G:#LUT:D=~A1 YUSED:0"
+	#1060
+block apply
+	#1061
+end block
+	#1062
+unselect -all
+	#1063
+select pin 'SLICE_X34Y254.Y'
+	#site.pin = SLICE_X34Y254.Y, comp.pin = $COMP_34.Y
+	#1064
+add extpin
+	#1065
+post attr pin SLICE_X34Y254.Y
+	#1066
+setattr pin SLICE_X34Y254.Y  external_name Y_34
+	#1067
+unpost pin "SLICE_X34Y254.Y"
+	#1068
+unselect -all
+	#1069
+select pin 'SLICE_X34Y254.G1'
+	#site.pin = SLICE_X34Y254.G1, comp.pin = $COMP_34.G1
+	#1070
+add extpin
+	#1071
+post attr pin SLICE_X34Y254.G1
+	#1072
+setattr pin SLICE_X34Y254.G1  external_name G1_34
+	#1073
+unpost pin "SLICE_X34Y254.G1"
+	#1074
+unselect -all
+	#1075
+select comp '$COMP_35'
+	#comp "$COMP_35",  site "SLICE_X32Y254",  type = SLICEM  (RPM grid X81Y254)
+	#1076
+unselect -all
+	#1077
+select comp '$COMP_35'
+	#comp "$COMP_35",  site "SLICE_X32Y254",  type = SLICEM  (RPM grid X81Y254)
+	#1078
+post block
+	#1079
+setattr comp $COMP_35 G "~A1"
+	#<YUSED>.
+	# GetEqnCfgData equation D
+	#1080
+save
+	#0 DRC errors and 1 DRC warnings.
+	#1081
+setattr comp $COMP_35 Config "G:#LUT:D=~A1 YUSED:0"
+	#1082
+block apply
+	#1083
+end block
+	#1084
+unselect -all
+	#1085
+select pin 'SLICE_X32Y254.Y'
+	#site.pin = SLICE_X32Y254.Y, comp.pin = $COMP_35.Y
+	#1086
+post block
+	#ERROR:FPGAEditor:79 - The "post block" command without any other arguments cannot
+	#be performed unless the selection contains only a single site
+	#or single component.  Change the selection and try again.
+	#1087
+add extpin
+	#1088
+post attr pin SLICE_X32Y254.Y
+	#1089
+setattr pin SLICE_X32Y254.Y  external_name Y_35
+	#1090
+unpost pin "SLICE_X32Y254.Y"
+	#1091
+unselect -all
+	#1092
+select pin 'SLICE_X32Y254.G1'
+	#site.pin = SLICE_X32Y254.G1, comp.pin = $COMP_35.G1
+	#1093
+add extpin
+	#1094
+post attr pin SLICE_X32Y254.G1
+	#1095
+setattr pin SLICE_X32Y254.G1  external_name G1_35
+	#1096
+unpost pin "SLICE_X32Y254.G1"
+	#1097
+unselect -all
+	#1098
+unselect -all
+	#1099
+select comp '$COMP_35'
+	#comp "$COMP_35",  site "SLICE_X32Y254",  type = SLICEM  (RPM grid X81Y254)
+	#1100
+unselect -all
+	#1101
+select comp '$COMP_35'
+	#comp "$COMP_35",  site "SLICE_X32Y254",  type = SLICEM  (RPM grid X81Y254)
+	#1102
+post block
+	#1103
+unselect -all
+	#1104
+unselect -all
+	#1105
+select comp '$COMP_36'
+	#comp "$COMP_36",  site "SLICE_X30Y254",  type = SLICEM  (RPM grid X77Y254)
+	#1106
+unselect -all
+	#1107
+select comp '$COMP_36'
+	#comp "$COMP_36",  site "SLICE_X30Y254",  type = SLICEM  (RPM grid X77Y254)
+	#1108
+post block
+	#1109
+setattr comp $COMP_36 G "~A1"
+	#<YUSED>.
+	# GetEqnCfgData equation D
+	#0 DRC errors and 1 DRC warnings.
+	#1110
+setattr comp $COMP_36 Config "G:#LUT:D=~A1 YUSED:0"
+	#1111
+block apply
+	#1112
+end block
+	#1113
+unselect -all
+	#1114
+select pin 'SLICE_X30Y254.Y'
+	#site.pin = SLICE_X30Y254.Y, comp.pin = $COMP_36.Y
+	#1115
+add extpin
+	#1116
+post attr pin SLICE_X30Y254.Y
+	#1117
+setattr pin SLICE_X30Y254.Y  external_name Y_36
+	#1118
+unpost pin "SLICE_X30Y254.Y"
+	#1119
+unselect -all
+	#1120
+select pin 'SLICE_X30Y254.G1'
+	#site.pin = SLICE_X30Y254.G1, comp.pin = $COMP_36.G1
+	#1121
+add extpin
+	#1122
+post attr pin SLICE_X30Y254.G1
+	#1123
+setattr pin SLICE_X30Y254.G1  external_name G1_36
+	#1124
+unpost pin "SLICE_X30Y254.G1"
+	#1125
+unselect -all
+	#1126
+unselect -all
+	#1127
+select comp '$COMP_37'
+	#comp "$COMP_37",  site "SLICE_X28Y254",  type = SLICEM  (RPM grid X73Y254)
+	#1128
+unselect -all
+	#1129
+select comp '$COMP_37'
+	#comp "$COMP_37",  site "SLICE_X28Y254",  type = SLICEM  (RPM grid X73Y254)
+	#1130
+post block
+	#1131
+setattr comp $COMP_37 G "~A1"
+	#<YUSED>.
+	# GetEqnCfgData equation D
+	#0 DRC errors and 1 DRC warnings.
+	#1132
+setattr comp $COMP_37 Config "G:#LUT:D=~A1 YUSED:0"
+	#1133
+block apply
+	#1134
+end block
+	#1135
+unselect -all
+	#1136
+select pin 'SLICE_X28Y254.Y'
+	#site.pin = SLICE_X28Y254.Y, comp.pin = $COMP_37.Y
+	#1137
+add extpin
+	#1138
+post attr pin SLICE_X28Y254.Y
+	#1139
+setattr pin SLICE_X28Y254.Y  external_name Y_37
+	#1140
+unpost pin "SLICE_X28Y254.Y"
+	#1141
+unselect -all
+	#1142
+select pin 'SLICE_X28Y254.G1'
+	#site.pin = SLICE_X28Y254.G1, comp.pin = $COMP_37.G1
+	#1143
+add extpin
+	#1144
+post attr pin SLICE_X28Y254.G1
+	#1145
+setattr pin SLICE_X28Y254.G1  external_name G1_37
+	#1146
+unpost pin "SLICE_X28Y254.G1"
+	#1147
+unselect -all
+	#1148
+unselect -all
+	#1149
+select comp '$COMP_38'
+	#comp "$COMP_38",  site "SLICE_X26Y254",  type = SLICEM  (RPM grid X69Y254)
+	#1150
+unselect -all
+	#1151
+select comp '$COMP_38'
+	#comp "$COMP_38",  site "SLICE_X26Y254",  type = SLICEM  (RPM grid X69Y254)
+	#1152
+post block
+	#1153
+setattr comp $COMP_38 G "~A1"
+	#<YUSED>.
+	# GetEqnCfgData equation D
+	#0 DRC errors and 1 DRC warnings.
+	#1154
+setattr comp $COMP_38 Config "G:#LUT:D=~A1 YUSED:0"
+	#1155
+block apply
+	#1156
+end block
+	#1157
+unselect -all
+	#1158
+select pin 'SLICE_X26Y254.Y'
+	#site.pin = SLICE_X26Y254.Y, comp.pin = $COMP_38.Y
+	#1159
+add extpin
+	#1160
+post attr pin SLICE_X26Y254.Y
+	#1161
+setattr pin SLICE_X26Y254.Y  external_name Y_38
+	#1162
+unpost pin "SLICE_X26Y254.Y"
+	#1163
+unselect -all
+	#1164
+select pin 'SLICE_X26Y254.G1'
+	#site.pin = SLICE_X26Y254.G1, comp.pin = $COMP_38.G1
+	#1165
+add extpin
+	#1166
+post attr pin SLICE_X26Y254.G1
+	#1167
+setattr pin SLICE_X26Y254.G1  external_name G1_38
+	#1168
+unpost pin "SLICE_X26Y254.G1"
+	#1169
+unselect -all
+	#1170
+select comp '$COMP_39'
+	#comp "$COMP_39",  site "SLICE_X24Y254",  type = SLICEM  (RPM grid X65Y254)
+	#1171
+unselect -all
+	#1172
+select comp '$COMP_39'
+	#comp "$COMP_39",  site "SLICE_X24Y254",  type = SLICEM  (RPM grid X65Y254)
+	#1173
+post block
+	#1174
+setattr comp $COMP_39 G "~A1"
+	#<YUSED>.
+	# GetEqnCfgData equation D
+	#1175
+save
+	#0 DRC errors and 1 DRC warnings.
+	#1176
+setattr comp $COMP_39 Config "G:#LUT:D=~A1 YUSED:0"
+	#1177
+block apply
+	#1178
+end block
+	#1179
+unselect -all
+	#1180
+select pin 'SLICE_X24Y254.Y'
+	#site.pin = SLICE_X24Y254.Y, comp.pin = $COMP_39.Y
+	#1181
+add extpin
+	#1182
+post attr pin SLICE_X24Y254.Y
+	#1183
+setattr pin SLICE_X24Y254.Y  external_name Y_39
+	#1184
+unpost pin "SLICE_X24Y254.Y"
+	#1185
+unselect -all
+	#1186
+select pin 'SLICE_X24Y254.G1'
+	#site.pin = SLICE_X24Y254.G1, comp.pin = $COMP_39.G1
+	#1187
+add extpin
+	#1188
+post attr pin SLICE_X24Y254.G1
+	#1189
+setattr pin SLICE_X24Y254.G1  external_name G1_39
+	#1190
+unpost pin "SLICE_X24Y254.G1"
+	#1191
+unselect -all
+	#1192
+select comp '$COMP_40'
+	#comp "$COMP_40",  site "SLICE_X22Y254",  type = SLICEM  (RPM grid X57Y254)
+	#1193
+unselect -all
+	#1194
+select comp '$COMP_40'
+	#comp "$COMP_40",  site "SLICE_X22Y254",  type = SLICEM  (RPM grid X57Y254)
+	#1195
+unselect -all
+	#1196
+select comp '$COMP_40'
+	#comp "$COMP_40",  site "SLICE_X22Y254",  type = SLICEM  (RPM grid X57Y254)
+	#1197
+unselect -all
+	#1198
+select comp '$COMP_40'
+	#comp "$COMP_40",  site "SLICE_X22Y254",  type = SLICEM  (RPM grid X57Y254)
+	#1199
+unselect -all
+	#1200
+select comp '$COMP_40'
+	#comp "$COMP_40",  site "SLICE_X22Y254",  type = SLICEM  (RPM grid X57Y254)
+	#1201
+post block
+	#1202
+setattr comp $COMP_40 G "~A1"
+	#<YUSED>.
+	# GetEqnCfgData equation D
+	#1203
+save
+	#0 DRC errors and 1 DRC warnings.
+	#1204
+setattr comp $COMP_40 Config "G:#LUT:D=~A1 YUSED:0"
+	#1205
+block apply
+	#1206
+end block
+	#1207
+unselect -all
+	#1208
+select pin 'SLICE_X22Y254.Y'
+	#site.pin = SLICE_X22Y254.Y, comp.pin = $COMP_40.Y
+	#1209
+add extpin
+	#1210
+post attr pin SLICE_X22Y254.Y
+	#1211
+setattr pin SLICE_X22Y254.Y  external_name Y_40
+	#1212
+unpost pin "SLICE_X22Y254.Y"
+	#1213
+unselect -all
+	#1214
+select pin 'SLICE_X22Y254.G1'
+	#site.pin = SLICE_X22Y254.G1, comp.pin = $COMP_40.G1
+	#1215
+add extpin
+	#1216
+post attr pin SLICE_X22Y254.G1
+	#1217
+setattr pin SLICE_X22Y254.G1  external_name G1_40
+	#1218
+unpost pin "SLICE_X22Y254.G1"
+	#1219
+unselect -all
+	#1220
+select comp '$COMP_41'
+	#comp "$COMP_41",  site "SLICE_X20Y254",  type = SLICEM  (RPM grid X53Y254)
+	#1221
+unselect -all
+	#1222
+select comp '$COMP_41'
+	#comp "$COMP_41",  site "SLICE_X20Y254",  type = SLICEM  (RPM grid X53Y254)
+	#1223
+post block
+	#1224
+setattr comp $COMP_41 G "~A1"
+	#<YUSED>.
+	# GetEqnCfgData equation D
+	#1225
+save
+	#0 DRC errors and 1 DRC warnings.
+	#1226
+setattr comp $COMP_41 Config "G:#LUT:D=~A1 YUSED:0"
+	#1227
+block apply
+	#1228
+end block
+	#1229
+unselect -all
+	#1230
+select pin 'SLICE_X20Y254.Y'
+	#site.pin = SLICE_X20Y254.Y, comp.pin = $COMP_41.Y
+	#1231
+add extpin
+	#1232
+post attr pin SLICE_X20Y254.Y
+	#1233
+setattr pin SLICE_X20Y254.Y  external_name Y_41
+	#1234
+unpost pin "SLICE_X20Y254.Y"
+	#1235
+unselect -all
+	#1236
+select pin 'SLICE_X20Y254.G1'
+	#site.pin = SLICE_X20Y254.G1, comp.pin = $COMP_41.G1
+	#1237
+add extpin
+	#1238
+post attr pin SLICE_X20Y254.G1
+	#1239
+setattr pin SLICE_X20Y254.G1  external_name G1_41
+	#1240
+unpost pin "SLICE_X20Y254.G1"
+	#1241
+unselect -all
+	#1242
+select comp '$COMP_42'
+	#comp "$COMP_42",  site "SLICE_X18Y254",  type = SLICEM  (RPM grid X49Y254)
+	#1243
+unselect -all
+	#1244
+select comp '$COMP_42'
+	#comp "$COMP_42",  site "SLICE_X18Y254",  type = SLICEM  (RPM grid X49Y254)
+	#1245
+unselect -all
+	#1246
+select comp '$COMP_42'
+	#comp "$COMP_42",  site "SLICE_X18Y254",  type = SLICEM  (RPM grid X49Y254)
+	#1247
+post block
+	#1248
+setattr comp $COMP_42 G "~A1"
+	#<YUSED>.
+	# GetEqnCfgData equation D
+	#1249
+save
+	#0 DRC errors and 1 DRC warnings.
+	#1250
+setattr comp $COMP_42 Config "G:#LUT:D=~A1 YUSED:0"
+	#1251
+block apply
+	#1252
+end block
+	#1253
+unselect -all
+	#1254
+select pin 'SLICE_X18Y254.Y'
+	#site.pin = SLICE_X18Y254.Y, comp.pin = $COMP_42.Y
+	#1255
+add extpin
+	#1256
+post attr pin SLICE_X18Y254.Y
+	#1257
+setattr pin SLICE_X18Y254.Y  external_name Y_42
+	#1258
+unpost pin "SLICE_X18Y254.Y"
+	#1259
+unselect -all
+	#1260
+select pin 'SLICE_X18Y254.G1'
+	#site.pin = SLICE_X18Y254.G1, comp.pin = $COMP_42.G1
+	#1261
+add extpin
+	#1262
+post attr pin SLICE_X18Y254.G1
+	#1263
+setattr pin SLICE_X18Y254.G1  external_name G1_42
+	#1264
+unpost pin "SLICE_X18Y254.G1"
+	#1265
+unselect -all
+	#1266
+select comp '$COMP_43'
+	#comp "$COMP_43",  site "SLICE_X16Y254",  type = SLICEM  (RPM grid X45Y254)
+	#1267
+unselect -all
+	#1268
+select comp '$COMP_43'
+	#comp "$COMP_43",  site "SLICE_X16Y254",  type = SLICEM  (RPM grid X45Y254)
+	#1269
+post block
+	#1270
+setattr comp $COMP_43 G "~A1"
+	#<YUSED>.
+	# GetEqnCfgData equation D
+	#1271
+save
+	#0 DRC errors and 1 DRC warnings.
+	#1272
+setattr comp $COMP_43 Config "G:#LUT:D=~A1 YUSED:0"
+	#1273
+block apply
+	#1274
+end block
+	#1275
+unselect -all
+	#1276
+select pin 'SLICE_X16Y254.Y'
+	#site.pin = SLICE_X16Y254.Y, comp.pin = $COMP_43.Y
+	#1277
+add extpin
+	#1278
+post attr pin SLICE_X16Y254.Y
+	#1279
+setattr pin SLICE_X16Y254.Y  external_name Y_43
+	#1280
+unpost pin "SLICE_X16Y254.Y"
+	#1281
+unselect -all
+	#1282
+select pin 'SLICE_X16Y254.G1'
+	#site.pin = SLICE_X16Y254.G1, comp.pin = $COMP_43.G1
+	#1283
+add extpin
+	#1284
+post attr pin SLICE_X16Y254.G1
+	#1285
+setattr pin SLICE_X16Y254.G1  external_name G1_43
+	#1286
+unpost pin "SLICE_X16Y254.G1"
+	#1287
+unselect -all
+	#1288
+select comp '$COMP_44'
+	#comp "$COMP_44",  site "SLICE_X14Y254",  type = SLICEM  (RPM grid X37Y254)
+	#1289
+unselect -all
+	#1290
+select comp '$COMP_44'
+	#comp "$COMP_44",  site "SLICE_X14Y254",  type = SLICEM  (RPM grid X37Y254)
+	#1291
+post block
+	#1292
+setattr comp $COMP_44 G "~A1"
+	#<YUSED>.
+	# GetEqnCfgData equation D
+	#1293
+save
+	#0 DRC errors and 1 DRC warnings.
+	#1294
+setattr comp $COMP_44 Config "G:#LUT:D=~A1 YUSED:0"
+	#1295
+block apply
+	#1296
+end block
+	#1297
+unselect -all
+	#1298
+select pin 'SLICE_X14Y254.Y'
+	#site.pin = SLICE_X14Y254.Y, comp.pin = $COMP_44.Y
+	#1299
+add extpin
+	#1300
+post attr pin SLICE_X14Y254.Y
+	#1301
+setattr pin SLICE_X14Y254.Y  external_name Y_44
+	#1302
+unpost pin "SLICE_X14Y254.Y"
+	#1303
+unselect -all
+	#1304
+select pin 'SLICE_X14Y254.G1'
+	#site.pin = SLICE_X14Y254.G1, comp.pin = $COMP_44.G1
+	#1305
+add extpin
+	#1306
+post attr pin SLICE_X14Y254.G1
+	#1307
+setattr pin SLICE_X14Y254.G1  external_name G1_44
+	#1308
+unpost pin "SLICE_X14Y254.G1"
+	#1309
+unselect -all
+	#1310
+select comp '$COMP_45'
+	#comp "$COMP_45",  site "SLICE_X12Y254",  type = SLICEM  (RPM grid X33Y254)
+	#1311
+unselect -all
+	#1312
+select comp '$COMP_45'
+	#comp "$COMP_45",  site "SLICE_X12Y254",  type = SLICEM  (RPM grid X33Y254)
+	#1313
+post block
+	#1314
+setattr comp $COMP_45 G "~A1"
+	#<YUSED>.
+	# GetEqnCfgData equation D
+	#1315
+save
+	#0 DRC errors and 1 DRC warnings.
+	#1316
+setattr comp $COMP_45 Config "G:#LUT:D=~A1 YUSED:0"
+	#1317
+block apply
+	#1318
+end block
+	#1319
+unselect -all
+	#1320
+select pin 'SLICE_X12Y254.Y'
+	#site.pin = SLICE_X12Y254.Y, comp.pin = $COMP_45.Y
+	#1321
+add extpin
+	#1322
+post attr pin SLICE_X12Y254.Y
+	#1323
+setattr pin SLICE_X12Y254.Y  external_name Y_45
+	#1324
+unpost pin "SLICE_X12Y254.Y"
+	#1325
+unselect -all
+	#1326
+select pin 'SLICE_X12Y254.G1'
+	#site.pin = SLICE_X12Y254.G1, comp.pin = $COMP_45.G1
+	#1327
+add extpin
+	#1328
+post attr pin SLICE_X12Y254.G1
+	#1329
+setattr pin SLICE_X12Y254.G1  external_name G1_45
+	#1330
+unpost pin "SLICE_X12Y254.G1"
+	#1331
+unselect -all
+	#1332
+select comp '$COMP_46'
+	#comp "$COMP_46",  site "SLICE_X10Y254",  type = SLICEM  (RPM grid X29Y254)
+	#1333
+unselect -all
+	#1334
+select comp '$COMP_46'
+	#comp "$COMP_46",  site "SLICE_X10Y254",  type = SLICEM  (RPM grid X29Y254)
+	#1335
+post block
+	#1336
+setattr comp $COMP_46 G "~A1"
+	#<YUSED>.
+	# GetEqnCfgData equation D
+	#1337
+save
+	#0 DRC errors and 1 DRC warnings.
+	#1338
+setattr comp $COMP_46 Config "G:#LUT:D=~A1 YUSED:0"
+	#1339
+block apply
+	#1340
+end block
+	#1341
+unselect -all
+	#1342
+select pin 'SLICE_X10Y254.Y'
+	#site.pin = SLICE_X10Y254.Y, comp.pin = $COMP_46.Y
+	#1343
+add extpin
+	#1344
+post attr pin SLICE_X10Y254.Y
+	#1345
+setattr pin SLICE_X10Y254.Y  external_name Y_46
+	#1346
+unpost pin "SLICE_X10Y254.Y"
+	#1347
+unselect -all
+	#1348
+select comp '$COMP_46'
+	#comp "$COMP_46",  site "SLICE_X10Y254",  type = SLICEM  (RPM grid X29Y254)
+	#1349
+unselect -all
+	#1350
+select pin 'SLICE_X10Y254.G1'
+	#site.pin = SLICE_X10Y254.G1, comp.pin = $COMP_46.G1
+	#1351
+add extpin
+	#1352
+post attr pin SLICE_X10Y254.G1
+	#1353
+setattr pin SLICE_X10Y254.G1  external_name G1_46
+	#1354
+unpost pin "SLICE_X10Y254.G1"
+	#1355
+unselect -all
+	#1356
+select comp '$COMP_47'
+	#comp "$COMP_47",  site "SLICE_X8Y254",  type = SLICEM  (RPM grid X25Y254)
+	#1357
+unselect -all
+	#1358
+select comp '$COMP_47'
+	#comp "$COMP_47",  site "SLICE_X8Y254",  type = SLICEM  (RPM grid X25Y254)
+	#1359
+post block
+	#1360
+setattr comp $COMP_47 G "~A1"
+	#<YMUXUSED>.
+	# GetEqnCfgData equation D
+	# GetEqnCfgData equation D
+	# GetEqnCfgData equation D
+	# GetEqnCfgData equation D
+	# GetEqnCfgData equation D
+	# GetEqnCfgData equation D
+	# GetEqnCfgData equation D
+	# GetEqnCfgData equation D
+	# GetEqnCfgData equation D
+	# GetEqnCfgData equation D
+	#<YMUXUSED> GetEqnCfgData equation D
+	#.
+	# GetEqnCfgData equation D
+	# GetEqnCfgData equation D
+	#<YUSED>.
+	# GetEqnCfgData equation D
+	#1361
+save
+	#0 DRC errors and 1 DRC warnings.
+	#1362
+setattr comp $COMP_47 Config "G:#LUT:D=~A1 YUSED:0"
+	#1363
+block apply
+	#1364
+end block
+	#1365
+unselect -all
+	#1366
+select pin 'SLICE_X8Y254.Y'
+	#site.pin = SLICE_X8Y254.Y, comp.pin = $COMP_47.Y
+	#1367
+add extpin
+	#1368
+post attr pin SLICE_X8Y254.Y
+	#1369
+setattr pin SLICE_X8Y254.Y  external_name Y_47
+	#1370
+unpost pin "SLICE_X8Y254.Y"
+	#1371
+unselect -all
+	#1372
+select pin 'SLICE_X8Y254.G1'
+	#site.pin = SLICE_X8Y254.G1, comp.pin = $COMP_47.G1
+	#1373
+add extpin
+	#1374
+post attr pin SLICE_X8Y254.G1
+	#1375
+setattr pin SLICE_X8Y254.G1  external_name G1_47
+	#1376
+unpost pin "SLICE_X8Y254.G1"
+	#1377
+unselect -all
+	#1378
+unselect -all
+	#1379
+select comp '$COMP_48'
+	#comp "$COMP_48",  site "SLICE_X6Y254",  type = SLICEM  (RPM grid X17Y254)
+	#1380
+unselect -all
+	#1381
+select comp '$COMP_48'
+	#comp "$COMP_48",  site "SLICE_X6Y254",  type = SLICEM  (RPM grid X17Y254)
+	#1382
+post block
+	#1383
+setattr comp $COMP_48 G "~A1"
+	#<YUSED>.
+	# GetEqnCfgData equation D
+	#1384
+save
+	#0 DRC errors and 1 DRC warnings.
+	#1385
+setattr comp $COMP_48 Config "G:#LUT:D=~A1 YUSED:0"
+	#1386
+block apply
+	#1387
+end block
+	#1388
+unselect -all
+	#1389
+select pin 'SLICE_X6Y254.Y'
+	#site.pin = SLICE_X6Y254.Y, comp.pin = $COMP_48.Y
+	#1390
+add extpin
+	#1391
+post attr pin SLICE_X6Y254.Y
+	#1392
+setattr pin SLICE_X6Y254.Y  external_name Y_48
+	#1393
+unpost pin "SLICE_X6Y254.Y"
+	#1394
+unselect -all
+	#1395
+select comp '$COMP_48'
+	#comp "$COMP_48",  site "SLICE_X6Y254",  type = SLICEM  (RPM grid X17Y254)
+	#1396
+unselect -all
+	#1397
+select pin 'SLICE_X6Y254.G1'
+	#site.pin = SLICE_X6Y254.G1, comp.pin = $COMP_48.G1
+	#1398
+add extpin
+	#1399
+post attr pin SLICE_X6Y254.G1
+	#1400
+setattr pin SLICE_X6Y254.G1  external_name G1_48
+	#1401
+unpost pin "SLICE_X6Y254.G1"
+	#1402
+unselect -all
+	#1403
+select comp '$COMP_49'
+	#comp "$COMP_49",  site "SLICE_X4Y254",  type = SLICEM  (RPM grid X13Y254)
+	#1404
+unselect -all
+	#1405
+select comp '$COMP_49'
+	#comp "$COMP_49",  site "SLICE_X4Y254",  type = SLICEM  (RPM grid X13Y254)
+	#1406
+post block
+	#1407
+setattr comp $COMP_49 G "~A1"
+	#<YUSED>.
+	# GetEqnCfgData equation D
+	#1408
+save
+	#0 DRC errors and 1 DRC warnings.
+	#1409
+setattr comp $COMP_49 Config "G:#LUT:D=~A1 YUSED:0"
+	#1410
+block apply
+	#1411
+end block
+	#1412
+unselect -all
+	#1413
+select pin 'SLICE_X4Y254.Y'
+	#site.pin = SLICE_X4Y254.Y, comp.pin = $COMP_49.Y
+	#1414
+add extpin
+	#1415
+post attr pin SLICE_X4Y254.Y
+	#1416
+setattr pin SLICE_X4Y254.Y  external_name Y_49
+	#1417
+unpost pin "SLICE_X4Y254.Y"
+	#1418
+unselect -all
+	#1419
+unselect -all
+	#1420
+select pin 'SLICE_X4Y254.G1'
+	#site.pin = SLICE_X4Y254.G1, comp.pin = $COMP_49.G1
+	#1421
+add extpin
+	#1422
+post attr pin SLICE_X4Y254.G1
+	#1423
+setattr pin SLICE_X4Y254.G1  external_name G1_49
+	#1424
+unpost pin "SLICE_X4Y254.G1"
+	#1425
+unselect -all
+	#1426
+select comp '$COMP_50'
+	#comp "$COMP_50",  site "SLICE_X2Y254",  type = SLICEM  (RPM grid X9Y254)
+	#1427
+unselect -all
+	#1428
+select comp '$COMP_50'
+	#comp "$COMP_50",  site "SLICE_X2Y254",  type = SLICEM  (RPM grid X9Y254)
+	#1429
+post block
+	#1430
+setattr comp $COMP_50 G "~A1"
+	#<YUSED>.
+	# GetEqnCfgData equation D
+	#0 DRC errors and 1 DRC warnings.
+	#1431
+setattr comp $COMP_50 Config "G:#LUT:D=~A1 YUSED:0"
+	#1432
+block apply
+	#1433
+end block
+	#1434
+unselect -all
+	#1435
+select pin 'SLICE_X2Y254.Y'
+	#site.pin = SLICE_X2Y254.Y, comp.pin = $COMP_50.Y
+	#1436
+add extpin
+	#1437
+post attr pin SLICE_X2Y254.Y
+	#1438
+setattr pin SLICE_X2Y254.Y  external_name Y_50
+	#1439
+unpost pin "SLICE_X2Y254.Y"
+	#1440
+unselect -all
+	#1441
+select comp '$COMP_50'
+	#comp "$COMP_50",  site "SLICE_X2Y254",  type = SLICEM  (RPM grid X9Y254)
+	#1442
+unselect -all
+	#1443
+select comp '$COMP_50'
+	#comp "$COMP_50",  site "SLICE_X2Y254",  type = SLICEM  (RPM grid X9Y254)
+	#1444
+unselect -all
+	#1445
+select pin 'SLICE_X2Y254.G1'
+	#site.pin = SLICE_X2Y254.G1, comp.pin = $COMP_50.G1
+	#1446
+add extpin
+	#1447
+post attr pin SLICE_X2Y254.G1
+	#1448
+setattr pin SLICE_X2Y254.G1  external_name G1_50
+	#1449
+unpost pin "SLICE_X2Y254.G1"
+	#1450
+save

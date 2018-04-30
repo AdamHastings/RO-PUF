@@ -1,0 +1,11 @@
+package my_mem_if_pkg;
+  
+  interface mem_if(input bit clk);
+   logic write;
+   logic read;
+   logic [7:0] data_in;
+   logic [15:0] address;
+   logic [8:0] data_out; 
+  endinterface;
+  
+endpackage

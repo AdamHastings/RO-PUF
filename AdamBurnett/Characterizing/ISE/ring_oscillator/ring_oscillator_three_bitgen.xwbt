@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=E:\Adam\Characterizing\ISE\ring_oscillator\ring_oscillator_three.ncd
+OUTFILE=E:\Adam\Characterizing\ISE\ring_oscillator\ring_oscillator_three.bit
+FAMILY=Virtex4
+PART=xc4vlx60-11ff668
+WORKINGDIR=E:\Adam\Characterizing\ISE\ring_oscillator
+LICENSE=ISE
+USER_INFO=174672765_175170704_210573231_041

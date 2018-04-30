@@ -1,0 +1,12 @@
+package TbEnvPkg;
+
+class Environment;
+   Driver D;
+   virtual function new(virtual spm_if.TEST vSpm_if);
+      D = new (vSpm_if);
+   endfunction // new
+endclass // Environment
+
+endpackage // TbEnvPkg
+   
+   

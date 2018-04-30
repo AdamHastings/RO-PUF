@@ -1,0 +1,3896 @@
+# //  Questa Sim-64
+# //  Version 10.1c linux_x86_64 Jul 27 2012
+# //
+# //  Copyright 1991-2012 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //
+# Loading project memory
+# Compile of mem.sv was successful.
+# Compile of testbench.sv failed with 1 errors.
+# 2 compiles, 1 failed with 1 error. 
+# Compile of mem.sv was successful.
+# Compile of testbench.sv failed with 2 errors.
+# 2 compiles, 1 failed with 2 errors. 
+# Compile of mem.sv was successful.
+# Compile of testbench.sv failed with 1 errors.
+# 2 compiles, 1 failed with 1 error. 
+# Compile of mem.sv was successful.
+# Compile of testbench.sv was successful with warnings.
+# 2 compiles, 0 failed with no errors. 
+do testbench.do
+# vsim -novopt testbench 
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment2.1/work.testbench
+# Loading sv_std.std
+# Loading work.testbench
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment2.1/work.my_mem
+# Loading work.my_mem
+# Found Error: 081 000
+# Found Error: 081 000
+# Found Error: 081 000
+# Found Error: 081 000
+# Found Error: 081 000
+# Found Error: 081 000
+# Print Read Values
+# 	000
+# 	000
+# 	000
+# 	000
+# 	000
+# 	000
+# Error Count:           6
+# Compile of mem.sv was successful.
+# Compile of testbench.sv was successful with warnings.
+# 2 compiles, 0 failed with no errors. 
+do testbench.do
+# vsim -novopt testbench 
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment2.1/work.testbench
+# Loading sv_std.std
+# Loading work.testbench
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment2.1/work.my_mem
+# Loading work.my_mem
+# Address:  13604 Data: -127
+# 
+# Address:  13604 Data: -127
+# 
+# Address:  13604 Data: -127
+# 
+# Address:  13604 Data: -127
+# 
+# Address:  13604 Data: -127
+# 
+# Address:  13604 Data: -127
+# 
+# Found Error: 081 000
+# Found Error: 081 000
+# Found Error: 081 000
+# Found Error: 081 000
+# Found Error: 081 000
+# Found Error: 081 000
+# Print Read Values
+# 	000
+# 	000
+# 	000
+# 	000
+# 	000
+# 	000
+# Error Count:           6
+# Compile of mem.sv was successful.
+# Compile of testbench.sv was successful with warnings.
+# 2 compiles, 0 failed with no errors. 
+do testbench.do
+# vsim -novopt testbench 
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment2.1/work.testbench
+# Loading sv_std.std
+# Loading work.testbench
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment2.1/work.my_mem
+# Loading work.my_mem
+# Address:  13604 Data: -127
+# 
+# Address:  13604 Data: -127
+# 
+# Address:  13604 Data: -127
+# 
+# Address:  13604 Data: -127
+# 
+# Address:  13604 Data: -127
+# 
+# Address:  13604 Data: -127
+# 
+# Print Read Values
+# 	000
+# 	000
+# 	000
+# 	000
+# 	000
+# 	000
+# Error Count:           0
+# Compile of mem.sv was successful.
+# Compile of testbench.sv was successful.
+# 2 compiles, 0 failed with no errors. 
+do testbench.do
+# vsim -novopt testbench 
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment2.1/work.testbench
+# Loading sv_std.std
+# Loading work.testbench
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment2.1/work.my_mem
+# Loading work.my_mem
+# Address:  13604 Data: -127
+# 
+# Address: -10743 Data:   99
+# 
+# Address:  31501 Data: -115
+# 
+# Address: -31643 Data:   18
+# 
+# Address:  -7423 Data:   13
+# 
+# Address:  -3722 Data:   61
+# 
+# Print Read Values
+# 	000
+# 	000
+# 	000
+# 	000
+# 	000
+# 	000
+# Error Count:           0
+# Compile of mem.sv was successful.
+# Compile of testbench.sv was successful.
+# 2 compiles, 0 failed with no errors. 
+do testbench.do
+# vsim -novopt testbench 
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment2.1/work.testbench
+# Loading sv_std.std
+# Loading work.testbench
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment2.1/work.my_mem
+# Loading work.my_mem
+# Address:  13604 Data: -127
+# 
+# Address: -10743 Data:   99
+# 
+# Address:  31501 Data: -115
+# 
+# Address: -31643 Data:   18
+# 
+# Address:  -7423 Data:   13
+# 
+# Address:  -3722 Data:   61
+# 
+# Found Error: 063 000
+# Found Error: 08d 000
+# Found Error: 081 000
+# Found Error: 03d 000
+# Found Error: 00d 000
+# Found Error: 012 000
+# Print Read Values
+# 	000
+# 	000
+# 	000
+# 	000
+# 	000
+# 	000
+# Error Count:           6
+do testbench.do
+# vsim -novopt testbench 
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.my_mem
+# ** Error: Missing signal name or pattern.
+# Error in macro ./testbench.do line 3
+# Missing signal name or pattern.
+#     while executing
+# "add wave -radix hex * -r "
+add wave -position insertpoint sim:/testbench/mem/*
+do testbench.do
+# vsim -novopt testbench 
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.my_mem
+# Address:  13604 Data: -127
+# 
+# Address: -10743 Data:   99
+# 
+# Address:  31501 Data: -115
+# 
+# Address: -31643 Data:   18
+# 
+# Address:  -7423 Data:   13
+# 
+# Address:  -3722 Data:   61
+# 
+# Found Error: 063 000
+# Found Error: 08d 000
+# Found Error: 081 000
+# Found Error: 03d 000
+# Found Error: 00d 000
+# Found Error: 012 000
+# Print Read Values
+# 	000
+# 	000
+# 	000
+# 	000
+# 	000
+# 	000
+# Error Count:           6
+# Compile of mem.sv was successful.
+# Compile of testbench.sv was successful.
+# 2 compiles, 0 failed with no errors. 
+do testbench.do
+# vsim -novopt testbench 
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment2.1/work.testbench
+# Loading sv_std.std
+# Loading work.testbench
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment2.1/work.my_mem
+# Loading work.my_mem
+# Address:  13604 Data: -127
+# 
+# Address: -10743 Data:   99
+# 
+# Address:  31501 Data: -115
+# 
+# Address: -31643 Data:   18
+# 
+# Address:  -7423 Data:   13
+# 
+# Address:  -3722 Data:   61
+# 
+# Print Read Values
+# 	063
+# 	08d
+# 	081
+# 	03d
+# 	00d
+# 	012
+# Error Count:           0
+do testbench.do
+# vsim -novopt testbench 
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.my_mem
+# Address:  13604 Data: -127
+# 
+# Address: -10743 Data:   99
+# 
+# Address:  31501 Data: -115
+# 
+# Address: -31643 Data:   18
+# 
+# Address:  -7423 Data:   13
+# 
+# Address:  -3722 Data:   61
+# 
+# Print Read Values
+# 	063
+# 	08d
+# 	081
+# 	03d
+# 	00d
+# 	012
+# Error Count:           0
+do testbench.do
+# vsim -novopt testbench 
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.my_mem
+# Address:  13604 Data: -127
+# 
+# Address: -10743 Data:   99
+# 
+# Address:  31501 Data: -115
+# 
+# Address: -31643 Data:   18
+# 
+# Address:  -7423 Data:   13
+# 
+# Address:  -3722 Data:   61
+# 
+# Print Read Values
+# 	063
+# 	08d
+# 	081
+# 	03d
+# 	00d
+# 	012
+# Error Count:           0
+# Compile of mem.sv was successful.
+# Compile of testbench.sv was successful.
+# 2 compiles, 0 failed with no errors. 
+do testbench.do
+# vsim -novopt testbench 
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment2.1/work.testbench
+# Loading sv_std.std
+# Loading work.testbench
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment2.1/work.my_mem
+# Loading work.my_mem
+# Print Read Values
+# 	063
+# 	08d
+# 	081
+# 	03d
+# 	00d
+# 	012
+# Error Count:           0
+do testbench.do
+# vsim -novopt testbench 
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.my_mem
+# Print Read Values
+# 	063
+# 	08d
+# 	081
+# 	03d
+# 	00d
+# 	012
+# Error Count:           0
+# Compile of mem.sv was successful.
+# Compile of testbench.sv was successful.
+# 2 compiles, 0 failed with no errors. 
+do testbench.do
+# vsim -novopt testbench 
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment2.1/work.testbench
+# Loading sv_std.std
+# Loading work.testbench
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment2.1/work.my_mem
+# Loading work.my_mem
+# Found Error: 063 000
+# Found Error: 08d 000
+# Found Error: 081 000
+# Found Error: 03d 000
+# Found Error: 00d 000
+# Found Error: 012 000
+# Print Read Values
+# 	000
+# 	000
+# 	000
+# 	000
+# 	000
+# 	000
+# Error Count:           6
+# Compile of mem.sv was successful.
+# Compile of testbench.sv was successful.
+# 2 compiles, 0 failed with no errors. 
+do testbench.do
+# vsim -novopt testbench 
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment2.1/work.testbench
+# Loading sv_std.std
+# Loading work.testbench
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment2.1/work.my_mem
+# Loading work.my_mem
+# Found Error: Expected: 063 Actual: 000
+# Found Error: Expected: 08d Actual: 000
+# Found Error: Expected: 081 Actual: 000
+# Found Error: Expected: 03d Actual: 000
+# Found Error: Expected: 00d Actual: 000
+# Found Error: Expected: 012 Actual: 000
+# Print Read Values
+# 	000
+# 	000
+# 	000
+# 	000
+# 	000
+# 	000
+# Error Count:           6
+cd ..
+# Cannot change directory while a simulation is in progress.
+# Use the "quit -sim" command to unload the design first.
+quit -sim
+cd ..
+# reading /net/fpga2/questasim10.1c/questasim/linux_x86_64/../modelsim.ini
+ls
+# Assignment0
+# Assignment1
+# Assignment2.1
+# Assignment2.2
+# Assignment2.3
+cd Assignment2.3
+ls
+# memory.cr.mti
+# memory.mpf
+# Report.docx
+# Report.pdf
+# sverilog
+# testbench.do
+# testbench.do.bak
+# transcript
+# vsim.wlf
+# WaveformSS.png
+# work
+cd ..
+ls
+# Assignment0
+# Assignment1
+# Assignment2.1
+# Assignment2.2
+# Assignment2.3
+cd Assignment2.3
+ls
+# memory.cr.mti
+# memory.mpf
+# Report.docx
+# Report.pdf
+# sverilog
+# testbench.do
+# testbench.do.bak
+# transcript
+# vsim.wlf
+# WaveformSS.png
+# work
+# Loading project assignment2.3
+# Compile of config_reg_buggy_questa.sv.svp was successful.
+# Compile of testbench.sv was successful.
+# 2 compiles, 0 failed with no errors. 
+# Compile of config_reg_buggy_questa.sv.svp was successful.
+# Compile of testbench.sv failed with 2 errors.
+# 2 compiles, 1 failed with 2 errors. 
+# Compile of config_reg_buggy_questa.sv.svp was successful.
+# Compile of testbench.sv failed with 2 errors.
+# 2 compiles, 1 failed with 2 errors. 
+# Compile of config_reg_buggy_questa.sv.svp was successful.
+# Compile of testbench.sv failed with 1 errors.
+# 2 compiles, 1 failed with 1 error. 
+# Compile of config_reg_buggy_questa.sv.svp was successful.
+# Compile of testbench.sv failed with 1 errors.
+# 2 compiles, 1 failed with 1 error. 
+# Compile of config_reg_buggy_questa.sv.svp was successful.
+# Compile of testbench.sv failed with 1 errors.
+# 2 compiles, 1 failed with 1 error. 
+# Compile of config_reg_buggy_questa.sv.svp was successful.
+# Compile of testbench.sv was successful.
+# 2 compiles, 0 failed with no errors. 
+do testbench.do
+# vsim -novopt testbench 
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment2.3/work.testbench
+# Loading sv_std.std
+# Loading work.testbench
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment2.3/work.config_reg
+# Loading work.config_reg
+# Error Count:           0
+add wave -position insertpoint sim:/testbench/conf/*
+# Compile of config_reg_buggy_questa.sv.svp was successful.
+# Compile of testbench.sv failed with 1 errors.
+# 2 compiles, 1 failed with 1 error. 
+# Compile of config_reg_buggy_questa.sv.svp was successful.
+# Compile of testbench.sv was successful.
+# 2 compiles, 0 failed with no errors. 
+# Compile of config_reg_buggy_questa.sv.svp was successful.
+# Compile of testbench.sv was successful.
+# 2 compiles, 0 failed with no errors. 
+do testbench.do
+# vsim -novopt testbench 
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment2.3/work.testbench
+# Loading sv_std.std
+# Loading work.testbench
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment2.3/work.config_reg
+# Loading work.config_reg
+# Result: 65535
+# 
+# Result:     0
+# 
+# Result:     0
+# 
+# Result:     0
+# 
+# Result: 43980
+# 
+# Result:     0
+# 
+do testbench.do
+# vsim -novopt testbench 
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.config_reg
+# Result: 65535
+# 
+# Result:     0
+# 
+# Result:     0
+# 
+# Result:     0
+# 
+# Result: 43980
+# 
+# Result:     0
+# 
+# Compile of config_reg_buggy_questa.sv.svp was successful.
+# Compile of testbench.sv was successful.
+# 2 compiles, 0 failed with no errors. 
+do testbench.do
+# vsim -novopt testbench 
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment2.3/work.testbench
+# Loading sv_std.std
+# Loading work.testbench
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment2.3/work.config_reg
+# Loading work.config_reg
+# Result: 0000ffffn
+# Result: 00000000n
+# Result: 00000000n
+# Result: 00000000n
+# Result: 0000abccn
+# Result: 00000000n
+# Compile of config_reg_buggy_questa.sv.svp was successful.
+# Compile of testbench.sv was successful.
+# 2 compiles, 0 failed with no errors. 
+do testbench.do
+# vsim -novopt testbench 
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment2.3/work.testbench
+# Loading sv_std.std
+# Loading work.testbench
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment2.3/work.config_reg
+# Loading work.config_reg
+# Result: 0000ffff
+# Result: 00000000
+# Result: 00000000
+# Result: 00000000
+# Result: 0000abcc
+# Result: 00000000
+run 1000 ns
+# Result: 00000000
+# Result: 00000001
+# Error Count:           0
+# A time value could not be extracted from the current line
+do testbench.do
+# vsim -novopt testbench 
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.config_reg
+# Result: 0000ffff
+# Result: 00000000
+# Result: 00000000
+# Result: 00000000
+# Result: 0000abcc
+# Result: 00000000
+# Result: 00000000
+# Result: 00000001
+# Error Count:           0
+# A time value could not be extracted from the current line
+# Compile of config_reg_buggy_questa.sv.svp was successful.
+# Compile of testbench.sv failed with 1 errors.
+# 2 compiles, 1 failed with 1 error. 
+# Compile of config_reg_buggy_questa.sv.svp was successful.
+# Compile of testbench.sv failed with 1 errors.
+# 2 compiles, 1 failed with 1 error. 
+# Compile of config_reg_buggy_questa.sv.svp was successful.
+# Compile of testbench.sv was successful.
+# 2 compiles, 0 failed with no errors. 
+do testbench.do
+# vsim -novopt testbench 
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment2.3/work.testbench
+# Loading sv_std.std
+# Loading work.testbench
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment2.3/work.config_reg
+# Loading work.config_reg
+# Error Count:           0
+# Compile of config_reg_buggy_questa.sv.svp was successful.
+# Compile of testbench.sv failed with 1 errors.
+# 2 compiles, 1 failed with 1 error. 
+# Compile of config_reg_buggy_questa.sv.svp was successful.
+# Compile of testbench.sv failed with 1 errors.
+# 2 compiles, 1 failed with 1 error. 
+do testbench.do
+# vsim -novopt testbench 
+# Loading sv_std.std
+# Loading work.testbench
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment2.3/work.config_reg
+# Loading work.config_reg
+# Error Count:           0
+# Compile of config_reg_buggy_questa.sv.svp was successful.
+# Compile of testbench.sv failed with 1 errors.
+# 2 compiles, 1 failed with 1 error. 
+# Compile of config_reg_buggy_questa.sv.svp was successful.
+# Compile of testbench.sv failed with 1 errors.
+# 2 compiles, 1 failed with 1 error. 
+do testbench.do
+# vsim -novopt testbench 
+# Loading sv_std.std
+# Loading work.testbench
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment2.3/work.config_reg
+# Loading work.config_reg
+# Error Count:           0
+# Compile of config_reg_buggy_questa.sv.svp was successful.
+# Compile of testbench.sv was successful.
+# 2 compiles, 0 failed with no errors. 
+do testbench.do
+# vsim -novopt testbench 
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment2.3/work.testbench
+# Loading sv_std.std
+# Loading work.testbench
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment2.3/work.config_reg
+# Loading work.config_reg
+# in init regmodel
+# in init regmodel
+# in init regmodel
+# in init regmodel
+# in init regmodel
+# in init regmodel
+# in init regmodel
+# in init regmodel
+# Error in analog_test: Expected: 43981 Actual: 43980
+# 
+# Error Count:           0
+# Compile of config_reg_buggy_questa.sv.svp was successful.
+# Compile of testbench.sv was successful.
+# 2 compiles, 0 failed with no errors. 
+do testbench.do
+# vsim -novopt testbench 
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment2.3/work.testbench
+# Loading sv_std.std
+# Loading work.testbench
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment2.3/work.config_reg
+# Loading work.config_reg
+# Error: Register: "analog_test" Expected: 43981 Actual: 43980
+# 
+# Error: Register: "adc0_reg" Expected: 65535 Actual: 32768
+# 
+# Error: Register: "analog_test" Expected: 43981 Actual:     0
+# 
+# Error: Register: "digital_gain" Expected:     1 Actual:     0
+# 
+# Error: Register: "adc1_reg" Expected:     0 Actual: 65535
+# 
+# Error: Register: "temp_sensor0_reg" Expected:     0 Actual: 65534
+# 
+# Error: Register: "temp_sensor1_reg" Expected:     0 Actual: 65535
+# 
+# Error: Register: "analog_test" Expected: 43981 Actual: 65535
+# 
+# Error: Register: "amp_gain" Expected:     0 Actual: 65535
+# 
+# Error: Register: "digital_gain" Expected:     1 Actual: 32767
+# 
+# Error Count:           0
+# Compile of config_reg_buggy_questa.sv.svp was successful.
+# Compile of testbench.sv was successful.
+# 2 compiles, 0 failed with no errors. 
+do testbench.do
+# vsim -novopt testbench 
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment2.3/work.testbench
+# Loading sv_std.std
+# Loading work.testbench
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment2.3/work.config_reg
+# Loading work.config_reg
+# Error: Register: "analog_test" Expected: 43981 Actual: 43980
+# 
+# Error: Register: "adc0_reg" Expected: 65535 Actual: 32768
+# 
+# Error: Register: "analog_test" Expected: 43981 Actual:     0
+# 
+# Error: Register: "digital_gain" Expected:     1 Actual:     0
+# 
+# Error: Register: "adc1_reg" Expected:     0 Actual: 65535
+# 
+# Error: Register: "temp_sensor0_reg" Expected:     0 Actual: 65534
+# 
+# Error: Register: "temp_sensor1_reg" Expected:     0 Actual: 65535
+# 
+# Error: Register: "analog_test" Expected: 43981 Actual: 65535
+# 
+# Error: Register: "amp_gain" Expected:     0 Actual: 65535
+# 
+# Error: Register: "digital_gain" Expected:     1 Actual: 32767
+# 
+# Error Count:           0
+# Compile of config_reg_buggy_questa.sv.svp was successful.
+# Compile of testbench.sv failed with 1 errors.
+# 2 compiles, 1 failed with 1 error. 
+# Compile of config_reg_buggy_questa.sv.svp was successful.
+# Compile of testbench.sv failed with 1 errors.
+# 2 compiles, 1 failed with 1 error. 
+# Compile of config_reg_buggy_questa.sv.svp was successful.
+# Compile of testbench.sv was successful.
+# 2 compiles, 0 failed with no errors. 
+do testbench.do
+# vsim -novopt testbench 
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment2.3/work.testbench
+# Loading sv_std.std
+# Loading work.testbench
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment2.3/work.config_reg
+# Loading work.config_reg
+# ** Error: (vsim-3043) /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment2.1/sverilog/testbench.sv(107): Unresolved reference to 'r'.
+#         Region: /testbench
+# Error loading design
+# Error: Error loading design 
+#        Pausing macro execution 
+# MACRO ./testbench.do PAUSED at line 2
+# Compile of config_reg_buggy_questa.sv.svp was successful.
+# Compile of testbench.sv was successful.
+# 2 compiles, 0 failed with no errors. 
+run 1000 ns
+# No Design Loaded!
+do testbench.do
+# vsim -novopt testbench 
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment2.3/work.testbench
+# Loading sv_std.std
+# Loading work.testbench
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment2.3/work.config_reg
+# Loading work.config_reg
+# Error: Register: "analog_test" Expected: 43981 Actual: 43980
+# 
+# Error: Register: "adc0_reg" Expected: 65535 Actual: 32768
+# 
+# Error: Register: "analog_test" Expected: 43981 Actual:     0
+# 
+# Error: Register: "digital_gain" Expected:     1 Actual:     0
+# 
+# Error: Register: "adc1_reg" Expected:     0 Actual: 65535
+# 
+# Error: Register: "temp_sensor0_reg" Expected:     0 Actual: 65534
+# 
+# Error: Register: "temp_sensor1_reg" Expected:     0 Actual: 65535
+# 
+# Error: Register: "analog_test" Expected: 43981 Actual: 65535
+# 
+# Error: Register: "amp_gain" Expected:     0 Actual: 65535
+# 
+# Error: Register: "digital_gain" Expected:     1 Actual: 32767
+# 
+# Error Count:           0
+run 1000 ns
+# Compile of config_reg_buggy_questa.sv.svp was successful.
+# Compile of testbench.sv failed with 1 errors.
+# 2 compiles, 1 failed with 1 error. 
+# Compile of config_reg_buggy_questa.sv.svp was successful.
+# Compile of testbench.sv failed with 1 errors.
+# 2 compiles, 1 failed with 1 error. 
+# Compile of config_reg_buggy_questa.sv.svp was successful.
+# Compile of testbench.sv was successful.
+# 2 compiles, 0 failed with no errors. 
+do testbench.do
+# vsim -novopt testbench 
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment2.3/work.testbench
+# Loading sv_std.std
+# Loading work.testbench
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment2.3/work.config_reg
+# Loading work.config_reg
+# Error: Register: "analog_test" Expected: 43981 Actual: 43980
+# 
+# Error: Register: "adc0_reg" Expected: 65535 Actual: 32768
+# 
+# Error: Register: "analog_test" Expected: 43981 Actual:     0
+# 
+# Error: Register: "digital_gain" Expected:     1 Actual:     0
+# 
+# Error: Register: "adc1_reg" Expected:     0 Actual: 65535
+# 
+# Error: Register: "temp_sensor0_reg" Expected:     0 Actual: 65534
+# 
+# Error: Register: "temp_sensor1_reg" Expected:     0 Actual: 65535
+# 
+# Error: Register: "analog_test" Expected: 43981 Actual: 65535
+# 
+# Error: Register: "amp_gain" Expected:     0 Actual: 65535
+# 
+# Error: Register: "digital_gain" Expected:     1 Actual: 32767
+# 
+# Register: adc0_reg Bugs Found:           1
+# Register: adc1_reg Bugs Found:           1
+# Register: temp_sensor0_reg Bugs Found:           1
+# Register: temp_sensor1_reg Bugs Found:           1
+# Register: analog_test Bugs Found:           3
+# Register: digital_test Bugs Found:           0
+# Register: amp_gain Bugs Found:           1
+# Register: digital_gain Bugs Found:           2
+# Error Count:          10
+# Compile of config_reg_buggy_questa.sv.svp was successful.
+# Compile of testbench.sv was successful.
+# 2 compiles, 0 failed with no errors. 
+do testbench.do
+# vsim -novopt testbench 
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment2.3/work.testbench
+# Loading sv_std.std
+# Loading work.testbench
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment2.3/work.config_reg
+# Loading work.config_reg
+# Checking Reset Values
+# Error: Register: "analog_test" Expected: 43981 Actual: 43980
+# 
+# Checking All Zero Writes
+# Error: Register: "adc0_reg" Expected: 65535 Actual: 32768
+# 
+# Error: Register: "analog_test" Expected: 43981 Actual:     0
+# 
+# Error: Register: "digital_gain" Expected:     1 Actual:     0
+# 
+# Checking All One Writes
+# Error: Register: "adc1_reg" Expected:     0 Actual: 65535
+# 
+# Error: Register: "temp_sensor0_reg" Expected:     0 Actual: 65534
+# 
+# Error: Register: "temp_sensor1_reg" Expected:     0 Actual: 65535
+# 
+# Error: Register: "analog_test" Expected: 43981 Actual: 65535
+# 
+# Error: Register: "amp_gain" Expected:     0 Actual: 65535
+# 
+# Error: Register: "digital_gain" Expected:     1 Actual: 32767
+# 
+# Register: adc0_reg Bugs Found:           1
+# Register: adc1_reg Bugs Found:           1
+# Register: temp_sensor0_reg Bugs Found:           1
+# Register: temp_sensor1_reg Bugs Found:           1
+# Register: analog_test Bugs Found:           3
+# Register: digital_test Bugs Found:           0
+# Register: amp_gain Bugs Found:           1
+# Register: digital_gain Bugs Found:           2
+# Error Count:          10
+# Compile of config_reg_buggy_questa.sv.svp was successful.
+# Compile of testbench.sv was successful.
+# 2 compiles, 0 failed with no errors. 
+do testbench.do
+# vsim -novopt testbench 
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment2.3/work.testbench
+# Loading sv_std.std
+# Loading work.testbench
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment2.3/work.config_reg
+# Loading work.config_reg
+# Checking Reset Values
+# Error: Register: "analog_test" Expected: 43981 Actual: 43980
+# 
+# Checking All Zero Writes
+# Error: Register: "adc0_reg" Expected:     0 Actual: 32768
+# 
+# Checking All One Writes
+# Error: Register: "temp_sensor0_reg" Expected: 65535 Actual: 65534
+# 
+# Error: Register: "digital_test" Expected: 65535 Actual:     0
+# 
+# Error: Register: "digital_gain" Expected: 65535 Actual: 32767
+# 
+# Register: adc0_reg Bugs Found:           1
+# Register: adc1_reg Bugs Found:           0
+# Register: temp_sensor0_reg Bugs Found:           1
+# Register: temp_sensor1_reg Bugs Found:           0
+# Register: analog_test Bugs Found:           1
+# Register: digital_test Bugs Found:           1
+# Register: amp_gain Bugs Found:           0
+# Register: digital_gain Bugs Found:           1
+# Error Count:           5
+# Compile of config_reg_buggy_questa.sv.svp was successful.
+# Compile of testbench.sv was successful.
+# 2 compiles, 0 failed with no errors. 
+do testbench.do
+# vsim -novopt testbench 
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment2.3/work.testbench
+# Loading sv_std.std
+# Loading work.testbench
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment2.3/work.config_reg
+# Loading work.config_reg
+# Checking Reset Values
+# Error: Register: "analog_test" Expected: abcd Actual: abcc
+# 
+# Checking All Zero Writes
+# Error: Register: "adc0_reg" Expected: 0000 Actual: 8000
+# 
+# Checking All One Writes
+# Error: Register: "temp_sensor0_reg" Expected: ffff Actual: fffe
+# 
+# Error: Register: "digital_test" Expected: ffff Actual: 0000
+# 
+# Error: Register: "digital_gain" Expected: ffff Actual: 7fff
+# 
+# Register: adc0_reg Bugs Found:           1
+# Register: adc1_reg Bugs Found:           0
+# Register: temp_sensor0_reg Bugs Found:           1
+# Register: temp_sensor1_reg Bugs Found:           0
+# Register: analog_test Bugs Found:           1
+# Register: digital_test Bugs Found:           1
+# Register: amp_gain Bugs Found:           0
+# Register: digital_gain Bugs Found:           1
+# Error Count:           5
+# Compile of config_reg_buggy_questa.sv.svp was successful.
+# Compile of testbench.sv failed with 1 errors.
+# 2 compiles, 1 failed with 1 error. 
+do testbench.do
+# vsim -novopt testbench 
+# Loading sv_std.std
+# Loading work.testbench
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment2.3/work.config_reg
+# Loading work.config_reg
+# Checking Reset Values
+# Error: Register: "analog_test" Expected: abcd Actual: abcc
+# 
+# Checking All Zero Writes
+# Error: Register: "adc0_reg" Expected: 0000 Actual: 8000
+# 
+# Checking All One Writes
+# Error: Register: "temp_sensor0_reg" Expected: ffff Actual: fffe
+# 
+# Error: Register: "digital_test" Expected: ffff Actual: 0000
+# 
+# Error: Register: "digital_gain" Expected: ffff Actual: 7fff
+# 
+# Register: adc0_reg Bugs Found:           1
+# Register: adc1_reg Bugs Found:           0
+# Register: temp_sensor0_reg Bugs Found:           1
+# Register: temp_sensor1_reg Bugs Found:           0
+# Register: analog_test Bugs Found:           1
+# Register: digital_test Bugs Found:           1
+# Register: amp_gain Bugs Found:           0
+# Register: digital_gain Bugs Found:           1
+# Error Count:           5
+# Compile of config_reg_buggy_questa.sv.svp was successful.
+# Compile of testbench.sv failed with 1 errors.
+# 2 compiles, 1 failed with 1 error. 
+# Compile of config_reg_buggy_questa.sv.svp was successful.
+# Compile of testbench.sv was successful.
+# 2 compiles, 0 failed with no errors. 
+do testbench.do
+# vsim -novopt testbench 
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment2.3/work.testbench
+# Loading sv_std.std
+# Loading work.testbench
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment2.3/work.config_reg
+# Loading work.config_reg
+# Checking Reset Values
+# Error: Register: "analog_test" Expected: abcd Actual: abcc
+# 
+# Checking All Zero Writes
+# Error: Register: "adc0_reg" Expected: 0000 Actual: 8000
+# 
+# Checking All One Writes
+# Error: Register: "temp_sensor0_reg" Expected: ffff Actual: fffe
+# 
+# Error: Register: "digital_test" Expected: ffff Actual: 0000
+# 
+# Error: Register: "digital_gain" Expected: ffff Actual: 7fff
+# 
+# Checking Single Write All Read
+# Writing Register adc0_reg
+# Error: Register: "temp_sensor0_reg" Expected: ffff Actual: fffe
+# 
+# Error: Register: "digital_gain" Expected: ffff Actual: 7fff
+# 
+# Register: adc0_reg Bugs Found:           1
+# Register: adc1_reg Bugs Found:           0
+# Register: temp_sensor0_reg Bugs Found:           2
+# Register: temp_sensor1_reg Bugs Found:           0
+# Register: analog_test Bugs Found:           1
+# Register: digital_test Bugs Found:           1
+# Register: amp_gain Bugs Found:           0
+# Register: digital_gain Bugs Found:           2
+# Error Count:           7
+run 1000 ns
+# Compile of config_reg_buggy_questa.sv.svp was successful.
+# Compile of testbench.sv failed with 1 errors.
+# 2 compiles, 1 failed with 1 error. 
+do testbench.do
+# vsim -novopt testbench 
+# Loading sv_std.std
+# Loading work.testbench
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment2.3/work.config_reg
+# Loading work.config_reg
+# Checking Reset Values
+# Error: Register: "analog_test" Expected: abcd Actual: abcc
+# 
+# Checking All Zero Writes
+# Error: Register: "adc0_reg" Expected: 0000 Actual: 8000
+# 
+# Checking All One Writes
+# Error: Register: "temp_sensor0_reg" Expected: ffff Actual: fffe
+# 
+# Error: Register: "digital_test" Expected: ffff Actual: 0000
+# 
+# Error: Register: "digital_gain" Expected: ffff Actual: 7fff
+# 
+# Checking Single Write All Read
+# Writing Register adc0_reg
+# Error: Register: "temp_sensor0_reg" Expected: ffff Actual: fffe
+# 
+# Error: Register: "digital_gain" Expected: ffff Actual: 7fff
+# 
+# Register: adc0_reg Bugs Found:           1
+# Register: adc1_reg Bugs Found:           0
+# Register: temp_sensor0_reg Bugs Found:           2
+# Register: temp_sensor1_reg Bugs Found:           0
+# Register: analog_test Bugs Found:           1
+# Register: digital_test Bugs Found:           1
+# Register: amp_gain Bugs Found:           0
+# Register: digital_gain Bugs Found:           2
+# Error Count:           7
+# Compile of config_reg_buggy_questa.sv.svp was successful.
+# Compile of testbench.sv failed with 1 errors.
+# 2 compiles, 1 failed with 1 error. 
+# Compile of config_reg_buggy_questa.sv.svp was successful.
+# Compile of testbench.sv was successful.
+# 2 compiles, 0 failed with no errors. 
+do testbench.do
+# vsim -novopt testbench 
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment2.3/work.testbench
+# Loading sv_std.std
+# Loading work.testbench
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment2.3/work.config_reg
+# Loading work.config_reg
+# Checking Reset Values
+# Error: Register: "analog_test" Expected: abcd Actual: abcc
+# 
+# Checking All Zero Writes
+# Error: Register: "adc0_reg" Expected: 0000 Actual: 8000
+# 
+# Checking All One Writes
+# Error: Register: "temp_sensor0_reg" Expected: ffff Actual: fffe
+# 
+# Error: Register: "digital_test" Expected: ffff Actual: 0000
+# 
+# Error: Register: "digital_gain" Expected: ffff Actual: 7fff
+# 
+# Checking Single Write, Read A
+# Writing Register adc0_reg
+# Error: Register: "temp_sensor0_reg" Expected: ffff Actual: fffe
+# 
+# Error: Register: "digital_gain" Expected: ffff Actual: 7fff
+# 
+# Writing Register adc1_reg
+run 10000 ns
+# Error: Register: "temp_sensor0_reg" Expected: ffff Actual: fffe
+# 
+# Error: Register: "digital_gain" Expected: ffff Actual: 7fff
+# 
+# Writing Register temp_sensor0_reg
+# Error: Register: "temp_sensor0_reg" Expected: ffff Actual: fffe
+# 
+# Error: Register: "digital_gain" Expected: ffff Actual: 7fff
+# 
+# Writing Register temp_sensor1_reg
+# Error: Register: "temp_sensor0_reg" Expected: ffff Actual: fffe
+# 
+# Error: Register: "digital_gain" Expected: ffff Actual: 7fff
+# 
+# Writing Register analog_test
+# Error: Register: "temp_sensor0_reg" Expected: ffff Actual: fffe
+# 
+# Error: Register: "digital_gain" Expected: ffff Actual: 7fff
+# 
+# Writing Register digital_test
+# Error: Register: "temp_sensor0_reg" Expected: ffff Actual: fffe
+# 
+# Error: Register: "digital_gain" Expected: ffff Actual: 7fff
+# 
+# Writing Register amp_gain
+# Error: Register: "temp_sensor0_reg" Expected: ffff Actual: fffe
+# 
+# Error: Register: "digital_gain" Expected: ffff Actual: 7fff
+# 
+# Writing Register digital_gain
+# Error: Register: "temp_sensor0_reg" Expected: ffff Actual: fffe
+# 
+# Error: Register: "digital_gain" Expected: ffff Actual: 7fff
+# 
+# Register: adc0_reg Bugs Found:           1
+# Register: adc1_reg Bugs Found:           0
+# Register: temp_sensor0_reg Bugs Found:           9
+# Register: temp_sensor1_reg Bugs Found:           0
+# Register: analog_test Bugs Found:           1
+# Register: digital_test Bugs Found:           1
+# Register: amp_gain Bugs Found:           0
+# Register: digital_gain Bugs Found:           9
+# Error Count:          21
+# Compile of config_reg_buggy_questa.sv.svp was successful.
+# Compile of testbench.sv failed with 1 errors.
+# 2 compiles, 1 failed with 1 error. 
+# Compile of config_reg_buggy_questa.sv.svp was successful.
+# Compile of testbench.sv failed with 1 errors.
+# 2 compiles, 1 failed with 1 error. 
+do testbench.do
+# vsim -novopt testbench 
+# Loading sv_std.std
+# Loading work.testbench
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment2.3/work.config_reg
+# Loading work.config_reg
+# Checking Reset Values
+# Error: Register: "analog_test" Expected: abcd Actual: abcc
+# 
+# Checking All Zero Writes
+# Error: Register: "adc0_reg" Expected: 0000 Actual: 8000
+# 
+# Checking All One Writes
+# Error: Register: "temp_sensor0_reg" Expected: ffff Actual: fffe
+# 
+# Error: Register: "digital_test" Expected: ffff Actual: 0000
+# 
+# Error: Register: "digital_gain" Expected: ffff Actual: 7fff
+# 
+# Checking Single Write, Read A
+# Writing Register adc0_reg
+# Error: Register: "temp_sensor0_reg" Expected: ffff Actual: fffe
+# 
+# Error: Register: "digital_gain" Expected: ffff Actual: 7fff
+# 
+# Writing Register adc1_reg
+run 10000 ns
+# Error: Register: "temp_sensor0_reg" Expected: ffff Actual: fffe
+# 
+# Error: Register: "digital_gain" Expected: ffff Actual: 7fff
+# 
+# Writing Register temp_sensor0_reg
+# Error: Register: "temp_sensor0_reg" Expected: ffff Actual: fffe
+# 
+# Error: Register: "digital_gain" Expected: ffff Actual: 7fff
+# 
+# Writing Register temp_sensor1_reg
+# Error: Register: "temp_sensor0_reg" Expected: ffff Actual: fffe
+# 
+# Error: Register: "digital_gain" Expected: ffff Actual: 7fff
+# 
+# Writing Register analog_test
+# Error: Register: "temp_sensor0_reg" Expected: ffff Actual: fffe
+# 
+# Error: Register: "digital_gain" Expected: ffff Actual: 7fff
+# 
+# Writing Register digital_test
+# Error: Register: "temp_sensor0_reg" Expected: ffff Actual: fffe
+# 
+# Error: Register: "digital_gain" Expected: ffff Actual: 7fff
+# 
+# Writing Register amp_gain
+# Error: Register: "temp_sensor0_reg" Expected: ffff Actual: fffe
+# 
+# Error: Register: "digital_gain" Expected: ffff Actual: 7fff
+# 
+# Writing Register digital_gain
+# Error: Register: "temp_sensor0_reg" Expected: ffff Actual: fffe
+# 
+# Error: Register: "digital_gain" Expected: ffff Actual: 7fff
+# 
+# Register: adc0_reg Bugs Found:           1
+# Register: adc1_reg Bugs Found:           0
+# Register: temp_sensor0_reg Bugs Found:           9
+# Register: temp_sensor1_reg Bugs Found:           0
+# Register: analog_test Bugs Found:           1
+# Register: digital_test Bugs Found:           1
+# Register: amp_gain Bugs Found:           0
+# Register: digital_gain Bugs Found:           9
+# Error Count:          21
+# Compile of config_reg_buggy_questa.sv.svp was successful.
+# Compile of testbench.sv was successful.
+# 2 compiles, 0 failed with no errors. 
+do testbench.do
+# vsim -novopt testbench 
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment2.3/work.testbench
+# Loading sv_std.std
+# Loading work.testbench
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment2.3/work.config_reg
+# Loading work.config_reg
+# Checking Reset Values
+# Error: Register: "analog_test" Expected: abcd Actual: abcc
+# 
+# Checking All Zero Writes
+# Error: Register: "adc0_reg" Expected: 0000 Actual: 8000
+# 
+# Checking All One Writes
+# Error: Register: "temp_sensor0_reg" Expected: ffff Actual: fffe
+# 
+# Error: Register: "digital_test" Expected: ffff Actual: 0000
+# 
+# Error: Register: "digital_gain" Expected: ffff Actual: 7fff
+# 
+# Checking Single Write, Read All
+# Writing Register adc0_reg
+# Error: Register: "temp_sensor0_reg" Expected: ffff Actual: fffe
+# 
+# Error: Register: "digital_gain" Expected: ffff Actual: 7fff
+# 
+# Writing Register adc1_reg
+# Error: Register: "temp_sensor0_reg" Expected: ffff Actual: fffe
+# 
+# Error: Register: "digital_gain" Expected: ffff Actual: 7fff
+# 
+# Writing Register temp_sensor0_reg
+# Error: Register: "temp_sensor0_reg" Expected: ffff Actual: fffe
+# 
+# Error: Register: "digital_gain" Expected: ffff Actual: 7fff
+# 
+# Writing Register temp_sensor1_reg
+# Error: Register: "temp_sensor0_reg" Expected: ffff Actual: fffe
+# 
+# Error: Register: "digital_gain" Expected: ffff Actual: 7fff
+# 
+# Writing Register analog_test
+# Error: Register: "temp_sensor0_reg" Expected: ffff Actual: fffe
+# 
+# Error: Register: "digital_gain" Expected: ffff Actual: 7fff
+# 
+# Writing Register digital_test
+# Error: Register: "temp_sensor0_reg" Expected: ffff Actual: fffe
+# 
+# Error: Register: "digital_gain" Expected: ffff Actual: 7fff
+# 
+# Writing Register amp_gain
+# Error: Register: "temp_sensor0_reg" Expected: ffff Actual: fffe
+# 
+# Error: Register: "digital_gain" Expected: ffff Actual: 7fff
+# 
+# Writing Register digital_gain
+# Error: Register: "temp_sensor0_reg" Expected: ffff Actual: fffe
+# 
+# Error: Register: "digital_gain" Expected: ffff Actual: 7fff
+# 
+# Testing Inverse Reset
+# Error: Register: "adc0_reg" Expected: 0000 Actual: 8000
+# 
+# Error: Register: "adc0_reg" Expected: 0000 Actual: 8000
+# 
+# Error: Register: "adc0_reg" Expected: 0000 Actual: 8000
+# 
+# Error: Register: "adc0_reg" Expected: 0000 Actual: 8000
+# 
+# Error: Register: "adc0_reg" Expected: 0000 Actual: 8000
+# 
+# Error: Register: "adc0_reg" Expected: 0000 Actual: 8000
+# 
+# Error: Register: "adc0_reg" Expected: 0000 Actual: 8000
+# 
+# Error: Register: "adc0_reg" Expected: 0000 Actual: 8000
+# 
+# Register: adc0_reg Bugs Found:           9
+# Register: adc1_reg Bugs Found:           0
+# Register: temp_sensor0_reg Bugs Found:           9
+# Register: temp_sensor1_reg Bugs Found:           0
+# Register: analog_test Bugs Found:           1
+# Register: digital_test Bugs Found:           1
+# Register: amp_gain Bugs Found:           0
+# Register: digital_gain Bugs Found:           9
+# Error Count:          29
+# Compile of config_reg_buggy_questa.sv.svp was successful.
+# Compile of testbench.sv was successful.
+# 2 compiles, 0 failed with no errors. 
+do testbench.do
+# vsim -novopt testbench 
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment2.3/work.testbench
+# Loading sv_std.std
+# Loading work.testbench
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment2.3/work.config_reg
+# Loading work.config_reg
+# Checking Reset Values
+# Error: Register: "analog_test" Expected: abcd Actual: abcc
+# 
+# Checking All Zero Writes
+# Error: Register: "adc0_reg" Expected: 0000 Actual: 8000
+# 
+# Checking All One Writes
+# Error: Register: "temp_sensor0_reg" Expected: ffff Actual: fffe
+# 
+# Error: Register: "digital_test" Expected: ffff Actual: 0000
+# 
+# Error: Register: "digital_gain" Expected: ffff Actual: 7fff
+# 
+# Checking Single Write, Read All
+# Writing Register adc0_reg
+# Error: Register: "temp_sensor0_reg" Expected: ffff Actual: fffe
+# 
+# Error: Register: "digital_gain" Expected: ffff Actual: 7fff
+# 
+# Writing Register adc1_reg
+# Error: Register: "temp_sensor0_reg" Expected: ffff Actual: fffe
+# 
+# Error: Register: "digital_gain" Expected: ffff Actual: 7fff
+# 
+# Writing Register temp_sensor0_reg
+# Error: Register: "temp_sensor0_reg" Expected: ffff Actual: fffe
+# 
+# Error: Register: "digital_gain" Expected: ffff Actual: 7fff
+# 
+# Writing Register temp_sensor1_reg
+# Error: Register: "temp_sensor0_reg" Expected: ffff Actual: fffe
+# 
+# Error: Register: "digital_gain" Expected: ffff Actual: 7fff
+# 
+# Writing Register analog_test
+# Error: Register: "temp_sensor0_reg" Expected: ffff Actual: fffe
+# 
+# Error: Register: "digital_gain" Expected: ffff Actual: 7fff
+# 
+# Writing Register digital_test
+# Error: Register: "temp_sensor0_reg" Expected: ffff Actual: fffe
+# 
+# Error: Register: "digital_gain" Expected: ffff Actual: 7fff
+# 
+# Writing Register amp_gain
+# Error: Register: "temp_sensor0_reg" Expected: ffff Actual: fffe
+# 
+# Error: Register: "digital_gain" Expected: ffff Actual: 7fff
+# 
+# Writing Register digital_gain
+# Error: Register: "temp_sensor0_reg" Expected: ffff Actual: fffe
+# 
+# Error: Register: "digital_gain" Expected: ffff Actual: 7fff
+# 
+# Testing Inverse Reset
+#           0
+# Error: Register: "adc0_reg" Expected: 0000 Actual: 8000
+# 
+#           1
+# Error: Register: "adc0_reg" Expected: 0000 Actual: 8000
+# 
+#           2
+# Error: Register: "adc0_reg" Expected: 0000 Actual: 8000
+# 
+#           3
+# Error: Register: "adc0_reg" Expected: 0000 Actual: 8000
+# 
+#           4
+# Error: Register: "adc0_reg" Expected: 0000 Actual: 8000
+# 
+#           5
+# Error: Register: "adc0_reg" Expected: 0000 Actual: 8000
+# 
+#           6
+# Error: Register: "adc0_reg" Expected: 0000 Actual: 8000
+# 
+#           7
+# Error: Register: "adc0_reg" Expected: 0000 Actual: 8000
+# 
+# Register: adc0_reg Bugs Found:           9
+# Register: adc1_reg Bugs Found:           0
+# Register: temp_sensor0_reg Bugs Found:           9
+# Register: temp_sensor1_reg Bugs Found:           0
+# Register: analog_test Bugs Found:           1
+# Register: digital_test Bugs Found:           1
+# Register: amp_gain Bugs Found:           0
+# Register: digital_gain Bugs Found:           9
+# Error Count:          29
+# Compile of config_reg_buggy_questa.sv.svp was successful.
+# Compile of testbench.sv was successful.
+# 2 compiles, 0 failed with no errors. 
+do testbench.do
+# vsim -novopt testbench 
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment2.3/work.testbench
+# Loading sv_std.std
+# Loading work.testbench
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment2.3/work.config_reg
+# Loading work.config_reg
+# Checking Reset Values
+# Error: Register: "analog_test" Expected: abcd Actual: abcc
+# 
+# Checking All Zero Writes
+# Error: Register: "adc0_reg" Expected: 0000 Actual: 8000
+# 
+# Checking All One Writes
+# Error: Register: "temp_sensor0_reg" Expected: ffff Actual: fffe
+# 
+# Error: Register: "digital_test" Expected: ffff Actual: 0000
+# 
+# Error: Register: "digital_gain" Expected: ffff Actual: 7fff
+# 
+# Checking Single Write, Read All
+# Writing Register adc0_reg
+# Error: Register: "temp_sensor0_reg" Expected: ffff Actual: fffe
+# 
+# Error: Register: "digital_gain" Expected: ffff Actual: 7fff
+# 
+# Writing Register adc1_reg
+# Error: Register: "temp_sensor0_reg" Expected: ffff Actual: fffe
+# 
+# Error: Register: "digital_gain" Expected: ffff Actual: 7fff
+# 
+# Writing Register temp_sensor0_reg
+# Error: Register: "temp_sensor0_reg" Expected: ffff Actual: fffe
+# 
+# Error: Register: "digital_gain" Expected: ffff Actual: 7fff
+# 
+# Writing Register temp_sensor1_reg
+# Error: Register: "temp_sensor0_reg" Expected: ffff Actual: fffe
+# 
+# Error: Register: "digital_gain" Expected: ffff Actual: 7fff
+# 
+# Writing Register analog_test
+# Error: Register: "temp_sensor0_reg" Expected: ffff Actual: fffe
+# 
+# Error: Register: "digital_gain" Expected: ffff Actual: 7fff
+# 
+# Writing Register digital_test
+# Error: Register: "temp_sensor0_reg" Expected: ffff Actual: fffe
+# 
+# Error: Register: "digital_gain" Expected: ffff Actual: 7fff
+# 
+# Writing Register amp_gain
+# Error: Register: "temp_sensor0_reg" Expected: ffff Actual: fffe
+# 
+# Error: Register: "digital_gain" Expected: ffff Actual: 7fff
+# 
+# Writing Register digital_gain
+# Error: Register: "temp_sensor0_reg" Expected: ffff Actual: fffe
+# 
+# Error: Register: "digital_gain" Expected: ffff Actual: 7fff
+# 
+# Testing Inverse Reset
+#           0
+# Error: Register: "adc0_reg" Expected: 0000 Actual: 8000
+# 
+#           1
+#           2
+# Error: Register: "temp_sensor0_reg" Expected: ffff Actual: fffe
+# 
+#           3
+#           4
+#           5
+#           6
+#           7
+# Error: Register: "digital_gain" Expected: fffe Actual: 7ffe
+# 
+# Register: adc0_reg Bugs Found:           2
+# Register: adc1_reg Bugs Found:           0
+# Register: temp_sensor0_reg Bugs Found:          10
+# Register: temp_sensor1_reg Bugs Found:           0
+# Register: analog_test Bugs Found:           1
+# Register: digital_test Bugs Found:           1
+# Register: amp_gain Bugs Found:           0
+# Register: digital_gain Bugs Found:          10
+# Error Count:          24
+# Compile of config_reg_buggy_questa.sv.svp was successful.
+# Compile of testbench.sv was successful.
+# 2 compiles, 0 failed with no errors. 
+do testbench.do
+# vsim -novopt testbench 
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment2.3/work.testbench
+# Loading sv_std.std
+# Loading work.testbench
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment2.3/work.config_reg
+# Loading work.config_reg
+# Checking Reset Values
+# Error: Register: "analog_test" Expected: abcd Actual: abcc
+# 
+# Checking All Zero Writes
+# Error: Register: "adc0_reg" Expected: 0000 Actual: 8000
+# 
+# Checking All One Writes
+# Error: Register: "temp_sensor0_reg" Expected: ffff Actual: fffe
+# 
+# Error: Register: "digital_test" Expected: ffff Actual: 0000
+# 
+# Error: Register: "digital_gain" Expected: ffff Actual: 7fff
+# 
+# Checking Single Write, Read All
+# Writing Register adc0_reg
+# Error: Register: "temp_sensor0_reg" Expected: ffff Actual: fffe
+# 
+# Error: Register: "digital_gain" Expected: ffff Actual: 7fff
+# 
+# Writing Register adc1_reg
+# Error: Register: "temp_sensor0_reg" Expected: ffff Actual: fffe
+# 
+# Error: Register: "digital_gain" Expected: ffff Actual: 7fff
+# 
+# Writing Register temp_sensor0_reg
+# Error: Register: "temp_sensor0_reg" Expected: ffff Actual: fffe
+# 
+# Error: Register: "digital_gain" Expected: ffff Actual: 7fff
+# 
+# Writing Register temp_sensor1_reg
+# Error: Register: "temp_sensor0_reg" Expected: ffff Actual: fffe
+# 
+# Error: Register: "digital_gain" Expected: ffff Actual: 7fff
+# 
+# Writing Register analog_test
+# Error: Register: "temp_sensor0_reg" Expected: ffff Actual: fffe
+# 
+# Error: Register: "digital_gain" Expected: ffff Actual: 7fff
+# 
+# Writing Register digital_test
+# Error: Register: "temp_sensor0_reg" Expected: ffff Actual: fffe
+# 
+# Error: Register: "digital_gain" Expected: ffff Actual: 7fff
+# 
+# Writing Register amp_gain
+# Error: Register: "temp_sensor0_reg" Expected: ffff Actual: fffe
+# 
+# Error: Register: "digital_gain" Expected: ffff Actual: 7fff
+# 
+# Writing Register digital_gain
+# Error: Register: "temp_sensor0_reg" Expected: ffff Actual: fffe
+# 
+# Error: Register: "digital_gain" Expected: ffff Actual: 7fff
+# 
+# Testing Inverse Reset
+#           0
+#           1
+#           2
+#           3
+#           4
+#           5
+#           6
+#           7
+# Error: Register: "adc0_reg" Expected: 0000 Actual: ffff
+# 
+# Error: Register: "adc1_reg" Expected: ffff Actual: 0000
+# 
+# Error: Register: "temp_sensor0_reg" Expected: ffff Actual: 0000
+# 
+# Error: Register: "analog_test" Expected: 5432 Actual: abcc
+# 
+# Error: Register: "digital_test" Expected: ffff Actual: 0000
+# 
+# Error: Register: "amp_gain" Expected: ffff Actual: 0000
+# 
+# Error: Register: "digital_gain" Expected: fffe Actual: 0001
+# 
+# Do registers hold values
+#           0
+#           1
+#           2
+#           3
+#           4
+#           5
+#           6
+#           7
+# Register: adc0_reg Bugs Found:           2
+# Register: adc1_reg Bugs Found:           1
+# Register: temp_sensor0_reg Bugs Found:          10
+# Register: temp_sensor1_reg Bugs Found:           0
+# Register: analog_test Bugs Found:           2
+# Register: digital_test Bugs Found:           2
+# Register: amp_gain Bugs Found:           1
+# Register: digital_gain Bugs Found:          10
+# Error Count:          28
+# Compile of config_reg_buggy_questa.sv.svp was successful.
+# Compile of testbench.sv was successful.
+# 2 compiles, 0 failed with no errors. 
+do testbench.do
+# vsim -novopt testbench 
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment2.3/work.testbench
+# Loading sv_std.std
+# Loading work.testbench
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment2.3/work.config_reg
+# Loading work.config_reg
+# Checking Reset Values
+# Error: Register: "analog_test" Expected: abcd Actual: abcc
+# 
+# Checking All Zero Writes
+# Error: Register: "adc0_reg" Expected: 0000 Actual: 8000
+# 
+# Checking All One Writes
+# Error: Register: "temp_sensor0_reg" Expected: ffff Actual: fffe
+# 
+# Error: Register: "digital_test" Expected: ffff Actual: 0000
+# 
+# Error: Register: "digital_gain" Expected: ffff Actual: 7fff
+# 
+# Checking Single Write, Read All
+# Writing Register adc0_reg
+# Error: Register: "temp_sensor0_reg" Expected: ffff Actual: fffe
+# 
+# Error: Register: "digital_gain" Expected: ffff Actual: 7fff
+# 
+# Writing Register adc1_reg
+# Error: Register: "temp_sensor0_reg" Expected: ffff Actual: fffe
+# 
+# Error: Register: "digital_gain" Expected: ffff Actual: 7fff
+# 
+# Writing Register temp_sensor0_reg
+# Error: Register: "temp_sensor0_reg" Expected: ffff Actual: fffe
+# 
+# Error: Register: "digital_gain" Expected: ffff Actual: 7fff
+# 
+# Writing Register temp_sensor1_reg
+# Error: Register: "temp_sensor0_reg" Expected: ffff Actual: fffe
+# 
+# Error: Register: "digital_gain" Expected: ffff Actual: 7fff
+# 
+# Writing Register analog_test
+# Error: Register: "temp_sensor0_reg" Expected: ffff Actual: fffe
+# 
+# Error: Register: "digital_gain" Expected: ffff Actual: 7fff
+# 
+# Writing Register digital_test
+# Error: Register: "temp_sensor0_reg" Expected: ffff Actual: fffe
+# 
+# Error: Register: "digital_gain" Expected: ffff Actual: 7fff
+# 
+# Writing Register amp_gain
+# Error: Register: "temp_sensor0_reg" Expected: ffff Actual: fffe
+# 
+# Error: Register: "digital_gain" Expected: ffff Actual: 7fff
+# 
+# Writing Register digital_gain
+# Error: Register: "temp_sensor0_reg" Expected: ffff Actual: fffe
+# 
+# Error: Register: "digital_gain" Expected: ffff Actual: 7fff
+# 
+# Testing Inverse Reset
+#           0
+#           1
+#           2
+#           3
+#           4
+#           5
+#           6
+#           7
+# Error: Register: "adc0_reg" Expected: 0000 Actual: ffff
+# 
+# Error: Register: "adc1_reg" Expected: ffff Actual: 0000
+# 
+# Error: Register: "temp_sensor0_reg" Expected: ffff Actual: 0000
+# 
+# Error: Register: "analog_test" Expected: 5432 Actual: abcc
+# 
+# Error: Register: "digital_test" Expected: ffff Actual: 0000
+# 
+# Error: Register: "amp_gain" Expected: ffff Actual: 0000
+# 
+# Error: Register: "digital_gain" Expected: fffe Actual: 0001
+# 
+# Do registers hold values
+# Error: Register: "adc0_reg" Expected: 0000 Actual: 8000
+# 
+# Error: Register: "temp_sensor0_reg" Expected: ffff Actual: fffe
+# 
+# Error: Register: "digital_gain" Expected: fffe Actual: 7ffe
+# 
+# Register: adc0_reg Bugs Found:           3
+# Register: adc1_reg Bugs Found:           1
+# Register: temp_sensor0_reg Bugs Found:          11
+# Register: temp_sensor1_reg Bugs Found:           0
+# Register: analog_test Bugs Found:           2
+# Register: digital_test Bugs Found:           2
+# Register: amp_gain Bugs Found:           1
+# Register: digital_gain Bugs Found:          11
+# Error Count:          31
+# Compile of config_reg_buggy_questa.sv.svp was successful.
+# Compile of testbench.sv was successful.
+# 2 compiles, 0 failed with no errors. 
+do testbench.do
+# vsim -novopt testbench 
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment2.3/work.testbench
+# Loading sv_std.std
+# Loading work.testbench
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment2.3/work.config_reg
+# Loading work.config_reg
+# Checking Reset Values
+# Error: Register: "analog_test" Expected: abcd Actual: abcc
+# 
+# Checking All Zero Writes
+# Error: Register: "adc0_reg" Expected: 0000 Actual: 8000
+# 
+# Checking All One Writes
+# Error: Register: "temp_sensor0_reg" Expected: ffff Actual: fffe
+# 
+# Error: Register: "digital_test" Expected: ffff Actual: 0000
+# 
+# Error: Register: "digital_gain" Expected: ffff Actual: 7fff
+# 
+# Checking Single Write, Read All
+# Writing Register adc0_reg
+# Error: Register: "temp_sensor0_reg" Expected: ffff Actual: fffe
+# 
+# Error: Register: "digital_gain" Expected: ffff Actual: 7fff
+# 
+# Writing Register adc1_reg
+# Error: Register: "temp_sensor0_reg" Expected: ffff Actual: fffe
+# 
+# Error: Register: "digital_gain" Expected: ffff Actual: 7fff
+# 
+# Writing Register temp_sensor0_reg
+# Error: Register: "temp_sensor0_reg" Expected: ffff Actual: fffe
+# 
+# Error: Register: "digital_gain" Expected: ffff Actual: 7fff
+# 
+# Writing Register temp_sensor1_reg
+# Error: Register: "temp_sensor0_reg" Expected: ffff Actual: fffe
+# 
+# Error: Register: "digital_gain" Expected: ffff Actual: 7fff
+# 
+# Writing Register analog_test
+# Error: Register: "temp_sensor0_reg" Expected: ffff Actual: fffe
+# 
+# Error: Register: "digital_gain" Expected: ffff Actual: 7fff
+# 
+# Writing Register digital_test
+# Error: Register: "temp_sensor0_reg" Expected: ffff Actual: fffe
+# 
+# Error: Register: "digital_gain" Expected: ffff Actual: 7fff
+# 
+# Writing Register amp_gain
+# Error: Register: "temp_sensor0_reg" Expected: ffff Actual: fffe
+# 
+# Error: Register: "digital_gain" Expected: ffff Actual: 7fff
+# 
+# Writing Register digital_gain
+# Error: Register: "temp_sensor0_reg" Expected: ffff Actual: fffe
+# 
+# Error: Register: "digital_gain" Expected: ffff Actual: 7fff
+# 
+# Testing Inverse Reset
+#           0
+#           1
+#           2
+#           3
+#           4
+#           5
+#           6
+#           7
+# Error: Register: "adc0_reg" Expected: 0000 Actual: ffff
+# 
+# Error: Register: "adc1_reg" Expected: ffff Actual: 0000
+# 
+# Error: Register: "temp_sensor0_reg" Expected: ffff Actual: 0000
+# 
+# Error: Register: "analog_test" Expected: 5432 Actual: abcc
+# 
+# Error: Register: "digital_test" Expected: ffff Actual: 0000
+# 
+# Error: Register: "amp_gain" Expected: ffff Actual: 0000
+# 
+# Error: Register: "digital_gain" Expected: fffe Actual: 0001
+# 
+# Do registers hold values
+# Error: Register: "adc0_reg" Expected: 0000 Actual: 8000
+# 
+# Error: Register: "temp_sensor0_reg" Expected: ffff Actual: fffe
+# 
+# Error: Register: "digital_gain" Expected: fffe Actual: 7ffe
+# 
+# Testing Multiple Reads
+# Error: Register: "adc0_reg" Expected: 0000 Actual: 8000
+# 
+# Error: Register: "temp_sensor0_reg" Expected: ffff Actual: fffe
+# 
+# Error: Register: "digital_gain" Expected: fffe Actual: 7ffe
+# 
+# Register: adc0_reg Bugs Found:           4
+# Register: adc1_reg Bugs Found:           1
+# Register: temp_sensor0_reg Bugs Found:          12
+# Register: temp_sensor1_reg Bugs Found:           0
+# Register: analog_test Bugs Found:           2
+# Register: digital_test Bugs Found:           2
+# Register: amp_gain Bugs Found:           1
+# Register: digital_gain Bugs Found:          12
+# Error Count:          34
+# Compile of config_reg_buggy_questa.sv.svp was successful.
+# Compile of testbench.sv was successful.
+# 2 compiles, 0 failed with no errors. 
+do testbench.do
+# vsim -novopt testbench 
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment2.3/work.testbench
+# Loading sv_std.std
+# Loading work.testbench
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment2.3/work.config_reg
+# Loading work.config_reg
+# Checking Reset Values
+# Error: Register: "analog_test" Expected: abcd Actual: abcc
+# 
+# Checking All Zero Writes
+# Error: Register: "adc0_reg" Expected: 0000 Actual: 8000
+# 
+# Checking All One Writes
+# Error: Register: "temp_sensor0_reg" Expected: ffff Actual: fffe
+# 
+# Error: Register: "digital_test" Expected: ffff Actual: 0000
+# 
+# Error: Register: "digital_gain" Expected: ffff Actual: 7fff
+# 
+# Checking Single Write, Read All
+# Writing Register adc0_reg
+# Error: Register: "temp_sensor0_reg" Expected: ffff Actual: fffe
+# 
+# Error: Register: "digital_gain" Expected: ffff Actual: 7fff
+# 
+# Writing Register adc1_reg
+# Error: Register: "temp_sensor0_reg" Expected: ffff Actual: fffe
+# 
+# Error: Register: "digital_gain" Expected: ffff Actual: 7fff
+# 
+# Writing Register temp_sensor0_reg
+# Error: Register: "temp_sensor0_reg" Expected: ffff Actual: fffe
+# 
+# Error: Register: "digital_gain" Expected: ffff Actual: 7fff
+# 
+# Writing Register temp_sensor1_reg
+# Error: Register: "temp_sensor0_reg" Expected: ffff Actual: fffe
+# 
+# Error: Register: "digital_gain" Expected: ffff Actual: 7fff
+# 
+# Writing Register analog_test
+# Error: Register: "temp_sensor0_reg" Expected: ffff Actual: fffe
+# 
+# Error: Register: "digital_gain" Expected: ffff Actual: 7fff
+# 
+# Writing Register digital_test
+# Error: Register: "temp_sensor0_reg" Expected: ffff Actual: fffe
+# 
+# Error: Register: "digital_gain" Expected: ffff Actual: 7fff
+# 
+# Writing Register amp_gain
+# Error: Register: "temp_sensor0_reg" Expected: ffff Actual: fffe
+# 
+# Error: Register: "digital_gain" Expected: ffff Actual: 7fff
+# 
+# Writing Register digital_gain
+# Error: Register: "temp_sensor0_reg" Expected: ffff Actual: fffe
+# 
+# Error: Register: "digital_gain" Expected: ffff Actual: 7fff
+# 
+# Testing Inverse Reset
+#           0
+#           1
+#           2
+#           3
+#           4
+#           5
+#           6
+#           7
+# Error: Register: "adc0_reg" Expected: 0000 Actual: ffff
+# 
+# Error: Register: "adc1_reg" Expected: ffff Actual: 0000
+# 
+# Error: Register: "temp_sensor0_reg" Expected: ffff Actual: 0000
+# 
+# Error: Register: "analog_test" Expected: 5432 Actual: abcc
+# 
+# Error: Register: "digital_test" Expected: ffff Actual: 0000
+# 
+# Error: Register: "amp_gain" Expected: ffff Actual: 0000
+# 
+# Error: Register: "digital_gain" Expected: fffe Actual: 0001
+# 
+# Do registers hold values
+# Error: Register: "adc0_reg" Expected: 0000 Actual: 8000
+# 
+# Error: Register: "temp_sensor0_reg" Expected: ffff Actual: fffe
+# 
+# Error: Register: "digital_gain" Expected: fffe Actual: 7ffe
+# 
+# Testing Multiple Reads
+# Error: Register: "adc0_reg" Expected: 0000 Actual: 8000
+# 
+# Error: Register: "temp_sensor0_reg" Expected: ffff Actual: fffe
+# 
+# Error: Register: "digital_gain" Expected: fffe Actual: 7ffe
+# 
+# Error: Register: "adc0_reg" Expected: 0000 Actual: 8000
+# 
+# Error: Register: "temp_sensor0_reg" Expected: ffff Actual: fffe
+# 
+# Error: Register: "digital_gain" Expected: fffe Actual: 7ffe
+# 
+# Register: adc0_reg Bugs Found:           5
+# Register: adc1_reg Bugs Found:           1
+# Register: temp_sensor0_reg Bugs Found:          13
+# Register: temp_sensor1_reg Bugs Found:           0
+# Register: analog_test Bugs Found:           2
+# Register: digital_test Bugs Found:           2
+# Register: amp_gain Bugs Found:           1
+# Register: digital_gain Bugs Found:          13
+# Error Count:          37
+# Compile of config_reg_buggy_questa.sv.svp was successful.
+# Compile of testbench.sv failed with 1 errors.
+# 2 compiles, 1 failed with 1 error. 
+# Compile of config_reg_buggy_questa.sv.svp was successful.
+# Compile of testbench.sv was successful.
+# 2 compiles, 0 failed with no errors. 
+do testbench.do
+# vsim -novopt testbench 
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment2.3/work.testbench
+# Loading sv_std.std
+# Loading work.testbench
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment2.3/work.config_reg
+# Loading work.config_reg
+# Checking Reset Values
+# Error: Register: "analog_test" Expected: abcd Actual: abcc
+# 
+# Checking All Zero Writes
+# Error: Register: "adc0_reg" Expected: 0000 Actual: 8000
+# 
+# Checking All One Writes
+# Error: Register: "temp_sensor0_reg" Expected: ffff Actual: fffe
+# 
+# Error: Register: "digital_test" Expected: ffff Actual: 0000
+# 
+# Error: Register: "digital_gain" Expected: ffff Actual: 7fff
+# 
+# Checking Single Write, Read All
+# Writing Register adc0_reg
+# Error: Register: "temp_sensor0_reg" Expected: ffff Actual: fffe
+# 
+# Error: Register: "digital_gain" Expected: ffff Actual: 7fff
+# 
+# Writing Register adc1_reg
+# Error: Register: "temp_sensor0_reg" Expected: ffff Actual: fffe
+# 
+# Error: Register: "digital_gain" Expected: ffff Actual: 7fff
+# 
+# Writing Register temp_sensor0_reg
+# Error: Register: "temp_sensor0_reg" Expected: ffff Actual: fffe
+# 
+# Error: Register: "digital_gain" Expected: ffff Actual: 7fff
+# 
+# Writing Register temp_sensor1_reg
+# Error: Register: "temp_sensor0_reg" Expected: ffff Actual: fffe
+# 
+# Error: Register: "digital_gain" Expected: ffff Actual: 7fff
+# 
+# Writing Register analog_test
+# Error: Register: "temp_sensor0_reg" Expected: ffff Actual: fffe
+# 
+# Error: Register: "digital_gain" Expected: ffff Actual: 7fff
+# 
+# Writing Register digital_test
+# Error: Register: "temp_sensor0_reg" Expected: ffff Actual: fffe
+# 
+# Error: Register: "digital_gain" Expected: ffff Actual: 7fff
+# 
+# Writing Register amp_gain
+# Error: Register: "temp_sensor0_reg" Expected: ffff Actual: fffe
+# 
+# Error: Register: "digital_gain" Expected: ffff Actual: 7fff
+# 
+# Writing Register digital_gain
+# Error: Register: "temp_sensor0_reg" Expected: ffff Actual: fffe
+# 
+# Error: Register: "digital_gain" Expected: ffff Actual: 7fff
+# 
+# Testing Inverse Reset
+#           0
+#           1
+#           2
+#           3
+#           4
+#           5
+#           6
+#           7
+# Error: Register: "adc0_reg" Expected: 0000 Actual: ffff
+# 
+# Error: Register: "adc1_reg" Expected: ffff Actual: 0000
+# 
+# Error: Register: "temp_sensor0_reg" Expected: ffff Actual: 0000
+# 
+# Error: Register: "analog_test" Expected: 5432 Actual: abcc
+# 
+# Error: Register: "digital_test" Expected: ffff Actual: 0000
+# 
+# Error: Register: "amp_gain" Expected: ffff Actual: 0000
+# 
+# Error: Register: "digital_gain" Expected: fffe Actual: 0001
+# 
+# Do registers hold values
+# Error: Register: "adc0_reg" Expected: 0000 Actual: 8000
+# 
+# Error: Register: "temp_sensor0_reg" Expected: ffff Actual: fffe
+# 
+# Error: Register: "digital_gain" Expected: fffe Actual: 7ffe
+# 
+# Testing Multiple Reads
+# Error: Register: "adc0_reg" Expected: 0000 Actual: 8000
+# 
+# Error: Register: "temp_sensor0_reg" Expected: ffff Actual: fffe
+# 
+# Error: Register: "digital_gain" Expected: fffe Actual: 7ffe
+# 
+# Error: Register: "adc0_reg" Expected: 0000 Actual: 8000
+# 
+# Error: Register: "temp_sensor0_reg" Expected: ffff Actual: fffe
+# 
+# Error: Register: "digital_gain" Expected: fffe Actual: 7ffe
+# 
+# Writing Register adc0_reg
+# Writing Register adc0_reg
+# Writing Register adc0_reg
+# Writing Register adc0_reg
+# Writing Register adc0_reg
+# Writing Register adc0_reg
+# Writing Register adc0_reg
+# Writing Register adc0_reg
+# Writing Register adc0_reg
+# Writing Register adc0_reg
+# Writing Register adc0_reg
+# Writing Register adc0_reg
+# Writing Register adc0_reg
+# Writing Register adc0_reg
+# Writing Register adc0_reg
+# Writing Register adc0_reg
+# Writing Register adc0_reg
+# Writing Register adc0_reg
+# Writing Register adc0_reg
+# Writing Register adc0_reg
+# Writing Register adc0_reg
+# Writing Register adc0_reg
+# Writing Register adc0_reg
+# Writing Register adc0_reg
+# Writing Register adc0_reg
+# Writing Register adc0_reg
+# Writing Register adc0_reg
+# Writing Register adc0_reg
+# Writing Register adc0_reg
+# Writing Register adc0_reg
+# Writing Register adc0_reg
+# Writing Register adc0_reg
+# Writing Register adc0_reg
+# Writing Register adc0_reg
+# Writing Register adc0_reg
+# Writing Register adc0_reg
+# Writing Register adc0_reg
+# Writing Register adc0_reg
+# Writing Register adc0_reg
+# Writing Register adc0_reg
+# Writing Register adc0_reg
+# Writing Register adc0_reg
+# Writing Register adc0_reg
+# Writing Register adc0_reg
+# Writing Register adc0_reg
+# Writing Register adc0_reg
+# Writing Register adc0_reg
+# Writing Register adc0_reg
+# Writing Register adc0_reg
+# Writing Register adc0_reg
+# Writing Register adc1_reg
+# Writing Register adc1_reg
+# Writing Register adc1_reg
+# Writing Register adc1_reg
+# Writing Register adc1_reg
+# Writing Register adc1_reg
+# Writing Register adc1_reg
+# Writing Register adc1_reg
+# Writing Register adc1_reg
+# Writing Register adc1_reg
+# Writing Register adc1_reg
+# Writing Register adc1_reg
+# Writing Register adc1_reg
+# Writing Register adc1_reg
+# Writing Register adc1_reg
+# Writing Register adc1_reg
+# Writing Register adc1_reg
+# Writing Register adc1_reg
+# Writing Register adc1_reg
+# Writing Register adc1_reg
+# Writing Register adc1_reg
+# Writing Register adc1_reg
+# Writing Register adc1_reg
+# Writing Register adc1_reg
+# Writing Register adc1_reg
+# Writing Register adc1_reg
+# Writing Register adc1_reg
+# Writing Register adc1_reg
+# Writing Register adc1_reg
+# Writing Register adc1_reg
+# Writing Register adc1_reg
+# Writing Register adc1_reg
+# Writing Register adc1_reg
+# Writing Register adc1_reg
+# Writing Register adc1_reg
+# Writing Register adc1_reg
+# Writing Register adc1_reg
+# Writing Register adc1_reg
+# Writing Register adc1_reg
+# Writing Register adc1_reg
+# Writing Register adc1_reg
+# Writing Register adc1_reg
+# Writing Register adc1_reg
+# Writing Register adc1_reg
+# Writing Register adc1_reg
+# Writing Register adc1_reg
+# Writing Register adc1_reg
+# Writing Register adc1_reg
+# Writing Register adc1_reg
+# Writing Register adc1_reg
+# Writing Register temp_sensor0_reg
+# Writing Register temp_sensor0_reg
+# Writing Register temp_sensor0_reg
+# Writing Register temp_sensor0_reg
+# Writing Register temp_sensor0_reg
+# Writing Register temp_sensor0_reg
+# Writing Register temp_sensor0_reg
+# Writing Register temp_sensor0_reg
+# Writing Register temp_sensor0_reg
+# Writing Register temp_sensor0_reg
+# Writing Register temp_sensor0_reg
+# Writing Register temp_sensor0_reg
+# Writing Register temp_sensor0_reg
+# Writing Register temp_sensor0_reg
+# Writing Register temp_sensor0_reg
+# Writing Register temp_sensor0_reg
+# Writing Register temp_sensor0_reg
+# Writing Register temp_sensor0_reg
+# Writing Register temp_sensor0_reg
+# Writing Register temp_sensor0_reg
+# Writing Register temp_sensor0_reg
+# Writing Register temp_sensor0_reg
+# Writing Register temp_sensor0_reg
+# Writing Register temp_sensor0_reg
+# Writing Register temp_sensor0_reg
+# Writing Register temp_sensor0_reg
+# Writing Register temp_sensor0_reg
+# Writing Register temp_sensor0_reg
+# Writing Register temp_sensor0_reg
+# Writing Register temp_sensor0_reg
+# Writing Register temp_sensor0_reg
+# Writing Register temp_sensor0_reg
+# Writing Register temp_sensor0_reg
+# Writing Register temp_sensor0_reg
+# Writing Register temp_sensor0_reg
+# Writing Register temp_sensor0_reg
+# Writing Register temp_sensor0_reg
+# Writing Register temp_sensor0_reg
+# Writing Register temp_sensor0_reg
+# Writing Register temp_sensor0_reg
+# Writing Register temp_sensor0_reg
+# Writing Register temp_sensor0_reg
+# Writing Register temp_sensor0_reg
+# Writing Register temp_sensor0_reg
+# Writing Register temp_sensor0_reg
+# Writing Register temp_sensor0_reg
+# Writing Register temp_sensor0_reg
+# Writing Register temp_sensor0_reg
+# Writing Register temp_sensor0_reg
+# Writing Register temp_sensor0_reg
+# Writing Register temp_sensor1_reg
+# Writing Register temp_sensor1_reg
+# Writing Register temp_sensor1_reg
+# Writing Register temp_sensor1_reg
+# Writing Register temp_sensor1_reg
+# Writing Register temp_sensor1_reg
+# Writing Register temp_sensor1_reg
+# Writing Register temp_sensor1_reg
+# Writing Register temp_sensor1_reg
+# Writing Register temp_sensor1_reg
+# Writing Register temp_sensor1_reg
+# Writing Register temp_sensor1_reg
+# Writing Register temp_sensor1_reg
+# Writing Register temp_sensor1_reg
+# Writing Register temp_sensor1_reg
+# Writing Register temp_sensor1_reg
+# Writing Register temp_sensor1_reg
+# Writing Register temp_sensor1_reg
+# Writing Register temp_sensor1_reg
+# Writing Register temp_sensor1_reg
+# Writing Register temp_sensor1_reg
+# Writing Register temp_sensor1_reg
+# Writing Register temp_sensor1_reg
+# Writing Register temp_sensor1_reg
+# Writing Register temp_sensor1_reg
+# Writing Register temp_sensor1_reg
+# Writing Register temp_sensor1_reg
+# Writing Register temp_sensor1_reg
+# Writing Register temp_sensor1_reg
+# Writing Register temp_sensor1_reg
+# Writing Register temp_sensor1_reg
+# Writing Register temp_sensor1_reg
+# Writing Register temp_sensor1_reg
+# Writing Register temp_sensor1_reg
+# Writing Register temp_sensor1_reg
+# Writing Register temp_sensor1_reg
+# Writing Register temp_sensor1_reg
+# Writing Register temp_sensor1_reg
+# Writing Register temp_sensor1_reg
+# Writing Register temp_sensor1_reg
+# Writing Register temp_sensor1_reg
+# Writing Register temp_sensor1_reg
+# Writing Register temp_sensor1_reg
+# Writing Register temp_sensor1_reg
+# Writing Register temp_sensor1_reg
+# Writing Register temp_sensor1_reg
+# Writing Register temp_sensor1_reg
+# Writing Register temp_sensor1_reg
+# Writing Register temp_sensor1_reg
+# Writing Register temp_sensor1_reg
+# Writing Register analog_test
+# Writing Register analog_test
+# Writing Register analog_test
+# Writing Register analog_test
+# Writing Register analog_test
+# Writing Register analog_test
+# Writing Register analog_test
+# Writing Register analog_test
+# Writing Register analog_test
+# Writing Register analog_test
+# Writing Register analog_test
+# Writing Register analog_test
+# Writing Register analog_test
+# Writing Register analog_test
+# Writing Register analog_test
+# Writing Register analog_test
+# Writing Register analog_test
+# Writing Register analog_test
+# Writing Register analog_test
+# Writing Register analog_test
+# Writing Register analog_test
+# Writing Register analog_test
+# Writing Register analog_test
+# Writing Register analog_test
+# Writing Register analog_test
+# Writing Register analog_test
+# Writing Register analog_test
+# Writing Register analog_test
+# Writing Register analog_test
+# Writing Register analog_test
+# Writing Register analog_test
+# Writing Register analog_test
+# Writing Register analog_test
+# Writing Register analog_test
+# Writing Register analog_test
+# Writing Register analog_test
+# Writing Register analog_test
+# Writing Register analog_test
+# Writing Register analog_test
+# Writing Register analog_test
+# Writing Register analog_test
+# Writing Register analog_test
+# Writing Register analog_test
+# Writing Register analog_test
+# Writing Register analog_test
+# Writing Register analog_test
+# Writing Register analog_test
+# Writing Register analog_test
+# Writing Register analog_test
+# Writing Register analog_test
+# Writing Register digital_test
+# Writing Register digital_test
+# Writing Register digital_test
+# Writing Register digital_test
+# Writing Register digital_test
+# Writing Register digital_test
+# Writing Register digital_test
+# Writing Register digital_test
+# Writing Register digital_test
+# Writing Register digital_test
+# Writing Register digital_test
+# Writing Register digital_test
+# Writing Register digital_test
+# Writing Register digital_test
+# Writing Register digital_test
+# Writing Register digital_test
+# Writing Register digital_test
+# Writing Register digital_test
+# Writing Register digital_test
+# Writing Register digital_test
+# Writing Register digital_test
+# Writing Register digital_test
+# Writing Register digital_test
+# Writing Register digital_test
+# Writing Register digital_test
+# Writing Register digital_test
+# Writing Register digital_test
+# Writing Register digital_test
+# Writing Register digital_test
+# Writing Register digital_test
+# Writing Register digital_test
+# Writing Register digital_test
+# Writing Register digital_test
+# Writing Register digital_test
+# Writing Register digital_test
+# Writing Register digital_test
+# Writing Register digital_test
+# Writing Register digital_test
+# Writing Register digital_test
+# Writing Register digital_test
+# Writing Register digital_test
+# Writing Register digital_test
+# Writing Register digital_test
+# Writing Register digital_test
+# Writing Register digital_test
+# Writing Register digital_test
+# Writing Register digital_test
+# Writing Register digital_test
+# Writing Register digital_test
+# Writing Register digital_test
+# Writing Register amp_gain
+# Writing Register amp_gain
+# Writing Register amp_gain
+# Writing Register amp_gain
+# Writing Register amp_gain
+# Writing Register amp_gain
+# Writing Register amp_gain
+# Writing Register amp_gain
+# Writing Register amp_gain
+# Writing Register amp_gain
+# Writing Register amp_gain
+# Writing Register amp_gain
+# Writing Register amp_gain
+# Writing Register amp_gain
+# Writing Register amp_gain
+# Writing Register amp_gain
+# Writing Register amp_gain
+# Writing Register amp_gain
+# Writing Register amp_gain
+# Writing Register amp_gain
+# Writing Register amp_gain
+# Writing Register amp_gain
+# Writing Register amp_gain
+# Writing Register amp_gain
+# Writing Register amp_gain
+# Writing Register amp_gain
+# Writing Register amp_gain
+# Writing Register amp_gain
+# Writing Register amp_gain
+# Writing Register amp_gain
+# Writing Register amp_gain
+# Writing Register amp_gain
+# Writing Register amp_gain
+# Writing Register amp_gain
+# Writing Register amp_gain
+# Writing Register amp_gain
+# Writing Register amp_gain
+# Writing Register amp_gain
+# Writing Register amp_gain
+run 20000 ns
+# Writing Register amp_gain
+# Writing Register amp_gain
+# Writing Register amp_gain
+# Writing Register amp_gain
+# Writing Register amp_gain
+# Writing Register amp_gain
+# Writing Register amp_gain
+# Writing Register amp_gain
+# Writing Register amp_gain
+# Writing Register amp_gain
+# Writing Register amp_gain
+# Writing Register digital_gain
+# Writing Register digital_gain
+# Writing Register digital_gain
+# Writing Register digital_gain
+# Writing Register digital_gain
+# Writing Register digital_gain
+# Writing Register digital_gain
+# Writing Register digital_gain
+# Writing Register digital_gain
+# Writing Register digital_gain
+# Writing Register digital_gain
+# Writing Register digital_gain
+# Writing Register digital_gain
+# Writing Register digital_gain
+# Writing Register digital_gain
+# Writing Register digital_gain
+# Writing Register digital_gain
+# Writing Register digital_gain
+# Writing Register digital_gain
+# Writing Register digital_gain
+# Writing Register digital_gain
+# Writing Register digital_gain
+# Writing Register digital_gain
+# Writing Register digital_gain
+# Writing Register digital_gain
+# Writing Register digital_gain
+# Writing Register digital_gain
+# Writing Register digital_gain
+# Writing Register digital_gain
+# Writing Register digital_gain
+# Writing Register digital_gain
+# Writing Register digital_gain
+# Writing Register digital_gain
+# Writing Register digital_gain
+# Writing Register digital_gain
+# Writing Register digital_gain
+# Writing Register digital_gain
+# Writing Register digital_gain
+# Writing Register digital_gain
+# Writing Register digital_gain
+# Writing Register digital_gain
+# Writing Register digital_gain
+# Writing Register digital_gain
+# Writing Register digital_gain
+# Writing Register digital_gain
+# Writing Register digital_gain
+# Writing Register digital_gain
+# Writing Register digital_gain
+# Writing Register digital_gain
+# Writing Register digital_gain
+# Register: adc0_reg Bugs Found:           5
+# Register: adc1_reg Bugs Found:           1
+# Register: temp_sensor0_reg Bugs Found:          13
+# Register: temp_sensor1_reg Bugs Found:           0
+# Register: analog_test Bugs Found:           2
+# Register: digital_test Bugs Found:           2
+# Register: amp_gain Bugs Found:           1
+# Register: digital_gain Bugs Found:          13
+# Error Count:          37
+# Compile of config_reg_buggy_questa.sv.svp was successful.
+# Compile of testbench.sv was successful.
+# 2 compiles, 0 failed with no errors. 
+do testbench.do
+# vsim -novopt testbench 
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment2.3/work.testbench
+# Loading sv_std.std
+# Loading work.testbench
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment2.3/work.config_reg
+# Loading work.config_reg
+# Checking Reset Values
+# Error: Register: "analog_test" Expected: abcd Actual: abcc
+# 
+# Checking All Zero Writes
+# Error: Register: "adc0_reg" Expected: 0000 Actual: 8000
+# 
+# Checking All One Writes
+# Error: Register: "temp_sensor0_reg" Expected: ffff Actual: fffe
+# 
+# Error: Register: "digital_test" Expected: ffff Actual: 0000
+# 
+# Error: Register: "digital_config" Expected: ffff Actual: 7fff
+# 
+# Checking Single Write, Read All
+# Writing Register adc0_reg
+# Error: Register: "temp_sensor0_reg" Expected: ffff Actual: fffe
+# 
+# Error: Register: "digital_config" Expected: ffff Actual: 7fff
+# 
+# Writing Register adc1_reg
+# Error: Register: "temp_sensor0_reg" Expected: ffff Actual: fffe
+# 
+# Error: Register: "digital_config" Expected: ffff Actual: 7fff
+# 
+# Writing Register temp_sensor0_reg
+# Error: Register: "temp_sensor0_reg" Expected: ffff Actual: fffe
+# 
+# Error: Register: "digital_config" Expected: ffff Actual: 7fff
+# 
+# Writing Register temp_sensor1_reg
+# Error: Register: "temp_sensor0_reg" Expected: ffff Actual: fffe
+# 
+# Error: Register: "digital_config" Expected: ffff Actual: 7fff
+# 
+# Writing Register analog_test
+# Error: Register: "temp_sensor0_reg" Expected: ffff Actual: fffe
+# 
+# Error: Register: "digital_config" Expected: ffff Actual: 7fff
+# 
+# Writing Register digital_test
+# Error: Register: "temp_sensor0_reg" Expected: ffff Actual: fffe
+# 
+# Error: Register: "digital_config" Expected: ffff Actual: 7fff
+# 
+# Writing Register amp_gain
+# Error: Register: "temp_sensor0_reg" Expected: ffff Actual: fffe
+# 
+# Error: Register: "digital_config" Expected: ffff Actual: 7fff
+# 
+# Writing Register digital_config
+# Error: Register: "temp_sensor0_reg" Expected: ffff Actual: fffe
+# 
+# Error: Register: "digital_config" Expected: ffff Actual: 7fff
+# 
+# Testing Inverse Reset
+#           0
+#           1
+#           2
+#           3
+#           4
+#           5
+#           6
+#           7
+# Error: Register: "adc0_reg" Expected: 0000 Actual: ffff
+# 
+# Error: Register: "adc1_reg" Expected: ffff Actual: 0000
+# 
+# Error: Register: "temp_sensor0_reg" Expected: ffff Actual: 0000
+# 
+# Error: Register: "analog_test" Expected: 5432 Actual: abcc
+# 
+# Error: Register: "digital_test" Expected: ffff Actual: 0000
+# 
+# Error: Register: "amp_gain" Expected: ffff Actual: 0000
+# 
+# Error: Register: "digital_config" Expected: fffe Actual: 0001
+# 
+# Do registers hold values
+# Error: Register: "adc0_reg" Expected: 0000 Actual: 8000
+# 
+# Error: Register: "temp_sensor0_reg" Expected: ffff Actual: fffe
+# 
+# Error: Register: "digital_config" Expected: fffe Actual: 7ffe
+# 
+# Testing Multiple Reads
+# Error: Register: "adc0_reg" Expected: 0000 Actual: 8000
+# 
+# Error: Register: "temp_sensor0_reg" Expected: ffff Actual: fffe
+# 
+# Error: Register: "digital_config" Expected: fffe Actual: 7ffe
+# 
+# Error: Register: "adc0_reg" Expected: 0000 Actual: 8000
+# 
+# Error: Register: "temp_sensor0_reg" Expected: ffff Actual: fffe
+# 
+# Error: Register: "digital_config" Expected: fffe Actual: 7ffe
+# 
+# Writing Register adc0_reg
+# Writing Register adc0_reg
+# Writing Register adc0_reg
+# Writing Register adc0_reg
+# Writing Register adc0_reg
+# Writing Register adc0_reg
+# Writing Register adc0_reg
+# Writing Register adc0_reg
+# Writing Register adc0_reg
+# Writing Register adc0_reg
+# Writing Register adc0_reg
+# Writing Register adc0_reg
+# Writing Register adc0_reg
+# Writing Register adc0_reg
+# Writing Register adc0_reg
+# Writing Register adc0_reg
+# Writing Register adc0_reg
+# Writing Register adc0_reg
+# Writing Register adc0_reg
+# Writing Register adc0_reg
+# Writing Register adc0_reg
+# Writing Register adc0_reg
+# Writing Register adc0_reg
+# Writing Register adc0_reg
+# Writing Register adc0_reg
+# Writing Register adc0_reg
+# Writing Register adc0_reg
+# Writing Register adc0_reg
+# Writing Register adc0_reg
+# Writing Register adc0_reg
+# Writing Register adc0_reg
+# Writing Register adc0_reg
+# Writing Register adc0_reg
+# Writing Register adc0_reg
+# Writing Register adc0_reg
+# Writing Register adc0_reg
+# Writing Register adc0_reg
+# Writing Register adc0_reg
+# Writing Register adc0_reg
+# Writing Register adc0_reg
+# Writing Register adc0_reg
+# Writing Register adc0_reg
+# Writing Register adc0_reg
+# Writing Register adc0_reg
+# Writing Register adc0_reg
+# Writing Register adc0_reg
+# Writing Register adc0_reg
+# Writing Register adc0_reg
+# Writing Register adc0_reg
+# Writing Register adc0_reg
+# Writing Register adc1_reg
+# Writing Register adc1_reg
+# Writing Register adc1_reg
+# Writing Register adc1_reg
+# Writing Register adc1_reg
+# Writing Register adc1_reg
+# Writing Register adc1_reg
+# Writing Register adc1_reg
+# Writing Register adc1_reg
+# Writing Register adc1_reg
+# Writing Register adc1_reg
+# Writing Register adc1_reg
+# Writing Register adc1_reg
+# Writing Register adc1_reg
+# Writing Register adc1_reg
+# Writing Register adc1_reg
+# Writing Register adc1_reg
+# Writing Register adc1_reg
+# Writing Register adc1_reg
+# Writing Register adc1_reg
+# Writing Register adc1_reg
+# Writing Register adc1_reg
+# Writing Register adc1_reg
+# Writing Register adc1_reg
+# Writing Register adc1_reg
+# Writing Register adc1_reg
+# Writing Register adc1_reg
+# Writing Register adc1_reg
+# Writing Register adc1_reg
+# Writing Register adc1_reg
+# Writing Register adc1_reg
+# Writing Register adc1_reg
+# Writing Register adc1_reg
+# Writing Register adc1_reg
+# Writing Register adc1_reg
+# Writing Register adc1_reg
+# Writing Register adc1_reg
+# Writing Register adc1_reg
+# Writing Register adc1_reg
+# Writing Register adc1_reg
+# Writing Register adc1_reg
+# Writing Register adc1_reg
+# Writing Register adc1_reg
+# Writing Register adc1_reg
+# Writing Register adc1_reg
+# Writing Register adc1_reg
+# Writing Register adc1_reg
+# Writing Register adc1_reg
+# Writing Register adc1_reg
+# Writing Register adc1_reg
+# Writing Register temp_sensor0_reg
+# Writing Register temp_sensor0_reg
+# Writing Register temp_sensor0_reg
+# Writing Register temp_sensor0_reg
+# Writing Register temp_sensor0_reg
+# Writing Register temp_sensor0_reg
+# Writing Register temp_sensor0_reg
+# Writing Register temp_sensor0_reg
+# Writing Register temp_sensor0_reg
+# Writing Register temp_sensor0_reg
+# Writing Register temp_sensor0_reg
+# Writing Register temp_sensor0_reg
+# Writing Register temp_sensor0_reg
+# Writing Register temp_sensor0_reg
+# Writing Register temp_sensor0_reg
+# Writing Register temp_sensor0_reg
+# Writing Register temp_sensor0_reg
+# Writing Register temp_sensor0_reg
+# Writing Register temp_sensor0_reg
+# Writing Register temp_sensor0_reg
+# Writing Register temp_sensor0_reg
+# Writing Register temp_sensor0_reg
+# Writing Register temp_sensor0_reg
+# Writing Register temp_sensor0_reg
+# Writing Register temp_sensor0_reg
+# Writing Register temp_sensor0_reg
+# Writing Register temp_sensor0_reg
+# Writing Register temp_sensor0_reg
+# Writing Register temp_sensor0_reg
+# Writing Register temp_sensor0_reg
+# Writing Register temp_sensor0_reg
+# Writing Register temp_sensor0_reg
+# Writing Register temp_sensor0_reg
+# Writing Register temp_sensor0_reg
+# Writing Register temp_sensor0_reg
+# Writing Register temp_sensor0_reg
+# Writing Register temp_sensor0_reg
+# Writing Register temp_sensor0_reg
+# Writing Register temp_sensor0_reg
+# Writing Register temp_sensor0_reg
+# Writing Register temp_sensor0_reg
+# Writing Register temp_sensor0_reg
+# Writing Register temp_sensor0_reg
+# Writing Register temp_sensor0_reg
+# Writing Register temp_sensor0_reg
+# Writing Register temp_sensor0_reg
+# Writing Register temp_sensor0_reg
+# Writing Register temp_sensor0_reg
+# Writing Register temp_sensor0_reg
+# Writing Register temp_sensor0_reg
+# Writing Register temp_sensor1_reg
+# Writing Register temp_sensor1_reg
+# Writing Register temp_sensor1_reg
+# Writing Register temp_sensor1_reg
+# Writing Register temp_sensor1_reg
+# Writing Register temp_sensor1_reg
+# Writing Register temp_sensor1_reg
+# Writing Register temp_sensor1_reg
+# Writing Register temp_sensor1_reg
+# Writing Register temp_sensor1_reg
+# Writing Register temp_sensor1_reg
+# Writing Register temp_sensor1_reg
+# Writing Register temp_sensor1_reg
+# Writing Register temp_sensor1_reg
+# Writing Register temp_sensor1_reg
+# Writing Register temp_sensor1_reg
+# Writing Register temp_sensor1_reg
+# Writing Register temp_sensor1_reg
+# Writing Register temp_sensor1_reg
+# Writing Register temp_sensor1_reg
+# Writing Register temp_sensor1_reg
+# Writing Register temp_sensor1_reg
+# Writing Register temp_sensor1_reg
+# Writing Register temp_sensor1_reg
+# Writing Register temp_sensor1_reg
+# Writing Register temp_sensor1_reg
+# Writing Register temp_sensor1_reg
+# Writing Register temp_sensor1_reg
+# Writing Register temp_sensor1_reg
+# Writing Register temp_sensor1_reg
+# Writing Register temp_sensor1_reg
+# Writing Register temp_sensor1_reg
+# Writing Register temp_sensor1_reg
+# Writing Register temp_sensor1_reg
+# Writing Register temp_sensor1_reg
+# Writing Register temp_sensor1_reg
+# Writing Register temp_sensor1_reg
+# Writing Register temp_sensor1_reg
+# Writing Register temp_sensor1_reg
+# Writing Register temp_sensor1_reg
+# Writing Register temp_sensor1_reg
+# Writing Register temp_sensor1_reg
+# Writing Register temp_sensor1_reg
+# Writing Register temp_sensor1_reg
+# Writing Register temp_sensor1_reg
+# Writing Register temp_sensor1_reg
+# Writing Register temp_sensor1_reg
+# Writing Register temp_sensor1_reg
+# Writing Register temp_sensor1_reg
+# Writing Register temp_sensor1_reg
+# Writing Register analog_test
+# Writing Register analog_test
+# Writing Register analog_test
+# Writing Register analog_test
+# Writing Register analog_test
+# Writing Register analog_test
+# Writing Register analog_test
+# Writing Register analog_test
+# Writing Register analog_test
+# Writing Register analog_test
+# Writing Register analog_test
+# Writing Register analog_test
+# Writing Register analog_test
+# Writing Register analog_test
+# Writing Register analog_test
+# Writing Register analog_test
+# Writing Register analog_test
+# Writing Register analog_test
+# Writing Register analog_test
+# Writing Register analog_test
+# Writing Register analog_test
+# Writing Register analog_test
+# Writing Register analog_test
+# Writing Register analog_test
+# Writing Register analog_test
+# Writing Register analog_test
+# Writing Register analog_test
+# Writing Register analog_test
+# Writing Register analog_test
+# Writing Register analog_test
+# Writing Register analog_test
+# Writing Register analog_test
+# Writing Register analog_test
+# Writing Register analog_test
+# Writing Register analog_test
+# Writing Register analog_test
+# Writing Register analog_test
+# Writing Register analog_test
+# Writing Register analog_test
+# Writing Register analog_test
+# Writing Register analog_test
+# Writing Register analog_test
+# Writing Register analog_test
+# Writing Register analog_test
+# Writing Register analog_test
+# Writing Register analog_test
+# Writing Register analog_test
+# Writing Register analog_test
+# Writing Register analog_test
+# Writing Register analog_test
+# Writing Register digital_test
+# Writing Register digital_test
+# Writing Register digital_test
+# Writing Register digital_test
+# Writing Register digital_test
+# Writing Register digital_test
+# Writing Register digital_test
+# Writing Register digital_test
+# Writing Register digital_test
+# Writing Register digital_test
+# Writing Register digital_test
+# Writing Register digital_test
+# Writing Register digital_test
+# Writing Register digital_test
+# Writing Register digital_test
+# Writing Register digital_test
+# Writing Register digital_test
+# Writing Register digital_test
+# Writing Register digital_test
+# Writing Register digital_test
+# Writing Register digital_test
+# Writing Register digital_test
+# Writing Register digital_test
+# Writing Register digital_test
+# Writing Register digital_test
+# Writing Register digital_test
+# Writing Register digital_test
+# Writing Register digital_test
+# Writing Register digital_test
+# Writing Register digital_test
+# Writing Register digital_test
+# Writing Register digital_test
+# Writing Register digital_test
+# Writing Register digital_test
+# Writing Register digital_test
+# Writing Register digital_test
+# Writing Register digital_test
+# Writing Register digital_test
+# Writing Register digital_test
+# Writing Register digital_test
+# Writing Register digital_test
+# Writing Register digital_test
+# Writing Register digital_test
+# Writing Register digital_test
+# Writing Register digital_test
+# Writing Register digital_test
+# Writing Register digital_test
+# Writing Register digital_test
+# Writing Register digital_test
+# Writing Register digital_test
+# Writing Register amp_gain
+# Writing Register amp_gain
+# Writing Register amp_gain
+# Writing Register amp_gain
+# Writing Register amp_gain
+# Writing Register amp_gain
+# Writing Register amp_gain
+# Writing Register amp_gain
+# Writing Register amp_gain
+# Writing Register amp_gain
+# Writing Register amp_gain
+# Writing Register amp_gain
+# Writing Register amp_gain
+# Writing Register amp_gain
+# Writing Register amp_gain
+# Writing Register amp_gain
+# Writing Register amp_gain
+# Writing Register amp_gain
+# Writing Register amp_gain
+# Writing Register amp_gain
+# Writing Register amp_gain
+# Writing Register amp_gain
+# Writing Register amp_gain
+# Writing Register amp_gain
+# Writing Register amp_gain
+# Writing Register amp_gain
+# Writing Register amp_gain
+# Writing Register amp_gain
+# Writing Register amp_gain
+# Writing Register amp_gain
+# Writing Register amp_gain
+# Writing Register amp_gain
+# Writing Register amp_gain
+# Writing Register amp_gain
+# Writing Register amp_gain
+# Writing Register amp_gain
+# Writing Register amp_gain
+# Writing Register amp_gain
+# Writing Register amp_gain
+run 15000 ns
+# Writing Register amp_gain
+# Writing Register amp_gain
+# Writing Register amp_gain
+# Writing Register amp_gain
+# Writing Register amp_gain
+# Writing Register amp_gain
+# Writing Register amp_gain
+# Writing Register amp_gain
+# Writing Register amp_gain
+# Writing Register amp_gain
+# Writing Register amp_gain
+# Writing Register digital_config
+# Writing Register digital_config
+# Writing Register digital_config
+# Writing Register digital_config
+# Writing Register digital_config
+# Writing Register digital_config
+# Writing Register digital_config
+# Writing Register digital_config
+# Writing Register digital_config
+# Writing Register digital_config
+# Writing Register digital_config
+# Writing Register digital_config
+# Writing Register digital_config
+# Writing Register digital_config
+# Writing Register digital_config
+# Writing Register digital_config
+# Writing Register digital_config
+# Writing Register digital_config
+# Writing Register digital_config
+# Writing Register digital_config
+# Writing Register digital_config
+# Writing Register digital_config
+# Writing Register digital_config
+# Writing Register digital_config
+# Writing Register digital_config
+# Writing Register digital_config
+# Writing Register digital_config
+# Writing Register digital_config
+# Writing Register digital_config
+# Writing Register digital_config
+# Writing Register digital_config
+# Writing Register digital_config
+# Writing Register digital_config
+# Writing Register digital_config
+# Writing Register digital_config
+# Writing Register digital_config
+# Writing Register digital_config
+# Writing Register digital_config
+# Writing Register digital_config
+# Writing Register digital_config
+# Writing Register digital_config
+# Writing Register digital_config
+# Writing Register digital_config
+# Writing Register digital_config
+# Writing Register digital_config
+# Writing Register digital_config
+# Writing Register digital_config
+# Writing Register digital_config
+# Writing Register digital_config
+# Writing Register digital_config
+# Error: Register: "adc0_reg" Expected: 4c3c Actual: cc3c
+# 
+# Error: Register: "adc1_reg" Expected: 8878 Actual: 7888
+# 
+# Error: Register: "temp_sensor0_reg" Expected: de4d Actual: bc9a
+# 
+# Error: Register: "digital_test" Expected: 8eed Actual: e671
+# 
+# Error: Register: "amp_gain" Expected: e671 Actual: 8eed
+# 
+# Register: adc0_reg Bugs Found:           6
+# Register: adc1_reg Bugs Found:           2
+# Register: temp_sensor0_reg Bugs Found:          14
+# Register: temp_sensor1_reg Bugs Found:           0
+# Register: analog_test Bugs Found:           2
+# Register: digital_test Bugs Found:           3
+# Register: amp_gain Bugs Found:           2
+# Register: digital_config Bugs Found:          13
+# Error Count:          42
+# Compile of config_reg_buggy_questa.sv.svp was successful.
+# Compile of testbench.sv was successful.
+# 2 compiles, 0 failed with no errors. 
+do testbench.do
+# vsim -novopt testbench 
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment2.3/work.testbench
+# Loading sv_std.std
+# Loading work.testbench
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment2.3/work.config_reg
+# Loading work.config_reg
+# ** Error: invalid command name "run25000"
+# Error in macro ./testbench.do line 5
+# invalid command name "run25000"
+#     while executing
+# "run25000 ns"
+# Compile of config_reg_buggy_questa.sv.svp was successful.
+# Compile of testbench.sv was successful.
+# 2 compiles, 0 failed with no errors. 
+do testbench.do
+# vsim -novopt testbench 
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment2.3/work.testbench
+# Loading sv_std.std
+# Loading work.testbench
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment2.3/work.config_reg
+# Loading work.config_reg
+# ** Error: invalid command name "run25000"
+# Error in macro ./testbench.do line 5
+# invalid command name "run25000"
+#     while executing
+# "run25000 ns"
+do testbench.do
+# vsim -novopt testbench 
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.config_reg
+# Checking Reset Values
+# Error: Register: "analog_test" Expected: abcd Actual: abcc
+# 
+# Checking All Zero Writes
+# Error: Register: "adc0_reg" Expected: 0000 Actual: 8000
+# 
+# Checking All One Writes
+# Error: Register: "temp_sensor0_reg" Expected: ffff Actual: fffe
+# 
+# Error: Register: "digital_test" Expected: ffff Actual: 0000
+# 
+# Error: Register: "digital_config" Expected: ffff Actual: 7fff
+# 
+# Checking Single Write, Read All
+# Writing Register adc0_reg
+# Error: Register: "digital_test" Expected: 0000 Actual: ffff
+# 
+# Writing Register adc1_reg
+# Writing Register temp_sensor0_reg
+# Error: Register: "temp_sensor0_reg" Expected: ffff Actual: fffe
+# 
+# Writing Register temp_sensor1_reg
+# Writing Register analog_test
+# Writing Register digital_test
+# Writing Register amp_gain
+# Writing Register digital_config
+# Error: Register: "digital_config" Expected: ffff Actual: 7fff
+# 
+# Testing Inverse Reset
+#           0
+#           1
+#           2
+#           3
+#           4
+#           5
+#           6
+#           7
+# Error: Register: "adc0_reg" Expected: 0000 Actual: ffff
+# 
+# Error: Register: "adc1_reg" Expected: ffff Actual: 0000
+# 
+# Error: Register: "temp_sensor0_reg" Expected: ffff Actual: 0000
+# 
+# Error: Register: "analog_test" Expected: 5432 Actual: abcc
+# 
+# Error: Register: "digital_test" Expected: ffff Actual: 0000
+# 
+# Error: Register: "amp_gain" Expected: ffff Actual: 0000
+# 
+# Error: Register: "digital_config" Expected: fffe Actual: 0001
+# 
+# Do registers hold values
+# Error: Register: "adc0_reg" Expected: 0000 Actual: 8000
+# 
+# Error: Register: "temp_sensor0_reg" Expected: ffff Actual: fffe
+# 
+# Error: Register: "digital_config" Expected: fffe Actual: 7ffe
+# 
+# Testing Multiple Reads
+# Writing Register adc0_reg
+# Writing Register adc0_reg
+# Writing Register adc0_reg
+# Writing Register adc0_reg
+# Writing Register adc0_reg
+# Writing Register adc0_reg
+# Writing Register adc0_reg
+# Writing Register adc0_reg
+# Writing Register adc0_reg
+# Writing Register adc0_reg
+# Writing Register adc0_reg
+# Writing Register adc0_reg
+# Writing Register adc0_reg
+# Writing Register adc0_reg
+# Writing Register adc0_reg
+# Writing Register adc0_reg
+# Writing Register adc0_reg
+# Writing Register adc0_reg
+# Writing Register adc0_reg
+# Writing Register adc0_reg
+# Writing Register adc0_reg
+# Writing Register adc0_reg
+# Writing Register adc0_reg
+# Writing Register adc0_reg
+# Writing Register adc0_reg
+# Writing Register adc0_reg
+# Writing Register adc0_reg
+# Writing Register adc0_reg
+# Writing Register adc0_reg
+# Writing Register adc0_reg
+# Writing Register adc0_reg
+# Writing Register adc0_reg
+# Writing Register adc0_reg
+# Writing Register adc0_reg
+# Writing Register adc0_reg
+# Writing Register adc0_reg
+# Writing Register adc0_reg
+# Writing Register adc0_reg
+# Writing Register adc0_reg
+# Writing Register adc0_reg
+# Writing Register adc0_reg
+# Writing Register adc0_reg
+# Writing Register adc0_reg
+# Writing Register adc0_reg
+# Writing Register adc0_reg
+# Writing Register adc0_reg
+# Writing Register adc0_reg
+# Writing Register adc0_reg
+# Writing Register adc0_reg
+# Writing Register adc0_reg
+# Writing Register adc1_reg
+# Writing Register adc1_reg
+# Writing Register adc1_reg
+# Writing Register adc1_reg
+# Writing Register adc1_reg
+# Writing Register adc1_reg
+# Writing Register adc1_reg
+# Writing Register adc1_reg
+# Writing Register adc1_reg
+# Writing Register adc1_reg
+# Writing Register adc1_reg
+# Writing Register adc1_reg
+# Writing Register adc1_reg
+# Writing Register adc1_reg
+# Writing Register adc1_reg
+# Writing Register adc1_reg
+# Writing Register adc1_reg
+# Writing Register adc1_reg
+# Writing Register adc1_reg
+# Writing Register adc1_reg
+# Writing Register adc1_reg
+# Writing Register adc1_reg
+# Writing Register adc1_reg
+# Writing Register adc1_reg
+# Writing Register adc1_reg
+# Writing Register adc1_reg
+# Writing Register adc1_reg
+# Writing Register adc1_reg
+# Writing Register adc1_reg
+# Writing Register adc1_reg
+# Writing Register adc1_reg
+# Writing Register adc1_reg
+# Writing Register adc1_reg
+# Writing Register adc1_reg
+# Writing Register adc1_reg
+# Writing Register adc1_reg
+# Writing Register adc1_reg
+# Writing Register adc1_reg
+# Writing Register adc1_reg
+# Writing Register adc1_reg
+# Writing Register adc1_reg
+# Writing Register adc1_reg
+# Writing Register adc1_reg
+# Writing Register adc1_reg
+# Writing Register adc1_reg
+# Writing Register adc1_reg
+# Writing Register adc1_reg
+# Writing Register adc1_reg
+# Writing Register adc1_reg
+# Writing Register adc1_reg
+# Writing Register temp_sensor0_reg
+# Writing Register temp_sensor0_reg
+# Writing Register temp_sensor0_reg
+# Writing Register temp_sensor0_reg
+# Writing Register temp_sensor0_reg
+# Writing Register temp_sensor0_reg
+# Writing Register temp_sensor0_reg
+# Writing Register temp_sensor0_reg
+# Writing Register temp_sensor0_reg
+# Writing Register temp_sensor0_reg
+# Writing Register temp_sensor0_reg
+# Writing Register temp_sensor0_reg
+# Writing Register temp_sensor0_reg
+# Writing Register temp_sensor0_reg
+# Writing Register temp_sensor0_reg
+# Writing Register temp_sensor0_reg
+# Writing Register temp_sensor0_reg
+# Writing Register temp_sensor0_reg
+# Writing Register temp_sensor0_reg
+# Writing Register temp_sensor0_reg
+# Writing Register temp_sensor0_reg
+# Writing Register temp_sensor0_reg
+# Writing Register temp_sensor0_reg
+# Writing Register temp_sensor0_reg
+# Writing Register temp_sensor0_reg
+# Writing Register temp_sensor0_reg
+# Writing Register temp_sensor0_reg
+# Writing Register temp_sensor0_reg
+# Writing Register temp_sensor0_reg
+# Writing Register temp_sensor0_reg
+# Writing Register temp_sensor0_reg
+# Writing Register temp_sensor0_reg
+# Writing Register temp_sensor0_reg
+# Writing Register temp_sensor0_reg
+# Writing Register temp_sensor0_reg
+# Writing Register temp_sensor0_reg
+# Writing Register temp_sensor0_reg
+# Writing Register temp_sensor0_reg
+# Writing Register temp_sensor0_reg
+# Writing Register temp_sensor0_reg
+# Writing Register temp_sensor0_reg
+# Writing Register temp_sensor0_reg
+# Writing Register temp_sensor0_reg
+# Writing Register temp_sensor0_reg
+# Writing Register temp_sensor0_reg
+# Writing Register temp_sensor0_reg
+# Writing Register temp_sensor0_reg
+# Writing Register temp_sensor0_reg
+# Writing Register temp_sensor0_reg
+# Writing Register temp_sensor0_reg
+# Writing Register temp_sensor1_reg
+# Writing Register temp_sensor1_reg
+# Writing Register temp_sensor1_reg
+# Writing Register temp_sensor1_reg
+# Writing Register temp_sensor1_reg
+# Writing Register temp_sensor1_reg
+# Writing Register temp_sensor1_reg
+# Writing Register temp_sensor1_reg
+# Writing Register temp_sensor1_reg
+# Writing Register temp_sensor1_reg
+# Writing Register temp_sensor1_reg
+# Writing Register temp_sensor1_reg
+# Writing Register temp_sensor1_reg
+# Writing Register temp_sensor1_reg
+# Writing Register temp_sensor1_reg
+# Writing Register temp_sensor1_reg
+# Writing Register temp_sensor1_reg
+# Writing Register temp_sensor1_reg
+# Writing Register temp_sensor1_reg
+# Writing Register temp_sensor1_reg
+# Writing Register temp_sensor1_reg
+# Writing Register temp_sensor1_reg
+# Writing Register temp_sensor1_reg
+# Writing Register temp_sensor1_reg
+# Writing Register temp_sensor1_reg
+# Writing Register temp_sensor1_reg
+# Writing Register temp_sensor1_reg
+# Writing Register temp_sensor1_reg
+# Writing Register temp_sensor1_reg
+# Writing Register temp_sensor1_reg
+# Writing Register temp_sensor1_reg
+# Writing Register temp_sensor1_reg
+# Writing Register temp_sensor1_reg
+# Writing Register temp_sensor1_reg
+# Writing Register temp_sensor1_reg
+# Writing Register temp_sensor1_reg
+# Writing Register temp_sensor1_reg
+# Writing Register temp_sensor1_reg
+# Writing Register temp_sensor1_reg
+# Writing Register temp_sensor1_reg
+# Writing Register temp_sensor1_reg
+# Writing Register temp_sensor1_reg
+# Writing Register temp_sensor1_reg
+# Writing Register temp_sensor1_reg
+# Writing Register temp_sensor1_reg
+# Writing Register temp_sensor1_reg
+# Writing Register temp_sensor1_reg
+# Writing Register temp_sensor1_reg
+# Writing Register temp_sensor1_reg
+# Writing Register temp_sensor1_reg
+# Writing Register analog_test
+# Writing Register analog_test
+# Writing Register analog_test
+# Writing Register analog_test
+# Writing Register analog_test
+# Writing Register analog_test
+# Writing Register analog_test
+# Writing Register analog_test
+# Writing Register analog_test
+# Writing Register analog_test
+# Writing Register analog_test
+# Writing Register analog_test
+# Writing Register analog_test
+# Writing Register analog_test
+# Writing Register analog_test
+# Writing Register analog_test
+# Writing Register analog_test
+# Writing Register analog_test
+# Writing Register analog_test
+# Writing Register analog_test
+# Writing Register analog_test
+# Writing Register analog_test
+# Writing Register analog_test
+# Writing Register analog_test
+# Writing Register analog_test
+# Writing Register analog_test
+# Writing Register analog_test
+# Writing Register analog_test
+# Writing Register analog_test
+# Writing Register analog_test
+# Writing Register analog_test
+# Writing Register analog_test
+# Writing Register analog_test
+# Writing Register analog_test
+# Writing Register analog_test
+# Writing Register analog_test
+# Writing Register analog_test
+# Writing Register analog_test
+# Writing Register analog_test
+# Writing Register analog_test
+# Writing Register analog_test
+# Writing Register analog_test
+# Writing Register analog_test
+# Writing Register analog_test
+# Writing Register analog_test
+# Writing Register analog_test
+# Writing Register analog_test
+# Writing Register analog_test
+# Writing Register analog_test
+# Writing Register analog_test
+# Writing Register digital_test
+# Writing Register digital_test
+# Writing Register digital_test
+# Writing Register digital_test
+# Writing Register digital_test
+# Writing Register digital_test
+# Writing Register digital_test
+# Writing Register digital_test
+# Writing Register digital_test
+# Writing Register digital_test
+# Writing Register digital_test
+# Writing Register digital_test
+# Writing Register digital_test
+# Writing Register digital_test
+# Writing Register digital_test
+# Writing Register digital_test
+# Writing Register digital_test
+# Writing Register digital_test
+# Writing Register digital_test
+# Writing Register digital_test
+# Writing Register digital_test
+# Writing Register digital_test
+# Writing Register digital_test
+# Writing Register digital_test
+# Writing Register digital_test
+# Writing Register digital_test
+# Writing Register digital_test
+# Writing Register digital_test
+# Writing Register digital_test
+# Writing Register digital_test
+# Writing Register digital_test
+# Writing Register digital_test
+# Writing Register digital_test
+# Writing Register digital_test
+# Writing Register digital_test
+# Writing Register digital_test
+# Writing Register digital_test
+# Writing Register digital_test
+# Writing Register digital_test
+# Writing Register digital_test
+# Writing Register digital_test
+# Writing Register digital_test
+# Writing Register digital_test
+# Writing Register digital_test
+# Writing Register digital_test
+# Writing Register digital_test
+# Writing Register digital_test
+# Writing Register digital_test
+# Writing Register digital_test
+# Writing Register digital_test
+# Writing Register amp_gain
+# Writing Register amp_gain
+# Writing Register amp_gain
+# Writing Register amp_gain
+# Writing Register amp_gain
+# Writing Register amp_gain
+# Writing Register amp_gain
+# Writing Register amp_gain
+# Writing Register amp_gain
+# Writing Register amp_gain
+# Writing Register amp_gain
+# Writing Register amp_gain
+# Writing Register amp_gain
+# Writing Register amp_gain
+# Writing Register amp_gain
+# Writing Register amp_gain
+# Writing Register amp_gain
+# Writing Register amp_gain
+# Writing Register amp_gain
+# Writing Register amp_gain
+# Writing Register amp_gain
+# Writing Register amp_gain
+# Writing Register amp_gain
+# Writing Register amp_gain
+# Writing Register amp_gain
+# Writing Register amp_gain
+# Writing Register amp_gain
+# Writing Register amp_gain
+# Writing Register amp_gain
+# Writing Register amp_gain
+# Writing Register amp_gain
+# Writing Register amp_gain
+# Writing Register amp_gain
+# Writing Register amp_gain
+# Writing Register amp_gain
+# Writing Register amp_gain
+# Writing Register amp_gain
+# Writing Register amp_gain
+# Writing Register amp_gain
+# Writing Register amp_gain
+# Writing Register amp_gain
+# Writing Register amp_gain
+# Writing Register amp_gain
+# Writing Register amp_gain
+# Writing Register amp_gain
+# Writing Register amp_gain
+# Writing Register amp_gain
+# Writing Register amp_gain
+# Writing Register amp_gain
+# Writing Register amp_gain
+# Writing Register digital_config
+# Writing Register digital_config
+# Writing Register digital_config
+# Writing Register digital_config
+# Writing Register digital_config
+# Writing Register digital_config
+# Writing Register digital_config
+# Writing Register digital_config
+# Writing Register digital_config
+# Writing Register digital_config
+# Writing Register digital_config
+# Writing Register digital_config
+# Writing Register digital_config
+# Writing Register digital_config
+# Writing Register digital_config
+# Writing Register digital_config
+# Writing Register digital_config
+# Writing Register digital_config
+# Writing Register digital_config
+# Writing Register digital_config
+# Writing Register digital_config
+# Writing Register digital_config
+# Writing Register digital_config
+# Writing Register digital_config
+# Writing Register digital_config
+# Writing Register digital_config
+# Writing Register digital_config
+# Writing Register digital_config
+# Writing Register digital_config
+# Writing Register digital_config
+# Writing Register digital_config
+# Writing Register digital_config
+# Writing Register digital_config
+# Writing Register digital_config
+# Writing Register digital_config
+# Writing Register digital_config
+# Writing Register digital_config
+# Writing Register digital_config
+# Writing Register digital_config
+# Writing Register digital_config
+# Writing Register digital_config
+# Writing Register digital_config
+# Writing Register digital_config
+# Writing Register digital_config
+# Writing Register digital_config
+# Writing Register digital_config
+# Writing Register digital_config
+# Writing Register digital_config
+# Writing Register digital_config
+# Writing Register digital_config
+# Error: Register: "adc0_reg" Expected: 4c3c Actual: cc3c
+# 
+# Error: Register: "adc1_reg" Expected: 8878 Actual: 7888
+# 
+# Error: Register: "temp_sensor0_reg" Expected: de4d Actual: bc9a
+# 
+# Error: Register: "digital_test" Expected: 8eed Actual: e671
+# 
+# Error: Register: "amp_gain" Expected: e671 Actual: 8eed
+# 
+# Register: adc0_reg Bugs Found:           4
+# Register: adc1_reg Bugs Found:           2
+# Register: temp_sensor0_reg Bugs Found:           5
+# Register: temp_sensor1_reg Bugs Found:           0
+# Register: analog_test Bugs Found:           2
+# Register: digital_test Bugs Found:           4
+# Register: amp_gain Bugs Found:           2
+# Register: digital_config Bugs Found:           4
+# Error Count:          23
+# A time value could not be extracted from the current line
+# Compile of config_reg_buggy_questa.sv.svp was successful.
+# Compile of testbench.sv was successful.
+# 2 compiles, 0 failed with no errors. 
+do testbench.do
+# vsim -novopt testbench 
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment2.3/work.testbench
+# Loading sv_std.std
+# Loading work.testbench
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment2.3/work.config_reg
+# Loading work.config_reg
+# Checking Reset Values
+# Error: Register: "analog_test" Expected: abcd Actual: abcc
+# 
+# Checking All Zero Writes
+# Error: Register: "adc0_reg" Expected: 0000 Actual: 8000
+# 
+# Checking All One Writes
+# Error: Register: "temp_sensor0_reg" Expected: ffff Actual: fffe
+# 
+# Error: Register: "digital_test" Expected: ffff Actual: 0000
+# 
+# Error: Register: "digital_config" Expected: ffff Actual: 7fff
+# 
+# Checking Single Write, Read All
+# Writing Register adc0_reg
+# Error: Register: "digital_test" Expected: 0000 Actual: ffff
+# 
+# Writing Register adc1_reg
+# Writing Register temp_sensor0_reg
+# Error: Register: "temp_sensor0_reg" Expected: ffff Actual: fffe
+# 
+# Writing Register temp_sensor1_reg
+# Writing Register analog_test
+# Writing Register digital_test
+# Writing Register amp_gain
+# Writing Register digital_config
+# Error: Register: "digital_config" Expected: ffff Actual: 7fff
+# 
+# Testing Inverse Reset
+#           0
+#           1
+#           2
+#           3
+#           4
+#           5
+#           6
+#           7
+# Error: Register: "temp_sensor1_reg" Expected: 0000 Actual: ffff
+# 
+# Error: Register: "analog_test" Expected: abcd Actual: abcc
+# 
+# Do registers hold values
+# Error: Register: "adc0_reg" Expected: 0000 Actual: 8000
+# 
+# Error: Register: "temp_sensor0_reg" Expected: ffff Actual: fffe
+# 
+# Error: Register: "digital_config" Expected: fffe Actual: 7ffe
+# 
+# Testing Multiple Reads
+# Writing Register adc0_reg
+# Writing Register adc0_reg
+# Writing Register adc0_reg
+# Writing Register adc0_reg
+# Writing Register adc0_reg
+# Writing Register adc0_reg
+# Writing Register adc0_reg
+# Writing Register adc0_reg
+# Writing Register adc0_reg
+# Writing Register adc0_reg
+# Writing Register adc0_reg
+# Writing Register adc0_reg
+# Writing Register adc0_reg
+# Writing Register adc0_reg
+# Writing Register adc0_reg
+# Writing Register adc0_reg
+# Writing Register adc0_reg
+# Writing Register adc0_reg
+# Writing Register adc0_reg
+# Writing Register adc0_reg
+# Writing Register adc0_reg
+# Writing Register adc0_reg
+# Writing Register adc0_reg
+# Writing Register adc0_reg
+# Writing Register adc0_reg
+# Writing Register adc0_reg
+# Writing Register adc0_reg
+# Writing Register adc0_reg
+# Writing Register adc0_reg
+# Writing Register adc0_reg
+# Writing Register adc0_reg
+# Writing Register adc0_reg
+# Writing Register adc0_reg
+# Writing Register adc0_reg
+# Writing Register adc0_reg
+# Writing Register adc0_reg
+# Writing Register adc0_reg
+# Writing Register adc0_reg
+# Writing Register adc0_reg
+# Writing Register adc0_reg
+# Writing Register adc0_reg
+# Writing Register adc0_reg
+# Writing Register adc0_reg
+# Writing Register adc0_reg
+# Writing Register adc0_reg
+# Writing Register adc0_reg
+# Writing Register adc0_reg
+# Writing Register adc0_reg
+# Writing Register adc0_reg
+# Writing Register adc0_reg
+# Writing Register adc1_reg
+# Writing Register adc1_reg
+# Writing Register adc1_reg
+# Writing Register adc1_reg
+# Writing Register adc1_reg
+# Writing Register adc1_reg
+# Writing Register adc1_reg
+# Writing Register adc1_reg
+# Writing Register adc1_reg
+# Writing Register adc1_reg
+# Writing Register adc1_reg
+# Writing Register adc1_reg
+# Writing Register adc1_reg
+# Writing Register adc1_reg
+# Writing Register adc1_reg
+# Writing Register adc1_reg
+# Writing Register adc1_reg
+# Writing Register adc1_reg
+# Writing Register adc1_reg
+# Writing Register adc1_reg
+# Writing Register adc1_reg
+# Writing Register adc1_reg
+# Writing Register adc1_reg
+# Writing Register adc1_reg
+# Writing Register adc1_reg
+# Writing Register adc1_reg
+# Writing Register adc1_reg
+# Writing Register adc1_reg
+# Writing Register adc1_reg
+# Writing Register adc1_reg
+# Writing Register adc1_reg
+# Writing Register adc1_reg
+# Writing Register adc1_reg
+# Writing Register adc1_reg
+# Writing Register adc1_reg
+# Writing Register adc1_reg
+# Writing Register adc1_reg
+# Writing Register adc1_reg
+# Writing Register adc1_reg
+# Writing Register adc1_reg
+# Writing Register adc1_reg
+# Writing Register adc1_reg
+# Writing Register adc1_reg
+# Writing Register adc1_reg
+# Writing Register adc1_reg
+# Writing Register adc1_reg
+# Writing Register adc1_reg
+# Writing Register adc1_reg
+# Writing Register adc1_reg
+# Writing Register adc1_reg
+# Writing Register temp_sensor0_reg
+# Writing Register temp_sensor0_reg
+# Writing Register temp_sensor0_reg
+# Writing Register temp_sensor0_reg
+# Writing Register temp_sensor0_reg
+# Writing Register temp_sensor0_reg
+# Writing Register temp_sensor0_reg
+# Writing Register temp_sensor0_reg
+# Writing Register temp_sensor0_reg
+# Writing Register temp_sensor0_reg
+# Writing Register temp_sensor0_reg
+# Writing Register temp_sensor0_reg
+# Writing Register temp_sensor0_reg
+# Writing Register temp_sensor0_reg
+# Writing Register temp_sensor0_reg
+# Writing Register temp_sensor0_reg
+# Writing Register temp_sensor0_reg
+# Writing Register temp_sensor0_reg
+# Writing Register temp_sensor0_reg
+# Writing Register temp_sensor0_reg
+# Writing Register temp_sensor0_reg
+# Writing Register temp_sensor0_reg
+# Writing Register temp_sensor0_reg
+# Writing Register temp_sensor0_reg
+# Writing Register temp_sensor0_reg
+# Writing Register temp_sensor0_reg
+# Writing Register temp_sensor0_reg
+# Writing Register temp_sensor0_reg
+# Writing Register temp_sensor0_reg
+# Writing Register temp_sensor0_reg
+# Writing Register temp_sensor0_reg
+# Writing Register temp_sensor0_reg
+# Writing Register temp_sensor0_reg
+# Writing Register temp_sensor0_reg
+# Writing Register temp_sensor0_reg
+# Writing Register temp_sensor0_reg
+# Writing Register temp_sensor0_reg
+# Writing Register temp_sensor0_reg
+# Writing Register temp_sensor0_reg
+# Writing Register temp_sensor0_reg
+# Writing Register temp_sensor0_reg
+# Writing Register temp_sensor0_reg
+# Writing Register temp_sensor0_reg
+# Writing Register temp_sensor0_reg
+# Writing Register temp_sensor0_reg
+# Writing Register temp_sensor0_reg
+# Writing Register temp_sensor0_reg
+# Writing Register temp_sensor0_reg
+# Writing Register temp_sensor0_reg
+# Writing Register temp_sensor0_reg
+# Writing Register temp_sensor1_reg
+# Writing Register temp_sensor1_reg
+# Writing Register temp_sensor1_reg
+# Writing Register temp_sensor1_reg
+# Writing Register temp_sensor1_reg
+# Writing Register temp_sensor1_reg
+# Writing Register temp_sensor1_reg
+# Writing Register temp_sensor1_reg
+# Writing Register temp_sensor1_reg
+# Writing Register temp_sensor1_reg
+# Writing Register temp_sensor1_reg
+# Writing Register temp_sensor1_reg
+# Writing Register temp_sensor1_reg
+# Writing Register temp_sensor1_reg
+# Writing Register temp_sensor1_reg
+# Writing Register temp_sensor1_reg
+# Writing Register temp_sensor1_reg
+# Writing Register temp_sensor1_reg
+# Writing Register temp_sensor1_reg
+# Writing Register temp_sensor1_reg
+# Writing Register temp_sensor1_reg
+# Writing Register temp_sensor1_reg
+# Writing Register temp_sensor1_reg
+# Writing Register temp_sensor1_reg
+# Writing Register temp_sensor1_reg
+# Writing Register temp_sensor1_reg
+# Writing Register temp_sensor1_reg
+# Writing Register temp_sensor1_reg
+# Writing Register temp_sensor1_reg
+# Writing Register temp_sensor1_reg
+# Writing Register temp_sensor1_reg
+# Writing Register temp_sensor1_reg
+# Writing Register temp_sensor1_reg
+# Writing Register temp_sensor1_reg
+# Writing Register temp_sensor1_reg
+# Writing Register temp_sensor1_reg
+# Writing Register temp_sensor1_reg
+# Writing Register temp_sensor1_reg
+# Writing Register temp_sensor1_reg
+# Writing Register temp_sensor1_reg
+# Writing Register temp_sensor1_reg
+# Writing Register temp_sensor1_reg
+# Writing Register temp_sensor1_reg
+# Writing Register temp_sensor1_reg
+# Writing Register temp_sensor1_reg
+# Writing Register temp_sensor1_reg
+# Writing Register temp_sensor1_reg
+# Writing Register temp_sensor1_reg
+# Writing Register temp_sensor1_reg
+# Writing Register temp_sensor1_reg
+# Writing Register analog_test
+# Writing Register analog_test
+# Writing Register analog_test
+# Writing Register analog_test
+# Writing Register analog_test
+# Writing Register analog_test
+# Writing Register analog_test
+# Writing Register analog_test
+# Writing Register analog_test
+# Writing Register analog_test
+# Writing Register analog_test
+# Writing Register analog_test
+# Writing Register analog_test
+# Writing Register analog_test
+# Writing Register analog_test
+# Writing Register analog_test
+# Writing Register analog_test
+# Writing Register analog_test
+# Writing Register analog_test
+# Writing Register analog_test
+# Writing Register analog_test
+# Writing Register analog_test
+# Writing Register analog_test
+# Writing Register analog_test
+# Writing Register analog_test
+# Writing Register analog_test
+# Writing Register analog_test
+# Writing Register analog_test
+# Writing Register analog_test
+# Writing Register analog_test
+# Writing Register analog_test
+# Writing Register analog_test
+# Writing Register analog_test
+# Writing Register analog_test
+# Writing Register analog_test
+# Writing Register analog_test
+# Writing Register analog_test
+# Writing Register analog_test
+# Writing Register analog_test
+# Writing Register analog_test
+# Writing Register analog_test
+# Writing Register analog_test
+# Writing Register analog_test
+# Writing Register analog_test
+# Writing Register analog_test
+# Writing Register analog_test
+# Writing Register analog_test
+# Writing Register analog_test
+# Writing Register analog_test
+# Writing Register analog_test
+# Writing Register digital_test
+# Writing Register digital_test
+# Writing Register digital_test
+# Writing Register digital_test
+# Writing Register digital_test
+# Writing Register digital_test
+# Writing Register digital_test
+# Writing Register digital_test
+# Writing Register digital_test
+# Writing Register digital_test
+# Writing Register digital_test
+# Writing Register digital_test
+# Writing Register digital_test
+# Writing Register digital_test
+# Writing Register digital_test
+# Writing Register digital_test
+# Writing Register digital_test
+# Writing Register digital_test
+# Writing Register digital_test
+# Writing Register digital_test
+# Writing Register digital_test
+# Writing Register digital_test
+# Writing Register digital_test
+# Writing Register digital_test
+# Writing Register digital_test
+# Writing Register digital_test
+# Writing Register digital_test
+# Writing Register digital_test
+# Writing Register digital_test
+# Writing Register digital_test
+# Writing Register digital_test
+# Writing Register digital_test
+# Writing Register digital_test
+# Writing Register digital_test
+# Writing Register digital_test
+# Writing Register digital_test
+# Writing Register digital_test
+# Writing Register digital_test
+# Writing Register digital_test
+# Writing Register digital_test
+# Writing Register digital_test
+# Writing Register digital_test
+# Writing Register digital_test
+# Writing Register digital_test
+# Writing Register digital_test
+# Writing Register digital_test
+# Writing Register digital_test
+# Writing Register digital_test
+# Writing Register digital_test
+# Writing Register digital_test
+# Writing Register amp_gain
+# Writing Register amp_gain
+# Writing Register amp_gain
+# Writing Register amp_gain
+# Writing Register amp_gain
+# Writing Register amp_gain
+# Writing Register amp_gain
+# Writing Register amp_gain
+# Writing Register amp_gain
+# Writing Register amp_gain
+# Writing Register amp_gain
+# Writing Register amp_gain
+# Writing Register amp_gain
+# Writing Register amp_gain
+# Writing Register amp_gain
+# Writing Register amp_gain
+# Writing Register amp_gain
+# Writing Register amp_gain
+# Writing Register amp_gain
+# Writing Register amp_gain
+# Writing Register amp_gain
+# Writing Register amp_gain
+# Writing Register amp_gain
+# Writing Register amp_gain
+# Writing Register amp_gain
+# Writing Register amp_gain
+# Writing Register amp_gain
+# Writing Register amp_gain
+# Writing Register amp_gain
+# Writing Register amp_gain
+# Writing Register amp_gain
+# Writing Register amp_gain
+# Writing Register amp_gain
+# Writing Register amp_gain
+# Writing Register amp_gain
+# Writing Register amp_gain
+# Writing Register amp_gain
+# Writing Register amp_gain
+# Writing Register amp_gain
+# Writing Register amp_gain
+# Writing Register amp_gain
+# Writing Register amp_gain
+# Writing Register amp_gain
+# Writing Register amp_gain
+# Writing Register amp_gain
+# Writing Register amp_gain
+# Writing Register amp_gain
+# Writing Register amp_gain
+# Writing Register amp_gain
+# Writing Register amp_gain
+# Writing Register digital_config
+# Writing Register digital_config
+# Writing Register digital_config
+# Writing Register digital_config
+# Writing Register digital_config
+# Writing Register digital_config
+# Writing Register digital_config
+# Writing Register digital_config
+# Writing Register digital_config
+# Writing Register digital_config
+# Writing Register digital_config
+# Writing Register digital_config
+# Writing Register digital_config
+# Writing Register digital_config
+# Writing Register digital_config
+# Writing Register digital_config
+# Writing Register digital_config
+# Writing Register digital_config
+# Writing Register digital_config
+# Writing Register digital_config
+# Writing Register digital_config
+# Writing Register digital_config
+# Writing Register digital_config
+# Writing Register digital_config
+# Writing Register digital_config
+# Writing Register digital_config
+# Writing Register digital_config
+# Writing Register digital_config
+# Writing Register digital_config
+# Writing Register digital_config
+# Writing Register digital_config
+# Writing Register digital_config
+# Writing Register digital_config
+# Writing Register digital_config
+# Writing Register digital_config
+# Writing Register digital_config
+# Writing Register digital_config
+# Writing Register digital_config
+# Writing Register digital_config
+# Writing Register digital_config
+# Writing Register digital_config
+# Writing Register digital_config
+# Writing Register digital_config
+# Writing Register digital_config
+# Writing Register digital_config
+# Writing Register digital_config
+# Writing Register digital_config
+# Writing Register digital_config
+# Writing Register digital_config
+# Writing Register digital_config
+# Error: Register: "adc0_reg" Expected: 4c3c Actual: cc3c
+# 
+# Error: Register: "adc1_reg" Expected: 8878 Actual: 7888
+# 
+# Error: Register: "temp_sensor0_reg" Expected: de4d Actual: bc9a
+# 
+# Error: Register: "digital_test" Expected: 8eed Actual: e671
+# 
+# Error: Register: "amp_gain" Expected: e671 Actual: 8eed
+# 
+# Register: adc0_reg Bugs Found:           3
+# Register: adc1_reg Bugs Found:           1
+# Register: temp_sensor0_reg Bugs Found:           4
+# Register: temp_sensor1_reg Bugs Found:           1
+# Register: analog_test Bugs Found:           2
+# Register: digital_test Bugs Found:           3
+# Register: amp_gain Bugs Found:           1
+# Register: digital_config Bugs Found:           3
+# Error Count:          18
+quit

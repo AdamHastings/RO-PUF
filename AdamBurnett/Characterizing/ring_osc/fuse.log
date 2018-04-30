@@ -1,0 +1,19 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib secureip -o E:/Adam/Characterizing/ring_osc/ring_osc_isim_beh.exe -prj E:/Adam/Characterizing/ring_osc/ring_osc_beh.prj work.ring_osc 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Parsing VHDL file "E:/Adam/Characterizing/ring_osc/ring_osc.vhd" into library work
+Starting static elaboration
+WARNING:HDLCompiler:960 - "E:/Adam/Characterizing/ring_osc/ring_osc.vhd" Line 61: Expression has incompatible type
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package numeric_std
+Compiling architecture behavioral of entity ring_osc
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 4 VHDL Units
+Built simulation executable E:/Adam/Characterizing/ring_osc/ring_osc_isim_beh.exe
+Fuse Memory Usage: 36032 KB
+Fuse CPU Usage: 607 ms

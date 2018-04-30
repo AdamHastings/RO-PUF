@@ -1,0 +1,9 @@
+class Agent;
+   mailbox #(Instruction) mbx0, mbx1;
+
+   function automatic new (mailbox #(Instruction) mb0, 
+			   mailbox #(Instruction) mb1);
+      mbx0 = mb0;
+      mbx1 = mb1;
+   endfunction // new
+   

@@ -1,0 +1,15 @@
+/net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment2.1/sverilog/mem.sv {1 {vlog -work work -vopt -sv /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment2.1/sverilog/mem.sv
+QuestaSim-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module my_mem
+
+Top level modules:
+	my_mem
+
+} {} {}} /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment2.1/sverilog/testbench.sv {1 {vlog -work work -vopt -sv /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment2.1/sverilog/testbench.sv
+QuestaSim-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module testbench
+
+Top level modules:
+	testbench
+
+} {} {}}

@@ -1,0 +1,20 @@
+#:C0     
+#Xilinx FPGA Editor Command Log File
+#Editor Version:
+#:V   NT M2.1 P.49d
+#Current Working Directory:
+#:D   E:\Adam\Characterizing\EDK\dut_mb_v4lx60_template_pre_rapidsmith\hw\implementation
+#Date/Time:
+#:T   Fri Mar 06 14:43:45 2015
+#------------------------------
+	#Reading E:\Adam\Characterizing\EDK\dut_mb_v4lx60_template_pre_rapidsmith\hw\implementation\system.ncd...
+	#   "system" is an NCD, version 3.2, device xc4vlx60, package ff668, speed -11
+	#This design is using the default stepping level (major silicon revision) for this device (1). Unless your design is targeted at devices of this stepping level, it is recommended that you explicitly specify the stepping level of the parts you will be using. This will allow the tools to take advantage of any available performance and functional enhancements for this device. The latest stepping level for this device is '2'. Additional information on "stepping level" is available at support.xilinx.com.
+	#Design creation date: 2015.01.20.20.02.55
+	#Building chip graphics...
+	#Loading speed info...
+	#BRAM initialization data is updated without the data file.
+	#1
+post exit
+	#2
+exit

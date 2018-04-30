@@ -1,0 +1,137 @@
+Release 14.4 - Bitgen P.49d (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+Loading device for application Rf_Device from file '4vlx60.nph' in environment
+E:\Xilinx\14.4\ISE_DS\ISE\.
+   "system" is an NCD, version 3.2, device xc4vlx60, package ff668, speed -11
+This design is using the default stepping level (major silicon revision) for
+this device (1). Unless your design is targeted at devices of this stepping
+level, it is recommended that you explicitly specify the stepping level of the
+parts you will be using. This will allow the tools to take advantage of any
+available performance and functional enhancements for this device. The latest
+stepping level for this device is '2'. Additional information on "stepping
+level" is available at support.xilinx.com.
+   "inverter" is an NCD, version 3.2, device xc4vlx60, package ff668, speed -11
+This design is using the default stepping level (major silicon revision) for
+this device (1). Unless your design is targeted at devices of this stepping
+level, it is recommended that you explicitly specify the stepping level of the
+parts you will be using. This will allow the tools to take advantage of any
+available performance and functional enhancements for this device. The latest
+stepping level for this device is '2'. Additional information on "stepping
+level" is available at support.xilinx.com.
+   "ring_oscillator" is an NCD, version 3.2, device xc4vlx60, package ff668,
+speed -11
+This design is using the default stepping level (major silicon revision) for
+this device (1). Unless your design is targeted at devices of this stepping
+level, it is recommended that you explicitly specify the stepping level of the
+parts you will be using. This will allow the tools to take advantage of any
+available performance and functional enhancements for this device. The latest
+stepping level for this device is '2'. Additional information on "stepping
+level" is available at support.xilinx.com.
+
+Mon Apr 27 15:52:31 2015
+
+E:\Xilinx\14.4\ISE_DS\ISE\bin\nt64\unwrapped\bitgen.exe system_modified.ncd 
+
+Summary of Bitgen Options:
++----------------------+----------------------+
+| Option Name          | Current Setting      |
++----------------------+----------------------+
+| Compress             | (Not Specified)*     |
++----------------------+----------------------+
+| Readback             | (Not Specified)*     |
++----------------------+----------------------+
+| CRC                  | Enable*              |
++----------------------+----------------------+
+| DebugBitstream       | No*                  |
++----------------------+----------------------+
+| ConfigRate           | 4*                   |
++----------------------+----------------------+
+| StartupClk           | Cclk*                |
++----------------------+----------------------+
+| CclkPin              | Pullup*              |
++----------------------+----------------------+
+| DonePin              | Pullup*              |
++----------------------+----------------------+
+| HswapenPin           | Pullup*              |
++----------------------+----------------------+
+| M0Pin                | Pullup*              |
++----------------------+----------------------+
+| M1Pin                | Pullup*              |
++----------------------+----------------------+
+| M2Pin                | Pullup*              |
++----------------------+----------------------+
+| PowerdownPin         | Pullup*              |
++----------------------+----------------------+
+| ProgPin              | Pullup*              |
++----------------------+----------------------+
+| InitPin              | Pullup*              |
++----------------------+----------------------+
+| CsPin                | Pullup*              |
++----------------------+----------------------+
+| DinPin               | Pullup*              |
++----------------------+----------------------+
+| BusyPin              | Pullup*              |
++----------------------+----------------------+
+| RdWrPin              | Pullup*              |
++----------------------+----------------------+
+| TckPin               | Pullup*              |
++----------------------+----------------------+
+| TdiPin               | Pullup*              |
++----------------------+----------------------+
+| TdoPin               | Pullup*              |
++----------------------+----------------------+
+| TmsPin               | Pullup*              |
++----------------------+----------------------+
+| UnusedPin            | Pulldown*            |
++----------------------+----------------------+
+| GWE_cycle            | 6*                   |
++----------------------+----------------------+
+| GTS_cycle            | 5*                   |
++----------------------+----------------------+
+| LCK_cycle            | NoWait*              |
++----------------------+----------------------+
+| Match_cycle          | NoWait               |
++----------------------+----------------------+
+| DONE_cycle           | 4*                   |
++----------------------+----------------------+
+| Persist              | No*                  |
++----------------------+----------------------+
+| DriveDone            | No*                  |
++----------------------+----------------------+
+| DonePipe             | No*                  |
++----------------------+----------------------+
+| Security             | None*                |
++----------------------+----------------------+
+| UserID               | 0xFFFFFFFF*          |
++----------------------+----------------------+
+| Partial              | (Not Specified)*     |
++----------------------+----------------------+
+| ActiveReconfig       | No*                  |
++----------------------+----------------------+
+| Encrypt              | No*                  |
++----------------------+----------------------+
+| Key0                 | pick*                |
++----------------------+----------------------+
+| KeyFile              | (Not Specified)*     |
++----------------------+----------------------+
+| StartCBC             | pick*                |
++----------------------+----------------------+
+| DCIUpdateMode        | AsRequired*          |
++----------------------+----------------------+
+| TimeStamp            | Default*             |
++----------------------+----------------------+
+| IEEE1532             | No*                  |
++----------------------+----------------------+
+| Binary               | No*                  |
++----------------------+----------------------+
+ *  Default setting.
+ ** The specified setting matches the default setting.
+
+No constraints file was processed.
+
+
+ERROR::1 - File 'system.bmm' can not be found, or is busy.
+    Please ensure that the file is available in the correct
+    directory location, or isn't being locked by another
+    application.
+

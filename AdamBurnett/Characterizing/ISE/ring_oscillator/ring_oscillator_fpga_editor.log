@@ -1,0 +1,274 @@
+#:C119   
+#Xilinx FPGA Editor Command Log File
+#Editor Version:
+#:V   NT M2.1 P.49d
+#Current Working Directory:
+#:D   E:\Adam\Characterizing\ISE\ring_oscillator
+#Date/Time:
+#:T   Wed Feb 18 16:03:47 2015
+#------------------------------
+	#Reading E:\Adam\Characterizing\ISE\ring_oscillator\ring_oscillator.ncd...
+	#Loading device for application Rf_Device from file '4vlx60.nph' in environment E:\Xilinx\14.4\ISE_DS\ISE\.
+	#   "ring_oscillator" is an NCD, version 3.2, device xc4vlx60, package ff668, speed -11
+	#This design is using the default stepping level (major silicon revision) for this device (1). Unless your design is targeted at devices of this stepping level, it is recommended that you explicitly specify the stepping level of the parts you will be using. This will allow the tools to take advantage of any available performance and functional enhancements for this device. The latest stepping level for this device is '2'. Additional information on "stepping level" is available at support.xilinx.com.
+	#   "inverter" is an NCD, version 3.2, device xc4vlx60, package ff668, speed -11
+	#This design is using the default stepping level (major silicon revision) for this device (1). Unless your design is targeted at devices of this stepping level, it is recommended that you explicitly specify the stepping level of the parts you will be using. This will allow the tools to take advantage of any available performance and functional enhancements for this device. The latest stepping level for this device is '2'. Additional information on "stepping level" is available at support.xilinx.com.
+	#Design creation date: 2015.02.18.23.02.52
+	#Building chip graphics...
+	#Loading speed info...
+	#1
+post autoplaceall
+	#2
+unpost autoplaceall
+	#3
+echo "autoplace -all -l 2 -t 1"
+	#4
+autoplace -all -l 2 -t 1
+	#Building the delay mediator...
+	#Hint: to automatically load delays when design is loaded, setattr main auto_load_delays true
+	#Total REAL time at the beginning of Placer: 41 secs 
+	#Total CPU  time at the beginning of Placer: 16 secs 
+	#Total REAL time to Placer completion: 41 secs 
+	#Total CPU  time to Placer completion: 16 secs 
+	#5
+autoroute -all
+	#Completed route status: 0 of 0 nets are fully routed.
+	#6
+select -k comp 'ring_osc_gen[1].ring_oscillator/$COMP_0'
+	#7
+select -k comp 'ring_osc_gen[2].ring_oscillator/$COMP_0'
+	#8
+select -k comp 'ring_osc_gen[3].ring_oscillator/$COMP_0'
+	#9
+select -k comp 'ring_osc_gen[4].ring_oscillator/$COMP_0'
+	#10
+select -k comp 'ring_osc_gen[5].ring_oscillator/$COMP_0'
+	#11
+select -k comp 'ring_osc_gen[6].ring_oscillator/$COMP_0'
+	#12
+select -k comp 'ring_osc_gen[7].ring_oscillator/$COMP_0'
+	#13
+select -k comp 'ring_osc_gen[8].ring_oscillator/$COMP_0'
+	#14
+select -k comp 'ring_osc_gen[9].ring_oscillator/$COMP_0'
+	#15
+select -k comp 'ring_osc_gen[10].ring_oscillator/$COMP_0'
+	#16
+select -k comp 'ring_osc_gen[11].ring_oscillator/$COMP_0'
+	#17
+select -k comp 'ring_osc_gen[12].ring_oscillator/$COMP_0'
+	#18
+select -k comp 'ring_osc_gen[13].ring_oscillator/$COMP_0'
+	#19
+select -k comp 'ring_osc_gen[14].ring_oscillator/$COMP_0'
+	#20
+select -k comp 'ring_osc_gen[15].ring_oscillator/$COMP_0'
+	#21
+select -k comp 'ring_osc_gen[16].ring_oscillator/$COMP_0'
+	#22
+select -k comp 'ring_osc_gen[17].ring_oscillator/$COMP_0'
+	#23
+select -k comp 'ring_osc_gen[18].ring_oscillator/$COMP_0'
+	#24
+select -k comp 'ring_osc_gen[19].ring_oscillator/$COMP_0'
+	#25
+select -k comp 'ring_osc_gen[20].ring_oscillator/$COMP_0'
+	#26
+select -k comp 'ring_osc_gen[21].ring_oscillator/$COMP_0'
+	#27
+select -k comp 'ring_osc_gen[22].ring_oscillator/$COMP_0'
+	#28
+select -k comp 'ring_osc_gen[23].ring_oscillator/$COMP_0'
+	#29
+select -k comp 'ring_osc_gen[24].ring_oscillator/$COMP_0'
+	#30
+select -k comp 'ring_osc_gen[25].ring_oscillator/$COMP_0'
+	#31
+select -k comp 'ring_osc_gen[26].ring_oscillator/$COMP_0'
+	#32
+select -k comp 'ring_osc_gen[27].ring_oscillator/$COMP_0'
+	#33
+select -k comp 'ring_osc_gen[28].ring_oscillator/$COMP_0'
+	#34
+select -k comp 'ring_osc_gen[29].ring_oscillator/$COMP_0'
+	#35
+select -k comp 'ring_osc_gen[30].ring_oscillator/$COMP_0'
+	#36
+select -k comp 'ring_osc_gen[31].ring_oscillator/$COMP_0'
+	#37
+select -k comp 'ring_osc_gen[32].ring_oscillator/$COMP_0'
+	#38
+select -k comp 'ring_osc_gen[33].ring_oscillator/$COMP_0'
+	#39
+select -k comp 'ring_osc_gen[34].ring_oscillator/$COMP_0'
+	#40
+select -k comp 'ring_osc_gen[35].ring_oscillator/$COMP_0'
+	#41
+select -k comp 'ring_osc_gen[36].ring_oscillator/$COMP_0'
+	#42
+select -k comp 'ring_osc_gen[37].ring_oscillator/$COMP_0'
+	#43
+select -k comp 'ring_osc_gen[38].ring_oscillator/$COMP_0'
+	#44
+select -k comp 'ring_osc_gen[39].ring_oscillator/$COMP_0'
+	#45
+select -k comp 'ring_osc_gen[40].ring_oscillator/$COMP_0'
+	#46
+select -k comp 'ring_osc_gen[41].ring_oscillator/$COMP_0'
+	#47
+select -k comp 'ring_osc_gen[42].ring_oscillator/$COMP_0'
+	#48
+select -k comp 'ring_osc_gen[43].ring_oscillator/$COMP_0'
+	#49
+select -k comp 'ring_osc_gen[44].ring_oscillator/$COMP_0'
+	#50
+select -k comp 'ring_osc_gen[45].ring_oscillator/$COMP_0'
+	#51
+select -k comp 'ring_osc_gen[46].ring_oscillator/$COMP_0'
+	#52
+select -k comp 'ring_osc_gen[47].ring_oscillator/$COMP_0'
+	#53
+select -k comp 'ring_osc_gen[48].ring_oscillator/$COMP_0'
+	#54
+select -k comp 'ring_osc_gen[49].ring_oscillator/$COMP_0'
+	#55
+select -k comp 'ring_osc_gen[50].ring_oscillator/$COMP_0'
+	#56
+select -k comp 'ring_osc_zero/$COMP_0'
+	#57
+unselect comp 'ring_osc_gen[1].ring_oscillator/$COMP_0'
+	#58
+unselect comp 'ring_osc_gen[2].ring_oscillator/$COMP_0'
+	#59
+unselect comp 'ring_osc_gen[3].ring_oscillator/$COMP_0'
+	#60
+unselect comp 'ring_osc_gen[4].ring_oscillator/$COMP_0'
+	#61
+unselect comp 'ring_osc_gen[5].ring_oscillator/$COMP_0'
+	#62
+unselect comp 'ring_osc_gen[6].ring_oscillator/$COMP_0'
+	#63
+unselect comp 'ring_osc_gen[7].ring_oscillator/$COMP_0'
+	#64
+unselect comp 'ring_osc_gen[8].ring_oscillator/$COMP_0'
+	#65
+unselect comp 'ring_osc_gen[9].ring_oscillator/$COMP_0'
+	#66
+unselect comp 'ring_osc_gen[10].ring_oscillator/$COMP_0'
+	#67
+unselect comp 'ring_osc_gen[11].ring_oscillator/$COMP_0'
+	#68
+unselect comp 'ring_osc_gen[12].ring_oscillator/$COMP_0'
+	#69
+unselect comp 'ring_osc_gen[13].ring_oscillator/$COMP_0'
+	#70
+unselect comp 'ring_osc_gen[14].ring_oscillator/$COMP_0'
+	#71
+unselect comp 'ring_osc_gen[15].ring_oscillator/$COMP_0'
+	#72
+unselect comp 'ring_osc_gen[16].ring_oscillator/$COMP_0'
+	#73
+unselect comp 'ring_osc_gen[17].ring_oscillator/$COMP_0'
+	#74
+unselect comp 'ring_osc_gen[18].ring_oscillator/$COMP_0'
+	#75
+unselect comp 'ring_osc_gen[19].ring_oscillator/$COMP_0'
+	#76
+unselect comp 'ring_osc_gen[20].ring_oscillator/$COMP_0'
+	#77
+unselect comp 'ring_osc_gen[21].ring_oscillator/$COMP_0'
+	#78
+unselect comp 'ring_osc_gen[22].ring_oscillator/$COMP_0'
+	#79
+unselect comp 'ring_osc_gen[23].ring_oscillator/$COMP_0'
+	#80
+unselect comp 'ring_osc_gen[24].ring_oscillator/$COMP_0'
+	#81
+unselect comp 'ring_osc_gen[25].ring_oscillator/$COMP_0'
+	#82
+unselect comp 'ring_osc_gen[26].ring_oscillator/$COMP_0'
+	#83
+unselect comp 'ring_osc_gen[27].ring_oscillator/$COMP_0'
+	#84
+unselect comp 'ring_osc_gen[28].ring_oscillator/$COMP_0'
+	#85
+unselect comp 'ring_osc_gen[29].ring_oscillator/$COMP_0'
+	#86
+unselect comp 'ring_osc_gen[30].ring_oscillator/$COMP_0'
+	#87
+unselect comp 'ring_osc_gen[31].ring_oscillator/$COMP_0'
+	#88
+unselect comp 'ring_osc_gen[32].ring_oscillator/$COMP_0'
+	#89
+unselect comp 'ring_osc_gen[33].ring_oscillator/$COMP_0'
+	#90
+unselect comp 'ring_osc_gen[34].ring_oscillator/$COMP_0'
+	#91
+unselect comp 'ring_osc_gen[35].ring_oscillator/$COMP_0'
+	#92
+unselect comp 'ring_osc_gen[36].ring_oscillator/$COMP_0'
+	#93
+unselect comp 'ring_osc_gen[37].ring_oscillator/$COMP_0'
+	#94
+unselect comp 'ring_osc_gen[38].ring_oscillator/$COMP_0'
+	#95
+unselect comp 'ring_osc_gen[39].ring_oscillator/$COMP_0'
+	#96
+unselect comp 'ring_osc_gen[40].ring_oscillator/$COMP_0'
+	#97
+unselect comp 'ring_osc_gen[41].ring_oscillator/$COMP_0'
+	#98
+unselect comp 'ring_osc_gen[42].ring_oscillator/$COMP_0'
+	#99
+unselect comp 'ring_osc_gen[43].ring_oscillator/$COMP_0'
+	#100
+unselect comp 'ring_osc_gen[44].ring_oscillator/$COMP_0'
+	#101
+unselect comp 'ring_osc_gen[45].ring_oscillator/$COMP_0'
+	#102
+unselect comp 'ring_osc_gen[46].ring_oscillator/$COMP_0'
+	#103
+unselect comp 'ring_osc_gen[47].ring_oscillator/$COMP_0'
+	#104
+unselect comp 'ring_osc_gen[48].ring_oscillator/$COMP_0'
+	#105
+unselect comp 'ring_osc_gen[49].ring_oscillator/$COMP_0'
+	#106
+unselect comp 'ring_osc_gen[50].ring_oscillator/$COMP_0'
+	#107
+unselect -all
+	#108
+unselect -all
+	#109
+select hm 'ring_osc_gen[1].ring_oscillator'
+	#Hard Macro Inst "ring_osc_gen[1].ring_oscillator", type "inverter", refcomp "ring_osc_gen[1].ring_oscillator/$COMP_0"
+	#110
+unselect -all
+	#111
+select hm 'ring_osc_zero'
+	#Hard Macro Inst "ring_osc_zero", type "inverter", refcomp "ring_osc_zero/$COMP_0"
+	#112
+unselect -all
+	#113
+select hm 'ring_osc_gen[49].ring_oscillator'
+	#Hard Macro Inst "ring_osc_gen[49].ring_oscillator", type "inverter", refcomp "ring_osc_gen[49].ring_oscillator/$COMP_0"
+	#114
+unselect -all
+	#115
+select hm 'ring_osc_gen[50].ring_oscillator'
+	#Hard Macro Inst "ring_osc_gen[50].ring_oscillator", type "inverter", refcomp "ring_osc_gen[50].ring_oscillator/$COMP_0"
+	#116
+unselect -all
+	#117
+select hm 'ring_osc_gen[49].ring_oscillator'
+	#Hard Macro Inst "ring_osc_gen[49].ring_oscillator", type "inverter", refcomp "ring_osc_gen[49].ring_oscillator/$COMP_0"
+	#118
+unselect -all
+	#119
+select hm 'ring_osc_gen[23].ring_oscillator'
+	#Hard Macro Inst "ring_osc_gen[23].ring_oscillator", type "inverter", refcomp "ring_osc_gen[23].ring_oscillator/$COMP_0"
+	#120
+unselect -all
+	#121
+select hm 'ring_osc_gen[22].ring_oscillator'
+	#Hard Macro Inst "ring_osc_gen[22].ring_oscillator", type "inverter", refcomp "ring_osc_gen[22].ring_oscillator/$COMP_0"

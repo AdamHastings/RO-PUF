@@ -1,0 +1,10 @@
+##############################################################################
+## Filename:          E:/Adam/Characterizing/dut_mb_v4lx60_template/hw/pcores/ring_osc_v1_00_a/data/ring_osc_v2_1_0.pao
+## Description:       Peripheral Analysis Order
+## Date:              Fri Nov 21 11:21:32 2014 (by Create and Import Peripheral Wizard)
+##############################################################################
+
+lib proc_common_v3_00_a  all 
+lib plbv46_slave_single_v1_01_a  all 
+lib ring_osc_v1_00_a user_logic vhdl
+lib ring_osc_v1_00_a ring_osc vhdl

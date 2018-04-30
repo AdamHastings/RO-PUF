@@ -1,0 +1,312 @@
+# vsim -coverage -do {run -all} -c -novopt top 
+# //  Questa Sim-64
+# //  Version 10.1c linux_x86_64 Jul 27 2012
+# //
+# //  Copyright 1991-2012 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment6/work.top
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment6/work.top_sv_unit
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment6/work.my_package
+# Loading sv_std.std
+# Loading work.my_package
+# Loading work.top_sv_unit
+# Loading work.top
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment6/work.ahb_if
+# Loading work.ahb_if
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment6/work.sram_if
+# Loading work.sram_if
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment6/work.test
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment6/work.test_sv_unit
+# Loading work.test_sv_unit
+# Loading work.test
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment6/work.sram_control
+# Loading work.sram_control
+# Loading std.standard
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment6/work.async(behavioral)
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_signed(body)
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment6/work.package_timing(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading ieee.std_logic_textio(body)
+# Loading work.package_timing(body)
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment6/work.package_utility(body)
+# Loading work.package_utility(body)
+# Loading work.async(behavioral)
+# ** Warning: (vsim-8634) Code was not compiled with coverage options.
+# run -all 
+# ** Warning: (vsim-3829) my_package.sv(37): Non-existent associative array entry. Returning default value.
+# ** Warning: (vsim-3829) my_package.sv(38): Non-existent associative array entry. Returning default value.
+# ** Warning: (vsim-3829) my_package.sv(39): Non-existent associative array entry. Returning default value.
+# ** Warning: (vsim-3829) my_package.sv(38): Non-existent associative array entry. Returning default value.
+# ** Warning: (vsim-3829) my_package.sv(38): Non-existent associative array entry. Returning default value.
+# ** Warning: (vsim-3829) my_package.sv(38): Non-existent associative array entry. Returning default value.
+# ** Warning: (vsim-3829) my_package.sv(38): Non-existent associative array entry. Returning default value.
+# ** Warning: (vsim-3829) my_package.sv(39): Non-existent associative array entry. Returning default value.
+# ** Warning: (vsim-3829) my_package.sv(37): Non-existent associative array entry. Returning default value.
+# ** Warning: (vsim-3829) my_package.sv(38): Non-existent associative array entry. Returning default value.
+# ** Warning: (vsim-3829) my_package.sv(38): Non-existent associative array entry. Returning default value.
+# Pipeline Advancing @                  700
+# AHB Transaction Id=          1 HADDR=      0 HWRITE=1 HWDATA=189 HRDATA=  x
+# AHB Transaction Id=          0 HADDR=      0 HWRITE=1 HWDATA=  0 HRDATA=  x
+# AHB Transaction Id=          0 HADDR=      0 HWRITE=1 HWDATA=  0 HRDATA=  x
+# Pipeline Advancing @                  900
+# AHB Transaction Id=          2 HADDR=      2 HWRITE=1 HWDATA=100 HRDATA=  x
+# AHB Transaction Id=          1 HADDR=      0 HWRITE=1 HWDATA=189 HRDATA=  x
+# AHB Transaction Id=          0 HADDR=      0 HWRITE=1 HWDATA=  0 HRDATA=  0
+# Updating Scoreboard
+# AHB Transaction Id=          1 HADDR=      0 HWRITE=1 HWDATA=189 HRDATA=  x
+# ** Note: wrote mem_array0
+#    Time: 90400 ps  Iteration: 0  Instance: /top/memory
+# ** Note: wrote mem_array0
+#    Time: 90400 ps  Iteration: 1  Instance: /top/memory
+# Pipeline Advancing @                 1100
+# AHB Transaction Id=          3 HADDR=      4 HWRITE=1 HWDATA= 32 HRDATA=  x
+# AHB Transaction Id=          2 HADDR=      2 HWRITE=1 HWDATA=100 HRDATA=  x
+# AHB Transaction Id=          1 HADDR=      0 HWRITE=1 HWDATA=189 HRDATA=  x
+# Updating Scoreboard
+# AHB Transaction Id=          2 HADDR=      2 HWRITE=1 HWDATA=100 HRDATA=  x
+# ** Note: wrote mem_array0
+#    Time: 110100 ps  Iteration: 0  Instance: /top/memory
+# ** Note: wrote mem_array0
+#    Time: 110100 ps  Iteration: 1  Instance: /top/memory
+# ** Note: wrote mem_array0
+#    Time: 110400 ps  Iteration: 0  Instance: /top/memory
+# ** Note: wrote mem_array0
+#    Time: 110400 ps  Iteration: 1  Instance: /top/memory
+# Pipeline Advancing @                 1300
+# AHB Transaction Id=          4 HADDR=      3 HWRITE=1 HWDATA=172 HRDATA=  x
+# AHB Transaction Id=          3 HADDR=      4 HWRITE=1 HWDATA= 32 HRDATA=  x
+# AHB Transaction Id=          2 HADDR=      2 HWRITE=1 HWDATA=100 HRDATA=  x
+# Updating Scoreboard
+# AHB Transaction Id=          3 HADDR=      4 HWRITE=1 HWDATA= 32 HRDATA=  x
+# ** Note: wrote mem_array0
+#    Time: 130100 ps  Iteration: 0  Instance: /top/memory
+# ** Note: wrote mem_array0
+#    Time: 130100 ps  Iteration: 1  Instance: /top/memory
+# ** Note: wrote mem_array0
+#    Time: 130400 ps  Iteration: 0  Instance: /top/memory
+# ** Note: wrote mem_array0
+#    Time: 130400 ps  Iteration: 1  Instance: /top/memory
+# Pipeline Advancing @                 1500
+# AHB Transaction Id=          5 HADDR=      1 HWRITE=1 HWDATA= 15 HRDATA=  x
+# AHB Transaction Id=          4 HADDR=      3 HWRITE=1 HWDATA=172 HRDATA=  x
+# AHB Transaction Id=          3 HADDR=      4 HWRITE=1 HWDATA= 32 HRDATA=  x
+# Updating Scoreboard
+# AHB Transaction Id=          4 HADDR=      3 HWRITE=1 HWDATA=172 HRDATA=  x
+# ** Note: wrote mem_array0
+#    Time: 150100 ps  Iteration: 0  Instance: /top/memory
+# ** Note: wrote mem_array0
+#    Time: 150100 ps  Iteration: 1  Instance: /top/memory
+# ** Note: wrote mem_array0
+#    Time: 150400 ps  Iteration: 0  Instance: /top/memory
+# ** Note: wrote mem_array0
+#    Time: 150400 ps  Iteration: 1  Instance: /top/memory
+# Pipeline Advancing @                 1700
+# AHB Transaction Id=          6 HADDR=      0 HWRITE=1 HWDATA=171 HRDATA=  x
+# AHB Transaction Id=          5 HADDR=      1 HWRITE=1 HWDATA= 15 HRDATA=  x
+# AHB Transaction Id=          4 HADDR=      3 HWRITE=1 HWDATA=172 HRDATA=  x
+# Updating Scoreboard
+# AHB Transaction Id=          5 HADDR=      1 HWRITE=1 HWDATA= 15 HRDATA=  x
+# ** Note: wrote mem_array0
+#    Time: 170100 ps  Iteration: 0  Instance: /top/memory
+# ** Note: wrote mem_array0
+#    Time: 170100 ps  Iteration: 1  Instance: /top/memory
+# ** Note: wrote mem_array0
+#    Time: 170400 ps  Iteration: 0  Instance: /top/memory
+# ** Note: wrote mem_array0
+#    Time: 170400 ps  Iteration: 1  Instance: /top/memory
+# Pipeline Advancing @                 1900
+# AHB Transaction Id=          7 HADDR=      3 HWRITE=1 HWDATA=141 HRDATA=  x
+# AHB Transaction Id=          6 HADDR=      0 HWRITE=1 HWDATA=171 HRDATA=  x
+# AHB Transaction Id=          5 HADDR=      1 HWRITE=1 HWDATA= 15 HRDATA=  x
+# Updating Scoreboard
+# AHB Transaction Id=          6 HADDR=      0 HWRITE=1 HWDATA=171 HRDATA=  x
+# ** Note: wrote mem_array0
+#    Time: 190100 ps  Iteration: 0  Instance: /top/memory
+# ** Note: wrote mem_array0
+#    Time: 190100 ps  Iteration: 1  Instance: /top/memory
+# ** Note: wrote mem_array0
+#    Time: 190400 ps  Iteration: 0  Instance: /top/memory
+# ** Note: wrote mem_array0
+#    Time: 190400 ps  Iteration: 1  Instance: /top/memory
+# Pipeline Advancing @                 2100
+# AHB Transaction Id=          8 HADDR=      1 HWRITE=1 HWDATA=151 HRDATA=  x
+# AHB Transaction Id=          7 HADDR=      3 HWRITE=1 HWDATA=141 HRDATA=  x
+# AHB Transaction Id=          6 HADDR=      0 HWRITE=1 HWDATA=171 HRDATA=  x
+# Updating Scoreboard
+# AHB Transaction Id=          7 HADDR=      3 HWRITE=1 HWDATA=141 HRDATA=  x
+# ** Note: wrote mem_array0
+#    Time: 210100 ps  Iteration: 0  Instance: /top/memory
+# ** Note: wrote mem_array0
+#    Time: 210100 ps  Iteration: 1  Instance: /top/memory
+# ** Note: wrote mem_array0
+#    Time: 210400 ps  Iteration: 0  Instance: /top/memory
+# ** Note: wrote mem_array0
+#    Time: 210400 ps  Iteration: 1  Instance: /top/memory
+# Pipeline Advancing @                 2300
+# AHB Transaction Id=          9 HADDR=      0 HWRITE=1 HWDATA=225 HRDATA=  x
+# AHB Transaction Id=          8 HADDR=      1 HWRITE=1 HWDATA=151 HRDATA=  x
+# AHB Transaction Id=          7 HADDR=      3 HWRITE=1 HWDATA=141 HRDATA=  x
+# Updating Scoreboard
+# AHB Transaction Id=          8 HADDR=      1 HWRITE=1 HWDATA=151 HRDATA=  x
+# ** Note: wrote mem_array0
+#    Time: 230100 ps  Iteration: 0  Instance: /top/memory
+# ** Note: wrote mem_array0
+#    Time: 230100 ps  Iteration: 1  Instance: /top/memory
+# ** Note: wrote mem_array0
+#    Time: 230400 ps  Iteration: 0  Instance: /top/memory
+# ** Note: wrote mem_array0
+#    Time: 230400 ps  Iteration: 1  Instance: /top/memory
+# Pipeline Advancing @                 2500
+# AHB Transaction Id=         10 HADDR=      4 HWRITE=1 HWDATA= 75 HRDATA=  x
+# AHB Transaction Id=          9 HADDR=      0 HWRITE=1 HWDATA=225 HRDATA=  x
+# AHB Transaction Id=          8 HADDR=      1 HWRITE=1 HWDATA=151 HRDATA=  x
+# Updating Scoreboard
+# AHB Transaction Id=          9 HADDR=      0 HWRITE=1 HWDATA=225 HRDATA=  x
+# ** Note: wrote mem_array0
+#    Time: 250100 ps  Iteration: 0  Instance: /top/memory
+# ** Note: wrote mem_array0
+#    Time: 250100 ps  Iteration: 1  Instance: /top/memory
+# ** Note: wrote mem_array0
+#    Time: 250400 ps  Iteration: 0  Instance: /top/memory
+# ** Note: wrote mem_array0
+#    Time: 250400 ps  Iteration: 1  Instance: /top/memory
+# Pipeline Advancing @                 2700
+# AHB Transaction Id=          0 HADDR=      0 HWRITE=1 HWDATA=  0 HRDATA=  0
+# AHB Transaction Id=         10 HADDR=      4 HWRITE=1 HWDATA= 75 HRDATA=  x
+# AHB Transaction Id=          9 HADDR=      0 HWRITE=1 HWDATA=225 HRDATA=  x
+# Updating Scoreboard
+# AHB Transaction Id=         10 HADDR=      4 HWRITE=1 HWDATA= 75 HRDATA=  x
+# ** Note: wrote mem_array0
+#    Time: 270100 ps  Iteration: 0  Instance: /top/memory
+# ** Note: wrote mem_array0
+#    Time: 270100 ps  Iteration: 1  Instance: /top/memory
+# ** Note: wrote mem_array0
+#    Time: 270400 ps  Iteration: 0  Instance: /top/memory
+# ** Note: wrote mem_array0
+#    Time: 270400 ps  Iteration: 1  Instance: /top/memory
+# Pipeline Advancing @                 2900
+# AHB Transaction Id=         11 HADDR=      2 HWRITE=0 HWDATA= 54 HRDATA=  x
+# AHB Transaction Id=          0 HADDR=      0 HWRITE=1 HWDATA=  0 HRDATA=  0
+# AHB Transaction Id=         10 HADDR=      4 HWRITE=1 HWDATA= 75 HRDATA=  x
+# Pipeline Advancing @                 3100
+# AHB Transaction Id=         12 HADDR=      4 HWRITE=0 HWDATA=184 HRDATA=  x
+# AHB Transaction Id=         11 HADDR=      2 HWRITE=0 HWDATA= 54 HRDATA=  x
+# AHB Transaction Id=          0 HADDR=      0 HWRITE=1 HWDATA=  0 HRDATA=  0
+# Pipeline Advancing @                 3300
+# AHB Transaction Id=         13 HADDR=      4 HWRITE=0 HWDATA=182 HRDATA=  x
+# AHB Transaction Id=         12 HADDR=      4 HWRITE=0 HWDATA=184 HRDATA=  x
+# AHB Transaction Id=         11 HADDR=      2 HWRITE=0 HWDATA= 54 HRDATA=  x
+# Checking:
+# Scoreboard Check Passed.
+# Pipeline Advancing @                 3500
+# AHB Transaction Id=         14 HADDR=      3 HWRITE=0 HWDATA= 39 HRDATA=  x
+# AHB Transaction Id=         13 HADDR=      4 HWRITE=0 HWDATA=182 HRDATA=  x
+# AHB Transaction Id=         12 HADDR=      4 HWRITE=0 HWDATA=184 HRDATA=  x
+# Checking:
+# Scoreboard Check Passed.
+# Pipeline Advancing @                 3700
+# AHB Transaction Id=         15 HADDR=      3 HWRITE=0 HWDATA=210 HRDATA=  x
+# AHB Transaction Id=         14 HADDR=      3 HWRITE=0 HWDATA= 39 HRDATA=  x
+# AHB Transaction Id=         13 HADDR=      4 HWRITE=0 HWDATA=182 HRDATA=  x
+# Checking:
+# Scoreboard Check Passed.
+# Pipeline Advancing @                 3900
+# AHB Transaction Id=         16 HADDR=      0 HWRITE=0 HWDATA=164 HRDATA=  x
+# AHB Transaction Id=         15 HADDR=      3 HWRITE=0 HWDATA=210 HRDATA=  x
+# AHB Transaction Id=         14 HADDR=      3 HWRITE=0 HWDATA= 39 HRDATA=  x
+# Checking:
+# Scoreboard Check Passed.
+# Pipeline Advancing @                 4100
+# AHB Transaction Id=         17 HADDR=      3 HWRITE=0 HWDATA=177 HRDATA=  x
+# AHB Transaction Id=         16 HADDR=      0 HWRITE=0 HWDATA=164 HRDATA=  x
+# AHB Transaction Id=         15 HADDR=      3 HWRITE=0 HWDATA=210 HRDATA=  x
+# Checking:
+# Scoreboard Check Passed.
+# Pipeline Advancing @                 4300
+# AHB Transaction Id=         18 HADDR=      1 HWRITE=0 HWDATA=  4 HRDATA=  x
+# AHB Transaction Id=         17 HADDR=      3 HWRITE=0 HWDATA=177 HRDATA=  x
+# AHB Transaction Id=         16 HADDR=      0 HWRITE=0 HWDATA=164 HRDATA=  x
+# Checking:
+# Scoreboard Check Passed.
+# Pipeline Advancing @                 4500
+# AHB Transaction Id=         19 HADDR=      2 HWRITE=0 HWDATA= 47 HRDATA=  x
+# AHB Transaction Id=         18 HADDR=      1 HWRITE=0 HWDATA=  4 HRDATA=  x
+# AHB Transaction Id=         17 HADDR=      3 HWRITE=0 HWDATA=177 HRDATA=  x
+# Checking:
+# Scoreboard Check Passed.
+# Pipeline Advancing @                 4700
+# AHB Transaction Id=         20 HADDR=      0 HWRITE=0 HWDATA=194 HRDATA=  x
+# AHB Transaction Id=         19 HADDR=      2 HWRITE=0 HWDATA= 47 HRDATA=  x
+# AHB Transaction Id=         18 HADDR=      1 HWRITE=0 HWDATA=  4 HRDATA=  x
+# Checking:
+# Scoreboard Check Passed.
+# Pipeline Advancing @                 4900
+# AHB Transaction Id=         21 HADDR=      0 HWRITE=1 HWDATA= 11 HRDATA=  x
+# AHB Transaction Id=         20 HADDR=      0 HWRITE=0 HWDATA=194 HRDATA=  x
+# AHB Transaction Id=         19 HADDR=      2 HWRITE=0 HWDATA= 47 HRDATA=  x
+# Checking:
+# Scoreboard Check Passed.
+# Pipeline Advancing @                 5100
+# AHB Transaction Id=         22 HADDR=      2 HWRITE=1 HWDATA=191 HRDATA=  x
+# AHB Transaction Id=         21 HADDR=      0 HWRITE=1 HWDATA= 11 HRDATA=  x
+# AHB Transaction Id=         20 HADDR=      0 HWRITE=0 HWDATA=194 HRDATA=  x
+# Checking:
+# Scoreboard Check Passed.
+# Pipeline Advancing @                 5300
+# AHB Transaction Id=         23 HADDR=2097151 HWRITE=0 HWDATA= 63 HRDATA=  x
+# AHB Transaction Id=         22 HADDR=      2 HWRITE=1 HWDATA=191 HRDATA=  x
+# AHB Transaction Id=         21 HADDR=      0 HWRITE=1 HWDATA= 11 HRDATA=  x
+# Pipeline Advancing @                 5500
+# AHB Transaction Id=         24 HADDR=2097151 HWRITE=1 HWDATA=140 HRDATA=  x
+# AHB Transaction Id=         23 HADDR=2097151 HWRITE=0 HWDATA= 63 HRDATA=  x
+# AHB Transaction Id=         22 HADDR=      2 HWRITE=1 HWDATA=191 HRDATA=  x
+# Pipeline Advancing @                 5700
+# AHB Transaction Id=         25 HADDR=      4 HWRITE=0 HWDATA=165 HRDATA=  x
+# AHB Transaction Id=         24 HADDR=2097151 HWRITE=1 HWDATA=140 HRDATA=  x
+# AHB Transaction Id=         23 HADDR=2097151 HWRITE=0 HWDATA= 63 HRDATA=  x
+# Pipeline Advancing @                 5900
+# AHB Transaction Id=         26 HADDR=2097149 HWRITE=1 HWDATA= 82 HRDATA=  x
+# AHB Transaction Id=         25 HADDR=      4 HWRITE=0 HWDATA=165 HRDATA=  x
+# AHB Transaction Id=         24 HADDR=2097151 HWRITE=1 HWDATA=140 HRDATA=  x
+# Pipeline Advancing @                 6100
+# AHB Transaction Id=         27 HADDR=      3 HWRITE=0 HWDATA=252 HRDATA=  x
+# AHB Transaction Id=         26 HADDR=2097149 HWRITE=1 HWDATA= 82 HRDATA=  x
+# AHB Transaction Id=         25 HADDR=      4 HWRITE=0 HWDATA=165 HRDATA=  x
+# Pipeline Advancing @                 6300
+# AHB Transaction Id=         28 HADDR=      3 HWRITE=0 HWDATA=185 HRDATA=  x
+# AHB Transaction Id=         27 HADDR=      3 HWRITE=0 HWDATA=252 HRDATA=  x
+# AHB Transaction Id=         26 HADDR=2097149 HWRITE=1 HWDATA= 82 HRDATA=  x
+# Pipeline Advancing @                 6500
+# AHB Transaction Id=         29 HADDR=      1 HWRITE=1 HWDATA=211 HRDATA=  x
+# AHB Transaction Id=         28 HADDR=      3 HWRITE=0 HWDATA=185 HRDATA=  x
+# AHB Transaction Id=         27 HADDR=      3 HWRITE=0 HWDATA=252 HRDATA=  x
+# Pipeline Advancing @                 6700
+# AHB Transaction Id=         30 HADDR=      3 HWRITE=1 HWDATA= 87 HRDATA=  x
+# AHB Transaction Id=         29 HADDR=      1 HWRITE=1 HWDATA=211 HRDATA=  x
+# AHB Transaction Id=         28 HADDR=      3 HWRITE=0 HWDATA=185 HRDATA=  x
+# Printing Coverage Stats
+# 	Reset Coverage: 3 of 31 transactions
+# 	HTRANS Coverage (0=IDLE, 2=NONSEQ):
+# 		0: 6
+# 		2: 24
+# 	HADDR Coverage:
+# 		0: 6
+# 		1: 4
+# 		2: 4
+# 		3: 8
+# 		4: 5
+# 		2097149: 1
+# 		2097151: 2
+# 	HWRITE Coverage:
+# 		0: 14
+# 		1: 16
+# Scoreboard Error Count @ time 7300: 0
+# Program Complete

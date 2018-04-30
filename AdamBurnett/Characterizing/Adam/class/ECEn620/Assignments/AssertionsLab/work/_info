@@ -1,0 +1,90 @@
+m255
+K3
+13
+cModel Technology
+Z0 d/fpga1/users/joshuas2/ECEn620/Assignments/AssertionsLab
+vbindfile
+Z1 DXx6 sv_std 3 std 0 22 F[19LRNL:5;XmIFh[XOPn1
+VGYBO=oPFeAF3Xa<>JA_C42
+r1
+!s85 0
+31
+Ikk8ofjSdma[DNF?8gYkz21
+Z2 !s105 simutil_v_unit
+S1
+Z3 d/fpga1/users/joshuas2/ECEn620/Assignments/AssertionsLab
+w1417497217
+8bindfile.sv
+Fbindfile.sv
+L0 1
+Z4 OL;L;10.1c;51
+Z5 !s108 1417499556.567178
+Z6 !s107 tb1.sv|fifo1.sv|bindfile.sv|simutil.v|
+Z7 !s90 -mfcu|-sv|+acc|simutil.v|bindfile.sv|fifo1.sv|tb1.sv|
+Z8 o-mfcu -sv +acc -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
+!s100 mEJGcYTPFGQAJ1K87J]I=3
+!i10b 1
+vfifo1
+R1
+Vd;gPQ_WMhQ2K96lZlgcn?2
+r1
+31
+I6`8eoKGb?c7Y`OJ?5NXLH1
+R2
+S1
+R3
+w1417499547
+8fifo1.sv
+Ffifo1.sv
+L0 10
+R4
+R5
+R6
+R7
+R8
+!s85 0
+!i10b 1
+!s100 _BNji@7e10R?C2aNjg<Tk0
+vSIMUTIL
+R1
+Vm4PHUeIl`RIZ0kD2dZOA83
+r1
+31
+IGizo2OYmdAhMS8D3c8ihk1
+R2
+S1
+R3
+w1416942839
+8simutil.v
+Fsimutil.v
+L0 87
+R4
+R5
+R6
+R7
+R8
+n@s@i@m@u@t@i@l
+!s85 0
+!s100 5e6kzIe:g?kVGi4jil`3c0
+!i10b 1
+vtb1
+R1
+VZYDagI5@1Y:nWY2:fGWRa1
+r1
+31
+ITCKnQPK<oBcn1^aJPc:f:0
+R2
+S1
+R3
+w1417497401
+8tb1.sv
+Ftb1.sv
+L0 12
+R4
+R5
+R6
+R7
+R8
+!s85 0
+!s100 ZIR@3igXbl2>0:7C`?:H10
+!i10b 1

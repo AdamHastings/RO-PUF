@@ -1,0 +1,153 @@
+#:C49    
+#Xilinx FPGA Editor Command Log File
+#Editor Version:
+#:V   NT M2.1 P.49d
+#Current Working Directory:
+#:D   E:\Adam\Characterizing\Thesis
+#Date/Time:
+#:T   Sat Oct 10 22:26:53 2015
+#------------------------------
+	#Reading E:\Adam\Characterizing\Thesis\characterizer_LT_row_50_OMUX7.ncd...
+	#Loading device for application Rf_Device from file '4vlx60.nph' in environment E:\Xilinx\14.4\ISE_DS\ISE\.
+	#   "system" is an NCD, version 3.2, device xc4vlx60, package ff668, speed -11
+	#This design is using the default stepping level (major silicon revision) for this device (1). Unless your design is targeted at devices of this stepping level, it is recommended that you explicitly specify the stepping level of the parts you will be using. This will allow the tools to take advantage of any available performance and functional enhancements for this device. The latest stepping level for this device is '2'. Additional information on "stepping level" is available at support.xilinx.com.
+	#   "inverter" is an NCD, version 3.2, device xc4vlx60, package ff668, speed -11
+	#This design is using the default stepping level (major silicon revision) for this device (1). Unless your design is targeted at devices of this stepping level, it is recommended that you explicitly specify the stepping level of the parts you will be using. This will allow the tools to take advantage of any available performance and functional enhancements for this device. The latest stepping level for this device is '2'. Additional information on "stepping level" is available at support.xilinx.com.
+	#   "ring_oscillator" is an NCD, version 3.2, device xc4vlx60, package ff668, speed -11
+	#This design is using the default stepping level (major silicon revision) for this device (1). Unless your design is targeted at devices of this stepping level, it is recommended that you explicitly specify the stepping level of the parts you will be using. This will allow the tools to take advantage of any available performance and functional enhancements for this device. The latest stepping level for this device is '2'. Additional information on "stepping level" is available at support.xilinx.com.
+	#Design creation date: 2015.10.10.23.46.09
+	#Building chip graphics...
+	#Loading speed info...
+	#BRAM initialization data is updated without the data file.
+	#1
+unselect -all
+	#2
+select net 'net_ring_osc_2'
+	#net "net_ring_osc_2"
+	#3
+unselect -all
+	#4
+select net 'ring_osc_1/ring_osc_1/USER_LOGIC_I/ring_osc_buf'
+	#net "ring_osc_1/ring_osc_1/USER_LOGIC_I/ring_osc_buf"
+	#5
+unselect -all
+	#6
+select net 'ring_osc_0/ring_osc_0/USER_LOGIC_I/ring_osc_buf'
+	#net "ring_osc_0/ring_osc_0/USER_LOGIC_I/ring_osc_buf"
+	#7
+unselect -all
+	#8
+unselect -all
+	#9
+select net 'ring_osc_1/ring_osc_1/USER_LOGIC_I/ring_osc_buf'
+	#net "ring_osc_1/ring_osc_1/USER_LOGIC_I/ring_osc_buf"
+	#10
+unselect -all
+	#11
+select net 'ring_osc_0/ring_osc_0/USER_LOGIC_I/ring_osc_buf'
+	#net "ring_osc_0/ring_osc_0/USER_LOGIC_I/ring_osc_buf"
+	#12
+unselect -all
+	#13
+select net 'mdm_0/Dbg_Clk_1'
+	#net "mdm_0/Dbg_Clk_1"
+	#14
+unselect -all
+	#15
+unselect -all
+	#16
+select net 'ring_osc_0/ring_osc_0/USER_LOGIC_I/ring_osc_buf'
+	#net "ring_osc_0/ring_osc_0/USER_LOGIC_I/ring_osc_buf"
+	#17
+unselect net 'ring_osc_0/ring_osc_0/USER_LOGIC_I/ring_osc_buf'
+	#18
+select -k comp 'ring_osc_1/ring_osc_1/USER_LOGIC_I/ring_osc_2/$COMP_0'
+	#19
+unselect -all
+	#20
+unselect -all
+	#21
+select net 'net_ring_osc_2'
+	#net "net_ring_osc_2"
+	#22
+unselect -all
+	#23
+unselect -all
+	#24
+select net 'ring_osc_1/ring_osc_1/USER_LOGIC_I/ring_osc_buf'
+	#net "ring_osc_1/ring_osc_1/USER_LOGIC_I/ring_osc_buf"
+	#25
+unselect net 'ring_osc_1/ring_osc_1/USER_LOGIC_I/ring_osc_buf'
+	#26
+select -k comp 'ring_osc_2/ring_osc_2/USER_LOGIC_I/slv_reg0<1>'
+	#27
+unselect comp 'ring_osc_2/ring_osc_2/USER_LOGIC_I/slv_reg0<1>'
+	#28
+select -k comp 'ring_osc_2/ring_osc_2/USER_LOGIC_I/slv_reg0<2>'
+	#29
+unselect comp 'ring_osc_2/ring_osc_2/USER_LOGIC_I/slv_reg0<2>'
+	#30
+select -k comp 'ring_osc_2/ring_osc_2/USER_LOGIC_I/ring_osc_2/$COMP_0'
+	#31
+unselect -all
+	#32
+unselect -all
+	#33
+unselect -all
+	#34
+select net 'ring_osc_2/ring_osc_2/USER_LOGIC_I/ring_osc'
+	#net "ring_osc_2/ring_osc_2/USER_LOGIC_I/ring_osc"
+	#35
+unselect -all
+	#36
+select net 'net_ring_osc_2_2'
+	#net "net_ring_osc_2_2"
+	#37
+unselect -all
+	#38
+select net 'ring_osc_2/ring_osc_2/USER_LOGIC_I/ring_osc_buf'
+	#net "ring_osc_2/ring_osc_2/USER_LOGIC_I/ring_osc_buf"
+	#39
+unselect -all
+	#40
+select net 'net_ring_osc_2_2'
+	#net "net_ring_osc_2_2"
+	#41
+unselect -all
+	#42
+select net 'ring_osc_2/ring_osc_2/USER_LOGIC_I/ring_osc_buf'
+	#net "ring_osc_2/ring_osc_2/USER_LOGIC_I/ring_osc_buf"
+	#43
+unselect -all
+	#44
+select net 'net_ring_osc_2_2'
+	#net "net_ring_osc_2_2"
+	#45
+unselect net 'net_ring_osc_2_2'
+	#46
+select -k comp 'ring_osc_2/ring_osc_2/USER_LOGIC_I/ring_osc_0/$COMP_0'
+	#47
+unselect comp 'ring_osc_2/ring_osc_2/USER_LOGIC_I/ring_osc_0/$COMP_0'
+	#48
+select -k comp 'ring_osc_2/ring_osc_2/USER_LOGIC_I/count<0>'
+	#49
+unselect -all
+	#50
+select rpm 'Shape_56'
+	#RPM Shape_56, type CARRY
+	#51
+unselect -all
+	#52
+select comp 'ring_osc_2/ring_osc_2/USER_LOGIC_I/count<0>'
+	#comp "ring_osc_2/ring_osc_2/USER_LOGIC_I/count<0>",  site "SLICE_X49Y165",  type = SLICEL  (RPM grid X115Y165)
+	#53
+post block
+	#54
+unselect -all
+	#55
+select net 'ring_osc_2/ring_osc_2/USER_LOGIC_I/count<1>'
+	#net "ring_osc_2/ring_osc_2/USER_LOGIC_I/count<1>"
+	#56
+post exit
+	#57
+exit

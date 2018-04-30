@@ -1,0 +1,101 @@
+
+# =======================================================
+# XDL NCD CONVERSION MODE $Revision: 1.01$
+# time: Mon May 04 12:17:54 2015
+
+# =======================================================
+
+
+# =======================================================
+# The syntax for the design statement is:                
+# design <design_name> <part> <ncd version>;             
+# or                                                     
+# design <design_name> <device> <package> <speed> <ncd_version>
+# =======================================================
+design "E:\Adam\Characterizing\ring_oscillator_hm\and.ncd" xc4vlx60ff668-11 v3.2 ;
+
+
+#  =======================================================
+#  The syntax for instances is:
+#      instance <name> <sitedef>, placed <tile> <site>, cfg <string> ;
+#  or
+#      instance <name> <sitedef>, unplaced, cfg <string> ;
+# 
+#  For typing convenience you can abbreviate instance to inst.
+# 
+#  For IOs there are two special keywords: bonded and unbonded
+#  that can be used to designate whether the PAD of an unplaced IO is
+#  bonded out. If neither keyword is specified, bonded is assumed.
+# 
+#  The bonding of placed IOs is determined by the site they are placed in.
+# 
+#  If you specify bonded or unbonded for an instance that is not an
+#  IOB it is ignored.
+# 
+#  Shown below are three examples for IOs. 
+#     instance IO1 IOB, unplaced ;          # This will be bonded
+#     instance IO1 IOB, unplaced bonded ;   # This will be bonded
+#     instance IO1 IOB, unplaced unbonded ; # This will be unbonded
+#  =======================================================
+inst "$COMP_0" "SLICEL",placed CLB_X28Y68 SLICE_X48Y136  ,
+  cfg " BXINV::#OFF BYINV::#OFF CEINV::#OFF CLKINV::#OFF COUTUSED::#OFF
+       CY0F::#OFF CY0G::#OFF CYINIT::#OFF DXMUX::#OFF DYMUX::#OFF F::#OFF
+       F5USED::#OFF FFX::#OFF FFX_INIT_ATTR::#OFF FFX_SR_ATTR::#OFF FFY::#OFF
+       FFY_INIT_ATTR::#OFF FFY_SR_ATTR::#OFF FXMUX::#OFF FXUSED::#OFF G:$COMP_0.G:#LUT:D=A1*A2
+       GYMUX::#OFF REVUSED::#OFF SRINV::#OFF SYNC_ATTR::#OFF XBUSED::#OFF
+       XMUXUSED::#OFF XUSED::#OFF YBUSED::#OFF YMUXUSED::#OFF YUSED::0 "
+  ;
+
+#  ================================================
+#  The syntax for nets is:
+#     net <name> <type>,
+#       outpin <inst_name> <inst_pin>,
+#       .
+#       .
+#       inpin <inst_name> <inst_pin>,
+#       .
+#       .
+#       pip <tile> <wire0> <dir> <wire1> , # [<rt>]
+#       .
+#       .
+#       ;
+# 
+#  There are three available wire types: wire, power and ground.
+#  If no type is specified, wire is assumed.
+# 
+#  Wire indicates that this a normal wire.
+#  Power indicates that this net is tied to a DC power source.
+#  You can use "power", "vcc" or "vdd" to specify a power net.
+# 
+#  Ground indicates that this net is tied to ground.
+#  You can use "ground", or "gnd" to specify a ground net.
+# 
+#  The <dir> token will be one of the following:
+# 
+#     Symbol Description
+#     ====== ==========================================
+#       ==   Bidirectional, unbuffered.
+#       =>   Bidirectional, buffered in one direction.
+#       =-   Bidirectional, buffered in both directions.
+#       ->   Directional, buffered.
+# 
+#  No pips exist for unrouted nets.
+#  ================================================
+net "$NET_0" , 
+  inpin "$COMP_0" G1 ,
+  ;
+net "$NET_1" , 
+  inpin "$COMP_0" G2 ,
+  ;
+net "$NET_2" , 
+  outpin "$COMP_0" Y ,
+  ;
+
+# =======================================================
+# SUMMARY
+# Number of Module Defs: 0
+# Number of Module Insts: 0
+# Number of Primitive Insts: 1
+# Number of Nets: 3
+# =======================================================
+

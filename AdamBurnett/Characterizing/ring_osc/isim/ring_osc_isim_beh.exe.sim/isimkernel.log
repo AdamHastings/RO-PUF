@@ -1,0 +1,28 @@
+Command line:
+   ring_osc_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  54318
+
+Fri Nov 21 14:19:05 2014
+
+
+ Elaboration Time: 0.156001 sec
+
+ Current Memory Usage: 1317.36 Meg
+
+ Total Signals          : 5
+ Total Nets             : 207
+ Total Signal Drivers   : 73
+ Total Blocks           : 73
+ Total Primitive Blocks : 72
+ Total Processes        : 72
+ Total Traceable Variables  : 83
+ Total Scalar Nets and Variables : 760
+
+ Total Simulation Time: 0.733205 sec
+
+ Current Memory Usage: 688.177 Meg
+
+Mon Nov 24 11:28:09 2014
+

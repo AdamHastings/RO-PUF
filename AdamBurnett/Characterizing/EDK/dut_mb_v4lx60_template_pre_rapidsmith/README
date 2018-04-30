@@ -1,0 +1,12 @@
+DUT_MB_V4LX60_TEST README
+=========================
+
+<TODO> Update this with your own specific Details about the Design
+
+
+This design uses the MicroBlaze, not the PowerPC.
+
+Directory
+=========
+* hw          - directory for XPS Project for building bitstream
+* sw          - directory for MicroBlaze software project
