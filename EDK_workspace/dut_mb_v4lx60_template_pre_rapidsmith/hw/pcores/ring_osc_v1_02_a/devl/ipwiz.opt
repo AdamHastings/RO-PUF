@@ -1,9 +1,0 @@
--batch 
--create ring_osc 
--ver 1.02.a 
--dir "E:\Adam\Characterizing\characterizer_planahead\dut_mb_v4lx60_template_pre_rapidsmith\hw" 
--lang vhdl 
--bus plbv46 s 
--reg 4 
--xps 
--driver 
