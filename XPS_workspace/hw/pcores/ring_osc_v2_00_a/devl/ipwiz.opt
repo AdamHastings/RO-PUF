@@ -1,0 +1,11 @@
+-batch 
+-create ring_osc 
+-ver 2.00.a 
+-dir "/home/adam/RO-PUF/XPS_workspace/hw" 
+-lang vhdl 
+-bus plbv46 s 
+-rst 
+-reg 3 
+-xps 
+-ise 
+-driver 

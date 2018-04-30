@@ -16952,3 +16952,844 @@ Done writing filter settings to:
 	/home/adam/RO-PUF/XPS_workspace/hw/etc/system.filters
 Done writing Tab View settings to:
 	/home/adam/RO-PUF/XPS_workspace/hw/etc/system.gui
+Xilinx Platform Studio (XPS)
+Xilinx EDK 14.4 Build EDK_P.49d
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+Writing filter settings....
+Done writing filter settings to:
+	/home/adam/RO-PUF/XPS_workspace/hw/etc/system.filters
+Done writing Tab View settings to:
+	/home/adam/RO-PUF/XPS_workspace/hw/etc/system.gui
+WARNING:EDK:2053 - PAO file: /home/adam/RO-PUF/XPS_workspace/hw/pcores/ring_osc_v2_00_a/data/ring_osc_v2_1_0.pao not found
+Writing filter settings....
+Done writing filter settings to:
+	/home/adam/RO-PUF/XPS_workspace/hw/etc/system.filters
+Done writing Tab View settings to:
+	/home/adam/RO-PUF/XPS_workspace/hw/etc/system.gui
+Writing filter settings....
+Done writing filter settings to:
+	/home/adam/RO-PUF/XPS_workspace/hw/etc/system.filters
+Done writing Tab View settings to:
+	/home/adam/RO-PUF/XPS_workspace/hw/etc/system.gui
+counter_0 has been deleted from the project
+counter_1 has been deleted from the project
+counter_2 has been deleted from the project
+counter_3 has been deleted from the project
+Assigned Driver counter 1.01.a for instance counter_0
+counter_0 has been added to the project
+WARNING:EDK:2137 - Peripheral counter_0 is not accessible from any processor in the system. Check Bus Interface connections and address parameters. 
+WARNING:EDK:2137 - Peripheral counter_0 is not accessible from any processor in the system. Check Bus Interface connections and address parameters. 
+Assigned Driver counter 1.01.a for instance counter_1
+counter_1 has been added to the project
+WARNING:EDK:2137 - Peripheral counter_0 is not accessible from any processor in the system. Check Bus Interface connections and address parameters. 
+WARNING:EDK:2137 - Peripheral counter_1 is not accessible from any processor in the system. Check Bus Interface connections and address parameters. 
+WARNING:EDK:2137 - Peripheral counter_0 is not accessible from any processor in the system. Check Bus Interface connections and address parameters. 
+WARNING:EDK:2137 - Peripheral counter_1 is not accessible from any processor in the system. Check Bus Interface connections and address parameters. 
+Assigned Driver counter 1.01.a for instance counter_2
+counter_2 has been added to the project
+WARNING:EDK:2137 - Peripheral counter_0 is not accessible from any processor in the system. Check Bus Interface connections and address parameters. 
+WARNING:EDK:2137 - Peripheral counter_1 is not accessible from any processor in the system. Check Bus Interface connections and address parameters. 
+WARNING:EDK:2137 - Peripheral counter_2 is not accessible from any processor in the system. Check Bus Interface connections and address parameters. 
+WARNING:EDK:2137 - Peripheral counter_0 is not accessible from any processor in the system. Check Bus Interface connections and address parameters. 
+WARNING:EDK:2137 - Peripheral counter_1 is not accessible from any processor in the system. Check Bus Interface connections and address parameters. 
+WARNING:EDK:2137 - Peripheral counter_2 is not accessible from any processor in the system. Check Bus Interface connections and address parameters. 
+Assigned Driver counter 1.01.a for instance counter_3
+counter_3 has been added to the project
+WARNING:EDK:2137 - Peripheral counter_0 is not accessible from any processor in the system. Check Bus Interface connections and address parameters. 
+WARNING:EDK:2137 - Peripheral counter_1 is not accessible from any processor in the system. Check Bus Interface connections and address parameters. 
+WARNING:EDK:2137 - Peripheral counter_2 is not accessible from any processor in the system. Check Bus Interface connections and address parameters. 
+WARNING:EDK:2137 - Peripheral counter_3 is not accessible from any processor in the system. Check Bus Interface connections and address parameters. 
+WARNING:EDK:2137 - Peripheral counter_0 is not accessible from any processor in the system. Check Bus Interface connections and address parameters. 
+WARNING:EDK:2137 - Peripheral counter_1 is not accessible from any processor in the system. Check Bus Interface connections and address parameters. 
+WARNING:EDK:2137 - Peripheral counter_2 is not accessible from any processor in the system. Check Bus Interface connections and address parameters. 
+WARNING:EDK:2137 - Peripheral counter_3 is not accessible from any processor in the system. Check Bus Interface connections and address parameters. 
+Assigned Driver counter 1.01.a for instance counter_4
+counter_4 has been added to the project
+WARNING:EDK:2137 - Peripheral counter_0 is not accessible from any processor in the system. Check Bus Interface connections and address parameters. 
+WARNING:EDK:2137 - Peripheral counter_1 is not accessible from any processor in the system. Check Bus Interface connections and address parameters. 
+WARNING:EDK:2137 - Peripheral counter_2 is not accessible from any processor in the system. Check Bus Interface connections and address parameters. 
+WARNING:EDK:2137 - Peripheral counter_3 is not accessible from any processor in the system. Check Bus Interface connections and address parameters. 
+WARNING:EDK:2137 - Peripheral counter_4 is not accessible from any processor in the system. Check Bus Interface connections and address parameters. 
+WARNING:EDK:2137 - Peripheral counter_0 is not accessible from any processor in the system. Check Bus Interface connections and address parameters. 
+WARNING:EDK:2137 - Peripheral counter_1 is not accessible from any processor in the system. Check Bus Interface connections and address parameters. 
+WARNING:EDK:2137 - Peripheral counter_2 is not accessible from any processor in the system. Check Bus Interface connections and address parameters. 
+WARNING:EDK:2137 - Peripheral counter_3 is not accessible from any processor in the system. Check Bus Interface connections and address parameters. 
+WARNING:EDK:2137 - Peripheral counter_4 is not accessible from any processor in the system. Check Bus Interface connections and address parameters. 
+Assigned Driver counter 1.01.a for instance counter_5
+counter_5 has been added to the project
+WARNING:EDK:2137 - Peripheral counter_0 is not accessible from any processor in the system. Check Bus Interface connections and address parameters. 
+WARNING:EDK:2137 - Peripheral counter_1 is not accessible from any processor in the system. Check Bus Interface connections and address parameters. 
+WARNING:EDK:2137 - Peripheral counter_2 is not accessible from any processor in the system. Check Bus Interface connections and address parameters. 
+WARNING:EDK:2137 - Peripheral counter_3 is not accessible from any processor in the system. Check Bus Interface connections and address parameters. 
+WARNING:EDK:2137 - Peripheral counter_4 is not accessible from any processor in the system. Check Bus Interface connections and address parameters. 
+WARNING:EDK:2137 - Peripheral counter_5 is not accessible from any processor in the system. Check Bus Interface connections and address parameters. 
+WARNING:EDK:2137 - Peripheral counter_0 is not accessible from any processor in the system. Check Bus Interface connections and address parameters. 
+WARNING:EDK:2137 - Peripheral counter_1 is not accessible from any processor in the system. Check Bus Interface connections and address parameters. 
+WARNING:EDK:2137 - Peripheral counter_2 is not accessible from any processor in the system. Check Bus Interface connections and address parameters. 
+WARNING:EDK:2137 - Peripheral counter_3 is not accessible from any processor in the system. Check Bus Interface connections and address parameters. 
+WARNING:EDK:2137 - Peripheral counter_4 is not accessible from any processor in the system. Check Bus Interface connections and address parameters. 
+WARNING:EDK:2137 - Peripheral counter_5 is not accessible from any processor in the system. Check Bus Interface connections and address parameters. 
+Assigned Driver counter 1.01.a for instance counter_6
+counter_6 has been added to the project
+WARNING:EDK:2137 - Peripheral counter_0 is not accessible from any processor in the system. Check Bus Interface connections and address parameters. 
+WARNING:EDK:2137 - Peripheral counter_1 is not accessible from any processor in the system. Check Bus Interface connections and address parameters. 
+WARNING:EDK:2137 - Peripheral counter_2 is not accessible from any processor in the system. Check Bus Interface connections and address parameters. 
+WARNING:EDK:2137 - Peripheral counter_3 is not accessible from any processor in the system. Check Bus Interface connections and address parameters. 
+WARNING:EDK:2137 - Peripheral counter_4 is not accessible from any processor in the system. Check Bus Interface connections and address parameters. 
+WARNING:EDK:2137 - Peripheral counter_5 is not accessible from any processor in the system. Check Bus Interface connections and address parameters. 
+WARNING:EDK:2137 - Peripheral counter_6 is not accessible from any processor in the system. Check Bus Interface connections and address parameters. 
+WARNING:EDK:2137 - Peripheral counter_0 is not accessible from any processor in the system. Check Bus Interface connections and address parameters. 
+WARNING:EDK:2137 - Peripheral counter_1 is not accessible from any processor in the system. Check Bus Interface connections and address parameters. 
+WARNING:EDK:2137 - Peripheral counter_2 is not accessible from any processor in the system. Check Bus Interface connections and address parameters. 
+WARNING:EDK:2137 - Peripheral counter_3 is not accessible from any processor in the system. Check Bus Interface connections and address parameters. 
+WARNING:EDK:2137 - Peripheral counter_4 is not accessible from any processor in the system. Check Bus Interface connections and address parameters. 
+WARNING:EDK:2137 - Peripheral counter_5 is not accessible from any processor in the system. Check Bus Interface connections and address parameters. 
+WARNING:EDK:2137 - Peripheral counter_6 is not accessible from any processor in the system. Check Bus Interface connections and address parameters. 
+Assigned Driver counter 1.01.a for instance counter_7
+counter_7 has been added to the project
+WARNING:EDK:2137 - Peripheral counter_0 is not accessible from any processor in the system. Check Bus Interface connections and address parameters. 
+WARNING:EDK:2137 - Peripheral counter_1 is not accessible from any processor in the system. Check Bus Interface connections and address parameters. 
+WARNING:EDK:2137 - Peripheral counter_2 is not accessible from any processor in the system. Check Bus Interface connections and address parameters. 
+WARNING:EDK:2137 - Peripheral counter_3 is not accessible from any processor in the system. Check Bus Interface connections and address parameters. 
+WARNING:EDK:2137 - Peripheral counter_4 is not accessible from any processor in the system. Check Bus Interface connections and address parameters. 
+WARNING:EDK:2137 - Peripheral counter_5 is not accessible from any processor in the system. Check Bus Interface connections and address parameters. 
+WARNING:EDK:2137 - Peripheral counter_6 is not accessible from any processor in the system. Check Bus Interface connections and address parameters. 
+WARNING:EDK:2137 - Peripheral counter_7 is not accessible from any processor in the system. Check Bus Interface connections and address parameters. 
+WARNING:EDK:2137 - Peripheral counter_0 is not accessible from any processor in the system. Check Bus Interface connections and address parameters. 
+WARNING:EDK:2137 - Peripheral counter_1 is not accessible from any processor in the system. Check Bus Interface connections and address parameters. 
+WARNING:EDK:2137 - Peripheral counter_2 is not accessible from any processor in the system. Check Bus Interface connections and address parameters. 
+WARNING:EDK:2137 - Peripheral counter_3 is not accessible from any processor in the system. Check Bus Interface connections and address parameters. 
+WARNING:EDK:2137 - Peripheral counter_4 is not accessible from any processor in the system. Check Bus Interface connections and address parameters. 
+WARNING:EDK:2137 - Peripheral counter_5 is not accessible from any processor in the system. Check Bus Interface connections and address parameters. 
+WARNING:EDK:2137 - Peripheral counter_6 is not accessible from any processor in the system. Check Bus Interface connections and address parameters. 
+WARNING:EDK:2137 - Peripheral counter_7 is not accessible from any processor in the system. Check Bus Interface connections and address parameters. 
+WARNING:EDK:2137 - Peripheral counter_1 is not accessible from any processor in the system. Check Bus Interface connections and address parameters. 
+WARNING:EDK:2137 - Peripheral counter_2 is not accessible from any processor in the system. Check Bus Interface connections and address parameters. 
+WARNING:EDK:2137 - Peripheral counter_3 is not accessible from any processor in the system. Check Bus Interface connections and address parameters. 
+WARNING:EDK:2137 - Peripheral counter_4 is not accessible from any processor in the system. Check Bus Interface connections and address parameters. 
+WARNING:EDK:2137 - Peripheral counter_5 is not accessible from any processor in the system. Check Bus Interface connections and address parameters. 
+WARNING:EDK:2137 - Peripheral counter_6 is not accessible from any processor in the system. Check Bus Interface connections and address parameters. 
+WARNING:EDK:2137 - Peripheral counter_7 is not accessible from any processor in the system. Check Bus Interface connections and address parameters. 
+WARNING:EDK:2137 - Peripheral counter_2 is not accessible from any processor in the system. Check Bus Interface connections and address parameters. 
+WARNING:EDK:2137 - Peripheral counter_3 is not accessible from any processor in the system. Check Bus Interface connections and address parameters. 
+WARNING:EDK:2137 - Peripheral counter_4 is not accessible from any processor in the system. Check Bus Interface connections and address parameters. 
+WARNING:EDK:2137 - Peripheral counter_5 is not accessible from any processor in the system. Check Bus Interface connections and address parameters. 
+WARNING:EDK:2137 - Peripheral counter_6 is not accessible from any processor in the system. Check Bus Interface connections and address parameters. 
+WARNING:EDK:2137 - Peripheral counter_7 is not accessible from any processor in the system. Check Bus Interface connections and address parameters. 
+WARNING:EDK:2137 - Peripheral counter_3 is not accessible from any processor in the system. Check Bus Interface connections and address parameters. 
+WARNING:EDK:2137 - Peripheral counter_4 is not accessible from any processor in the system. Check Bus Interface connections and address parameters. 
+WARNING:EDK:2137 - Peripheral counter_5 is not accessible from any processor in the system. Check Bus Interface connections and address parameters. 
+WARNING:EDK:2137 - Peripheral counter_6 is not accessible from any processor in the system. Check Bus Interface connections and address parameters. 
+WARNING:EDK:2137 - Peripheral counter_7 is not accessible from any processor in the system. Check Bus Interface connections and address parameters. 
+WARNING:EDK:2137 - Peripheral counter_4 is not accessible from any processor in the system. Check Bus Interface connections and address parameters. 
+WARNING:EDK:2137 - Peripheral counter_5 is not accessible from any processor in the system. Check Bus Interface connections and address parameters. 
+WARNING:EDK:2137 - Peripheral counter_6 is not accessible from any processor in the system. Check Bus Interface connections and address parameters. 
+WARNING:EDK:2137 - Peripheral counter_7 is not accessible from any processor in the system. Check Bus Interface connections and address parameters. 
+WARNING:EDK:2137 - Peripheral counter_5 is not accessible from any processor in the system. Check Bus Interface connections and address parameters. 
+WARNING:EDK:2137 - Peripheral counter_6 is not accessible from any processor in the system. Check Bus Interface connections and address parameters. 
+WARNING:EDK:2137 - Peripheral counter_7 is not accessible from any processor in the system. Check Bus Interface connections and address parameters. 
+WARNING:EDK:2137 - Peripheral counter_6 is not accessible from any processor in the system. Check Bus Interface connections and address parameters. 
+WARNING:EDK:2137 - Peripheral counter_7 is not accessible from any processor in the system. Check Bus Interface connections and address parameters. 
+WARNING:EDK:2137 - Peripheral counter_7 is not accessible from any processor in the system. Check Bus Interface connections and address parameters. 
+ERROR:EDK:4056 - INST:dlmb_cntlr BASEADDR-HIGHADDR:0000000000-0x00007fff and INST:counter_0 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:ilmb_cntlr BASEADDR-HIGHADDR:0000000000-0x00007fff and INST:counter_0 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:counter_0 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:dlmb_cntlr BASEADDR-HIGHADDR:0000000000-0x00007fff - address space overlap!
+ERROR:EDK:4056 - INST:counter_0 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:ilmb_cntlr BASEADDR-HIGHADDR:0000000000-0x00007fff - address space overlap!
+ERROR:EDK:4056 - INST:counter_1 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:counter_0 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:counter_1 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:counter_0 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:dlmb_cntlr BASEADDR-HIGHADDR:0000000000-0x00007fff and INST:counter_0 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:dlmb_cntlr BASEADDR-HIGHADDR:0000000000-0x00007fff and INST:counter_1 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:ilmb_cntlr BASEADDR-HIGHADDR:0000000000-0x00007fff and INST:counter_0 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:ilmb_cntlr BASEADDR-HIGHADDR:0000000000-0x00007fff and INST:counter_1 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:counter_0 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:dlmb_cntlr BASEADDR-HIGHADDR:0000000000-0x00007fff - address space overlap!
+ERROR:EDK:4056 - INST:counter_1 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:dlmb_cntlr BASEADDR-HIGHADDR:0000000000-0x00007fff - address space overlap!
+ERROR:EDK:4056 - INST:counter_0 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:ilmb_cntlr BASEADDR-HIGHADDR:0000000000-0x00007fff - address space overlap!
+ERROR:EDK:4056 - INST:counter_1 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:ilmb_cntlr BASEADDR-HIGHADDR:0000000000-0x00007fff - address space overlap!
+ERROR:EDK:4056 - INST:counter_2 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:counter_0 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:counter_2 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:counter_1 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:counter_1 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:counter_0 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:counter_2 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:counter_0 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:counter_2 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:counter_1 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:counter_1 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:counter_0 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:dlmb_cntlr BASEADDR-HIGHADDR:0000000000-0x00007fff and INST:counter_0 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:dlmb_cntlr BASEADDR-HIGHADDR:0000000000-0x00007fff and INST:counter_1 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:dlmb_cntlr BASEADDR-HIGHADDR:0000000000-0x00007fff and INST:counter_2 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:ilmb_cntlr BASEADDR-HIGHADDR:0000000000-0x00007fff and INST:counter_0 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:ilmb_cntlr BASEADDR-HIGHADDR:0000000000-0x00007fff and INST:counter_1 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:ilmb_cntlr BASEADDR-HIGHADDR:0000000000-0x00007fff and INST:counter_2 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:counter_0 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:dlmb_cntlr BASEADDR-HIGHADDR:0000000000-0x00007fff - address space overlap!
+ERROR:EDK:4056 - INST:counter_1 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:dlmb_cntlr BASEADDR-HIGHADDR:0000000000-0x00007fff - address space overlap!
+ERROR:EDK:4056 - INST:counter_2 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:dlmb_cntlr BASEADDR-HIGHADDR:0000000000-0x00007fff - address space overlap!
+ERROR:EDK:4056 - INST:counter_0 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:ilmb_cntlr BASEADDR-HIGHADDR:0000000000-0x00007fff - address space overlap!
+ERROR:EDK:4056 - INST:counter_1 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:ilmb_cntlr BASEADDR-HIGHADDR:0000000000-0x00007fff - address space overlap!
+ERROR:EDK:4056 - INST:counter_2 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:ilmb_cntlr BASEADDR-HIGHADDR:0000000000-0x00007fff - address space overlap!
+ERROR:EDK:4056 - INST:counter_3 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:counter_0 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:counter_3 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:counter_1 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:counter_3 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:counter_2 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:counter_2 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:counter_0 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:counter_2 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:counter_1 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:counter_1 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:counter_0 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:counter_3 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:counter_0 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:counter_3 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:counter_1 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:counter_3 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:counter_2 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:counter_2 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:counter_0 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:counter_2 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:counter_1 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:counter_1 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:counter_0 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:dlmb_cntlr BASEADDR-HIGHADDR:0000000000-0x00007fff and INST:counter_0 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:dlmb_cntlr BASEADDR-HIGHADDR:0000000000-0x00007fff and INST:counter_1 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:dlmb_cntlr BASEADDR-HIGHADDR:0000000000-0x00007fff and INST:counter_2 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:dlmb_cntlr BASEADDR-HIGHADDR:0000000000-0x00007fff and INST:counter_3 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:ilmb_cntlr BASEADDR-HIGHADDR:0000000000-0x00007fff and INST:counter_0 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:ilmb_cntlr BASEADDR-HIGHADDR:0000000000-0x00007fff and INST:counter_1 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:ilmb_cntlr BASEADDR-HIGHADDR:0000000000-0x00007fff and INST:counter_2 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:ilmb_cntlr BASEADDR-HIGHADDR:0000000000-0x00007fff and INST:counter_3 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:counter_0 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:dlmb_cntlr BASEADDR-HIGHADDR:0000000000-0x00007fff - address space overlap!
+ERROR:EDK:4056 - INST:counter_1 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:dlmb_cntlr BASEADDR-HIGHADDR:0000000000-0x00007fff - address space overlap!
+ERROR:EDK:4056 - INST:counter_2 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:dlmb_cntlr BASEADDR-HIGHADDR:0000000000-0x00007fff - address space overlap!
+ERROR:EDK:4056 - INST:counter_3 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:dlmb_cntlr BASEADDR-HIGHADDR:0000000000-0x00007fff - address space overlap!
+ERROR:EDK:4056 - INST:counter_0 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:ilmb_cntlr BASEADDR-HIGHADDR:0000000000-0x00007fff - address space overlap!
+ERROR:EDK:4056 - INST:counter_1 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:ilmb_cntlr BASEADDR-HIGHADDR:0000000000-0x00007fff - address space overlap!
+ERROR:EDK:4056 - INST:counter_2 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:ilmb_cntlr BASEADDR-HIGHADDR:0000000000-0x00007fff - address space overlap!
+ERROR:EDK:4056 - INST:counter_3 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:ilmb_cntlr BASEADDR-HIGHADDR:0000000000-0x00007fff - address space overlap!
+ERROR:EDK:4056 - INST:counter_4 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:counter_0 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:counter_4 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:counter_1 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:counter_4 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:counter_2 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:counter_4 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:counter_3 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:counter_3 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:counter_0 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:counter_3 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:counter_1 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:counter_3 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:counter_2 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:counter_2 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:counter_0 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:counter_2 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:counter_1 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:counter_1 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:counter_0 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:counter_4 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:counter_0 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:counter_4 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:counter_1 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:counter_4 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:counter_2 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:counter_4 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:counter_3 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:counter_3 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:counter_0 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:counter_3 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:counter_1 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:counter_3 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:counter_2 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:counter_2 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:counter_0 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:counter_2 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:counter_1 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:counter_1 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:counter_0 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:dlmb_cntlr BASEADDR-HIGHADDR:0000000000-0x00007fff and INST:counter_0 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:dlmb_cntlr BASEADDR-HIGHADDR:0000000000-0x00007fff and INST:counter_1 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:dlmb_cntlr BASEADDR-HIGHADDR:0000000000-0x00007fff and INST:counter_2 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:dlmb_cntlr BASEADDR-HIGHADDR:0000000000-0x00007fff and INST:counter_3 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:dlmb_cntlr BASEADDR-HIGHADDR:0000000000-0x00007fff and INST:counter_4 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:ilmb_cntlr BASEADDR-HIGHADDR:0000000000-0x00007fff and INST:counter_0 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:ilmb_cntlr BASEADDR-HIGHADDR:0000000000-0x00007fff and INST:counter_1 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:ilmb_cntlr BASEADDR-HIGHADDR:0000000000-0x00007fff and INST:counter_2 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:ilmb_cntlr BASEADDR-HIGHADDR:0000000000-0x00007fff and INST:counter_3 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:ilmb_cntlr BASEADDR-HIGHADDR:0000000000-0x00007fff and INST:counter_4 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:counter_0 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:dlmb_cntlr BASEADDR-HIGHADDR:0000000000-0x00007fff - address space overlap!
+ERROR:EDK:4056 - INST:counter_1 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:dlmb_cntlr BASEADDR-HIGHADDR:0000000000-0x00007fff - address space overlap!
+ERROR:EDK:4056 - INST:counter_2 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:dlmb_cntlr BASEADDR-HIGHADDR:0000000000-0x00007fff - address space overlap!
+ERROR:EDK:4056 - INST:counter_3 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:dlmb_cntlr BASEADDR-HIGHADDR:0000000000-0x00007fff - address space overlap!
+ERROR:EDK:4056 - INST:counter_4 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:dlmb_cntlr BASEADDR-HIGHADDR:0000000000-0x00007fff - address space overlap!
+ERROR:EDK:4056 - INST:counter_0 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:ilmb_cntlr BASEADDR-HIGHADDR:0000000000-0x00007fff - address space overlap!
+ERROR:EDK:4056 - INST:counter_1 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:ilmb_cntlr BASEADDR-HIGHADDR:0000000000-0x00007fff - address space overlap!
+ERROR:EDK:4056 - INST:counter_2 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:ilmb_cntlr BASEADDR-HIGHADDR:0000000000-0x00007fff - address space overlap!
+ERROR:EDK:4056 - INST:counter_3 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:ilmb_cntlr BASEADDR-HIGHADDR:0000000000-0x00007fff - address space overlap!
+ERROR:EDK:4056 - INST:counter_4 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:ilmb_cntlr BASEADDR-HIGHADDR:0000000000-0x00007fff - address space overlap!
+ERROR:EDK:4056 - INST:counter_5 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:counter_0 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:counter_5 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:counter_1 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:counter_5 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:counter_2 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:counter_5 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:counter_3 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:counter_5 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:counter_4 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:counter_4 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:counter_0 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:counter_4 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:counter_1 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:counter_4 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:counter_2 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:counter_4 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:counter_3 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:counter_3 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:counter_0 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:counter_3 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:counter_1 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:counter_3 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:counter_2 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:counter_2 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:counter_0 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:counter_2 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:counter_1 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:counter_1 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:counter_0 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:counter_5 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:counter_0 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:counter_5 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:counter_1 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:counter_5 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:counter_2 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:counter_5 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:counter_3 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:counter_5 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:counter_4 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:counter_4 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:counter_0 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:counter_4 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:counter_1 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:counter_4 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:counter_2 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:counter_4 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:counter_3 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:counter_3 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:counter_0 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:counter_3 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:counter_1 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:counter_3 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:counter_2 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:counter_2 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:counter_0 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:counter_2 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:counter_1 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:counter_1 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:counter_0 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:dlmb_cntlr BASEADDR-HIGHADDR:0000000000-0x00007fff and INST:counter_0 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:dlmb_cntlr BASEADDR-HIGHADDR:0000000000-0x00007fff and INST:counter_1 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:dlmb_cntlr BASEADDR-HIGHADDR:0000000000-0x00007fff and INST:counter_2 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:dlmb_cntlr BASEADDR-HIGHADDR:0000000000-0x00007fff and INST:counter_3 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:dlmb_cntlr BASEADDR-HIGHADDR:0000000000-0x00007fff and INST:counter_4 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:dlmb_cntlr BASEADDR-HIGHADDR:0000000000-0x00007fff and INST:counter_5 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:ilmb_cntlr BASEADDR-HIGHADDR:0000000000-0x00007fff and INST:counter_0 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:ilmb_cntlr BASEADDR-HIGHADDR:0000000000-0x00007fff and INST:counter_1 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:ilmb_cntlr BASEADDR-HIGHADDR:0000000000-0x00007fff and INST:counter_2 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:ilmb_cntlr BASEADDR-HIGHADDR:0000000000-0x00007fff and INST:counter_3 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:ilmb_cntlr BASEADDR-HIGHADDR:0000000000-0x00007fff and INST:counter_4 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:ilmb_cntlr BASEADDR-HIGHADDR:0000000000-0x00007fff and INST:counter_5 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:counter_0 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:dlmb_cntlr BASEADDR-HIGHADDR:0000000000-0x00007fff - address space overlap!
+ERROR:EDK:4056 - INST:counter_1 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:dlmb_cntlr BASEADDR-HIGHADDR:0000000000-0x00007fff - address space overlap!
+ERROR:EDK:4056 - INST:counter_2 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:dlmb_cntlr BASEADDR-HIGHADDR:0000000000-0x00007fff - address space overlap!
+ERROR:EDK:4056 - INST:counter_3 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:dlmb_cntlr BASEADDR-HIGHADDR:0000000000-0x00007fff - address space overlap!
+ERROR:EDK:4056 - INST:counter_4 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:dlmb_cntlr BASEADDR-HIGHADDR:0000000000-0x00007fff - address space overlap!
+ERROR:EDK:4056 - INST:counter_5 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:dlmb_cntlr BASEADDR-HIGHADDR:0000000000-0x00007fff - address space overlap!
+ERROR:EDK:4056 - INST:counter_0 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:ilmb_cntlr BASEADDR-HIGHADDR:0000000000-0x00007fff - address space overlap!
+ERROR:EDK:4056 - INST:counter_1 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:ilmb_cntlr BASEADDR-HIGHADDR:0000000000-0x00007fff - address space overlap!
+ERROR:EDK:4056 - INST:counter_2 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:ilmb_cntlr BASEADDR-HIGHADDR:0000000000-0x00007fff - address space overlap!
+ERROR:EDK:4056 - INST:counter_3 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:ilmb_cntlr BASEADDR-HIGHADDR:0000000000-0x00007fff - address space overlap!
+ERROR:EDK:4056 - INST:counter_4 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:ilmb_cntlr BASEADDR-HIGHADDR:0000000000-0x00007fff - address space overlap!
+ERROR:EDK:4056 - INST:counter_5 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:ilmb_cntlr BASEADDR-HIGHADDR:0000000000-0x00007fff - address space overlap!
+ERROR:EDK:4056 - INST:counter_6 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:counter_0 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:counter_6 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:counter_1 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:counter_6 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:counter_2 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:counter_6 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:counter_3 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:counter_6 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:counter_4 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:counter_6 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:counter_5 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:counter_5 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:counter_0 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:counter_5 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:counter_1 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:counter_5 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:counter_2 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:counter_5 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:counter_3 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:counter_5 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:counter_4 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:counter_4 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:counter_0 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:counter_4 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:counter_1 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:counter_4 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:counter_2 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:counter_4 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:counter_3 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:counter_3 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:counter_0 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:counter_3 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:counter_1 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:counter_3 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:counter_2 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:counter_2 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:counter_0 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:counter_2 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:counter_1 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:counter_1 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:counter_0 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:counter_6 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:counter_0 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:counter_6 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:counter_1 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:counter_6 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:counter_2 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:counter_6 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:counter_3 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:counter_6 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:counter_4 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:counter_6 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:counter_5 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:counter_5 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:counter_0 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:counter_5 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:counter_1 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:counter_5 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:counter_2 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:counter_5 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:counter_3 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:counter_5 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:counter_4 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:counter_4 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:counter_0 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:counter_4 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:counter_1 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:counter_4 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:counter_2 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:counter_4 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:counter_3 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:counter_3 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:counter_0 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:counter_3 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:counter_1 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:counter_3 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:counter_2 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:counter_2 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:counter_0 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:counter_2 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:counter_1 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:counter_1 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:counter_0 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:dlmb_cntlr BASEADDR-HIGHADDR:0000000000-0x00007fff and INST:counter_0 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:dlmb_cntlr BASEADDR-HIGHADDR:0000000000-0x00007fff and INST:counter_1 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:dlmb_cntlr BASEADDR-HIGHADDR:0000000000-0x00007fff and INST:counter_2 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:dlmb_cntlr BASEADDR-HIGHADDR:0000000000-0x00007fff and INST:counter_3 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:dlmb_cntlr BASEADDR-HIGHADDR:0000000000-0x00007fff and INST:counter_4 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:dlmb_cntlr BASEADDR-HIGHADDR:0000000000-0x00007fff and INST:counter_5 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:dlmb_cntlr BASEADDR-HIGHADDR:0000000000-0x00007fff and INST:counter_6 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:ilmb_cntlr BASEADDR-HIGHADDR:0000000000-0x00007fff and INST:counter_0 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:ilmb_cntlr BASEADDR-HIGHADDR:0000000000-0x00007fff and INST:counter_1 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:ilmb_cntlr BASEADDR-HIGHADDR:0000000000-0x00007fff and INST:counter_2 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:ilmb_cntlr BASEADDR-HIGHADDR:0000000000-0x00007fff and INST:counter_3 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:ilmb_cntlr BASEADDR-HIGHADDR:0000000000-0x00007fff and INST:counter_4 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:ilmb_cntlr BASEADDR-HIGHADDR:0000000000-0x00007fff and INST:counter_5 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:ilmb_cntlr BASEADDR-HIGHADDR:0000000000-0x00007fff and INST:counter_6 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:counter_0 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:dlmb_cntlr BASEADDR-HIGHADDR:0000000000-0x00007fff - address space overlap!
+ERROR:EDK:4056 - INST:counter_1 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:dlmb_cntlr BASEADDR-HIGHADDR:0000000000-0x00007fff - address space overlap!
+ERROR:EDK:4056 - INST:counter_2 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:dlmb_cntlr BASEADDR-HIGHADDR:0000000000-0x00007fff - address space overlap!
+ERROR:EDK:4056 - INST:counter_3 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:dlmb_cntlr BASEADDR-HIGHADDR:0000000000-0x00007fff - address space overlap!
+ERROR:EDK:4056 - INST:counter_4 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:dlmb_cntlr BASEADDR-HIGHADDR:0000000000-0x00007fff - address space overlap!
+ERROR:EDK:4056 - INST:counter_5 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:dlmb_cntlr BASEADDR-HIGHADDR:0000000000-0x00007fff - address space overlap!
+ERROR:EDK:4056 - INST:counter_6 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:dlmb_cntlr BASEADDR-HIGHADDR:0000000000-0x00007fff - address space overlap!
+ERROR:EDK:4056 - INST:counter_0 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:ilmb_cntlr BASEADDR-HIGHADDR:0000000000-0x00007fff - address space overlap!
+ERROR:EDK:4056 - INST:counter_1 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:ilmb_cntlr BASEADDR-HIGHADDR:0000000000-0x00007fff - address space overlap!
+ERROR:EDK:4056 - INST:counter_2 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:ilmb_cntlr BASEADDR-HIGHADDR:0000000000-0x00007fff - address space overlap!
+ERROR:EDK:4056 - INST:counter_3 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:ilmb_cntlr BASEADDR-HIGHADDR:0000000000-0x00007fff - address space overlap!
+ERROR:EDK:4056 - INST:counter_4 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:ilmb_cntlr BASEADDR-HIGHADDR:0000000000-0x00007fff - address space overlap!
+ERROR:EDK:4056 - INST:counter_5 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:ilmb_cntlr BASEADDR-HIGHADDR:0000000000-0x00007fff - address space overlap!
+ERROR:EDK:4056 - INST:counter_6 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:ilmb_cntlr BASEADDR-HIGHADDR:0000000000-0x00007fff - address space overlap!
+ERROR:EDK:4056 - INST:counter_7 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:counter_0 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:counter_7 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:counter_1 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:counter_7 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:counter_2 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:counter_7 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:counter_3 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:counter_7 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:counter_4 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:counter_7 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:counter_5 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:counter_7 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:counter_6 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:counter_6 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:counter_0 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:counter_6 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:counter_1 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:counter_6 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:counter_2 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:counter_6 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:counter_3 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:counter_6 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:counter_4 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:counter_6 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:counter_5 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:counter_5 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:counter_0 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:counter_5 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:counter_1 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:counter_5 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:counter_2 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:counter_5 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:counter_3 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:counter_5 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:counter_4 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:counter_4 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:counter_0 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:counter_4 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:counter_1 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:counter_4 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:counter_2 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:counter_4 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:counter_3 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:counter_3 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:counter_0 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:counter_3 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:counter_1 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:counter_3 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:counter_2 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:counter_2 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:counter_0 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:counter_2 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:counter_1 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:counter_1 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:counter_0 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:counter_7 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:counter_0 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:counter_7 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:counter_1 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:counter_7 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:counter_2 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:counter_7 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:counter_3 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:counter_7 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:counter_4 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:counter_7 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:counter_5 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:counter_7 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:counter_6 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:counter_6 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:counter_0 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:counter_6 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:counter_1 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:counter_6 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:counter_2 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:counter_6 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:counter_3 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:counter_6 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:counter_4 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:counter_6 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:counter_5 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:counter_5 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:counter_0 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:counter_5 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:counter_1 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:counter_5 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:counter_2 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:counter_5 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:counter_3 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:counter_5 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:counter_4 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:counter_4 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:counter_0 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:counter_4 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:counter_1 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:counter_4 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:counter_2 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:counter_4 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:counter_3 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:counter_3 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:counter_0 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:counter_3 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:counter_1 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:counter_3 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:counter_2 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:counter_2 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:counter_0 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:counter_2 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:counter_1 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:counter_1 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:counter_0 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:dlmb_cntlr BASEADDR-HIGHADDR:0000000000-0x00007fff and INST:counter_0 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:dlmb_cntlr BASEADDR-HIGHADDR:0000000000-0x00007fff and INST:counter_1 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:dlmb_cntlr BASEADDR-HIGHADDR:0000000000-0x00007fff and INST:counter_2 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:dlmb_cntlr BASEADDR-HIGHADDR:0000000000-0x00007fff and INST:counter_3 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:dlmb_cntlr BASEADDR-HIGHADDR:0000000000-0x00007fff and INST:counter_4 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:dlmb_cntlr BASEADDR-HIGHADDR:0000000000-0x00007fff and INST:counter_5 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:dlmb_cntlr BASEADDR-HIGHADDR:0000000000-0x00007fff and INST:counter_6 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:dlmb_cntlr BASEADDR-HIGHADDR:0000000000-0x00007fff and INST:counter_7 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:ilmb_cntlr BASEADDR-HIGHADDR:0000000000-0x00007fff and INST:counter_0 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:ilmb_cntlr BASEADDR-HIGHADDR:0000000000-0x00007fff and INST:counter_1 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:ilmb_cntlr BASEADDR-HIGHADDR:0000000000-0x00007fff and INST:counter_2 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:ilmb_cntlr BASEADDR-HIGHADDR:0000000000-0x00007fff and INST:counter_3 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:ilmb_cntlr BASEADDR-HIGHADDR:0000000000-0x00007fff and INST:counter_4 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:ilmb_cntlr BASEADDR-HIGHADDR:0000000000-0x00007fff and INST:counter_5 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:ilmb_cntlr BASEADDR-HIGHADDR:0000000000-0x00007fff and INST:counter_6 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:ilmb_cntlr BASEADDR-HIGHADDR:0000000000-0x00007fff and INST:counter_7 BASEADDR-HIGHADDR:0000000000-0x0000ffff - address space overlap!
+ERROR:EDK:4056 - INST:counter_0 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:dlmb_cntlr BASEADDR-HIGHADDR:0000000000-0x00007fff - address space overlap!
+ERROR:EDK:4056 - INST:counter_1 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:dlmb_cntlr BASEADDR-HIGHADDR:0000000000-0x00007fff - address space overlap!
+ERROR:EDK:4056 - INST:counter_2 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:dlmb_cntlr BASEADDR-HIGHADDR:0000000000-0x00007fff - address space overlap!
+ERROR:EDK:4056 - INST:counter_3 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:dlmb_cntlr BASEADDR-HIGHADDR:0000000000-0x00007fff - address space overlap!
+ERROR:EDK:4056 - INST:counter_4 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:dlmb_cntlr BASEADDR-HIGHADDR:0000000000-0x00007fff - address space overlap!
+ERROR:EDK:4056 - INST:counter_5 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:dlmb_cntlr BASEADDR-HIGHADDR:0000000000-0x00007fff - address space overlap!
+ERROR:EDK:4056 - INST:counter_6 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:dlmb_cntlr BASEADDR-HIGHADDR:0000000000-0x00007fff - address space overlap!
+ERROR:EDK:4056 - INST:counter_7 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:dlmb_cntlr BASEADDR-HIGHADDR:0000000000-0x00007fff - address space overlap!
+ERROR:EDK:4056 - INST:counter_0 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:ilmb_cntlr BASEADDR-HIGHADDR:0000000000-0x00007fff - address space overlap!
+ERROR:EDK:4056 - INST:counter_1 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:ilmb_cntlr BASEADDR-HIGHADDR:0000000000-0x00007fff - address space overlap!
+ERROR:EDK:4056 - INST:counter_2 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:ilmb_cntlr BASEADDR-HIGHADDR:0000000000-0x00007fff - address space overlap!
+ERROR:EDK:4056 - INST:counter_3 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:ilmb_cntlr BASEADDR-HIGHADDR:0000000000-0x00007fff - address space overlap!
+ERROR:EDK:4056 - INST:counter_4 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:ilmb_cntlr BASEADDR-HIGHADDR:0000000000-0x00007fff - address space overlap!
+ERROR:EDK:4056 - INST:counter_5 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:ilmb_cntlr BASEADDR-HIGHADDR:0000000000-0x00007fff - address space overlap!
+ERROR:EDK:4056 - INST:counter_6 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:ilmb_cntlr BASEADDR-HIGHADDR:0000000000-0x00007fff - address space overlap!
+ERROR:EDK:4056 - INST:counter_7 BASEADDR-HIGHADDR:0000000000-0x0000ffff and INST:ilmb_cntlr BASEADDR-HIGHADDR:0000000000-0x00007fff - address space overlap!
+Address Map for Processor microblaze_0
+  (0000000000-0x00007fff) dlmb_cntlr	dlmb
+  (0000000000-0x00007fff) ilmb_cntlr	ilmb
+  (0x81800000-0x8180ffff) xps_intc_0	mb_plb
+  (0x83c00000-0x83c0ffff) xps_timer_0	mb_plb
+  (0x84000000-0x8400ffff) RS232_Uart_1	mb_plb
+  (0x84400000-0x8440ffff) mdm_0	mb_plb
+  (0xc1a00000-0xc1a0ffff) dut_control_core_0	mb_plb
+  (0xce400000-0xce40ffff) counter_7	mb_plb
+  (0xce420000-0xce42ffff) counter_6	mb_plb
+  (0xce440000-0xce44ffff) counter_5	mb_plb
+  (0xce460000-0xce46ffff) counter_4	mb_plb
+  (0xce480000-0xce48ffff) counter_3	mb_plb
+  (0xce4a0000-0xce4affff) counter_2	mb_plb
+  (0xce4c0000-0xce4cffff) counter_1	mb_plb
+  (0xce4e0000-0xce4effff) counter_0	mb_plb
+Generated Addresses Successfully
+
+********************************************************************************
+At Local date and time: Mon Apr 30 13:11:59 2018
+ make -f system.make netlist started...
+****************************************************
+Creating system netlist for hardware specification..
+****************************************************
+platgen -p xc4vlx60ff668-10 -lang vhdl -intstyle default    -msg __xps/ise/xmsgprops.lst system.mhs
+
+Release 14.4 - platgen Xilinx EDK 14.4 Build EDK_P.49d
+ (lin64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+
+Command Line: platgen -p xc4vlx60ff668-10 -lang vhdl -intstyle default -msg
+__xps/ise/xmsgprops.lst system.mhs 
+
+ERROR:EDK - INFO:Security:50 - The XILINXD_LICENSE_FILE environment variable is
+   set to '2100@xilinx-ece.byu.edu'.
+   INFO:Security:52 - The LM_LICENSE_FILE environment variable is set to
+   '2100@xilinx-ece.byu.edu'.
+   INFO:Security:71 - If a license for part 'xc4vlx60' is available, it will be
+   possible to use 'XPS_TDP' instead of 'XPS'.
+   INFO:Security:68a - user is adam, on host unknown.
+   WARNING:Security:43 - No license file was found in the standard Xilinx
+   license directory.
+   WARNING:Security:44 - Since no license file was found,
+          please run the Xilinx License Configuration Manager
+          (xlcm or "Manage Xilinx Licenses")
+          to assist in obtaining a license.
+   WARNING:Security:9b - No 'XPS' feature version 2012.12 was available for part
+   'xc4vlx60'.
+   ERROR:Security:12 - No 'xc4vlx60' feature version 2012.12 was available
+   (-96),
+        so 'XPS_TDP' may not be used.
+
+   License server machine is down or not responding.
+    See the system adminstrator about starting the license server system, or
+    make sure you're referring to the right host (see LM_LICENSE_FILE).
+   Feature:       XPS
+   Hostname:      xilinx-ece.byu.edu
+   License path: 
+   2100@xilinx-ece.byu.edu:/home/adam/.Xilinx/*.lic:/opt/Xilinx/14.4/ISE_DS/EDK/
+   data/*.lic:/opt/Xilinx/14.4/ISE_DS/ISE/data/*.lic:/opt/Xilinx/14.4/ISE_DS/ISE
+   /coregen/core_licenses/Xilinx.lic:/opt/Xilinx/14.4/ISE_DS/ISE/coregen/core_li
+   censes/XilinxFree.lic:/opt/Xilinx/14.4/ISE_DS/EDK/data/core_licenses/Xilinx.l
+   ic:
+   FLEXnet Licensing error:-96,7.  System Error: 2 "No such file or directory"
+   For further information, refer to the FLEXnet Licensing documentation,
+   available at "www.acresso.com".License server machine is down or not
+   responding.
+    See the system adminstrator about starting the license server system, or
+    make sure you're referring to the right host (see LM_LICENSE_FILE).
+   Feature:       xc4vlx60
+   Hostname:      xilinx-ece.byu.edu
+   License path: 
+   2100@xilinx-ece.byu.edu:/home/adam/.Xilinx/*.lic:/opt/Xilinx/14.4/ISE_DS/EDK/
+   data/*.lic:/opt/Xilinx/14.4/ISE_DS/ISE/data/*.lic:/opt/Xilinx/14.4/ISE_DS/ISE
+   /coregen/core_licenses/Xilinx.lic:/opt/Xilinx/14.4/ISE_DS/ISE/coregen/core_li
+   censes/XilinxFree.lic:/opt/Xilinx/14.4/ISE_DS/EDK/data/core_licenses/Xilinx.l
+   ic:
+   FLEXnet Licensing error:-96,7.  System Error: 2 "No such file or directory"
+   For further information, refer to the FLEXnet Licensing documentation,
+   available at "www.acresso.com".
+ERROR:EDK:440 - platgen failed with errors!
+system.make:125: recipe for target 'implementation/system_xps_timer_0_wrapper.ngc' failed
+make: *** [implementation/system_xps_timer_0_wrapper.ngc] Error 2
+Done!
+Address Map for Processor microblaze_0
+  (0000000000-0x00007fff) dlmb_cntlr	dlmb
+  (0000000000-0x00007fff) ilmb_cntlr	ilmb
+  (0x81800000-0x8180ffff) xps_intc_0	mb_plb
+  (0x83c00000-0x83c0ffff) xps_timer_0	mb_plb
+  (0x84000000-0x8400ffff) RS232_Uart_1	mb_plb
+  (0x84400000-0x8440ffff) mdm_0	mb_plb
+  (0xc1a00000-0xc1a0ffff) dut_control_core_0	mb_plb
+  (0xce400000-0xce40ffff) counter_7	mb_plb
+  (0xce420000-0xce42ffff) counter_6	mb_plb
+  (0xce440000-0xce44ffff) counter_5	mb_plb
+  (0xce460000-0xce46ffff) counter_4	mb_plb
+  (0xce480000-0xce48ffff) counter_3	mb_plb
+  (0xce4a0000-0xce4affff) counter_2	mb_plb
+  (0xce4c0000-0xce4cffff) counter_1	mb_plb
+  (0xce4e0000-0xce4effff) counter_0	mb_plb
+Generated Addresses Successfully
+
+********************************************************************************
+At Local date and time: Mon Apr 30 13:12:19 2018
+ make -f system.make netlist started...
+****************************************************
+Creating system netlist for hardware specification..
+****************************************************
+platgen -p xc4vlx60ff668-10 -lang vhdl -intstyle default    -msg __xps/ise/xmsgprops.lst system.mhs
+
+Release 14.4 - platgen Xilinx EDK 14.4 Build EDK_P.49d
+ (lin64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+
+Command Line: platgen -p xc4vlx60ff668-10 -lang vhdl -intstyle default -msg
+__xps/ise/xmsgprops.lst system.mhs 
+
+ERROR:EDK - INFO:Security:50 - The XILINXD_LICENSE_FILE environment variable is
+   set to '2100@xilinx-ece.byu.edu'.
+   INFO:Security:52 - The LM_LICENSE_FILE environment variable is set to
+   '2100@xilinx-ece.byu.edu'.
+   INFO:Security:71 - If a license for part 'xc4vlx60' is available, it will be
+   possible to use 'XPS_TDP' instead of 'XPS'.
+   INFO:Security:68a - user is adam, on host unknown.
+   WARNING:Security:43 - No license file was found in the standard Xilinx
+   license directory.
+   WARNING:Security:44 - Since no license file was found,
+          please run the Xilinx License Configuration Manager
+          (xlcm or "Manage Xilinx Licenses")
+          to assist in obtaining a license.
+   WARNING:Security:9b - No 'XPS' feature version 2012.12 was available for part
+   'xc4vlx60'.
+   ERROR:Security:12 - No 'xc4vlx60' feature version 2012.12 was available
+   (-96),
+        so 'XPS_TDP' may not be used.
+
+   License server machine is down or not responding.
+    See the system adminstrator about starting the license server system, or
+    make sure you're referring to the right host (see LM_LICENSE_FILE).
+   Feature:       XPS
+   Hostname:      xilinx-ece.byu.edu
+   License path: 
+   2100@xilinx-ece.byu.edu:/home/adam/.Xilinx/*.lic:/opt/Xilinx/14.4/ISE_DS/EDK/
+   data/*.lic:/opt/Xilinx/14.4/ISE_DS/ISE/data/*.lic:/opt/Xilinx/14.4/ISE_DS/ISE
+   /coregen/core_licenses/Xilinx.lic:/opt/Xilinx/14.4/ISE_DS/ISE/coregen/core_li
+   censes/XilinxFree.lic:/opt/Xilinx/14.4/ISE_DS/EDK/data/core_licenses/Xilinx.l
+   ic:
+   FLEXnet Licensing error:-96,7.  System Error: 2 "No such file or directory"
+   For further information, refer to the FLEXnet Licensing documentation,
+   available at "www.acresso.com".License server machine is down or not
+   responding.
+    See the system adminstrator about starting the license server system, or
+    make sure you're referring to the right host (see LM_LICENSE_FILE).
+   Feature:       xc4vlx60
+   Hostname:      xilinx-ece.byu.edu
+   License path: 
+   2100@xilinx-ece.byu.edu:/home/adam/.Xilinx/*.lic:/opt/Xilinx/14.4/ISE_DS/EDK/
+   data/*.lic:/opt/Xilinx/14.4/ISE_DS/ISE/data/*.lic:/opt/Xilinx/14.4/ISE_DS/ISE
+   /coregen/core_licenses/Xilinx.lic:/opt/Xilinx/14.4/ISE_DS/ISE/coregen/core_li
+   censes/XilinxFree.lic:/opt/Xilinx/14.4/ISE_DS/EDK/data/core_licenses/Xilinx.l
+   ic:
+   FLEXnet Licensing error:-96,7.  System Error: 2 "No such file or directory"
+   For further information, refer to the FLEXnet Licensing documentation,
+   available at "www.acresso.com".
+ERROR:EDK:440 - platgen failed with errors!
+system.make:125: recipe for target 'implementation/system_xps_timer_0_wrapper.ngc' failed
+make: *** [implementation/system_xps_timer_0_wrapper.ngc] Error 2
+Done!
+
+********************************************************************************
+At Local date and time: Mon Apr 30 13:12:46 2018
+ make -f system.make exporttosdk started...
+psf2Edward -inp system.xmp -exit_on_error -dont_add_loginfo -make_inst_lower -edwver 1.2 -xml SDK/SDK_Export/hw/system.xml 
+Release 14.4 - psf2Edward EDK_P.49d (lin64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+Checking platform configuration ...
+IPNAME: plb_v46, INSTANCE: mb_plb - 2 master(s) : 13 slave(s) 
+IPNAME: lmb_v10, INSTANCE: ilmb - 1 master(s) : 1 slave(s) 
+IPNAME: lmb_v10, INSTANCE: dlmb - 1 master(s) : 1 slave(s) 
+
+Checking port drivers...
+WARNING:EDK:4181 - PORT: Peripheral_Reset, CONNECTOR: sys_periph_reset -
+   floating connection - /home/adam/RO-PUF/XPS_workspace/hw/system.mhs line 45 
+WARNING:EDK:4181 - PORT: Res, CONNECTOR: fpga_0_ORGate_1_Res_pin - floating
+   connection - /home/adam/RO-PUF/XPS_workspace/hw/system.mhs line 168 
+
+Performing Clock DRCs...
+
+Performing Reset DRCs...
+
+Overriding system level properties...
+INFO:EDK:4130 - IPNAME: xps_intc, INSTANCE:xps_intc_0 - tcl is overriding
+   PARAMETER C_NUM_INTR_INPUTS value to 1 -
+   /opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/xps_intc_v2_01_a/d
+   ata/xps_intc_v2_1_0.mpd line 87 
+INFO:EDK:4130 - IPNAME: xps_intc, INSTANCE:xps_intc_0 - tcl is overriding
+   PARAMETER C_KIND_OF_INTR value to 0b11111111111111111111111111111111 -
+   /opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/xps_intc_v2_01_a/d
+   ata/xps_intc_v2_1_0.mpd line 88 
+INFO:EDK:4130 - IPNAME: xps_intc, INSTANCE:xps_intc_0 - tcl is overriding
+   PARAMETER C_KIND_OF_EDGE value to 0b11111111111111111111111111111111 -
+   /opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/xps_intc_v2_01_a/d
+   ata/xps_intc_v2_1_0.mpd line 89 
+INFO:EDK:4130 - IPNAME: xps_intc, INSTANCE:xps_intc_0 - tcl is overriding
+   PARAMETER C_KIND_OF_LVL value to 0b11111111111111111111111111111111 -
+   /opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/xps_intc_v2_01_a/d
+   ata/xps_intc_v2_1_0.mpd line 90 
+INFO:EDK:4130 - IPNAME: microblaze, INSTANCE:microblaze_0 - tcl is overriding
+   PARAMETER C_D_PLB value to 1 -
+   /opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b
+   /data/microblaze_v2_1_0.mpd line 231 
+INFO:EDK:4130 - IPNAME: microblaze, INSTANCE:microblaze_0 - tcl is overriding
+   PARAMETER C_I_PLB value to 1 -
+   /opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b
+   /data/microblaze_v2_1_0.mpd line 234 
+INFO:EDK:4130 - IPNAME: microblaze, INSTANCE:microblaze_0 - tcl is overriding
+   PARAMETER C_ADDR_TAG_BITS value to 0 -
+   /opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b
+   /data/microblaze_v2_1_0.mpd line 335 
+INFO:EDK:4130 - IPNAME: microblaze, INSTANCE:microblaze_0 - tcl is overriding
+   PARAMETER C_DCACHE_ADDR_TAG value to 0 -
+   /opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b
+   /data/microblaze_v2_1_0.mpd line 365 
+INFO:EDK:4130 - IPNAME: microblaze, INSTANCE:microblaze_0 - tcl is overriding
+   PARAMETER C_USE_INTERRUPT value to 1 -
+   /opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b
+   /data/microblaze_v2_1_0.mpd line 399 
+INFO:EDK:4130 - IPNAME: microblaze, INSTANCE:microblaze_0 - tcl is overriding
+   PARAMETER C_USE_EXT_BRK value to 1 -
+   /opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b
+   /data/microblaze_v2_1_0.mpd line 400 
+INFO:EDK:4130 - IPNAME: microblaze, INSTANCE:microblaze_0 - tcl is overriding
+   PARAMETER C_USE_EXT_NM_BRK value to 1 -
+   /opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_b
+   /data/microblaze_v2_1_0.mpd line 401 
+INFO:EDK:4130 - IPNAME: lmb_bram_if_cntlr, INSTANCE:ilmb_cntlr - tcl is
+   overriding PARAMETER C_MASK value to 0x80000000 -
+   /opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/lmb_bram_if_cntlr_
+   v3_10_c/data/lmb_bram_if_cntlr_v2_1_0.mpd line 92 
+
+Running system level update procedures...
+INFO:EDK:4130 - IPNAME: lmb_bram_if_cntlr, INSTANCE:dlmb_cntlr - tcl is
+   overriding PARAMETER C_MASK value to 0x80000000 -
+   /opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/lmb_bram_if_cntlr_
+   v3_10_c/data/lmb_bram_if_cntlr_v2_1_0.mpd line 92 
+
+Running UPDATE Tcl procedures for OPTION SYSLEVEL_UPDATE_PROC...
+
+Running system level DRCs...
+
+Performing System level DRCs on properties...
+
+Running DRC Tcl procedures for OPTION SYSLEVEL_DRC_PROC...
+Conversion to XML complete.
+xdsgen -inp system.xmp -report SDK/SDK_Export/hw/system.html  -make_docs_local
+Release 14.4 - xdsgen EDK_P.49d (lin64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+WARNING:EDK:878 - Could not find IP doc
+   http://www.xilinx.com/cgi-bin/docs/ipdoc?c=xps_timer;v=v1_02_a;d=xps_timer.pd
+   f
+WARNING:EDK:878 - Could not find IP doc
+   http://www.xilinx.com/cgi-bin/docs/ipdoc?c=xps_intc;v=v2_01_a;d=xps_intc.pdf
+WARNING:EDK:878 - Could not find IP doc
+   http://www.xilinx.com/cgi-bin/docs/ipdoc?c=proc_sys_reset;v=v3_00_a;d=proc_sy
+   s_reset.pdf
+WARNING:EDK:878 - Could not find IP doc
+   http://www.xilinx.com/cgi-bin/docs/ipdoc?c=mdm;v=v2_10_a;d=pg062-mdm.pdf
+WARNING:EDK:878 - Could not find IP doc
+   http://www.xilinx.com/cgi-bin/docs/ipdoc?c=plb_v46;v=v1_05_a;d=plb_v46.pdf
+WARNING:EDK:878 - Could not find IP doc
+   http://www.xilinx.com/cgi-bin/docs/ipdoc?c=bram_block;v=v1_00_a;d=bram_block.
+   pdf
+WARNING:EDK:878 - Could not find IP doc
+   http://www.xilinx.com/cgi-bin/docs/ipdoc?c=lmb_bram_if_cntlr;v=v3_10_c;d=pg06
+   1-lmb-bram-if-cntlr.pdf
+WARNING:EDK:878 - Could not find IP doc
+   http://www.xilinx.com/cgi-bin/docs/ipdoc?c=lmb_v10;v=v2_00_b;d=pg087-lmb-v10.
+   pdf
+WARNING:EDK:878 - Could not find IP doc
+   http://www.xilinx.com/cgi-bin/docs/ipdoc?c=lmb_bram_if_cntlr;v=v3_10_c;d=pg06
+   1-lmb-bram-if-cntlr.pdf
+WARNING:EDK:878 - Could not find IP doc
+   http://www.xilinx.com/cgi-bin/docs/ipdoc?c=lmb_v10;v=v2_00_b;d=pg087-lmb-v10.
+   pdf
+WARNING:EDK:878 - Could not find IP doc
+   http://www.xilinx.com/cgi-bin/docs/ipdoc?c=clock_generator;v=v4_03_a;d=clock_
+   generator.pdf
+WARNING:EDK:878 - Could not find IP doc
+   http://www.xilinx.com/cgi-bin/docs/ipdoc?c=xps_uartlite;v=v1_02_a;d=xps_uartl
+   ite.pdf
+Generated Block Diagram.
+Rasterizing xps_timer_0.jpg.....
+Rasterizing xps_intc_0.jpg.....
+Rasterizing proc_sys_reset_0.jpg.....
+Rasterizing microblaze_0.jpg.....
+Rasterizing mdm_0.jpg.....
+Rasterizing mb_plb.jpg.....
+Rasterizing lmb_bram.jpg.....
+Rasterizing ilmb_cntlr.jpg.....
+Rasterizing ilmb.jpg.....
+Rasterizing dut_control_core_0.jpg.....
+Rasterizing dlmb_cntlr.jpg.....
+Rasterizing dlmb.jpg.....
+Rasterizing clock_generator_0.jpg.....
+Rasterizing RS232_Uart_1.jpg.....
+Rasterizing ORGate_1.jpg.....
+Rasterizing counter_0.jpg.....
+Rasterizing counter_1.jpg.....
+Rasterizing counter_2.jpg.....
+Rasterizing counter_3.jpg.....
+Rasterizing counter_4.jpg.....
+Rasterizing counter_5.jpg.....
+Rasterizing counter_6.jpg.....
+Rasterizing counter_7.jpg.....
+Rasterizing system_blkd.jpg.....
+Report generated.
+Report generation completed.
+****************************************************
+Creating system netlist for hardware specification..
+****************************************************
+platgen -p xc4vlx60ff668-10 -lang vhdl -intstyle default    -msg __xps/ise/xmsgprops.lst system.mhs
+
+Release 14.4 - platgen Xilinx EDK 14.4 Build EDK_P.49d
+ (lin64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+
+Command Line: platgen -p xc4vlx60ff668-10 -lang vhdl -intstyle default -msg
+__xps/ise/xmsgprops.lst system.mhs 
+
+ERROR:EDK - INFO:Security:50 - The XILINXD_LICENSE_FILE environment variable is
+   set to '2100@xilinx-ece.byu.edu'.
+   INFO:Security:52 - The LM_LICENSE_FILE environment variable is set to
+   '2100@xilinx-ece.byu.edu'.
+   INFO:Security:71 - If a license for part 'xc4vlx60' is available, it will be
+   possible to use 'XPS_TDP' instead of 'XPS'.
+   INFO:Security:68a - user is adam, on host unknown.
+   WARNING:Security:43 - No license file was found in the standard Xilinx
+   license directory.
+   WARNING:Security:44 - Since no license file was found,
+          please run the Xilinx License Configuration Manager
+          (xlcm or "Manage Xilinx Licenses")
+          to assist in obtaining a license.
+   WARNING:Security:9b - No 'XPS' feature version 2012.12 was available for part
+   'xc4vlx60'.
+   ERROR:Security:12 - No 'xc4vlx60' feature version 2012.12 was available
+   (-96),
+        so 'XPS_TDP' may not be used.
+
+   License server machine is down or not responding.
+    See the system adminstrator about starting the license server system, or
+    make sure you're referring to the right host (see LM_LICENSE_FILE).
+   Feature:       XPS
+   Hostname:      xilinx-ece.byu.edu
+   License path: 
+   2100@xilinx-ece.byu.edu:/home/adam/.Xilinx/*.lic:/opt/Xilinx/14.4/ISE_DS/EDK/
+   data/*.lic:/opt/Xilinx/14.4/ISE_DS/ISE/data/*.lic:/opt/Xilinx/14.4/ISE_DS/ISE
+   /coregen/core_licenses/Xilinx.lic:/opt/Xilinx/14.4/ISE_DS/ISE/coregen/core_li
+   censes/XilinxFree.lic:/opt/Xilinx/14.4/ISE_DS/EDK/data/core_licenses/Xilinx.l
+   ic:
+   FLEXnet Licensing error:-96,7.  System Error: 2 "No such file or directory"
+   For further information, refer to the FLEXnet Licensing documentation,
+   available at "www.acresso.com".License server machine is down or not
+   responding.
+    See the system adminstrator about starting the license server system, or
+    make sure you're referring to the right host (see LM_LICENSE_FILE).
+   Feature:       xc4vlx60
+   Hostname:      xilinx-ece.byu.edu
+   License path: 
+   2100@xilinx-ece.byu.edu:/home/adam/.Xilinx/*.lic:/opt/Xilinx/14.4/ISE_DS/EDK/
+   data/*.lic:/opt/Xilinx/14.4/ISE_DS/ISE/data/*.lic:/opt/Xilinx/14.4/ISE_DS/ISE
+   /coregen/core_licenses/Xilinx.lic:/opt/Xilinx/14.4/ISE_DS/ISE/coregen/core_li
+   censes/XilinxFree.lic:/opt/Xilinx/14.4/ISE_DS/EDK/data/core_licenses/Xilinx.l
+   ic:
+   FLEXnet Licensing error:-96,7.  System Error: 2 "No such file or directory"
+   For further information, refer to the FLEXnet Licensing documentation,
+   available at "www.acresso.com".
+ERROR:EDK:440 - platgen failed with errors!
+system.make:125: recipe for target 'implementation/system.bmm' failed
+make: *** [implementation/system.bmm] Error 2
+Done!
+Writing filter settings....
+Done writing filter settings to:
+	/home/adam/RO-PUF/XPS_workspace/hw/etc/system.filters
+Done writing Tab View settings to:
+	/home/adam/RO-PUF/XPS_workspace/hw/etc/system.gui

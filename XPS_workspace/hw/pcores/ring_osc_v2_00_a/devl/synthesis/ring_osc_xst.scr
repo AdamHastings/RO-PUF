@@ -1,0 +1,12 @@
+run
+-opt_level 2
+-opt_mode speed
+-ifmt mixed
+-ifn "/home/adam/RO-PUF/XPS_workspace/hw/pcores/ring_osc_v2_00_a/devl/synthesis/ring_osc_xst.prj"
+-top ring_osc
+-p virtex6
+-ofn "/home/adam/RO-PUF/XPS_workspace/hw/pcores/ring_osc_v2_00_a/devl/synthesis/ring_osc_xst.ngc"
+-iobuf NO
+-rtlview YES
+-hierarchy_separator /
+-work_lib ring_osc_v2_00_a

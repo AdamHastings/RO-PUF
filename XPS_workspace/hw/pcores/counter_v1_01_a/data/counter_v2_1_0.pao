@@ -1,0 +1,10 @@
+##############################################################################
+## Filename:          /home/adam/RO-PUF/XPS_workspace/hw/pcores/counter_v1_01_a/data/counter_v2_1_0.pao
+## Description:       Peripheral Analysis Order
+## Date:              Mon Apr 30 13:08:54 2018 (by Create and Import Peripheral Wizard)
+##############################################################################
+
+lib proc_common_v3_00_a  all 
+lib plbv46_slave_single_v1_01_a  all 
+lib counter_v1_01_a user_logic vhdl
+lib counter_v1_01_a counter vhdl

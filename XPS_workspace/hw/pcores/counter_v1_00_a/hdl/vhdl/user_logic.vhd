@@ -141,6 +141,7 @@ architecture IMP of user_logic is
   ------------------------------------------
   signal slv_reg0                       : std_logic_vector(0 to C_SLV_DWIDTH-1);
   signal slv_reg1                       : std_logic_vector(0 to C_SLV_DWIDTH-1);
+  signal slv_reg2                       : std_logic_vector(0 to C_SLV_DWIDTH-1);
   signal slv_reg_write_sel              : std_logic_vector(0 to 1);
   signal slv_reg_read_sel               : std_logic_vector(0 to 1);
   signal slv_ip2bus_data                : std_logic_vector(0 to C_SLV_DWIDTH-1);

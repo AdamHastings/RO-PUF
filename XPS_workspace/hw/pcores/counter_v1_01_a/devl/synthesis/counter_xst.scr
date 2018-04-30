@@ -1,0 +1,12 @@
+run
+-opt_level 2
+-opt_mode speed
+-ifmt mixed
+-ifn "/home/adam/RO-PUF/XPS_workspace/hw/pcores/counter_v1_01_a/devl/synthesis/counter_xst.prj"
+-top counter
+-p virtex6
+-ofn "/home/adam/RO-PUF/XPS_workspace/hw/pcores/counter_v1_01_a/devl/synthesis/counter_xst.ngc"
+-iobuf NO
+-rtlview YES
+-hierarchy_separator /
+-work_lib counter_v1_01_a
