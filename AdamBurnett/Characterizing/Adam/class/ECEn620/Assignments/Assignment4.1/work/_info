@@ -1,0 +1,68 @@
+m255
+K3
+13
+cModel Technology
+Z0 d/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.1
+Ymem_if
+Z1 DXx6 sv_std 3 std 0 22 F[19LRNL:5;XmIFh[XOPn1
+VeeVHdzV3d=N1k8AB7PiY<0
+r1
+31
+I0]^_TMZ0>eT2k4hMHB6AZ1
+Z2 !s105 mem_sv_unit
+S1
+Z3 d/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.1
+Z4 w1412364076
+Z5 8/net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.1/sverilog/mem.sv
+Z6 F/net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.1/sverilog/mem.sv
+L0 3
+Z7 OL;L;10.1c;51
+Z8 !s108 1412372364.165148
+Z9 !s107 /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.1/sverilog/mem.sv|
+Z10 !s90 -reportprogress|300|-work|work|-vopt|-sv|/net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.1/sverilog/mem.sv|
+Z11 o-work work -sv -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
+!s85 0
+!s100 _00VNQbnUj_nc2T7XHAmK0
+!i10b 1
+vmy_mem
+R1
+V=:X`Yz0eVndec8UQS=HmG1
+r1
+!s85 0
+31
+I57QMc[9zOM_OY[o6o373l2
+R2
+S1
+R3
+R4
+R5
+R6
+L0 54
+R7
+R8
+R9
+R10
+R11
+!s100 89I?KBiJ<lX1EQLVajgCY1
+!i10b 1
+vtestbench
+R1
+VhGfW:390DM[oDMzegDH9`2
+r1
+31
+I4IiBFQ1BPCV73@MXm0??n0
+S1
+R3
+w1412372340
+8/net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.1/sverilog/testbench.sv
+F/net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.1/sverilog/testbench.sv
+L0 4
+R7
+R11
+!s85 0
+!s105 testbench_sv_unit
+!s90 -reportprogress|300|-work|work|-vopt|-sv|/net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.1/sverilog/testbench.sv|
+!i10b 1
+!s100 Soz?SJ7>AH]ej@g29]R4R2
+!s108 1412372364.280955
+!s107 /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.1/sverilog/testbench.sv|

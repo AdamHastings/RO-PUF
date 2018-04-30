@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="PhysDesignRules" num="367" delta="old" >The signal &lt;<arg fmt="%s" index="1">dlmb_LMB_ABus&lt;30&gt;</arg>&gt; is incomplete. The signal does not drive any load pins in the design.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="367" delta="old" >The signal &lt;<arg fmt="%s" index="1">dlmb_LMB_ABus&lt;31&gt;</arg>&gt; is incomplete. The signal does not drive any load pins in the design.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="812" delta="old" >Dangling pin &lt;<arg fmt="%s" index="1">IN</arg>&gt; on block:&lt;<arg fmt="%s" index="2">ring_osc_1/ring_osc_1/USER_LOGIC_I/ring_osc_buf_BUFG</arg>&gt;:&lt;<arg fmt="%s" index="3">BUFG_GCLK_BUFFER</arg>&gt;.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="812" delta="old" >Dangling pin &lt;<arg fmt="%s" index="1">HARD0</arg>&gt; on block:&lt;<arg fmt="%s" index="2">tieoff_4.TIEOFF_BLACKBOX</arg>&gt;:&lt;<arg fmt="%s" index="3">TIEOFF_TIEOFF_BLACKBOX</arg>&gt;.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="812" delta="old" >Dangling pin &lt;<arg fmt="%s" index="1">HARD1</arg>&gt; on block:&lt;<arg fmt="%s" index="2">tieoff_4.TIEOFF_BLACKBOX</arg>&gt;:&lt;<arg fmt="%s" index="3">TIEOFF_TIEOFF_BLACKBOX</arg>&gt;.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="812" delta="old" >Dangling pin &lt;<arg fmt="%s" index="1">KEEP1</arg>&gt; on block:&lt;<arg fmt="%s" index="2">tieoff_4.TIEOFF_BLACKBOX</arg>&gt;:&lt;<arg fmt="%s" index="3">TIEOFF_TIEOFF_BLACKBOX</arg>&gt;.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="812" delta="old" >Dangling pin &lt;<arg fmt="%s" index="1">HARD0</arg>&gt; on block:&lt;<arg fmt="%s" index="2">tieoff_5.TIEOFF_BLACKBOX</arg>&gt;:&lt;<arg fmt="%s" index="3">TIEOFF_TIEOFF_BLACKBOX</arg>&gt;.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="812" delta="old" >Dangling pin &lt;<arg fmt="%s" index="1">HARD1</arg>&gt; on block:&lt;<arg fmt="%s" index="2">tieoff_5.TIEOFF_BLACKBOX</arg>&gt;:&lt;<arg fmt="%s" index="3">TIEOFF_TIEOFF_BLACKBOX</arg>&gt;.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="812" delta="old" >Dangling pin &lt;<arg fmt="%s" index="1">KEEP1</arg>&gt; on block:&lt;<arg fmt="%s" index="2">tieoff_5.TIEOFF_BLACKBOX</arg>&gt;:&lt;<arg fmt="%s" index="3">TIEOFF_TIEOFF_BLACKBOX</arg>&gt;.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="812" delta="old" >Dangling pin &lt;<arg fmt="%s" index="1">HARD0</arg>&gt; on block:&lt;<arg fmt="%s" index="2">tieoff_6.TIEOFF_BLACKBOX</arg>&gt;:&lt;<arg fmt="%s" index="3">TIEOFF_TIEOFF_BLACKBOX</arg>&gt;.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="812" delta="old" >Dangling pin &lt;<arg fmt="%s" index="1">HARD1</arg>&gt; on block:&lt;<arg fmt="%s" index="2">tieoff_6.TIEOFF_BLACKBOX</arg>&gt;:&lt;<arg fmt="%s" index="3">TIEOFF_TIEOFF_BLACKBOX</arg>&gt;.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="812" delta="old" >Dangling pin &lt;<arg fmt="%s" index="1">KEEP1</arg>&gt; on block:&lt;<arg fmt="%s" index="2">tieoff_6.TIEOFF_BLACKBOX</arg>&gt;:&lt;<arg fmt="%s" index="3">TIEOFF_TIEOFF_BLACKBOX</arg>&gt;.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="812" delta="old" >Dangling pin &lt;<arg fmt="%s" index="1">HARD0</arg>&gt; on block:&lt;<arg fmt="%s" index="2">tieoff_0.TIEOFF_BLACKBOX</arg>&gt;:&lt;<arg fmt="%s" index="3">TIEOFF_TIEOFF_BLACKBOX</arg>&gt;.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="812" delta="old" >Dangling pin &lt;<arg fmt="%s" index="1">HARD1</arg>&gt; on block:&lt;<arg fmt="%s" index="2">tieoff_0.TIEOFF_BLACKBOX</arg>&gt;:&lt;<arg fmt="%s" index="3">TIEOFF_TIEOFF_BLACKBOX</arg>&gt;.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="812" delta="old" >Dangling pin &lt;<arg fmt="%s" index="1">KEEP1</arg>&gt; on block:&lt;<arg fmt="%s" index="2">tieoff_0.TIEOFF_BLACKBOX</arg>&gt;:&lt;<arg fmt="%s" index="3">TIEOFF_TIEOFF_BLACKBOX</arg>&gt;.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="812" delta="old" >Dangling pin &lt;<arg fmt="%s" index="1">HARD0</arg>&gt; on block:&lt;<arg fmt="%s" index="2">tieoff_1.TIEOFF_BLACKBOX</arg>&gt;:&lt;<arg fmt="%s" index="3">TIEOFF_TIEOFF_BLACKBOX</arg>&gt;.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="812" delta="old" >Dangling pin &lt;<arg fmt="%s" index="1">HARD1</arg>&gt; on block:&lt;<arg fmt="%s" index="2">tieoff_1.TIEOFF_BLACKBOX</arg>&gt;:&lt;<arg fmt="%s" index="3">TIEOFF_TIEOFF_BLACKBOX</arg>&gt;.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="812" delta="old" >Dangling pin &lt;<arg fmt="%s" index="1">KEEP1</arg>&gt; on block:&lt;<arg fmt="%s" index="2">tieoff_1.TIEOFF_BLACKBOX</arg>&gt;:&lt;<arg fmt="%s" index="3">TIEOFF_TIEOFF_BLACKBOX</arg>&gt;.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="812" delta="old" >Dangling pin &lt;<arg fmt="%s" index="1">HARD0</arg>&gt; on block:&lt;<arg fmt="%s" index="2">tieoff_2.TIEOFF_BLACKBOX</arg>&gt;:&lt;<arg fmt="%s" index="3">TIEOFF_TIEOFF_BLACKBOX</arg>&gt;.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="812" delta="old" >Dangling pin &lt;<arg fmt="%s" index="1">HARD1</arg>&gt; on block:&lt;<arg fmt="%s" index="2">tieoff_2.TIEOFF_BLACKBOX</arg>&gt;:&lt;<arg fmt="%s" index="3">TIEOFF_TIEOFF_BLACKBOX</arg>&gt;.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="812" delta="old" >Dangling pin &lt;<arg fmt="%s" index="1">KEEP1</arg>&gt; on block:&lt;<arg fmt="%s" index="2">tieoff_2.TIEOFF_BLACKBOX</arg>&gt;:&lt;<arg fmt="%s" index="3">TIEOFF_TIEOFF_BLACKBOX</arg>&gt;.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="812" delta="old" >Dangling pin &lt;<arg fmt="%s" index="1">HARD0</arg>&gt; on block:&lt;<arg fmt="%s" index="2">tieoff_3.TIEOFF_BLACKBOX</arg>&gt;:&lt;<arg fmt="%s" index="3">TIEOFF_TIEOFF_BLACKBOX</arg>&gt;.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="812" delta="old" >Dangling pin &lt;<arg fmt="%s" index="1">HARD1</arg>&gt; on block:&lt;<arg fmt="%s" index="2">tieoff_3.TIEOFF_BLACKBOX</arg>&gt;:&lt;<arg fmt="%s" index="3">TIEOFF_TIEOFF_BLACKBOX</arg>&gt;.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="812" delta="old" >Dangling pin &lt;<arg fmt="%s" index="1">KEEP1</arg>&gt; on block:&lt;<arg fmt="%s" index="2">tieoff_3.TIEOFF_BLACKBOX</arg>&gt;:&lt;<arg fmt="%s" index="3">TIEOFF_TIEOFF_BLACKBOX</arg>&gt;.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="781" delta="old" ><arg fmt="%s" index="1">PULLUP</arg> on an active net. <arg fmt="%s" index="2">PULLUP</arg> of comp <arg fmt="%s" index="3">dut_uart_request</arg> is set but the tri state is not configured. 
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="781" delta="old" ><arg fmt="%s" index="1">PULLUP</arg> on an active net. <arg fmt="%s" index="2">PULLUP</arg> of comp <arg fmt="%s" index="3">dut_uart_release</arg> is set but the tri state is not configured. 
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="781" delta="old" ><arg fmt="%s" index="1">PULLUP</arg> on an active net. <arg fmt="%s" index="2">PULLUP</arg> of comp <arg fmt="%s" index="3">dut_test_done</arg> is set but the tri state is not configured. 
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="10" delta="old" >The network &lt;<arg fmt="%s" index="1">net_ring_osc_2</arg>&gt; is completely unrouted.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="798" delta="old" >The network &lt;<arg fmt="%s" index="1">net_ring_osc_0</arg>&gt; has an antenna. Routing is incomplete.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="9" delta="old" >The network &lt;<arg fmt="%s" index="1">net_ring_osc_0</arg>&gt; is only partially routed.
+</msg>
+
+<msg type="error" file="PhysDesignRules" num="1713" delta="old" >The network &lt;<arg fmt="%s" index="1">net_ring_osc_0</arg>&gt; has a routing conflict with resource <arg fmt="%s" index="2">OMUX(-114019,-46992)</arg> driven by routing switch <arg fmt="%s" index="3">OUTBOUND(-115619,-45760)---&gt;OMUX(-114019,-46992)</arg>. 
+</msg>
+
+<msg type="error" file="PhysDesignRules" num="1712" delta="old" >The network &lt;<arg fmt="%s" index="1">net_ring_osc_0</arg>&gt; has a routing conflict with resouce <arg fmt="%s" index="2">PINFEED(-111467,-46656)</arg>.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="798" delta="old" >The network &lt;<arg fmt="%s" index="1">net_ring_osc_3</arg>&gt; has an antenna. Routing is incomplete.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="9" delta="old" >The network &lt;<arg fmt="%s" index="1">net_ring_osc_3</arg>&gt; is only partially routed.
+</msg>
+
+<msg type="error" file="PhysDesignRules" num="1713" delta="old" >The network &lt;<arg fmt="%s" index="1">net_ring_osc_3</arg>&gt; has a routing conflict with resource <arg fmt="%s" index="2">OMUX(-97187,-46992)</arg> driven by routing switch <arg fmt="%s" index="3">OUTBOUND(-98787,-45760)---&gt;OMUX(-97187,-46992)</arg>. 
+</msg>
+
+<msg type="error" file="PhysDesignRules" num="1712" delta="old" >The network &lt;<arg fmt="%s" index="1">net_ring_osc_3</arg>&gt; has a routing conflict with resouce <arg fmt="%s" index="2">PINFEED(-94635,-46656)</arg>.
+</msg>
+
+<msg type="error" file="PhysDesignRules" num="799" delta="old" >The network &lt;<arg fmt="%s" index="1">net_ring_osc_3</arg>&gt; has island(s). Routing is incomplete.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="798" delta="old" >The network &lt;<arg fmt="%s" index="1">net_ring_osc_4</arg>&gt; has an antenna. Routing is incomplete.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="9" delta="old" >The network &lt;<arg fmt="%s" index="1">net_ring_osc_4</arg>&gt; is only partially routed.
+</msg>
+
+<msg type="error" file="PhysDesignRules" num="1713" delta="old" >The network &lt;<arg fmt="%s" index="1">net_ring_osc_4</arg>&gt; has a routing conflict with resource <arg fmt="%s" index="2">OMUX(-93035,-46992)</arg> driven by routing switch <arg fmt="%s" index="3">OUTBOUND(-94635,-45760)---&gt;OMUX(-93035,-46992)</arg>. 
+</msg>
+
+<msg type="error" file="PhysDesignRules" num="1713" delta="old" >The network &lt;<arg fmt="%s" index="1">net_ring_osc_4</arg>&gt; has a routing conflict with resource <arg fmt="%s" index="2">PINFEED(-94635,-46656)</arg> driven by routing switch <arg fmt="%s" index="3">OMUX(-97187,-46992)---&gt;PINFEED(-94635,-46656)</arg>. 
+</msg>
+
+<msg type="error" file="PhysDesignRules" num="1712" delta="old" >The network &lt;<arg fmt="%s" index="1">net_ring_osc_4</arg>&gt; has a routing conflict with resouce <arg fmt="%s" index="2">OMUX(-97187,-46992)</arg>.
+</msg>
+
+<msg type="error" file="PhysDesignRules" num="1712" delta="old" >The network &lt;<arg fmt="%s" index="1">net_ring_osc_4</arg>&gt; has a routing conflict with resouce <arg fmt="%s" index="2">PINFEED(-90483,-46656)</arg>.
+</msg>
+
+<msg type="error" file="PhysDesignRules" num="799" delta="old" >The network &lt;<arg fmt="%s" index="1">net_ring_osc_4</arg>&gt; has island(s). Routing is incomplete.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="798" delta="old" >The network &lt;<arg fmt="%s" index="1">net_ring_osc_1</arg>&gt; has an antenna. Routing is incomplete.
+</msg>
+
+<msg type="error" file="PhysDesignRules" num="1713" delta="old" >The network &lt;<arg fmt="%s" index="1">net_ring_osc_1</arg>&gt; has a routing conflict with resource <arg fmt="%s" index="2">PINFEED(-111467,-46656)</arg> driven by routing switch <arg fmt="%s" index="3">OMUX(-114019,-46992)---&gt;PINFEED(-111467,-46656)</arg>. 
+</msg>
+
+<msg type="error" file="PhysDesignRules" num="1712" delta="old" >The network &lt;<arg fmt="%s" index="1">net_ring_osc_1</arg>&gt; has a routing conflict with resouce <arg fmt="%s" index="2">OMUX(-114019,-46992)</arg>.
+</msg>
+
+<msg type="error" file="PhysDesignRules" num="799" delta="old" >The network &lt;<arg fmt="%s" index="1">net_ring_osc_1</arg>&gt; has island(s). Routing is incomplete.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="798" delta="old" >The network &lt;<arg fmt="%s" index="1">net_ring_osc_5</arg>&gt; has an antenna. Routing is incomplete.
+</msg>
+
+<msg type="error" file="PhysDesignRules" num="1713" delta="old" >The network &lt;<arg fmt="%s" index="1">net_ring_osc_5</arg>&gt; has a routing conflict with resource <arg fmt="%s" index="2">PINFEED(-90483,-46656)</arg> driven by routing switch <arg fmt="%s" index="3">OMUX(-93035,-46992)---&gt;PINFEED(-90483,-46656)</arg>. 
+</msg>
+
+<msg type="error" file="PhysDesignRules" num="1712" delta="old" >The network &lt;<arg fmt="%s" index="1">net_ring_osc_5</arg>&gt; has a routing conflict with resouce <arg fmt="%s" index="2">OMUX(-93035,-46992)</arg>.
+</msg>
+
+<msg type="error" file="PhysDesignRules" num="799" delta="old" >The network &lt;<arg fmt="%s" index="1">net_ring_osc_5</arg>&gt; has island(s). Routing is incomplete.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="10" delta="old" >The network &lt;<arg fmt="%s" index="1">net_ring_osc_6</arg>&gt; is completely unrouted.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="10" delta="old" >The network &lt;<arg fmt="%s" index="1">ring_osc_1/ring_osc_1/USER_LOGIC_I/ring_osc</arg>&gt; is completely unrouted.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="10" delta="old" >The network &lt;<arg fmt="%s" index="1">ring_osc_1/ring_osc_1/USER_LOGIC_I/slv_reg2&lt;1&gt;</arg>&gt; is completely unrouted.
+</msg>
+
+<msg type="warning" file="XDL" num="184" delta="new" >Forced writing the NCD file even though <arg fmt="%d" index="1">16</arg> DRC error(s) are present.
+</msg>
+
+</messages>
+

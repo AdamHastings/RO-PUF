@@ -1,0 +1,796 @@
+# //  Questa Sim-64
+# //  Version 10.1c linux_x86_64 Jul 27 2012
+# //
+# //  Copyright 1991-2012 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //
+# reading modelsim.ini
+# Loading project adpcm
+cd ..
+# reading modelsim.ini
+# reading /net/fpga2/questasim10.1c/questasim/linux_x86_64/../modelsim.ini
+cd ..
+cd ..
+cd ..
+pwd
+# /net/fpga1/users/joshuas2/Dissertation/projects/translators/simple/test/CHStone_v1.9_VivadoHLS/builds/chstone_baseline_build/adpcm
+cd ..
+cd ..
+cd ..
+pwd
+# /net/fpga1/users/joshuas2/Dissertation/projects/translators/simple/test/CHStone_v1.9_VivadoHLS
+cd ../../../../
+pwd
+# /net/fpga1/users/joshuas2/Dissertation/projects
+cd ..
+cd ..
+# reading modelsim.ini
+ls
+# \
+# 08-16.pdf
+# 1.1-release
+# 620Mult
+# 621
+# 670_6_26.m
+# 670HW_6_26.m
+# adobe-release-i386-1.0-1.noarch.rpm
+#adpcm_main_csynth.xml#
+# adpcm_main_csynth.xml
+# AlgorithmsHw4.txt
+# AmbricLabs.jar
+# AmbricWorkspace
+# amd
+# AMROM.txt
+# ArmDevelopment
+# array_mult.vhd
+# array_mult.vhd.bak
+# atlys_demo_bist_cleanspaceinvaders
+# autoesl.log
+# autoimpl.log
+# auto_project_1.ipf
+# auto_project_xdb
+# autosim.log
+# backup
+# %backup%~
+# backup_1.tdms
+# backup.tdms
+# bcompare
+# BellOrder
+# benchmarks.cpp~
+# bitserial
+# blank_fpga_editor.out
+# ~$Book1.xlsx
+# Book1.xlsx
+# bookalgs
+# BOOK_CD_671
+# BufferSizes.csv
+# BufferSizes.xlsx
+# builds
+# CalculateSlopeAndDisplay.m
+# CalculateSlopeAndDisplay.m~
+# Castor Plug-in for Eclipse
+# cd.zip
+# check
+# chrec2013
+# chrec2014
+# CHREStuffFromLaptop.zip
+# CLBInnardsVerify_fpga_editor.log
+# CLBInnardsVerify.ncd
+# cleancable.sh
+# cleancable.sh~
+# CodeSourcery
+# ColorConvert.tar
+#com#
+# compxlib.cfg
+# compxlib.log
+# compxlib.log.bak
+# ConstraintEnumerator
+# Copy of Book1 (Autosaved).xlsx
+# ~$Copy of Book1.xlsx
+# Copy of Book1.xlsx
+# coregen.cgc
+# coregen.cgp
+# coregen.log
+# cpp_FIR
+# createHist.m
+# cuda-mode.el
+# cuda-mode.el~
+# data
+# DataFile.lvm
+# DataFile.txt
+# dds_compiler_v4_0.asy
+# dds_compiler_v4_0_flist.txt
+# dds_compiler_v4_0.gise
+# dds_compiler_v4_0.ngc
+# dds_compiler_v4_0_readme.txt
+# dds_compiler_v4_0.vhd
+# dds_compiler_v4_0.vho
+# dds_compiler_v4_0.xco
+# dds_compiler_v4_0.xise
+# dds_compiler_v4_0_xmdf.tcl
+# default.svf
+# demo_bitstreams
+# Desktop
+# DeviceArchitecture.odt
+# DiodeTempVoltageCurve.txt
+# DiodeTempVoltageCurve.txt~
+# Dissertation
+# dissertationbackup
+# Documents
+# downloads
+# Downloads
+# Drop_Box
+# dummy
+# dut_cntrl_d.c
+# dut_cntrl_d.c~
+# dvi_controller_sc_trace_0.vcd
+# EasierResultsToRead.txt
+# ECEn330
+# ECEn620
+# eclipse
+# eclipse-cpp
+# eclipse-cpp-helios-SR2-linux-gtk.tar.tar
+# edid.bin
+# edk
+# EDK_LIBS
+# edk.sh
+# edk.sh~
+# EDK_SIMULATIONLIBS
+# EDK_SIMULATION_LIBS_MODELSIM10.1a
+#.emacs#
+# etc
+# FFMPEG
+# final.c
+# final.s
+# firefox
+# FMROM.txt
+# FoxitReader-1.1.0.tar.bz2
+# FoxitReader-1.1.0.tar.bz2_FILES
+# FPGA
+# FPGA_LINUX
+# FPGALINUX.tar
+# fpl2014Presentation.pptx
+# FPT2010PaperMWFIXES.pdf
+# FPTpaper.pdf
+# FX60_fpga_editor.log
+# FX60.ncd
+# google.repo
+# GPU
+# hello.c
+# hello_fpga_editor.log
+# helloworld.class
+# helloworld.java
+# helloworld.java~
+# howthingaregoingtobedifferent.odt
+# hs_err_pid21298.log
+# hs_err_pid29813.log
+# hs_err_pid4990.log
+# hs_err_pid9731.log
+# hte
+# HW.m
+# ICAClient
+# IEEE_CS_Latex8.5x11x2
+# _impactbatch.log
+# _impact.cmd
+# impact_impact.xwbt
+# _impact.log
+# impact.xsl
+# ImportReliabilityResults
+# include
+# index.html
+# investigationOfTestVectors.txt
+# java.log.1903
+# javaworkspace
+# javaworkspace2
+# joshcode.m
+# JPL Proposal 2013.docx
+# labCache.tgz
+# LabView
+# LabviewPowerMeasurementVIs
+# LabviewReading.txt
+# LabviewTest.txt
+# LatexIARPAWhitePaper
+# latex_stuff
+# LCOMORDER.pdf
+# LegUpHLS
+# lib
+#links#
+# LinuxReliabilityResults
+# linuxx86-11.100.158406.tar.gz
+# linuxx86-11.100.158406.tar.gz_FILES
+# LLFileSearch
+# LV to MAT
+# lx20_fpga_editor.log
+# LX60FF668_fpga_editor.log
+# LX60FF668.ncd
+# lx60_fpga_editor.log
+# MakeController
+# Makefile
+# Master's Thesis Proposal.odt
+# MasterThesisGoodProposal.odt
+# matlab_crash_dump.31998
+# MeasureVoltage.aliases
+# MeasureVoltage.lvproj
+# mgc
+# Microsoft Word - Resume2009.pdf
+# minicom.log
+# misc
+# mkpict
+# ML410_PCI4GPIO
+# ml410_schematic.pdf
+# modelsim10.1a_installfiles
+# modelsim6.5b
+# modelsim6.6c_install_files
+# modelsim6.6d_installfiles
+# ModelSimEDK_13_1_Simulation_Libs
+# modelsim.ini
+# modelsim.ini.bak
+# Music
+# muxesCorrect.txt
+# MuxesIncorrect.txt
+# new_seewave
+# numcrunch.dlx
+# OldDeskTop
+# opt
+# output.pdf
+# PCMFMROM.txt
+# pcores
+# Pictures
+# planAhead.jou
+# planAhead.jou_backup
+# planAhead.log
+# planAhead.log_backup
+# planAhead.ngc2edif.log
+# PlanAhead_Projects
+# prob38_12.m
+# prob38_12.m~
+# psd.jpg
+# Public
+# pwned
+# pwned~
+# pythonLabviewServer.py
+# quicktest.c
+# -r
+# readbackTest.txt
+# README
+# readme.txt
+# RealPlayer11GOLD.rpm
+#recordfind.txt#
+# recordfind.txt
+# ResearchProject.7z
+# resource_table.csv
+# resource_table.xlsx
+# ReSpaceMAPLD2010_Tuesday.zip
+# Resume2010.docx
+# RoutingTemp_fpga_editor.log
+# RoutingTemp.ncd
+# RoutingTemp.pcf
+#RoutingTemp.xdl#
+# RoutingTemp.xdl
+# RuntimeDataTable.csv
+# RuntimeDataTable.xlsx
+# Rxx.jpg
+# S3E_fpga_editor.log
+# sample2.ps
+# SavedFromBeast.zip
+# sean_thomas_stuff
+# sean_t_tar_list
+# secureip
+# seewave
+# seewave_2.1.1_atlys_video
+# seewave_2.1.4
+# seewave_2.1.4_atlys_video.tar
+# seewave_2.2.2
+# seewave_2.2.2_atlys_video.tgz
+# seewave_2.2.3_atlys_video
+# seewave_2.2.5
+# seewave_2.2.5_atlys_video (1).tgz
+# seewave_testdrive_2.2.ppt
+# seewaveworkingversion
+# SelectMap Interface Expiriment
+# SettlingTimeExp.txt
+# sf.qprj
+# shared
+# ShiftRegMeasurementBitfiles
+# ShortResults.txt
+# ShortsExamples.txt
+# ShortsExamples.txt~
+# simlib
+# simple_opts.c
+# simprim
+# simprims_ver
+# SkyMilesCard.png
+# SlidesForAdamDrWirthlin.pptx
+# solutions
+# Source Level Debugging for HLS.pptx
+# SourceLevelDebuggingSlides.pptx
+# stdout.log
+# SyncToy
+# tables.t
+# temp
+# TempAceStorage
+# TemperatureChangeResponse.txt
+# TemperatureDiodeCurve.png
+# Templates
+# test.bin
+# TestDiodeTemp.lvm
+# testers
+# test_fpga_editor.log
+# Test_fpga_editor.log
+# TestOutputFile.pdf
+# test.qprj
+# Test.xdlpp
+# Thumbs.db
+# tmp
+# tmp_fpga_editor.log
+# tmp.ncd
+# transcript
+# Transformed.jpg
+# Triangle.jpg
+# turbodecode.bmp
+# ug011.pdf
+# ug071.pdf
+# unimacro
+# unimacro_ver
+# unisim
+# unisims_ver
+# usr
+# v4FX60_xdlrc
+# v5_fpga_editor.log
+# V5_fpga_editor.log
+# V5sx240_fpga_editor.log
+# vcdwaveforms
+# VerifyReliabilityChangesWork
+# Videos
+# Virtex5_fpga_editor.out
+# virtex5Switchbox_fpga_editor.log
+# virtex5Switchbox.ncd
+# virtex6_fpga_editor.log
+# virtex6.ncd
+# virtex7_fpga_editor.log
+# vivado_hls.log
+# vivado.jou
+# vivado.log
+# vlc-1.0.5
+# waveform_transmitter_sc_trace_0.vcd
+# webtalk_impact.xml
+# webtalk.log
+# workspace
+# ws2.tar.gz
+# x3000_fpga_editor.log
+# xapp1129
+# xc3s500e.xdlrc
+# xilinxcorelib
+# xilinxcorelib_ver
+# xine_snapshot-1.png
+# X.jpg
+# xlnx_auto_0.ise
+# xlnx_auto_0_xdb
+# x.mat
+# xmltest.tcl
+# xmltest.tcl~
+# _xmsgs
+# xmtc_v1_00_c
+# __xps
+# Zynq
+# ZynqOpticalFlow_Version5.bit
+cd ECEn620
+# reading /net/fpga2/questasim10.1c/questasim/linux_x86_64/../modelsim.ini
+cd Assignments
+cd Assignment5
+# Loading project Assignment5
+# Compile of mem.sv was successful.
+# Compile of testbench.sv was successful with warnings.
+# 2 compiles, 0 failed with no errors. 
+# Compile of mem.sv was successful.
+# Compile of testbench.sv failed with 1 errors.
+# Compile of TransactionPkg.sv failed with 1 errors.
+# 3 compiles, 2 failed with 2 errors. 
+# Compile of mem.sv was successful.
+# Compile of testbench.sv failed with 1 errors.
+# Compile of TransactionPkg.sv failed with 1 errors.
+# 3 compiles, 2 failed with 2 errors. 
+# Compile of mem.sv was successful.
+# Compile of testbench.sv failed with 1 errors.
+# Compile of TransactionPkg.sv was successful.
+# 3 compiles, 1 failed with 1 error. 
+# Compile of mem.sv was successful.
+# Compile of testbench.sv failed with 1 errors.
+# Compile of TransactionPkg.sv was successful.
+# 3 compiles, 1 failed with 1 error. 
+# Compile of mem.sv was successful.
+# Compile of testbench.sv failed with 1 errors.
+# Compile of TransactionPkg.sv was successful.
+# 3 compiles, 1 failed with 1 error. 
+# Compile of mem.sv was successful.
+# Compile of testbench.sv failed with 1 errors.
+# Compile of TransactionPkg.sv was successful.
+# 3 compiles, 1 failed with 1 error. 
+# Compile of mem.sv was successful.
+# Compile of testbench.sv failed with 1 errors.
+# Compile of TransactionPkg.sv was successful.
+# 3 compiles, 1 failed with 1 error. 
+# Compile of mem.sv was successful.
+# Compile of testbench.sv failed with 1 errors.
+# Compile of TransactionPkg.sv was successful.
+# 3 compiles, 1 failed with 1 error. 
+# Compile of mem.sv was successful.
+# Compile of testbench.sv failed with 1 errors.
+# Compile of TransactionPkg.sv was successful.
+# 3 compiles, 1 failed with 1 error. 
+# Compile of mem.sv was successful.
+# Compile of testbench.sv was successful.
+# Compile of TransactionPkg.sv was successful.
+# 3 compiles, 0 failed with no errors. 
+do testbench.do
+# vsim -novopt top 
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment5/work.top
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment5/work.testbench_sv_unit
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment5/work.TransactionPkg
+# Loading sv_std.std
+# Loading work.TransactionPkg
+# Loading work.testbench_sv_unit
+# Loading work.top
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment5/work.mem_if
+# Loading work.mem_if
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment5/work.test
+# Loading work.test
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment5/work.my_mem
+# Loading work.my_mem
+# ** Error: (vsim-3043) /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment5/sverilog/testbench.sv(46): Unresolved reference to 'check'.
+#         Region: /top/t1
+# Error loading design
+# Error: Error loading design 
+#        Pausing macro execution 
+# MACRO ./testbench.do PAUSED at line 2
+# Compile of mem.sv was successful.
+# Compile of testbench.sv was successful.
+# Compile of TransactionPkg.sv was successful.
+# 3 compiles, 0 failed with no errors. 
+do testbench.do
+# vsim -novopt top 
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment5/work.top
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment5/work.testbench_sv_unit
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment5/work.TransactionPkg
+# Loading sv_std.std
+# Loading work.TransactionPkg
+# Loading work.testbench_sv_unit
+# Loading work.top
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment5/work.mem_if
+# Loading work.mem_if
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment5/work.test
+# Loading work.test
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment5/work.my_mem
+# Loading work.my_mem
+# ** Error: Assertion error.
+#    Time: 50 ns Started: 50 ns  Scope: top.mem_bus.a1 File: /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment5/sverilog/mem.sv Line: 23
+# ** Error: Assertion error.
+#    Time: 150 ns Started: 150 ns  Scope: top.mem_bus.a1 File: /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment5/sverilog/mem.sv Line: 23
+# ** Error: Assertion error.
+#    Time: 250 ns Started: 250 ns  Scope: top.mem_bus.a1 File: /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment5/sverilog/mem.sv Line: 23
+# Print Read Values
+# 	063
+# 	08d
+# 	081
+# 	13d
+# 	10d
+# 	012
+# Tests Performed:           6
+# Total Transaction Errors @ time                27500:           0
+# 1
+# Simulation stop requested.
+# Simulation Breakpoint: 1
+# Simulation stop requested.
+# MACRO ./testbench.do PAUSED at line 7
+add wave -position insertpoint  \
+sim:/TransactionPkg::Transaction::error
+do testbench.do
+# Test Complete.
+# vsim -novopt top 
+# Loading sv_std.std
+# Loading work.TransactionPkg
+# Loading work.testbench_sv_unit
+# Loading work.top
+# Loading work.mem_if
+# Loading work.test
+# Loading work.my_mem
+# ** Error: Assertion error.
+#    Time: 50 ns Started: 50 ns  Scope: top.mem_bus.a1 File: /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment5/sverilog/mem.sv Line: 23
+# ** Error: Assertion error.
+#    Time: 150 ns Started: 150 ns  Scope: top.mem_bus.a1 File: /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment5/sverilog/mem.sv Line: 23
+# ** Error: Assertion error.
+#    Time: 250 ns Started: 250 ns  Scope: top.mem_bus.a1 File: /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment5/sverilog/mem.sv Line: 23
+# Print Read Values
+# 	063
+# 	08d
+# 	081
+# 	13d
+# 	10d
+# 	012
+# Tests Performed:           6
+# Total Transaction Errors @ time                27500:           0
+# 1
+# Simulation stop requested.
+# Simulation Breakpoint: 1
+# Simulation stop requested.
+# MACRO ./testbench.do PAUSED at line 8
+add wave -position insertpoint sim:/top/mem_bus/a1
+add wave -position insertpoint sim:/top/mem_bus/a1
+do testbench.do
+# Test Complete.
+# vsim -novopt top 
+# Loading sv_std.std
+# Loading work.TransactionPkg
+# Loading work.testbench_sv_unit
+# Loading work.top
+# Loading work.mem_if
+# Loading work.test
+# Loading work.my_mem
+# ** Error: Assertion error.
+#    Time: 50 ns Started: 50 ns  Scope: top.mem_bus.a1 File: /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment5/sverilog/mem.sv Line: 23
+# ** Error: Assertion error.
+#    Time: 150 ns Started: 150 ns  Scope: top.mem_bus.a1 File: /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment5/sverilog/mem.sv Line: 23
+# ** Error: Assertion error.
+#    Time: 250 ns Started: 250 ns  Scope: top.mem_bus.a1 File: /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment5/sverilog/mem.sv Line: 23
+# Print Read Values
+# 	063
+# 	08d
+# 	081
+# 	13d
+# 	10d
+# 	012
+# Tests Performed:           6
+# Total Transaction Errors @ time                27500:           0
+# 1
+# Simulation stop requested.
+# Simulation Breakpoint: 1
+# Simulation stop requested.
+# MACRO ./testbench.do PAUSED at line 8
+# Compile of mem.sv was successful.
+# Compile of testbench.sv was successful.
+# Compile of TransactionPkg.sv was successful.
+# 3 compiles, 0 failed with no errors. 
+do testbench.do
+# Test Complete.
+# vsim -novopt top 
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment5/work.top
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment5/work.testbench_sv_unit
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment5/work.TransactionPkg
+# Loading sv_std.std
+# Loading work.TransactionPkg
+# Loading work.testbench_sv_unit
+# Loading work.top
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment5/work.mem_if
+# Loading work.mem_if
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment5/work.test
+# Loading work.test
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment5/work.my_mem
+# Loading work.my_mem
+# ** Error: (vish-4014) No objects found matching '/top/mem_bus/a1'.
+# Error in macro ./testbench.do line 7
+# (vish-4014) No objects found matching '/top/mem_bus/a1'.
+#     while executing
+# "add wave -radix hex *"
+# Compile of mem.sv was successful.
+# Compile of testbench.sv was successful.
+# Compile of TransactionPkg.sv was successful.
+# 3 compiles, 0 failed with no errors. 
+do testbench.do
+# Test Complete.
+# vsim -novopt top 
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment5/work.top
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment5/work.testbench_sv_unit
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment5/work.TransactionPkg
+# Loading sv_std.std
+# Loading work.TransactionPkg
+# Loading work.testbench_sv_unit
+# Loading work.top
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment5/work.mem_if
+# Loading work.mem_if
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment5/work.test
+# Loading work.test
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment5/work.my_mem
+# Loading work.my_mem
+# ** Error: Assertion error.
+#    Time: 50 ns Started: 50 ns  Scope: top.mem_bus.read_write_sig_assertion File: /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment5/sverilog/mem.sv Line: 23
+# ** Error: Assertion error.
+#    Time: 150 ns Started: 150 ns  Scope: top.mem_bus.read_write_sig_assertion File: /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment5/sverilog/mem.sv Line: 23
+# ** Error: Assertion error.
+#    Time: 250 ns Started: 250 ns  Scope: top.mem_bus.read_write_sig_assertion File: /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment5/sverilog/mem.sv Line: 23
+# Print Read Values
+# 	063
+# 	08d
+# 	081
+# 	13d
+# 	10d
+# 	012
+# Tests Performed:           6
+# Total Transaction Errors @ time                27500:           0
+# 1
+# Simulation stop requested.
+# Simulation Breakpoint: 1
+# Simulation stop requested.
+# MACRO ./testbench.do PAUSED at line 8
+# Compile of mem.sv was successful.
+# Compile of testbench.sv was successful.
+# Compile of TransactionPkg.sv was successful.
+# 3 compiles, 0 failed with no errors. 
+add wave -position insertpoint sim:/top/mem_bus/a1
+# (vish-4014) No objects found matching '/top/mem_bus/a1'.
+do testbench.do
+# Test Complete.
+# vsim -novopt top 
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment5/work.top
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment5/work.testbench_sv_unit
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment5/work.TransactionPkg
+# Loading sv_std.std
+# Loading work.TransactionPkg
+# Loading work.testbench_sv_unit
+# Loading work.top
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment5/work.mem_if
+# Loading work.mem_if
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment5/work.test
+# Loading work.test
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment5/work.my_mem
+# Loading work.my_mem
+# ** Error: Assertion error.
+#    Time: 50 ns Started: 50 ns  Scope: top.mem_bus.read_write_sig_assertion File: /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment5/sverilog/mem.sv Line: 23
+# ** Error: Assertion error.
+#    Time: 150 ns Started: 150 ns  Scope: top.mem_bus.read_write_sig_assertion File: /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment5/sverilog/mem.sv Line: 23
+# ** Error: Assertion error.
+#    Time: 250 ns Started: 250 ns  Scope: top.mem_bus.read_write_sig_assertion File: /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment5/sverilog/mem.sv Line: 23
+# Print Read Values
+# 	063
+# 	08d
+# 	081
+# 	13d
+# 	10d
+# 	012
+# Tests Performed:           6
+# Total Transaction Errors @ time                27500:           0
+# 1
+# Simulation stop requested.
+# Simulation Breakpoint: 1
+# Simulation stop requested.
+# MACRO ./testbench.do PAUSED at line 8
+# Compile of mem.sv was successful.
+# Compile of testbench.sv was successful.
+# Compile of TransactionPkg.sv was successful.
+# 3 compiles, 0 failed with no errors. 
+do testbench.do
+# Test Complete.
+# vsim -novopt top 
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment5/work.top
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment5/work.testbench_sv_unit
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment5/work.TransactionPkg
+# Loading sv_std.std
+# Loading work.TransactionPkg
+# Loading work.testbench_sv_unit
+# Loading work.top
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment5/work.mem_if
+# Loading work.mem_if
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment5/work.test
+# Loading work.test
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment5/work.my_mem
+# Loading work.my_mem
+# ** Error: Assertion error.
+#    Time: 50 ns Started: 50 ns  Scope: top.mem_bus.read_write_sig_assertion File: /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment5/sverilog/mem.sv Line: 23
+# ** Error: Assertion error.
+#    Time: 150 ns Started: 150 ns  Scope: top.mem_bus.read_write_sig_assertion File: /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment5/sverilog/mem.sv Line: 23
+# ** Error: Assertion error.
+#    Time: 250 ns Started: 250 ns  Scope: top.mem_bus.read_write_sig_assertion File: /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment5/sverilog/mem.sv Line: 23
+# Print Read Values
+# Transaction           1: @ time                27500 actual_read is  99
+# Transaction           2: @ time                27500 actual_read is 141
+# Transaction           0: @ time                27500 actual_read is 129
+# Transaction           5: @ time                27500 actual_read is 317
+# Transaction           4: @ time                27500 actual_read is 269
+# Transaction           3: @ time                27500 actual_read is  18
+# Tests Performed:           6
+# Total Transaction Errors @ time                27500:           0
+# 1
+# Simulation stop requested.
+# Simulation Breakpoint: 1
+# Simulation stop requested.
+# MACRO ./testbench.do PAUSED at line 8
+# Compile of mem.sv was successful.
+# Compile of testbench.sv was successful.
+# Compile of TransactionPkg.sv was successful.
+# 3 compiles, 0 failed with no errors. 
+do testbench.do
+# Test Complete.
+# vsim -novopt top 
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment5/work.top
+# ** Error: (vsim-13) Recompile work.testbench_sv_unit because work.TransactionPkg has changed.
+# ** Error: (vsim-13) Recompile work.top because work.TransactionPkg has changed.
+# Error loading design
+# Error: Error loading design 
+#        Pausing macro execution 
+# MACRO ./testbench.do PAUSED at line 2
+# Compile of mem.sv was successful.
+# Compile of testbench.sv was successful.
+# Compile of TransactionPkg.sv was successful.
+# 3 compiles, 0 failed with no errors. 
+cd Assignment5
+do testbench.do
+# vsim -novopt top 
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment5/work.top
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment5/work.testbench_sv_unit
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment5/work.TransactionPkg
+# Loading sv_std.std
+# Loading work.TransactionPkg
+# Loading work.testbench_sv_unit
+# Loading work.top
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment5/work.mem_if
+# Loading work.mem_if
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment5/work.test
+# Loading work.test
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment5/work.my_mem
+# Loading work.my_mem
+# ** Error: Assertion error.
+#    Time: 50 ns Started: 50 ns  Scope: top.mem_bus.read_write_sig_assertion File: /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment5/sverilog/mem.sv Line: 23
+# ** Error: Assertion error.
+#    Time: 150 ns Started: 150 ns  Scope: top.mem_bus.read_write_sig_assertion File: /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment5/sverilog/mem.sv Line: 23
+# ** Error: Assertion error.
+#    Time: 250 ns Started: 250 ns  Scope: top.mem_bus.read_write_sig_assertion File: /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment5/sverilog/mem.sv Line: 23
+# Print Read Values
+# Transaction           1: @ time                27500 actual read from address d609 is 63
+# Transaction           2: @ time                27500 actual read from address 7b0d is 8d
+# Transaction           0: @ time                27500 actual read from address 3524 is 81
+# Transaction           5: @ time                27500 actual read from address f176 is 13d
+# Transaction           4: @ time                27500 actual read from address e301 is 10d
+# Transaction           3: @ time                27500 actual read from address 8465 is 12
+# Tests Performed:           6
+# Total Transaction Errors @ time                27500:           0
+# 1
+# Simulation stop requested.
+# Simulation Breakpoint: 1
+# Simulation stop requested.
+# MACRO ./testbench.do PAUSED at line 8
+# Compile of mem.sv was successful.
+# Compile of testbench.sv was successful.
+# Compile of TransactionPkg.sv was successful.
+# 3 compiles, 0 failed with no errors. 
+do testbench.do
+# Test Complete.
+# vsim -novopt top 
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment5/work.top
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment5/work.testbench_sv_unit
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment5/work.TransactionPkg
+# Loading sv_std.std
+# Loading work.TransactionPkg
+# Loading work.testbench_sv_unit
+# Loading work.top
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment5/work.mem_if
+# Loading work.mem_if
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment5/work.test
+# Loading work.test
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment5/work.my_mem
+# Loading work.my_mem
+# Transaction           1 Check Error @ time                 9500: Read value 00 from address d609, expected 63
+# Transaction           2 Check Error @ time                12500: Read value 00 from address 7b0d, expected 8d
+# Transaction           0 Check Error @ time                15500: Read value 00 from address 3524, expected 81
+# Transaction           5 Check Error @ time                18500: Read value 00 from address f176, expected 13d
+# Transaction           4 Check Error @ time                21500: Read value 00 from address e301, expected 10d
+# Transaction           3 Check Error @ time                24500: Read value 00 from address 8465, expected 12
+# Print Read Values
+# Transaction           1: @ time                24500 actual read from address d609 is 00
+# Transaction           2: @ time                24500 actual read from address 7b0d is 00
+# Transaction           0: @ time                24500 actual read from address 3524 is 00
+# Transaction           5: @ time                24500 actual read from address f176 is 00
+# Transaction           4: @ time                24500 actual read from address e301 is 00
+# Transaction           3: @ time                24500 actual read from address 8465 is 00
+# Tests Performed:           6
+# Total Transaction Errors @ time                24500:           6
+# 1
+# Simulation stop requested.
+# Simulation Breakpoint: 1
+# Simulation stop requested.
+# MACRO ./testbench.do PAUSED at line 8
+quit
+quit
+# Test Complete.

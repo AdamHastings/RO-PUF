@@ -1,0 +1,15 @@
+##############################################################################
+## Filename:          E:\Adam\Characterizing\dut_mb_v4lx60_template\hw/drivers/ring_osc_v1_00_a/data/ring_osc_v2_1_0.mdd
+## Description:       Microprocessor Driver Definition
+## Date:              Fri Nov 21 11:21:32 2014 (by Create and Import Peripheral Wizard)
+##############################################################################
+
+OPTION psf_version = 2.1.0;
+
+BEGIN DRIVER ring_osc
+
+  OPTION supported_peripherals = (ring_osc);
+  OPTION depends = (common_v1_00_a);
+  OPTION copyfiles = all;
+
+END DRIVER

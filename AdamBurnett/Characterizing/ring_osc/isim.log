@@ -1,0 +1,20 @@
+ISim log file
+Running: E:\Adam\Characterizing\ring_osc\ring_osc_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb E:/Adam/Characterizing/ring_osc/ring_osc_isim_beh.wdb 
+ISim P.20131013 (signature 0x7708f090)
+This is a Full version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+ERROR: at 0 ps: Iteration limit 10000 is reached. Possible zero delay oscillation detected where simulation can not advance in time because signals can not resolve to a stable value in File "E:/Adam/Characterizing/ring_osc/ring_osc.vhd" Line 51. Please correct this code in order to advance past the current simulation time.
+
+INFO: Simulator is stopped.
+# isim force add slv_reg0 0
+# isim force add slv_reg1 1
+# run 10ns
+INFO: Simulator is stopped.
+# isim force add ring_osc(0) 1
+# run 10ns
+INFO: Simulator is stopped.

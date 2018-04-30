@@ -1,0 +1,1917 @@
+# //  Questa Sim-64
+# //  Version 10.1c linux_x86_64 Jul 27 2012
+# //
+# //  Copyright 1991-2012 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //
+# Loading project Assignment4.2
+do testbench.do
+# vsim -novopt top 
+# Loading sv_std.std
+# Loading work.top
+# Loading work.mem_if
+# Loading work.test
+# Loading work.my_mem
+# Error@                  50: Read and Write asserted at the same time
+# 
+# Error@                 150: Read and Write asserted at the same time
+# 
+# Error@                 250: Read and Write asserted at the same time
+# 
+# Found Error: 063 000
+# Found Error: 08d 063
+# Found Error: 081 08d
+# Found Error: 03d 081
+# Found Error: 00d 03d
+# Found Error: 012 00d
+# Print Read Values
+# 	000
+# 	063
+# 	08d
+# 	081
+# 	03d
+# 	00d
+# Tests Performed:           6
+# Incorrect Read Errors:           6
+# 3.Read/Write Signal Errors:           3
+# 1
+# Simulation stop requested.
+# Simulation Breakpoint: 1
+# Simulation stop requested.
+# MACRO ./testbench.do PAUSED at line 6
+do testbench.do
+# Test Complete.
+# vsim -novopt top 
+# Loading sv_std.std
+# Loading work.top
+# Loading work.mem_if
+# Loading work.test
+# Loading work.my_mem
+# Error@                  50: Read and Write asserted at the same time
+# 
+# Error@                 150: Read and Write asserted at the same time
+# 
+# Error@                 250: Read and Write asserted at the same time
+# 
+# Found Error: 063 000
+# Found Error: 08d 063
+# Found Error: 081 08d
+# Found Error: 03d 081
+# Found Error: 00d 03d
+# Found Error: 012 00d
+# Print Read Values
+# 	000
+# 	063
+# 	08d
+# 	081
+# 	03d
+# 	00d
+# Tests Performed:           6
+# Incorrect Read Errors:           6
+# 3.Read/Write Signal Errors:           3
+# 1
+# Simulation stop requested.
+# Simulation Breakpoint: 1
+# Simulation stop requested.
+# MACRO ./testbench.do PAUSED at line 6
+do testbench.do
+# Test Complete.
+# vsim -novopt top 
+# Loading sv_std.std
+# Loading work.top
+# Loading work.mem_if
+# Loading work.test
+# Loading work.my_mem
+# Error@                  50: Read and Write asserted at the same time
+# 
+# Error@                 150: Read and Write asserted at the same time
+# 
+# Error@                 250: Read and Write asserted at the same time
+# 
+# Found Error: 063 000
+# Found Error: 08d 063
+# Found Error: 081 08d
+# Found Error: 03d 081
+# Found Error: 00d 03d
+# Found Error: 012 00d
+# Print Read Values
+# 	000
+# 	063
+# 	08d
+# 	081
+# 	03d
+# 	00d
+# Tests Performed:           6
+# Incorrect Read Errors:           6
+# 3.Read/Write Signal Errors:           3
+# 1
+# Simulation stop requested.
+# Simulation Breakpoint: 1
+# Simulation stop requested.
+# MACRO ./testbench.do PAUSED at line 7
+do testbench.do
+# Test Complete.
+# vsim -novopt top 
+# Loading sv_std.std
+# Loading work.top
+# Loading work.mem_if
+# Loading work.test
+# Loading work.my_mem
+# Error@                  50: Read and Write asserted at the same time
+# 
+# Error@                 150: Read and Write asserted at the same time
+# 
+# Error@                 250: Read and Write asserted at the same time
+# 
+# Found Error: 063 000
+# Found Error: 08d 063
+# Found Error: 081 08d
+# Found Error: 03d 081
+# Found Error: 00d 03d
+# Found Error: 012 00d
+# Print Read Values
+# 	000
+# 	063
+# 	08d
+# 	081
+# 	03d
+# 	00d
+# Tests Performed:           6
+# Incorrect Read Errors:           6
+# 3.Read/Write Signal Errors:           3
+# 1
+# Simulation stop requested.
+# Simulation Breakpoint: 1
+# Simulation stop requested.
+# MACRO ./testbench.do PAUSED at line 7
+# Compile of mem.sv was successful with warnings.
+# Compile of testbench.sv was successful with warnings.
+# 2 compiles, 0 failed with no errors. 
+do testbench.do
+# Test Complete.
+# vsim -novopt top 
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/work.top
+# Loading sv_std.std
+# Loading work.top
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/work.mem_if
+# Loading work.mem_if
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/work.test
+# Loading work.test
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/work.my_mem
+# Loading work.my_mem
+# Found Error: 063 000
+# Found Error: 08d 063
+# Found Error: 081 08d
+# Found Error: 03d 081
+# Found Error: 00d 03d
+# Found Error: 012 00d
+# Print Read Values
+# 	000
+# 	063
+# 	08d
+# 	081
+# 	03d
+# 	00d
+# Tests Performed:           6
+# Incorrect Read Errors:           6
+# 3.Read/Write Signal Errors:           0
+# 1
+# Simulation stop requested.
+# Simulation Breakpoint: 1
+# Simulation stop requested.
+# MACRO ./testbench.do PAUSED at line 7
+# Compile of mem.sv was successful with warnings.
+# Compile of testbench.sv was successful with warnings.
+# 2 compiles, 0 failed with no errors. 
+do testbench.do
+# Test Complete.
+# vsim -novopt top 
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/work.top
+# Loading sv_std.std
+# Loading work.top
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/work.mem_if
+# Loading work.mem_if
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/work.test
+# Loading work.test
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/work.my_mem
+# Loading work.my_mem
+# Found Error: 063 000
+# Found Error: 08d 063
+# Found Error: 081 08d
+# Found Error: 03d 081
+# Found Error: 00d 03d
+# Found Error: 012 00d
+# Print Read Values
+# 	000
+# 	063
+# 	08d
+# 	081
+# 	03d
+# 	00d
+# Tests Performed:           6
+# Incorrect Read Errors:           6
+# 3.Read/Write Signal Errors:           0
+# 1
+# Simulation stop requested.
+# Simulation Breakpoint: 1
+# Simulation stop requested.
+# MACRO ./testbench.do PAUSED at line 7
+# Compile of mem.sv was successful with warnings.
+# Compile of testbench.sv was successful with warnings.
+# 2 compiles, 0 failed with no errors. 
+do testbench.do
+# Test Complete.
+# vsim -novopt top 
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/work.top
+# Loading sv_std.std
+# Loading work.top
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/work.mem_if
+# Loading work.mem_if
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/work.test
+# Loading work.test
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/work.my_mem
+# Loading work.my_mem
+# Found Error: 063 000
+# Found Error: 08d 063
+# Found Error: 081 08d
+# Found Error: 03d 081
+# Found Error: 00d 03d
+# Found Error: 012 00d
+# Print Read Values
+# 	000
+# 	063
+# 	08d
+# 	081
+# 	03d
+# 	00d
+# Tests Performed:           6
+# Incorrect Read Errors:           6
+# 3.Read/Write Signal Errors:           0
+# 1
+# Simulation stop requested.
+# Simulation Breakpoint: 1
+# Simulation stop requested.
+# MACRO ./testbench.do PAUSED at line 7
+# Compile of mem.sv failed with 1 errors.
+# Compile of testbench.sv was successful with warnings.
+# 2 compiles, 1 failed with 1 error. 
+# Compile of mem.sv was successful with warnings.
+# Compile of testbench.sv was successful with warnings.
+# 2 compiles, 0 failed with no errors. 
+do testbench.do
+# Test Complete.
+# vsim -novopt top 
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/work.top
+# Loading sv_std.std
+# Loading work.top
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/work.mem_if
+# Loading work.mem_if
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/work.test
+# Loading work.test
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/work.my_mem
+# Loading work.my_mem
+# ** Warning: (vsim-8441) /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/mem.sv(70): Clocking block output mem_bus.cb.address is not legal in this
+# or another expression.
+#         Region: /top/mem
+# ** Warning: (vsim-8441) /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/mem.sv(70): Clocking block output mem_bus.cb.data_in is not legal in this
+# or another expression.
+#         Region: /top/mem
+# ** Warning: (vsim-8441) /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/mem.sv(71): Clocking block output mem_bus.cb.read is not legal in this
+# or another expression.
+#         Region: /top/mem
+# ** Warning: (vsim-8441) /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/mem.sv(68): Clocking block output mem_bus.cb.write is not legal in this
+# or another expression.
+#         Region: /top/mem
+# Found Error: 063 000
+# Found Error: 08d 000
+# Found Error: 081 000
+# Found Error: 03d 000
+# Found Error: 00d 000
+# Found Error: 012 000
+# Print Read Values
+# 	000
+# 	000
+# 	000
+# 	000
+# 	000
+# 	000
+# Tests Performed:           6
+# Incorrect Read Errors:           6
+# 3.Read/Write Signal Errors:           0
+# 1
+# Simulation stop requested.
+# Simulation Breakpoint: 1
+# Simulation stop requested.
+# MACRO ./testbench.do PAUSED at line 7
+# Compile of mem.sv was successful with warnings.
+# Compile of testbench.sv was successful with warnings.
+# 2 compiles, 0 failed with no errors. 
+do testbench.do
+# Test Complete.
+# vsim -novopt top 
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/work.top
+# Loading sv_std.std
+# Loading work.top
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/work.mem_if
+# Loading work.mem_if
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/work.test
+# Loading work.test
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/work.my_mem
+# Loading work.my_mem
+# ** Warning: (vsim-8441) /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/mem.sv(70): Clocking block output mem_bus.cb.address is not legal in this
+# or another expression.
+#         Region: /top/mem
+# ** Warning: (vsim-8441) /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/mem.sv(70): Clocking block output mem_bus.cb.data_in is not legal in this
+# or another expression.
+#         Region: /top/mem
+# ** Warning: (vsim-8441) /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/mem.sv(71): Clocking block output mem_bus.cb.read is not legal in this
+# or another expression.
+#         Region: /top/mem
+# ** Warning: (vsim-8441) /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/mem.sv(68): Clocking block output mem_bus.cb.write is not legal in this
+# or another expression.
+#         Region: /top/mem
+# Found Error: 063 000
+# Found Error: 08d 000
+# Found Error: 081 000
+# Found Error: 03d 000
+# Found Error: 00d 000
+# Found Error: 012 000
+# Print Read Values
+# 	000
+# 	000
+# 	000
+# 	000
+# 	000
+# 	000
+# Tests Performed:           6
+# Incorrect Read Errors:           6
+# 3.Read/Write Signal Errors:           0
+# 1
+# Simulation stop requested.
+# Simulation Breakpoint: 1
+# Simulation stop requested.
+# MACRO ./testbench.do PAUSED at line 7
+# Compile of mem.sv was successful with warnings.
+# Compile of testbench.sv was successful with warnings.
+# 2 compiles, 0 failed with no errors. 
+do testbench.do
+# Test Complete.
+# vsim -novopt top 
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/work.top
+# Loading sv_std.std
+# Loading work.top
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/work.mem_if
+# Loading work.mem_if
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/work.test
+# Loading work.test
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/work.my_mem
+# Loading work.my_mem
+# ** Error: (vsim-8343) /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/testbench.sv(60): Clocking block output mem_bus.cb.read is not legal
+# for the left hand side of this or another expression.
+#         Region: /top/t1
+# ** Warning: (vsim-8441) /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/mem.sv(70): Clocking block output mem_bus.cb.address is not legal in this
+# or another expression.
+#         Region: /top/mem
+# ** Warning: (vsim-8441) /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/mem.sv(70): Clocking block output mem_bus.cb.data_in is not legal in this
+# or another expression.
+#         Region: /top/mem
+# ** Warning: (vsim-8441) /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/mem.sv(71): Clocking block output mem_bus.cb.read is not legal in this
+# or another expression.
+#         Region: /top/mem
+# ** Warning: (vsim-8441) /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/mem.sv(68): Clocking block output mem_bus.cb.write is not legal in this
+# or another expression.
+#         Region: /top/mem
+# Error loading design
+# Error: Error loading design 
+#        Pausing macro execution 
+# MACRO ./testbench.do PAUSED at line 2
+# Compile of mem.sv failed with 1 errors.
+# Compile of testbench.sv was successful with warnings.
+# 2 compiles, 1 failed with 1 error. 
+# Compile of mem.sv failed with 1 errors.
+# Compile of testbench.sv was successful with warnings.
+# 2 compiles, 1 failed with 1 error. 
+# Compile of mem.sv was successful with warnings.
+# Compile of testbench.sv was successful with warnings.
+# 2 compiles, 0 failed with no errors. 
+# Compile of mem.sv was successful with warnings.
+# Compile of testbench.sv was successful with warnings.
+# 2 compiles, 0 failed with no errors. 
+do testbench.do
+# vsim -novopt top 
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/work.top
+# Loading sv_std.std
+# Loading work.top
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/work.mem_if
+# Loading work.mem_if
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/work.test
+# Loading work.test
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/work.my_mem
+# Loading work.my_mem
+# ** Error: (vsim-8343) /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/testbench.sv(60): Clocking block output mem_bus.cb.read is not legal
+# for the left hand side of this or another expression.
+#         Region: /top/t1
+# ** Error: (vsim-3773) /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/testbench.sv(86): Interface item 'mread' is not in modport 'TEST'.
+#         Region: /top/t1
+# ** Error: (vsim-3773) /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/testbench.sv(81): Interface item 'mwrite' is not in modport 'TEST'.
+#         Region: /top/t1
+# ** Error: (vsim-3773) /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/testbench.sv(70): Interface item 'rdwr_error_count' is not in modport 'TEST'.
+#         Region: /top/t1
+# ** Error: (vsim-3773) /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/testbench.sv(81): Interface item 'mwrite' is not in modport 'TEST'.
+#         Region: /top/t1
+# ** Error: (vsim-3773) /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/testbench.sv(81): Interface item 'mwrite' is not in modport 'TEST'.
+#         Region: /top/t1
+# ** Error: (vsim-3773) /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/testbench.sv(86): Interface item 'mread' is not in modport 'TEST'.
+#         Region: /top/t1
+# ** Error: (vsim-3773) /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/mem.sv(72): Interface item 'cb' is not in modport 'DUT'.
+#         Region: /top/mem
+# ** Warning: (vsim-8441) /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/mem.sv(74): Clocking block output mem_bus.cb.address is not legal in this
+# or another expression.
+#         Region: /top/mem
+# ** Warning: (vsim-8441) /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/mem.sv(74): Clocking block output mem_bus.cb.data_in is not legal in this
+# or another expression.
+#         Region: /top/mem
+# ** Warning: (vsim-8441) /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/mem.sv(75): Clocking block output mem_bus.cb.read is not legal in this
+# or another expression.
+#         Region: /top/mem
+# ** Warning: (vsim-8441) /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/mem.sv(72): Clocking block output mem_bus.cb.write is not legal in this
+# or another expression.
+#         Region: /top/mem
+# ** Error: (vsim-3773) /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/mem.sv(74): Interface item 'parity' is not in modport 'DUT'.
+#         Region: /top/mem
+# ** Error: (vsim-3773) /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/mem.sv(74): Interface item 'parity' is not in modport 'DUT'.
+#         Region: /top/mem
+# ** Error: (vsim-3773) /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/mem.sv(74): Interface item 'parity' is not in modport 'DUT'.
+#         Region: /top/mem
+# Error loading design
+# Error: Error loading design 
+#        Pausing macro execution 
+# MACRO ./testbench.do PAUSED at line 2
+# Compile of mem.sv failed with 1 errors.
+# Compile of testbench.sv was successful with warnings.
+# 2 compiles, 1 failed with 1 error. 
+# Compile of mem.sv was successful with warnings.
+# Compile of testbench.sv was successful with warnings.
+# 2 compiles, 0 failed with no errors. 
+do testbench.do
+# vsim -novopt top 
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/work.top
+# Loading sv_std.std
+# Loading work.top
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/work.mem_if
+# Loading work.mem_if
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/work.test
+# Loading work.test
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/work.my_mem
+# Loading work.my_mem
+# ** Error: (vsim-8343) /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/testbench.sv(60): Clocking block output mem_bus.cb.read is not legal
+# for the left hand side of this or another expression.
+#         Region: /top/t1
+# ** Error: (vsim-3773) /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/testbench.sv(86): Interface item 'mread' is not in modport 'TEST'.
+#         Region: /top/t1
+# ** Error: (vsim-3773) /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/testbench.sv(81): Interface item 'mwrite' is not in modport 'TEST'.
+#         Region: /top/t1
+# ** Error: (vsim-3773) /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/testbench.sv(70): Interface item 'rdwr_error_count' is not in modport 'TEST'.
+#         Region: /top/t1
+# ** Error: (vsim-3773) /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/testbench.sv(81): Interface item 'mwrite' is not in modport 'TEST'.
+#         Region: /top/t1
+# ** Error: (vsim-3773) /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/testbench.sv(81): Interface item 'mwrite' is not in modport 'TEST'.
+#         Region: /top/t1
+# ** Error: (vsim-3773) /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/testbench.sv(86): Interface item 'mread' is not in modport 'TEST'.
+#         Region: /top/t1
+# ** Error: (vsim-3773) /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/mem.sv(72): Interface item 'cb' is not in modport 'DUT'.
+#         Region: /top/mem
+# ** Warning: (vsim-8441) /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/mem.sv(74): Clocking block output mem_bus.cb.address is not legal in this
+# or another expression.
+#         Region: /top/mem
+# ** Warning: (vsim-8441) /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/mem.sv(74): Clocking block output mem_bus.cb.data_in is not legal in this
+# or another expression.
+#         Region: /top/mem
+# ** Warning: (vsim-8441) /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/mem.sv(75): Clocking block output mem_bus.cb.read is not legal in this
+# or another expression.
+#         Region: /top/mem
+# ** Warning: (vsim-8441) /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/mem.sv(72): Clocking block output mem_bus.cb.write is not legal in this
+# or another expression.
+#         Region: /top/mem
+# Error loading design
+# Error: Error loading design 
+#        Pausing macro execution 
+# MACRO ./testbench.do PAUSED at line 2
+# Compile of mem.sv was successful with warnings.
+# Compile of testbench.sv was successful with warnings.
+# 2 compiles, 0 failed with no errors. 
+do testbench.do
+# vsim -novopt top 
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/work.top
+# Loading sv_std.std
+# Loading work.top
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/work.mem_if
+# Loading work.mem_if
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/work.test
+# Loading work.test
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/work.my_mem
+# Loading work.my_mem
+# ** Error: (vsim-3773) /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/testbench.sv(86): Interface item 'mread' is not in modport 'TEST'.
+#         Region: /top/t1
+# ** Error: (vsim-3773) /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/testbench.sv(81): Interface item 'mwrite' is not in modport 'TEST'.
+#         Region: /top/t1
+# ** Error: (vsim-3773) /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/testbench.sv(70): Interface item 'rdwr_error_count' is not in modport 'TEST'.
+#         Region: /top/t1
+# ** Error: (vsim-3773) /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/testbench.sv(60): Interface item 'read' is not in modport 'TEST'.
+#         Region: /top/t1
+# ** Error: (vsim-3773) /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/testbench.sv(81): Interface item 'mwrite' is not in modport 'TEST'.
+#         Region: /top/t1
+# ** Error: (vsim-3773) /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/testbench.sv(81): Interface item 'mwrite' is not in modport 'TEST'.
+#         Region: /top/t1
+# ** Error: (vsim-3773) /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/testbench.sv(86): Interface item 'mread' is not in modport 'TEST'.
+#         Region: /top/t1
+# ** Error: (vsim-3773) /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/mem.sv(72): Interface item 'cb' is not in modport 'DUT'.
+#         Region: /top/mem
+# ** Warning: (vsim-8441) /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/mem.sv(74): Clocking block output mem_bus.cb.address is not legal in this
+# or another expression.
+#         Region: /top/mem
+# ** Warning: (vsim-8441) /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/mem.sv(74): Clocking block output mem_bus.cb.data_in is not legal in this
+# or another expression.
+#         Region: /top/mem
+# ** Warning: (vsim-8441) /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/mem.sv(75): Clocking block output mem_bus.cb.read is not legal in this
+# or another expression.
+#         Region: /top/mem
+# ** Warning: (vsim-8441) /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/mem.sv(72): Clocking block output mem_bus.cb.write is not legal in this
+# or another expression.
+#         Region: /top/mem
+# Error loading design
+# Error: Error loading design 
+#        Pausing macro execution 
+# MACRO ./testbench.do PAUSED at line 2
+# Compile of mem.sv failed with 1 errors.
+# Compile of testbench.sv was successful with warnings.
+# 2 compiles, 1 failed with 1 error. 
+# Compile of mem.sv was successful with warnings.
+# Compile of testbench.sv was successful with warnings.
+# 2 compiles, 0 failed with no errors. 
+do testbench.do
+# vsim -novopt top 
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/work.top
+# Loading sv_std.std
+# Loading work.top
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/work.mem_if
+# Loading work.mem_if
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/work.test
+# Loading work.test
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/work.my_mem
+# Loading work.my_mem
+# ** Error: (vsim-3773) /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/testbench.sv(85): Interface item 'address' is not in modport 'TEST'.
+#         Region: /top/t1
+# ** Error: (vsim-3773) /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/testbench.sv(93): Interface item 'data_in' is not in modport 'TEST'.
+#         Region: /top/t1
+# ** Warning: (vsim-3008) /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/testbench.sv(105): [CNNODP] - Component name (mread) is not on a downward path.
+#         Region: /top/t1
+# ** Error: (vsim-3043) /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/testbench.sv(105): Unresolved reference to 'mread' in mem_bus.mread.
+#         Region: /top/t1
+# ** Warning: (vsim-3008) /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/testbench.sv(100): [CNNODP] - Component name (mwrite) is not on a downward path.
+#         Region: /top/t1
+# ** Error: (vsim-3043) /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/testbench.sv(100): Unresolved reference to 'mwrite' in mem_bus.mwrite.
+#         Region: /top/t1
+# ** Error: (vsim-3773) /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/testbench.sv(70): Interface item 'rdwr_error_count' is not in modport 'TEST'.
+#         Region: /top/t1
+# ** Error: (vsim-3773) /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/testbench.sv(60): Interface item 'read' is not in modport 'TEST'.
+#         Region: /top/t1
+# ** Error: (vsim-3773) /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/testbench.sv(92): Interface item 'write' is not in modport 'TEST'.
+#         Region: /top/t1
+# ** Error: (vsim-3773) /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/mem.sv(55): Interface item 'cb' is not in modport 'DUT'.
+#         Region: /top/mem
+# ** Warning: (vsim-8441) /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/mem.sv(57): Clocking block output mem_bus.cb.address is not legal in this
+# or another expression.
+#         Region: /top/mem
+# ** Warning: (vsim-8441) /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/mem.sv(57): Clocking block output mem_bus.cb.data_in is not legal in this
+# or another expression.
+#         Region: /top/mem
+# ** Warning: (vsim-8441) /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/mem.sv(58): Clocking block output mem_bus.cb.read is not legal in this
+# or another expression.
+#         Region: /top/mem
+# ** Warning: (vsim-8441) /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/mem.sv(55): Clocking block output mem_bus.cb.write is not legal in this
+# or another expression.
+#         Region: /top/mem
+# Error loading design
+# Error: Error loading design 
+#        Pausing macro execution 
+# MACRO ./testbench.do PAUSED at line 2
+# Compile of mem.sv was successful with warnings.
+# Compile of testbench.sv was successful with warnings.
+# 2 compiles, 0 failed with no errors. 
+do testbench.do
+# vsim -novopt top 
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/work.top
+# Loading sv_std.std
+# Loading work.top
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/work.mem_if
+# Loading work.mem_if
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/work.test
+# Loading work.test
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/work.my_mem
+# Loading work.my_mem
+# ** Error: (vsim-3773) /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/testbench.sv(85): Interface item 'address' is not in modport 'TEST'.
+#         Region: /top/t1
+# ** Warning: (vsim-3008) /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/testbench.sv(105): [CNNODP] - Component name (mread) is not on a downward path.
+#         Region: /top/t1
+# ** Error: (vsim-3043) /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/testbench.sv(105): Unresolved reference to 'mread' in mem_bus.mread.
+#         Region: /top/t1
+# ** Warning: (vsim-3008) /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/testbench.sv(100): [CNNODP] - Component name (mwrite) is not on a downward path.
+#         Region: /top/t1
+# ** Error: (vsim-3043) /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/testbench.sv(100): Unresolved reference to 'mwrite' in mem_bus.mwrite.
+#         Region: /top/t1
+# ** Error: (vsim-3773) /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/testbench.sv(70): Interface item 'rdwr_error_count' is not in modport 'TEST'.
+#         Region: /top/t1
+# ** Error: (vsim-3773) /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/testbench.sv(60): Interface item 'read' is not in modport 'TEST'.
+#         Region: /top/t1
+# ** Error: (vsim-3773) /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/testbench.sv(92): Interface item 'write' is not in modport 'TEST'.
+#         Region: /top/t1
+# ** Error: (vsim-3773) /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/mem.sv(55): Interface item 'cb' is not in modport 'DUT'.
+#         Region: /top/mem
+# ** Warning: (vsim-8441) /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/mem.sv(57): Clocking block output mem_bus.cb.address is not legal in this
+# or another expression.
+#         Region: /top/mem
+# ** Warning: (vsim-8441) /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/mem.sv(57): Clocking block output mem_bus.cb.data_in is not legal in this
+# or another expression.
+#         Region: /top/mem
+# ** Warning: (vsim-8441) /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/mem.sv(58): Clocking block output mem_bus.cb.read is not legal in this
+# or another expression.
+#         Region: /top/mem
+# ** Warning: (vsim-8441) /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/mem.sv(55): Clocking block output mem_bus.cb.write is not legal in this
+# or another expression.
+#         Region: /top/mem
+# Error loading design
+# Error: Error loading design 
+#        Pausing macro execution 
+# MACRO ./testbench.do PAUSED at line 2
+do testbench.do
+# vsim -novopt top 
+# Loading sv_std.std
+# Loading work.top
+# Loading work.mem_if
+# Loading work.test
+# Loading work.my_mem
+# ** Error: (vsim-3773) /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/testbench.sv(85): Interface item 'address' is not in modport 'TEST'.
+#         Region: /top/t1
+# ** Warning: (vsim-3008) /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/testbench.sv(105): [CNNODP] - Component name (mread) is not on a downward path.
+#         Region: /top/t1
+# ** Error: (vsim-3043) /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/testbench.sv(105): Unresolved reference to 'mread' in mem_bus.mread.
+#         Region: /top/t1
+# ** Warning: (vsim-3008) /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/testbench.sv(100): [CNNODP] - Component name (mwrite) is not on a downward path.
+#         Region: /top/t1
+# ** Error: (vsim-3043) /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/testbench.sv(100): Unresolved reference to 'mwrite' in mem_bus.mwrite.
+#         Region: /top/t1
+# ** Error: (vsim-3773) /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/testbench.sv(70): Interface item 'rdwr_error_count' is not in modport 'TEST'.
+#         Region: /top/t1
+# ** Error: (vsim-3773) /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/testbench.sv(60): Interface item 'read' is not in modport 'TEST'.
+#         Region: /top/t1
+# ** Error: (vsim-3773) /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/testbench.sv(92): Interface item 'write' is not in modport 'TEST'.
+#         Region: /top/t1
+# ** Error: (vsim-3773) /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/mem.sv(55): Interface item 'cb' is not in modport 'DUT'.
+#         Region: /top/mem
+# ** Warning: (vsim-8441) /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/mem.sv(57): Clocking block output mem_bus.cb.address is not legal in this
+# or another expression.
+#         Region: /top/mem
+# ** Warning: (vsim-8441) /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/mem.sv(57): Clocking block output mem_bus.cb.data_in is not legal in this
+# or another expression.
+#         Region: /top/mem
+# ** Warning: (vsim-8441) /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/mem.sv(58): Clocking block output mem_bus.cb.read is not legal in this
+# or another expression.
+#         Region: /top/mem
+# ** Warning: (vsim-8441) /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/mem.sv(55): Clocking block output mem_bus.cb.write is not legal in this
+# or another expression.
+#         Region: /top/mem
+# Error loading design
+# Error: Error loading design 
+#        Pausing macro execution 
+# MACRO ./testbench.do PAUSED at line 2
+# Compile of mem.sv was successful with warnings.
+# Compile of testbench.sv was successful with warnings.
+# 2 compiles, 0 failed with no errors. 
+do testbench.do
+# vsim -novopt top 
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/work.top
+# Loading sv_std.std
+# Loading work.top
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/work.mem_if
+# Loading work.mem_if
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/work.test
+# Loading work.test
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/work.my_mem
+# Loading work.my_mem
+# ** Error: (vsim-3773) /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/testbench.sv(85): Interface item 'address' is not in modport 'TEST'.
+#         Region: /top/t1
+# ** Warning: (vsim-3008) /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/testbench.sv(105): [CNNODP] - Component name (mread) is not on a downward path.
+#         Region: /top/t1
+# ** Error: (vsim-3043) /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/testbench.sv(105): Unresolved reference to 'mread' in mem_bus.mread.
+#         Region: /top/t1
+# ** Warning: (vsim-3008) /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/testbench.sv(100): [CNNODP] - Component name (mwrite) is not on a downward path.
+#         Region: /top/t1
+# ** Error: (vsim-3043) /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/testbench.sv(100): Unresolved reference to 'mwrite' in mem_bus.mwrite.
+#         Region: /top/t1
+# ** Error: (vsim-3773) /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/testbench.sv(70): Interface item 'rdwr_error_count' is not in modport 'TEST'.
+#         Region: /top/t1
+# ** Error: (vsim-3773) /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/testbench.sv(60): Interface item 'read' is not in modport 'TEST'.
+#         Region: /top/t1
+# ** Error: (vsim-3773) /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/testbench.sv(92): Interface item 'write' is not in modport 'TEST'.
+#         Region: /top/t1
+# ** Error: (vsim-3773) /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/mem.sv(55): Interface item 'cb' is not in modport 'DUT'.
+#         Region: /top/mem
+# ** Warning: (vsim-8441) /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/mem.sv(57): Clocking block output mem_bus.cb.address is not legal in this
+# or another expression.
+#         Region: /top/mem
+# ** Warning: (vsim-8441) /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/mem.sv(57): Clocking block output mem_bus.cb.data_in is not legal in this
+# or another expression.
+#         Region: /top/mem
+# ** Warning: (vsim-8441) /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/mem.sv(58): Clocking block output mem_bus.cb.read is not legal in this
+# or another expression.
+#         Region: /top/mem
+# ** Warning: (vsim-8441) /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/mem.sv(55): Clocking block output mem_bus.cb.write is not legal in this
+# or another expression.
+#         Region: /top/mem
+# Error loading design
+# Error: Error loading design 
+#        Pausing macro execution 
+# MACRO ./testbench.do PAUSED at line 2
+# Compile of mem.sv was successful with warnings.
+# Compile of testbench.sv was successful with warnings.
+# 2 compiles, 0 failed with no errors. 
+do testbench.do
+# vsim -novopt top 
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/work.top
+# Loading sv_std.std
+# Loading work.top
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/work.mem_if
+# Loading work.mem_if
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/work.test
+# Loading work.test
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/work.my_mem
+# Loading work.my_mem
+# ** Warning: (vsim-3008) /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/testbench.sv(105): [CNNODP] - Component name (mread) is not on a downward path.
+#         Region: /top/t1
+# ** Error: (vsim-3043) /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/testbench.sv(105): Unresolved reference to 'mread' in mem_bus.mread.
+#         Region: /top/t1
+# ** Warning: (vsim-3008) /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/testbench.sv(100): [CNNODP] - Component name (mwrite) is not on a downward path.
+#         Region: /top/t1
+# ** Error: (vsim-3043) /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/testbench.sv(100): Unresolved reference to 'mwrite' in mem_bus.mwrite.
+#         Region: /top/t1
+# ** Error: (vsim-3773) /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/testbench.sv(70): Interface item 'rdwr_error_count' is not in modport 'TEST'.
+#         Region: /top/t1
+# ** Error: (vsim-3773) /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/testbench.sv(60): Interface item 'read' is not in modport 'TEST'.
+#         Region: /top/t1
+# ** Error: (vsim-3773) /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/testbench.sv(92): Interface item 'write' is not in modport 'TEST'.
+#         Region: /top/t1
+# ** Error: (vsim-3773) /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/mem.sv(55): Interface item 'cb' is not in modport 'DUT'.
+#         Region: /top/mem
+# ** Warning: (vsim-8441) /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/mem.sv(57): Clocking block output mem_bus.cb.address is not legal in this
+# or another expression.
+#         Region: /top/mem
+# ** Warning: (vsim-8441) /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/mem.sv(57): Clocking block output mem_bus.cb.data_in is not legal in this
+# or another expression.
+#         Region: /top/mem
+# ** Warning: (vsim-8441) /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/mem.sv(58): Clocking block output mem_bus.cb.read is not legal in this
+# or another expression.
+#         Region: /top/mem
+# ** Warning: (vsim-8441) /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/mem.sv(55): Clocking block output mem_bus.cb.write is not legal in this
+# or another expression.
+#         Region: /top/mem
+# Error loading design
+# Error: Error loading design 
+#        Pausing macro execution 
+# MACRO ./testbench.do PAUSED at line 2
+# Compile of mem.sv was successful with warnings.
+# Compile of testbench.sv was successful with warnings.
+# 2 compiles, 0 failed with no errors. 
+do testbench.do
+# vsim -novopt top 
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/work.top
+# Loading sv_std.std
+# Loading work.top
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/work.mem_if
+# Loading work.mem_if
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/work.test
+# Loading work.test
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/work.my_mem
+# Loading work.my_mem
+# ** Warning: (vsim-3008) /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/testbench.sv(100): [CNNODP] - Component name (mwrite) is not on a downward path.
+#         Region: /top/t1
+# ** Error: (vsim-3043) /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/testbench.sv(100): Unresolved reference to 'mwrite' in mem_bus.mwrite.
+#         Region: /top/t1
+# ** Error: (vsim-3773) /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/testbench.sv(70): Interface item 'rdwr_error_count' is not in modport 'TEST'.
+#         Region: /top/t1
+# ** Error: (vsim-3773) /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/testbench.sv(60): Interface item 'read' is not in modport 'TEST'.
+#         Region: /top/t1
+# ** Error: (vsim-3773) /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/testbench.sv(92): Interface item 'write' is not in modport 'TEST'.
+#         Region: /top/t1
+# ** Error: (vsim-3773) /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/mem.sv(55): Interface item 'cb' is not in modport 'DUT'.
+#         Region: /top/mem
+# ** Warning: (vsim-8441) /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/mem.sv(57): Clocking block output mem_bus.cb.address is not legal in this
+# or another expression.
+#         Region: /top/mem
+# ** Warning: (vsim-8441) /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/mem.sv(57): Clocking block output mem_bus.cb.data_in is not legal in this
+# or another expression.
+#         Region: /top/mem
+# ** Warning: (vsim-8441) /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/mem.sv(58): Clocking block output mem_bus.cb.read is not legal in this
+# or another expression.
+#         Region: /top/mem
+# ** Warning: (vsim-8441) /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/mem.sv(55): Clocking block output mem_bus.cb.write is not legal in this
+# or another expression.
+#         Region: /top/mem
+# Error loading design
+# Error: Error loading design 
+#        Pausing macro execution 
+# MACRO ./testbench.do PAUSED at line 2
+# Compile of mem.sv was successful with warnings.
+# Compile of testbench.sv was successful with warnings.
+# 2 compiles, 0 failed with no errors. 
+do testbench.do
+# vsim -novopt top 
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/work.top
+# Loading sv_std.std
+# Loading work.top
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/work.mem_if
+# Loading work.mem_if
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/work.test
+# Loading work.test
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/work.my_mem
+# Loading work.my_mem
+# ** Error: (vsim-3773) /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/testbench.sv(70): Interface item 'rdwr_error_count' is not in modport 'TEST'.
+#         Region: /top/t1
+# ** Error: (vsim-3773) /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/testbench.sv(60): Interface item 'read' is not in modport 'TEST'.
+#         Region: /top/t1
+# ** Error: (vsim-3773) /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/testbench.sv(92): Interface item 'write' is not in modport 'TEST'.
+#         Region: /top/t1
+# ** Error: (vsim-3773) /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/mem.sv(55): Interface item 'cb' is not in modport 'DUT'.
+#         Region: /top/mem
+# ** Warning: (vsim-8441) /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/mem.sv(57): Clocking block output mem_bus.cb.address is not legal in this
+# or another expression.
+#         Region: /top/mem
+# ** Warning: (vsim-8441) /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/mem.sv(57): Clocking block output mem_bus.cb.data_in is not legal in this
+# or another expression.
+#         Region: /top/mem
+# ** Warning: (vsim-8441) /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/mem.sv(58): Clocking block output mem_bus.cb.read is not legal in this
+# or another expression.
+#         Region: /top/mem
+# ** Warning: (vsim-8441) /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/mem.sv(55): Clocking block output mem_bus.cb.write is not legal in this
+# or another expression.
+#         Region: /top/mem
+# Error loading design
+# Error: Error loading design 
+#        Pausing macro execution 
+# MACRO ./testbench.do PAUSED at line 2
+# Compile of mem.sv was successful with warnings.
+# Compile of testbench.sv was successful with warnings.
+# 2 compiles, 0 failed with no errors. 
+do testbench.do
+# vsim -novopt top 
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/work.top
+# Loading sv_std.std
+# Loading work.top
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/work.mem_if
+# Loading work.mem_if
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/work.test
+# Loading work.test
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/work.my_mem
+# Loading work.my_mem
+# ** Warning: (vsim-3008) /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/testbench.sv(70): [CNNODP] - Component name (rdwr_error_count) is not on a downward path.
+#         Region: /top/t1
+# ** Error: (vsim-3043) /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/testbench.sv(70): Unresolved reference to 'rdwr_error_count' in mem_bus.rdwr_error_count.
+#         Region: /top/t1
+# ** Error: (vsim-3773) /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/testbench.sv(60): Interface item 'read' is not in modport 'TEST'.
+#         Region: /top/t1
+# ** Error: (vsim-3773) /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/testbench.sv(92): Interface item 'write' is not in modport 'TEST'.
+#         Region: /top/t1
+# ** Error: (vsim-3773) /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/mem.sv(54): Interface item 'cb' is not in modport 'DUT'.
+#         Region: /top/mem
+# ** Warning: (vsim-8441) /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/mem.sv(56): Clocking block output mem_bus.cb.address is not legal in this
+# or another expression.
+#         Region: /top/mem
+# ** Warning: (vsim-8441) /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/mem.sv(56): Clocking block output mem_bus.cb.data_in is not legal in this
+# or another expression.
+#         Region: /top/mem
+# ** Warning: (vsim-8441) /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/mem.sv(57): Clocking block output mem_bus.cb.read is not legal in this
+# or another expression.
+#         Region: /top/mem
+# ** Warning: (vsim-8441) /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/mem.sv(54): Clocking block output mem_bus.cb.write is not legal in this
+# or another expression.
+#         Region: /top/mem
+# Error loading design
+# Error: Error loading design 
+#        Pausing macro execution 
+# MACRO ./testbench.do PAUSED at line 2
+# Compile of mem.sv was successful with warnings.
+# Compile of testbench.sv was successful with warnings.
+# 2 compiles, 0 failed with no errors. 
+do testbench.do
+# vsim -novopt top 
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/work.top
+# Loading sv_std.std
+# Loading work.top
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/work.mem_if
+# Loading work.mem_if
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/work.test
+# Loading work.test
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/work.my_mem
+# Loading work.my_mem
+# ** Error: (vsim-3773) /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/testbench.sv(60): Interface item 'read' is not in modport 'TEST'.
+#         Region: /top/t1
+# ** Error: (vsim-3773) /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/testbench.sv(92): Interface item 'write' is not in modport 'TEST'.
+#         Region: /top/t1
+# ** Error: (vsim-3773) /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/mem.sv(54): Interface item 'cb' is not in modport 'DUT'.
+#         Region: /top/mem
+# ** Warning: (vsim-8441) /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/mem.sv(56): Clocking block output mem_bus.cb.address is not legal in this
+# or another expression.
+#         Region: /top/mem
+# ** Warning: (vsim-8441) /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/mem.sv(56): Clocking block output mem_bus.cb.data_in is not legal in this
+# or another expression.
+#         Region: /top/mem
+# ** Warning: (vsim-8441) /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/mem.sv(57): Clocking block output mem_bus.cb.read is not legal in this
+# or another expression.
+#         Region: /top/mem
+# ** Warning: (vsim-8441) /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/mem.sv(54): Clocking block output mem_bus.cb.write is not legal in this
+# or another expression.
+#         Region: /top/mem
+# Error loading design
+# Error: Error loading design 
+#        Pausing macro execution 
+# MACRO ./testbench.do PAUSED at line 2
+# Compile of mem.sv was successful with warnings.
+# Compile of testbench.sv was successful with warnings.
+# 2 compiles, 0 failed with no errors. 
+do testbench.do
+# vsim -novopt top 
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/work.top
+# Loading sv_std.std
+# Loading work.top
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/work.mem_if
+# Loading work.mem_if
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/work.test
+# Loading work.test
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/work.my_mem
+# Loading work.my_mem
+# ** Error: (vsim-8343) /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/testbench.sv(84): Clocking block output mem_bus.cb.read is not legal
+# for the left hand side of this or another expression.
+#         Region: /top/t1
+# ** Error: (vsim-3773) /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/mem.sv(54): Interface item 'cb' is not in modport 'DUT'.
+#         Region: /top/mem
+# ** Warning: (vsim-8441) /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/mem.sv(56): Clocking block output mem_bus.cb.address is not legal in this
+# or another expression.
+#         Region: /top/mem
+# ** Warning: (vsim-8441) /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/mem.sv(56): Clocking block output mem_bus.cb.data_in is not legal in this
+# or another expression.
+#         Region: /top/mem
+# ** Warning: (vsim-8441) /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/mem.sv(57): Clocking block output mem_bus.cb.read is not legal in this
+# or another expression.
+#         Region: /top/mem
+# ** Warning: (vsim-8441) /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/mem.sv(54): Clocking block output mem_bus.cb.write is not legal in this
+# or another expression.
+#         Region: /top/mem
+# Error loading design
+# Error: Error loading design 
+#        Pausing macro execution 
+# MACRO ./testbench.do PAUSED at line 2
+# Compile of mem.sv was successful with warnings.
+# Compile of testbench.sv was successful with warnings.
+# 2 compiles, 0 failed with no errors. 
+do testbench.do
+# vsim -novopt top 
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/work.top
+# Loading sv_std.std
+# Loading work.top
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/work.mem_if
+# Loading work.mem_if
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/work.test
+# Loading work.test
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/work.my_mem
+# Loading work.my_mem
+# ** Error: (vsim-8343) /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/testbench.sv(84): Clocking block output mem_bus.cb.read is not legal
+# for the left hand side of this or another expression.
+#         Region: /top/t1
+# ** Error: (vsim-3773) /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/mem.sv(54): Interface item 'cb' is not in modport 'DUT'.
+#         Region: /top/mem
+# ** Warning: (vsim-8441) /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/mem.sv(56): Clocking block output mem_bus.cb.address is not legal in this
+# or another expression.
+#         Region: /top/mem
+# ** Warning: (vsim-8441) /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/mem.sv(56): Clocking block output mem_bus.cb.data_in is not legal in this
+# or another expression.
+#         Region: /top/mem
+# ** Warning: (vsim-8441) /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/mem.sv(57): Clocking block output mem_bus.cb.read is not legal in this
+# or another expression.
+#         Region: /top/mem
+# ** Warning: (vsim-8441) /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/mem.sv(54): Clocking block output mem_bus.cb.write is not legal in this
+# or another expression.
+#         Region: /top/mem
+# Error loading design
+# Error: Error loading design 
+#        Pausing macro execution 
+# MACRO ./testbench.do PAUSED at line 2
+# Compile of mem.sv was successful with warnings.
+# Compile of testbench.sv was successful with warnings.
+# 2 compiles, 0 failed with no errors. 
+do testbench.do
+# vsim -novopt top 
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/work.top
+# Loading sv_std.std
+# Loading work.top
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/work.mem_if
+# Loading work.mem_if
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/work.test
+# Loading work.test
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/work.my_mem
+# Loading work.my_mem
+# ** Error: (vsim-8343) /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/testbench.sv(84): Clocking block output mem_bus.cb.read is not legal
+# for the left hand side of this or another expression.
+#         Region: /top/t1
+# ** Error: (vsim-3773) /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/mem.sv(54): Interface item 'cb' is not in modport 'DUT'.
+#         Region: /top/mem
+# ** Warning: (vsim-8441) /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/mem.sv(56): Clocking block output mem_bus.cb.address is not legal in this
+# or another expression.
+#         Region: /top/mem
+# ** Warning: (vsim-8441) /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/mem.sv(56): Clocking block output mem_bus.cb.data_in is not legal in this
+# or another expression.
+#         Region: /top/mem
+# ** Warning: (vsim-8441) /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/mem.sv(57): Clocking block output mem_bus.cb.read is not legal in this
+# or another expression.
+#         Region: /top/mem
+# ** Warning: (vsim-8441) /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/mem.sv(54): Clocking block output mem_bus.cb.write is not legal in this
+# or another expression.
+#         Region: /top/mem
+# Error loading design
+# Error: Error loading design 
+#        Pausing macro execution 
+# MACRO ./testbench.do PAUSED at line 2
+# Compile of mem.sv was successful with warnings.
+# Compile of testbench.sv was successful with warnings.
+# 2 compiles, 0 failed with no errors. 
+do testbench.do
+# vsim -novopt top 
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/work.top
+# Loading sv_std.std
+# Loading work.top
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/work.mem_if
+# Loading work.mem_if
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/work.test
+# Loading work.test
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/work.my_mem
+# Loading work.my_mem
+# ** Error: (vsim-3773) /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/mem.sv(54): Interface item 'cb' is not in modport 'DUT'.
+#         Region: /top/mem
+# ** Warning: (vsim-8441) /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/mem.sv(56): Clocking block output mem_bus.cb.address is not legal in this
+# or another expression.
+#         Region: /top/mem
+# ** Warning: (vsim-8441) /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/mem.sv(56): Clocking block output mem_bus.cb.data_in is not legal in this
+# or another expression.
+#         Region: /top/mem
+# ** Warning: (vsim-8441) /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/mem.sv(57): Clocking block output mem_bus.cb.read is not legal in this
+# or another expression.
+#         Region: /top/mem
+# ** Warning: (vsim-8441) /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/mem.sv(54): Clocking block output mem_bus.cb.write is not legal in this
+# or another expression.
+#         Region: /top/mem
+# Error loading design
+# Error: Error loading design 
+#        Pausing macro execution 
+# MACRO ./testbench.do PAUSED at line 2
+# Compile of mem.sv was successful with warnings.
+# Compile of testbench.sv was successful with warnings.
+# 2 compiles, 0 failed with no errors. 
+do testbench.do
+# vsim -novopt top 
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/work.top
+# Loading sv_std.std
+# Loading work.top
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/work.mem_if
+# Loading work.mem_if
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/work.test
+# Loading work.test
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/work.my_mem
+# Loading work.my_mem
+# Found Error: 063 000
+# Found Error: 08d 063
+# Found Error: 081 08d
+# Found Error: 03d 081
+# Found Error: 00d 03d
+# Found Error: 012 00d
+# Print Read Values
+# 	000
+# 	063
+# 	08d
+# 	081
+# 	03d
+# 	00d
+# Tests Performed:           6
+# Incorrect Read Errors:           6
+# 1
+# Simulation stop requested.
+# Simulation Breakpoint: 1
+# Simulation stop requested.
+# MACRO ./testbench.do PAUSED at line 7
+# Compile of mem.sv was successful with warnings.
+# Compile of testbench.sv was successful with warnings.
+# 2 compiles, 0 failed with no errors. 
+do testbench.do
+# Test Complete.
+# vsim -novopt top 
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/work.top
+# Loading sv_std.std
+# Loading work.top
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/work.mem_if
+# Loading work.mem_if
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/work.test
+# Loading work.test
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/work.my_mem
+# Loading work.my_mem
+# Found Error: 063 000
+# Found Error: 08d 063
+# Found Error: 081 08d
+# Found Error: 03d 081
+# Found Error: 00d 03d
+# Found Error: 012 00d
+# Print Read Values
+# 	000
+# 	063
+# 	08d
+# 	081
+# 	03d
+# 	00d
+# Tests Performed:           6
+# Incorrect Read Errors:           6
+# 1
+# Simulation stop requested.
+# Simulation Breakpoint: 1
+# Simulation stop requested.
+# MACRO ./testbench.do PAUSED at line 7
+# Compile of mem.sv was successful with warnings.
+# Compile of testbench.sv was successful with warnings.
+# 2 compiles, 0 failed with no errors. 
+do testbench.do
+# Test Complete.
+# vsim -novopt top 
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/work.top
+# Loading sv_std.std
+# Loading work.top
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/work.mem_if
+# Loading work.mem_if
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/work.test
+# Loading work.test
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/work.my_mem
+# Loading work.my_mem
+# Print Read Values
+# 	063
+# 	08d
+# 	081
+# 	03d
+# 	00d
+# 	012
+# Tests Performed:           6
+# Incorrect Read Errors:           0
+# 1
+# Simulation stop requested.
+# Simulation Breakpoint: 1
+# Simulation stop requested.
+# MACRO ./testbench.do PAUSED at line 7
+# Compile of mem.sv was successful with warnings.
+# Compile of testbench.sv was successful with warnings.
+# 2 compiles, 0 failed with no errors. 
+do testbench.do
+# Test Complete.
+# vsim -novopt top 
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/work.top
+# Loading sv_std.std
+# Loading work.top
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/work.mem_if
+# Loading work.mem_if
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/work.test
+# Loading work.test
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/work.my_mem
+# Loading work.my_mem
+# Print Read Values
+# 	063
+# 	08d
+# 	081
+# 	03d
+# 	00d
+# 	012
+# Tests Performed:           6
+# Incorrect Read Errors:           0
+# 1
+# Simulation stop requested.
+# Simulation Breakpoint: 1
+# Simulation stop requested.
+# MACRO ./testbench.do PAUSED at line 7
+# Compile of mem.sv failed with 1 errors.
+# Compile of testbench.sv was successful with warnings.
+# 2 compiles, 1 failed with 1 error. 
+# Compile of mem.sv failed with 1 errors.
+# Compile of testbench.sv was successful with warnings.
+# 2 compiles, 1 failed with 1 error. 
+# Compile of mem.sv failed with 1 errors.
+# Compile of testbench.sv was successful with warnings.
+# 2 compiles, 1 failed with 1 error. 
+# Compile of mem.sv failed with 1 errors.
+# Compile of testbench.sv was successful with warnings.
+# 2 compiles, 1 failed with 1 error. 
+# Compile of mem.sv failed with 1 errors.
+# Compile of testbench.sv was successful with warnings.
+# 2 compiles, 1 failed with 1 error. 
+# Compile of mem.sv failed with 1 errors.
+# Compile of testbench.sv was successful with warnings.
+# 2 compiles, 1 failed with 1 error. 
+# Compile of mem.sv failed with 1 errors.
+# Compile of testbench.sv was successful with warnings.
+# 2 compiles, 1 failed with 1 error. 
+# Compile of mem.sv failed with 1 errors.
+# Compile of testbench.sv was successful with warnings.
+# 2 compiles, 1 failed with 1 error. 
+# Compile of mem.sv failed with 1 errors.
+# Compile of testbench.sv was successful with warnings.
+# 2 compiles, 1 failed with 1 error. 
+# Compile of mem.sv failed with 1 errors.
+# Compile of testbench.sv was successful with warnings.
+# 2 compiles, 1 failed with 1 error. 
+# Compile of mem.sv failed with 1 errors.
+# Compile of testbench.sv was successful with warnings.
+# 2 compiles, 1 failed with 1 error. 
+# Compile of mem.sv was successful with warnings.
+# Compile of testbench.sv was successful with warnings.
+# 2 compiles, 0 failed with no errors. 
+do testbench.do
+# Test Complete.
+# vsim -novopt top 
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/work.top
+# Loading sv_std.std
+# Loading work.top
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/work.mem_if
+# Loading work.mem_if
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/work.test
+# Loading work.test
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/work.my_mem
+# Loading work.my_mem
+# ** Warning: (vsim-3008) /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/mem.sv(22): [CNNODP] - Component name (clk) is not on a downward path.
+#         Region: /top/mem_bus
+# ** Error: (vsim-3043) /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/mem.sv(22): Unresolved reference to 'clk' in cb.clk.
+#         Region: /top/mem_bus
+# Error loading design
+# Error: Error loading design 
+#        Pausing macro execution 
+# MACRO ./testbench.do PAUSED at line 2
+# Compile of mem.sv was successful.
+# Compile of testbench.sv was successful with warnings.
+# 2 compiles, 0 failed with no errors. 
+do testbench.do
+# vsim -novopt top 
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/work.top
+# Loading sv_std.std
+# Loading work.top
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/work.mem_if
+# Loading work.mem_if
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/work.test
+# Loading work.test
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/work.my_mem
+# Loading work.my_mem
+# ** Error: Assertion error.
+#    Time: 50 ns Started: 50 ns  Scope: top.mem_bus.a1 File: /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/mem.sv Line: 22
+# ** Error: Assertion error.
+#    Time: 150 ns Started: 150 ns  Scope: top.mem_bus.a1 File: /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/mem.sv Line: 22
+# ** Error: Assertion error.
+#    Time: 250 ns Started: 250 ns  Scope: top.mem_bus.a1 File: /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/mem.sv Line: 22
+# ** Error: Assertion error.
+#    Time: 350 ns Started: 350 ns  Scope: top.mem_bus.a1 File: /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/mem.sv Line: 22
+# ** Error: Assertion error.
+#    Time: 450 ns Started: 450 ns  Scope: top.mem_bus.a1 File: /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/mem.sv Line: 22
+# ** Error: Assertion error.
+#    Time: 550 ns Started: 550 ns  Scope: top.mem_bus.a1 File: /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/mem.sv Line: 22
+# ** Error: Assertion error.
+#    Time: 650 ns Started: 650 ns  Scope: top.mem_bus.a1 File: /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/mem.sv Line: 22
+# Print Read Values
+# 	063
+# 	08d
+# 	081
+# 	03d
+# 	00d
+# 	012
+# Tests Performed:           6
+# Incorrect Read Errors:           0
+# 1
+# Simulation stop requested.
+# Simulation Breakpoint: 1
+# Simulation stop requested.
+# MACRO ./testbench.do PAUSED at line 7
+# Compile of mem.sv was successful.
+# Compile of testbench.sv was successful with warnings.
+# 2 compiles, 0 failed with no errors. 
+# Compile of mem.sv was successful.
+# Compile of testbench.sv was successful with warnings.
+# 2 compiles, 0 failed with no errors. 
+do testbench.do
+# Test Complete.
+# vsim -novopt top 
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/work.top
+# Loading sv_std.std
+# Loading work.top
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/work.mem_if
+# Loading work.mem_if
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/work.test
+# Loading work.test
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/work.my_mem
+# Loading work.my_mem
+# ** Error: Assertion error.
+#    Time: 50 ns Started: 50 ns  Scope: top.mem_bus.a1 File: /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/mem.sv Line: 22
+# ** Error: Assertion error.
+#    Time: 150 ns Started: 150 ns  Scope: top.mem_bus.a1 File: /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/mem.sv Line: 22
+# ** Error: Assertion error.
+#    Time: 250 ns Started: 250 ns  Scope: top.mem_bus.a1 File: /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/mem.sv Line: 22
+# ** Error: Assertion error.
+#    Time: 350 ns Started: 350 ns  Scope: top.mem_bus.a1 File: /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/mem.sv Line: 22
+# ** Error: Assertion error.
+#    Time: 450 ns Started: 450 ns  Scope: top.mem_bus.a1 File: /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/mem.sv Line: 22
+# ** Error: Assertion error.
+#    Time: 550 ns Started: 550 ns  Scope: top.mem_bus.a1 File: /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/mem.sv Line: 22
+# ** Error: Assertion error.
+#    Time: 650 ns Started: 650 ns  Scope: top.mem_bus.a1 File: /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/mem.sv Line: 22
+# Print Read Values
+# 	063
+# 	08d
+# 	081
+# 	03d
+# 	00d
+# 	012
+# Tests Performed:           6
+# Incorrect Read Errors:           0
+# 1
+# Simulation stop requested.
+# Simulation Breakpoint: 1
+# Simulation stop requested.
+# MACRO ./testbench.do PAUSED at line 7
+# Compile of mem.sv was successful.
+# Compile of testbench.sv was successful with warnings.
+# 2 compiles, 0 failed with no errors. 
+do testbench.do
+# Test Complete.
+# vsim -novopt top 
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/work.top
+# Loading sv_std.std
+# Loading work.top
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/work.mem_if
+# Loading work.mem_if
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/work.test
+# Loading work.test
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/work.my_mem
+# Loading work.my_mem
+# Print Read Values
+# 	063
+# 	08d
+# 	081
+# 	03d
+# 	00d
+# 	012
+# Tests Performed:           6
+# Incorrect Read Errors:           0
+# 1
+# Simulation stop requested.
+# Simulation Breakpoint: 1
+# Simulation stop requested.
+# MACRO ./testbench.do PAUSED at line 7
+# Compile of mem.sv was successful.
+# Compile of testbench.sv was successful with warnings.
+# 2 compiles, 0 failed with no errors. 
+# Compile of mem.sv was successful.
+# Compile of testbench.sv was successful with warnings.
+# 2 compiles, 0 failed with no errors. 
+# Compile of mem.sv was successful.
+# Compile of testbench.sv was successful with warnings.
+# 2 compiles, 0 failed with no errors. 
+do testbench.do
+# Test Complete.
+# vsim -novopt top 
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/work.top
+# Loading sv_std.std
+# Loading work.top
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/work.mem_if
+# Loading work.mem_if
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/work.test
+# Loading work.test
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/work.my_mem
+# Loading work.my_mem
+# ** Warning: (vsim-3008) /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/testbench.sv(37): [CNNODP] - Component name (mread) is not on a downward path.
+#         Region: /top/t1
+# ** Error: (vsim-3043) /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/testbench.sv(37): Unresolved reference to 'mread' in mem_bus.mread.
+#         Region: /top/t1
+# ** Warning: (vsim-3008) /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/testbench.sv(36): [CNNODP] - Component name (mwrite) is not on a downward path.
+#         Region: /top/t1
+# ** Error: (vsim-3043) /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/testbench.sv(36): Unresolved reference to 'mwrite' in mem_bus.mwrite.
+#         Region: /top/t1
+# ** Error: (vsim-3773) /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/testbench.sv(44): Interface item 'read' is not in modport 'TEST'.
+#         Region: /top/t1
+# ** Error: (vsim-3773) /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/testbench.sv(43): Interface item 'write' is not in modport 'TEST'.
+#         Region: /top/t1
+# Error loading design
+# Error: Error loading design 
+#        Pausing macro execution 
+# MACRO ./testbench.do PAUSED at line 2
+# Compile of mem.sv was successful.
+# Compile of testbench.sv was successful with warnings.
+# 2 compiles, 0 failed with no errors. 
+do testbench.do
+# vsim -novopt top 
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/work.top
+# Loading sv_std.std
+# Loading work.top
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/work.mem_if
+# Loading work.mem_if
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/work.test
+# Loading work.test
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/work.my_mem
+# Loading work.my_mem
+# ** Error: (vsim-3773) /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/testbench.sv(44): Interface item 'read' is not in modport 'TEST'.
+#         Region: /top/t1
+# ** Error: (vsim-3773) /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/testbench.sv(43): Interface item 'write' is not in modport 'TEST'.
+#         Region: /top/t1
+# Error loading design
+# Error: Error loading design 
+#        Pausing macro execution 
+# MACRO ./testbench.do PAUSED at line 2
+# Compile of mem.sv was successful.
+# Compile of testbench.sv was successful with warnings.
+# 2 compiles, 0 failed with no errors. 
+do testbench.do
+# vsim -novopt top 
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/work.top
+# Loading sv_std.std
+# Loading work.top
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/work.mem_if
+# Loading work.mem_if
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/work.test
+# Loading work.test
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/work.my_mem
+# Loading work.my_mem
+# ** Error: Assertion error.
+#    Time: 50 ns Started: 50 ns  Scope: top.mem_bus.a1 File: /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/mem.sv Line: 22
+# ** Error: Assertion error.
+#    Time: 150 ns Started: 150 ns  Scope: top.mem_bus.a1 File: /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/mem.sv Line: 22
+# ** Error: Assertion error.
+#    Time: 250 ns Started: 250 ns  Scope: top.mem_bus.a1 File: /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/mem.sv Line: 22
+# Print Read Values
+# 	063
+# 	08d
+# 	081
+# 	03d
+# 	00d
+# 	012
+# Tests Performed:           6
+# Incorrect Read Errors:           0
+# 1
+# Simulation stop requested.
+# Simulation Breakpoint: 1
+# Simulation stop requested.
+# MACRO ./testbench.do PAUSED at line 7
+# Compile of mem.sv was successful.
+# Compile of testbench.sv was successful with warnings.
+# 2 compiles, 0 failed with no errors. 
+# Compile of mem.sv was successful.
+# Compile of testbench.sv was successful with warnings.
+# 2 compiles, 0 failed with no errors. 
+do testbench.do
+# Test Complete.
+# vsim -novopt top 
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/work.top
+# Loading sv_std.std
+# Loading work.top
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/work.mem_if
+# Loading work.mem_if
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/work.test
+# Loading work.test
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/work.my_mem
+# Loading work.my_mem
+# ** Error: Assertion error.
+#    Time: 50 ns Started: 50 ns  Scope: top.mem_bus.a1 File: /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/mem.sv Line: 23
+# ** Error: Assertion error.
+#    Time: 150 ns Started: 150 ns  Scope: top.mem_bus.a1 File: /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/mem.sv Line: 23
+# ** Error: Assertion error.
+#    Time: 250 ns Started: 250 ns  Scope: top.mem_bus.a1 File: /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/mem.sv Line: 23
+# Print Read Values
+# 	0063
+# 	008d
+# 	0081
+# 	003d
+# 	000d
+# 	0012
+# Tests Performed:           6
+# Incorrect Read Errors:           0
+# 1
+# Simulation stop requested.
+# Simulation Breakpoint: 1
+# Simulation stop requested.
+# MACRO ./testbench.do PAUSED at line 7
+# Compile of mem.sv was successful.
+# Compile of testbench.sv was successful with warnings.
+# 2 compiles, 0 failed with no errors. 
+# Compile of mem.sv was successful.
+# Compile of testbench.sv was successful with warnings.
+# 2 compiles, 0 failed with no errors. 
+do testbench.do
+# Test Complete.
+# vsim -novopt top 
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/work.top
+# Loading sv_std.std
+# Loading work.top
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/work.mem_if
+# Loading work.mem_if
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/work.test
+# Loading work.test
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/work.my_mem
+# Loading work.my_mem
+# ** Error: Assertion error.
+#    Time: 50 ns Started: 50 ns  Scope: top.mem_bus.a1 File: /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/mem.sv Line: 23
+# ** Error: Assertion error.
+#    Time: 150 ns Started: 150 ns  Scope: top.mem_bus.a1 File: /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/mem.sv Line: 23
+# ** Error: Assertion error.
+#    Time: 250 ns Started: 250 ns  Scope: top.mem_bus.a1 File: /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/mem.sv Line: 23
+# Print Read Values
+# 	063
+# 	08d
+# 	081
+# 	13d
+# 	10d
+# 	012
+# Tests Performed:           6
+# Incorrect Read Errors:           0
+# 1
+# Simulation stop requested.
+# Simulation Breakpoint: 1
+# Simulation stop requested.
+# MACRO ./testbench.do PAUSED at line 7
+# Compile of mem.sv was successful.
+# Compile of testbench.sv was successful with warnings.
+# 2 compiles, 0 failed with no errors. 
+# Compile of mem.sv was successful.
+# Compile of testbench.sv was successful with warnings.
+# 2 compiles, 0 failed with no errors. 
+do testbench.do
+# Test Complete.
+# vsim -novopt top 
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/work.top
+# Loading sv_std.std
+# Loading work.top
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/work.mem_if
+# Loading work.mem_if
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/work.test
+# Loading work.test
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/work.my_mem
+# Loading work.my_mem
+# ** Error: Assertion error.
+#    Time: 50 ns Started: 50 ns  Scope: top.mem_bus.a1 File: /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/mem.sv Line: 23
+# ** Error: Assertion error.
+#    Time: 150 ns Started: 150 ns  Scope: top.mem_bus.a1 File: /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/mem.sv Line: 23
+# ** Error: Assertion error.
+#    Time: 250 ns Started: 250 ns  Scope: top.mem_bus.a1 File: /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/mem.sv Line: 23
+# Print Read Values
+# 	063
+# 	08d
+# 	081
+# 	13d
+# 	10d
+# 	012
+# Tests Performed:           6
+# Incorrect Read Errors:           0
+# 1
+# Simulation stop requested.
+# Simulation Breakpoint: 1
+# Simulation stop requested.
+# MACRO ./testbench.do PAUSED at line 7
+# Compile of mem.sv was successful.
+# Compile of testbench.sv was successful with warnings.
+# 2 compiles, 0 failed with no errors. 
+do testbench.do
+# Test Complete.
+# vsim -novopt top 
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/work.top
+# Loading sv_std.std
+# Loading work.top
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/work.mem_if
+# Loading work.mem_if
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/work.test
+# Loading work.test
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/work.my_mem
+# Loading work.my_mem
+# ** Error: Assertion error.
+#    Time: 50 ns Started: 50 ns  Scope: top.mem_bus.a1 File: /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/mem.sv Line: 23
+# ** Error: Assertion error.
+#    Time: 150 ns Started: 150 ns  Scope: top.mem_bus.a1 File: /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/mem.sv Line: 23
+# ** Error: Assertion error.
+#    Time: 250 ns Started: 250 ns  Scope: top.mem_bus.a1 File: /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/mem.sv Line: 23
+# Print Read Values
+# 	063
+# 	08d
+# 	081
+# 	13d
+# 	10d
+# 	012
+# Tests Performed:           6
+# Incorrect Read Errors:           0
+# 1
+# Simulation stop requested.
+# Simulation Breakpoint: 1
+# Simulation stop requested.
+# MACRO ./testbench.do PAUSED at line 7
+# Compile of mem.sv was successful.
+# Compile of testbench.sv was successful with warnings.
+# 2 compiles, 0 failed with no errors. 
+do testbench.do
+# Test Complete.
+# vsim -novopt top 
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/work.top
+# Loading sv_std.std
+# Loading work.top
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/work.mem_if
+# Loading work.mem_if
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/work.test
+# Loading work.test
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/work.my_mem
+# Loading work.my_mem
+# Print Read Values
+# 	063
+# 	08d
+# 	081
+# 	13d
+# 	10d
+# 	012
+# Tests Performed:           6
+# Incorrect Read Errors:           0
+# 1
+# Simulation stop requested.
+# Simulation Breakpoint: 1
+# Simulation stop requested.
+# MACRO ./testbench.do PAUSED at line 7
+# A time value could not be extracted from the current line
+# Compile of mem.sv was successful.
+# Compile of testbench.sv was successful with warnings.
+# 2 compiles, 0 failed with no errors. 
+do testbench.do
+# Test Complete.
+# vsim -novopt top 
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/work.top
+# Loading sv_std.std
+# Loading work.top
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/work.mem_if
+# Loading work.mem_if
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/work.test
+# Loading work.test
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/work.my_mem
+# Loading work.my_mem
+# ** Warning: (vsim-3829) /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/mem.sv(44): Non-existent associative array entry. Returning default value.
+# ** Warning: (vsim-3829) /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/mem.sv(44): Non-existent associative array entry. Returning default value.
+# Found Error: 0063 0000
+# ** Warning: (vsim-3829) /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/mem.sv(44): Non-existent associative array entry. Returning default value.
+# ** Warning: (vsim-3829) /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/mem.sv(44): Non-existent associative array entry. Returning default value.
+# ** Warning: (vsim-3829) /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/mem.sv(44): Non-existent associative array entry. Returning default value.
+# Found Error: 008d 0000
+# ** Warning: (vsim-3829) /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/mem.sv(44): Non-existent associative array entry. Returning default value.
+# ** Warning: (vsim-3829) /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/mem.sv(44): Non-existent associative array entry. Returning default value.
+# ** Warning: (vsim-3829) /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/mem.sv(44): Non-existent associative array entry. Returning default value.
+# Found Error: 0081 0000
+# ** Warning: (vsim-3829) /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/mem.sv(44): Non-existent associative array entry. Returning default value.
+# ** Warning: (vsim-3829) /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/mem.sv(44): Non-existent associative array entry. Returning default value.
+# ** Warning: (vsim-3829) /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/mem.sv(44): Non-existent associative array entry. Returning default value.
+# Found Error: 013d 0000
+# ** Warning: (vsim-3829) /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/mem.sv(44): Non-existent associative array entry. Returning default value.
+# ** Warning: (vsim-3829) /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/mem.sv(44): Non-existent associative array entry. Returning default value.
+# ** Warning: (vsim-3829) /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/mem.sv(44): Non-existent associative array entry. Returning default value.
+# Found Error: 010d 0000
+# ** Warning: (vsim-3829) /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/mem.sv(44): Non-existent associative array entry. Returning default value.
+# ** Warning: (vsim-3829) /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/mem.sv(44): Non-existent associative array entry. Returning default value.
+# ** Warning: (vsim-3829) /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/mem.sv(44): Non-existent associative array entry. Returning default value.
+# Found Error: 0012 0000
+# Print Read Values
+# 	000
+# 	000
+# 	000
+# 	000
+# 	000
+# 	000
+# Tests Performed:           6
+# Incorrect Read Errors:           6
+# 1
+# Simulation stop requested.
+# Simulation Breakpoint: 1
+# Simulation stop requested.
+# MACRO ./testbench.do PAUSED at line 7
+# Compile of mem.sv was successful.
+# Compile of testbench.sv was successful with warnings.
+# 2 compiles, 0 failed with no errors. 
+do testbench.do
+# Test Complete.
+# vsim -novopt top 
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/work.top
+# Loading sv_std.std
+# Loading work.top
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/work.mem_if
+# Loading work.mem_if
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/work.test
+# Loading work.test
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/work.my_mem
+# Loading work.my_mem
+# Found Error: 0063 0000
+# Found Error: 008d 0000
+# Found Error: 0081 0000
+# Found Error: 013d 0000
+# Found Error: 010d 0000
+# Found Error: 0012 0000
+# Print Read Values
+# 	000
+# 	000
+# 	000
+# 	000
+# 	000
+# 	000
+# Tests Performed:           6
+# Incorrect Read Errors:           6
+# 1
+# Simulation stop requested.
+# Simulation Breakpoint: 1
+# Simulation stop requested.
+# MACRO ./testbench.do PAUSED at line 7
+# Compile of mem.sv was successful.
+# Compile of testbench.sv was successful with warnings.
+# 2 compiles, 0 failed with no errors. 
+do testbench.do
+# Test Complete.
+# vsim -novopt top 
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/work.top
+# Loading sv_std.std
+# Loading work.top
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/work.mem_if
+# Loading work.mem_if
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/work.test
+# Loading work.test
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/work.my_mem
+# Loading work.my_mem
+# ** Error: Assertion error.
+#    Time: 50 ns Started: 50 ns  Scope: top.mem_bus.a1 File: /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/mem.sv Line: 23
+# ** Error: Assertion error.
+#    Time: 150 ns Started: 150 ns  Scope: top.mem_bus.a1 File: /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/mem.sv Line: 23
+# ** Error: Assertion error.
+#    Time: 250 ns Started: 250 ns  Scope: top.mem_bus.a1 File: /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/mem.sv Line: 23
+# Print Read Values
+# 	063
+# 	08d
+# 	081
+# 	13d
+# 	10d
+# 	012
+# Tests Performed:           6
+# Incorrect Read Errors:           0
+# 1
+# Simulation stop requested.
+# Simulation Breakpoint: 1
+# Simulation stop requested.
+# MACRO ./testbench.do PAUSED at line 7
+# Compile of mem.sv was successful.
+# Compile of testbench.sv was successful with warnings.
+# 2 compiles, 0 failed with no errors. 
+# Compile of mem.sv was successful.
+# Compile of testbench.sv was successful with warnings.
+# 2 compiles, 0 failed with no errors. 
+do testbench.do
+# Test Complete.
+# vsim -novopt top 
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/work.top
+# Loading sv_std.std
+# Loading work.top
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/work.mem_if
+# Loading work.mem_if
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/work.test
+# Loading work.test
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/work.my_mem
+# Loading work.my_mem
+# Print Read Values
+# 	063
+# 	08d
+# 	081
+# 	13d
+# 	10d
+# 	012
+# Tests Performed:           6
+# Incorrect Read Errors:           0
+# 1
+# Simulation stop requested.
+# Simulation Breakpoint: 1
+# Simulation stop requested.
+# MACRO ./testbench.do PAUSED at line 7
+# Compile of mem.sv was successful.
+# Compile of testbench.sv was successful with warnings.
+# 2 compiles, 0 failed with no errors. 
+do testbench.do
+# Test Complete.
+# vsim -novopt top 
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/work.top
+# Loading sv_std.std
+# Loading work.top
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/work.mem_if
+# Loading work.mem_if
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/work.test
+# Loading work.test
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/work.my_mem
+# Loading work.my_mem
+# Found Error: 0063 0000
+# Found Error: 008d 0000
+# Found Error: 0081 0000
+# Found Error: 013d 0000
+# Found Error: 010d 0000
+# Found Error: 0012 0000
+# Print Read Values
+# 	000
+# 	000
+# 	000
+# 	000
+# 	000
+# 	000
+# Tests Performed:           6
+# Incorrect Read Errors:           6
+# 1
+# Simulation stop requested.
+# Simulation Breakpoint: 1
+# Simulation stop requested.
+# MACRO ./testbench.do PAUSED at line 7
+# Compile of mem.sv was successful.
+# Compile of testbench.sv was successful with warnings.
+# 2 compiles, 0 failed with no errors. 
+do testbench.do
+# Test Complete.
+# vsim -novopt top 
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/work.top
+# Loading sv_std.std
+# Loading work.top
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/work.mem_if
+# Loading work.mem_if
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/work.test
+# Loading work.test
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/work.my_mem
+# Loading work.my_mem
+# ** Error: Assertion error.
+#    Time: 50 ns Started: 50 ns  Scope: top.mem_bus.a1 File: /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/mem.sv Line: 23
+# ** Error: Assertion error.
+#    Time: 150 ns Started: 150 ns  Scope: top.mem_bus.a1 File: /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/mem.sv Line: 23
+# ** Error: Assertion error.
+#    Time: 250 ns Started: 250 ns  Scope: top.mem_bus.a1 File: /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/mem.sv Line: 23
+# Found Error: 0063 0000
+# Found Error: 008d 0000
+# Found Error: 0081 0000
+# Found Error: 013d 0000
+# Found Error: 010d 0000
+# Found Error: 0012 0000
+# Print Read Values
+# 	000
+# 	000
+# 	000
+# 	000
+# 	000
+# 	000
+# Tests Performed:           6
+# Incorrect Read Errors:           6
+# 1
+# Simulation stop requested.
+# Simulation Breakpoint: 1
+# Simulation stop requested.
+# MACRO ./testbench.do PAUSED at line 7
+# Compile of mem.sv was successful.
+# Compile of testbench.sv was successful with warnings.
+# 2 compiles, 0 failed with no errors. 
+do testbench.do
+# Test Complete.
+# vsim -novopt top 
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/work.top
+# Loading sv_std.std
+# Loading work.top
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/work.mem_if
+# Loading work.mem_if
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/work.test
+# Loading work.test
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/work.my_mem
+# Loading work.my_mem
+# ** Error: Assertion error.
+#    Time: 50 ns Started: 50 ns  Scope: top.mem_bus.a1 File: /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/mem.sv Line: 23
+# ** Error: Assertion error.
+#    Time: 150 ns Started: 150 ns  Scope: top.mem_bus.a1 File: /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/mem.sv Line: 23
+# ** Error: Assertion error.
+#    Time: 250 ns Started: 250 ns  Scope: top.mem_bus.a1 File: /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/mem.sv Line: 23
+# Print Read Values
+# 	063
+# 	08d
+# 	081
+# 	13d
+# 	10d
+# 	012
+# Tests Performed:           6
+# Incorrect Read Errors:           0
+# 1
+# Simulation stop requested.
+# Simulation Breakpoint: 1
+# Simulation stop requested.
+# MACRO ./testbench.do PAUSED at line 7
+quit
+# Test Complete.

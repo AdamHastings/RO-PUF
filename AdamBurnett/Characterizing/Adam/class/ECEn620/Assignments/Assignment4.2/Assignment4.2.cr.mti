@@ -1,0 +1,18 @@
+/net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/testbench.sv {2 {vlog -work work -vopt -sv /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/testbench.sv
+QuestaSim-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling program test
+** Warning: /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/testbench.sv(59): (vlog-2240) Treating stand-alone use of function 'check' as an implicit VOID cast.
+-- Compiling module top
+
+Top level modules:
+	top
+
+} {} {}} /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/mem.sv {1 {vlog -work work -vopt -sv /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment4.2/sverilog/mem.sv
+QuestaSim-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling interface mem_if
+-- Compiling module my_mem
+
+Top level modules:
+	my_mem
+
+} {} {}}

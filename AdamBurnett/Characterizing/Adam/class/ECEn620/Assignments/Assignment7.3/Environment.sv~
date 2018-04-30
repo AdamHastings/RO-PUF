@@ -1,0 +1,22 @@
+class Environment;
+   Generator G;
+   Agent A;
+   Driver D;   
+
+   mailbox #(Instruction) GtoA, AtoD;
+      
+   function new ();
+     
+   endfunction // new
+
+   task automatic build(virtual SPM_IF.TEST vSpm_if);
+      GtoA = new ();
+      AtoD = new ();
+      
+      G = new (GtoA);
+      A = new (GtoA, AtoD);
+      D = new (vSpm_if, AtoD);
+      D.reset();
+   endtask; // build
+   
+endclass // Environment

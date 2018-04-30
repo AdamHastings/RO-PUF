@@ -1,0 +1,10 @@
+add wave -radix hex sim:/top/*
+add wave -radix hex sim:/top/ahb_bus/cb/*
+add wave -radix hex sim:/top/memory/line__188/mem_array0(0)
+add wave -radix hex sim:/top/memory/line__188/mem_array0(1)
+add wave -radix hex sim:/top/memory/line__188/mem_array0(2)
+add wave -radix hex sim:/top/memory/line__188/mem_array0(3)
+add wave -radix hex sim:/top/memory/line__188/mem_array0(4)
+add wave -radix hex sim:/top/sram_bus/*
+add wave -radix hex sim:/top/sram_ctl/*
+add wave -radix hex sim:/top/memory/*

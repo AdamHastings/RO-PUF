@@ -1,0 +1,26 @@
+DUT_PPC_V4LX60_TEMPLATE_V2
+==========================
+
+<TODO> Update with your own design information.
+
+Version 2: Adds a heartbeat output to the PUF Power Board and uses
+granted/released acknowledgments to imporve the use of the UART in the
+event of a reset or a reconfiguration.
+
+The UART MicroBlaze Virtex4 LX60 Test is designed specifically to
+verify the UART is correctly behaving between the DUT and the Power
+Board.  This requires that the Power Board first be programmed with a
+design that can turn on the DUT Board, but also muxes control from the
+UART Tx/Rx pins to display the output from the DUT to Minicom.
+
+The simple design for the DUT prints the typical "Hello World" string
+to Minicom.  There really is nothing special about this design except
+that the data/system.ucf constraints are setup for the I/O to the
+headers on the DUT board to provide UART Tx/Rx to the Power Board.
+
+This design uses the MicroBlaze, not the PowerPC.
+
+Directory
+=========
+* hw          - directory for XPS Project for building bitstream
+* sw          - directory for MicroBlaze software project

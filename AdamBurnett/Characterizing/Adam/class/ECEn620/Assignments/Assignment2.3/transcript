@@ -1,0 +1,498 @@
+# //  Questa Sim-64
+# //  Version 10.1c linux_x86_64 Jul 27 2012
+# //
+# //  Copyright 1991-2012 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //
+# Loading project assignment1
+# reading /net/fpga2/questasim10.1c/questasim/linux_x86_64/../modelsim.ini
+# Loading project memory
+# Compile of mem.sv failed with 1 errors.
+# Compile of mem.sv failed with 1 errors.
+# Compile of mem.sv failed with 1 errors.
+# Compile of mem.sv failed with 1 errors.
+# Compile of mem.sv failed with 1 errors.
+# Compile of mem.sv was successful.
+# Compile of mem.sv was successful.
+# Compile of mem.sv was successful.
+# Compile of testbench.sv failed with 1 errors.
+# 2 compiles, 1 failed with 1 error. 
+# Compile of mem.sv was successful.
+# Compile of testbench.sv failed with 1 errors.
+# 2 compiles, 1 failed with 1 error. 
+# Compile of mem.sv was successful.
+# Compile of testbench.sv failed with 1 errors.
+# 2 compiles, 1 failed with 1 error. 
+# Compile of mem.sv was successful.
+# Compile of testbench.sv was successful.
+# 2 compiles, 0 failed with no errors. 
+do testbench.do
+# Cannot open macro file: testbench.do
+ls
+# memory.cr.mti
+# memory.mpf
+# sverilog
+# transcript
+# work
+# Compile of mem.sv was successful.
+# Compile of testbench.sv was successful.
+# 2 compiles, 0 failed with no errors. 
+# Compile of mem.sv was successful.
+# Compile of testbench.sv was successful.
+# 2 compiles, 0 failed with no errors. 
+do testbench.do
+# vsim -novopt testbench 
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment2.1/work.testbench
+# Loading sv_std.std
+# Loading work.testbench
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment2.1/work.my_mem
+# Loading work.my_mem
+# Compile of mem.sv was successful.
+# Compile of testbench.sv was successful.
+# 2 compiles, 0 failed with no errors. 
+do testbench.do
+# vsim -novopt testbench 
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment2.1/work.testbench
+# Loading sv_std.std
+# Loading work.testbench
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment2.1/work.my_mem
+# Loading work.my_mem
+# ** Error: Missing signal name or pattern.
+# Error in macro ./testbench.do line 3
+# Missing signal name or pattern.
+#     while executing
+# "add wave * -radix hex"
+do testbench.do
+# vsim -novopt testbench 
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.my_mem
+add wave -position insertpoint  \
+sim:/testbench/data_to_write_array
+# (vsim-4027) Logging is not supported for Dynamic Array item: /testbench/data_to_write_array 
+# Compile of mem.sv was successful.
+# Compile of testbench.sv failed with 1 errors.
+# 2 compiles, 1 failed with 1 error. 
+# Compile of mem.sv was successful.
+# Compile of testbench.sv failed with 1 errors.
+# 2 compiles, 1 failed with 1 error. 
+# Compile of mem.sv was successful.
+# Compile of testbench.sv was successful.
+# 2 compiles, 0 failed with no errors. 
+do testbench.do
+# vsim -novopt testbench 
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment2.1/work.testbench
+# Loading sv_std.std
+# Loading work.testbench
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment2.1/work.my_mem
+# Loading work.my_mem
+# ** Error: (vsim-3043) /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment2.1/sverilog/testbench.sv(50): Unresolved reference to 'error_count'.
+#         Region: /testbench
+# Error loading design
+# Error: Error loading design 
+#        Pausing macro execution 
+# MACRO ./testbench.do PAUSED at line 2
+# Compile of mem.sv was successful.
+# Compile of testbench.sv was successful.
+# 2 compiles, 0 failed with no errors. 
+do testbench.do
+# vsim -novopt testbench 
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment2.1/work.testbench
+# Loading sv_std.std
+# Loading work.testbench
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment2.1/work.my_mem
+# Loading work.my_mem
+# ** Error: (vsim-8323) /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment2.1/sverilog/testbench.sv(47): $display : Argument number 2 is an unpacked type, and may only be printed with the '%p' format.
+#         Region: /testbench
+# Error loading design
+# Error: Error loading design 
+#        Pausing macro execution 
+# MACRO ./testbench.do PAUSED at line 2
+# Compile of mem.sv was successful.
+# Compile of testbench.sv was successful.
+# 2 compiles, 0 failed with no errors. 
+do testbench.do
+# vsim -novopt testbench 
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment2.1/work.testbench
+# Loading sv_std.std
+# Loading work.testbench
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment2.1/work.my_mem
+# Loading work.my_mem
+# Print Read Values
+# 	00
+# 	3d
+# 	0d
+# 	12
+# 	8d
+# 	63
+# Error Count:           5
+# Compile of mem.sv was successful.
+# Compile of testbench.sv was successful.
+# 2 compiles, 0 failed with no errors. 
+do testbench.do
+# vsim -novopt testbench 
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment2.1/work.testbench
+# Loading sv_std.std
+# Loading work.testbench
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment2.1/work.my_mem
+# Loading work.my_mem
+# Print Read Values
+# 	00
+# 	3d
+# 	0d
+# 	12
+# 	8d
+# 	63
+# Error Count:           5
+# Compile of mem.sv was successful.
+# Compile of testbench.sv was successful.
+# 2 compiles, 0 failed with no errors. 
+do testbench.do
+# vsim -novopt testbench 
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment2.1/work.testbench
+# Loading sv_std.std
+# Loading work.testbench
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment2.1/work.my_mem
+# Loading work.my_mem
+# Print Read Values
+# 	000
+# 	03d
+# 	00d
+# 	012
+# 	08d
+# 	063
+# Error Count:           5
+# Compile of mem.sv was successful.
+# Compile of testbench.sv failed with 1 errors.
+# 2 compiles, 1 failed with 1 error. 
+# Compile of mem.sv was successful.
+# Compile of testbench.sv was successful.
+# 2 compiles, 0 failed with no errors. 
+# Compile of mem.sv was successful.
+# Compile of testbench.sv was successful.
+# 2 compiles, 0 failed with no errors. 
+do testbench.do
+# vsim -novopt testbench 
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment2.1/work.testbench
+# Loading sv_std.std
+# Loading work.testbench
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment2.1/work.my_mem
+# Loading work.my_mem
+# Print Read Values
+# 	000
+# 	03d
+# 	00d
+# 	012
+# 	08d
+# 	063
+# Error Count:           5
+# Compile of mem.sv was successful.
+# Compile of testbench.sv was successful.
+# 2 compiles, 0 failed with no errors. 
+do testbench.do
+# vsim -novopt testbench 
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment2.1/work.testbench
+# Loading sv_std.std
+# Loading work.testbench
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment2.1/work.my_mem
+# Loading work.my_mem
+#                   70
+#                   80
+#                   90
+#                  100
+#                  110
+#                  120
+# Print Read Values
+# 	000
+# 	03d
+# 	00d
+# 	012
+# 	08d
+# 	063
+# Error Count:           5
+# Compile of mem.sv was successful.
+# Compile of testbench.sv was successful.
+# 2 compiles, 0 failed with no errors. 
+do testbench.do
+# vsim -novopt testbench 
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment2.1/work.testbench
+# Loading sv_std.std
+# Loading work.testbench
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment2.1/work.my_mem
+# Loading work.my_mem
+#                   70
+# 03d xxx
+#                   80
+# 00d 13d
+#                   90
+# 012 10d
+#                  100
+# 08d 012
+#                  110
+# 063 08d
+#                  120
+# 081 063
+# Print Read Values
+# 	000
+# 	03d
+# 	00d
+# 	012
+# 	08d
+# 	063
+# Error Count:           5
+# Compile of mem.sv was successful.
+# Compile of testbench.sv was successful.
+# 2 compiles, 0 failed with no errors. 
+do testbench.do
+# vsim -novopt testbench 
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment2.1/work.testbench
+# Loading sv_std.std
+# Loading work.testbench
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment2.1/work.my_mem
+# Loading work.my_mem
+# 81
+# 63
+# 8d
+# 12
+# 0d
+# 3d
+#                   70
+# 03d xxx
+#                   80
+# 00d 13d
+#                   90
+# 012 10d
+#                  100
+# 08d 012
+#                  110
+# 063 08d
+#                  120
+# 081 063
+# Print Read Values
+# 	000
+# 	03d
+# 	00d
+# 	012
+# 	08d
+# 	063
+# Error Count:           5
+# Compile of mem.sv was successful.
+# Compile of testbench.sv was successful.
+# 2 compiles, 0 failed with no errors. 
+do testbench.do
+# vsim -novopt testbench 
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment2.1/work.testbench
+# Loading sv_std.std
+# Loading work.testbench
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment2.1/work.my_mem
+# Loading work.my_mem
+# 81
+# 63
+# 8d
+# 12
+# 0d
+# 3d
+#                   70
+# 03d 13d
+#                   80
+# 00d 10d
+#                   90
+# 012 012
+#                  100
+# 08d 08d
+#                  110
+# 063 063
+#                  120
+# 081 081
+# Print Read Values
+# 	03d
+# 	00d
+# 	012
+# 	08d
+# 	063
+# 	081
+# Error Count:           2
+# Compile of mem.sv was successful.
+# Compile of testbench.sv was successful.
+# 2 compiles, 0 failed with no errors. 
+do testbench.do
+# vsim -novopt testbench 
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment2.1/work.testbench
+# Loading sv_std.std
+# Loading work.testbench
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment2.1/work.my_mem
+# Loading work.my_mem
+# 81
+# 63
+# 8d
+# 12
+# 0d
+# 3d
+#                   70
+# 03d 13d
+# Found Error: 03d 13d
+#                   80
+# 00d 10d
+# Found Error: 00d 10d
+#                   90
+# 012 012
+#                  100
+# 08d 08d
+#                  110
+# 063 063
+#                  120
+# 081 081
+# Print Read Values
+# 	13d
+# 	10d
+# 	012
+# 	08d
+# 	063
+# 	081
+# Error Count:           2
+# Compile of mem.sv was successful.
+# Compile of testbench.sv was successful.
+# 2 compiles, 0 failed with no errors. 
+do testbench.do
+# vsim -novopt testbench 
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment2.1/work.testbench
+# Loading sv_std.std
+# Loading work.testbench
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment2.1/work.my_mem
+# Loading work.my_mem
+# 81
+# 63
+# 8d
+# 12
+# 0d
+# 3d
+#                   70
+# 13d 13d
+#                   80
+# 10d 10d
+#                   90
+# 012 012
+#                  100
+# 08d 08d
+#                  110
+# 063 063
+#                  120
+# 081 081
+# Print Read Values
+# 	13d
+# 	10d
+# 	012
+# 	08d
+# 	063
+# 	081
+# Error Count:           0
+do testbench.do
+# vsim -novopt testbench 
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.my_mem
+# 81
+do testbench.do
+# vsim -novopt testbench 
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.my_mem
+# 81
+# 63
+# 8d
+# 12
+# 0d
+# 3d
+#                   70
+# 13d 13d
+#                   80
+# 10d 10d
+#                   90
+# 012 012
+#                  100
+# 08d 08d
+#                  110
+# 063 063
+#                  120
+# 081 081
+# Print Read Values
+# 	13d
+# 	10d
+# 	012
+# 	08d
+# 	063
+# 	081
+# Error Count:           0
+# Compile of mem.sv was successful.
+# Compile of testbench.sv was successful.
+# 2 compiles, 0 failed with no errors. 
+do testbench.do
+# vsim -novopt testbench 
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment2.1/work.testbench
+# Loading sv_std.std
+# Loading work.testbench
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment2.1/work.my_mem
+# Loading work.my_mem
+# Print Read Values
+# 	13d
+# 	10d
+# 	012
+# 	08d
+# 	063
+# 	081
+# Error Count:           0
+# Compile of mem.sv was successful.
+# Compile of testbench.sv was successful.
+# 2 compiles, 0 failed with no errors. 
+do testbench.do
+# vsim -novopt testbench 
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment2.1/work.testbench
+# Loading sv_std.std
+# Loading work.testbench
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment2.1/work.my_mem
+# Loading work.my_mem
+# ** Warning: (vsim-3829) /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment2.1/sverilog/mem.sv(23): Non-existent associative array entry. Returning default value.
+# ** Warning: (vsim-3829) /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment2.1/sverilog/mem.sv(23): Non-existent associative array entry. Returning default value.
+# ** Warning: (vsim-3829) /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment2.1/sverilog/mem.sv(23): Non-existent associative array entry. Returning default value.
+# ** Warning: (vsim-3829) /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment2.1/sverilog/mem.sv(23): Non-existent associative array entry. Returning default value.
+# ** Warning: (vsim-3829) /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment2.1/sverilog/mem.sv(23): Non-existent associative array entry. Returning default value.
+# ** Warning: (vsim-3829) /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment2.1/sverilog/mem.sv(23): Non-existent associative array entry. Returning default value.
+# Print Read Values
+# 	000
+# 	000
+# 	000
+# 	000
+# 	000
+# 	000
+# Error Count:           0
+# ** Warning: (vsim-3829) /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment2.1/sverilog/mem.sv(23): Non-existent associative array entry. Returning default value.
+# ** Warning: (vsim-3829) /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment2.1/sverilog/mem.sv(23): Non-existent associative array entry. Returning default value.
+# Compile of mem.sv was successful.
+# Compile of testbench.sv was successful.
+# 2 compiles, 0 failed with no errors. 
+do testbench.do
+# vsim -novopt testbench 
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment2.1/work.testbench
+# Loading sv_std.std
+# Loading work.testbench
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment2.1/work.my_mem
+# Loading work.my_mem
+# Found Error: 13d 000
+# Found Error: 10d 000
+# Found Error: 012 000
+# Found Error: 08d 000
+# Found Error: 063 000
+# Found Error: 081 000
+# Print Read Values
+# 	000
+# 	000
+# 	000
+# 	000
+# 	000
+# 	000
+# Error Count:           6
+quit

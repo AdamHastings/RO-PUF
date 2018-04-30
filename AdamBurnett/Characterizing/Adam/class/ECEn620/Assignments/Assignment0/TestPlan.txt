@@ -1,0 +1,87 @@
+Test Plan: 
+
+1. Test Correctness of Data-path
+2. Test Correctness of Control State Machine
+
+********************
+  Datapath Tests 
+********************
+
+I. Register Tests (PC, MAR, MDR, IR, flagWE, RegFile[0:8], MEMORY)
+   1. Ensure that each register is only updated when its load or write enable signal is set.
+      Procedure: 
+                 a. Reset Register to Zero. 
+                 b. Set Input (all) High. 
+                 c. Set Load Signal Low.   
+                 d. Execute 1 Clock Cycle.
+                 e. Check Reg. Low.  
+                 f. Set Load Signal High. 
+                 g. Execute 1 Clock Cycle   
+                 h. Check Reg. High   
+
+II. Multiplexor Tests (MARMUX, PCMUX, ADDR2MUX, ADDR1MUX, SR2MUX, SR1, SR2)
+   1. Ensure that each MUX Passes Input-to-Output when Current Input Control Signal Selected. 
+     Procedure (for each MUX Input) :
+                 a. Set all Mux Inputs to Zero. 
+                 b. Set Control Signals to Specified Value (for current input) 
+                 c. Set Current Input All High.  
+                 d. Check MUX Output High. 
+
+III. Sign and Zero Extension Tests
+   1. (SEXT) Ensure that High-Order Bit is Replicated to 16 BITs. 
+     Procedure (for each high-order bit):
+              a. Set IR Low.
+              b. Check SEXT Result Low. 
+              c. Set High Order Bit High. 
+              d. Check Low Order Bits Low, High Order Bit and Above High.
+   2. (ZEXT) Ensure that that appended bits are Low. 
+              a. Set IR High. 
+              b. Check that [15:8] Low.
+              c. Check that [7:0] High. 
+
+IV. Test Adder (ADDER)
+   1. Ensure that each adder performs appropriate 2's complement addition. 
+      Procedure:
+               Are we doing simple addition Correcty?  
+               a. Add 1 + 1. Check = 2. 
+               b. Add 10 + 10. Check = 20. 
+               c. Add 100 + 100. Check = 200. 
+               Check Boundary Cases:
+               a. Add 1 + -2. Check = -1; 
+               b. check 0x7FFF + 0x0001; 
+
+V. Test PC Increment. 
+  
+VI. Test ALU 
+   1. ensure correct operation output for each aluControl signal. 
+
+VII. Test Tristates
+   1. Each Signal Can be Driven on Bus without contention. 
+
+Notes: 
+
+*** Found Missing Control Signals in State Machine while writing test plan (Register Write Enables) 
+
+*** DataPath TestBench: Found Missing Register Always Blocks (MDR, MAR) 
+*** DataPath TestBench: Found Incorrect Driver (MDR) 
+*** DataPath TestBench: Found Missing Signals in Sensitivity List
+*** DataPath TestBench: Found Swapped Inputs to SR2MUX
+
+*** Verilog TestBench: Found I wasn't asserting ldPC during Fetch to Increment PC
+*** Verilog TestBench: Found Bad Control Signal to ALU in STORE0
+*** Verilog TestBench: Found Bad Control Signal to MDRMUX in STORE0
+*** Verilog TestBench: Found Bad NextState Signal to MDRMUX in STORE1
+*** Verilog TestBench: Found Missing Connection From RA to ADDR1MUX (RB was Connected instead held value that fooled my test code)
+*** Verilog TestBench: Found Undefined State in Control State Machine (state that didn't have a case in nextstate logic)
+*** Verilog TestBench: Forgot to enable MDR to BUSS during LOAD
+*** Verilog TestBench: Forgot to apply SR1 during STORE0
+
+
+Changes to SystemVerilog Design 
+
+1. Change to wire and reg to logic type. All changed but BUSS which had to be a wire to permit multiple drivers. 
+2. Added a Package to share State Machine and Opcode ENUMs with testbench.
+3. Used typedef to Make State Machine values their own type
+4. Added always_ff and always_comb to make my intent more clear. 
+5. Added Unique Case to allow case statements to execute in parallel.
+6. default_nettype none 

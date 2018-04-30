@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="error" file="HDLParsers" num="3317" delta="new" >&quot;<arg fmt="%s" index="1">E:/Adam/Characterizing/ring_osc_v1_00_a/hdl/vhdl/user_logic.vhd</arg>&quot; Line <arg fmt="%d" index="2">57</arg>.  Library <arg fmt="%s" index="3">proc_common_v3_00_a</arg> cannot be found.
+</msg>
+
+<msg type="error" file="HDLParsers" num="3013" delta="new" >&quot;<arg fmt="%s" index="1">E:/Adam/Characterizing/ring_osc_v1_00_a/hdl/vhdl/user_logic.vhd</arg>&quot; Line <arg fmt="%d" index="2">58</arg>. Library <arg fmt="%s" index="3">proc_common_v3_00_a</arg> is not declared.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3481" delta="new" >Library <arg fmt="%s" index="1">work</arg> has no units. Did not save reference file &quot;<arg fmt="%s" index="2">xst/work/hdllib.ref</arg>&quot; for it.
+</msg>
+
+</messages>
+

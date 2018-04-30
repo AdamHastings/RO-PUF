@@ -1,0 +1,56 @@
+
+# =======================================================
+# XDL NCD CONVERSION MODE $Revision: 1.01$
+# time: Wed Mar 11 23:51:59 2015
+
+# =======================================================
+
+
+
+# =======================================================
+# The syntax for the design statement is:                
+# design <design_name> <part> <ncd version>;             
+# or                                                     
+# design <design_name> <device> <package> <speed> <ncd_version>
+# =======================================================
+design "__XILINX_NMC_MACRO" xc4vlx60ff668-11;
+
+# =======================================================
+# The syntax for modules is:
+#     module <name> <inst_name> ;
+#     port <name> <inst_name> <inst_pin> ;
+#     .
+#     .
+#     instance ... ;
+#     .
+#     .
+#     net ... ;
+#     .
+#     .
+#     endmodule <name> ;
+# =======================================================
+
+# =======================================================
+# MODULE of "ring_oscillator"
+# =======================================================
+module "ring_oscillator" "$COMP_0" , cfg "_SYSTEM_MACRO::FALSE" ; 
+  inst "$COMP_0" "SLICEM",placed CLB_X29Y65 SLICE_X50Y130  ,
+    cfg " BXINV::#OFF BYINV::#OFF BYINVOUTUSED::#OFF BYOUTUSED::#OFF CEINV::#OFF
+         CLKINV::#OFF COUTUSED::#OFF CY0F::#OFF CY0G::#OFF CYINIT::#OFF
+         DIF_MUX::#OFF DIGUSED::#OFF DIG_MUX::#OFF DXMUX::#OFF DYMUX::#OFF
+         F::#OFF F5USED::#OFF FFX::#OFF FFX_INIT_ATTR::#OFF FFX_SR_ATTR::#OFF
+         FFY::#OFF FFY_INIT_ATTR::#OFF FFY_SR_ATTR::#OFF FXMUX::#OFF FXUSED::#OFF
+         F_ATTR::#OFF G:$COMP_0.G:#LUT:D=A1*A2*~A3*A4 GYMUX::#OFF G_ATTR::#OFF REVUSED::#OFF
+         SHIFTOUTUSED::#OFF SLICEWE0USED::#OFF SLICEWE1USED::#OFF SRFFMUX::#OFF
+         SRINV::#OFF SYNC_ATTR::#OFF WF1USED::#OFF WF2USED::#OFF WF3USED::#OFF
+         WF4USED::#OFF WG1USED::#OFF WG2USED::#OFF WG3USED::#OFF WG4USED::#OFF
+         XBMUX::#OFF XBUSED::#OFF XMUXUSED::#OFF XUSED::#OFF YBMUX::#OFF
+         YBUSED::#OFF YMUXUSED::#OFF YUSED::0"
+    ;
+  net "$NET_1" , 
+    inpin "$COMP_0" G3 ,
+    ;
+  net "$NET_0" , 
+    outpin "$COMP_0" Y ,
+    ;
+endmodule "ring_oscillator" ;

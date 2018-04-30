@@ -1,0 +1,7 @@
+INFILE=E:\Adam\Characterizing\dut_mb_v4lx60_template_pre_rapidsmith\hw\implementation\system_modified.ncd
+OUTFILE=E:\Adam\Characterizing\dut_mb_v4lx60_template_pre_rapidsmith\hw\implementation\characterizer_row_50.bit
+FAMILY=Virtex4
+PART=xc4vlx60-11ff668
+WORKINGDIR=E:\Adam\Characterizing\dut_mb_v4lx60_template_pre_rapidsmith\hw\implementation
+LICENSE=ISE
+USER_INFO=174672765_175170704_210573231_041

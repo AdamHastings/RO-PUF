@@ -1,0 +1,144 @@
+# //  Questa Sim-64
+# //  Version 10.1c linux_x86_64 Jul 27 2012
+# //
+# //  Copyright 1991-2012 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //
+# vsim -coverage -displaymsgmode both -do {view wave;do wave.do;run -all} -msgmode both -novopt top 
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment7.2/work.top
+# Loading sv_std.std
+# Loading work.top
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment7.2/work.arb_if
+# Loading work.arb_if
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment7.2/work.test
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment7.2/work.test_sv_unit
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment7.2/work.tb_pkg
+# Loading work.tb_pkg
+# Loading work.test_sv_unit
+# Loading work.test
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment7.2/work.golden_arb
+# Loading work.golden_arb
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment7.2/work.arbiter
+# Loading work.arbiter
+# ** Warning: (vsim-8634) Code was not compiled with coverage options.
+# view wave 
+# .main_pane.wave.interior.cs.body.pw.wf
+# do wave.do 
+# @20: Grant1 Mismatch!!
+# @40: Grant1 Mismatch!!
+# @60: Grant1 Mismatch!!
+# @80: Grant1 Mismatch!!
+# @100: Grant1 Mismatch!!
+# @120: Grant1 Mismatch!!
+# @140: Grant1 Mismatch!!
+# @140: Grant2 Mismatch!!
+# @160: Grant1 Mismatch!!
+# @180: Grant1 Mismatch!!
+# @200: Grant1 Mismatch!!
+# @220: Grant1 Mismatch!!
+# @240: Grant1 Mismatch!!
+# @280: Grant1 Mismatch!!
+# @300: Grant1 Mismatch!!
+# @320: Grant1 Mismatch!!
+# @340: Grant1 Mismatch!!
+# @360: Grant1 Mismatch!!
+# @380: Grant1 Mismatch!!
+# @400: Grant1 Mismatch!!
+# @420: Grant1 Mismatch!!
+# @440: Grant1 Mismatch!!
+# @480: Grant1 Mismatch!!
+# @500: Grant1 Mismatch!!
+# run -all 
+# @520: Grant1 Mismatch!!
+# @540: Grant0 Mismatch!!
+# @540: Grant1 Mismatch!!
+# @540: Grant2 Mismatch!!
+# @560: Grant1 Mismatch!!
+# @580: Grant1 Mismatch!!
+# @620: Grant1 Mismatch!!
+# @640: Grant1 Mismatch!!
+# @660: Grant1 Mismatch!!
+# @680: Grant1 Mismatch!!
+# @700: Grant1 Mismatch!!
+# @720: Grant1 Mismatch!!
+# @740: Grant0 Mismatch!!
+# @740: Grant1 Mismatch!!
+# @740: Grant2 Mismatch!!
+# @760: Grant1 Mismatch!!
+# @780: Grant1 Mismatch!!
+# @800: Grant1 Mismatch!!
+# @820: Grant1 Mismatch!!
+# @840: Grant0 Mismatch!!
+# @840: Grant1 Mismatch!!
+# @840: Grant2 Mismatch!!
+# @860: Grant1 Mismatch!!
+# @880: Grant1 Mismatch!!
+# @900: Grant1 Mismatch!!
+# @940: Grant1 Mismatch!!
+# @980: Grant1 Mismatch!!
+# @1000: Grant1 Mismatch!!
+# @1020: Grant1 Mismatch!!
+# @1060: Grant2 Mismatch!!
+# @1080: Grant1 Mismatch!!
+# @1100: Grant1 Mismatch!!
+# @1120: Grant1 Mismatch!!
+# @1140: Grant1 Mismatch!!
+# @1160: Grant1 Mismatch!!
+# @1180: Grant1 Mismatch!!
+# @1200: Grant1 Mismatch!!
+# @1220: Grant1 Mismatch!!
+# @1240: Grant1 Mismatch!!
+# @1260: Grant0 Mismatch!!
+# @1260: Grant1 Mismatch!!
+# @1260: Grant2 Mismatch!!
+# @1280: Grant1 Mismatch!!
+# @1300: Grant1 Mismatch!!
+# @1320: Grant1 Mismatch!!
+# @1340: Grant1 Mismatch!!
+# @1360: Grant1 Mismatch!!
+# @1380: Grant1 Mismatch!!
+# @1380: Grant2 Mismatch!!
+# @1400: Grant0 Mismatch!!
+# @1400: Grant1 Mismatch!!
+# @1420: Grant1 Mismatch!!
+# @1440: Grant1 Mismatch!!
+# @1460: Grant1 Mismatch!!
+# @1480: Grant1 Mismatch!!
+# @1520: Grant1 Mismatch!!
+# @1540: Grant1 Mismatch!!
+# @1560: Grant1 Mismatch!!
+# @1600: Grant1 Mismatch!!
+# @1620: Grant0 Mismatch!!
+# @1620: Grant1 Mismatch!!
+# @1620: Grant2 Mismatch!!
+# @1640: Grant1 Mismatch!!
+# @1660: Grant1 Mismatch!!
+# @1680: Grant1 Mismatch!!
+# @1700: Grant1 Mismatch!!
+# @1740: Grant1 Mismatch!!
+# @1760: Grant1 Mismatch!!
+# @1780: Grant1 Mismatch!!
+# @1800: Grant1 Mismatch!!
+# @1820: Grant1 Mismatch!!
+# @1840: Grant1 Mismatch!!
+# @1860: Grant1 Mismatch!!
+# @1880: Grant0 Mismatch!!
+# @1880: Grant1 Mismatch!!
+# @1900: Grant1 Mismatch!!
+# @1940: Grant0 Mismatch!!
+# @1940: Grant1 Mismatch!!
+# @1960: Grant1 Mismatch!!
+# @1980: Grant1 Mismatch!!
+# @2000: Grant1 Mismatch!!
+# @2020: Grant1 Mismatch!!
+# @2040: Grant1 Mismatch!!
+# @2060: Grant1 Mismatch!!
+# Ran for 100 cycles
+# Found 108 Errors.
+# 1
+# Simulation stop requested.
+quit

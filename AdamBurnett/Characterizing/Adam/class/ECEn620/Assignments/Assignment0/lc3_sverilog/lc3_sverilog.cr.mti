@@ -1,0 +1,94 @@
+/net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment0/sverilog/lc3Pkg.sv {1 {vlog -work work -source -vopt -sv /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment0/sverilog/lc3Pkg.sv
+QuestaSim-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling package lc3Pkg
+
+Top level modules:
+	--none--
+
+} {} {}} /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment0/sverilog/lc3_datapath.sv {1 {vlog -work work -source -vopt -sv /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment0/sverilog/lc3_datapath.sv
+QuestaSim-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module lc3_datapath
+
+Top level modules:
+	lc3_datapath
+
+} {} {}} /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment0/sverilog/lc3_testbench.sv {2 {vlog -work work -source -vopt -sv +incdir+/net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment0/sverilog /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment0/sverilog/lc3_testbench.sv
+QuestaSim-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling package lc3_testbench_sv_unit
+-- Importing package lc3Pkg
+-- Compiling module lc3_testbench
+###### /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment0/sverilog/lc3_testbench.sv(56):         SetUpdate(1'b1);      
+** Warning: /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment0/sverilog/lc3_testbench.sv(56): (vlog-2240) Treating stand-alone use of function 'SetUpdate' as an implicit VOID cast.
+###### /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment0/sverilog/lc3_testbench.sv(80):              this.SetUpdate(0);
+** Warning: /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment0/sverilog/lc3_testbench.sv(80): (vlog-2240) Treating stand-alone use of function 'SetUpdate' as an implicit VOID cast.
+###### /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment0/sverilog/lc3_testbench.sv(81):              this.SwitchSimState(); 
+** Warning: /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment0/sverilog/lc3_testbench.sv(81): (vlog-2240) Treating stand-alone use of function 'SwitchSimState' as an implicit VOID cast.
+###### /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment0/sverilog/lc3_testbench.sv(251):       MAR_Monitor.ScheduleForUpdate(LC3.DATAPATH.PC);
+** Warning: /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment0/sverilog/lc3_testbench.sv(251): (vlog-2240) Treating stand-alone use of function 'ScheduleForUpdate' as an implicit VOID cast.
+###### /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment0/sverilog/lc3_testbench.sv(252):       PC_Monitor.ScheduleForUpdate(LC3.DATAPATH.PC + 1);
+** Warning: /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment0/sverilog/lc3_testbench.sv(252): (vlog-2240) Treating stand-alone use of function 'ScheduleForUpdate' as an implicit VOID cast.
+###### /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment0/sverilog/lc3_testbench.sv(253):       IR_Monitor.ScheduleForUpdate(NEXT_MEMORY_OUTPUT);
+** Warning: /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment0/sverilog/lc3_testbench.sv(253): (vlog-2240) Treating stand-alone use of function 'ScheduleForUpdate' as an implicit VOID cast.
+###### /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment0/sverilog/lc3_testbench.sv(254):       MDR_Monitor.ScheduleForUpdate(NEXT_MEMORY_OUTPUT);
+** Warning: /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment0/sverilog/lc3_testbench.sv(254): (vlog-2240) Treating stand-alone use of function 'ScheduleForUpdate' as an implicit VOID cast.
+###### /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment0/sverilog/lc3_testbench.sv(299):             PC_Monitor.ScheduleForUpdate( ExpectedPC + SEXT8);
+** Warning: /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment0/sverilog/lc3_testbench.sv(299): (vlog-2240) Treating stand-alone use of function 'ScheduleForUpdate' as an implicit VOID cast.
+###### /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment0/sverilog/lc3_testbench.sv(310):            REGFILE[DST].ScheduleForUpdate(ADDER); 
+** Warning: /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment0/sverilog/lc3_testbench.sv(310): (vlog-2240) Treating stand-alone use of function 'ScheduleForUpdate' as an implicit VOID cast.
+###### /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment0/sverilog/lc3_testbench.sv(317):           MAR_Monitor.ScheduleForUpdate(ExpectedPC + SEXT8);
+** Warning: /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment0/sverilog/lc3_testbench.sv(317): (vlog-2240) Treating stand-alone use of function 'ScheduleForUpdate' as an implicit VOID cast.
+###### /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment0/sverilog/lc3_testbench.sv(318):           MDR_Monitor.ScheduleForUpdate(NEXT_MEMORY_OUTPUT);
+** Warning: /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment0/sverilog/lc3_testbench.sv(318): (vlog-2240) Treating stand-alone use of function 'ScheduleForUpdate' as an implicit VOID cast.
+###### /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment0/sverilog/lc3_testbench.sv(319):           REGFILE[DST].ScheduleForUpdate(NEXT_MEMORY_OUTPUT);
+** Warning: /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment0/sverilog/lc3_testbench.sv(319): (vlog-2240) Treating stand-alone use of function 'ScheduleForUpdate' as an implicit VOID cast.
+###### /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment0/sverilog/lc3_testbench.sv(328):           MAR_Monitor.ScheduleForUpdate(ExpectedPC + SEXT8);
+** Warning: /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment0/sverilog/lc3_testbench.sv(328): (vlog-2240) Treating stand-alone use of function 'ScheduleForUpdate' as an implicit VOID cast.
+###### /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment0/sverilog/lc3_testbench.sv(331):           MDR_Monitor.ScheduleForUpdate(STOREVAL);
+** Warning: /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment0/sverilog/lc3_testbench.sv(331): (vlog-2240) Treating stand-alone use of function 'ScheduleForUpdate' as an implicit VOID cast.
+###### /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment0/sverilog/lc3_testbench.sv(334):           MEMORY_Monitor.ScheduleForUpdate(STOREVAL);
+** Warning: /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment0/sverilog/lc3_testbench.sv(334): (vlog-2240) Treating stand-alone use of function 'ScheduleForUpdate' as an implicit VOID cast.
+###### /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment0/sverilog/lc3_testbench.sv(340):           REGFILE[7].ScheduleForUpdate(ExpectedPC);
+** Warning: /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment0/sverilog/lc3_testbench.sv(340): (vlog-2240) Treating stand-alone use of function 'ScheduleForUpdate' as an implicit VOID cast.
+###### /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment0/sverilog/lc3_testbench.sv(341):           PC_Monitor.ScheduleForUpdate(ExpectedPC + SEXT10);
+** Warning: /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment0/sverilog/lc3_testbench.sv(341): (vlog-2240) Treating stand-alone use of function 'ScheduleForUpdate' as an implicit VOID cast.
+###### /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment0/sverilog/lc3_testbench.sv(353):            REGFILE[DST].ScheduleForUpdate(DST);
+** Warning: /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment0/sverilog/lc3_testbench.sv(353): (vlog-2240) Treating stand-alone use of function 'ScheduleForUpdate' as an implicit VOID cast.
+###### /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment0/sverilog/lc3_testbench.sv(362):            REGFILE[DST].ScheduleForUpdate(DST);
+** Warning: /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment0/sverilog/lc3_testbench.sv(362): (vlog-2240) Treating stand-alone use of function 'ScheduleForUpdate' as an implicit VOID cast.
+###### /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment0/sverilog/lc3_testbench.sv(369):           PC_Monitor.ScheduleForUpdate(OP1);
+** Warning: /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment0/sverilog/lc3_testbench.sv(369): (vlog-2240) Treating stand-alone use of function 'ScheduleForUpdate' as an implicit VOID cast.
+###### /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment0/sverilog/lc3_testbench.sv(379):        PC_Monitor.SwitchSimState(); 
+** Warning: /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment0/sverilog/lc3_testbench.sv(379): (vlog-2240) Treating stand-alone use of function 'SwitchSimState' as an implicit VOID cast.
+###### /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment0/sverilog/lc3_testbench.sv(417):      PC_Monitor.ValidateUpdate(LC3.DATAPATH.PC);
+** Warning: /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment0/sverilog/lc3_testbench.sv(417): (vlog-2240) Treating stand-alone use of function 'ValidateUpdate' as an implicit VOID cast.
+###### /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment0/sverilog/lc3_testbench.sv(424):     MAR_Monitor.ValidateUpdate(LC3.DATAPATH.MAR);
+** Warning: /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment0/sverilog/lc3_testbench.sv(424): (vlog-2240) Treating stand-alone use of function 'ValidateUpdate' as an implicit VOID cast.
+###### /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment0/sverilog/lc3_testbench.sv(431):     MDR_Monitor.ValidateUpdate(LC3.DATAPATH.MDR); 
+** Warning: /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment0/sverilog/lc3_testbench.sv(431): (vlog-2240) Treating stand-alone use of function 'ValidateUpdate' as an implicit VOID cast.
+###### /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment0/sverilog/lc3_testbench.sv(438):     IR_Monitor.ValidateUpdate(LC3.DATAPATH.IR);
+** Warning: /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment0/sverilog/lc3_testbench.sv(438): (vlog-2240) Treating stand-alone use of function 'ValidateUpdate' as an implicit VOID cast.
+###### /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment0/sverilog/lc3_testbench.sv(447):      REGFILE[DSTREG].ValidateUpdate(LC3.DATAPATH.REGFILE[DSTREG]);
+** Warning: /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment0/sverilog/lc3_testbench.sv(447): (vlog-2240) Treating stand-alone use of function 'ValidateUpdate' as an implicit VOID cast.
+###### /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment0/sverilog/lc3_testbench.sv(467):        MEMORY_Monitor.ValidateUpdate(memory_din);
+** Warning: /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment0/sverilog/lc3_testbench.sv(467): (vlog-2240) Treating stand-alone use of function 'ValidateUpdate' as an implicit VOID cast.
+
+Top level modules:
+	lc3_testbench
+
+} {} {}} /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment0/sverilog/lc3_control.sv {1 {vlog -work work -source -vopt -sv +incdir+/net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment0/sverilog /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment0/sverilog/lc3_control.sv
+QuestaSim-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling package lc3_control_sv_unit
+-- Importing package lc3Pkg
+-- Compiling module lc3_control
+
+Top level modules:
+	lc3_control
+
+} {} {}} /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment0/sverilog/lc3.sv {1 {vlog -work work -source -vopt -sv /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment0/sverilog/lc3.sv
+QuestaSim-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module lc3
+
+Top level modules:
+	lc3
+
+} {} {}}

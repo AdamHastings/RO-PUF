@@ -1,0 +1,9 @@
+module top();
+    RISC_SPM  ( input wire clk, 
+	        input wire rst,  // Active low asynchronous reset
+	        input wire [word_size-1: 0] data_out, // Read data from memory unit - input
+		output wire [word_size-1: 0] address,  // Address to read/write - output				            output wire [word_size-1: 0] data_in,  // Write data to memory unit - output
+		output wire write     // Write flag to memory unit - output
+		   );   
+endmodule
+

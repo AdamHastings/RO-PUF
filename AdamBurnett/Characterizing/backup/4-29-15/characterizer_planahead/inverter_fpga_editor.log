@@ -1,0 +1,125 @@
+#:C39    
+#Xilinx FPGA Editor Command Log File
+#Editor Version:
+#:V   NT M2.1 P.49d
+#Current Working Directory:
+#:D   E:\Xilinx\14.4\ISE_DS\ISE\bin\nt64
+#Date/Time:
+#:T   Thu Mar 12 11:25:57 2015
+#------------------------------
+	#Design creation date: 2015.03.12.17.25.57
+	#Building chip graphics...
+	#Loading speed info...
+	#1
+unselect -all
+	#2
+select arc 'OUTPUT(-16968,213648)--->INPUT(-16968,213616)'
+	#arc "OUTPUT(-16968,213648)--->INPUT(-16968,213616)"
+	#3
+unselect -all
+	#4
+select site 'SLICE_X48Y254'
+	#site "SLICE_X48Y254",  type = SLICEM  (RPM grid X113Y254)
+	#5
+unselect -all
+	#6
+select site 'SLICE_X48Y254'
+	#site "SLICE_X48Y254",  type = SLICEM  (RPM grid X113Y254)
+	#7
+post block
+	#8
+add
+	#Completed route status: 0 of 0 nets are fully routed.
+	#9
+post attr comp $COMP_0
+	#10
+unpost comp "$COMP_0"
+	#11
+unselect -all
+	#12
+select comp '$COMP_0'
+	#comp "$COMP_0",  site "SLICE_X48Y254",  type = SLICEM  (RPM grid X113Y254)
+	#13
+post block
+	#14
+save
+	#15
+setattr comp $COMP_0 G "~A3"
+	#<YUSED>.
+	# GetEqnCfgData equation D
+	#0 DRC errors and 1 DRC warnings.
+	#16
+setattr comp $COMP_0 Config "G:#LUT:D=~A3 YUSED:0"
+	#17
+block apply
+	#18
+end block
+	#19
+unselect -all
+	#20
+unselect -all
+	#21
+select comp '$COMP_0'
+	#comp "$COMP_0",  site "SLICE_X48Y254",  type = SLICEM  (RPM grid X113Y254)
+	#22
+unselect -all
+	#23
+select pin 'SLICE_X48Y254.Y'
+	#site.pin = SLICE_X48Y254.Y, comp.pin = $COMP_0.Y
+	#24
+add extpin
+	#25
+post attr pin SLICE_X48Y254.Y
+	#26
+setattr pin SLICE_X48Y254.Y  external_name Y
+	#27
+unpost pin "SLICE_X48Y254.Y"
+	#28
+unselect -all
+	#29
+select pin 'SLICE_X48Y254.XMUX'
+	#site.pin = SLICE_X48Y254.XMUX, comp.pin = $COMP_0.XMUX
+	#30
+unselect -all
+	#31
+select pin 'SLICE_X48Y254.G1'
+	#site.pin = SLICE_X48Y254.G1, comp.pin = $COMP_0.G1
+	#32
+unselect -all
+	#33
+select pin 'SLICE_X48Y254.G3'
+	#site.pin = SLICE_X48Y254.G3, comp.pin = $COMP_0.G3
+	#34
+add extpin
+	#35
+post attr pin SLICE_X48Y254.G3
+	#36
+setattr pin SLICE_X48Y254.G3  external_name G
+	#37
+unpost pin "SLICE_X48Y254.G3"
+	#38
+unselect -all
+	#39
+save
+	#40
+unselect -all
+	#41
+select comp '$COMP_0'
+	#comp "$COMP_0",  site "SLICE_X48Y254",  type = SLICEM  (RPM grid X113Y254)
+	#42
+unselect -all
+	#43
+select comp '$COMP_0'
+	#comp "$COMP_0",  site "SLICE_X48Y254",  type = SLICEM  (RPM grid X113Y254)
+	#44
+post block
+	#45
+end block
+	#46
+unselect -all
+	#47
+save
+	#48
+post exit
+	#49
+exit

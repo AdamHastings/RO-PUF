@@ -1,0 +1,82 @@
+// Old results
+Control: normal placement results
+Characterizing Ring Oscillator
+
+Enter a time to run the ring oscillator for (in seconds):
+Running ring oscillator for 10 seconds
+Starting ring oscillator...
+Counter: 181190272
+Counter: 181172994
+Counter: 181133307
+Counter: 181099332
+Counter: 181079333
+Counter: 181058912
+Counter: 181031220
+Counter: 181030970
+Counter: 181017851
+Counter: 181010333
+Characterizing Ring Oscillator
+
+Enter a time to run the ring oscillator for (in seconds):
+Running ring oscillator for 10 seconds
+Starting ring oscillator...
+Counter: 181044880
+Counter: 181048798
+Counter: 181017154
+Counter: 181017169
+Counter: 180991414
+Counter: 180979614
+Counter: 180964427
+Counter: 180956891
+Counter: 180945189
+Counter: 180951015
+
+Ring oscillator placed where shorts were:
+
+Running ring oscillator for 10 seconds
+Starting ring oscillator...
+Counter: 184154648
+Counter: 183932024
+Counter: 183729824
+Counter: 183554989
+Counter: 183394550
+Counter: 183234544
+Counter: 183110243
+Counter: 183009724
+Counter: 182910813
+Counter: 182818868
+
+Running ring oscillator for 10 seconds
+Starting ring oscillator...
+Counter: 181117405
+Counter: 181067638
+Counter: 181008326
+Counter: 180959533
+Counter: 180916007
+Counter: 180888160
+Counter: 180870678
+Counter: 180847356
+Counter: 180829314
+Counter: 180810678
+
+// End Old results
+
+12/15/14
+Idle temp: 31.93 C after running for 5 minutes at room temp
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

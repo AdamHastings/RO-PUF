@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<DeviceUsageSummary rev="2">
+<DesignStatistics TimeStamp="Fri Jun 05 11:33:23 2015"><group name="MiscellaneousStatistics">
+<item name="AGG_SLICE" rev="2">
+<attrib name="value" value="51"/></item>
+<item name="NUM_4_INPUT_LUT" rev="2">
+<attrib name="value" value="51"/></item>
+<item name="NUM_HARD_MACRO" rev="2">
+<attrib name="value" value="51"/></item>
+<item name="NUM_SLICEM" rev="2">
+<attrib name="value" value="51"/></item>
+</group>
+</DesignStatistics>
+<CmdHistory>
+</CmdHistory>
+</DeviceUsageSummary>

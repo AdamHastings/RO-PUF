@@ -1,0 +1,55 @@
+#Test Datapath
+
+#Figure out how to compile
+source testLib.do
+
+vsim -novopt lc3_datapath
+
+#Initialize the Circuit
+
+#Set the Clock 
+#force -freeze sim:/lc3_datapath/clk 1 0, 0 {10 ps} -r 20
+
+#Reset the Circuit
+
+force -drive sim:/lc3_datapath/rst 1 0
+
+#Set Control Signals low
+force -drive sim:/lc3_datapath/aluControl 00 0
+force -drive sim:/lc3_datapath/enaALU 0 0
+force -drive sim:/lc3_datapath/SR1 000 0
+force -drive sim:/lc3_datapath/SR2 000 0
+force -drive sim:/lc3_datapath/DR 000 0
+force -drive sim:/lc3_datapath/regWE 0 0
+force -drive sim:/lc3_datapath/selPC 00 0
+force -drive sim:/lc3_datapath/enaMARM 0 0
+force -drive sim:/lc3_datapath/selMAR 0 0
+force -drive sim:/lc3_datapath/selEAB1 0 0
+force -drive sim:/lc3_datapath/selEAB2 00 0
+force -drive sim:/lc3_datapath/enaPC 0 0
+force -drive sim:/lc3_datapath/ldPC 0 0
+force -drive sim:/lc3_datapath/ldIR 0 0
+force -drive sim:/lc3_datapath/ldMAR 0 0
+force -drive sim:/lc3_datapath/ldMDR 0 0
+force -drive sim:/lc3_datapath/selMDR 0 0
+force -drive sim:/lc3_datapath/memWE 0 0
+force -drive sim:/lc3_datapath/flagWE 0 0
+force -drive sim:/lc3_datapath/enaMDR 0 0
+force -drive sim:/lc3_datapath/rst 1 0
+
+#run 10 Clock Cycles
+run 200 ns 
+
+#Bring Circuit out of Reset
+#force -drive sim:/lc3_datapath/rst 0 0
+
+run 200 ns
+
+set pc_val [examine PC]
+
+if { $pc_val == 0000} {
+  echo "PC Reset To Correct Value" 
+} else {
+  echo "PC Not Reset Correctly: $pc_val"
+}
+

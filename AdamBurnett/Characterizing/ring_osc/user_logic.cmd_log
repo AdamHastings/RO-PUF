@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "E:/Adam/Characterizing/ring_osc/user_logic.xst" -ofn "E:/Adam/Characterizing/ring_osc/user_logic.syr" 

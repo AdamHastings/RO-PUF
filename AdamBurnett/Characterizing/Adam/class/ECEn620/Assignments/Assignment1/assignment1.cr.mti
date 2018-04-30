@@ -1,0 +1,15 @@
+/net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment1/alu_testbench.v {1 {vlog -work work -source -vopt /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment1/alu_testbench.v
+QuestaSim-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module alu_testbench
+
+Top level modules:
+	alu_testbench
+
+} {} {}} /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment1/alu.v {1 {vlog -work work -source -vopt /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment1/alu.v
+QuestaSim-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module ALU_4_bit
+
+Top level modules:
+	ALU_4_bit
+
+} {} {}}

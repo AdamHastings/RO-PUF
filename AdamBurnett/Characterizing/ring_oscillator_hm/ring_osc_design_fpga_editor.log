@@ -1,0 +1,353 @@
+#:C119   
+#Xilinx FPGA Editor Command Log File
+#Editor Version:
+#:V   NT M2.1 P.49d
+#Current Working Directory:
+#:D   E:\Xilinx\14.4\ISE_DS\ISE\bin\nt64
+#Date/Time:
+#:T   Mon Feb 23 12:27:41 2015
+#------------------------------
+	#Design creation date: 2015.02.23.19.27.41
+	#Loading device for application Rf_Device from file '4vlx60.nph' in environment E:\Xilinx\14.4\ISE_DS\ISE\.
+	#Building chip graphics...
+	#Loading speed info...
+	#1
+unselect -all
+	#2
+unselect -all
+	#3
+unselect -all
+	#4
+unselect -all
+	#5
+select site 'SLICE_X52Y254'
+	#site "SLICE_X52Y254",  type = SLICEM  (RPM grid X125Y254)
+	#6
+add
+	#Completed route status: 0 of 0 nets are fully routed.
+	#7
+post attr comp $COMP_0
+	#8
+setattr comp $COMP_0  type SLICEL
+	#9
+unpost comp "$COMP_0"
+	#10
+unselect -all
+	#11
+select comp '$COMP_0'
+	#comp "$COMP_0",  site "SLICE_X52Y254",  type = SLICEL  (RPM grid X125Y254)
+	#12
+unselect -all
+	#13
+select pin 'SLICE_X52Y254.SLICEWE1'
+	#site.pin = SLICE_X52Y254.SLICEWE1
+	#14
+unselect -all
+	#15
+select pin 'SLICE_X52Y254.SLICEWE1'
+	#site.pin = SLICE_X52Y254.SLICEWE1
+	#16
+post block
+	#ERROR:FPGAEditor:79 - The "post block" command without any other arguments cannot
+	#be performed unless the selection contains only a single site
+	#or single component.  Change the selection and try again.
+	#17
+unselect -all
+	#18
+select comp '$COMP_0'
+	#comp "$COMP_0",  site "SLICE_X52Y254",  type = SLICEL  (RPM grid X125Y254)
+	#19
+unselect -all
+	#20
+select comp '$COMP_0'
+	#comp "$COMP_0",  site "SLICE_X52Y254",  type = SLICEL  (RPM grid X125Y254)
+	#21
+post block
+	#22
+setattr comp $COMP_0 G "~A1"
+	#0 DRC errors and 1 DRC warnings.
+	#<YUSED>.
+	# GetEqnCfgData equation D
+	#23
+save
+	#Constraint file is updated.  No saving is necessary.
+	#0 DRC errors and 1 DRC warnings.
+	#24
+setattr comp $COMP_0 Config "G:#LUT:D=~A1 YUSED:0"
+	#25
+block apply
+	#26
+end block
+	#27
+unselect -all
+	#28
+select comp '$COMP_0'
+	#comp "$COMP_0",  site "SLICE_X52Y254",  type = SLICEL  (RPM grid X125Y254)
+	#29
+unselect -all
+	#30
+select pin 'SLICE_X52Y254.Y'
+	#site.pin = SLICE_X52Y254.Y, comp.pin = $COMP_0.Y
+	#31
+post addmacro
+	#32
+unpost addmacro
+	#33
+add
+	#34
+post attr net $NET_0
+	#35
+unpost net "$NET_0"
+	#36
+unselect -all
+	#37
+unselect -all
+	#38
+select pin 'SLICE_X52Y254.Y'
+	#site.pin = SLICE_X52Y254.Y, comp.pin = $COMP_0.Y, delay = unrouted on net "$NET_0"
+	#39
+unselect -all
+	#40
+unselect -all
+	#41
+select pin 'SLICE_X52Y254.G1'
+	#site.pin = SLICE_X52Y254.G1, comp.pin = $COMP_0.G1
+	#42
+add
+	#43
+post attr net $NET_1
+	#44
+setattr net $NET_1 name G1
+	#45
+unpost net "G1"
+	#46
+unselect -all
+	#47
+unselect -all
+	#48
+select comp '$COMP_0'
+	#comp "$COMP_0",  site "SLICE_X52Y254",  type = SLICEL  (RPM grid X125Y254)
+	#49
+unselect -all
+	#50
+select comp '$COMP_0'
+	#comp "$COMP_0",  site "SLICE_X52Y254",  type = SLICEL  (RPM grid X125Y254)
+	#51
+post block
+	#52
+unselect -all
+	#53
+unselect -all
+	#54
+select pin 'SLICE_X52Y254.G1'
+	#site.pin = SLICE_X52Y254.G1, comp.pin = $COMP_0.G1, delay = ~0.000ns on net "G1"
+	#55
+unselect -all
+	#56
+select pin 'SLICE_X52Y254.G1'
+	#site.pin = SLICE_X52Y254.G1, comp.pin = $COMP_0.G1, delay = ~0.000ns on net "G1"
+	#57
+post block
+	#ERROR:FPGAEditor:79 - The "post block" command without any other arguments cannot
+	#be performed unless the selection contains only a single site
+	#or single component.  Change the selection and try again.
+	#58
+post addmacro
+	#59
+unpost addmacro
+	#60
+unselect -all
+	#61
+select comp '$COMP_0'
+	#comp "$COMP_0",  site "SLICE_X52Y254",  type = SLICEL  (RPM grid X125Y254)
+	#62
+unselect -all
+	#63
+unselect -all
+	#64
+select comp '$COMP_0'
+	#comp "$COMP_0",  site "SLICE_X52Y254",  type = SLICEL  (RPM grid X125Y254)
+	#65
+delete
+	#WARNING:FPGAEditor:170 - Net "$NET_0" now has no driver pin.
+	#66
+post addmacro
+	#67
+unpost addmacro
+	#68
+add hm "E:\Adam\Characterizing\ring_oscillator_hm\inverter.nmc" ring_osc
+	#   "ring_oscillator" is an NCD, version 3.2, device xc4vlx60, package ff668, speed -11
+	#This design is using the default stepping level (major silicon revision) for this device (1). Unless your design is targeted at devices of this stepping level, it is recommended that you explicitly specify the stepping level of the parts you will be using. This will allow the tools to take advantage of any available performance and functional enhancements for this device. The latest stepping level for this device is '2'. Additional information on "stepping level" is available at support.xilinx.com.
+	#   "ring_oscillator" is an NCD, version 3.2, device xc4vlx60, package ff668, speed -11
+	#This design is using the default stepping level (major silicon revision) for this device (1). Unless your design is targeted at devices of this stepping level, it is recommended that you explicitly specify the stepping level of the parts you will be using. This will allow the tools to take advantage of any available performance and functional enhancements for this device. The latest stepping level for this device is '2'. Additional information on "stepping level" is available at support.xilinx.com.
+	#Added macro "ring_osc".
+	#69
+post attr hm ring_osc
+	#70
+unpost hm "ring_osc"
+	#71
+select -k comp 'ring_osc/$COMP_0'
+	#72
+unselect -all
+	#73
+select -k comp 'ring_osc/$COMP_0'
+	#74
+unselect -all
+	#75
+select site 'SLICE_X54Y254'
+	#site "SLICE_X54Y254",  type = SLICEM  (RPM grid X129Y254)
+	#76
+unselect -all
+	#77
+select site 'SLICE_X54Y254'
+	#site "SLICE_X54Y254",  type = SLICEM  (RPM grid X129Y254)
+	#78
+add
+	#Completed route status: 0 of 0 nets are fully routed.
+	#79
+post attr comp $COMP_1
+	#80
+unpost comp "$COMP_1"
+	#81
+delete
+	#82
+select -k comp 'ring_osc/$COMP_0'
+	#83
+autoplace
+	#WARNING:FPGAEditor:246 - Cannot place hard macro component "ring_osc/$COMP_0"  -- the hard macro contains placement information for the component.
+	#84
+post autoplaceall
+	#85
+unpost autoplaceall
+	#86
+echo "autoplace -all -l 2 -t 1"
+	#87
+autoplace -all -l 2 -t 1
+	#Total REAL time at the beginning of Placer: 28 mins 35 secs 
+	#Total CPU  time at the beginning of Placer: 20 secs 
+	#
+	#Total REAL time to Placer completion: 28 mins 36 secs 
+	#Total CPU  time to Placer completion: 20 secs 
+	#88
+autoroute -all
+	#
+	#Phase  1  : 0 unrouted;      REAL time: 0 secs 
+	#
+	#Phase  2  : 0 unrouted;      REAL time: 0 secs 
+	#
+	#Phase  3  : 0 unrouted;      REAL time: 0 secs 
+	#
+	#Phase  4  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 3 secs 
+	#
+	#Updating file: C:/Users/Adam/AppData/Local/Temp/xil_195872_5 with current fully routed design.
+	#
+	#Phase  5  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 3 secs 
+	#
+	#Phase  6  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 3 secs 
+	#
+	#Phase  7  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 3 secs 
+	#
+	#Phase  8  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 3 secs 
+	#
+	#Phase  9  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 3 secs 
+	#
+	#Phase 10  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 3 secs 
+	#Completed route status: 0 of 2 nets are fully routed.
+	#89
+delete
+	#ERROR:FPGAEditor:162 - Cannot delete component "ring_osc/$COMP_0" -- It is a part of a hard macro and can only be deleted by deleting hard macro "ring_osc".
+	#WARNING:FPGAEditor:140 - Nothing found to delete.
+	#90
+delete
+	#ERROR:FPGAEditor:162 - Cannot delete component "ring_osc/$COMP_0" -- It is a part of a hard macro and can only be deleted by deleting hard macro "ring_osc".
+	#WARNING:FPGAEditor:140 - Nothing found to delete.
+	#91
+delete
+	#ERROR:FPGAEditor:162 - Cannot delete component "ring_osc/$COMP_0" -- It is a part of a hard macro and can only be deleted by deleting hard macro "ring_osc".
+	#WARNING:FPGAEditor:140 - Nothing found to delete.
+	#92
+unselect -all
+	#93
+unselect -all
+	#94
+select hm 'ring_osc'
+	#Hard Macro Inst "ring_osc", type "ring_oscillator", refcomp "ring_osc/$COMP_0"
+	#95
+unselect -all
+	#96
+select -k hm 'ring_osc'
+	#97
+unselect -all
+	#98
+select -k hm 'ring_osc'
+	#99
+select -k site 'SLICE_X2Y0'
+	#100
+swap
+	#Completed route status: 0 of 2 nets are fully routed.
+	#101
+unselect -all
+	#102
+select -k hm 'ring_osc'
+	#103
+unselect -all
+	#104
+select -k hm 'ring_osc'
+	#105
+select -k site 'SLICE_X0Y0'
+	#106
+swap
+	#Completed route status: 0 of 2 nets are fully routed.
+	#107
+unselect -all
+	#108
+select -k hm 'ring_osc'
+	#109
+unselect -all
+	#110
+select -k hm 'ring_osc'
+	#111
+select -k site 'SLICE_X4Y0'
+	#112
+swap
+	#Completed route status: 0 of 2 nets are fully routed.
+	#113
+unselect hm 'ring_osc'
+	#114
+select -k comp 'ring_osc/$COMP_0'
+	#115
+unselect -all
+	#116
+unselect -all
+	#117
+select site 'SLICE_X102Y0'
+	#site "SLICE_X102Y0",  type = SLICEM  (RPM grid X237Y0)
+	#118
+unselect -all
+	#119
+unselect -all
+	#120
+unselect -all
+	#121
+select -k hm 'ring_osc'
+	#122
+unselect -all
+	#123
+select -k hm 'ring_osc'
+	#124
+select -k site 'SLICE_X0Y0'
+	#125
+swap
+	#Completed route status: 0 of 2 nets are fully routed.
+	#126
+unselect -all
+	#127
+post addmacro
+	#128
+unpost addmacro
+	#129
+add hm "E:\Adam\Characterizing\ring_oscillator_hm\inverter.nmc" ring_osc
+	#   "ring_oscillator" is an NCD, version 3.2, device xc4vlx60, package ff668, speed -11
+	#This design is using the default stepping level (major silicon revision) for this device (1). Unless your design is targeted at devices of this stepping level, it is recommended that you explicitly specify the stepping level of the parts you will be using. This will allow the tools to take advantage of any available performance and functional enhancements for this device. The latest stepping level for this device is '2'. Additional information on "stepping level" is available at support.xilinx.com.
+	#EXCEPTION:Xdm:Block.c:449:$Id: Block.c,v 1.47 2009/06/12 19:55:27 jdl Exp $ - Xdm_Exception::DuplicateObjectFound object='ring_osc' (XDM_BLOCK), parent='/E:\Adam\Characterizing\ring_oscillator_hm\ring_osc_design.ncd/PACKED/E:\Adam\Characterizing\ring_oscillator_hm\ring_osc_design.ncd' (XDM_BLOCK)
+	#FATAL_ERROR:GuiUtilities:WinApp.c:693:$Revision - This application has discovered an exceptional condition from which it cannot recover.  Process will terminate. For technical support on this issue, please open a WebCase with this project attached at http://www.xilinx.com/support.

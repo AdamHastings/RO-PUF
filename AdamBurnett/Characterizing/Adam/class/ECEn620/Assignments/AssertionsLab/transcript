@@ -1,0 +1,42 @@
+# //  Questa Sim-64
+# //  Version 10.1c linux_x86_64 Jul 27 2012
+# //
+# //  Copyright 1991-2012 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //
+# vsim -assertdebug -do {view wave;do wave.do; run 26000 ns} -novopt tb1 
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/AssertionsLab/work.tb1
+# Loading sv_std.std
+# Loading work.tb1
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/AssertionsLab/work.SIMUTIL
+# Loading work.SIMUTIL
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/AssertionsLab/work.fifo1
+# Loading work.fifo1
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/AssertionsLab/work.bindfile
+# Loading work.bindfile
+# view wave 
+# .main_pane.wave.interior.cs.body.pw.wf
+# do wave.do 
+#  run 26000 ns 
+run 1000 ns
+# 
+#    TEST PASSED - test #1: 134 vectors - 134 passed
+# 
+# 
+# //--------------------------------------------------------
+# // SIMUTIL Inform: Ran simulation with TYPICAL delays
+# //--------------------------------------------------------
+# 
+# 
+# ***TEST SUITE PASSED - 1 test - 1 passed
+# ** Note: Data structure takes 30525440 bytes of memory
+#          Process time 0.00 seconds
+#          $finish    : simutil.v(236)
+#    Time: 26900 ns  Iteration: 1  Instance: /tb1
+# 1
+# Break in Task FINISH at simutil.v line 236
+quit

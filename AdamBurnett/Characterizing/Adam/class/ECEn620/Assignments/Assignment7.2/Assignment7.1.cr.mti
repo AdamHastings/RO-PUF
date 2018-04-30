@@ -1,0 +1,12 @@
+/net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment7.1/golden_arb.sv {0 {vlog -work work -vopt -sv /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment7.1/golden_arb.sv
+QuestaSim-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module arbiter
+** Error: /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment7.1/golden_arb.sv(34): near "and": syntax error, unexpected and
+** Error: /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment7.1/golden_arb.sv(41): near "and": syntax error, unexpected and
+** Error: /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment7.1/golden_arb.sv(48): near "and": syntax error, unexpected and
+** Error: /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment7.1/golden_arb.sv(40): 'P1' already exists; must not be redefined as a named block
+** Error: /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment7.1/golden_arb.sv(47): 'P2' already exists; must not be redefined as a named block
+** Error: /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment7.1/golden_arb.sv(59): near "or": syntax error, unexpected or
+** Error: /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment7.1/golden_arb.sv(80): near "EOF": syntax error, unexpected end of source code
+
+} {4.0 11.0} {}}

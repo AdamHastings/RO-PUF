@@ -1,0 +1,665 @@
+# //  Questa Sim-64
+# //  Version 10.1c linux_x86_64 Jul 27 2012
+# //
+# //  Copyright 1991-2012 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //
+# vsim -coverage -displaymsgmode both -do {view wave;do wave.do;run -all} -msgmode both -novopt top 
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment9/work.top
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment9/work.Alu_RISC_v_unit
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment9/work.TbEnvPkg
+# Loading sv_std.std
+# Loading work.TbEnvPkg
+# Loading work.Alu_RISC_v_unit
+# Loading work.top
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment9/work.SPM_IF
+# Loading work.SPM_IF
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment9/work.test
+# Loading work.test
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment9/work.RISC_SPM
+# Loading work.RISC_SPM
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment9/work.Processing_Unit
+# Loading work.Processing_Unit
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment9/work.Register_Unit
+# Loading work.Register_Unit
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment9/work.Alu_RISC
+# Loading work.Alu_RISC
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment9/work.mux5_1
+# Loading work.mux5_1
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment9/work.mux3_1
+# Loading work.mux3_1
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment9/work.Control_Unit
+# Loading work.Control_Unit
+# ** Warning: (vsim-8634) Code was not compiled with coverage options.
+# view wave 
+# .main_pane.wave.interior.cs.body.pw.wf
+# do wave.do 
+# @75: Starting Instr #0 :: SUB
+# @                  75:fetch1: 00
+# Updating Address Queue: 00 '{0}
+# @                  85:fetch2
+# incr pc: 01
+# Checking Q='{0}
+# @95 SB: Decode
+# Decoded AddSubAnd Instr
+# @115: Starting Instr #1 :: WR
+# @                 115:fetch1: 01
+# Updating Address Queue: 01 '{1}
+# @                 125:fetch2
+# incr pc: 02
+# Checking Q='{1}
+# @135 SB: Decode
+# readbyte2 I.byte1=82
+# Updating Address Queue: 02 '{2}
+# Updating Address Queue: 82 '{2, -126}
+# incr pc: 03
+# Decoded Wr
+# Checking Q='{2, -126}
+# Checking Q='{-126}
+# Checking Q='{0}
+# @165: Starting Instr #2 :: SUB
+# @                 165:fetch1: 03
+# Updating Address Queue: 03 '{3}
+# @                 175:fetch2
+# incr pc: 04
+# Checking Q='{3}
+# @185 SB: Decode
+# Decoded AddSubAnd Instr
+# @205: Starting Instr #3 :: RDI
+# @                 205:fetch1: 04
+# Updating Address Queue: 04 '{4}
+# @                 215:fetch2
+# incr pc: 05
+# Checking Q='{4}
+# @225 SB: Decode
+# Updating Address Queue: 05 '{5}
+# incr pc: 06
+# Decoded RdRdi Instr
+# Checking Q='{5}
+# @245: Starting Instr #4 :: AND
+# @                 245:fetch1: 06
+# Updating Address Queue: 06 '{6}
+# @                 255:fetch2
+# incr pc: 07
+# Checking Q='{6}
+# @265 SB: Decode
+# Decoded AddSubAnd Instr
+# @285: Starting Instr #5 :: RD
+# @                 285:fetch1: 07
+# Updating Address Queue: 07 '{7}
+# @                 295:fetch2
+# incr pc: 08
+# Checking Q='{7}
+# @305 SB: Decode
+# readbyte2 I.byte1=99
+# Updating Address Queue: 08 '{8}
+# Updating Address Queue: 99 '{8, -103}
+# incr pc: 09
+# Decoded RdRdi Instr
+# Checking Q='{8, -103}
+# Checking Q='{-103}
+# @335: Starting Instr #6 :: NOT
+# @                 335:fetch1: 09
+# Updating Address Queue: 09 '{9}
+# @                 345:fetch2
+# incr pc: 0a
+# Checking Q='{9}
+# @355 SB: Decode
+# Decoded NOT
+# @365: Starting Instr #7 :: WR
+# @                 365:fetch1: 0a
+# Updating Address Queue: 0a '{10}
+# @                 375:fetch2
+# incr pc: 0b
+# Checking Q='{10}
+# @385 SB: Decode
+# readbyte2 I.byte1=25
+# Updating Address Queue: 0b '{11}
+# Updating Address Queue: 25 '{11, 37}
+# incr pc: 0c
+# Decoded Wr
+# Checking Q='{11, 37}
+# Checking Q='{37}
+# Checking Q='{61}
+# @415: Starting Instr #8 :: WR
+# @                 415:fetch1: 0c
+# Updating Address Queue: 0c '{12}
+# @                 425:fetch2
+# incr pc: 0d
+# Checking Q='{12}
+# @435 SB: Decode
+# readbyte2 I.byte1=28
+# Updating Address Queue: 0d '{13}
+# Updating Address Queue: 28 '{13, 40}
+# incr pc: 0e
+# Decoded Wr
+# Checking Q='{13, 40}
+# Checking Q='{40}
+# Checking Q='{0}
+# @465: Starting Instr #9 :: WR
+# @                 465:fetch1: 0e
+# Updating Address Queue: 0e '{14}
+# @                 475:fetch2
+# incr pc: 0f
+# Checking Q='{14}
+# @485 SB: Decode
+# readbyte2 I.byte1=80
+# Updating Address Queue: 0f '{15}
+# Updating Address Queue: 80 '{15, -128}
+# incr pc: 10
+# Decoded Wr
+# run -all 
+# Checking Q='{15, -128}
+# Checking Q='{-128}
+# Checking Q='{0}
+# @515: Starting Instr #10 :: AND
+# @                 515:fetch1: 10
+# Updating Address Queue: 10 '{16}
+# @                 525:fetch2
+# incr pc: 11
+# Checking Q='{16}
+# @535 SB: Decode
+# Decoded AddSubAnd Instr
+# @555: Starting Instr #11 :: WR
+# @                 555:fetch1: 11
+# Updating Address Queue: 11 '{17}
+# @                 565:fetch2
+# incr pc: 12
+# Checking Q='{17}
+# @575 SB: Decode
+# readbyte2 I.byte1=5a
+# Updating Address Queue: 12 '{18}
+# Updating Address Queue: 5a '{18, 90}
+# incr pc: 13
+# Decoded Wr
+# Checking Q='{18, 90}
+# Checking Q='{90}
+# Checking Q='{61}
+# @605: Starting Instr #12 :: RD
+# @                 605:fetch1: 13
+# Updating Address Queue: 13 '{19}
+# @                 615:fetch2
+# incr pc: 14
+# Checking Q='{19}
+# @625 SB: Decode
+# readbyte2 I.byte1=5f
+# Updating Address Queue: 14 '{20}
+# Updating Address Queue: 5f '{20, 95}
+# incr pc: 15
+# Decoded RdRdi Instr
+# Checking Q='{20, 95}
+# Checking Q='{95}
+# @655: Starting Instr #13 :: WR
+# @                 655:fetch1: 15
+# Updating Address Queue: 15 '{21}
+# @                 665:fetch2
+# incr pc: 16
+# Checking Q='{21}
+# @675 SB: Decode
+# readbyte2 I.byte1=79
+# Updating Address Queue: 16 '{22}
+# Updating Address Queue: 79 '{22, 121}
+# incr pc: 17
+# Decoded Wr
+# Checking Q='{22, 121}
+# Checking Q='{121}
+# Checking Q='{61}
+# @705: Starting Instr #14 :: WR
+# @                 705:fetch1: 17
+# Updating Address Queue: 17 '{23}
+# @                 715:fetch2
+# incr pc: 18
+# Checking Q='{23}
+# @725 SB: Decode
+# readbyte2 I.byte1=a3
+# Updating Address Queue: 18 '{24}
+# Updating Address Queue: a3 '{24, -93}
+# incr pc: 19
+# Decoded Wr
+# Checking Q='{24, -93}
+# Checking Q='{-93}
+# Checking Q='{0}
+# @755: Starting Instr #15 :: RD
+# @                 755:fetch1: 19
+# Updating Address Queue: 19 '{25}
+# @                 765:fetch2
+# incr pc: 1a
+# Checking Q='{25}
+# @775 SB: Decode
+# readbyte2 I.byte1=24
+# Updating Address Queue: 1a '{26}
+# Updating Address Queue: 24 '{26, 36}
+# incr pc: 1b
+# Decoded RdRdi Instr
+# Checking Q='{26, 36}
+# Checking Q='{36}
+# @805: Starting Instr #16 :: RDI
+# @                 805:fetch1: 1b
+# Updating Address Queue: 1b '{27}
+# @                 815:fetch2
+# incr pc: 1c
+# Checking Q='{27}
+# @825 SB: Decode
+# Updating Address Queue: 1c '{28}
+# incr pc: 1d
+# Decoded RdRdi Instr
+# Checking Q='{28}
+# @845: Starting Instr #17 :: RDI
+# @                 845:fetch1: 1d
+# Updating Address Queue: 1d '{29}
+# @                 855:fetch2
+# incr pc: 1e
+# Checking Q='{29}
+# @865 SB: Decode
+# Updating Address Queue: 1e '{30}
+# incr pc: 1f
+# Decoded RdRdi Instr
+# Checking Q='{30}
+# @885: Starting Instr #18 :: RDI
+# @                 885:fetch1: 1f
+# Updating Address Queue: 1f '{31}
+# @                 895:fetch2
+# incr pc: 20
+# Checking Q='{31}
+# @905 SB: Decode
+# Updating Address Queue: 20 '{32}
+# incr pc: 21
+# Decoded RdRdi Instr
+# Checking Q='{32}
+# @925: Starting Instr #19 :: RD
+# @                 925:fetch1: 21
+# Updating Address Queue: 21 '{33}
+# @                 935:fetch2
+# incr pc: 22
+# Checking Q='{33}
+# @945 SB: Decode
+# readbyte2 I.byte1=d8
+# Updating Address Queue: 22 '{34}
+# Updating Address Queue: d8 '{34, -40}
+# incr pc: 23
+# Decoded RdRdi Instr
+# Checking Q='{34, -40}
+# Checking Q='{-40}
+# @975: Starting Instr #20 :: RDI
+# @                 975:fetch1: 23
+# Updating Address Queue: 23 '{35}
+# @                 985:fetch2
+# incr pc: 24
+# Checking Q='{35}
+# @995 SB: Decode
+# Updating Address Queue: 24 '{36}
+# incr pc: 25
+# Decoded RdRdi Instr
+# Checking Q='{36}
+# @1015: Starting Instr #21 :: RD
+# @                1015:fetch1: 25
+# Updating Address Queue: 25 '{37}
+# @                1025:fetch2
+# incr pc: 26
+# Checking Q='{37}
+# @1035 SB: Decode
+# readbyte2 I.byte1=3e
+# Updating Address Queue: 26 '{38}
+# Updating Address Queue: 3e '{38, 62}
+# incr pc: 27
+# Decoded RdRdi Instr
+# Checking Q='{38, 62}
+# Checking Q='{62}
+# @1065: Starting Instr #22 :: WR
+# @                1065:fetch1: 27
+# Updating Address Queue: 27 '{39}
+# @                1075:fetch2
+# incr pc: 28
+# Checking Q='{39}
+# @1085 SB: Decode
+# readbyte2 I.byte1=80
+# Updating Address Queue: 28 '{40}
+# Updating Address Queue: 80 '{40, -128}
+# incr pc: 29
+# Decoded Wr
+# Checking Q='{40, -128}
+# Checking Q='{-128}
+# Checking Q='{61}
+# @1115: Starting Instr #23 :: NOT
+# @                1115:fetch1: 29
+# Updating Address Queue: 29 '{41}
+# @                1125:fetch2
+# incr pc: 2a
+# Checking Q='{41}
+# @1135 SB: Decode
+# Decoded NOT
+# @1145: Starting Instr #24 :: RD
+# @                1145:fetch1: 2a
+# Updating Address Queue: 2a '{42}
+# @                1155:fetch2
+# incr pc: 2b
+# Checking Q='{42}
+# @1165 SB: Decode
+# readbyte2 I.byte1=e4
+# Updating Address Queue: 2b '{43}
+# Updating Address Queue: e4 '{43, -28}
+# incr pc: 2c
+# Decoded RdRdi Instr
+# Checking Q='{43, -28}
+# Checking Q='{-28}
+# @1195: Starting Instr #25 :: WR
+# @                1195:fetch1: 2c
+# Updating Address Queue: 2c '{44}
+# @                1205:fetch2
+# incr pc: 2d
+# Checking Q='{44}
+# @1215 SB: Decode
+# readbyte2 I.byte1=13
+# Updating Address Queue: 2d '{45}
+# Updating Address Queue: 13 '{45, 19}
+# incr pc: 2e
+# Decoded Wr
+# Checking Q='{45, 19}
+# Checking Q='{19}
+# Checking Q='{-1}
+# @1245: Starting Instr #26 :: ADD
+# @                1245:fetch1: 2e
+# Updating Address Queue: 2e '{46}
+# @                1255:fetch2
+# incr pc: 2f
+# Checking Q='{46}
+# @1265 SB: Decode
+# Decoded AddSubAnd Instr
+# @1285: Starting Instr #27 :: RD
+# @                1285:fetch1: 2f
+# Updating Address Queue: 2f '{47}
+# @                1295:fetch2
+# incr pc: 30
+# Checking Q='{47}
+# @1305 SB: Decode
+# readbyte2 I.byte1=e1
+# Updating Address Queue: 30 '{48}
+# Updating Address Queue: e1 '{48, -31}
+# incr pc: 31
+# Decoded RdRdi Instr
+# Checking Q='{48, -31}
+# Checking Q='{-31}
+# @1335: Starting Instr #28 :: WR
+# @                1335:fetch1: 31
+# Updating Address Queue: 31 '{49}
+# @                1345:fetch2
+# incr pc: 32
+# Checking Q='{49}
+# @1355 SB: Decode
+# readbyte2 I.byte1=9f
+# Updating Address Queue: 32 '{50}
+# Updating Address Queue: 9f '{50, -97}
+# incr pc: 33
+# Decoded Wr
+# Checking Q='{50, -97}
+# Checking Q='{-97}
+# Checking Q='{-1}
+# @1385: Starting Instr #29 :: WR
+# @                1385:fetch1: 33
+# Updating Address Queue: 33 '{51}
+# @                1395:fetch2
+# incr pc: 34
+# Checking Q='{51}
+# @1405 SB: Decode
+# readbyte2 I.byte1=e3
+# Updating Address Queue: 34 '{52}
+# Updating Address Queue: e3 '{52, -29}
+# incr pc: 35
+# Decoded Wr
+# Checking Q='{52, -29}
+# Checking Q='{-29}
+# Checking Q='{21}
+# @1435: Starting Instr #30 :: RDI
+# @                1435:fetch1: 35
+# Updating Address Queue: 35 '{53}
+# @                1445:fetch2
+# incr pc: 36
+# Checking Q='{53}
+# @1455 SB: Decode
+# Updating Address Queue: 36 '{54}
+# incr pc: 37
+# Decoded RdRdi Instr
+# Checking Q='{54}
+# @1475: Starting Instr #31 :: RD
+# @                1475:fetch1: 37
+# Updating Address Queue: 37 '{55}
+# @                1485:fetch2
+# incr pc: 38
+# Checking Q='{55}
+# @1495 SB: Decode
+# readbyte2 I.byte1=f5
+# Updating Address Queue: 38 '{56}
+# Updating Address Queue: f5 '{56, -11}
+# incr pc: 39
+# Decoded RdRdi Instr
+# Checking Q='{56, -11}
+# Checking Q='{-11}
+# @1525: Starting Instr #32 :: RD
+# @                1525:fetch1: 39
+# Updating Address Queue: 39 '{57}
+# @                1535:fetch2
+# incr pc: 3a
+# Checking Q='{57}
+# @1545 SB: Decode
+# readbyte2 I.byte1=ef
+# Updating Address Queue: 3a '{58}
+# Updating Address Queue: ef '{58, -17}
+# incr pc: 3b
+# Decoded RdRdi Instr
+# Checking Q='{58, -17}
+# Checking Q='{-17}
+# @1575: Starting Instr #33 :: NOP
+# @                1575:fetch1: 3b
+# Updating Address Queue: 3b '{59}
+# @                1585:fetch2
+# incr pc: 3c
+# Checking Q='{59}
+# @1595 SB: Decode
+# Decoded NOP
+# @1605: Starting Instr #34 :: RD
+# @                1605:fetch1: 3c
+# Updating Address Queue: 3c '{60}
+# @                1615:fetch2
+# incr pc: 3d
+# Checking Q='{60}
+# @1625 SB: Decode
+# readbyte2 I.byte1=5d
+# Updating Address Queue: 3d '{61}
+# Updating Address Queue: 5d '{61, 93}
+# incr pc: 3e
+# Decoded RdRdi Instr
+# Checking Q='{61, 93}
+# Checking Q='{93}
+# @1655: Starting Instr #35 :: WR
+# @                1655:fetch1: 3e
+# Updating Address Queue: 3e '{62}
+# @                1665:fetch2
+# incr pc: 3f
+# Checking Q='{62}
+# @1675 SB: Decode
+# readbyte2 I.byte1=df
+# Updating Address Queue: 3f '{63}
+# Updating Address Queue: df '{63, -33}
+# incr pc: 40
+# Decoded Wr
+# Checking Q='{63, -33}
+# Checking Q='{-33}
+# Checking Q='{-1}
+# @1705: Starting Instr #36 :: RD
+# @                1705:fetch1: 40
+# Updating Address Queue: 40 '{64}
+# @                1715:fetch2
+# incr pc: 41
+# Checking Q='{64}
+# @1725 SB: Decode
+# readbyte2 I.byte1=7c
+# Updating Address Queue: 41 '{65}
+# Updating Address Queue: 7c '{65, 124}
+# incr pc: 42
+# Decoded RdRdi Instr
+# Checking Q='{65, 124}
+# Checking Q='{124}
+# @1755: Starting Instr #37 :: NOP
+# @                1755:fetch1: 42
+# Updating Address Queue: 42 '{66}
+# @                1765:fetch2
+# incr pc: 43
+# Checking Q='{66}
+# @1775 SB: Decode
+# Decoded NOP
+# @1785: Starting Instr #38 :: RD
+# @                1785:fetch1: 43
+# Updating Address Queue: 43 '{67}
+# @                1795:fetch2
+# incr pc: 44
+# Checking Q='{67}
+# @1805 SB: Decode
+# readbyte2 I.byte1=ce
+# Updating Address Queue: 44 '{68}
+# Updating Address Queue: ce '{68, -50}
+# incr pc: 45
+# Decoded RdRdi Instr
+# Checking Q='{68, -50}
+# Checking Q='{-50}
+# @1835: Starting Instr #39 :: RDI
+# @                1835:fetch1: 45
+# Updating Address Queue: 45 '{69}
+# @                1845:fetch2
+# incr pc: 46
+# Checking Q='{69}
+# @1855 SB: Decode
+# Updating Address Queue: 46 '{70}
+# incr pc: 47
+# Decoded RdRdi Instr
+# Checking Q='{70}
+# @1875: Starting Instr #40 :: RD
+# @                1875:fetch1: 47
+# Updating Address Queue: 47 '{71}
+# @                1885:fetch2
+# incr pc: 48
+# Checking Q='{71}
+# @1895 SB: Decode
+# readbyte2 I.byte1=2b
+# Updating Address Queue: 48 '{72}
+# Updating Address Queue: 2b '{72, 43}
+# incr pc: 49
+# Decoded RdRdi Instr
+# Checking Q='{72, 43}
+# Checking Q='{43}
+# @1925: Starting Instr #41 :: RDI
+# @                1925:fetch1: 49
+# Updating Address Queue: 49 '{73}
+# @                1935:fetch2
+# incr pc: 4a
+# Checking Q='{73}
+# @1945 SB: Decode
+# Updating Address Queue: 4a '{74}
+# incr pc: 4b
+# Decoded RdRdi Instr
+# Checking Q='{74}
+# @1965: Starting Instr #42 :: RD
+# @                1965:fetch1: 4b
+# Updating Address Queue: 4b '{75}
+# @                1975:fetch2
+# incr pc: 4c
+# Checking Q='{75}
+# @1985 SB: Decode
+# readbyte2 I.byte1=94
+# Updating Address Queue: 4c '{76}
+# Updating Address Queue: 94 '{76, -108}
+# incr pc: 4d
+# Decoded RdRdi Instr
+# Checking Q='{76, -108}
+# Checking Q='{-108}
+# @2015: Starting Instr #43 :: NOP
+# @                2015:fetch1: 4d
+# Updating Address Queue: 4d '{77}
+# @                2025:fetch2
+# incr pc: 4e
+# Checking Q='{77}
+# @2035 SB: Decode
+# Decoded NOP
+# @2045: Starting Instr #44 :: RD
+# @                2045:fetch1: 4e
+# Updating Address Queue: 4e '{78}
+# @                2055:fetch2
+# incr pc: 4f
+# Checking Q='{78}
+# @2065 SB: Decode
+# readbyte2 I.byte1=d5
+# Updating Address Queue: 4f '{79}
+# Updating Address Queue: d5 '{79, -43}
+# incr pc: 50
+# Decoded RdRdi Instr
+# Checking Q='{79, -43}
+# Checking Q='{-43}
+# @2095: Starting Instr #45 :: AND
+# @                2095:fetch1: 50
+# Updating Address Queue: 50 '{80}
+# @                2105:fetch2
+# incr pc: 51
+# Checking Q='{80}
+# @2115 SB: Decode
+# Decoded AddSubAnd Instr
+# @2135: Starting Instr #46 :: RDI
+# @                2135:fetch1: 51
+# Updating Address Queue: 51 '{81}
+# @                2145:fetch2
+# incr pc: 52
+# Checking Q='{81}
+# @2155 SB: Decode
+# Updating Address Queue: 52 '{82}
+# incr pc: 53
+# Decoded RdRdi Instr
+# Checking Q='{82}
+# @2175: Starting Instr #47 :: ADD
+# @                2175:fetch1: 53
+# Updating Address Queue: 53 '{83}
+# @                2185:fetch2
+# incr pc: 54
+# Checking Q='{83}
+# @2195 SB: Decode
+# Decoded AddSubAnd Instr
+# @2215: Starting Instr #48 :: ADD
+# @                2215:fetch1: 54
+# Updating Address Queue: 54 '{84}
+# @                2225:fetch2
+# incr pc: 55
+# Checking Q='{84}
+# @2235 SB: Decode
+# Decoded AddSubAnd Instr
+# @2255: Starting Instr #49 :: ADD
+# @                2255:fetch1: 55
+# Updating Address Queue: 55 '{85}
+# @                2265:fetch2
+# incr pc: 56
+# Checking Q='{85}
+# @2275 SB: Decode
+# Decoded AddSubAnd Instr
+# Test Complete found           0 Errors.
+# 1
+# Simulation stop requested.
+coverage report -file report.txt -byfile -totals -cvg
+# *** Warning: -covergroup option is not supported with -totals, ignoring it.
+# 
+# 
+coverage report -file report.txt -byfile -totals -cvg -verbose
+# *** Warning: -covergroup option is not supported with -totals, ignoring it.
+# 
+# *** Warning: -detail option is not supported with -totals, ignoring it.
+# 
+# 
+coverage report -file report.txt -byfile -totals -directive -cvg -verbose
+# *** Warning: -directive option is not supported with -totals, ignoring it.
+# 
+# *** Warning: -covergroup option is not supported with -totals, ignoring it.
+# 
+# *** Warning: -detail option is not supported with -totals, ignoring it.
+# 
+# 
+coverage report -file report.txt -byfile -detail -noannotate -option -cvg -verbose
+quit

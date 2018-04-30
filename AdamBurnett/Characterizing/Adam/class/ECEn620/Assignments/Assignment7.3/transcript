@@ -1,0 +1,55 @@
+# //  Questa Sim-64
+# //  Version 10.1c linux_x86_64 Jul 27 2012
+# //
+# //  Copyright 1991-2012 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //
+# vsim -coverage -displaymsgmode both -do {view wave;do wave.do;run -all} -msgmode both -novopt top 
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment7.3/work.top
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment7.3/work.Alu_RISC_v_unit
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment7.3/work.TbEnvPkg
+# Loading sv_std.std
+# Loading work.TbEnvPkg
+# Loading work.Alu_RISC_v_unit
+# Loading work.top
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment7.3/work.SPM_IF
+# Loading work.SPM_IF
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment7.3/work.test
+# Loading work.test
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment7.3/work.RISC_SPM
+# Loading work.RISC_SPM
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment7.3/work.Processing_Unit
+# Loading work.Processing_Unit
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment7.3/work.Register_Unit
+# Loading work.Register_Unit
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment7.3/work.Alu_RISC
+# Loading work.Alu_RISC
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment7.3/work.mux5_1
+# Loading work.mux5_1
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment7.3/work.mux3_1
+# Loading work.mux3_1
+# Refreshing /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment7.3/work.Control_Unit
+# Loading work.Control_Unit
+# ** Warning: (vsim-8634) Code was not compiled with coverage options.
+# view wave 
+# .main_pane.wave.interior.cs.body.pw.wf
+# do wave.do 
+# @75: Starting Instr #0 :: WR
+# @125: Starting Instr #1 :: ADD
+# @165: Starting Instr #2 :: NOT
+# @195: Starting Instr #3 :: SUB
+# @235: Starting Instr #4 :: RD
+# @285: Starting Instr #5 :: NOT
+# @315: Starting Instr #6 :: ADD
+# @355: Starting Instr #7 :: RD
+# @405: Starting Instr #8 :: WR
+# @455: Starting Instr #9 :: RD
+# run -all 
+# Test Complete found           0 Errors.
+# 1
+# Simulation stop requested.
+quit

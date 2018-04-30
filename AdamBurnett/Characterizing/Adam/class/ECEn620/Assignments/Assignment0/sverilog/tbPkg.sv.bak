@@ -1,0 +1,69 @@
+package tbPkg; 
+  
+  //Validate a register Update
+  function [16:0] ValidateRegisterUpdate;  
+   input [63:0] logicName;
+   input [15:0] currentValue, expectedValue;
+   input update; 
+   logic [16:0] ret; 
+   begin 
+     $display("Checking Register %s @ time: %d", logicName, $time);
+     if(update == 1'b0) begin
+        $display("   Error: %s is not scheduled for Update!", logicName);
+        -> found_error; 
+        ret = 1;  
+     end else if(currentValue == expectedValue) begin
+        //Register Update Correctly
+        $display("   Success: %s was updated as expected", logicName);
+        ret = 0; 
+     end else begin
+        $display("   Error: %s was %d expected %d", logicName, currentValue, expectedValue);
+        ->found_error; 
+        ret = 1;sim:/lc3_testbench/ValidateRegisterUpdate/logicName sim:/lc3_testbench/ValidateRegisterUpdate/currentValue sim:/lc3_testbench/ValidateRegisterUpdate/expectedValue sim:/lc3_testbench/ValidateRegisterUpdate/update sim:/lc3_testbench/ValidateRegisterUpdate/ret sim:/lc3_testbench/found_error
+     end
+     ValidateRegisterUpdate = ret;   
+   end
+  endfunction
+  
+  task setDstRegUpdate; 
+    input [2:0] dst;
+    input [15:0] val;   
+    begin
+      $display("Setting Reg %d with value %d for expected update", dst, val); 
+      case (dst)
+        3'd0: begin
+          UPDATE_REG0 = 1'b1; 
+          UPDATE_REG0_VALUE = val; 
+        end
+        3'd1: begin
+          UPDATE_REG1 = 1'b1; 
+          UPDATE_REG1_VALUE = val; 
+        end 
+        3'd2: begin
+          UPDATE_REG2 = 1'b1; 
+          UPDATE_REG2_VALUE = val; 
+        end 
+        3'd3: begin
+          UPDATE_REG3 = 1'b1; 
+          UPDATE_REG3_VALUE = val; 
+        end 
+        3'd4: begin
+          UPDATE_REG4 = 1'b1; 
+          UPDATE_REG4_VALUE = val; 
+        end 
+        3'd5: begin
+          UPDATE_REG5 = 1'b1; 
+          UPDATE_REG5_VALUE = val; 
+        end 
+        3'd6: begin
+          UPDATE_REG6 = 1'b1; 
+          UPDATE_REG6_VALUE = val; 
+        end 
+        3'd7: begin
+          UPDATE_REG7 = 1'b1; 
+          UPDATE_REG7_VALUE = val; 
+        end  
+      endcase
+    end 
+  endtask
+  

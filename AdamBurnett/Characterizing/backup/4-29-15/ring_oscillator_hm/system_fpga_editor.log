@@ -1,0 +1,38 @@
+#:C0     
+#Xilinx FPGA Editor Command Log File
+#Editor Version:
+#:V   NT M2.1 P.49d
+#Current Working Directory:
+#:D   E:\Adam\Characterizing\ring_oscillator_hm
+#Date/Time:
+#:T   Tue Apr 28 14:05:58 2015
+#------------------------------
+	#Reading E:\Adam\Characterizing\ring_oscillator_hm\system.ncd...
+	#Loading device for application Rf_Device from file '4vlx60.nph' in environment E:\Xilinx\14.4\ISE_DS\ISE\.
+	#   "system" is an NCD, version 3.2, device xc4vlx60, package ff668, speed -11
+	#This design is using the default stepping level (major silicon revision) for this device (1). Unless your design is targeted at devices of this stepping level, it is recommended that you explicitly specify the stepping level of the parts you will be using. This will allow the tools to take advantage of any available performance and functional enhancements for this device. The latest stepping level for this device is '2'. Additional information on "stepping level" is available at support.xilinx.com.
+	#   "inverter" is an NCD, version 3.2, device xc4vlx60, package ff668, speed -11
+	#This design is using the default stepping level (major silicon revision) for this device (1). Unless your design is targeted at devices of this stepping level, it is recommended that you explicitly specify the stepping level of the parts you will be using. This will allow the tools to take advantage of any available performance and functional enhancements for this device. The latest stepping level for this device is '2'. Additional information on "stepping level" is available at support.xilinx.com.
+	#Design creation date: 2015.04.28.20.01.30
+	#Building chip graphics...
+	#Loading speed info...
+	#BRAM initialization data is updated without the data file.
+	#1
+setattr main edit-mode Read-Only
+	#2
+unselect -all
+	#3
+select -k comp 'ring_osc_0_ring_en_pin'
+	#4
+unselect -all
+	#5
+unselect -all
+	#6
+unselect -all
+	#7
+select net 'ring_osc_0_ring_en_pin_OBUF'
+	#net "ring_osc_0_ring_en_pin_OBUF"
+	#8
+post exit
+	#9
+exit

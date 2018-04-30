@@ -1,0 +1,345 @@
+m255
+K3
+13
+cModel Technology
+Z0 d/fpga1/users/joshuas2/ECEn620/Assignments/Assignment7.3
+vAlu_RISC
+Z1 DXx6 sv_std 3 std 0 22 F[19LRNL:5;XmIFh[XOPn1
+Vb;g<U3PDR1o9lZ4<6kH511
+r1
+31
+I1bRmHf2;^1>0Kl_4@ea100
+Z2 !s105 Alu_RISC_v_unit
+S1
+Z3 d/fpga1/users/joshuas2/ECEn620/Assignments/Assignment7.3
+Z4 w1415132184
+Z5 8risc_spm/Alu_RISC.v
+Z6 Frisc_spm/Alu_RISC.v
+Z7 Fopcodes_include.v
+L0 22
+Z8 OL;L;10.1c;51
+Z9 !s108 1415294562.503003
+Z10 !s107 Environment.sv|Driver.sv|ScoreBoard.sv|Agent.sv|Generator.sv|opcodes_include.v|top.sv|test.sv|TbEnvPkg.sv|spm_if.sv|risc_spm/RISC_SPM.v|risc_spm/Processing_Unit.v|risc_spm/mux5_1.v|risc_spm/Memory_Unit.v|risc_spm/Clock_Unit.v|risc_spm/Register_Unit.v|risc_spm/mux3_1.v|risc_spm/Control_Unit.v|risc_spm/Alu_RISC.v|
+Z11 !s90 -mfcu|-sv|risc_spm/Alu_RISC.v|risc_spm/Control_Unit.v|risc_spm/mux3_1.v|risc_spm/Register_Unit.v|risc_spm/Clock_Unit.v|risc_spm/Memory_Unit.v|risc_spm/mux5_1.v|risc_spm/Processing_Unit.v|risc_spm/RISC_SPM.v|spm_if.sv|TbEnvPkg.sv|test.sv|top.sv|
+Z12 o-mfcu -sv -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
+n@alu_@r@i@s@c
+!s85 0
+!s100 J@=O^]<0GIdMU8FWi^g=f2
+!i10b 1
+XAlu_RISC_v_unit
+R1
+Z13 DXx4 work 8 TbEnvPkg 0 22 mCH`ITEEfGEM62m4Xbz3B1
+VFGbnDj0]F8R`D`?gc^=K`0
+r1
+31
+IFGbnDj0]F8R`D`?gc^=K`0
+S1
+R3
+Z14 w1415291608
+R5
+R6
+Z15 8risc_spm/Control_Unit.v
+Z16 Frisc_spm/Control_Unit.v
+Z17 8risc_spm/mux3_1.v
+Z18 Frisc_spm/mux3_1.v
+Z19 8risc_spm/Register_Unit.v
+Z20 Frisc_spm/Register_Unit.v
+Z21 8risc_spm/Clock_Unit.v
+Z22 Frisc_spm/Clock_Unit.v
+Z23 8risc_spm/Memory_Unit.v
+Z24 Frisc_spm/Memory_Unit.v
+Z25 8risc_spm/mux5_1.v
+Z26 Frisc_spm/mux5_1.v
+Z27 8risc_spm/Processing_Unit.v
+Z28 Frisc_spm/Processing_Unit.v
+Z29 8risc_spm/RISC_SPM.v
+Z30 Frisc_spm/RISC_SPM.v
+Z31 8spm_if.sv
+Z32 Fspm_if.sv
+Z33 8TbEnvPkg.sv
+Z34 FTbEnvPkg.sv
+Z35 8test.sv
+Z36 Ftest.sv
+Z37 8top.sv
+Z38 Ftop.sv
+L11 2
+R8
+R9
+R10
+R11
+R12
+n@alu_@r@i@s@c_v_unit
+!s85 0
+!s100 T3Bb@EIb:QFYPO^3;31[E0
+!i10b 1
+!i103 1
+vClock_Unit
+R1
+I7oZ:EbV0?0K:bE^eFoz6d2
+V8X_HjSR4K<W=bfo4B8kYj2
+R2
+S1
+R3
+w1319055390
+R21
+R22
+L0 15
+R8
+r1
+31
+R9
+R10
+R11
+R12
+n@clock_@unit
+!s100 V7>=KIWm6?84^O4J]1MIO1
+!i10b 1
+!s85 0
+vControl_Unit
+R1
+VSY`=O>_OQjGKYdY:SPhJ:2
+r1
+!s85 0
+31
+I=S8fzF1Q7ED:R;@4<9LjO1
+R2
+S1
+R3
+R4
+R15
+R16
+R7
+L0 15
+R8
+R9
+R10
+R11
+R12
+n@control_@unit
+!s100 iV]DAHeFeZ3X:SWOoaeej1
+!i10b 1
+vMemory_Unit
+R1
+I<8R9SYg4>lTdK[>mTF:]01
+VX7[MDHQCN1i<0JjTn8N=32
+R2
+S1
+R3
+w1319055400
+R23
+R24
+L0 15
+R8
+r1
+31
+R9
+R10
+R11
+R12
+n@memory_@unit
+!s100 e@M[j_?MDaK3[dGj`hN?G0
+!i10b 1
+!s85 0
+vmux3_1
+R1
+V=c2XzEJedcaEiXVh1Z7jH2
+r1
+31
+IP<8d2<1>I6Azm2WRgS_j`1
+R2
+S1
+R3
+w1319055414
+R17
+R18
+L0 16
+R8
+R9
+R10
+R11
+R12
+!s85 0
+!s100 GJnR@Q:EL0DLcaJ80Nm_]3
+!i10b 1
+vmux5_1
+R1
+VzkKa]9Iilm1SWA>i<HVB`1
+r1
+31
+In[SQNS`iIOLH5CHT6f`ac1
+R2
+S1
+R3
+w1319055420
+R25
+R26
+L0 16
+R8
+R9
+R10
+R11
+R12
+!s85 0
+!s100 =?eO?ibTKiAO0Fl]4UfU<2
+!i10b 1
+vProcessing_Unit
+R1
+Vcm2;CZzjS[5d7?T38X^920
+r1
+31
+I_`mz[542Hz[9^IUdkYbB42
+R2
+S1
+R3
+w1319055380
+R27
+R28
+L0 15
+R8
+R9
+R10
+R11
+R12
+n@processing_@unit
+!s85 0
+!s100 I^4FYZAJ>8AMA];=S52=H1
+!i10b 1
+vRegister_Unit
+R1
+V[Pj?RG]F]fRdbc^k>]OdM2
+r1
+31
+ITRK`SWX_>PRe<N?Y2eO_?2
+R2
+S1
+R3
+w1319055408
+R19
+R20
+L0 15
+R8
+R9
+R10
+R11
+R12
+n@register_@unit
+!s85 0
+!s100 o9Gi5]z=WNAYSf]7T3iKE2
+!i10b 1
+vRISC_SPM
+R1
+ViQRlf89<F:`XOReQOb:CA1
+r1
+31
+IiH?QU>_]`mOnBI1oo@MNL2
+R2
+S1
+R3
+R14
+R29
+R30
+L0 15
+R8
+R9
+R10
+R11
+R12
+n@r@i@s@c_@s@p@m
+!s85 0
+!i10b 1
+!s100 Ne_m22gzaH=QAZhUSn4@J1
+YSPM_IF
+R1
+VaRd3VFhGVG_[BeGK?TBzg1
+r1
+31
+I<c`6hNafO`8_AB=dPMMM03
+R2
+S1
+R3
+w1415135072
+R31
+R32
+L0 2
+R8
+R9
+R10
+R11
+R12
+n@s@p@m_@i@f
+!s85 0
+!s100 Z5a1QLcf_<;g8e^PCk78z2
+!i10b 1
+XTbEnvPkg
+R1
+VmCH`ITEEfGEM62m4Xbz3B1
+r1
+31
+ImCH`ITEEfGEM62m4Xbz3B1
+S1
+R3
+w1415231914
+R33
+R34
+R7
+FGenerator.sv
+FAgent.sv
+FScoreBoard.sv
+FDriver.sv
+FEnvironment.sv
+L0 1
+R8
+R9
+R10
+R11
+R12
+n@tb@env@pkg
+!s85 0
+!s100 CPceE2JVm8Pz043B3QYkX1
+!i10b 1
+4test
+R1
+R13
+Z39 DXx4 work 15 Alu_RISC_v_unit 0 22 FGbnDj0]F8R`D`?gc^=K`0
+Vk<3<[f=78GX=_HO53D;7>3
+r1
+31
+ILhn0ZQPWFbTn1b@Jc2@L^2
+R2
+S1
+R3
+w1415231984
+R35
+R36
+L0 4
+R8
+R9
+R10
+R11
+R12
+!s85 0
+!s100 mhN?fcF<iWjRND>kiPWiA3
+!i10b 1
+vtop
+R1
+R13
+R39
+Ve:gFW1CKLAXc^T:7k2HoD1
+r1
+31
+IJS1S;6M;G3KIfK6?eW2TC3
+R2
+S1
+R3
+w1415230029
+R37
+R38
+L0 3
+R8
+R9
+R10
+R11
+R12
+!s85 0
+!s100 IML[^fYEN8oZkaE=RWC@M0
+!i10b 1

@@ -1,0 +1,28 @@
+What are the different layers of the test bench?
+What should you randomize?
+What kinds of bugs do directed tests catch? 
+What kinds of bugs does constrained random testing catch? 
+Describe the environment build setup discussed in class.
+
+When driving a 4-state value onto a 2-state value how do you check for x'es and z'ees? use $isunknown()
+
+For each data type explain:
+  What types of values does it hold? 
+  What does it intialize to? 
+  
+What happens when on an out-of-bounds array access? for two state logic? for 4-state logic? 
+How can you initialize arrays?
+What is the format specifier to print an array or other data object? 
+What is the syntax to copy an array? The assignment operator performs an "aggregate copy".
+Differences between packed and unpacked arrays? 
+How do you declare a dynamic array? 
+How do you allocate a dynamic array? 
+How do you delete a dynamic array? 
+How do you declare a queue? Name some queue methods? 
+Name the different types of array methods. Name Methods in each type.
+Use the array "with" clause.
+
+What are the differences between tasks, functions, and programs? 
+
+In System Verilog what are methods and member variables called (methods and properties)
+ 

@@ -1,0 +1,131 @@
+//----------------------------------------------------------------------
+// This File: tb1.sv
+//
+// Copyright 2003-2014 Sunburst Design, Inc.
+//
+// Sunburst Design (Beaverton, OR): 
+//            cliffc@sunburst-design.com
+//            www.sunburst-design.com
+//----------------------------------------------------------------------
+
+`timescale 1ns/1ns
+module tb1;
+  logic [7:0] dout;
+  logic [7:0] din;
+  logic       empty, full;
+  logic       read, write;
+  logic       rst_n;
+ 
+  SIMUTIL T (.clk(clk));
+
+  `ifdef FIFOGOOD
+  fifogood1 u1 (.*);
+  `elsif FIFOBAD
+  fifobad1 u1 (.*);
+  `else
+  fifo1 u1 (.*);
+  `endif
+
+  initial begin // Stimulus
+    initialize;
+    fiforead;
+    repeat (16) fifowrite    (8'hAA);
+    repeat ( 2) fifowriteread(8'hFF);
+    repeat (16) fiforead;
+    repeat ( 8) fifowrite    (8'h99);
+    repeat ( 5) fiforead;
+    reset;
+    repeat ( 8) fifowrite    (8'h66);
+    repeat ( 6) fifowrite    (8'h55);
+    repeat ( 9) fiforead;
+    repeat (10) fifowrite    (8'hFF);
+    repeat ( 2) fifowriteread(8'hFF);
+    repeat ( 4) fifowrite    (8'hFF);
+    repeat (17) fiforead;
+  end
+
+  initial begin // Verification
+    $timeformat(-9,0,"ns",10);
+    T.STARTSIM;
+    repeat( 2) fifoexpect(8'hxx,0,1);
+    repeat(15) fifoexpect(8'hAA,0,0);
+    repeat( 1) fifoexpect(8'hAA,1,0);
+    repeat(15) fifoexpect(8'hAA,0,0);
+    repeat( 1) fifoexpect(8'hFF,0,0);
+    repeat( 2) fifoexpect(8'hxx,0,1);
+    repeat(12) fifoexpect(8'h99,0,0);
+    repeat( 2) fifoexpect(8'hxx,0,1);
+    repeat(21) fifoexpect(8'h66,0,0);
+    repeat(14) fifoexpect(8'h55,0,0);
+    repeat( 4) fifoexpect(8'h55,1,0);
+    repeat( 2) fifoexpect(8'h55,0,0);
+    repeat(13) fifoexpect(8'hFF,0,0);
+    repeat(30) fifoexpect(8'hxx,0,1);
+    T.STOPSIM;
+    T.FINISH;
+  end
+
+  task initialize;
+    rst_n <= 0;
+    din   <= 8'hff;
+    write <= 0;
+    read  <= 0;
+    @(posedge clk);
+    @(negedge clk) rst_n = 1;
+  endtask
+ 
+  task reset;
+    @(negedge clk) rst_n = 0;
+    @(negedge clk) rst_n = 1;
+  endtask
+ 
+  task cycle_delay;
+    input [31:0] dlycnt;
+    repeat (dlycnt) @(negedge clk);
+  endtask
+ 
+  task fifowrite;
+    input [7:0] wdata;
+    @(negedge clk) write = 1;
+    din   = wdata;
+    @(negedge clk) write = 0;
+  endtask
+ 
+  task fiforead;
+    @(negedge clk) read = 1;
+    @(negedge clk) read = 0;
+  endtask
+ 
+  task fifowriteread;
+    input [7:0] wdata;
+    @(negedge clk) write = 1;
+                   read = 1;
+    din   = wdata;
+    @(negedge clk) write = 0;
+                   read = 0;
+  endtask
+ 
+  task fifoexpect;
+    input [7:0] exdata;
+    input       exfull, exempty;
+    repeat (2) @(posedge clk); #(`CYCLE-1);
+    if      ((full === exfull) && (empty === exempty) && (dout === exdata)) 
+      T.PASS;
+    `ifndef BUG
+    else if ((full === exfull) && (empty === exempty) && (empty === 1'b1)) // Correction
+      T.PASS;                                       // Correction
+    `endif
+    else begin
+      T.ERROR;
+      $display("%t: FIFO: data=%h  full=%b  empty=%b", $time, dout, full, empty);
+      $display("             EXPECTED: data=%h  full=%b  empty=%b\n\n", exdata, exfull, exempty);
+    end
+  endtask
+
+  `ifdef VCD
+  initial begin
+    $dumpfile("dump.svcd");
+    $dumpvars;
+  end
+  `endif
+endmodule

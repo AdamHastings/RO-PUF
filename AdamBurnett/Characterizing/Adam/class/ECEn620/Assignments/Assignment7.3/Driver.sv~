@@ -1,0 +1,20 @@
+class Driver;
+   virtual spm_if.TEST dut_if;
+   virtual function automatic new(spm_if.TEST dif);
+      dut_if = dif	       
+	    
+   endfunction // new
+
+   virtual function automatic initialize();
+      dut_if.cb.rst <= 1;
+      dut_if.cb.data_out <= 8'h0;
+   endfunction
+      
+   
+   task automatic reset();
+      dut_if.r
+      
+endclass;
+ 
+      
+   

@@ -1,0 +1,185 @@
+#:C59    
+#Xilinx FPGA Editor Command Log File
+#Editor Version:
+#:V   NT M2.1 P.49d
+#Current Working Directory:
+#:D   E:\Adam\Characterizing\ring_oscillator_hm
+#Date/Time:
+#:T   Wed Apr 29 10:17:46 2015
+#------------------------------
+	#Reading E:\Adam\Characterizing\ring_oscillator_hm\system_modified.ncd...
+	#   "system" is an NCD, version 3.2, device xc4vlx60, package ff668, speed -11
+	#This design is using the default stepping level (major silicon revision) for this device (1). Unless your design is targeted at devices of this stepping level, it is recommended that you explicitly specify the stepping level of the parts you will be using. This will allow the tools to take advantage of any available performance and functional enhancements for this device. The latest stepping level for this device is '2'. Additional information on "stepping level" is available at support.xilinx.com.
+	#   "inverter" is an NCD, version 3.2, device xc4vlx60, package ff668, speed -11
+	#This design is using the default stepping level (major silicon revision) for this device (1). Unless your design is targeted at devices of this stepping level, it is recommended that you explicitly specify the stepping level of the parts you will be using. This will allow the tools to take advantage of any available performance and functional enhancements for this device. The latest stepping level for this device is '2'. Additional information on "stepping level" is available at support.xilinx.com.
+	#   "ring_oscillator" is an NCD, version 3.2, device xc4vlx60, package ff668, speed -11
+	#This design is using the default stepping level (major silicon revision) for this device (1). Unless your design is targeted at devices of this stepping level, it is recommended that you explicitly specify the stepping level of the parts you will be using. This will allow the tools to take advantage of any available performance and functional enhancements for this device. The latest stepping level for this device is '2'. Additional information on "stepping level" is available at support.xilinx.com.
+	#Design creation date: 2015.04.28.21.55.25
+	#Building chip graphics...
+	#Loading speed info...
+	#BRAM initialization data is updated without the data file.
+	#1
+select -k comp 'ring_osc_0/ring_osc_0/USER_LOGIC_I/ring_osc_0/$COMP_0'
+	#2
+unselect -all
+	#3
+unselect -all
+	#4
+select arc 'OUTPUT(-118976,39208)--->INPUT(-118976,39240)'
+	#arc "OUTPUT(-118976,39208)--->INPUT(-118976,39240)"
+	#5
+unselect -all
+	#6
+select comp 'ring_osc_0/ring_osc_0/USER_LOGIC_I/ring_osc_1/$COMP_0'
+	#comp "ring_osc_0/ring_osc_0/USER_LOGIC_I/ring_osc_1/$COMP_0",  site "SLICE_X2Y150",  type = SLICEM  (RPM grid X9Y150)
+	#7
+post block
+	#8
+unselect -all
+	#9
+select pin 'SLICE_X0Y150.G4'
+	#site.pin = SLICE_X0Y150.G4, comp.pin = ring_osc_0/ring_osc_0/USER_LOGIC_I/ring_osc_0/$COMP_0.G4
+	#10
+unselect -all
+	#11
+select pin 'SLICE_X0Y150.G2'
+	#site.pin = SLICE_X0Y150.G2, comp.pin = ring_osc_0/ring_osc_0/USER_LOGIC_I/ring_osc_0/$COMP_0.G2
+	#12
+unselect -all
+	#13
+select pin 'SLICE_X0Y150.G1'
+	#site.pin = SLICE_X0Y150.G1, comp.pin = ring_osc_0/ring_osc_0/USER_LOGIC_I/ring_osc_0/$COMP_0.G1
+	#14
+unselect -all
+	#15
+unselect -all
+	#16
+unselect -all
+	#17
+unselect -all
+	#18
+unselect -all
+	#19
+select site 'TIEOFF_X1Y75'
+	#site "TIEOFF_X1Y75",  type = TIEOFF  (RPM grid X4Y150)
+	#20
+unselect -all
+	#21
+select pin 'TIEOFF_X1Y75.KEEP1'
+	#site.pin = TIEOFF_X1Y75.KEEP1
+	#22
+unselect -all
+	#23
+unselect -all
+	#24
+select net 'net_ring_osc_2'
+	#net "net_ring_osc_2"
+	#25
+unselect -all
+	#26
+select net 'net_ring_osc_50'
+	#net "net_ring_osc_50"
+	#27
+unselect -all
+	#28
+select net 'net_ring_osc_3'
+	#net "net_ring_osc_3"
+	#29
+unselect -all
+	#30
+unselect -all
+	#31
+select net 'net_ring_osc_2'
+	#net "net_ring_osc_2"
+	#32
+post block
+	#ERROR:FPGAEditor:79 - The "post block" command without any other arguments cannot
+	#be performed unless the selection contains only a single site
+	#or single component.  Change the selection and try again.
+	#33
+unselect -all
+	#34
+select net 'ring_osc_0/ring_osc_0/USER_LOGIC_I/ring_osc'
+	#net "ring_osc_0/ring_osc_0/USER_LOGIC_I/ring_osc"
+	#35
+unselect -all
+	#36
+select net 'net_ring_osc_2'
+	#net "net_ring_osc_2"
+	#37
+unselect -all
+	#38
+select net 'mdm_0/mdm_0/drck_i'
+	#net "mdm_0/mdm_0/drck_i"
+	#39
+unselect -all
+	#40
+select net 'mdm_0/Dbg_Clk_1'
+	#net "mdm_0/Dbg_Clk_1"
+	#41
+unselect -all
+	#42
+select net 'mdm_0/mdm_0/drck_i'
+	#net "mdm_0/mdm_0/drck_i"
+	#43
+unselect -all
+	#44
+select comp 'mdm_0/mdm_0/Use_Virtex4.BSCAN_VIRTEX4_I'
+	#comp "mdm_0/mdm_0/Use_Virtex4.BSCAN_VIRTEX4_I",  site "BSCAN_X0Y1",  type = BSCAN  (RPM grid X123Y122)
+	#45
+unselect -all
+	#46
+unselect -all
+	#47
+unselect -all
+	#48
+select net 'XIL_ML_PMV_OUT_SIG'
+	#net "XIL_ML_PMV_OUT_SIG"
+	#49
+unselect -all
+	#50
+select comp 'XIL_ML_UNUSED_DCM_6'
+	#comp "XIL_ML_UNUSED_DCM_6",  site "DCM_ADV_X0Y1",  type = DCM_ADV  (RPM grid X121Y24)
+	#51
+unselect -all
+	#52
+unselect -all
+	#53
+unselect -all
+	#54
+select net 'XIL_ML_PMV_OUT_SIG'
+	#net "XIL_ML_PMV_OUT_SIG"
+	#55
+unselect -all
+	#56
+select comp 'XIL_ML_UNUSED_DCM_6'
+	#comp "XIL_ML_UNUSED_DCM_6",  site "DCM_ADV_X0Y1",  type = DCM_ADV  (RPM grid X121Y24)
+	#57
+unselect -all
+	#58
+select comp 'XIL_ML_UNUSED_DCM_4'
+	#comp "XIL_ML_UNUSED_DCM_4",  site "DCM_ADV_X0Y2",  type = DCM_ADV  (RPM grid X121Y32)
+	#59
+unselect comp 'XIL_ML_UNUSED_DCM_4'
+	#60
+select -k comp 'ring_osc_0/ring_osc_0/USER_LOGIC_I/ring_osc_0/$COMP_0'
+	#61
+unselect -all
+	#62
+select comp 'ring_osc_0/ring_osc_0/USER_LOGIC_I/ring_osc_0/$COMP_0'
+	#comp "ring_osc_0/ring_osc_0/USER_LOGIC_I/ring_osc_0/$COMP_0",  site "SLICE_X0Y150",  type = SLICEM  (RPM grid X5Y150)
+	#63
+unselect -all
+	#64
+unselect -all
+	#65
+unselect -all
+	#66
+select pin 'SLICE_X0Y150.G4'
+	#site.pin = SLICE_X0Y150.G4, comp.pin = ring_osc_0/ring_osc_0/USER_LOGIC_I/ring_osc_0/$COMP_0.G4
+	#67
+unselect -all
+	#68
+unselect -all
+	#69
+unselect -all

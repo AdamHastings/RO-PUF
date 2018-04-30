@@ -1,0 +1,12 @@
+`define BR   4'b0111
+`define BRZ  4'b0111
+`define HALT 4'b0111
+
+class Instruction;
+   bit [7:0] word;
+
+   constraint c_inst { word[7:4] != 
+endclass // Instruction
+
+class Generator;
+endclass // Generator

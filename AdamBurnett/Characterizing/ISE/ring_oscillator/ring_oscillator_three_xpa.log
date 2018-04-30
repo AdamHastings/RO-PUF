@@ -1,0 +1,43 @@
+Creating log file
+E:\Adam\Characterizing\ISE\ring_oscillator\ring_oscillator_three_xpa.log.
+Loading device for application Rf_Device from file '4vlx60.nph' in environment
+E:\Xilinx\14.4\ISE_DS\ISE\.
+   "ring_oscillator_three" is an NCD, version 3.2, device xc4vlx60, package
+ff668, speed -11
+This design is using the default stepping level (major silicon revision) for
+this device (1). Unless your design is targeted at devices of this stepping
+level, it is recommended that you explicitly specify the stepping level of the
+parts you will be using. This will allow the tools to take advantage of any
+available performance and functional enhancements for this device. The latest
+stepping level for this device is '2'. Additional information on "stepping
+level" is available at support.xilinx.com.
+   "inverter" is an NCD, version 3.2, device xc4vlx60, package ff668, speed -11
+This design is using the default stepping level (major silicon revision) for
+this device (1). Unless your design is targeted at devices of this stepping
+level, it is recommended that you explicitly specify the stepping level of the
+parts you will be using. This will allow the tools to take advantage of any
+available performance and functional enhancements for this device. The latest
+stepping level for this device is '2'. Additional information on "stepping
+level" is available at support.xilinx.com.
+
+INFO:Power:1693 - 
+   --------------------------------------------------------------
+                         The power estimate will be calculated using PRODUCTION
+   data.
+   --------------------------------------------------------------
+
+Design load 20% completeDesign load 25% completeDesign load 30% completeDesign load 60% completeDesign load 95% completeDesign load 100% completeRunning Vector-less Activity Propagation
+......
+Finished Running Vector-less Activity Propagation
+Finished Running Vector-less Activity Propagation 0 secs 
+
+Design 'ring_oscillator_three.ncd' and constraints 'ring_oscillator_three.pcf'
+opened successfully
+
+
+Updating power analysis...
+Running Vector-less Activity Propagation
+......
+Finished Running Vector-less Activity Propagation
+Finished Running Vector-less Activity Propagation 0 secs 
+Update Power Analysis is complete.

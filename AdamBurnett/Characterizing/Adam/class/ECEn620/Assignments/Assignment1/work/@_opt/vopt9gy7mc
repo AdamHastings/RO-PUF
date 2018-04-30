@@ -1,0 +1,51 @@
+m255
+K3
+13
+cModel Technology
+d/net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment0/lc3_verilog
+T_opt
+V`RC^e^gK5MFofRi=5Mmza2
+04 13 4 work alu_testbench fast 0
+=1-001f29015546-5418c8b4-69afe-1723
+o-quiet -auto_acc_if_foreign -work work
+n@_opt
+OL;O;10.1c;51
+vALU_4_bit
+!s100 O^>Cjd=aIWQR8hCnz9TJC3
+IRjB`EL>NiOcBmWz29R;HA0
+Vif^nmo[33OT]lbX2nGOWf0
+Z0 d/fpga1/users/joshuas2/ECEn620/Assignments/Assignment1
+w1410650444
+8/net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment1/alu.v
+F/net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment1/alu.v
+L0 3
+Z1 OL;L;10.1c;51
+r1
+31
+!s90 -reportprogress|300|-work|work|-source|-vopt|/net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment1/alu.v|
+Z2 o-work work -source -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
+Z3 tShow_source 1
+n@a@l@u_4_bit
+!s108 1410910280.960615
+!s107 /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment1/alu.v|
+!i10b 1
+!s85 0
+valu_testbench
+!s100 W03AH0bzO@@3kHV]8Mm?V0
+I6Ha:b=gHGE5?ddf@k;ZYc2
+VN^B;K=YF1jHT`KC`UlBP_1
+Z4 d/fpga1/users/joshuas2/ECEn620/Assignments/Assignment1
+w1410667279
+8/net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment1/alu_testbench.v
+F/net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment1/alu_testbench.v
+L0 4
+R1
+r1
+31
+!s90 -reportprogress|300|-work|work|-source|-vopt|/net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment1/alu_testbench.v|
+R2
+R3
+!i10b 1
+!s85 0
+!s108 1410910281.021425
+!s107 /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment1/alu_testbench.v|

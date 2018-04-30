@@ -1,0 +1,7 @@
+INFILE=E:\Adam\Characterizing\default\dut_mb_v4lx60_template\hw\implementation\system.ncd
+OUTFILE=E:\Adam\Characterizing\default\dut_mb_v4lx60_template\hw\implementation\system.bit
+FAMILY=Virtex4
+PART=xc4vlx60-11ff668
+WORKINGDIR=E:\Adam\Characterizing\default\dut_mb_v4lx60_template\hw\implementation
+LICENSE=ISE
+USER_INFO=174672765_175170704_210573231_041

@@ -1,0 +1,62 @@
+#:C0     
+#Xilinx FPGA Editor Command Log File
+#Editor Version:
+#:V   NT M2.1 P.49d
+#Current Working Directory:
+#:D   E:\Adam\Characterizing\ring_oscillator_hm
+#Date/Time:
+#:T   Sat Oct 10 18:15:15 2015
+#------------------------------
+	#Reading E:\Adam\Characterizing\ring_oscillator_hm\system_modified_7ring.ncd...
+	#Loading device for application Rf_Device from file '4vlx60.nph' in environment E:\Xilinx\14.4\ISE_DS\ISE\.
+	#   "system" is an NCD, version 3.2, device xc4vlx60, package ff668, speed -11
+	#This design is using the default stepping level (major silicon revision) for this device (1). Unless your design is targeted at devices of this stepping level, it is recommended that you explicitly specify the stepping level of the parts you will be using. This will allow the tools to take advantage of any available performance and functional enhancements for this device. The latest stepping level for this device is '2'. Additional information on "stepping level" is available at support.xilinx.com.
+	#   "inverter" is an NCD, version 3.2, device xc4vlx60, package ff668, speed -11
+	#This design is using the default stepping level (major silicon revision) for this device (1). Unless your design is targeted at devices of this stepping level, it is recommended that you explicitly specify the stepping level of the parts you will be using. This will allow the tools to take advantage of any available performance and functional enhancements for this device. The latest stepping level for this device is '2'. Additional information on "stepping level" is available at support.xilinx.com.
+	#   "ring_oscillator" is an NCD, version 3.2, device xc4vlx60, package ff668, speed -11
+	#This design is using the default stepping level (major silicon revision) for this device (1). Unless your design is targeted at devices of this stepping level, it is recommended that you explicitly specify the stepping level of the parts you will be using. This will allow the tools to take advantage of any available performance and functional enhancements for this device. The latest stepping level for this device is '2'. Additional information on "stepping level" is available at support.xilinx.com.
+	#Design creation date: 2015.10.11.00.14.53
+	#Building chip graphics...
+	#Loading speed info...
+	#BRAM initialization data is updated without the data file.
+	#1
+select -k comp 'ring_osc_2/ring_osc_2/USER_LOGIC_I/ring_osc_0/$COMP_0'
+	#2
+unselect -all
+	#3
+autoroute -all
+	#Building the delay mediator...
+	#Hint: to automatically load delays when design is loaded, setattr main auto_load_delays true
+	#
+	#Phase  1  : 6 unrouted;      REAL time: 0 secs 
+	#
+	#Phase  2  : 6 unrouted;      REAL time: 0 secs 
+	#
+	#Phase  3  : 2 unrouted;      REAL time: 0 secs 
+	#
+	#Phase  4  : 2 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 4 secs 
+	#
+	#Updating file: C:/Users/Adam/AppData/Local/Temp/xil_375472_6 with current fully routed design.
+	#
+	#Phase  5  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 5 secs 
+	#
+	#Phase  6  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 5 secs 
+	#
+	#Phase  7  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 5 secs 
+	#
+	#Phase  8  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 5 secs 
+	#
+	#Phase  9  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 5 secs 
+	#
+	#Phase 10  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 5 secs 
+	#Completed route status: 4 of 6 nets are fully routed.
+	#4
+unselect -all
+	#5
+save
+	#6
+save
+	#7
+post exit
+	#8
+exit

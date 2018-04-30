@@ -1,0 +1,22 @@
+## All Source Files that results in rebuilding
+ALL_SRC = $(SYSTEM_SRC) $(PCORE_HDL_SRC) $(PCORE_DESIGN_SRC)
+
+## System Source Files
+SYSTEM_SRC = \
+	system.mhs \
+	system.xmp \
+	$
+
+DUT_CONTROL_CORE_V1_00_A = pcores/dut_control_core_v1_00_a
+
+## PCORE Source HDL Files
+PCORE_HDL_SRC = \
+	$(DUT_CONTROL_CORE_V1_00_A)/hdl/vhdl/user_logic.vhd \
+	$(DUT_CONTROL_CORE_V1_00_A)/hdl/vhdl/dut_control_core.vhd \
+	$
+
+## PCORE Design Files
+PCORE_DESIGN_SRC = \
+	$(DUT_CONTROL_CORE_V1_00_A)/data/dut_control_core_v2_1_0.mpd \
+	$(DUT_CONTROL_CORE_V1_00_A)/data/dut_control_core_v2_1_0.pao \
+	$

@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "E:/Adam/Characterizing/ring_osc/ring_osc_isim_beh.exe" -prj "E:/Adam/Characterizing/ring_osc/ring_osc_beh.prj" "work.ring_osc" 

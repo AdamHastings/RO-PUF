@@ -1,0 +1,26 @@
+/net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment5/sverilog/mem.sv {1 {vlog -work work -vopt -sv /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment5/sverilog/mem.sv
+QuestaSim-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling interface mem_if
+-- Compiling module my_mem
+
+Top level modules:
+	my_mem
+
+} {} {}} /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment5/sverilog/testbench.sv {1 {vlog -work work -vopt -sv /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment5/sverilog/testbench.sv
+QuestaSim-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling package testbench_sv_unit
+-- Importing package TransactionPkg
+-- Compiling program test
+-- Compiling module top
+
+Top level modules:
+	top
+
+} {} {}} /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment5/TransactionPkg.sv {1 {vlog -work work -vopt -sv /net/fpga1/users/joshuas2/ECEn620/Assignments/Assignment5/TransactionPkg.sv
+QuestaSim-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling package TransactionPkg
+
+Top level modules:
+	--none--
+
+} {} {}}

@@ -1,0 +1,1 @@
+ -p virtex4 -lang vhdl$(PROJECT_SEARCHPATHOPT) $(GLOBAL_SEARCHPATHOPT) -msg __xps/ise/xmsgprops.lst -s isim -X E:/Adam/Characterizing/dut_mb_v4lx60_template_v2/hw/
