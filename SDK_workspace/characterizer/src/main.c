@@ -9,6 +9,8 @@
 #include <string.h>
 #include <stdint.h>
 #include <stdlib.h>
+#include "counter.h"
+#include <stdbool.h>
 
 // Date:       Version:  Developer:  Notes:
 // 2014/01/06  1.0       aschmidt    Created and works with HW v1.0
@@ -27,7 +29,7 @@
 #define CLK_TICKS			100000000
 #define NUM_RING_OSCILLATORS 2
 #define CHARACTERIZE_TIME	15
-#define INTERVAL			15*CLK_TICKS
+#define INTERVAL			(15*CLK_TICKS)
 #define MAX_BUF 1024
 
 //Timer defines
@@ -40,6 +42,15 @@
 
 #define	TIMER1_LOAD_BIT		0x00000010
 #define ENABLE_TIMERS_BIT	0x00000200
+
+//Counter defines
+#define ENABLE_COUNTER 0x80000000
+#define RESET_COUNTER 0x40000000
+
+#define NUM_COUNTERS 8
+
+#define DESIRED_WAIT_TIME 1
+
 
 extern char inbyte(void);
 extern void outbyte(char c);
@@ -60,6 +71,19 @@ void printValue(unsigned long value);
 void determineIntervals(int seconds);
 void printAllValues();
 
+unsigned long addresses[NUM_COUNTERS] =
+{
+		XPAR_COUNTER_0_BASEADDR,
+		XPAR_COUNTER_1_BASEADDR,
+		XPAR_COUNTER_2_BASEADDR,
+		XPAR_COUNTER_3_BASEADDR,
+		XPAR_COUNTER_4_BASEADDR,
+		XPAR_COUNTER_5_BASEADDR,
+		XPAR_COUNTER_6_BASEADDR,
+		XPAR_COUNTER_7_BASEADDR
+};
+
+
 typedef struct
 {
 	unsigned int ctrl_reg;
@@ -67,51 +91,303 @@ typedef struct
 	unsigned int ver_reg;
 } control_core_regs;
 
-void interrupt_handler_dispatcher(void* ptr) {
-	//Checking the timer interrupt
-	int intc_status = XIntc_GetIntrStatus(XPAR_INTC_0_BASEADDR);
-	if (intc_status & XPAR_XPS_TIMER_0_INTERRUPT_MASK)
+bool warmedUp = false;
+
+void EnableCounter(unsigned long regAddress)
+{
+	unsigned int prevReg =  COUNTER_mReadSlaveReg2(regAddress, 0);
+	unsigned int newReg = prevReg | ENABLE_COUNTER;
+	COUNTER_mWriteSlaveReg2(regAddress, 0, newReg);
+}
+
+void DisableCounter(unsigned long regAddress)
+{
+	unsigned int prevReg =  COUNTER_mReadSlaveReg2(regAddress, 0);
+	unsigned int newReg = prevReg & (~ENABLE_COUNTER);
+	COUNTER_mWriteSlaveReg2(regAddress, 0, newReg);
+
+}
+
+void ResetCounter(unsigned long regAddress)
+{
+	unsigned int prevReg =  COUNTER_mReadSlaveReg2(regAddress, 0);
+	unsigned int newReg = prevReg | RESET_COUNTER;
+	COUNTER_mWriteSlaveReg2(regAddress, 0, newReg);
+}
+
+void DisableReset(unsigned long regAddress)
+{
+	unsigned int prevReg =  COUNTER_mReadSlaveReg2(regAddress, 0);
+	unsigned int newReg = prevReg & (~RESET_COUNTER);
+	COUNTER_mWriteSlaveReg2(regAddress, 0, newReg);
+}
+
+
+
+void ReadCounters()
+{
+	//first counter
+	int count0 = COUNTER_mReadSlaveReg0(XPAR_COUNTER_0_BASEADDR, 0);
+	int countA = COUNTER_mReadSlaveReg0(XPAR_COUNTER_0_HIGHADDR, 0);
+	int other0 = COUNTER_mReadSlaveReg1(XPAR_COUNTER_0_BASEADDR, 0);
+	/*xil_printf("count0: %0d\n\r", count0);
+	xil_printf("countA: %0d\n\r", countA);
+	xil_printf("other0: %0d\n\r", other0);*/
+
+	//second counter
+	int count1 = COUNTER_mReadSlaveReg0(XPAR_COUNTER_1_BASEADDR, 0);
+	int countB = COUNTER_mReadSlaveReg0(XPAR_COUNTER_1_HIGHADDR, 0);
+	int other1 = COUNTER_mReadSlaveReg1(XPAR_COUNTER_1_BASEADDR, 0);
+	/*xil_printf("count1: %0d\n\r", count1);
+	xil_printf("countB: %0d\n\r", countB);
+	xil_printf("other1: %0d\n\r", other1);*/
+
+	//third counter
+	int count2 = COUNTER_mReadSlaveReg0(XPAR_COUNTER_2_BASEADDR, 0);
+	int countC = COUNTER_mReadSlaveReg0(XPAR_COUNTER_2_HIGHADDR, 0);
+	int other2 = COUNTER_mReadSlaveReg1(XPAR_COUNTER_2_BASEADDR, 0);
+	/*xil_printf("count2: %0d\n\r", count2);
+	xil_printf("countC: %0d\n\r", countC);
+	xil_printf("other2: %0d\n\r", other2);*/
+
+	//fourth counter
+	int count3 = COUNTER_mReadSlaveReg0(XPAR_COUNTER_3_BASEADDR, 0);
+	int countD = COUNTER_mReadSlaveReg0(XPAR_COUNTER_3_HIGHADDR, 0);
+	int other3 = COUNTER_mReadSlaveReg1(XPAR_COUNTER_3_BASEADDR, 0);
+	/*xil_printf("count3: %0d\n\r", count3);
+	xil_printf("countD: %0d\n\r", countD);
+	xil_printf("other3: %0d\n\r", other3);*/
+
+	//Printing
+	xil_printf("count0: %0d\n\r", count0);
+	xil_printf("count1: %0d\n\r", count1);
+	xil_printf("count2: %0d\n\r", count2);
+	xil_printf("count3: %0d\n\r", count3);
+
+}
+
+/*
+ * Sets the registers needed to start the ring oscillators indexed at first and second.
+ * Not completely sure what the implementation will be.
+ *
+ */
+void StartCounters(int first, int second)
+{
+	EnableCounter(addresses[first]);
+	EnableCounter(addresses[second]);
+
+}
+
+/*
+ * Returns the number of pairs that there will be based on the number of counters.
+ *
+ */
+int GetNumPairs()
+{
+	int result = 0;
+	for(int i = NUM_COUNTERS - 1; i > 0; --i)
 	{
-		XIntc_AckIntr(XPAR_INTC_0_BASEADDR, XPAR_XPS_TIMER_0_INTERRUPT_MASK);
-		currentInterval++;
-		if (currentInterval == numIntervals)
+		result = i + result;
+	}
+	return result;
+}
+
+
+void GetCPR(int result[])
+{
+	//XTmrCtr_SetOptions(timer0ptr, XPAR_XPS_TIMER_0_DEVICE_ID, (XTC_AUTO_RELOAD_OPTION|XTC_INT_MODE_OPTION|XTC_DOWN_COUNT_OPTION));
+	XTmrCtr_SetResetValue(timer0ptr, XPAR_XPS_TIMER_0_DEVICE_ID, (DESIRED_WAIT_TIME * CLK_TICKS));
+	int firstCountShort = 0; // Short == slv_reg0
+	int secondCountShort = 0;
+	int firstCountLong = 0; // Long == slv_reg1
+	int secondCountLong = 0;
+	xil_printf("entered the cpr function\n\r");
+
+	for(int i = 0; i < NUM_COUNTERS; ++i) // Resets all of the counters and sets them to 0;
+	{
+		ResetCounter(addresses[i]);
+		DisableCounter(addresses[i]);
+		DisableReset(addresses[i]);
+
+	}
+	int iteration = 0;
+	for(int i = 0; i < NUM_COUNTERS; ++i)
+	{
+		for(int j = i + 1; j < NUM_COUNTERS; ++j)
 		{
-			currentInterval = 0;
-			RING_OSC_mWriteReg(XPAR_RING_OSC_1_BASEADDR, RING_OSC_SLV_REG2_OFFSET, 0); //Reset
-			RING_OSC_mWriteReg(XPAR_RING_OSC_2_BASEADDR, RING_OSC_SLV_REG2_OFFSET, 0); //Reset
-			values[timerReloadCount][0] = RING_OSC_mReadSlaveReg0(XPAR_RING_OSC_1_BASEADDR, RING_OSC_SLV_REG0_OFFSET);
-			values[timerReloadCount][1] = RING_OSC_mReadSlaveReg0(XPAR_RING_OSC_2_BASEADDR, RING_OSC_SLV_REG0_OFFSET);
-			if (timerReloadCount < RELOAD)
+			ResetCounter(addresses[i]);
+			ResetCounter(addresses[j]);
+			DisableReset(addresses[i]);
+			DisableReset(addresses[j]);
+
+			EnableCounter(addresses[i]);
+			EnableCounter(addresses[j]);
+			XTmrCtr_Start(timer0ptr, XPAR_XPS_TIMER_0_DEVICE_ID);
+			done = 0;
+			while(!done)
 			{
-				timerReloadCount++;
-				if (timerReloadCount == RELOAD)
+			}
+
+			/*for(int l = 0; l < 1000; ++l)
+			{
+				print("");
+			}
+			DisableCounter(addresses[i]); // only needed because of the dummy loop.
+			DisableCounter(addresses[j]);*/
+			firstCountShort = COUNTER_mReadSlaveReg0(addresses[i], 0);
+			secondCountShort = COUNTER_mReadSlaveReg0(addresses[j], 0);
+			firstCountLong = COUNTER_mReadSlaveReg1(addresses[i], 0);
+			secondCountLong = COUNTER_mReadSlaveReg1(addresses[j], 0);
+
+			if (firstCountLong > secondCountLong)
+			{
+				result[iteration] = 1;
+			}
+			else if (firstCountLong == secondCountLong)
+			{
+				if(firstCountShort == secondCountShort )
 				{
-					//xil_printf("done.\r\n");
-					done = 1;
+					result[iteration] = 19;
+				}
+				else if (firstCountShort > secondCountShort)
+				{
+					result[iteration] = 1;
 				}
 				else
 				{
-					RING_OSC_mWriteReg(XPAR_RING_OSC_1_BASEADDR, RING_OSC_SLV_REG2_OFFSET, 0xFFFFFFFF); //start
-					RING_OSC_mWriteReg(XPAR_RING_OSC_2_BASEADDR, RING_OSC_SLV_REG2_OFFSET, 0xFFFFFFFF); //start
-					XTmrCtr_Start(timer0ptr, XPAR_XPS_TIMER_0_DEVICE_ID);
+					result[iteration] = 2;
 				}
 			}
 			else
 			{
-				//xil_printf("done.\r\n");
-				done = 1;
+				result[iteration] = 2;
+			}
+
+			++iteration;
+
+		}
+	}
+
+}
+
+/*
+ * Stops all of the counters
+ *
+ */
+/*
+ * Should this function look at all of the registers and find the 2 which have been enabled and only
+ * Disable those 2 so that they are disable in sync with how they were enabled?
+ */
+void StopCounters()
+{
+	for(int i = 0; i < NUM_COUNTERS; ++i)
+	{
+		DisableCounter(addresses[i]);
+	}
+}
+
+void interrupt_handler_dispatcher(void* ptr) {
+	//Checking the timer interrupt
+	xil_printf("made it into the interrupt.\r\n");
+	if(!warmedUp) // warming up all of the counters
+	{
+		int intc_status = XIntc_GetIntrStatus(XPAR_INTC_0_BASEADDR);
+		if (intc_status & XPAR_XPS_TIMER_0_INTERRUPT_MASK)
+		{
+			XIntc_AckIntr(XPAR_INTC_0_BASEADDR, XPAR_XPS_TIMER_0_INTERRUPT_MASK);
+			currentInterval++;
+			if (currentInterval == numIntervals)
+			{
+				currentInterval = 0;
+				/*
+				int slv0 = COUNTER_mReadSlaveReg0(XPAR_COUNTER_0_BASEADDR, 0);
+				int slv1 = COUNTER_mReadSlaveReg1(XPAR_COUNTER_0_BASEADDR, 0);
+				xil_printf("slv_reg0: %0d\n\r", slv0);
+				xil_printf("slv_reg1: %0d\n\r", slv1);
+				*/
+				//ReadCounters();
+				//EnableCounter(XPAR_COUNTER_0_BASEADDR);
+				xil_printf("\r\n");
+				ReadCounters();
+				if (timerReloadCount < RELOAD)
+				{
+					timerReloadCount++;
+					if (timerReloadCount == RELOAD)
+					{
+						//xil_printf("done.\r\n");
+						warmedUp = true;
+						done = 1;
+					}
+					else
+					{
+	//					RING_OSC_mWriteReg(XPAR_RING_OSC_1_BASEADDR, RING_OSC_SLV_REG2_OFFSET, 0xFFFFFFFF); //start
+	//					RING_OSC_mWriteReg(XPAR_RING_OSC_2_BASEADDR, RING_OSC_SLV_REG2_OFFSET, 0xFFFFFFFF); //start
+						XTmrCtr_Start(timer0ptr, XPAR_XPS_TIMER_0_DEVICE_ID);
+					}
+				}
+				else
+				{
+					//xil_printf("done.\r\n");
+					warmedUp = true;
+					done = 1;
+				}
+			}
+			else
+			{
+				XTmrCtr_Start(timer0ptr, XPAR_XPS_TIMER_0_DEVICE_ID);
 			}
 		}
-		else
-		{
-			XTmrCtr_Start(timer0ptr, XPAR_XPS_TIMER_0_DEVICE_ID);
-		}
+	}
+	else //generate the CPRs
+	{
+		done = 1;
+		XIntc_AckIntr(XPAR_INTC_0_BASEADDR, XPAR_XPS_TIMER_0_INTERRUPT_MASK);
+		StopCounters(); // stops all of the counters;
+
 	}
 }
 
 int main()
 {
+	xil_printf("Hello World!\r\n");\
+
+	/*ReadCounters();
+
+
+	for(int i = 0; i < NUM_COUNTERS; ++i) // This enables all of the counters so that they can start warming up.
+	{
+		EnableCounter(addresses[i]);
+	}
+
+	ReadCounters();
+
+//	for(int i = 0; i < 1000; ++i)
+//	{
+//		i = i*i;
+//	}
+
+	for(int i = 0; i < NUM_COUNTERS; ++i)
+	{
+		DisableCounter(addresses[i]);
+		int j = i*i*i;
+	}
+	ReadCounters();
+
+	for(int i = 0; i < NUM_COUNTERS; ++i)
+	{
+		ResetCounter(addresses[i]);
+		DisableReset(addresses[i]);
+	}
+
+	ReadCounters();
+
+	xil_printf("flushing buffer now.............. \n\r");
+	return 0;
+*/
+//	COUNTER_mWriteSlaveReg2(XPAR_COUNTER_0_BASEADDR, 0, 0x0000001);
+//	EnableCounter(XPAR_COUNTER_0_BASEADDR);
 	//Interrupts setup
+	//
 	microblaze_register_handler(interrupt_handler_dispatcher, NULL);
 	XIntc_EnableIntr(XPAR_INTC_0_BASEADDR, XPAR_XPS_TIMER_0_INTERRUPT_MASK);
 	XIntc_MasterEnable(XPAR_INTC_0_BASEADDR);
@@ -124,13 +400,13 @@ int main()
 
 	/* Wait until PUF Power Board Grants access to Minicom */
 	while ((core_regs->status_reg & DUT_UART_GRANTED) != DUT_UART_GRANTED);
-
+	xil_printf("made it this far 1.\r\n");
 	//Initialize the timer
 	XStatus Status;
 	Status = XTmrCtr_Initialize(timer0ptr, XPAR_XPS_TIMER_0_DEVICE_ID);
 
 	//Initialize the Software Registers
-	RING_OSC_mWriteReg(XPAR_RING_OSC_0_BASEADDR, RING_OSC_SLV_REG2_OFFSET, 0); //Reset
+//	RING_OSC_mWriteReg(XPAR_RING_OSC_0_BASEADDR, RING_OSC_SLV_REG2_OFFSET, 0); //Reset
 
 	if (Status != XST_SUCCESS)
 	{
@@ -146,10 +422,6 @@ int main()
 		  return XST_FAILURE;
 	}
 
-	xil_printf("Characterizing Ring Oscillator\r\n");
-
-	//xil_printf("Enter a time to run the ring oscillator (divisible by 15 seconds): ");
-
 	seconds = CHARACTERIZE_TIME;
 
 	determineIntervals(seconds);
@@ -158,23 +430,27 @@ int main()
 	XTmrCtr_SetOptions(timer0ptr, XPAR_XPS_TIMER_0_DEVICE_ID, (XTC_AUTO_RELOAD_OPTION|XTC_INT_MODE_OPTION|XTC_DOWN_COUNT_OPTION));
 	XTmrCtr_SetResetValue(timer0ptr, XPAR_XPS_TIMER_0_DEVICE_ID, INTERVAL);
 
-	RING_OSC_mWriteReg(XPAR_RING_OSC_1_BASEADDR, RING_OSC_SLV_REG2_OFFSET, 0xFFFFFFFF);
-	RING_OSC_mWriteReg(XPAR_RING_OSC_2_BASEADDR, RING_OSC_SLV_REG2_OFFSET, 0xFFFFFFFF);
-
 	XTmrCtr_Start(timer0ptr, XPAR_XPS_TIMER_0_DEVICE_ID);
-
-	xil_printf("Starting ring oscillator...\r\n");
-
+	xil_printf("made it this far 2.\r\n");
 	while (!done)
 	{
 		//Waiting for the timer interrupt
 	}
+	int numPairs = GetNumPairs();
+	xil_printf("num pairs is: %0d\n\r", numPairs);
+	int result[numPairs];
+	GetCPR(result);
+	xil_printf("printing the cpr results\n\r");
+	for(int i = 0; i < numPairs; ++i)
+	{
+		xil_printf("%0d: ", i);
+		xil_printf("%0d\n\r", result[i]);
+	}
+
+	xil_printf("made it this far 3.\r\n");
 
 	printAllValues();
-	//Write the disable to the ring oscillators!
-	Xil_Out32(XPAR_RING_OSC_1_BASEADDR, 0x0);
-	Xil_Out32(XPAR_RING_OSC_2_BASEADDR, 0x0);
-	xil_printf("Flush the buffer---abcdefghijklmnopqrstuvwxyz\r\n");
+	xil_printf("done!\n\r");
 
 	exit(1);
 	return 0;
@@ -195,7 +471,7 @@ void printAllValues()
 	{
 		printValue(values[i][1]);
 	}
-	xil_printf("done.");
+	xil_printf("done!\r\n");
 }
 
 void printValue(unsigned long value)
@@ -225,4 +501,3 @@ void determineIntervals(int seconds)
 {
 	numIntervals = seconds / 15;
 }
-
