@@ -123,47 +123,29 @@ void DisableReset(unsigned long regAddress)
 }
 
 
-
+/*
+ * Prints all of the counter values to the screen
+ *
+ */
 void ReadCounters()
 {
-	//first counter
-	int count0 = COUNTER_mReadSlaveReg0(XPAR_COUNTER_0_BASEADDR, 0);
-	int countA = COUNTER_mReadSlaveReg0(XPAR_COUNTER_0_HIGHADDR, 0);
-	int other0 = COUNTER_mReadSlaveReg1(XPAR_COUNTER_0_BASEADDR, 0);
-	/*xil_printf("count0: %0d\n\r", count0);
-	xil_printf("countA: %0d\n\r", countA);
-	xil_printf("other0: %0d\n\r", other0);*/
+	int readReg0[NUM_COUNTERS];
+	int readReg1[NUM_COUNTERS];
+	for(int i = 0; i < NUM_COUNTERS; ++i)
+	{
+		readReg0[i] = COUNTER_mReadSlaveReg0(addresses[i], 0);
+		readReg1[i] = COUNTER_mReadSlaveReg1(addresses[i], 0);
+	}
 
-	//second counter
-	int count1 = COUNTER_mReadSlaveReg0(XPAR_COUNTER_1_BASEADDR, 0);
-	int countB = COUNTER_mReadSlaveReg0(XPAR_COUNTER_1_HIGHADDR, 0);
-	int other1 = COUNTER_mReadSlaveReg1(XPAR_COUNTER_1_BASEADDR, 0);
-	/*xil_printf("count1: %0d\n\r", count1);
-	xil_printf("countB: %0d\n\r", countB);
-	xil_printf("other1: %0d\n\r", other1);*/
+	xil_printf("\r\nPrinting the counters: \r\n");
+	for(int i = 0; i < NUM_COUNTERS; ++i)
+	{
+		xil_printf("reg0, counter%0d: ", i);
+		xil_printf("%0d\r\n", readReg0[i]);
+		xil_printf("reg1, counter%0d: ", i);
+		xil_printf("%0d\r\n", readReg1[i]);
 
-	//third counter
-	int count2 = COUNTER_mReadSlaveReg0(XPAR_COUNTER_2_BASEADDR, 0);
-	int countC = COUNTER_mReadSlaveReg0(XPAR_COUNTER_2_HIGHADDR, 0);
-	int other2 = COUNTER_mReadSlaveReg1(XPAR_COUNTER_2_BASEADDR, 0);
-	/*xil_printf("count2: %0d\n\r", count2);
-	xil_printf("countC: %0d\n\r", countC);
-	xil_printf("other2: %0d\n\r", other2);*/
-
-	//fourth counter
-	int count3 = COUNTER_mReadSlaveReg0(XPAR_COUNTER_3_BASEADDR, 0);
-	int countD = COUNTER_mReadSlaveReg0(XPAR_COUNTER_3_HIGHADDR, 0);
-	int other3 = COUNTER_mReadSlaveReg1(XPAR_COUNTER_3_BASEADDR, 0);
-	/*xil_printf("count3: %0d\n\r", count3);
-	xil_printf("countD: %0d\n\r", countD);
-	xil_printf("other3: %0d\n\r", other3);*/
-
-	//Printing
-	xil_printf("count0: %0d\n\r", count0);
-	xil_printf("count1: %0d\n\r", count1);
-	xil_printf("count2: %0d\n\r", count2);
-	xil_printf("count3: %0d\n\r", count3);
-
+	}
 }
 
 /*
@@ -351,8 +333,6 @@ int main()
 {
 	xil_printf("Hello World!\r\n");\
 
-	/*ReadCounters();
-
 
 	for(int i = 0; i < NUM_COUNTERS; ++i) // This enables all of the counters so that they can start warming up.
 	{
@@ -361,29 +341,6 @@ int main()
 
 	ReadCounters();
 
-//	for(int i = 0; i < 1000; ++i)
-//	{
-//		i = i*i;
-//	}
-
-	for(int i = 0; i < NUM_COUNTERS; ++i)
-	{
-		DisableCounter(addresses[i]);
-		int j = i*i*i;
-	}
-	ReadCounters();
-
-	for(int i = 0; i < NUM_COUNTERS; ++i)
-	{
-		ResetCounter(addresses[i]);
-		DisableReset(addresses[i]);
-	}
-
-	ReadCounters();
-
-	xil_printf("flushing buffer now.............. \n\r");
-	return 0;
-*/
 //	COUNTER_mWriteSlaveReg2(XPAR_COUNTER_0_BASEADDR, 0, 0x0000001);
 //	EnableCounter(XPAR_COUNTER_0_BASEADDR);
 	//Interrupts setup
