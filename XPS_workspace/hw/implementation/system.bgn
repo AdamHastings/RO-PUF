@@ -13,9 +13,17 @@ parts you will be using. This will allow the tools to take advantage of any
 available performance and functional enhancements for this device. The latest
 stepping level for this device is '2'. Additional information on "stepping
 level" is available at support.xilinx.com.
+   "inverter" is an NCD, version 3.2, device xc4vlx60, package ff668, speed -11
+This design is using the default stepping level (major silicon revision) for
+this device (1). Unless your design is targeted at devices of this stepping
+level, it is recommended that you explicitly specify the stepping level of the
+parts you will be using. This will allow the tools to take advantage of any
+available performance and functional enhancements for this device. The latest
+stepping level for this device is '2'. Additional information on "stepping
+level" is available at support.xilinx.com.
 Opened constraints file system.pcf.
 
-Mon Apr 30 14:34:21 2018
+Tue May  8 11:14:31 2018
 
 /opt/Xilinx/14.4/ISE_DS/ISE/bin/lin64/unwrapped/bitgen -w -g CclkPin:PULLUP -g TdoPin:PULLNONE -g M1Pin:PULLDOWN -g DonePin:PULLUP -g DriveDone:No -g StartUpClk:JTAGCLK -g DONE_cycle:4 -g GTS_cycle:5 -g M0Pin:PULLUP -g M2Pin:PULLUP -g ProgPin:PULLUP -g TckPin:PULLUP -g TdiPin:PULLUP -g TmsPin:PULLUP -g DonePipe:No -g GWE_cycle:6 -g LCK_cycle:NoWait -g Security:NONE -g Persist:No system.ncd 
 
@@ -121,54 +129,54 @@ There were 0 CONFIG constraint(s) processed from system.pcf.
 INFO::100 - BRAM 'lmb_bram/lmb_bram/ramb16_0' at 'RAMB16_X1Y9' location successfully updated with design data.
 
 
-INFO::100 - BRAM 'lmb_bram/lmb_bram/ramb16_1' at 'RAMB16_X1Y8' location successfully updated with design data.
+INFO::100 - BRAM 'lmb_bram/lmb_bram/ramb16_1' at 'RAMB16_X2Y8' location successfully updated with design data.
 
 
 INFO::100 - BRAM 'lmb_bram/lmb_bram/ramb16_2' at 'RAMB16_X1Y7' location successfully updated with design data.
 
 
-INFO::100 - BRAM 'lmb_bram/lmb_bram/ramb16_3' at 'RAMB16_X1Y4' location successfully updated with design data.
+INFO::100 - BRAM 'lmb_bram/lmb_bram/ramb16_3' at 'RAMB16_X0Y6' location successfully updated with design data.
 
 
-INFO::100 - BRAM 'lmb_bram/lmb_bram/ramb16_4' at 'RAMB16_X1Y5' location successfully updated with design data.
+INFO::100 - BRAM 'lmb_bram/lmb_bram/ramb16_4' at 'RAMB16_X1Y4' location successfully updated with design data.
 
 
-INFO::100 - BRAM 'lmb_bram/lmb_bram/ramb16_5' at 'RAMB16_X2Y4' location successfully updated with design data.
+INFO::100 - BRAM 'lmb_bram/lmb_bram/ramb16_5' at 'RAMB16_X1Y5' location successfully updated with design data.
 
 
-INFO::100 - BRAM 'lmb_bram/lmb_bram/ramb16_6' at 'RAMB16_X1Y6' location successfully updated with design data.
+INFO::100 - BRAM 'lmb_bram/lmb_bram/ramb16_6' at 'RAMB16_X0Y5' location successfully updated with design data.
 
 
-INFO::100 - BRAM 'lmb_bram/lmb_bram/ramb16_7' at 'RAMB16_X2Y8' location successfully updated with design data.
+INFO::100 - BRAM 'lmb_bram/lmb_bram/ramb16_7' at 'RAMB16_X1Y6' location successfully updated with design data.
 
 
-INFO::100 - BRAM 'lmb_bram/lmb_bram/ramb16_8' at 'RAMB16_X2Y9' location successfully updated with design data.
+INFO::100 - BRAM 'lmb_bram/lmb_bram/ramb16_8' at 'RAMB16_X1Y11' location successfully updated with design data.
 
 
-INFO::100 - BRAM 'lmb_bram/lmb_bram/ramb16_9' at 'RAMB16_X2Y5' location successfully updated with design data.
+INFO::100 - BRAM 'lmb_bram/lmb_bram/ramb16_9' at 'RAMB16_X0Y9' location successfully updated with design data.
 
 
-INFO::100 - BRAM 'lmb_bram/lmb_bram/ramb16_10' at 'RAMB16_X2Y6' location successfully updated with design data.
+INFO::100 - BRAM 'lmb_bram/lmb_bram/ramb16_10' at 'RAMB16_X0Y10' location successfully updated with design data.
 
 
-INFO::100 - BRAM 'lmb_bram/lmb_bram/ramb16_11' at 'RAMB16_X3Y6' location successfully updated with design data.
+INFO::100 - BRAM 'lmb_bram/lmb_bram/ramb16_11' at 'RAMB16_X1Y8' location successfully updated with design data.
 
 
-INFO::100 - BRAM 'lmb_bram/lmb_bram/ramb16_12' at 'RAMB16_X3Y9' location successfully updated with design data.
+INFO::100 - BRAM 'lmb_bram/lmb_bram/ramb16_12' at 'RAMB16_X1Y10' location successfully updated with design data.
 
 
-INFO::100 - BRAM 'lmb_bram/lmb_bram/ramb16_13' at 'RAMB16_X3Y8' location successfully updated with design data.
+INFO::100 - BRAM 'lmb_bram/lmb_bram/ramb16_13' at 'RAMB16_X0Y8' location successfully updated with design data.
 
 
-INFO::100 - BRAM 'lmb_bram/lmb_bram/ramb16_14' at 'RAMB16_X2Y7' location successfully updated with design data.
+INFO::100 - BRAM 'lmb_bram/lmb_bram/ramb16_14' at 'RAMB16_X0Y11' location successfully updated with design data.
 
 
-INFO::100 - BRAM 'lmb_bram/lmb_bram/ramb16_15' at 'RAMB16_X3Y7' location successfully updated with design data.
+INFO::100 - BRAM 'lmb_bram/lmb_bram/ramb16_15' at 'RAMB16_X2Y9' location successfully updated with design data.
 
 Running DRC.
-WARNING:PhysDesignRules:367 - The signal <dlmb_LMB_ABus<30>> is incomplete. The
-   signal does not drive any load pins in the design.
 WARNING:PhysDesignRules:367 - The signal <dlmb_LMB_ABus<31>> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <dlmb_LMB_ABus<30>> is incomplete. The
    signal does not drive any load pins in the design.
 WARNING:PhysDesignRules:781 - PULLUP on an active net. PULLUP of comp
    dut_uart_release is set but the tri state is not configured. 

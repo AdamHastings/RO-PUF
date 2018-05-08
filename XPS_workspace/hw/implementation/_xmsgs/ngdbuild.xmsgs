@@ -138,29 +138,5 @@
 <msg type="warning" file="NgdBuild" num="443" delta="old" >SFF primitive &apos;<arg fmt="%s" index="1">xps_timer_0/xps_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR1_GENERATE[20].TCSR1_FF_I</arg>&apos; has unconnected output pin
 </msg>
 
-<msg type="error" file="NgdBuild" num="604" delta="new" ><arg fmt="%s" index="1">logical</arg> block &apos;<arg fmt="%s" index="2">ring_osc_0/ring_osc_0/USER_LOGIC_I/ring_osc_2</arg>&apos; with type &apos;<arg fmt="%s" index="3">inverter</arg>&apos; could not be resolved. A pin name misspelling can cause this, a missing edif or ngc file, case mismatch between the block name and the edif or ngc file name, or the misspelling of a type name. Symbol &apos;<arg fmt="%s" index="4">inverter</arg>&apos; is not supported in target &apos;<arg fmt="%s" index="5">virtex4</arg>&apos;.
-</msg>
-
-<msg type="error" file="NgdBuild" num="604" delta="new" ><arg fmt="%s" index="1">logical</arg> block &apos;<arg fmt="%s" index="2">ring_osc_1/ring_osc_1/USER_LOGIC_I/ring_osc_2</arg>&apos; with type &apos;<arg fmt="%s" index="3">inverter</arg>&apos; could not be resolved. A pin name misspelling can cause this, a missing edif or ngc file, case mismatch between the block name and the edif or ngc file name, or the misspelling of a type name. Symbol &apos;<arg fmt="%s" index="4">inverter</arg>&apos; is not supported in target &apos;<arg fmt="%s" index="5">virtex4</arg>&apos;.
-</msg>
-
-<msg type="error" file="NgdBuild" num="604" delta="new" ><arg fmt="%s" index="1">logical</arg> block &apos;<arg fmt="%s" index="2">ring_osc_2/ring_osc_2/USER_LOGIC_I/ring_osc_2</arg>&apos; with type &apos;<arg fmt="%s" index="3">inverter</arg>&apos; could not be resolved. A pin name misspelling can cause this, a missing edif or ngc file, case mismatch between the block name and the edif or ngc file name, or the misspelling of a type name. Symbol &apos;<arg fmt="%s" index="4">inverter</arg>&apos; is not supported in target &apos;<arg fmt="%s" index="5">virtex4</arg>&apos;.
-</msg>
-
-<msg type="error" file="NgdBuild" num="604" delta="new" ><arg fmt="%s" index="1">logical</arg> block &apos;<arg fmt="%s" index="2">ring_osc_3/ring_osc_3/USER_LOGIC_I/ring_osc_2</arg>&apos; with type &apos;<arg fmt="%s" index="3">inverter</arg>&apos; could not be resolved. A pin name misspelling can cause this, a missing edif or ngc file, case mismatch between the block name and the edif or ngc file name, or the misspelling of a type name. Symbol &apos;<arg fmt="%s" index="4">inverter</arg>&apos; is not supported in target &apos;<arg fmt="%s" index="5">virtex4</arg>&apos;.
-</msg>
-
-<msg type="error" file="NgdBuild" num="604" delta="new" ><arg fmt="%s" index="1">logical</arg> block &apos;<arg fmt="%s" index="2">ring_osc_4/ring_osc_4/USER_LOGIC_I/ring_osc_2</arg>&apos; with type &apos;<arg fmt="%s" index="3">inverter</arg>&apos; could not be resolved. A pin name misspelling can cause this, a missing edif or ngc file, case mismatch between the block name and the edif or ngc file name, or the misspelling of a type name. Symbol &apos;<arg fmt="%s" index="4">inverter</arg>&apos; is not supported in target &apos;<arg fmt="%s" index="5">virtex4</arg>&apos;.
-</msg>
-
-<msg type="error" file="NgdBuild" num="604" delta="new" ><arg fmt="%s" index="1">logical</arg> block &apos;<arg fmt="%s" index="2">ring_osc_5/ring_osc_5/USER_LOGIC_I/ring_osc_2</arg>&apos; with type &apos;<arg fmt="%s" index="3">inverter</arg>&apos; could not be resolved. A pin name misspelling can cause this, a missing edif or ngc file, case mismatch between the block name and the edif or ngc file name, or the misspelling of a type name. Symbol &apos;<arg fmt="%s" index="4">inverter</arg>&apos; is not supported in target &apos;<arg fmt="%s" index="5">virtex4</arg>&apos;.
-</msg>
-
-<msg type="error" file="NgdBuild" num="604" delta="new" ><arg fmt="%s" index="1">logical</arg> block &apos;<arg fmt="%s" index="2">ring_osc_6/ring_osc_6/USER_LOGIC_I/ring_osc_2</arg>&apos; with type &apos;<arg fmt="%s" index="3">inverter</arg>&apos; could not be resolved. A pin name misspelling can cause this, a missing edif or ngc file, case mismatch between the block name and the edif or ngc file name, or the misspelling of a type name. Symbol &apos;<arg fmt="%s" index="4">inverter</arg>&apos; is not supported in target &apos;<arg fmt="%s" index="5">virtex4</arg>&apos;.
-</msg>
-
-<msg type="error" file="NgdBuild" num="604" delta="new" ><arg fmt="%s" index="1">logical</arg> block &apos;<arg fmt="%s" index="2">ring_osc_7/ring_osc_7/USER_LOGIC_I/ring_osc_2</arg>&apos; with type &apos;<arg fmt="%s" index="3">inverter</arg>&apos; could not be resolved. A pin name misspelling can cause this, a missing edif or ngc file, case mismatch between the block name and the edif or ngc file name, or the misspelling of a type name. Symbol &apos;<arg fmt="%s" index="4">inverter</arg>&apos; is not supported in target &apos;<arg fmt="%s" index="5">virtex4</arg>&apos;.
-</msg>
-
 </messages>
 

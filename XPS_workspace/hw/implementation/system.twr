@@ -40,9 +40,9 @@ PERIOD TIMEGRP         "clock_generator_0_clock_generator_0_SIG_DCM0_CLK0"
 TS_sys_clk_pin         HIGH 50%;
 For more information, see Period Analysis in the Timing Closure User Guide (UG612).
 
- 350600 paths analyzed, 18317 endpoints analyzed, 0 failing endpoints
+ 315422 paths analyzed, 14639 endpoints analyzed, 0 failing endpoints
  0 timing errors detected. (0 setup errors, 0 hold errors, 0 component switching limit errors)
- Minimum period is   9.770ns.
+ Minimum period is   9.569ns.
 --------------------------------------------------------------------------------
 
 
@@ -53,8 +53,8 @@ Derived Constraints for TS_sys_clk_pin
 |           Constraint          | Requirement |-------------+-------------|-------------+-------------|-------------+-------------|
 |                               |             |   Direct    | Derivative  |   Direct    | Derivative  |   Direct    | Derivative  |
 +-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
-|TS_sys_clk_pin                 |     10.000ns|      6.666ns|      9.770ns|            0|            0|            3|       350600|
-| TS_clock_generator_0_clock_gen|     10.000ns|      9.770ns|          N/A|            0|            0|       350600|            0|
+|TS_sys_clk_pin                 |     10.000ns|      6.666ns|      9.569ns|            0|            0|            3|       315422|
+| TS_clock_generator_0_clock_gen|     10.000ns|      9.569ns|          N/A|            0|            0|       315422|            0|
 | erator_0_SIG_DCM0_CLK0        |             |             |             |             |             |             |             |
 +-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
 
@@ -70,7 +70,7 @@ Clock to Setup on destination clock fpga_0_clk_1_sys_clk_pin
                         | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
 Source Clock            |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 ------------------------+---------+---------+---------+---------+
-fpga_0_clk_1_sys_clk_pin|    9.770|         |         |         |
+fpga_0_clk_1_sys_clk_pin|    9.569|         |         |         |
 ------------------------+---------+---------+---------+---------+
 
 
@@ -79,20 +79,20 @@ Timing summary:
 
 Timing errors: 0  Score: 0  (Setup/Max: 0, Hold: 0)
 
-Constraints cover 350603 paths, 0 nets, and 30566 connections
+Constraints cover 315425 paths, 0 nets, and 23851 connections
 
 Design statistics:
-   Minimum period:   9.770ns   (Maximum frequency: 102.354MHz)
+   Minimum period:   9.569ns   (Maximum frequency: 104.504MHz)
 
 
-Analysis completed Mon Apr 30 14:34:15 2018 
+Analysis completed Tue May  8 11:14:27 2018 
 --------------------------------------------------------------------------------
 
 Trace Settings:
 -------------------------
 Trace Settings 
 
-Peak Memory Usage: 637 MB
+Peak Memory Usage: 630 MB
 
 
 

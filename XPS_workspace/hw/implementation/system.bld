@@ -52,6 +52,16 @@ Loading design module
 Loading design module
 "/home/adam/RO-PUF/XPS_workspace/hw/implementation/system_ring_osc_0_wrapper.ngc
 "...
+Loading device for application Rf_Device from file '4vlx60.nph' in environment
+/opt/Xilinx/14.4/ISE_DS/ISE/:/opt/Xilinx/14.4/ISE_DS/EDK.
+   "inverter" is an NCD, version 3.2, device xc4vlx60, package ff668, speed -11
+This design is using the default stepping level (major silicon revision) for
+this device (1). Unless your design is targeted at devices of this stepping
+level, it is recommended that you explicitly specify the stepping level of the
+parts you will be using. This will allow the tools to take advantage of any
+available performance and functional enhancements for this device. The latest
+stepping level for this device is '2'. Additional information on "stepping
+level" is available at support.xilinx.com.
 Loading design module
 "/home/adam/RO-PUF/XPS_workspace/hw/implementation/system_ring_osc_1_wrapper.ngc
 "...
@@ -221,54 +231,6 @@ WARNING:NgdBuild:443 - SFF primitive
 WARNING:NgdBuild:443 - SFF primitive
    'xps_timer_0/xps_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR1_GENERATE[20].TCSR1_F
    F_I' has unconnected output pin
-ERROR:NgdBuild:604 - logical block
-   'ring_osc_0/ring_osc_0/USER_LOGIC_I/ring_osc_2' with type 'inverter' could
-   not be resolved. A pin name misspelling can cause this, a missing edif or ngc
-   file, case mismatch between the block name and the edif or ngc file name, or
-   the misspelling of a type name. Symbol 'inverter' is not supported in target
-   'virtex4'.
-ERROR:NgdBuild:604 - logical block
-   'ring_osc_1/ring_osc_1/USER_LOGIC_I/ring_osc_2' with type 'inverter' could
-   not be resolved. A pin name misspelling can cause this, a missing edif or ngc
-   file, case mismatch between the block name and the edif or ngc file name, or
-   the misspelling of a type name. Symbol 'inverter' is not supported in target
-   'virtex4'.
-ERROR:NgdBuild:604 - logical block
-   'ring_osc_2/ring_osc_2/USER_LOGIC_I/ring_osc_2' with type 'inverter' could
-   not be resolved. A pin name misspelling can cause this, a missing edif or ngc
-   file, case mismatch between the block name and the edif or ngc file name, or
-   the misspelling of a type name. Symbol 'inverter' is not supported in target
-   'virtex4'.
-ERROR:NgdBuild:604 - logical block
-   'ring_osc_3/ring_osc_3/USER_LOGIC_I/ring_osc_2' with type 'inverter' could
-   not be resolved. A pin name misspelling can cause this, a missing edif or ngc
-   file, case mismatch between the block name and the edif or ngc file name, or
-   the misspelling of a type name. Symbol 'inverter' is not supported in target
-   'virtex4'.
-ERROR:NgdBuild:604 - logical block
-   'ring_osc_4/ring_osc_4/USER_LOGIC_I/ring_osc_2' with type 'inverter' could
-   not be resolved. A pin name misspelling can cause this, a missing edif or ngc
-   file, case mismatch between the block name and the edif or ngc file name, or
-   the misspelling of a type name. Symbol 'inverter' is not supported in target
-   'virtex4'.
-ERROR:NgdBuild:604 - logical block
-   'ring_osc_5/ring_osc_5/USER_LOGIC_I/ring_osc_2' with type 'inverter' could
-   not be resolved. A pin name misspelling can cause this, a missing edif or ngc
-   file, case mismatch between the block name and the edif or ngc file name, or
-   the misspelling of a type name. Symbol 'inverter' is not supported in target
-   'virtex4'.
-ERROR:NgdBuild:604 - logical block
-   'ring_osc_6/ring_osc_6/USER_LOGIC_I/ring_osc_2' with type 'inverter' could
-   not be resolved. A pin name misspelling can cause this, a missing edif or ngc
-   file, case mismatch between the block name and the edif or ngc file name, or
-   the misspelling of a type name. Symbol 'inverter' is not supported in target
-   'virtex4'.
-ERROR:NgdBuild:604 - logical block
-   'ring_osc_7/ring_osc_7/USER_LOGIC_I/ring_osc_2' with type 'inverter' could
-   not be resolved. A pin name misspelling can cause this, a missing edif or ngc
-   file, case mismatch between the block name and the edif or ngc file name, or
-   the misspelling of a type name. Symbol 'inverter' is not supported in target
-   'virtex4'.
 
 Partition Implementation Status
 -------------------------------
@@ -278,14 +240,13 @@ Partition Implementation Status
 -------------------------------
 
 NGDBUILD Design Results Summary:
-  Number of errors:     8
+  Number of errors:     0
   Number of warnings:  42
 
-Total memory usage is 497916 kilobytes
+Total memory usage is 662760 kilobytes
 
-Total REAL time to NGDBUILD completion:  13 sec
-Total CPU time to NGDBUILD completion:   13 sec
-
-One or more errors were found during NGDBUILD.  No NGD file will be written.
+Writing NGD file "system.ngd" ...
+Total REAL time to NGDBUILD completion:  14 sec
+Total CPU time to NGDBUILD completion:   14 sec
 
 Writing NGDBUILD log file "system.bld"...
