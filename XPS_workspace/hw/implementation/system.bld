@@ -50,29 +50,29 @@ Loading design module
 "/home/adam/RO-PUF/XPS_workspace/hw/implementation/system_orgate_1_wrapper.ngc".
 ..
 Loading design module
-"/home/adam/RO-PUF/XPS_workspace/hw/implementation/system_counter_0_wrapper.ngc"
-...
+"/home/adam/RO-PUF/XPS_workspace/hw/implementation/system_ring_osc_0_wrapper.ngc
+"...
 Loading design module
-"/home/adam/RO-PUF/XPS_workspace/hw/implementation/system_counter_1_wrapper.ngc"
-...
+"/home/adam/RO-PUF/XPS_workspace/hw/implementation/system_ring_osc_1_wrapper.ngc
+"...
 Loading design module
-"/home/adam/RO-PUF/XPS_workspace/hw/implementation/system_counter_2_wrapper.ngc"
-...
+"/home/adam/RO-PUF/XPS_workspace/hw/implementation/system_ring_osc_2_wrapper.ngc
+"...
 Loading design module
-"/home/adam/RO-PUF/XPS_workspace/hw/implementation/system_counter_3_wrapper.ngc"
-...
+"/home/adam/RO-PUF/XPS_workspace/hw/implementation/system_ring_osc_3_wrapper.ngc
+"...
 Loading design module
-"/home/adam/RO-PUF/XPS_workspace/hw/implementation/system_counter_4_wrapper.ngc"
-...
+"/home/adam/RO-PUF/XPS_workspace/hw/implementation/system_ring_osc_4_wrapper.ngc
+"...
 Loading design module
-"/home/adam/RO-PUF/XPS_workspace/hw/implementation/system_counter_5_wrapper.ngc"
-...
+"/home/adam/RO-PUF/XPS_workspace/hw/implementation/system_ring_osc_5_wrapper.ngc
+"...
 Loading design module
-"/home/adam/RO-PUF/XPS_workspace/hw/implementation/system_counter_6_wrapper.ngc"
-...
+"/home/adam/RO-PUF/XPS_workspace/hw/implementation/system_ring_osc_6_wrapper.ngc
+"...
 Loading design module
-"/home/adam/RO-PUF/XPS_workspace/hw/implementation/system_counter_7_wrapper.ngc"
-...
+"/home/adam/RO-PUF/XPS_workspace/hw/implementation/system_ring_osc_7_wrapper.ngc
+"...
 Gathering constraint information from source properties...
 Done.
 
@@ -221,6 +221,54 @@ WARNING:NgdBuild:443 - SFF primitive
 WARNING:NgdBuild:443 - SFF primitive
    'xps_timer_0/xps_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR1_GENERATE[20].TCSR1_F
    F_I' has unconnected output pin
+ERROR:NgdBuild:604 - logical block
+   'ring_osc_0/ring_osc_0/USER_LOGIC_I/ring_osc_2' with type 'inverter' could
+   not be resolved. A pin name misspelling can cause this, a missing edif or ngc
+   file, case mismatch between the block name and the edif or ngc file name, or
+   the misspelling of a type name. Symbol 'inverter' is not supported in target
+   'virtex4'.
+ERROR:NgdBuild:604 - logical block
+   'ring_osc_1/ring_osc_1/USER_LOGIC_I/ring_osc_2' with type 'inverter' could
+   not be resolved. A pin name misspelling can cause this, a missing edif or ngc
+   file, case mismatch between the block name and the edif or ngc file name, or
+   the misspelling of a type name. Symbol 'inverter' is not supported in target
+   'virtex4'.
+ERROR:NgdBuild:604 - logical block
+   'ring_osc_2/ring_osc_2/USER_LOGIC_I/ring_osc_2' with type 'inverter' could
+   not be resolved. A pin name misspelling can cause this, a missing edif or ngc
+   file, case mismatch between the block name and the edif or ngc file name, or
+   the misspelling of a type name. Symbol 'inverter' is not supported in target
+   'virtex4'.
+ERROR:NgdBuild:604 - logical block
+   'ring_osc_3/ring_osc_3/USER_LOGIC_I/ring_osc_2' with type 'inverter' could
+   not be resolved. A pin name misspelling can cause this, a missing edif or ngc
+   file, case mismatch between the block name and the edif or ngc file name, or
+   the misspelling of a type name. Symbol 'inverter' is not supported in target
+   'virtex4'.
+ERROR:NgdBuild:604 - logical block
+   'ring_osc_4/ring_osc_4/USER_LOGIC_I/ring_osc_2' with type 'inverter' could
+   not be resolved. A pin name misspelling can cause this, a missing edif or ngc
+   file, case mismatch between the block name and the edif or ngc file name, or
+   the misspelling of a type name. Symbol 'inverter' is not supported in target
+   'virtex4'.
+ERROR:NgdBuild:604 - logical block
+   'ring_osc_5/ring_osc_5/USER_LOGIC_I/ring_osc_2' with type 'inverter' could
+   not be resolved. A pin name misspelling can cause this, a missing edif or ngc
+   file, case mismatch between the block name and the edif or ngc file name, or
+   the misspelling of a type name. Symbol 'inverter' is not supported in target
+   'virtex4'.
+ERROR:NgdBuild:604 - logical block
+   'ring_osc_6/ring_osc_6/USER_LOGIC_I/ring_osc_2' with type 'inverter' could
+   not be resolved. A pin name misspelling can cause this, a missing edif or ngc
+   file, case mismatch between the block name and the edif or ngc file name, or
+   the misspelling of a type name. Symbol 'inverter' is not supported in target
+   'virtex4'.
+ERROR:NgdBuild:604 - logical block
+   'ring_osc_7/ring_osc_7/USER_LOGIC_I/ring_osc_2' with type 'inverter' could
+   not be resolved. A pin name misspelling can cause this, a missing edif or ngc
+   file, case mismatch between the block name and the edif or ngc file name, or
+   the misspelling of a type name. Symbol 'inverter' is not supported in target
+   'virtex4'.
 
 Partition Implementation Status
 -------------------------------
@@ -230,13 +278,14 @@ Partition Implementation Status
 -------------------------------
 
 NGDBUILD Design Results Summary:
-  Number of errors:     0
+  Number of errors:     8
   Number of warnings:  42
 
-Total memory usage is 501224 kilobytes
+Total memory usage is 497916 kilobytes
 
-Writing NGD file "system.ngd" ...
-Total REAL time to NGDBUILD completion:  30 sec
-Total CPU time to NGDBUILD completion:   30 sec
+Total REAL time to NGDBUILD completion:  13 sec
+Total CPU time to NGDBUILD completion:   13 sec
+
+One or more errors were found during NGDBUILD.  No NGD file will be written.
 
 Writing NGDBUILD log file "system.bld"...

@@ -29,15 +29,15 @@ Address Map for Processor microblaze_0
   (0x83c00000-0x83c0ffff) xps_timer_0	mb_plb
   (0x84000000-0x8400ffff) RS232_Uart_1	mb_plb
   (0x84400000-0x8440ffff) mdm_0	mb_plb
+  (0xc0600000-0xc060ffff) ring_osc_7	mb_plb
+  (0xc0620000-0xc062ffff) ring_osc_6	mb_plb
+  (0xc0640000-0xc064ffff) ring_osc_5	mb_plb
+  (0xc0660000-0xc066ffff) ring_osc_4	mb_plb
+  (0xc0680000-0xc068ffff) ring_osc_3	mb_plb
+  (0xc06a0000-0xc06affff) ring_osc_2	mb_plb
+  (0xc06c0000-0xc06cffff) ring_osc_1	mb_plb
+  (0xc06e0000-0xc06effff) ring_osc_0	mb_plb
   (0xc1a00000-0xc1a0ffff) dut_control_core_0	mb_plb
-  (0xce400000-0xce40ffff) counter_7	mb_plb
-  (0xce420000-0xce42ffff) counter_6	mb_plb
-  (0xce440000-0xce44ffff) counter_5	mb_plb
-  (0xce460000-0xce46ffff) counter_4	mb_plb
-  (0xce480000-0xce48ffff) counter_3	mb_plb
-  (0xce4a0000-0xce4affff) counter_2	mb_plb
-  (0xce4c0000-0xce4cffff) counter_1	mb_plb
-  (0xce4e0000-0xce4effff) counter_0	mb_plb
 INFO:EDK:4130 - IPNAME: xps_timer, INSTANCE:xps_timer_0 - tool is overriding
    PARAMETER C_SPLB_MID_WIDTH value to 1 -
    /opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/xps_timer_v1_02_a/
@@ -102,102 +102,102 @@ INFO:EDK:4130 - IPNAME: xps_uartlite, INSTANCE:RS232_Uart_1 - tool is overriding
    PARAMETER C_SPLB_NUM_MASTERS value to 2 -
    /opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/xps_uartlite_v1_02
    _a/data/xps_uartlite_v2_1_0.mpd line 84 
-INFO:EDK:4130 - IPNAME: counter, INSTANCE:counter_0 - tool is overriding
+INFO:EDK:4130 - IPNAME: ring_osc, INSTANCE:ring_osc_0 - tool is overriding
    PARAMETER C_SPLB_DWIDTH value to 32 -
-   /home/adam/RO-PUF/XPS_workspace/hw/pcores/counter_v1_01_a/data/counter_v2_1_0
-   .mpd line 27 
-INFO:EDK:4130 - IPNAME: counter, INSTANCE:counter_0 - tool is overriding
+   /home/adam/RO-PUF/XPS_workspace/hw/pcores/ring_osc_v1_02_a/data/ring_osc_v2_1
+   _0.mpd line 28 
+INFO:EDK:4130 - IPNAME: ring_osc, INSTANCE:ring_osc_0 - tool is overriding
    PARAMETER C_SPLB_NUM_MASTERS value to 2 -
-   /home/adam/RO-PUF/XPS_workspace/hw/pcores/counter_v1_01_a/data/counter_v2_1_0
-   .mpd line 28 
-INFO:EDK:4130 - IPNAME: counter, INSTANCE:counter_0 - tool is overriding
+   /home/adam/RO-PUF/XPS_workspace/hw/pcores/ring_osc_v1_02_a/data/ring_osc_v2_1
+   _0.mpd line 29 
+INFO:EDK:4130 - IPNAME: ring_osc, INSTANCE:ring_osc_0 - tool is overriding
    PARAMETER C_SPLB_MID_WIDTH value to 1 -
-   /home/adam/RO-PUF/XPS_workspace/hw/pcores/counter_v1_01_a/data/counter_v2_1_0
-   .mpd line 29 
-INFO:EDK:4130 - IPNAME: counter, INSTANCE:counter_1 - tool is overriding
+   /home/adam/RO-PUF/XPS_workspace/hw/pcores/ring_osc_v1_02_a/data/ring_osc_v2_1
+   _0.mpd line 30 
+INFO:EDK:4130 - IPNAME: ring_osc, INSTANCE:ring_osc_1 - tool is overriding
    PARAMETER C_SPLB_DWIDTH value to 32 -
-   /home/adam/RO-PUF/XPS_workspace/hw/pcores/counter_v1_01_a/data/counter_v2_1_0
-   .mpd line 27 
-INFO:EDK:4130 - IPNAME: counter, INSTANCE:counter_1 - tool is overriding
+   /home/adam/RO-PUF/XPS_workspace/hw/pcores/ring_osc_v1_02_a/data/ring_osc_v2_1
+   _0.mpd line 28 
+INFO:EDK:4130 - IPNAME: ring_osc, INSTANCE:ring_osc_1 - tool is overriding
    PARAMETER C_SPLB_NUM_MASTERS value to 2 -
-   /home/adam/RO-PUF/XPS_workspace/hw/pcores/counter_v1_01_a/data/counter_v2_1_0
-   .mpd line 28 
-INFO:EDK:4130 - IPNAME: counter, INSTANCE:counter_1 - tool is overriding
+   /home/adam/RO-PUF/XPS_workspace/hw/pcores/ring_osc_v1_02_a/data/ring_osc_v2_1
+   _0.mpd line 29 
+INFO:EDK:4130 - IPNAME: ring_osc, INSTANCE:ring_osc_1 - tool is overriding
    PARAMETER C_SPLB_MID_WIDTH value to 1 -
-   /home/adam/RO-PUF/XPS_workspace/hw/pcores/counter_v1_01_a/data/counter_v2_1_0
-   .mpd line 29 
-INFO:EDK:4130 - IPNAME: counter, INSTANCE:counter_2 - tool is overriding
+   /home/adam/RO-PUF/XPS_workspace/hw/pcores/ring_osc_v1_02_a/data/ring_osc_v2_1
+   _0.mpd line 30 
+INFO:EDK:4130 - IPNAME: ring_osc, INSTANCE:ring_osc_2 - tool is overriding
    PARAMETER C_SPLB_DWIDTH value to 32 -
-   /home/adam/RO-PUF/XPS_workspace/hw/pcores/counter_v1_01_a/data/counter_v2_1_0
-   .mpd line 27 
-INFO:EDK:4130 - IPNAME: counter, INSTANCE:counter_2 - tool is overriding
+   /home/adam/RO-PUF/XPS_workspace/hw/pcores/ring_osc_v1_02_a/data/ring_osc_v2_1
+   _0.mpd line 28 
+INFO:EDK:4130 - IPNAME: ring_osc, INSTANCE:ring_osc_2 - tool is overriding
    PARAMETER C_SPLB_NUM_MASTERS value to 2 -
-   /home/adam/RO-PUF/XPS_workspace/hw/pcores/counter_v1_01_a/data/counter_v2_1_0
-   .mpd line 28 
-INFO:EDK:4130 - IPNAME: counter, INSTANCE:counter_2 - tool is overriding
+   /home/adam/RO-PUF/XPS_workspace/hw/pcores/ring_osc_v1_02_a/data/ring_osc_v2_1
+   _0.mpd line 29 
+INFO:EDK:4130 - IPNAME: ring_osc, INSTANCE:ring_osc_2 - tool is overriding
    PARAMETER C_SPLB_MID_WIDTH value to 1 -
-   /home/adam/RO-PUF/XPS_workspace/hw/pcores/counter_v1_01_a/data/counter_v2_1_0
-   .mpd line 29 
-INFO:EDK:4130 - IPNAME: counter, INSTANCE:counter_3 - tool is overriding
+   /home/adam/RO-PUF/XPS_workspace/hw/pcores/ring_osc_v1_02_a/data/ring_osc_v2_1
+   _0.mpd line 30 
+INFO:EDK:4130 - IPNAME: ring_osc, INSTANCE:ring_osc_3 - tool is overriding
    PARAMETER C_SPLB_DWIDTH value to 32 -
-   /home/adam/RO-PUF/XPS_workspace/hw/pcores/counter_v1_01_a/data/counter_v2_1_0
-   .mpd line 27 
-INFO:EDK:4130 - IPNAME: counter, INSTANCE:counter_3 - tool is overriding
+   /home/adam/RO-PUF/XPS_workspace/hw/pcores/ring_osc_v1_02_a/data/ring_osc_v2_1
+   _0.mpd line 28 
+INFO:EDK:4130 - IPNAME: ring_osc, INSTANCE:ring_osc_3 - tool is overriding
    PARAMETER C_SPLB_NUM_MASTERS value to 2 -
-   /home/adam/RO-PUF/XPS_workspace/hw/pcores/counter_v1_01_a/data/counter_v2_1_0
-   .mpd line 28 
-INFO:EDK:4130 - IPNAME: counter, INSTANCE:counter_3 - tool is overriding
+   /home/adam/RO-PUF/XPS_workspace/hw/pcores/ring_osc_v1_02_a/data/ring_osc_v2_1
+   _0.mpd line 29 
+INFO:EDK:4130 - IPNAME: ring_osc, INSTANCE:ring_osc_3 - tool is overriding
    PARAMETER C_SPLB_MID_WIDTH value to 1 -
-   /home/adam/RO-PUF/XPS_workspace/hw/pcores/counter_v1_01_a/data/counter_v2_1_0
-   .mpd line 29 
-INFO:EDK:4130 - IPNAME: counter, INSTANCE:counter_4 - tool is overriding
+   /home/adam/RO-PUF/XPS_workspace/hw/pcores/ring_osc_v1_02_a/data/ring_osc_v2_1
+   _0.mpd line 30 
+INFO:EDK:4130 - IPNAME: ring_osc, INSTANCE:ring_osc_4 - tool is overriding
    PARAMETER C_SPLB_DWIDTH value to 32 -
-   /home/adam/RO-PUF/XPS_workspace/hw/pcores/counter_v1_01_a/data/counter_v2_1_0
-   .mpd line 27 
-INFO:EDK:4130 - IPNAME: counter, INSTANCE:counter_4 - tool is overriding
+   /home/adam/RO-PUF/XPS_workspace/hw/pcores/ring_osc_v1_02_a/data/ring_osc_v2_1
+   _0.mpd line 28 
+INFO:EDK:4130 - IPNAME: ring_osc, INSTANCE:ring_osc_4 - tool is overriding
    PARAMETER C_SPLB_NUM_MASTERS value to 2 -
-   /home/adam/RO-PUF/XPS_workspace/hw/pcores/counter_v1_01_a/data/counter_v2_1_0
-   .mpd line 28 
-INFO:EDK:4130 - IPNAME: counter, INSTANCE:counter_4 - tool is overriding
+   /home/adam/RO-PUF/XPS_workspace/hw/pcores/ring_osc_v1_02_a/data/ring_osc_v2_1
+   _0.mpd line 29 
+INFO:EDK:4130 - IPNAME: ring_osc, INSTANCE:ring_osc_4 - tool is overriding
    PARAMETER C_SPLB_MID_WIDTH value to 1 -
-   /home/adam/RO-PUF/XPS_workspace/hw/pcores/counter_v1_01_a/data/counter_v2_1_0
-   .mpd line 29 
-INFO:EDK:4130 - IPNAME: counter, INSTANCE:counter_5 - tool is overriding
+   /home/adam/RO-PUF/XPS_workspace/hw/pcores/ring_osc_v1_02_a/data/ring_osc_v2_1
+   _0.mpd line 30 
+INFO:EDK:4130 - IPNAME: ring_osc, INSTANCE:ring_osc_5 - tool is overriding
    PARAMETER C_SPLB_DWIDTH value to 32 -
-   /home/adam/RO-PUF/XPS_workspace/hw/pcores/counter_v1_01_a/data/counter_v2_1_0
-   .mpd line 27 
-INFO:EDK:4130 - IPNAME: counter, INSTANCE:counter_5 - tool is overriding
+   /home/adam/RO-PUF/XPS_workspace/hw/pcores/ring_osc_v1_02_a/data/ring_osc_v2_1
+   _0.mpd line 28 
+INFO:EDK:4130 - IPNAME: ring_osc, INSTANCE:ring_osc_5 - tool is overriding
    PARAMETER C_SPLB_NUM_MASTERS value to 2 -
-   /home/adam/RO-PUF/XPS_workspace/hw/pcores/counter_v1_01_a/data/counter_v2_1_0
-   .mpd line 28 
-INFO:EDK:4130 - IPNAME: counter, INSTANCE:counter_5 - tool is overriding
+   /home/adam/RO-PUF/XPS_workspace/hw/pcores/ring_osc_v1_02_a/data/ring_osc_v2_1
+   _0.mpd line 29 
+INFO:EDK:4130 - IPNAME: ring_osc, INSTANCE:ring_osc_5 - tool is overriding
    PARAMETER C_SPLB_MID_WIDTH value to 1 -
-   /home/adam/RO-PUF/XPS_workspace/hw/pcores/counter_v1_01_a/data/counter_v2_1_0
-   .mpd line 29 
-INFO:EDK:4130 - IPNAME: counter, INSTANCE:counter_6 - tool is overriding
+   /home/adam/RO-PUF/XPS_workspace/hw/pcores/ring_osc_v1_02_a/data/ring_osc_v2_1
+   _0.mpd line 30 
+INFO:EDK:4130 - IPNAME: ring_osc, INSTANCE:ring_osc_6 - tool is overriding
    PARAMETER C_SPLB_DWIDTH value to 32 -
-   /home/adam/RO-PUF/XPS_workspace/hw/pcores/counter_v1_01_a/data/counter_v2_1_0
-   .mpd line 27 
-INFO:EDK:4130 - IPNAME: counter, INSTANCE:counter_6 - tool is overriding
+   /home/adam/RO-PUF/XPS_workspace/hw/pcores/ring_osc_v1_02_a/data/ring_osc_v2_1
+   _0.mpd line 28 
+INFO:EDK:4130 - IPNAME: ring_osc, INSTANCE:ring_osc_6 - tool is overriding
    PARAMETER C_SPLB_NUM_MASTERS value to 2 -
-   /home/adam/RO-PUF/XPS_workspace/hw/pcores/counter_v1_01_a/data/counter_v2_1_0
-   .mpd line 28 
-INFO:EDK:4130 - IPNAME: counter, INSTANCE:counter_6 - tool is overriding
+   /home/adam/RO-PUF/XPS_workspace/hw/pcores/ring_osc_v1_02_a/data/ring_osc_v2_1
+   _0.mpd line 29 
+INFO:EDK:4130 - IPNAME: ring_osc, INSTANCE:ring_osc_6 - tool is overriding
    PARAMETER C_SPLB_MID_WIDTH value to 1 -
-   /home/adam/RO-PUF/XPS_workspace/hw/pcores/counter_v1_01_a/data/counter_v2_1_0
-   .mpd line 29 
-INFO:EDK:4130 - IPNAME: counter, INSTANCE:counter_7 - tool is overriding
+   /home/adam/RO-PUF/XPS_workspace/hw/pcores/ring_osc_v1_02_a/data/ring_osc_v2_1
+   _0.mpd line 30 
+INFO:EDK:4130 - IPNAME: ring_osc, INSTANCE:ring_osc_7 - tool is overriding
    PARAMETER C_SPLB_DWIDTH value to 32 -
-   /home/adam/RO-PUF/XPS_workspace/hw/pcores/counter_v1_01_a/data/counter_v2_1_0
-   .mpd line 27 
-INFO:EDK:4130 - IPNAME: counter, INSTANCE:counter_7 - tool is overriding
+   /home/adam/RO-PUF/XPS_workspace/hw/pcores/ring_osc_v1_02_a/data/ring_osc_v2_1
+   _0.mpd line 28 
+INFO:EDK:4130 - IPNAME: ring_osc, INSTANCE:ring_osc_7 - tool is overriding
    PARAMETER C_SPLB_NUM_MASTERS value to 2 -
-   /home/adam/RO-PUF/XPS_workspace/hw/pcores/counter_v1_01_a/data/counter_v2_1_0
-   .mpd line 28 
-INFO:EDK:4130 - IPNAME: counter, INSTANCE:counter_7 - tool is overriding
+   /home/adam/RO-PUF/XPS_workspace/hw/pcores/ring_osc_v1_02_a/data/ring_osc_v2_1
+   _0.mpd line 29 
+INFO:EDK:4130 - IPNAME: ring_osc, INSTANCE:ring_osc_7 - tool is overriding
    PARAMETER C_SPLB_MID_WIDTH value to 1 -
-   /home/adam/RO-PUF/XPS_workspace/hw/pcores/counter_v1_01_a/data/counter_v2_1_0
-   .mpd line 29 
+   /home/adam/RO-PUF/XPS_workspace/hw/pcores/ring_osc_v1_02_a/data/ring_osc_v2_1
+   _0.mpd line 30 
 
 Checking platform address map ...
 
@@ -344,30 +344,6 @@ implementation netlist
 IPNAME:util_reduced_logic INSTANCE:orgate_1 -
 /home/adam/RO-PUF/XPS_workspace/hw/system.mhs line 162 - Copying cache
 implementation netlist
-IPNAME:counter INSTANCE:counter_0 -
-/home/adam/RO-PUF/XPS_workspace/hw/system.mhs line 171 - Copying cache
-implementation netlist
-IPNAME:counter INSTANCE:counter_1 -
-/home/adam/RO-PUF/XPS_workspace/hw/system.mhs line 179 - Copying cache
-implementation netlist
-IPNAME:counter INSTANCE:counter_2 -
-/home/adam/RO-PUF/XPS_workspace/hw/system.mhs line 187 - Copying cache
-implementation netlist
-IPNAME:counter INSTANCE:counter_3 -
-/home/adam/RO-PUF/XPS_workspace/hw/system.mhs line 195 - Copying cache
-implementation netlist
-IPNAME:counter INSTANCE:counter_4 -
-/home/adam/RO-PUF/XPS_workspace/hw/system.mhs line 203 - Copying cache
-implementation netlist
-IPNAME:counter INSTANCE:counter_5 -
-/home/adam/RO-PUF/XPS_workspace/hw/system.mhs line 211 - Copying cache
-implementation netlist
-IPNAME:counter INSTANCE:counter_6 -
-/home/adam/RO-PUF/XPS_workspace/hw/system.mhs line 219 - Copying cache
-implementation netlist
-IPNAME:counter INSTANCE:counter_7 -
-/home/adam/RO-PUF/XPS_workspace/hw/system.mhs line 227 - Copying cache
-implementation netlist
 
 Elaborating instances ...
 IPNAME:bram_block INSTANCE:lmb_bram -
@@ -381,10 +357,10 @@ ClkGen elaborate status: PASSED
 Writing HDL for elaborated instances ...
 
 Inserting wrapper level ...
-Completion time: 1.00 seconds
+Completion time: 0.00 seconds
 
 Constructing platform-level connectivity ...
-Completion time: 0.00 seconds
+Completion time: 1.00 seconds
 
 Writing (top-level) BMM ...
 
@@ -401,21 +377,21 @@ INSTANCE:dut_control_core_0 - /home/adam/RO-PUF/XPS_workspace/hw/system.mhs line
 104 - Running XST synthesis
 INSTANCE:clock_generator_0 - /home/adam/RO-PUF/XPS_workspace/hw/system.mhs line
 133 - Running XST synthesis
-INSTANCE:counter_0 - /home/adam/RO-PUF/XPS_workspace/hw/system.mhs line 171 -
+INSTANCE:ring_osc_0 - /home/adam/RO-PUF/XPS_workspace/hw/system.mhs line 171 -
 Running XST synthesis
-INSTANCE:counter_1 - /home/adam/RO-PUF/XPS_workspace/hw/system.mhs line 179 -
+INSTANCE:ring_osc_1 - /home/adam/RO-PUF/XPS_workspace/hw/system.mhs line 179 -
 Running XST synthesis
-INSTANCE:counter_2 - /home/adam/RO-PUF/XPS_workspace/hw/system.mhs line 187 -
+INSTANCE:ring_osc_2 - /home/adam/RO-PUF/XPS_workspace/hw/system.mhs line 187 -
 Running XST synthesis
-INSTANCE:counter_3 - /home/adam/RO-PUF/XPS_workspace/hw/system.mhs line 195 -
+INSTANCE:ring_osc_3 - /home/adam/RO-PUF/XPS_workspace/hw/system.mhs line 195 -
 Running XST synthesis
-INSTANCE:counter_4 - /home/adam/RO-PUF/XPS_workspace/hw/system.mhs line 203 -
+INSTANCE:ring_osc_4 - /home/adam/RO-PUF/XPS_workspace/hw/system.mhs line 203 -
 Running XST synthesis
-INSTANCE:counter_5 - /home/adam/RO-PUF/XPS_workspace/hw/system.mhs line 211 -
+INSTANCE:ring_osc_5 - /home/adam/RO-PUF/XPS_workspace/hw/system.mhs line 211 -
 Running XST synthesis
-INSTANCE:counter_6 - /home/adam/RO-PUF/XPS_workspace/hw/system.mhs line 219 -
+INSTANCE:ring_osc_6 - /home/adam/RO-PUF/XPS_workspace/hw/system.mhs line 219 -
 Running XST synthesis
-INSTANCE:counter_7 - /home/adam/RO-PUF/XPS_workspace/hw/system.mhs line 227 -
+INSTANCE:ring_osc_7 - /home/adam/RO-PUF/XPS_workspace/hw/system.mhs line 227 -
 Running XST synthesis
 
 Running NGCBUILD ...
@@ -427,4 +403,4 @@ INFO:EDK:3509 - NCF files should not be modified as they will be regenerated.
 
 Rebuilding cache ...
 
-Total run time: 135.00 seconds
+Total run time: 71.00 seconds

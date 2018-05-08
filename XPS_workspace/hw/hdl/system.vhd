@@ -1669,7 +1669,7 @@ architecture STRUCTURE of system is
     );
   end component;
 
-  component system_counter_0_wrapper is
+  component system_ring_osc_0_wrapper is
     port (
       SPLB_Clk : in std_logic;
       SPLB_Rst : in std_logic;
@@ -1712,11 +1712,12 @@ architecture STRUCTURE of system is
       Sl_MBusy : out std_logic_vector(0 to 1);
       Sl_MWrErr : out std_logic_vector(0 to 1);
       Sl_MRdErr : out std_logic_vector(0 to 1);
-      Sl_MIRQ : out std_logic_vector(0 to 1)
+      Sl_MIRQ : out std_logic_vector(0 to 1);
+      ring_en : out std_logic
     );
   end component;
 
-  component system_counter_1_wrapper is
+  component system_ring_osc_1_wrapper is
     port (
       SPLB_Clk : in std_logic;
       SPLB_Rst : in std_logic;
@@ -1759,11 +1760,12 @@ architecture STRUCTURE of system is
       Sl_MBusy : out std_logic_vector(0 to 1);
       Sl_MWrErr : out std_logic_vector(0 to 1);
       Sl_MRdErr : out std_logic_vector(0 to 1);
-      Sl_MIRQ : out std_logic_vector(0 to 1)
+      Sl_MIRQ : out std_logic_vector(0 to 1);
+      ring_en : out std_logic
     );
   end component;
 
-  component system_counter_2_wrapper is
+  component system_ring_osc_2_wrapper is
     port (
       SPLB_Clk : in std_logic;
       SPLB_Rst : in std_logic;
@@ -1806,11 +1808,12 @@ architecture STRUCTURE of system is
       Sl_MBusy : out std_logic_vector(0 to 1);
       Sl_MWrErr : out std_logic_vector(0 to 1);
       Sl_MRdErr : out std_logic_vector(0 to 1);
-      Sl_MIRQ : out std_logic_vector(0 to 1)
+      Sl_MIRQ : out std_logic_vector(0 to 1);
+      ring_en : out std_logic
     );
   end component;
 
-  component system_counter_3_wrapper is
+  component system_ring_osc_3_wrapper is
     port (
       SPLB_Clk : in std_logic;
       SPLB_Rst : in std_logic;
@@ -1853,11 +1856,12 @@ architecture STRUCTURE of system is
       Sl_MBusy : out std_logic_vector(0 to 1);
       Sl_MWrErr : out std_logic_vector(0 to 1);
       Sl_MRdErr : out std_logic_vector(0 to 1);
-      Sl_MIRQ : out std_logic_vector(0 to 1)
+      Sl_MIRQ : out std_logic_vector(0 to 1);
+      ring_en : out std_logic
     );
   end component;
 
-  component system_counter_4_wrapper is
+  component system_ring_osc_4_wrapper is
     port (
       SPLB_Clk : in std_logic;
       SPLB_Rst : in std_logic;
@@ -1900,11 +1904,12 @@ architecture STRUCTURE of system is
       Sl_MBusy : out std_logic_vector(0 to 1);
       Sl_MWrErr : out std_logic_vector(0 to 1);
       Sl_MRdErr : out std_logic_vector(0 to 1);
-      Sl_MIRQ : out std_logic_vector(0 to 1)
+      Sl_MIRQ : out std_logic_vector(0 to 1);
+      ring_en : out std_logic
     );
   end component;
 
-  component system_counter_5_wrapper is
+  component system_ring_osc_5_wrapper is
     port (
       SPLB_Clk : in std_logic;
       SPLB_Rst : in std_logic;
@@ -1947,11 +1952,12 @@ architecture STRUCTURE of system is
       Sl_MBusy : out std_logic_vector(0 to 1);
       Sl_MWrErr : out std_logic_vector(0 to 1);
       Sl_MRdErr : out std_logic_vector(0 to 1);
-      Sl_MIRQ : out std_logic_vector(0 to 1)
+      Sl_MIRQ : out std_logic_vector(0 to 1);
+      ring_en : out std_logic
     );
   end component;
 
-  component system_counter_6_wrapper is
+  component system_ring_osc_6_wrapper is
     port (
       SPLB_Clk : in std_logic;
       SPLB_Rst : in std_logic;
@@ -1994,11 +2000,12 @@ architecture STRUCTURE of system is
       Sl_MBusy : out std_logic_vector(0 to 1);
       Sl_MWrErr : out std_logic_vector(0 to 1);
       Sl_MRdErr : out std_logic_vector(0 to 1);
-      Sl_MIRQ : out std_logic_vector(0 to 1)
+      Sl_MIRQ : out std_logic_vector(0 to 1);
+      ring_en : out std_logic
     );
   end component;
 
-  component system_counter_7_wrapper is
+  component system_ring_osc_7_wrapper is
     port (
       SPLB_Clk : in std_logic;
       SPLB_Rst : in std_logic;
@@ -2041,7 +2048,8 @@ architecture STRUCTURE of system is
       Sl_MBusy : out std_logic_vector(0 to 1);
       Sl_MWrErr : out std_logic_vector(0 to 1);
       Sl_MRdErr : out std_logic_vector(0 to 1);
-      Sl_MIRQ : out std_logic_vector(0 to 1)
+      Sl_MIRQ : out std_logic_vector(0 to 1);
+      ring_en : out std_logic
     );
   end component;
 
@@ -2224,14 +2232,14 @@ architecture STRUCTURE of system is
   attribute BOX_TYPE of system_clock_generator_0_wrapper : component is "user_black_box";
   attribute BOX_TYPE of system_rs232_uart_1_wrapper : component is "user_black_box";
   attribute BOX_TYPE of system_orgate_1_wrapper : component is "user_black_box";
-  attribute BOX_TYPE of system_counter_0_wrapper : component is "user_black_box";
-  attribute BOX_TYPE of system_counter_1_wrapper : component is "user_black_box";
-  attribute BOX_TYPE of system_counter_2_wrapper : component is "user_black_box";
-  attribute BOX_TYPE of system_counter_3_wrapper : component is "user_black_box";
-  attribute BOX_TYPE of system_counter_4_wrapper : component is "user_black_box";
-  attribute BOX_TYPE of system_counter_5_wrapper : component is "user_black_box";
-  attribute BOX_TYPE of system_counter_6_wrapper : component is "user_black_box";
-  attribute BOX_TYPE of system_counter_7_wrapper : component is "user_black_box";
+  attribute BOX_TYPE of system_ring_osc_0_wrapper : component is "user_black_box";
+  attribute BOX_TYPE of system_ring_osc_1_wrapper : component is "user_black_box";
+  attribute BOX_TYPE of system_ring_osc_2_wrapper : component is "user_black_box";
+  attribute BOX_TYPE of system_ring_osc_3_wrapper : component is "user_black_box";
+  attribute BOX_TYPE of system_ring_osc_4_wrapper : component is "user_black_box";
+  attribute BOX_TYPE of system_ring_osc_5_wrapper : component is "user_black_box";
+  attribute BOX_TYPE of system_ring_osc_6_wrapper : component is "user_black_box";
+  attribute BOX_TYPE of system_ring_osc_7_wrapper : component is "user_black_box";
 
 begin
 
@@ -3885,7 +3893,7 @@ begin
       Res => open
     );
 
-  counter_0 : system_counter_0_wrapper
+  ring_osc_0 : system_ring_osc_0_wrapper
     port map (
       SPLB_Clk => clk_100_0000MHz,
       SPLB_Rst => mb_plb_SPLB_Rst(5),
@@ -3928,10 +3936,11 @@ begin
       Sl_MBusy => mb_plb_Sl_MBusy(10 to 11),
       Sl_MWrErr => mb_plb_Sl_MWrErr(10 to 11),
       Sl_MRdErr => mb_plb_Sl_MRdErr(10 to 11),
-      Sl_MIRQ => mb_plb_Sl_MIRQ(10 to 11)
+      Sl_MIRQ => mb_plb_Sl_MIRQ(10 to 11),
+      ring_en => open
     );
 
-  counter_1 : system_counter_1_wrapper
+  ring_osc_1 : system_ring_osc_1_wrapper
     port map (
       SPLB_Clk => clk_100_0000MHz,
       SPLB_Rst => mb_plb_SPLB_Rst(6),
@@ -3974,10 +3983,11 @@ begin
       Sl_MBusy => mb_plb_Sl_MBusy(12 to 13),
       Sl_MWrErr => mb_plb_Sl_MWrErr(12 to 13),
       Sl_MRdErr => mb_plb_Sl_MRdErr(12 to 13),
-      Sl_MIRQ => mb_plb_Sl_MIRQ(12 to 13)
+      Sl_MIRQ => mb_plb_Sl_MIRQ(12 to 13),
+      ring_en => open
     );
 
-  counter_2 : system_counter_2_wrapper
+  ring_osc_2 : system_ring_osc_2_wrapper
     port map (
       SPLB_Clk => clk_100_0000MHz,
       SPLB_Rst => mb_plb_SPLB_Rst(7),
@@ -4020,10 +4030,11 @@ begin
       Sl_MBusy => mb_plb_Sl_MBusy(14 to 15),
       Sl_MWrErr => mb_plb_Sl_MWrErr(14 to 15),
       Sl_MRdErr => mb_plb_Sl_MRdErr(14 to 15),
-      Sl_MIRQ => mb_plb_Sl_MIRQ(14 to 15)
+      Sl_MIRQ => mb_plb_Sl_MIRQ(14 to 15),
+      ring_en => open
     );
 
-  counter_3 : system_counter_3_wrapper
+  ring_osc_3 : system_ring_osc_3_wrapper
     port map (
       SPLB_Clk => clk_100_0000MHz,
       SPLB_Rst => mb_plb_SPLB_Rst(8),
@@ -4066,10 +4077,11 @@ begin
       Sl_MBusy => mb_plb_Sl_MBusy(16 to 17),
       Sl_MWrErr => mb_plb_Sl_MWrErr(16 to 17),
       Sl_MRdErr => mb_plb_Sl_MRdErr(16 to 17),
-      Sl_MIRQ => mb_plb_Sl_MIRQ(16 to 17)
+      Sl_MIRQ => mb_plb_Sl_MIRQ(16 to 17),
+      ring_en => open
     );
 
-  counter_4 : system_counter_4_wrapper
+  ring_osc_4 : system_ring_osc_4_wrapper
     port map (
       SPLB_Clk => clk_100_0000MHz,
       SPLB_Rst => mb_plb_SPLB_Rst(9),
@@ -4112,10 +4124,11 @@ begin
       Sl_MBusy => mb_plb_Sl_MBusy(18 to 19),
       Sl_MWrErr => mb_plb_Sl_MWrErr(18 to 19),
       Sl_MRdErr => mb_plb_Sl_MRdErr(18 to 19),
-      Sl_MIRQ => mb_plb_Sl_MIRQ(18 to 19)
+      Sl_MIRQ => mb_plb_Sl_MIRQ(18 to 19),
+      ring_en => open
     );
 
-  counter_5 : system_counter_5_wrapper
+  ring_osc_5 : system_ring_osc_5_wrapper
     port map (
       SPLB_Clk => clk_100_0000MHz,
       SPLB_Rst => mb_plb_SPLB_Rst(10),
@@ -4158,10 +4171,11 @@ begin
       Sl_MBusy => mb_plb_Sl_MBusy(20 to 21),
       Sl_MWrErr => mb_plb_Sl_MWrErr(20 to 21),
       Sl_MRdErr => mb_plb_Sl_MRdErr(20 to 21),
-      Sl_MIRQ => mb_plb_Sl_MIRQ(20 to 21)
+      Sl_MIRQ => mb_plb_Sl_MIRQ(20 to 21),
+      ring_en => open
     );
 
-  counter_6 : system_counter_6_wrapper
+  ring_osc_6 : system_ring_osc_6_wrapper
     port map (
       SPLB_Clk => clk_100_0000MHz,
       SPLB_Rst => mb_plb_SPLB_Rst(11),
@@ -4204,10 +4218,11 @@ begin
       Sl_MBusy => mb_plb_Sl_MBusy(22 to 23),
       Sl_MWrErr => mb_plb_Sl_MWrErr(22 to 23),
       Sl_MRdErr => mb_plb_Sl_MRdErr(22 to 23),
-      Sl_MIRQ => mb_plb_Sl_MIRQ(22 to 23)
+      Sl_MIRQ => mb_plb_Sl_MIRQ(22 to 23),
+      ring_en => open
     );
 
-  counter_7 : system_counter_7_wrapper
+  ring_osc_7 : system_ring_osc_7_wrapper
     port map (
       SPLB_Clk => clk_100_0000MHz,
       SPLB_Rst => mb_plb_SPLB_Rst(12),
@@ -4250,7 +4265,8 @@ begin
       Sl_MBusy => mb_plb_Sl_MBusy(24 to 25),
       Sl_MWrErr => mb_plb_Sl_MWrErr(24 to 25),
       Sl_MRdErr => mb_plb_Sl_MRdErr(24 to 25),
-      Sl_MIRQ => mb_plb_Sl_MIRQ(24 to 25)
+      Sl_MIRQ => mb_plb_Sl_MIRQ(24 to 25),
+      ring_en => open
     );
 
 end architecture STRUCTURE;

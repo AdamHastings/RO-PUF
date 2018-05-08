@@ -1,0 +1,127 @@
+HDL language for the peripheral (top level) design unit user_logic is vhdl ...
+INFO:EDK:3391 - Create temporary xst project file:
+   /home/adam/RO-PUF/XPS_workspace/hw/pcores/ring_osc.prj
+Compiling vhdl file
+"/home/adam/RO-PUF/AdamBurnett/Characterizing/ring_osc_v1_00_a/hdl/vhdl/user_log
+ic.vhd" in Library ring_osc_v1_00_a.
+ERROR:HDLParsers:3317 -
+   "/home/adam/RO-PUF/AdamBurnett/Characterizing/ring_osc_v1_00_a/hdl/vhdl/user_
+   logic.vhd" Line 58.  Library proc_common_v3_00_a cannot be found.
+ERROR:HDLParsers:3013 -
+   "/home/adam/RO-PUF/AdamBurnett/Characterizing/ring_osc_v1_00_a/hdl/vhdl/user_
+   logic.vhd" Line 59. Library proc_common_v3_00_a is not declared.
+WARNING:HDLParsers:3481 - Library ring_osc_v1_00_a has no units. Did not save
+   reference file "xst/ring_osc_v1_00_a/hdllib.ref" for it.
+ERROR:EDK:2121 - Parse Errors encountered in HDL source
+Parsing XST project file successfully ...
+Analyzing HDL source files ...
+Analyzing HDL source files successfully ...
+HDL language for the peripheral (top level) design unit ring_osc is vhdl ...
+INFO:EDK:3391 - Create temporary xst project file:
+   /home/adam/RO-PUF/XPS_workspace/hw/pcores/ring_osc.prj
+Compiling vhdl file
+"/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/
+hdl/vhdl/proc_common_pkg.vhd" in Library proc_common_v3_00_a.
+Package <proc_common_pkg> compiled.
+Package body <proc_common_pkg> compiled.
+Compiling vhdl file
+"/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/
+hdl/vhdl/or_muxcy.vhd" in Library proc_common_v3_00_a.
+Entity <or_muxcy> compiled.
+Entity <or_muxcy> (Architecture <implementation>) compiled.
+Compiling vhdl file
+"/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/
+hdl/vhdl/family_support.vhd" in Library proc_common_v3_00_a.
+Package <family_support> compiled.
+Package body <family_support> compiled.
+Compiling vhdl file
+"/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/
+hdl/vhdl/counter_f.vhd" in Library proc_common_v3_00_a.
+Entity <counter_f> compiled.
+Entity <counter_f> (Architecture <imp>) compiled.
+Compiling vhdl file
+"/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/
+hdl/vhdl/pselect_f.vhd" in Library proc_common_v3_00_a.
+Entity <pselect_f> compiled.
+Entity <pselect_f> (Architecture <imp>) compiled.
+Compiling vhdl file
+"/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/
+hdl/vhdl/or_gate128.vhd" in Library proc_common_v3_00_a.
+Entity <or_gate128> compiled.
+Entity <or_gate128> (Architecture <imp>) compiled.
+Compiling vhdl file
+"/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/
+hdl/vhdl/ipif_pkg.vhd" in Library proc_common_v3_00_a.
+Package <ipif_pkg> compiled.
+Package body <ipif_pkg> compiled.
+Compiling vhdl file
+"/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/plbv46_slave_single_
+v1_01_a/hdl/vhdl/plb_address_decoder.vhd" in Library
+plbv46_slave_single_v1_01_a.
+Entity <plb_address_decoder> compiled.
+Entity <plb_address_decoder> (Architecture <IMP>) compiled.
+Compiling vhdl file
+"/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/plbv46_slave_single_
+v1_01_a/hdl/vhdl/plb_slave_attachment.vhd" in Library
+plbv46_slave_single_v1_01_a.
+Entity <plb_slave_attachment> compiled.
+Entity <plb_slave_attachment> (Architecture <implementation>) compiled.
+Compiling vhdl file
+"/opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/plbv46_slave_single_
+v1_01_a/hdl/vhdl/plbv46_slave_single.vhd" in Library
+plbv46_slave_single_v1_01_a.
+Entity <plbv46_slave_single> compiled.
+Entity <plbv46_slave_single> (Architecture <implementation>) compiled.
+Compiling vhdl file "/home/adam/RO-PUF/ring_osc_v1_00_a/hdl/vhdl/user_logic.vhd"
+in Library ring_osc_v1_00_a.
+Entity <user_logic> compiled.
+Entity <user_logic> (Architecture <IMP>) compiled.
+Compiling vhdl file "/home/adam/RO-PUF/ring_osc_v1_00_a/hdl/vhdl/ring_osc.vhd"
+in Library ring_osc_v1_00_a.
+Entity <ring_osc> compiled.
+Entity <ring_osc> (Architecture <IMP>) compiled.
+
+
+Analyzing HDL attributes ...
+Entity name = ring_osc
+INFO:EDK:1607 - IPTYPE set to value : PERIPHERAL
+INFO:EDK:1511 - IMP_NETLIST set to value : TRUE
+INFO:EDK:1486 - HDL set to value : VHDL
+WARNING:EDK:2065 - PARAMETER:_NUM_SLAVES - SLAVE PLBV46 parameter is not defined
+   in the HDL source
+INFO:EDK:1631 - Infer bus clock [SPLB_Clk] for bus interface SPLB ...
+Copying file user_logic.vhd to
+/home/adam/RO-PUF/XPS_workspace/hw/pcores/ring_osc_v1_00_a/hdl/vhdl/ ...
+Copying file ring_osc.vhd to
+/home/adam/RO-PUF/XPS_workspace/hw/pcores/ring_osc_v1_00_a/hdl/vhdl/ ...
+
+Thank you for using Create and Import Peripheral Wizard! Please find your
+imported peripheral under
+/home/adam/RO-PUF/XPS_workspace/hw/pcores/ring_osc_v1_00_a.
+
+Summary:
+
+  Logical library     : ring_osc_v1_00_a
+  Version             : 1.00.a
+  Bus interface(s)    : SPLB 
+
+The following sub-directories will be created:
+
+  - ring_osc_v1_00_a/data
+  - ring_osc_v1_00_a/hdl
+  - ring_osc_v1_00_a/hdl/verilog
+  - ring_osc_v1_00_a/hdl/vhdl
+
+
+The following HDL source files will be copied into the ring_osc_v1_00_a/hdl/vhdl
+directory:
+
+  - user_logic.vhd
+  - ring_osc.vhd
+
+The following files will be created under the ring_osc_v1_00_a/data directory:
+
+  - ring_osc_v2_1_0.mpd
+  - ring_osc_v2_1_0.pao
+
+

@@ -122,8 +122,8 @@ CORE_STATE_DEVELOPMENT_FILES = /opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPL
 /opt/Xilinx/14.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/plbv46_slave_single_v1_01_a/hdl/vhdl/plbv46_slave_single.vhd \
 pcores/dut_control_core_v1_00_a/hdl/vhdl/user_logic.vhd \
 pcores/dut_control_core_v1_00_a/hdl/vhdl/dut_control_core.vhd \
-pcores/counter_v1_01_a/hdl/vhdl/user_logic.vhd \
-pcores/counter_v1_01_a/hdl/vhdl/counter.vhd
+pcores/ring_osc_v1_02_a/hdl/vhdl/user_logic.vhd \
+pcores/ring_osc_v1_02_a/hdl/vhdl/ring_osc.vhd
 
 WRAPPER_NGC_FILES = implementation/system_xps_timer_0_wrapper.ngc \
 implementation/system_xps_intc_0_wrapper.ngc \
@@ -140,14 +140,14 @@ implementation/system_dlmb_wrapper.ngc \
 implementation/system_clock_generator_0_wrapper.ngc \
 implementation/system_rs232_uart_1_wrapper.ngc \
 implementation/system_orgate_1_wrapper.ngc \
-implementation/system_counter_0_wrapper.ngc \
-implementation/system_counter_1_wrapper.ngc \
-implementation/system_counter_2_wrapper.ngc \
-implementation/system_counter_3_wrapper.ngc \
-implementation/system_counter_4_wrapper.ngc \
-implementation/system_counter_5_wrapper.ngc \
-implementation/system_counter_6_wrapper.ngc \
-implementation/system_counter_7_wrapper.ngc
+implementation/system_ring_osc_0_wrapper.ngc \
+implementation/system_ring_osc_1_wrapper.ngc \
+implementation/system_ring_osc_2_wrapper.ngc \
+implementation/system_ring_osc_3_wrapper.ngc \
+implementation/system_ring_osc_4_wrapper.ngc \
+implementation/system_ring_osc_5_wrapper.ngc \
+implementation/system_ring_osc_6_wrapper.ngc \
+implementation/system_ring_osc_7_wrapper.ngc
 
 POSTSYN_NETLIST = implementation/$(SYSTEM).ngc
 

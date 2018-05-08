@@ -5,7 +5,7 @@
     The structure and the elements are likely to change over the next few releases.
     This means code written to parse this file will need to be revisited each subsequent release.-->
 
-  <application stringID="Xst" timeStamp="Mon Apr 30 14:27:38 2018">
+  <application stringID="Xst" timeStamp="Tue May  8 10:57:55 2018">
     <section stringID="User_Env">
       <table stringID="User_EnvVar">
         <column stringID="variable"/>
@@ -28,32 +28,36 @@
         </row>
         <row stringID="row" value="4">
           <item stringID="variable" value="PATH"/>
-          <item stringID="value" value="/opt/Xilinx/14.4/ISE_DS/ISE//bin/lin64:/opt/Xilinx/14.4/ISE_DS/EDK/bin/lin64:/opt/Xilinx/14.4/ISE_DS/EDK/gnu/microblaze/lin64/bin:/opt/Xilinx/14.4/ISE_DS/EDK/gnu/powerpc-eabi/lin64/bin:/opt/Xilinx/14.4/ISE_DS/EDK//bin/lin64:/opt/Xilinx/14.4/ISE_DS/ISE/bin/lin64:/opt/Xilinx/14.4/ISE_DS/ISE/sysgen/util:/opt/Xilinx/14.4/ISE_DS/ISE/sysgen/bin:/opt/Xilinx/14.4/ISE_DS/ISE/../../../DocNav:/opt/Xilinx/14.4/ISE_DS/PlanAhead/bin:/opt/Xilinx/14.4/ISE_DS/EDK/gnu/arm/lin/bin:/opt/Xilinx/14.4/ISE_DS/EDK/gnu/microblaze/linux_toolchain/lin64_be/bin:/opt/Xilinx/14.4/ISE_DS/EDK/gnu/microblaze/linux_toolchain/lin64_le/bin:/opt/Xilinx/14.4/ISE_DS/common/bin/lin64:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games"/>
+          <item stringID="value" value="/opt/Xilinx/14.4/ISE_DS/ISE//bin/lin64:/opt/Xilinx/14.4/ISE_DS/EDK/bin/lin64:/opt/Xilinx/14.4/ISE_DS/EDK/gnu/microblaze/lin64/bin:/opt/Xilinx/14.4/ISE_DS/EDK/gnu/powerpc-eabi/lin64/bin:/opt/Xilinx/14.4/ISE_DS/EDK//bin/lin64:etc/java-9-openjdk:/usr/lib/jvm/java-8-openjdk-amd64:/opt/Xilinx/Vivado/2016.2/bin/:/opt/Xilinx/14.4/ISE_DS/EDK/bin/lin64/:/opt/Xilinx/14.4/ISE_DS/ISE/bin/lin64/:/opt/Xilinx/14.4/ISE_DS/../../Vivado_HLS/2012.4/bin:/opt/Xilinx/14.4/ISE_DS/ISE/bin/lin64:/opt/Xilinx/14.4/ISE_DS/ISE/sysgen/util:/opt/Xilinx/14.4/ISE_DS/ISE/sysgen/bin:/opt/Xilinx/14.4/ISE_DS/ISE/../../../DocNav:/opt/Xilinx/14.4/ISE_DS/../../Vivado/2012.4/bin:/opt/Xilinx/14.4/ISE_DS/PlanAhead/bin:/opt/Xilinx/14.4/ISE_DS/EDK/gnu/arm/lin/bin:/opt/Xilinx/14.4/ISE_DS/EDK/gnu/microblaze/linux_toolchain/lin64_be/bin:/opt/Xilinx/14.4/ISE_DS/EDK/gnu/microblaze/linux_toolchain/lin64_le/bin:/opt/Xilinx/14.4/ISE_DS/common/bin/lin64:/home/adam/bin:/home/adam/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin"/>
         </row>
         <row stringID="row" value="5">
+          <item stringID="variable" value="XILINX_VIVADO"/>
+          <item stringID="value" value="/opt/Xilinx/14.4/ISE_DS/../../Vivado/2012.4"/>
+        </row>
+        <row stringID="row" value="6">
           <item stringID="variable" value="LMC_HOME"/>
           <item stringID="value" value="/opt/Xilinx/14.4/ISE_DS/ISE/smartmodel/lin64/installed_lin64"/>
         </row>
-        <row stringID="row" value="6">
+        <row stringID="row" value="7">
           <item stringID="variable" value="XILINX_PLANAHEAD"/>
           <item stringID="value" value="/opt/Xilinx/14.4/ISE_DS/PlanAhead"/>
         </row>
-        <row stringID="row" value="7">
+        <row stringID="row" value="8">
           <item stringID="variable" value="XILINX"/>
           <item stringID="value" value="/opt/Xilinx/14.4/ISE_DS/ISE/:/opt/Xilinx/14.4/ISE_DS/EDK"/>
         </row>
       </table>
       <item stringID="User_EnvOs" value="OS Information">
         <item stringID="User_EnvOsname" value="Ubuntu"/>
-        <item stringID="User_EnvOsrelease" value="Ubuntu 14.04.3 LTS"/>
+        <item stringID="User_EnvOsrelease" value="Ubuntu 16.04.3 LTS"/>
       </item>
-      <item stringID="User_EnvHost" value="phoenix"/>
+      <item stringID="User_EnvHost" value="goeders-ssh4"/>
       <table stringID="User_EnvCpu">
         <column stringID="arch"/>
         <column stringID="speed"/>
         <row stringID="row" value="0">
-          <item stringID="arch" value="Intel(R) Core(TM) i7 CPU         860  @ 2.80GHz"/>
-          <item stringID="speed" value="1199.000 MHz"/>
+          <item stringID="arch" value="Intel(R) Core(TM) i7-7700K CPU @ 4.20GHz"/>
+          <item stringID="speed" value="4200.000 MHz"/>
         </row>
       </table>
     </section>

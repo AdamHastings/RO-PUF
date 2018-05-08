@@ -4,51 +4,35 @@
   <IDENTIFICATION VERSION="1.2" XTLVERSION="1.2"/>
 
   <SET CLASS="PROJECT" DISPLAYMODE="TREE" VIEW_ID="BUSINTERFACE">
-    <HEADERS HSCROLL="0" VSCROLL="40">
+    <HEADERS HSCROLL="0" VSCROLL="0">
       <VARIABLE COL_INDEX="0" COL_WIDTH="217" IS_VISIBLE="TRUE" VIEWDISP="Name" VIEWTYPE="HEADER"/>
       <VARIABLE COL_INDEX="1" COL_WIDTH="112" IS_VISIBLE="TRUE" VIEWDISP="Bus Name" VIEWTYPE="HEADER"/>
       <VARIABLE COL_INDEX="2" IS_VISIBLE="FALSE" VIEWDISP="Bus Standard" VIEWTYPE="HEADER"/>
       <VARIABLE COL_INDEX="3" COL_WIDTH="100" IS_VISIBLE="TRUE" VIEWDISP="IP Type" VIEWTYPE="HEADER"/>
-      <VARIABLE COL_INDEX="4" COL_WIDTH="587" IS_VISIBLE="TRUE" VIEWDISP="IP Version" VIEWTYPE="HEADER"/>
+      <VARIABLE COL_INDEX="4" COL_WIDTH="213" IS_VISIBLE="TRUE" VIEWDISP="IP Version" VIEWTYPE="HEADER"/>
       <VARIABLE COL_INDEX="5" IS_VISIBLE="FALSE" VIEWDISP="IP Classification" VIEWTYPE="HEADER"/>
       <VARIABLE COL_INDEX="6" IS_VISIBLE="FALSE" VIEWDISP="Type" VIEWTYPE="HEADER"/>
     </HEADERS>
     <SPLITTERS COLLAPSIBLE="1" HANDLEWIDTH="4" MARKER="255" ORIENTATION="1" RESIZE="1" SIZES="129,885,237" VERSION="0"/>
-    <SET ID="counter_0" IS_EXPANDED="TRUE"/>
-    <SET ID="counter_1" IS_EXPANDED="TRUE"/>
-    <SET ID="counter_2" IS_EXPANDED="TRUE"/>
-    <SET ID="counter_3" IS_EXPANDED="TRUE"/>
-    <SET ID="counter_4" IS_EXPANDED="TRUE"/>
-    <SET ID="counter_5" IS_EXPANDED="TRUE"/>
-    <SET ID="counter_6" IS_EXPANDED="TRUE"/>
-    <SET ID="counter_7" IS_EXPANDED="TRUE"/>
     <STATUS>
       <SELECTIONS/>
     </STATUS>
     <SEQUENCES IS_DEF_SEQUENCES="TRUE">
-      <VARIABLE ID="xps_timer_0" ROW_INDEX="18"/>
+      <VARIABLE ID="xps_timer_0" ROW_INDEX="10"/>
       <VARIABLE ID="xps_intc_0" ROW_INDEX="8"/>
-      <VARIABLE ID="proc_sys_reset_0" ROW_INDEX="22"/>
+      <VARIABLE ID="proc_sys_reset_0" ROW_INDEX="14"/>
       <VARIABLE ID="microblaze_0" ROW_INDEX="3"/>
       <VARIABLE ID="mdm_0" ROW_INDEX="7"/>
       <VARIABLE ID="mb_plb" ROW_INDEX="2"/>
       <VARIABLE ID="lmb_bram" ROW_INDEX="4"/>
       <VARIABLE ID="ilmb_cntlr" ROW_INDEX="6"/>
       <VARIABLE ID="ilmb" ROW_INDEX="1"/>
-      <VARIABLE ID="dut_control_core_0" ROW_INDEX="17"/>
+      <VARIABLE ID="dut_control_core_0" ROW_INDEX="9"/>
       <VARIABLE ID="dlmb_cntlr" ROW_INDEX="5"/>
       <VARIABLE ID="dlmb" ROW_INDEX="0"/>
-      <VARIABLE ID="clock_generator_0" ROW_INDEX="20"/>
-      <VARIABLE ID="RS232_Uart_1" ROW_INDEX="19"/>
-      <VARIABLE ID="ORGate_1" ROW_INDEX="21"/>
-      <VARIABLE ID="counter_0" IS_EXPANDED="TRUE" ROW_INDEX="9"/>
-      <VARIABLE ID="counter_1" IS_EXPANDED="TRUE" ROW_INDEX="10"/>
-      <VARIABLE ID="counter_2" IS_EXPANDED="TRUE" ROW_INDEX="11"/>
-      <VARIABLE ID="counter_3" IS_EXPANDED="TRUE" ROW_INDEX="12"/>
-      <VARIABLE ID="counter_4" IS_EXPANDED="TRUE" ROW_INDEX="13"/>
-      <VARIABLE ID="counter_5" IS_EXPANDED="TRUE" ROW_INDEX="14"/>
-      <VARIABLE ID="counter_6" IS_EXPANDED="TRUE" ROW_INDEX="15"/>
-      <VARIABLE ID="counter_7" IS_EXPANDED="TRUE" ROW_INDEX="16"/>
+      <VARIABLE ID="clock_generator_0" ROW_INDEX="12"/>
+      <VARIABLE ID="RS232_Uart_1" ROW_INDEX="11"/>
+      <VARIABLE ID="ORGate_1" ROW_INDEX="13"/>
     </SEQUENCES>
   </SET>
 
@@ -130,14 +114,6 @@
       <VARIABLE ID="clock_generator_0" ROW_INDEX="13"/>
       <VARIABLE ID="RS232_Uart_1" ROW_INDEX="12"/>
       <VARIABLE ID="ORGate_1" ROW_INDEX="14"/>
-      <VARIABLE ID="counter_0" ROW_INDEX="16"/>
-      <VARIABLE ID="counter_1" ROW_INDEX="17"/>
-      <VARIABLE ID="counter_2" ROW_INDEX="18"/>
-      <VARIABLE ID="counter_3" ROW_INDEX="19"/>
-      <VARIABLE ID="counter_4" ROW_INDEX="20"/>
-      <VARIABLE ID="counter_5" ROW_INDEX="21"/>
-      <VARIABLE ID="counter_6" ROW_INDEX="22"/>
-      <VARIABLE ID="counter_7" ROW_INDEX="23"/>
     </SEQUENCES>
   </SET>
 
