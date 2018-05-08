@@ -1,0 +1,12 @@
+-batch 
+-create counter 
+-ver 1.00.a 
+-dir "/home/adam/RO-PUF/XPS_workspace/hw" 
+-lang vhdl 
+-bus plbv46 s 
+-rst 
+-rfifo 4 512 
+-wfifo 4 512 
+-reg 2 
+-xps 
+-driver 

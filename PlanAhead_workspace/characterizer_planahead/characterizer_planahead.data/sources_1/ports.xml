@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<Interface Version="1" Minor="1">
+	<Ifc Id="ROOT" Top="1">
+		<Port Id="fpga_0_RS232_Uart_1_RX_pin" Dir="IN"/>
+		<Port Id="dut_uart_request" Dir="OUT"/>
+		<Port Id="dut_uart_granted" Dir="IN"/>
+		<Port Id="dut_rst" Dir="IN"/>
+		<Port Id="fpga_0_rst_1_sys_rst_pin" Dir="IN"/>
+		<Port Id="fpga_0_RS232_Uart_1_TX_pin" Dir="OUT"/>
+		<Port Id="dut_test_done" Dir="OUT"/>
+		<Port Id="fpga_0_clk_1_sys_clk_pin" Dir="IN"/>
+		<Port Id="dut_uart_release" Dir="OUT"/>
+	</Ifc>
+</Interface>
+

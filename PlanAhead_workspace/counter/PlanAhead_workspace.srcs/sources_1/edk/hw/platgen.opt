@@ -1,0 +1,9 @@
+-p
+xc4vlx60ff668-10
+-lang
+vhdl
+-intstyle
+default
+-msg
+__xps/ise/xmsgprops.lst
+system.mhs
